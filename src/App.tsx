@@ -1,122 +1,357 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useState, useCallback } from 'react'
+import type { ReactNode } from 'react'
+import { MapView } from './components/MapView'
+import type {
+  Lugar,
+  Historia,
+  Personaje,
+  Mito,
+  EventoParalelo,
+} from './types/lugar'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+// ─── períodos ────────────────────────────────────────────────────────────────
+
+const PERIODS = [
+  { min: -1500, max: -1200, name: 'Edad de Bronce Tardía · 1500–1200 a.C.' },
+  { min: -1200, max: -1000, name: 'Edad de Hierro I · 1200–1000 a.C.' },
+  { min: -1000, max: -586,  name: 'Edad de Hierro II · 1000–586 a.C.' },
+  { min: -586,  max: -400,  name: 'Post-Exilio · 586–400 a.C.' },
+]
+
+function getPeriodName(year: number): string {
+  return PERIODS.find(p => year >= p.min && year <= p.max)?.name ?? PERIODS[2].name
+}
+
+// ─── accordion ───────────────────────────────────────────────────────────────
+
+function Acc({
+  icon, title, open, onToggle, children,
+}: {
+  icon: string
+  title: string
+  open: boolean
+  onToggle: () => void
+  children: ReactNode
+}) {
+  return (
+    <div className="acc">
+      <div className={`acc-h${open ? ' open' : ''}`} onClick={onToggle}>
+        <span className="acc-title">
+          <span>{icon}</span>
+          {title}
+        </span>
+        <span className={`acc-ch${open ? ' open' : ''}`}>▼</span>
+      </div>
+      {open && <div className="acc-body">{children}</div>}
+    </div>
+  )
+}
+
+// ─── tarjeta historia ─────────────────────────────────────────────────────────
+
+function HistoriaCard({ h }: { h: Historia }) {
+  return (
+    <div className="story-card">
+      <div className="story-head">
+        <div className="story-title">{h.titulo}</div>
+        <div className="story-date">{h.fecha}</div>
+      </div>
+      <div className="story-body">
+        <p className="desc">{h.descripcion}</p>
+        {h.referencias.length > 0 && (
+          <div className="meta">
+            <span className="ml">Ref:</span>
+            {h.referencias.map(r => (
+              <span key={r} className="ref">{r}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ─── tarjeta personaje ────────────────────────────────────────────────────────
+
+function PersonajeCard({ p }: { p: Personaje }) {
+  return (
+    <div className="person-card">
+      <div className="person-head">
+        <div className="avatar">{p.emoji}</div>
+        <div>
+          <div className="pname">{p.nombre}</div>
+          <div className="prole">{p.rol} · {p.periodo}</div>
+        </div>
+      </div>
+      <div className="story-body">
+        <p className="desc">{p.descripcion}</p>
+        {p.referencias.length > 0 && (
+          <div className="meta">
+            <span className="ml">Ref:</span>
+            {p.referencias.slice(0, 3).map(r => (
+              <span key={r} className="ref">{r}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ─── tarjeta mito ─────────────────────────────────────────────────────────────
+
+const TRADICIONES = [
+  { key: 'judaismo' as const,    icon: '✡', label: 'Judaísmo' },
+  { key: 'cristianismo' as const, icon: '✝', label: 'Cristianismo' },
+  { key: 'islam' as const,       icon: '☪', label: 'Islam' },
+]
+
+function MitoCard({ m }: { m: Mito }) {
+  return (
+    <div className="myth-card">
+      <div className="myth-head">
+        <div className="myth-name">{m.nombre}</div>
+        <div className="cb-row">
+          {TRADICIONES.map(t => (
+            <div key={t.key} className="cb-item">
+              <div className={`cb ${m.aparece_en[t.key] ? 'cb-on' : 'cb-off'}`}>
+                {m.aparece_en[t.key] ? '✓' : ''}
+              </div>
+              {t.label}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {TRADICIONES.map(t => {
+        const td = m[t.key]
+        if (!td) return (
+          <div key={t.key} className="rel-block">
+            <div className="rel-name">{t.icon} {t.label}</div>
+            <div className="rel-na">No aplica directamente en esta tradición.</div>
+          </div>
+        )
+        return (
+          <div key={t.key} className="rel-block">
+            <div className="rel-name">{t.icon} {t.label}</div>
+            <div className="rel-desc">{td.descripcion}</div>
+            <div className="src">{td.fuente_primaria}</div>
+            {(td.diferencias || td.similitudes) && (
+              <div className="diff-row">
+                {td.diferencias && <span className="diff-tag">Diferencia: {td.diferencias.slice(0, 70)}</span>}
+                {td.similitudes && <span className="diff-tag">Similitud: {td.similitudes.slice(0, 70)}</span>}
+              </div>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+// ─── tarjeta evento paralelo ──────────────────────────────────────────────────
+
+function EventoCard({ e }: { e: EventoParalelo }) {
+  return (
+    <div className="civ-card">
+      <div className="civ-head">
+        <span>{e.emoji}</span>
+        <span className="civ-name">{e.civilizacion}</span>
+        <span className="civ-per">{e.periodo_historico}</span>
+      </div>
+      <div className="civ-body">
+        <div className="civ-event">{e.evento}</div>
+        <div className="civ-desc">{e.descripcion}</div>
+      </div>
+    </div>
+  )
+}
+
+// ─── panel de detalle ─────────────────────────────────────────────────────────
+
+function Panel({ lugar, year }: { lugar: Lugar; year: number }) {
+  const [openAcc, setOpenAcc] = useState(0)
+  const toggle = (i: number) => setOpenAcc(prev => prev === i ? -1 : i)
+
+  const tipoLabel =
+    lugar.tipo === 'ciudad' ? 'Ciudad' :
+    lugar.tipo === 'territorio' ? 'Territorio' : 'Región natural'
+
+  const altitudLabel =
+    typeof lugar.altitud_m === 'number' ? `${lugar.altitud_m} m` : lugar.altitud_m
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+      <div id="panel-head">
+        <div id="panel-name">{lugar.nombre}</div>
+        <div id="panel-tags">
+          <span className="ptag">{tipoLabel}</span>
+          <span className="ptag">
+            {lugar.jerarquia_pin === 'primario' ? 'Principal' : 'Secundario'}
+          </span>
+          <span className="ptag-freq">↑ {lugar.frecuencia_at} menciones AT</span>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      </div>
 
-      <div className="ticks"></div>
+      <div id="panel-body">
+        {/* ① Lugar */}
+        <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
+          <div className="grid2">
+            <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
+            <div><div className="gl">Tipo</div><div className="gv">{tipoLabel}</div></div>
+          </div>
+          <div className="sec-label" style={{ marginTop: 0 }}>Clima</div>
+          <p className="desc">{lugar.clima}</p>
+          <div className="sec-label">Geografía</div>
+          <p className="desc">{lugar.descripcion_geo}</p>
+          <div className="sec-label">Importancia estratégica</div>
+          <p className="desc">{lugar.importancia_estrategica}</p>
+          {lugar.recursos.length > 0 && (
+            <>
+              <div className="sec-label">Recursos</div>
+              <ul className="resource-list">
+                {lugar.recursos.map(r => <li key={r}>{r}</li>)}
+              </ul>
+            </>
+          )}
+          {lugar.otros_habitantes.length > 0 && (
+            <>
+              <div className="sec-label">Otros habitantes</div>
+              <div className="hab-list">
+                {lugar.otros_habitantes.map((h, i) => (
+                  <div
+                    key={h.id}
+                    className="hab-row"
+                    style={i === lugar.otros_habitantes.length - 1 ? { borderBottom: 'none' } : {}}
+                  >
+                    <div className="hab-name">{h.nombre}</div>
+                    <div className="hab-desc">{h.descripcion}</div>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+        </Acc>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        {/* ② Historias */}
+        <Acc icon="📖" title="Historias" open={openAcc === 1} onToggle={() => toggle(1)}>
+          {lugar.historias.length > 0
+            ? lugar.historias.map(h => <HistoriaCard key={h.id} h={h} />)
+            : <p className="desc" style={{ opacity: 0.5 }}>Sin historias registradas para este lugar.</p>
+          }
+        </Acc>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+        {/* ③ Personajes */}
+        <Acc icon="👤" title="Personajes" open={openAcc === 2} onToggle={() => toggle(2)}>
+          {lugar.personajes.length > 0
+            ? lugar.personajes.map(p => <PersonajeCard key={p.id} p={p} />)
+            : <p className="desc" style={{ opacity: 0.5 }}>Sin personajes registrados para este lugar.</p>
+          }
+        </Acc>
+
+        {/* ④ Contexto religioso */}
+        <Acc icon="✡" title="Contexto religioso" open={openAcc === 3} onToggle={() => toggle(3)}>
+          <div className="sec-label" style={{ marginTop: 0 }}>Contexto del lugar</div>
+          <div className="ctx-block">{lugar.contexto_religioso.contexto_lugar}</div>
+          {lugar.contexto_religioso.religiones_presentes.length > 0 && (
+            <>
+              <div className="sec-label">Religiones presentes</div>
+              <ul className="resource-list" style={{ marginBottom: 8 }}>
+                {lugar.contexto_religioso.religiones_presentes.map(r => (
+                  <li key={r}>{r}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {lugar.contexto_religioso.mitos.length > 0 && (
+            <>
+              <div className="sec-label">Mitos y perspectivas religiosas</div>
+              {lugar.contexto_religioso.mitos.map(m => <MitoCard key={m.id} m={m} />)}
+            </>
+          )}
+        </Acc>
+
+        {/* ⑤ Eventos paralelos */}
+        <Acc icon="🌍" title="Eventos paralelos" open={openAcc === 4} onToggle={() => toggle(4)}>
+          <div className="per-banner">
+            <div>
+              <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>
+                {getPeriodName(year)}
+              </div>
+              <div style={{ fontSize: 10, color: 'var(--gray)' }}>Cambia con el timeline</div>
+            </div>
+            <span className="ptag">{Math.abs(year)} a.C.</span>
+          </div>
+          {lugar.eventos_paralelos.map(e => <EventoCard key={e.civilizacion} e={e} />)}
+        </Acc>
+      </div>
     </>
   )
 }
 
-export default App
+// ─── app ──────────────────────────────────────────────────────────────────────
+
+export default function App() {
+  const [selected, setSelected] = useState<Lugar | null>(null)
+  const [year, setYear] = useState(-950)
+
+  const handleSelect = useCallback((l: Lugar) => setSelected(l), [])
+
+  return (
+    <div id="app">
+      <div id="topbar">
+        <span id="topbar-title">Mapa Interactivo · Antiguo Testamento</span>
+        <span id="topbar-badge">MVP v1 · React + Leaflet</span>
+      </div>
+
+      <div id="timeline-bar">
+        <span className="tl-label">Período</span>
+        <input
+          type="range"
+          min={-1500} max={-400} value={year} step={10}
+          id="timeline"
+          onChange={e => setYear(Number(e.target.value))}
+        />
+        <div id="period-wrap">
+          <span id="period-name">{getPeriodName(year)}</span>
+          <span id="period-year">← año: {Math.abs(year)} a.C.</span>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="map-wrap">
+          <MapView onSelectLugar={handleSelect} selectedId={selected?.id} />
+        </div>
+
+        <div id="panel">
+          {selected ? (
+            <Panel key={selected.id} lugar={selected} year={year} />
+          ) : (
+            <>
+              <div id="panel-head">
+                <div id="panel-name">Selecciona un lugar</div>
+                <div id="panel-tags">
+                  <span style={{ fontSize: 11, color: 'var(--gray)', fontStyle: 'italic', fontFamily: 'Georgia,serif' }}>
+                    Haz click en un pin del mapa
+                  </span>
+                </div>
+              </div>
+              <div id="panel-body">
+                <div id="panel-empty">
+                  <div style={{ fontSize: 28 }}>🗺</div>
+                  <div id="panel-empty-text">
+                    Explora los lugares<br />del Antiguo Testamento
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
+          <div id="panel-nav">
+            <span className="nav-note">Mapa Interactivo AT · MVP v1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

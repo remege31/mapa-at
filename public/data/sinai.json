@@ -1,0 +1,242 @@
+{
+  "id": "sinai",
+  "nombre": "Sinaí",
+  "tipo": "region_natural",
+  "lat": 29.5,
+  "lng": 33.8,
+  "frecuencia_at": 70,
+  "jerarquia_pin": "secundario",
+  "nota_coordenadas": "Centro geográfico de la Península del Sinaí — entre el Golfo de Suez (oeste) y el Golfo de Aqaba (este)",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Éxodo y peregrinación" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Período de los Jueces" },
+    { "desde": -1000, "hasta": -586,  "nombre": "Hierro II — Ruta comercial activa" }
+  ],
+  "descripcion_geo": "Península triangular entre África y Asia, entre el Mar Mediterráneo al norte, el Golfo de Suez al oeste y el Golfo de Aqaba al este. Aproximadamente 61.000 km². Tres zonas distintas: llanura del norte (arenosa y árida), meseta central del Tih (piedra caliza, desolada) y macizo montañoso del sur (granito, hasta 2637 m en el Jabal Katrina). El desierto más inhóspito entre Egipto y Canaán — único paso terrestre entre África y Asia.",
+  "altitud_m": "Variable — desde el nivel del mar hasta 2637 m (Jabal Katrina, 'Monte Santa Catalina'). Monte Sinaí tradicional (Jabal Musa): 2285 m.",
+  "clima": "Hiperárido — menos de 25 mm de lluvia anual en el sur; algo más en el norte. Temperaturas extremas: 45°C en verano en las llanuras, bajo cero en las cumbres en invierno. Noches frías incluso en verano.",
+  "recursos": ["Cobre (minas de Timna, explotadas desde el Bronce Antiguo)", "Turquesa (Serabit el-Jadim — minas de turquesa del Imperio Nuevo egipcio)", "Mangane­so", "Rutas comerciales (Arabia-Egipto-Canaán)", "Agua en oasis (Kadesh-Barnea, Elim, Refidim)"],
+  "importancia_estrategica": "Único paso terrestre entre África y Asia — corredor obligado para ejércitos y caravanas. Región de revelación divina en el AT: el Sinaí es el espacio de la teofanía por excelencia. Su aridez extrema lo convierte en 'zona de prueba' — un espacio liminal entre la esclavitud (Egipto) y la tierra prometida (Canaán).",
+
+  "otros_habitantes": [
+    {
+      "id": "madianitas",
+      "nombre": "Madianitas",
+      "descripcion": "Pueblo semita nómada de las regiones orientales del Sinaí y Arabia noroccidental. Moisés vivió entre los madianitas (su suegro Jetro era sacerdote madianita). Los madianitas eran comerciantes de caravanas — el Génesis los menciona vendiendo a José en Egipto.",
+      "religion": "Politeísmo semítico — Jetro parece haber conocido a Yahvé (Éx 18:1-12)",
+      "periodo": "c. 2000–1000 a.C."
+    },
+    {
+      "id": "amalecitas",
+      "nombre": "Amalecitas",
+      "descripcion": "Pueblo nómada del Neguev y el norte del Sinaí, enemigos tradicionales de Israel desde el desierto. La primera batalla de Israel tras el Éxodo fue contra los amalecitas en Refidim (Éx 17). Símbolo del enemigo que ataca al débil y al rezagado (Dt 25:17-19).",
+      "religion": "Politeísmo semítico",
+      "periodo": "c. 1500–1000 a.C."
+    },
+    {
+      "id": "cenitas",
+      "nombre": "Cenitas / Kenitas",
+      "descripcion": "Clan semínomada relacionado con los madianitas. Hetero-familia de Moisés — Hobab el cenita fue guía de Israel en el desierto (Nm 10:29-32). Algunos estudiosos los relacionan con el origen del yahvismo como religión del desierto.",
+      "religion": "Posiblemente yahvistas — hipótesis del origen kenita del yahvismo",
+      "periodo": "c. 1500–1000 a.C."
+    }
+  ],
+
+  "historias": [
+    {
+      "id": "zarza-ardiente",
+      "titulo": "La zarza ardiente — vocación de Moisés",
+      "fecha": "c. 1280 a.C. (trad.)",
+      "descripcion": "En el Monte Horeb (identificado con el Sinaí), Yahvé se revela a Moisés en la zarza que arde sin consumirse. Es la primera teofanía explícita del nombre divino: 'Yo soy el que soy' (YHWH). El Sinaí como montaña divina es establecido como espacio de revelación desde este momento.",
+      "referencias": ["Éx 3:1-4:17"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "decalogo",
+      "titulo": "El Decálogo y la Alianza del Sinaí",
+      "fecha": "c. 1250 a.C. (trad.)",
+      "descripcion": "Moisés recibe las Tablas de la Ley en el Monte Sinaí. El Decálogo (Diez Mandamientos) establece los principios de la Alianza entre Yahvé e Israel. Este momento es el más denso teológicamente de todo el AT — el punto donde la geografía y la revelación se fusionan.",
+      "referencias": ["Éx 19:1-20:21", "Éx 24:1-18", "Dt 5:1-22"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "peregrinacion-40-anios",
+      "titulo": "La peregrinación de los 40 años",
+      "fecha": "c. 1250–1210 a.C. (trad.)",
+      "descripcion": "Israel peregrina por el desierto del Sinaí durante 40 años antes de entrar en Canaán. El número 40 es teológico (generación completa) más que cronológico. El desierto es espacio de prueba, queja, maná, agua de la roca — y de la muerte de la generación del Éxodo.",
+      "referencias": ["Nm 14:33-34", "Nm 20:1-13", "Dt 8:1-20"],
+      "personajes_clave": ["moises", "aaron", "miriam"]
+    }
+  ],
+
+  "personajes": [
+    {
+      "id": "moises-sinai",
+      "nombre": "Moisés",
+      "emoji": "🔥",
+      "rol": "Receptor de la Torá — mediador de la Alianza en el Sinaí",
+      "periodo": "c. 1300–1200 a.C. (trad.)",
+      "descripcion": "Su vida tiene tres actos geográficos: Egipto (nacimiento y formación), Sinaí/Madián (refugio y vocación), Éxodo/Sinaí (revelación y legislación). El Sinaí es el espacio de su mayor proximidad a Dios — 'cara a cara, como habla un hombre con su amigo' (Éx 33:11).",
+      "referencias": ["Éx 3:1-4:17", "Éx 19:1-20:21", "Éx 33:7-23", "Dt 34:1-12"],
+      "ruta": ["egipto", "madian", "sinai", "canaan"]
+    },
+    {
+      "id": "elias-sinai",
+      "nombre": "Elías",
+      "emoji": "⚡",
+      "rol": "Profeta — peregrinación al Horeb",
+      "periodo": "c. 875 a.C.",
+      "descripcion": "Siglos después del Éxodo, Elías huye al Monte Horeb (Sinaí) en busca de Yahvé tras su victoria contra los profetas de Baal y la amenaza de Jezabel. Yahvé no se manifiesta en el viento, el terremoto ni el fuego — sino en 'la voz del silencio delgado'. El Sinaí como lugar de renovación profética.",
+      "referencias": ["1 Re 19:1-21"],
+      "ruta": ["monte-carmelo", "berseba", "sinai"]
+    },
+    {
+      "id": "miriam",
+      "nombre": "Miriam",
+      "emoji": "🥁",
+      "rol": "Profetisa — hermana de Moisés",
+      "periodo": "c. 1250 a.C. (trad.)",
+      "descripcion": "Hermana mayor de Moisés y Aarón. Lidera el cántico de triunfo tras el cruce del mar (Éx 15:20-21). Primera mujer llamada 'profetisa' en el AT. Muere y es sepultada en Cades (Nm 20:1) — en el desierto del Sinaí.",
+      "referencias": ["Éx 15:20-21", "Nm 12:1-16", "Nm 20:1"],
+      "ruta": ["egipto", "sinai"]
+    }
+  ],
+
+  "contexto_religioso": {
+    "contexto_lugar": "El Sinaí es el espacio de la teofanía por excelencia en el AT — la montaña donde Dios se revela, donde se entrega la Ley, donde se sella la Alianza. Su aridez extrema no es accidental: el desierto es el espacio liminal donde Israel aprende a depender exclusivamente de Yahvé, sin los recursos de la civilización. La tradición cristiana y el islam comparten el reconocimiento de la santidad del Sinaí.",
+    "religiones_presentes": ["Yahvismo (revelación en el Monte Sinaí)", "Cultos nómadas semíticos (madianitas, amalecitas)", "Religión egipcia (minas de turquesa en Serabit — templo a Hathor)"],
+    "mitos": [
+      {
+        "id": "teofania-sinai",
+        "nombre": "La Revelación del Monte Sinaí",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Éx 19:1-20:21 · Dt 5:1-22",
+          "fuente_secundaria": "// PENDIENTE — Talmud Babilónico, Shabbat 88a",
+          "descripcion": "El Sinaí es el momento en que Israel recibe la Torá de la mano de Yahvé. La revelación en el Sinaí define la identidad de Israel como pueblo de la Ley. El Shavuot (Pentecostés judío) conmemora la recepción de la Torá en el Sinaí.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "La Torá es la manifestación más directa de la voluntad divina. El Sinaí como 'montaña de Dios' es el punto geográfico más alto de la historia sagrada de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 19-20 · Gál 4:24-25 · Heb 12:18-24",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible",
+          "descripcion": "El Sinaí representa la Ley que condena, en contraste con el Monte Sión que representa la gracia. Pablo usa la alegoría del Sinaí (Agar) vs Sión (Sara) para distinguir la Ley del Evangelio. El Espíritu de Pentecostés (Hch 2) es el nuevo Sinaí.",
+          "diferencias": "El Sinaí tiene una connotación negativa en Pablo — ley que esclaviza vs gracia que libera.",
+          "similitudes": "El Sinaí como lugar de revelación divina; el encuentro con Dios como transformador.",
+          "significado_teologico": "El Antiguo Pacto (Sinaí) contrasta con el Nuevo Pacto (Cruz y Pentecostés).",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      },
+      {
+        "id": "mana-desierto",
+        "nombre": "El Maná en el Desierto",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Éx 16:1-36 · Nm 11:6-9",
+          "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Éxodo 25",
+          "descripcion": "Yahvé provee maná (pan del cielo) cada mañana para Israel en el desierto del Sinaí durante 40 años. El maná que cae doble el viernes y no aparece el sábado establece el Shabbat. Symbol de la dependencia total de Israel en Yahvé.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "El desierto como escuela de dependencia divina — 'no solo de pan vivirá el hombre' (Dt 8:3). El maná prefigura la providencia cotidiana de Dios.",
+          "posible_relacion_cultural": "Algunos botánicos lo identifican con la secreción azucarada del tamarisco (Tamarix gallica) presente en el Sinaí."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 16 · Jn 6:31-58 · 1 Cor 10:3",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible",
+          "descripcion": "Jesús se presenta como 'el pan que descendió del cielo' — el verdadero maná (Jn 6:35). El maná del desierto es tipo de la Eucaristía: ambos son 'pan del cielo' que da vida. Pablo lo llama 'comida espiritual' (1 Cor 10:3).",
+          "diferencias": "El maná físico solo sostenía la vida biológica; el 'pan de vida' (Cristo/Eucaristía) sostiene la vida eterna.",
+          "similitudes": "Don gratuito del cielo; necesidad cotidiana; comunidad que lo recibe.",
+          "significado_teologico": "Fundamento de la teología eucarística — la Eucaristía como maná del Nuevo Éxodo.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 2:57 · Corán 7:160",
+          "fuente_secundaria": "// PENDIENTE — Ibn Kathir, Tafsir de Corán 2:57",
+          "descripcion": "El Corán menciona el mann wa-salwa (maná y codornices) como provisión divina para los israelitas en el desierto. Es uno de los favores de Alá hacia los hijos de Israel que luego fueron ingratos.",
+          "diferencias": "El Corán no desarrolla el significado teológico del maná — es uno más de los beneficios divinos recordados para contrastar con la ingratitud israelita.",
+          "similitudes": "Provisión divina gratuita en el desierto; alimento del cielo.",
+          "significado_teologico": "Ejemplo de la generosidad divina ante la que el ser humano puede ser agradecido o ingrato.",
+          "posible_relacion_cultural": "Tradición compartida del maná como don divino en el desierto."
+        }
+      }
+    ]
+  },
+
+  "eventos_paralelos": [
+    {
+      "civilizacion": "Egipto",
+      "emoji": "🏺",
+      "periodo_historico": "Imperio Nuevo — XIX Dinastía (1295–1186 a.C.)",
+      "periodo_at": "Bronce Tardío — Éxodo",
+      "evento": "Ramsés II y las grandes construcciones del Delta",
+      "descripcion": "Ramsés II construye la ciudad de Pi-Ramsés en el Delta — posiblemente la ciudad de Ramsés mencionada en Éxodo (Éx 1:11). Sus campañas militares por el Sinaí son bien documentadas en inscripciones egipcias."
+    },
+    {
+      "civilizacion": "Asiria",
+      "emoji": "⚔️",
+      "periodo_historico": "Asiria Medio (1365–1056 a.C.)",
+      "periodo_at": "Bronce Tardío",
+      "evento": "Asiria consolida su poder en el norte de Mesopotamia",
+      "descripcion": "Mientras Israel peregrina por el Sinaí (según la tradición), Asiria se establece como potencia regional en el norte de Mesopotamia. No tienen contacto directo con el Sinaí en este período."
+    },
+    {
+      "civilizacion": "Babilonia",
+      "emoji": "🏛",
+      "periodo_historico": "Casitas en Babilonia (1595–1155 a.C.)",
+      "periodo_at": "Bronce Tardío",
+      "evento": "Período casita — relativa estabilidad mesopotamia",
+      "descripcion": "La dinastía casita gobierna Babilonia durante el período tradicional del Éxodo. Período de intercambio cultural activo con Egipto documentado en las Cartas de Amarna. Sin contacto con el Sinaí."
+    },
+    {
+      "civilizacion": "Persia",
+      "emoji": "🦁",
+      "periodo_historico": "Medos y pre-persa (siglos X–VII a.C.)",
+      "periodo_at": "Hierro I — Hierro II",
+      "evento": "Pueblos iranios antes del Imperio Aqueménida",
+      "descripcion": "Los pueblos iranios (medos, persas) se consolidan en la meseta iraní. Sin contacto con el Sinaí. El control persa del Sinaí llegará con la conquista de Egipto por Cambises II (525 a.C.)."
+    },
+    {
+      "civilizacion": "Grecia",
+      "emoji": "🏛",
+      "periodo_historico": "Período Micénico y Oscuro (1600–800 a.C.)",
+      "periodo_at": "Bronce Tardío — Hierro I",
+      "evento": "Colapso micénico y período oscuro griego",
+      "descripcion": "El colapso de la civilización micénica (c. 1200 a.C.) coincide aproximadamente con el fin del Bronce Tardío en el Levante. Los Pueblos del Mar (que incluyen a los filisteos) afectan también a Grecia. Período de regresión cultural y demográfica en el Egeo."
+    },
+    {
+      "civilizacion": "Roma",
+      "emoji": "🐺",
+      "periodo_historico": "Prerromano — Latium (1200–753 a.C.)",
+      "periodo_at": "Bronce Tardío — Hierro I",
+      "evento": "Cultura protolatina en el Lacio",
+      "descripcion": "En el período del Éxodo, el Lacio (futura Italia central) es territorio de pequeñas aldeas protolatinas sin escritura ni estado. Roma no existe aún como entidad política. Sin ninguna conexión con el Sinaí."
+    },
+    {
+      "civilizacion": "India",
+      "emoji": "🕉",
+      "periodo_historico": "Período Védico Temprano (1500–1000 a.C.)",
+      "periodo_at": "Bronce Tardío",
+      "evento": "Composición del Rig Veda",
+      "descripcion": "Simultáneo al período tradicional del Éxodo y la peregrinación por el Sinaí, los pueblos indoarios componen el Rig Veda en el noroeste de India. Ambas tradiciones (Torá y Veda) son los textos sagrados más antiguos de sus respectivas civilizaciones."
+    },
+    {
+      "civilizacion": "China",
+      "emoji": "🇨🇳",
+      "periodo_historico": "Dinastía Shang (1600–1046 a.C.)",
+      "periodo_at": "Bronce Tardío",
+      "evento": "Apogeo de la Dinastía Shang — escritura oracle bone",
+      "descripcion": "La Dinastía Shang (contemporánea al período del Éxodo) desarrolla la escritura oracular china. Sus rituales de adivinación mediante huesos oraculares son la primera escritura sistemática de China. Sin contacto con el mundo mediterráneo."
+    },
+    {
+      "civilizacion": "América",
+      "emoji": "🌽",
+      "periodo_historico": "Formativo Temprano Olmeca (1500–900 a.C.)",
+      "periodo_at": "Bronce Tardío",
+      "evento": "Emergencia de la civilización olmeca",
+      "descripcion": "La civilización olmeca emerge en el Golfo de México simultáneamente al período tradicional del Éxodo. San Lorenzo Tenochtitlán es el primer gran centro urbano mesoamericano. Sin contacto con el mundo del Mediterráneo oriental."
+    }
+  ]
+}

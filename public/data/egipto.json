@@ -1,0 +1,226 @@
+{
+  "id": "egipto",
+  "nombre": "Egipto",
+  "tipo": "territorio",
+  "lat": 29.8495,
+  "lng": 31.2551,
+  "frecuencia_at": 200,
+  "jerarquia_pin": "primario",
+  "nota_coordenadas": "Anclado en Menfis antigua (Mit Rahina, Gobernación de Giza) — capital más relevante de Egipto en el período del AT, mencionada como 'Nof' o 'Mof' en los profetas bíblicos",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Imperio Nuevo — Ramsés II, Éxodo" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Declive del Imperio Nuevo" },
+    { "desde": -1000, "hasta": -664,  "nombre": "Tercer Período Intermedio" },
+    { "desde": -664,  "hasta": -400,  "nombre": "Período Tardío — Influencia persa" }
+  ],
+  "descripcion_geo": "Territorio del noreste de África, definido geográficamente por el valle del Nilo entre la primera catarata (Asuán) y el Delta mediterráneo. El Nilo es el eje vital: sus crecidas anuales depositan el limo fértil que hace posible la agricultura en el desierto. Menfis, en el vértice del Delta (a 20 km al sur del Cairo actual), fue la capital del Imperio Antiguo y Medio — cruce estratégico entre el Alto y el Bajo Egipto.",
+  "altitud_m": "22 m (Menfis / Mit Rahina) — llanura aluvial del Nilo",
+  "clima": "Desértico árido — menos de 50 mm de lluvia anual. Toda la vida depende del Nilo. Veranos extremadamente calurosos, inviernos templados. La crecida del Nilo (junio-septiembre) era el evento anual central.",
+  "recursos": ["Suelo aluvial del Nilo (grano, papiro, lino)", "Piedra caliza y granito (construcción)", "Oro (Nubia)", "Cobre (Sinaí)", "Comercio del Mar Rojo (incienso, marfil)", "Papiro (escritura y exportación)"],
+  "importancia_estrategica": "Potencia dominante del Mediterráneo oriental durante más de 1500 años del período AT. Control del corredor cananeo fue objetivo permanente. La esclavitud israelita en Egipto y el Éxodo son el evento fundacional de la identidad de Israel como pueblo liberado por Yahvé.",
+
+  "otros_habitantes": [
+    {
+      "id": "egipcios",
+      "nombre": "Egipcios",
+      "descripcion": "Civilización del Nilo con más de 3000 años de continuidad. Su influencia cultural, religiosa y política penetró profundamente en Canaán durante el Bronce Tardío. La religión egipcia (Ra, Osiris, Isis, Horus) fue la alternativa teológica más cercana al yahvismo.",
+      "religion": "Politeísmo — Ra (sol), Osiris (muerte y resurrección), Isis, Horus, Amon, Ptah (en Menfis)",
+      "periodo": "c. 3100 a.C. en adelante"
+    },
+    {
+      "id": "hicsos",
+      "nombre": "Hicsos",
+      "descripcion": "Pueblo de origen asiático (semita occidental) que conquistó el Delta egipcio (c. 1650–1550 a.C.) y estableció la XV y XVI dinastías. Su período de dominio puede coincidir con la época de José en Egipto. Los hicsos introdujeron el carro de guerra y el arco compuesto en Egipto.",
+      "religion": "Politeísmo semítico asimilado al panteón egipcio — adoraban a Set",
+      "periodo": "c. 1650–1550 a.C."
+    },
+    {
+      "id": "israelitas-egipto",
+      "nombre": "Israelitas en Egipto",
+      "descripcion": "Según el AT, los descendientes de Jacob (Israel) vivieron en la región del Delta egipcio (Gosén) como trabajadores forzados hasta el Éxodo liderado por Moisés. La experiencia de la esclavitud en Egipto es el horizonte moral del yahvismo: 'fuisteis esclavos en Egipto' justifica la ética social israelita.",
+      "religion": "Yahvismo emergente — en tensión con los cultos egipcios",
+      "periodo": "c. 1650–1250 a.C. (trad.)"
+    },
+    {
+      "id": "nubios",
+      "nombre": "Nubios / Kushitas",
+      "descripcion": "Pueblo del sur del Nilo que gobernó Egipto durante la XXV dinastía (c. 744–656 a.C.). El faraón kushita Taharka intentó ayudar a Judá contra Asiria durante el sitio de Senaquerib a Jerusalén (2 Re 19:9).",
+      "religion": "Politeísmo egipcio adoptado y adaptado",
+      "periodo": "c. 744–656 a.C. (como faraones)"
+    }
+  ],
+
+  "historias": [
+    {
+      "id": "jose-egipto",
+      "titulo": "José en Egipto",
+      "fecha": "c. 1700–1600 a.C. (trad.)",
+      "descripcion": "José, vendido como esclavo por sus hermanos, asciende hasta convertirse en visir del faraón. Su interpretación de los sueños salva a Egipto y Canaán de la hambruna. Su historia es el puente narrativo entre los patriarcas y el período de la esclavitud y el Éxodo.",
+      "referencias": ["Gén 37:1-36", "Gén 39:1-41:57", "Gén 45:1-28"],
+      "personajes_clave": ["jose"]
+    },
+    {
+      "id": "exodo",
+      "titulo": "El Éxodo de Egipto",
+      "fecha": "c. 1250 a.C. (trad.)",
+      "descripcion": "Moisés lidera la liberación del pueblo israelita de la esclavitud en Egipto tras las diez plagas. El cruce del Mar de los Juncos y la marcha por el Sinaí son los eventos fundacionales de la identidad de Israel como pueblo liberado por Yahvé. El Éxodo es el centro gravitacional de toda la teología del AT.",
+      "referencias": ["Éx 1:1-15:21", "Éx 12:29-42", "Éx 14:5-31"],
+      "personajes_clave": ["moises", "aaron", "faraon"]
+    },
+    {
+      "id": "huida-jeremias-egipto",
+      "titulo": "El refugio en Egipto tras la caída de Jerusalén",
+      "fecha": "586 a.C.",
+      "descripcion": "Tras la destrucción de Jerusalén, un grupo de judíos —contra la advertencia de Jeremías— huye a Egipto (Tahpanhes / Defne) llevándose al profeta. Jeremías continúa profetizando en Egipto. La ironía histórica es total: Israel regresa a la tierra de la esclavitud.",
+      "referencias": ["Jr 41:16-43:13", "Jr 44:1-30"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+
+  "personajes": [
+    {
+      "id": "moises",
+      "nombre": "Moisés",
+      "emoji": "🔥",
+      "rol": "Libertador — legislador — mediador de la Alianza",
+      "periodo": "c. 1300–1200 a.C. (trad.)",
+      "descripcion": "Nacido en Egipto, educado en la corte del faraón y refugiado en Madián, Moisés es llamado por Yahvé en el Sinaí para liberar a Israel. Mediador de la Torá en el Monte Sinaí. La figura humana más mencionada en el AT.",
+      "referencias": ["Éx 2:1-25", "Éx 3:1-4:17", "Éx 19:1-20:21", "Dt 34:1-12"],
+      "ruta": ["egipto", "madian", "sinai", "canaan"]
+    },
+    {
+      "id": "jose",
+      "nombre": "José",
+      "emoji": "🌈",
+      "rol": "Patriarca — visir de Egipto",
+      "periodo": "c. 1700–1600 a.C. (trad.)",
+      "descripcion": "Hijo de Jacob, vendido como esclavo y elevado a visir de Egipto. Su historia prefigura el tema de la providencia divina que actúa a través del sufrimiento. El relato más literariamente elaborado del Génesis.",
+      "referencias": ["Gén 37:1-50:26"],
+      "ruta": ["canaan", "egipto"]
+    },
+    {
+      "id": "jeremias-egipto",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta — testigo del exilio en Egipto",
+      "periodo": "c. 586 a.C.",
+      "descripcion": "Llevado contra su voluntad a Egipto tras la caída de Jerusalén. Profetiza contra los judíos refugiados en Egipto que regresan al culto de 'la Reina del Cielo' (Ishtar/Isis). Su presencia en Egipto cierra el círculo de la historia del AT.",
+      "referencias": ["Jr 43:1-44:30"],
+      "ruta": ["jerusalen", "egipto"]
+    }
+  ],
+
+  "contexto_religioso": {
+    "contexto_lugar": "Egipto representa en el AT el polo opuesto a Yahvé: tierra de esclavitud, politeísmo y muerte. La salida de Egipto (Éxodo) es el acto fundacional de la fe de Israel. Sin embargo, Egipto es también refugio en tiempos de crisis (Abraham, José, la Sagrada Familia en el NT). La ambivalencia de Egipto en el AT refleja la complejidad de la relación histórica.",
+    "religiones_presentes": ["Politeísmo egipcio (Ra, Osiris, Isis, Ptah, Amon)", "Culto de Atón (monoteísmo efímero bajo Akenatón, c. 1350 a.C.)", "Yahvismo israelita (en tensión con Egipto)"],
+    "mitos": [
+      {
+        "id": "plagas-egipto",
+        "nombre": "Las Diez Plagas de Egipto",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Éx 7:14-12:36",
+          "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Éxodo 9-10",
+          "descripcion": "Las diez plagas son la demostración de la soberanía de Yahvé sobre los dioses de Egipto — cada plaga ataca a una deidad específica del panteón egipcio. El Pesaj (Pascua) conmemora la última plaga y la liberación de Egipto. Es la fiesta fundacional del judaísmo.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "Yahvé demuestra su superioridad sobre todos los dioses. La liberación de Egipto define a Israel como pueblo del Éxodo.",
+          "posible_relacion_cultural": "Algunos estudiosos relacionan las plagas con fenómenos naturales del Delta del Nilo (erupciones del Santorini, c. 1600 a.C.)."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 7-12 · 1 Cor 5:7 · Heb 11:28",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible",
+          "descripcion": "La Pascua judía es el tipo de la muerte y resurrección de Cristo — Cristo es el 'cordero pascual' (1 Cor 5:7). La décima plaga (muerte de los primogénitos) prefigura el sacrificio del Hijo de Dios.",
+          "diferencias": "La tipología cristiana espiritualiza las plagas — no son eventos históricos en primer plano, sino signos anticipatorios de la redención.",
+          "similitudes": "La sangre del cordero como señal de salvación — paralelo con la sangre de Cristo.",
+          "significado_teologico": "El Éxodo es tipo de la redención universal en Cristo. La Pascua cristiana (Semana Santa) hereda y transforma la Pascua judía.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 7:103-137 · Corán 26:10-68",
+          "fuente_secundaria": "// PENDIENTE — Ibn Kathir, Tafsir de Corán 7:103",
+          "descripcion": "El Corán narra las señales (ayat) de Musa (Moisés) ante el Faraón: la vara que se convierte en serpiente, la mano luminosa. Las plagas se mencionan de manera más condensada que en el Éxodo bíblico. El Faraón es el paradigma coránico del gobernante que se cree dios.",
+          "diferencias": "El Corán no enumera las diez plagas individualmente. El énfasis recae en la misión profética de Musa y la arrogancia del Faraón.",
+          "similitudes": "Musa como enviado divino; el Faraón como opositor; las señales como argumentos de la soberanía divina.",
+          "significado_teologico": "El Faraón como tipo del kufr (incredulidad arrogante) — modelo negativo que se repite en la historia profética islámica.",
+          "posible_relacion_cultural": "Tradición compartida sobre Moisés/Musa que tiene raíces en el mismo sustrato textual del Cercano Oriente antiguo."
+        }
+      }
+    ]
+  },
+
+  "eventos_paralelos": [
+    {
+      "civilizacion": "Egipto",
+      "emoji": "🏺",
+      "periodo_historico": "Imperio Nuevo — Tercer Período Intermedio (1550–664 a.C.)",
+      "periodo_at": "Bronce Tardío — Hierro II",
+      "evento": "Ramsés II, las Cartas de Amarna y el declive",
+      "descripcion": "Ramsés II (1279–1213 a.C.) es el probable faraón del Éxodo o de las grandes construcciones. Las Cartas de Amarna (s. XIV a.C.) documentan el control egipcio de Canaán. El declive del Imperio Nuevo abre el espacio para la emergencia de Israel."
+    },
+    {
+      "civilizacion": "Asiria",
+      "emoji": "⚔️",
+      "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Asurbanipal conquista Menfis (671 a.C.)",
+      "descripcion": "Esarhadón asirio conquista Menfis (671 a.C.) — primera conquista extranjera de la capital de Egipto. Egipto pasa a ser provincia asiria. El profeta Nahúm profetiza la caída de Nínive como respuesta a estos años de dominio asirio."
+    },
+    {
+      "civilizacion": "Babilonia",
+      "emoji": "🏛",
+      "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
+      "periodo_at": "Fin Hierro II",
+      "evento": "Carquemis (605 a.C.) — fin de la influencia egipcia en el Levante",
+      "descripcion": "Nabucodonosor II derrota al ejército egipcio en Carquemis (605 a.C.). Egipto pierde definitivamente el control del Levante. El faraón Necao II, que había matado al rey Josías de Judá en Meguido (609 a.C.), es derrotado."
+    },
+    {
+      "civilizacion": "Persia",
+      "emoji": "🦁",
+      "periodo_historico": "Imperio Aqueménida (550–330 a.C.)",
+      "periodo_at": "Post-Exilio",
+      "evento": "Cambises II conquista Egipto (525 a.C.)",
+      "descripcion": "El rey persa Cambises II derrota al faraón Psamético III en Peluso y conquista Egipto. Egipto se convierte en satrapia persa. Los judíos del Elefantina (Alto Nilo) viven bajo dominio persa y mantienen correspondencia con Jerusalén."
+    },
+    {
+      "civilizacion": "Grecia",
+      "emoji": "🏛",
+      "periodo_historico": "Período Arcaico — Clásico (800–400 a.C.)",
+      "periodo_at": "Hierro II — Post-Exilio",
+      "evento": "Colonias griegas en Egipto — Náucratis",
+      "descripcion": "Los faraones saítas permiten la fundación de Náucratis (c. 620 a.C.), colonia griega en el Delta del Nilo. El intercambio cultural greco-egipcio prefigura el mundo helenístico. Heródoto visita Egipto c. 450 a.C. y escribe su descripción clásica."
+    },
+    {
+      "civilizacion": "Roma",
+      "emoji": "🐺",
+      "periodo_historico": "República Romana temprana (509–264 a.C.)",
+      "periodo_at": "Post-Exilio",
+      "evento": "Roma expande su influencia en Italia — sin contacto con Egipto",
+      "descripcion": "Roma se consolida como potencia italiana. Sin contacto con Egipto hasta el período helenístico. La alianza romano-ptolemaica comenzará en el siglo II a.C. — fuera del marco temporal del AT."
+    },
+    {
+      "civilizacion": "India",
+      "emoji": "🕉",
+      "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
+      "periodo_at": "Hierro II",
+      "evento": "Comercio India-Egipto por el Mar Rojo",
+      "descripcion": "Existe evidencia de contacto comercial indirecto entre India y Egipto a través de Arabia y el Mar Rojo durante el primer milenio a.C. Salomón usó el puerto de Ezión-Guéber (1 Re 9:26) para comercio marítimo con el sur — posiblemente India."
+    },
+    {
+      "civilizacion": "China",
+      "emoji": "🇨🇳",
+      "periodo_historico": "Dinastía Zhou (1046–256 a.C.)",
+      "periodo_at": "Hierro II — Post-Exilio",
+      "evento": "China sin contacto con Egipto — Ruta de la Seda futura",
+      "descripcion": "China y Egipto en este período no tienen contacto directo. La Ruta de la Seda que conectaría China con el Mediterráneo comenzará a funcionar formalmente solo en el siglo II a.C. bajo el Imperio Han."
+    },
+    {
+      "civilizacion": "América",
+      "emoji": "🌽",
+      "periodo_historico": "Formativo Mesoamericano (1500–400 a.C.)",
+      "periodo_at": "Bronce Tardío — Hierro II",
+      "evento": "Civilización olmeca — pirámides mesoamericanas",
+      "descripcion": "La civilización olmeca construye pirámides escalonadas en el Golfo de México simultáneamente al período de las grandes pirámides tardías de Egipto. Las similitudes arquitectónicas son resultado de convergencia cultural independiente, no de contacto."
+    }
+  ]
+}

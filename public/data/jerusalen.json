@@ -1,0 +1,240 @@
+{
+  "id": "jerusalen",
+  "nombre": "Jerusalén",
+  "tipo": "ciudad",
+  "lat": 31.7683,
+  "lng": 35.2137,
+  "frecuencia_at": 660,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Monarquía" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Reconstrucción" }
+  ],
+  "descripcion_geo": "Ciudad en las montañas de Judá, a 754 m de altitud, en el cruce de las rutas comerciales entre Egipto y Mesopotamia. Posición estratégica sobre una meseta defensible entre el Monte de los Olivos al este y el valle de Hinom al sur. Acceso al manantial de Guijón, fuente de agua esencial para su ocupación continua.",
+  "altitud_m": 754,
+  "clima": "Mediterráneo — veranos secos y calurosos, inviernos frescos con lluvia ocasional",
+  "recursos": ["Agua (manantial de Guijón)", "Piedra caliza", "Rutas comerciales", "Posición defensiva elevada"],
+  "importancia_estrategica": "Cruce entre la ruta costera (Via Maris) y el camino de las tierras altas. Capital religiosa y política del reino unido de Israel y del reino de Judá.",
+
+  "otros_habitantes": [
+    {
+      "id": "jebuseos",
+      "nombre": "Jebuseos",
+      "descripcion": "Pueblo cananeo original de Jerusalén, llamada Jebus antes de la conquista de David. Convivieron parcialmente con Israel tras la toma de la ciudad.",
+      "religion": "Politeísmo cananeo — culto a Baal y Asera",
+      "periodo": "Anterior a c. 1000 a.C."
+    },
+    {
+      "id": "cananeos",
+      "nombre": "Cananeos",
+      "descripcion": "Habitantes semitas del Levante, cuyo politeísmo (Baal, Asera, El) estuvo en tensión permanente con el monoteísmo israelita. Cultura urbana avanzada con escritura y metalurgia.",
+      "religion": "Politeísmo — panteón encabezado por El y Baal",
+      "periodo": "c. 3000–1200 a.C."
+    },
+    {
+      "id": "filisteos",
+      "nombre": "Filisteos",
+      "descripcion": "Pueblo del mar asentado en la costa suroccidental de Canaán. Rivales militares de Israel durante el período de los Jueces y la monarquía temprana.",
+      "religion": "Politeísmo — Dagón como dios principal",
+      "periodo": "c. 1200–600 a.C."
+    }
+  ],
+
+  "historias": [
+    {
+      "id": "conquista-david",
+      "titulo": "David conquista Jerusalén",
+      "fecha": "c. 1000 a.C.",
+      "descripcion": "David captura la ciudad jebusea de Sión y la convierte en capital del reino unido de Israel, trasladando el Arca de la Alianza desde Quiryat-Yearim. El gesto unifica a las tribus del norte y del sur bajo un único centro político y religioso.",
+      "referencias": ["2 Sam 5:6-10", "1 Cr 11:4-9", "2 Sam 6:1-19"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "templo-salomon",
+      "titulo": "Salomón construye el Primer Templo",
+      "fecha": "c. 957 a.C.",
+      "descripcion": "Construcción del Templo sobre el Monte Moria en siete años, con materiales traídos del Líbano (cedros de Tiro) y artesanos fenicios. El Arca de la Alianza es instalada en el Lugar Santísimo. El Templo se convierte en el eje del culto yahvista centralizado.",
+      "referencias": ["1 Re 6:1-38", "1 Re 8:1-66", "2 Cr 3:1-17"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "destruccion-babilonica",
+      "titulo": "Destrucción babilónica y el Exilio",
+      "fecha": "586 a.C.",
+      "descripcion": "Nabucodonosor II destruye el Templo, derriba las murallas y deporta la élite judía a Babilonia. Fin del período monárquico e inicio del Exilio babilónico. El evento marca un punto de inflexión teológico: Yahvé actúa a través del enemigo como instrumento de juicio.",
+      "referencias": ["2 Re 25:1-21", "Jr 52:1-30", "Lam 1:1-22"],
+      "personajes_clave": ["jeremias", "nabucodonosor"]
+    }
+  ],
+
+  "personajes": [
+    {
+      "id": "david",
+      "nombre": "David",
+      "emoji": "👑",
+      "rol": "Rey fundador de la dinastía davídica",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Pastor de Belén que se convierte en rey. Conquista Jerusalén y la establece como capital política y religiosa. Su reinado marca el apogeo territorial del reino unido de Israel.",
+      "referencias": ["2 Sam 5:1-25", "2 Sam 7:1-29", "1 Re 2:1-12"],
+      "ruta": ["belen", "jerusalen", "hebrón"]
+    },
+    {
+      "id": "salomon",
+      "nombre": "Salomón",
+      "emoji": "🏛",
+      "rol": "Rey constructor — Primer Templo",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Hijo de David, símbolo de la sabiduría israelita. Constructor del Primer Templo y organizador del estado. Su reinado representa el apogeo de la monarquía unida antes de la división del reino.",
+      "referencias": ["1 Re 3:1-28", "1 Re 6:1-38", "1 Re 11:1-43"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "jeremias",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta del período pre-exílico",
+      "periodo": "c. 627–586 a.C.",
+      "descripcion": "Profeta que vivió y predicó durante la destrucción de Jerusalén. Testigo directo del colapso del reino de Judá. Sus lamentaciones son el testimonio más íntimo del trauma del Exilio babilónico.",
+      "referencias": ["Jr 1:1-19", "Jr 7:1-34", "Jr 52:1-34", "Lam 1:1-22"],
+      "ruta": ["jerusalen", "anatot"]
+    }
+  ],
+
+  "contexto_religioso": {
+    "contexto_lugar": "Jerusalén es el centro del monoteísmo yahvista y la ciudad más sagrada para las tres tradiciones abrahámicas. En el período del AT, el Templo de Salomón concentra el culto oficial y define la identidad religiosa de Israel. La tensión entre la fe yahvista y el politeísmo cananeo es la gran línea de fuerza de la historia religiosa de la ciudad.",
+    "religiones_presentes": ["Yahvismo (monoteísmo israelita)", "Politeísmo cananeo (Baal, Asera)", "Cultos egipcios (período de influencia)"],
+    "mitos": [
+      {
+        "id": "aqeda",
+        "nombre": "Sacrificio de Isaac (Aqedá)",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 22:1-19",
+          "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Génesis 55:4",
+          "descripcion": "El Monte Moria donde Abraham ofrece a Isaac es identificado con el Monte del Templo en Jerusalén. La Aqedá es texto central de Rosh Hashaná y símbolo de la obediencia absoluta a Yahvé.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "Fundamento de la alianza entre Dios e Israel. El carnero provisto como sustituto prefigura el sacrificio cultual del Templo.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Gén 22:1-19 · Heb 11:17-19",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible, capítulo sobre tipología",
+          "descripcion": "Isaac cargando la leña al Monte Moria es leído como prefiguración de Cristo cargando la cruz. La disposición de Abraham a sacrificar prefigura el sacrificio redentor del Padre.",
+          "diferencias": "Isaac no muere; la tipología cristiana completa lo que el AT anticipa.",
+          "similitudes": "Obediencia total del hijo al padre, sustitución vicaria.",
+          "significado_teologico": "Tipología central de la teología de la expiación.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 37:99-111",
+          "fuente_secundaria": "// PENDIENTE — Ibn Kathir, Tafsir de Corán 37:99",
+          "descripcion": "El hijo ofrecido es Ismael, no Isaac. El evento es conmemorado en Eid al-Adha y se asocia geográficamente con La Meca, no con Jerusalén.",
+          "diferencias": "El hijo es Ismael. El lugar es La Meca. La narración coránica no menciona el Monte Moria.",
+          "similitudes": "Obediencia absoluta de Abraham (Ibrahim) y disposición a sacrificar.",
+          "significado_teologico": "Fundamento de la sumisión total (islam) a la voluntad divina. Eje del calendario litúrgico islámico.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Abraham — base de las tres religiones abrahámicas."
+        }
+      },
+      {
+        "id": "templo-morada",
+        "nombre": "El Templo como morada divina",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Re 8:1-66 · Ez 40-48",
+          "fuente_secundaria": "// PENDIENTE — Talmud Babilónico, Taanit 4a",
+          "descripcion": "El Templo es la morada terrena de la Shekhiná (presencia divina). Eje de la escatología judía — la reconstrucción del Tercer Templo es esperanza mesiánica.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "El Templo define la geografía sagrada del judaísmo. Su destrucción (586 a.C. y 70 d.C.) es el trauma histórico central.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jn 2:19-21 · 1 Cor 3:16",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible",
+          "descripcion": "El cuerpo de Cristo es el nuevo Templo que sustituye al de piedra. La comunidad cristiana es el templo del Espíritu Santo. El Templo histórico se convierte en tipo cumplido en Cristo.",
+          "diferencias": "El Templo de piedra queda superado — la presencia divina habita en la comunidad, no en un edificio.",
+          "similitudes": "La lógica de la presencia divina localizada se mantiene, pero se redefine.",
+          "significado_teologico": "Fundamento de la eclesiología: la Iglesia como cuerpo de Cristo.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
+    ]
+  },
+
+  "eventos_paralelos": [
+    {
+      "civilizacion": "Egipto",
+      "emoji": "🏺",
+      "periodo_historico": "Tercer Período Intermedio (1070–664 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Decadencia del Imperio Nuevo",
+      "descripcion": "Fragmentación del poder faraónico. Faraón Sheshonq I (Sisac) invade Judá c. 925 a.C. y saquea el Templo de Salomón (1 Re 14:25-26). Egipto compite con Asiria por el control del Levante."
+    },
+    {
+      "civilizacion": "Asiria",
+      "emoji": "⚔️",
+      "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Expansión máxima asiria",
+      "descripcion": "Sargón II conquista Samaria (722 a.C.) y deporta a las 10 tribus del norte. Senaquerib sitia Jerusalén bajo Ezequías (701 a.C.) pero se retira sin tomar la ciudad (2 Re 19)."
+    },
+    {
+      "civilizacion": "Babilonia",
+      "emoji": "🏛",
+      "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
+      "periodo_at": "Edad de Hierro II — Post-Exilio",
+      "evento": "Apogeo de Nabucodonosor II",
+      "descripcion": "Nabucodonosor II destruye Jerusalén (586 a.C.) y deporta la élite judía. Babilonia se convierte en el centro cultural del mundo antiguo. El exilio redefine la identidad religiosa judía."
+    },
+    {
+      "civilizacion": "Persia",
+      "emoji": "🦁",
+      "periodo_historico": "Pre-aqueménida — Medos (700–550 a.C.)",
+      "periodo_at": "Post-Exilio",
+      "evento": "Ascenso del Imperio Medo",
+      "descripcion": "Los medos aliados con Babilonia destruyen Nínive (612 a.C.). El zoroastrismo se consolida en Irán. Ciro el Grande (550 a.C.) derrocará Babilonia y permitirá el retorno de los judíos."
+    },
+    {
+      "civilizacion": "Grecia",
+      "emoji": "🏛",
+      "periodo_historico": "Período Arcaico (800–480 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Surgimiento de la polis griega",
+      "descripcion": "Homero compone la Ilíada y la Odisea (c. 750 a.C.). Primeros Juegos Olímpicos (776 a.C.). Las polis griegas desarrollan filosofía, democracia y escritura alfabética simultáneamente al período monárquico de Israel."
+    },
+    {
+      "civilizacion": "Roma",
+      "emoji": "🐺",
+      "periodo_historico": "Período Monárquico Romano (753–509 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Fundación de Roma (trad. 753 a.C.)",
+      "descripcion": "Roma comienza como pequeño asentamiento en el Lacio. Período de los siete reyes romanos. Mientras Salomón construye el Templo, Roma aún es una aldea sin influencia mediterránea."
+    },
+    {
+      "civilizacion": "India",
+      "emoji": "🕉",
+      "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Composición de los Upanishads",
+      "descripcion": "Los Upanishads (c. 800–500 a.C.) establecen los fundamentos del hinduismo clásico: Brahman, Atman, karma y moksha. Simultáneo al período de los profetas mayores de Israel."
+    },
+    {
+      "civilizacion": "China",
+      "emoji": "🇨🇳",
+      "periodo_historico": "Dinastía Zhou Occidental (1046–771 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Apogeo y colapso de Zhou Occidental",
+      "descripcion": "Los Zhou establecen el sistema feudal chino y desarrollan el concepto del Mandato del Cielo. La caída de Zhou Occidental (771 a.C.) inicia el período de los Reinos Combatientes, donde emergen el confucianismo y el taoísmo."
+    },
+    {
+      "civilizacion": "América",
+      "emoji": "🌽",
+      "periodo_historico": "Formativo Medio Mesoamericano (900–400 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Declive olmeca y surgimiento de nuevas culturas",
+      "descripcion": "La civilización olmeca (centro de México) alcanza su apogeo y declina. Se desarrollan los primeros sistemas de escritura mesoamericanos y calendarios. Monte Albán (zapoteca) es fundado c. 500 a.C."
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "canaan",
+  "nombre": "Canaán",
+  "tipo": "territorio",
+  "lat": 31.7683,
+  "lng": 35.2137,
+  "frecuencia_at": 160,
+  "jerarquia_pin": "secundario",
+  "nota_coordenadas": "Centro geográfico aproximado de la región histórica de Canaán — coincide con Jerusalén, núcleo político del territorio en el AT",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Edad de Bronce Tardía — Dominio egipcio" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Período de los Jueces" },
+    { "desde": -1000, "hasta": -586,  "nombre": "Edad de Hierro II — Monarquía israelita" }
+  ],
+  "descripcion_geo": "Región del Levante meridional entre el Mar Mediterráneo al oeste, el Jordán al este, el Líbano al norte y el Neguev al sur. Territorio de clima mediterráneo con valles fértiles (Jezreel, Elá), llanuras costeras (Sefela), colinas centrales y el profundo valle del Jordán. La mayor variedad topográfica y climática por kilómetro cuadrado de cualquier región del Oriente Próximo antiguo.",
+  "altitud_m": "Variable — desde -430 m (Mar Muerto) hasta 2814 m (Monte Hermón)",
+  "clima": "Mediterráneo al norte y oeste; árido-desértico al sur y este. Estaciones secas y lluviosas bien definidas.",
+  "recursos": ["Trigo y cebada (valles)", "Olivos (tierras altas)", "Viñedos", "Madera del Líbano", "Cobre (Arabá)", "Rutas comerciales entre Egipto y Mesopotamia"],
+  "importancia_estrategica": "Corredor terrestre obligado entre Egipto y Mesopotamia — todas las potencias del período lucharon por controlarlo. La Via Maris (camino costero) y el Camino del Rey (vía transjordana) cruzaban el territorio.",
+
+  "otros_habitantes": [
+    {
+      "id": "cananeos-norte",
+      "nombre": "Cananeos",
+      "descripcion": "Pueblos semitas que habitaban ciudades-estado costeras e interiores. Desarrollaron el primer alfabeto, tecnología en bronce y comercio internacional. Su cultura influyó profundamente en Israel a pesar de la oposición religiosa.",
+      "religion": "Politeísmo — El (padre de los dioses), Baal (tormenta y fertilidad), Asera (mar y maternidad)",
+      "periodo": "c. 3500–1000 a.C."
+    },
+    {
+      "id": "filisteos-costa",
+      "nombre": "Filisteos",
+      "descripcion": "Pueblo del mar asentado en la Pentápolis costera (Gaza, Asdod, Ascalón, Gat, Ecrón). Rivales militares de Israel durante los Jueces y la monarquía temprana. Introdujeron el hierro en la región.",
+      "religion": "Politeísmo — Dagón, Baal-Zebub, Astarté",
+      "periodo": "c. 1200–600 a.C."
+    },
+    {
+      "id": "fenicios",
+      "nombre": "Fenicios",
+      "descripcion": "Pueblos de la costa norte (Tiro, Sidón, Biblos). Maestros del comercio marítimo y la púrpura. Aliados de Israel bajo David y Salomón — Hiram de Tiro proveyó cedros para el Templo.",
+      "religion": "Politeísmo — Baal, Melkart (Tiro), Asera",
+      "periodo": "c. 1200–333 a.C."
+    },
+    {
+      "id": "amoritas",
+      "nombre": "Amoritas",
+      "descripcion": "Pueblo semita proveniente del noreste que dominó Canaán en el Bronce Medio. Progenitores de varios pueblos cananeos. Mencionados frecuentemente junto a los cananeos en el AT.",
+      "religion": "Politeísmo — panteón semita occidental",
+      "periodo": "c. 2000–1200 a.C."
+    }
+  ],
+
+  "historias": [
+    {
+      "id": "promesa-abraham",
+      "titulo": "La promesa a Abraham",
+      "fecha": "c. 1800 a.C. (trad.)",
+      "descripcion": "Yahvé promete a Abraham la tierra de Canaán para sus descendientes. El pacto define la identidad de Israel como pueblo elegido con una tierra prometida. Origen de la relación teológica Israel-tierra que impregna todo el AT.",
+      "referencias": ["Gén 12:1-7", "Gén 15:18-21", "Gén 17:8"],
+      "personajes_clave": ["abraham"]
+    },
+    {
+      "id": "conquista-josue",
+      "titulo": "La conquista de Josué",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Josué lidera la entrada de las tribus israelitas en Canaán tras el Éxodo. La conquista es parcial y progresiva — muchas ciudades cananeas permanecen sin ser tomadas, creando la tensión cultural y religiosa del período de los Jueces.",
+      "referencias": ["Jos 1:1-18", "Jos 6:1-27", "Jos 11:16-23"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "periodo-jueces",
+      "titulo": "El ciclo de los Jueces",
+      "fecha": "c. 1200–1000 a.C.",
+      "descripcion": "En Canaán, las tribus israelitas alternan entre la fidelidad a Yahvé y la adopción del politeísmo cananeo. El ciclo apostasía-opresión-arrepentimiento-liberación define el período. Los Jueces (Débora, Gedeón, Sansón) son libertadores locales, no monarcas nacionales.",
+      "referencias": ["Jue 2:10-23", "Jue 4:1-24", "Jue 6:1-40"],
+      "personajes_clave": ["debora", "gedeon", "sanson"]
+    }
+  ],
+
+  "personajes": [
+    {
+      "id": "abraham",
+      "nombre": "Abraham",
+      "emoji": "⛺",
+      "rol": "Patriarca — receptor de la promesa de la tierra",
+      "periodo": "c. 2000–1800 a.C. (trad.)",
+      "descripcion": "Llamado desde Ur de Caldea hacia Canaán. Primer destinatario de la promesa territorial. Su recorrido define los límites del territorio prometido y los lugares sagrados fundacionales (Siquem, Hebrón, Berseba).",
+      "referencias": ["Gén 12:1-9", "Gén 13:14-18", "Gén 22:1-19"],
+      "ruta": ["ur", "haran", "siquem", "hebron", "berseba", "egipto"]
+    },
+    {
+      "id": "josue",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Conquistador — sucesor de Moisés",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Lidera la entrada de Israel en Canaán. La toma de Jericó es el episodio inaugural. Distribuye el territorio entre las doce tribus. Su figura marca la transición del período nómada al asentamiento en la tierra prometida.",
+      "referencias": ["Jos 1:1-9", "Jos 6:1-27", "Jos 24:1-28"],
+      "ruta": ["sinai", "jerico", "ai", "gabaon", "siquem"]
+    },
+    {
+      "id": "debora",
+      "nombre": "Débora",
+      "emoji": "🌴",
+      "rol": "Jueza y profetisa",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Única mujer jueza en el AT. Lidera a Israel contra el ejército cananeo de Sísara. Su cántico de victoria (Jue 5) es uno de los textos hebreos más antiguos y un documento geográfico de primer orden para la historia de Canaán.",
+      "referencias": ["Jue 4:1-24", "Jue 5:1-31"],
+      "ruta": ["monte-efraim", "tabor", "meguido"]
+    }
+  ],
+
+  "contexto_religioso": {
+    "contexto_lugar": "Canaán es el escenario de la batalla teológica central del AT: el monoteísmo yahvista contra el politeísmo cananeo. El culto a Baal y Asera en los lugares altos (bamot) es la tentación permanente de Israel. Los profetas del AT articulan su mensaje casi siempre en referencia a esta tensión de fondo.",
+    "religiones_presentes": ["Yahvismo (monoteísmo israelita emergente)", "Politeísmo cananeo (El, Baal, Asera, Astarté)", "Religión fenicia (Melkart, Baal de Tiro)"],
+    "mitos": [
+      {
+        "id": "tierra-prometida",
+        "nombre": "La Tierra Prometida como don divino",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 15:18-21 · Dt 34:1-4",
+          "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Génesis 44:1",
+          "descripcion": "La tierra de Canaán es el cumplimiento de la promesa a Abraham. No es solo un territorio político — es el espacio donde Yahvé habita con su pueblo. La relación Israel-tierra es indisociable de la alianza divina.",
+          "diferencias": null,
+          "similitudes": null,
+          "significado_teologico": "La tierra es señal de la elección de Israel. Su pérdida (Exilio) es señal del juicio de Yahvé; su recuperación, de la restauración de la alianza.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Heb 11:8-16 · Gál 3:15-29",
+          "fuente_secundaria": "// PENDIENTE — VSI The Bible",
+          "descripcion": "La tierra prometida es reinterpretada como tipo del reino de Dios. Abraham buscaba una patria celestial. La promesa territorial se espiritualiza: la herencia es Cristo mismo y la vida eterna.",
+          "diferencias": "La promesa se espiritualiza — la tierra física cede ante la promesa espiritual universal.",
+          "similitudes": "Abraham como padre de la fe; la promesa como marco de la relación divino-humana.",
+          "significado_teologico": "La tierra es imagen de la salvación escatológica — el nuevo Canaán es el reino eterno.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 5:20-21",
+          "fuente_secundaria": "// PENDIENTE — Tafsir Ibn Kathir, Corán 5:20",
+          "descripcion": "El Corán menciona que Moisés ordenó a los israelitas entrar en la tierra sagrada (al-ard al-muqaddasa). La promesa de la tierra se enmarca en la misión profética de Moisés, sin el peso teológico que tiene en la tradición judía.",
+          "diferencias": "Sin énfasis en el pacto territorial permanente. La tierra sagrada es un episodio, no un eje teológico.",
+          "similitudes": "La tierra como don divino vinculado a la obediencia.",
+          "significado_teologico": "La desobediencia impide el acceso a la tierra — tema de sumisión a la voluntad divina.",
+          "posible_relacion_cultural": "Tradición compartida sobre la santidad de la tierra de Palestina / Levante."
+        }
+      }
+    ]
+  },
+
+  "eventos_paralelos": [
+    {
+      "civilizacion": "Egipto",
+      "emoji": "🏺",
+      "periodo_historico": "Imperio Nuevo (1550–1070 a.C.) — Período Intermedio (1070–664 a.C.)",
+      "periodo_at": "Bronce Tardío — Hierro I",
+      "evento": "Dominio y retirada egipcia de Canaán",
+      "descripcion": "Las Cartas de Amarna (s. XIV a.C.) documentan el control egipcio de Canaán. Ramsés II firma el primer tratado de paz conocido con los hititas (1259 a.C.). La retirada egipcia abre el espacio para el asentamiento israelita."
+    },
+    {
+      "civilizacion": "Asiria",
+      "emoji": "⚔️",
+      "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Presión asiria sobre Canaán y el Levante",
+      "descripcion": "Tiglat-Pileser III convierte Israel del norte en provincia asiria (734 a.C.). Sargón II deporta a Samaria (722 a.C.). El corredor cananeo se convierte en zona de conflicto permanente entre Asiria y Egipto."
+    },
+    {
+      "civilizacion": "Babilonia",
+      "emoji": "🏛",
+      "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
+      "periodo_at": "Fin de la Edad de Hierro II",
+      "evento": "Conquista neobabilónica del Levante",
+      "descripcion": "Nabucodonosor II derrota a Egipto en Carquemis (605 a.C.) y controla todo Canaán. Judá cae en 586 a.C. Canaán deja de ser un espacio israelita independiente por primera vez desde la conquista de Josué."
+    },
+    {
+      "civilizacion": "Grecia",
+      "emoji": "🏛",
+      "periodo_historico": "Período Arcaico (800–480 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Colonización griega del Mediterráneo",
+      "descripcion": "Los griegos establecen colonias desde Sicilia hasta el Mar Negro. Los fenicios de Canaán compiten con ellos en las rutas comerciales del Mediterráneo occidental — una rivalidad que llegará a moldear el mundo helenístico."
+    },
+    {
+      "civilizacion": "Roma",
+      "emoji": "🐺",
+      "periodo_historico": "Período Monárquico Romano (753–509 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Roma como aldea — sin contacto con Canaán",
+      "descripcion": "Roma en este período es un pequeño asentamiento sin influencia sobre el Mediterráneo oriental. El contacto romano con el Levante no ocurrirá hasta el siglo II a.C. — fuera del horizonte del AT."
+    },
+    {
+      "civilizacion": "India",
+      "emoji": "🕉",
+      "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Composición de los Upanishads y emergencia del hinduismo clásico",
+      "descripcion": "Simultáneo al período de los profetas israelitas en Canaán, India produce los Upanishads. El pensamiento monoteísta israelita y el monismo filosófico indio se desarrollan en paralelo sin contacto directo."
+    },
+    {
+      "civilizacion": "China",
+      "emoji": "🇨🇳",
+      "periodo_historico": "Dinastía Zhou Occidental y Oriental (1046–256 a.C.)",
+      "periodo_at": "Edad de Hierro I y II",
+      "evento": "Sistema feudal zhou y emergencia del pensamiento filosófico",
+      "descripcion": "Los Zhou consolidan el sistema feudal chino. Confucio (551–479 a.C.) y Lao-Tsé actúan en este período. El Eje Axial (Karl Jaspers) observa que todas las grandes tradiciones filosófico-religiosas emergen simultáneamente en el s. VI a.C."
+    },
+    {
+      "civilizacion": "América",
+      "emoji": "🌽",
+      "periodo_historico": "Formativo Medio Mesoamericano (900–400 a.C.)",
+      "periodo_at": "Edad de Hierro II",
+      "evento": "Apogeo y declive olmeca",
+      "descripcion": "La civilización olmeca alcanza su máximo desarrollo en el Golfo de México con centros ceremoniales como La Venta. Primera escritura mesoamericana. Sin contacto con el Mediterráneo — civilizaciones paralelas sin conexión."
+    },
+    {
+      "civilizacion": "Persia",
+      "emoji": "🦁",
+      "periodo_historico": "Medos y pre-aqueménida (700–550 a.C.)",
+      "periodo_at": "Fin de la Edad de Hierro II — Post-Exilio",
+      "evento": "Ascenso de los medos y los persas",
+      "descripcion": "Los medos destrozan Nínive (612 a.C.) con los babilonios. Ciro el Grande funda el Imperio Aqueménida (550 a.C.). Su decreto permitirá el retorno de los judíos de Babilonia a Canaán (Esd 1:1-4)."
+    }
+  ]
+}

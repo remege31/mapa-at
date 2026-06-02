@@ -696,3 +696,236 @@
     display: none !important;
   }
 }
+
+/* ─── drawer header (compartido entre panel y menú) ──────────────────────── */
+
+.drawer-header {
+  display: none; /* solo mobile */
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--beige);
+  background: var(--paper);
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.drawer-close-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--sand);
+  border: 1px solid var(--beige);
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.drawer-close-btn:hover {
+  background: var(--beige);
+}
+
+.drawer-header-title {
+  flex: 1;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.drawer-header-right {
+  font-size: 18px;
+  color: var(--gray);
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+
+/* ─── FAB hamburguesa ─────────────────────────────────────────────────────── */
+
+#fab-menu {
+  display: none; /* solo mobile */
+  position: fixed;
+  bottom: 20px;
+  right: 16px;
+  z-index: 1002;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--sand);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+  transition: transform 0.15s, background 0.15s;
+  align-items: center;
+  justify-content: center;
+}
+
+#fab-menu:hover {
+  background: var(--terra);
+  transform: scale(1.08);
+}
+
+#fab-menu:active {
+  transform: scale(0.95);
+}
+
+/* ─── drawer menú navegación ──────────────────────────────────────────────── */
+
+#menu-drawer {
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.menu-last-place {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--sand);
+  border: 1px solid var(--beige);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  text-align: left;
+  transition: background 0.15s;
+}
+
+.menu-last-place:hover {
+  background: var(--beige);
+}
+
+.menu-last-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.menu-last-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.menu-last-text em {
+  font-size: 10px;
+  color: var(--gray);
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.menu-last-text strong {
+  font-size: 13px;
+  color: var(--ink);
+  font-family: Georgia, serif;
+  font-weight: 600;
+}
+
+.menu-last-arrow {
+  font-size: 16px;
+  color: var(--terra);
+  flex-shrink: 0;
+}
+
+.menu-section-label {
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--terra);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 6px;
+}
+
+.menu-list {
+  border: 1px solid var(--beige);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.menu-item {
+  padding: 11px 14px;
+  font-size: 13px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--beige);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item:hover {
+  background: var(--sand);
+}
+
+.menu-item-muted {
+  color: var(--gray);
+  font-style: italic;
+  font-size: 12px;
+  cursor: default;
+}
+
+.menu-item-muted:hover {
+  background: transparent;
+}
+
+/* ─── mobile ──────────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .drawer-header {
+    display: flex;
+  }
+
+  #fab-menu {
+    display: flex;
+  }
+
+  #menu-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 92vw;
+    max-width: 360px;
+    z-index: 1001;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -4px 0 24px rgba(0, 0, 0, 0.18);
+    border-left: 1px solid var(--beige);
+  }
+
+  #menu-drawer.drawer-open {
+    transform: translateX(0);
+  }
+
+  #drawer-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.38);
+    z-index: 1000;
+    backdrop-filter: blur(1px);
+  }
+}
+
+@media (min-width: 769px) {
+  #drawer-overlay {
+    display: none !important;
+  }
+
+  #menu-drawer {
+    display: none;
+  }
+}

@@ -653,7 +653,7 @@
     bottom: 0;
     width: 92vw;
     max-width: 360px;
-    z-index: 100;
+    z-index: 1001;
     transform: translateX(100%);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: -4px 0 24px rgba(0, 0, 0, 0.18);
@@ -668,7 +668,7 @@
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.38);
-    z-index: 99;
+    z-index: 1000;
     backdrop-filter: blur(1px);
   }
 

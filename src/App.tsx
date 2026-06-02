@@ -295,8 +295,12 @@ function Panel({ lugar, year }: { lugar: Lugar; year: number }) {
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [year, setYear] = useState(-950)
+  const [drawerOpen, setDrawerOpen] = useState(false)
 
-  const handleSelect = useCallback((l: Lugar) => setSelected(l), [])
+  const handleSelect = useCallback((l: Lugar) => {
+    setSelected(l)
+    setDrawerOpen(true)
+  }, [])
 
   return (
     <div id="app">
@@ -324,7 +328,7 @@ export default function App() {
           <MapView onSelectLugar={handleSelect} selectedId={selected?.id} />
         </div>
 
-        <div id="panel">
+        <div id="panel" className={drawerOpen ? 'drawer-open' : ''}>
           {selected ? (
             <Panel key={selected.id} lugar={selected} year={year} />
           ) : (
@@ -351,6 +355,12 @@ export default function App() {
             <span className="nav-note">Mapa Interactivo AT · MVP v1</span>
           </div>
         </div>
+        {drawerOpen && (
+          <div
+            id="drawer-overlay"
+            onClick={() => setDrawerOpen(false)}
+          />
+        )}
       </div>
     </div>
   )

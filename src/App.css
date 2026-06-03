@@ -239,15 +239,18 @@
 .panel-body-scroll::-webkit-scrollbar { width: 4px; }
 .panel-body-scroll::-webkit-scrollbar-thumb { background: var(--beige); border-radius: 2px; }
 
-.panel-fade-bottom {
+.panel-body-scroll {
+  position: relative;
+}
+.panel-body-scroll::after {
+  content: "";
   position: sticky;
   bottom: 0;
-  left: 0;
-  right: 0;
+  display: block;
   height: 48px;
+  margin: -48px -14px 0;
   background: linear-gradient(to bottom, transparent, var(--paper));
   pointer-events: none;
-  margin: 0 -14px;
 }
 
 /* ─── accordion ───────────────────────────────────────────────────────────── */
@@ -752,7 +755,9 @@
   #drawer-overlay {
     display: block;
     position: fixed;
-    inset: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: rgba(0,0,0,0.38);
     z-index: 1000;
     backdrop-filter: blur(1px);

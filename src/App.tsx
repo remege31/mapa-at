@@ -162,7 +162,7 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
 }
 
 function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: () => void }) {
-  const [openAcc, setOpenAcc] = useState(0)
+  const [openAcc, setOpenAcc] = useState(-1)
   const toggle = (i: number) => setOpenAcc(prev => prev === i ? -1 : i)
   const tipoLabel = lugar.tipo === 'ciudad' ? 'Ciudad' : lugar.tipo === 'territorio' ? 'Territorio' : 'Región natural'
   const altitudLabel = typeof lugar.altitud_m === 'number' ? `${lugar.altitud_m} m` : lugar.altitud_m

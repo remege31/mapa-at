@@ -234,6 +234,7 @@
   overflow-y: auto;
   padding: 10px 14px;
   position: relative;
+  position: relative;
 }
 
 .panel-body-scroll::-webkit-scrollbar { width: 4px; }
@@ -783,4 +784,45 @@
   #drawer-overlay { display: none !important; }
   #menu-drawer { display: none; }
   #topbar-menu-btn { display: none; }
+}
+
+.panel-body-scroll::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: linear-gradient(to bottom, transparent, var(--paper));
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* ─── menu items sin contenido ───────────────────────────────────────────── */
+.menu-item-disabled {
+  color: var(--gray);
+  opacity: 0.5;
+  cursor: default;
+  font-style: italic;
+}
+.menu-item-disabled:hover { background: transparent; }
+
+/* ─── fade inferior drawer — anclado al borde ────────────────────────────── */
+.drawer-fade-wrap {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.drawer-fade-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: linear-gradient(to bottom, transparent, var(--paper));
+  pointer-events: none;
+  z-index: 2;
 }

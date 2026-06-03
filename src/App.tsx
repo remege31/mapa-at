@@ -170,7 +170,7 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
   return (
     <>
       <DrawerHeader title={lugar.nombre} onClose={onClose} />
-      <div id="panel-body" className="panel-body-scroll">
+      <div className="drawer-fade-wrap"><div id="panel-body" className="panel-body-scroll">
         <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
           <div className="grid2">
             <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
@@ -226,8 +226,8 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
           </div>
           {lugar.eventos_paralelos.map(e => <EventoCard key={e.civilizacion} e={e} />)}
         </Acc>
-        <div className="panel-fade-bottom" />
-      </div>
+        
+      </div></div>
     </>
   )
 }
@@ -252,19 +252,26 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
         </button>
         <div className="menu-section-label">El mapa</div>
         <div className="menu-list">
-          <div className="menu-item">📖 Acerca del proyecto</div>
-          <div className="menu-item">📚 Fuentes consultadas</div>
-          <div className="menu-item">❓ Cómo usar el mapa</div>
+          <div className="menu-item menu-item-disabled">📖 Acerca del proyecto</div>
+          <div className="menu-item menu-item-disabled">📚 Fuentes consultadas</div>
+          <div className="menu-item menu-item-disabled">❓ Cómo usar el mapa</div>
         </div>
         <div className="menu-section-label">Información</div>
         <div className="menu-list">
-          <div className="menu-item">✍ Créditos</div>
+          <div className="menu-item menu-item-disabled">✍ Créditos</div>
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
       <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
     </>
   )
+}
+
+async function loadJerusalen(): Promise<Lugar | null> {
+  try {
+    const res = await fetch('/data/jerusalen.json')
+    return await res.json()
+  } catch { return null }
 }
 
 export default function App() {
@@ -296,7 +303,17 @@ export default function App() {
 
   const closeAll = () => { setDrawerOpen(false); setMenuOpen(false) }
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
-  const goToLastPlace = () => { setMenuOpen(false); setDrawerOpen(true) }
+  const goToLastPlace = async () => {
+    if (selected) {
+      setMenuOpen(false)
+      setDrawerOpen(true)
+    } else {
+      const jer = await loadJerusalen()
+      if (jer) setSelected(jer)
+      setMenuOpen(false)
+      setDrawerOpen(true)
+    }
+  }
   const anyOpen = drawerOpen || menuOpen
 
   const drawerStyle = { top: `${drawerTop}px` }

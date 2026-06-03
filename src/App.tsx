@@ -163,8 +163,13 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
 
 function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: () => void }) {
   const [openAcc, setOpenAcc] = useState(-1)
-  const [showFade, setShowFade] = useState(true)
+  const [showFade, setShowFade] = useState(false)
   const bodyRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const el = bodyRef.current
+    if (el) setShowFade(el.scrollHeight > el.clientHeight)
+  }, [openAcc])
 
   const handleScroll = () => {
     const el = bodyRef.current
@@ -290,7 +295,7 @@ export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [year, setYear] = useState(-950)
   const [drawerOpen, setDrawerOpen] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
   const [drawerTop, setDrawerTop] = useState(82)
 
   const topbarRef = useRef<HTMLDivElement>(null)

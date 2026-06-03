@@ -354,12 +354,11 @@ export default function App() {
               </div>
             </>
           )}
-          <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
         </div>
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
           <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
         </div>
-        {anyOpen && <div id="drawer-overlay" onClick={closeAll} />}
+        {anyOpen && <div id="drawer-overlay" className={window.innerWidth >= 769 ? "desktop-active" : ""} onClick={closeAll} />}
       </div>
     </div>
   )

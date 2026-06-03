@@ -773,8 +773,29 @@
 
 @media (min-width: 769px) {
   #drawer-overlay { display: none !important; }
-  #menu-drawer { display: none; }
-  #topbar-menu-btn { display: none; }
+  #menu-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 340px;
+    z-index: 1001;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.18);
+    border-left: 1px solid var(--beige);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #menu-drawer.drawer-open { transform: translateX(0); }
+  #drawer-overlay.desktop-active {
+    display: block !important;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.18);
+    z-index: 1000;
+  }
 }
 
 .panel-body-scroll::after {

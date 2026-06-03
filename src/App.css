@@ -243,16 +243,7 @@
 .panel-body-scroll {
   position: relative;
 }
-.panel-body-scroll::after {
-  content: "";
-  position: sticky;
-  bottom: 0;
-  display: block;
-  height: 48px;
-  margin: -48px -14px 0;
-  background: linear-gradient(to bottom, transparent, var(--paper));
-  pointer-events: none;
-}
+
 
 /* ─── accordion ───────────────────────────────────────────────────────────── */
 
@@ -824,5 +815,16 @@
   margin-top: -48px;
   background: linear-gradient(to bottom, transparent, var(--paper));
   pointer-events: none;
+  z-index: 2;
+}
+
+/* ─── fade sobre footer ───────────────────────────────────────────────────── */
+.panel-scroll-fade {
+  height: 48px;
+  margin-top: -48px;
+  background: linear-gradient(to bottom, transparent, var(--paper));
+  pointer-events: none;
+  flex-shrink: 0;
+  position: relative;
   z-index: 2;
 }

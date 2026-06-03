@@ -147,7 +147,6 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
     <div className="drawer-header">
       <button className="drawer-close-btn" onClick={onClose} aria-label="Cerrar">✕</button>
       <span className="drawer-header-title">{title}</span>
-      <span className="drawer-header-right">☰</span>
     </div>
   )
 }
@@ -287,7 +286,7 @@ export default function App() {
     <div id="app">
       <div id="topbar">
         <span id="topbar-title">Mapa Interactivo · Antiguo Testamento</span>
-        <span id="topbar-badge">MVP v1 · React + Leaflet</span>
+        <button id="topbar-menu-btn" onClick={openMenu} aria-label="Menú">☰</button>
       </div>
       <div id="timeline-bar">
         <span className="tl-label">Período</span>
@@ -322,7 +321,6 @@ export default function App() {
         </div>
         {anyOpen && <div id="drawer-overlay" onClick={closeAll} />}
       </div>
-      <button id="fab-menu" onClick={openMenu} aria-label="Menú">☰</button>
     </div>
   )
 }

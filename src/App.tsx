@@ -228,6 +228,8 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
         </Acc>
         
       </div></div>
+      <div className="panel-scroll-fade" />
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
     </>
   )
 }

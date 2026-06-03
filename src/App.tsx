@@ -163,6 +163,16 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
 
 function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: () => void }) {
   const [openAcc, setOpenAcc] = useState(-1)
+  const [showFade, setShowFade] = useState(true)
+  const bodyRef = useRef<HTMLDivElement>(null)
+
+  const handleScroll = () => {
+    const el = bodyRef.current
+    if (!el) return
+    const atBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 10
+    setShowFade(!atBottom)
+  }
+
   const toggle = (i: number) => setOpenAcc(prev => prev === i ? -1 : i)
   const tipoLabel = lugar.tipo === 'ciudad' ? 'Ciudad' : lugar.tipo === 'territorio' ? 'Territorio' : 'Región natural'
   const altitudLabel = typeof lugar.altitud_m === 'number' ? `${lugar.altitud_m} m` : lugar.altitud_m
@@ -170,7 +180,7 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
   return (
     <>
       <DrawerHeader title={lugar.nombre} onClose={onClose} />
-      <div className="drawer-fade-wrap"><div id="panel-body" className="panel-body-scroll">
+      <div className="drawer-fade-wrap"><div id="panel-body" className="panel-body-scroll" ref={bodyRef} onScroll={handleScroll}>
         <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
           <div className="grid2">
             <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
@@ -228,7 +238,7 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
         </Acc>
         
       </div></div>
-      <div className="panel-scroll-fade" />
+      {showFade && <div className="panel-scroll-fade" />}
       <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
     </>
   )

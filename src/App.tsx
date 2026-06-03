@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import type { ReactNode } from 'react'
 import { MapView } from './components/MapView'
 import type {
@@ -142,6 +142,16 @@ function EventoCard({ e }: { e: EventoParalelo }) {
   )
 }
 
+function HamburgerIcon() {
+  return (
+    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="20" height="2" rx="1" fill="currentColor"/>
+      <rect y="6" width="14" height="2" rx="1" fill="currentColor"/>
+      <rect y="12" width="17" height="2" rx="1" fill="currentColor"/>
+    </svg>
+  )
+}
+
 function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }) {
   return (
     <div className="drawer-header">
@@ -160,15 +170,7 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
   return (
     <>
       <DrawerHeader title={lugar.nombre} onClose={onClose} />
-      <div id="panel-head">
-        <div id="panel-name">{lugar.nombre}</div>
-        <div id="panel-tags">
-          <span className="ptag">{tipoLabel}</span>
-          <span className="ptag">{lugar.jerarquia_pin === 'primario' ? 'Principal' : 'Secundario'}</span>
-          <span className="ptag-freq">↑ {lugar.frecuencia_at} menciones AT</span>
-        </div>
-      </div>
-      <div id="panel-body">
+      <div id="panel-body" className="panel-body-scroll">
         <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
           <div className="grid2">
             <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
@@ -224,6 +226,7 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
           </div>
           {lugar.eventos_paralelos.map(e => <EventoCard key={e.civilizacion} e={e} />)}
         </Acc>
+        <div className="panel-fade-bottom" />
       </div>
     </>
   )
@@ -232,20 +235,21 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
 function MenuNav({ lastPlace, onGoToPlace, onClose }: {
   lastPlace: Lugar | null; onGoToPlace: () => void; onClose: () => void
 }) {
+  const displayPlace = lastPlace?.nombre ?? 'Jerusalén'
+  const labelPrefix = lastPlace ? 'Última consulta:' : 'Explorar:'
+
   return (
     <>
       <DrawerHeader title="Menú" onClose={onClose} />
-      <div id="panel-body">
-        {lastPlace && (
-          <button className="menu-last-place" onClick={onGoToPlace}>
-            <span className="menu-last-icon">🗺</span>
-            <span className="menu-last-text">
-              <em>Última consulta:</em>
-              <strong>{lastPlace.nombre}</strong>
-            </span>
-            <span className="menu-last-arrow">→</span>
-          </button>
-        )}
+      <div id="panel-body" className="panel-body-scroll">
+        <button className="menu-last-place" onClick={onGoToPlace}>
+          <span className="menu-last-icon">🗺</span>
+          <span className="menu-last-text">
+            <em>{labelPrefix}</em>
+            <strong>{displayPlace}</strong>
+          </span>
+          <span className="menu-last-arrow">→</span>
+        </button>
         <div className="menu-section-label">El mapa</div>
         <div className="menu-list">
           <div className="menu-item">📖 Acerca del proyecto</div>
@@ -258,9 +262,7 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
-      <div id="panel-nav">
-        <span className="nav-note">Mapa Interactivo AT · MVP v1</span>
-      </div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
     </>
   )
 }
@@ -270,6 +272,21 @@ export default function App() {
   const [year, setYear] = useState(-950)
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [drawerTop, setDrawerTop] = useState(82)
+
+  const topbarRef = useRef<HTMLDivElement>(null)
+  const timelineRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    function measure() {
+      const t = topbarRef.current?.offsetHeight ?? 38
+      const tl = timelineRef.current?.offsetHeight ?? 44
+      setDrawerTop(t + tl)
+    }
+    measure()
+    window.addEventListener('resize', measure)
+    return () => window.removeEventListener('resize', measure)
+  }, [])
 
   const handleSelect = useCallback((l: Lugar) => {
     setSelected(l)
@@ -282,13 +299,17 @@ export default function App() {
   const goToLastPlace = () => { setMenuOpen(false); setDrawerOpen(true) }
   const anyOpen = drawerOpen || menuOpen
 
+  const drawerStyle = { top: `${drawerTop}px` }
+
   return (
     <div id="app">
-      <div id="topbar">
+      <div id="topbar" ref={topbarRef}>
         <span id="topbar-title">Mapa Interactivo · Antiguo Testamento</span>
-        <button id="topbar-menu-btn" onClick={openMenu} aria-label="Menú">☰</button>
+        <button id="topbar-menu-btn" onClick={openMenu} aria-label="Menú">
+          <HamburgerIcon />
+        </button>
       </div>
-      <div id="timeline-bar">
+      <div id="timeline-bar" ref={timelineRef}>
         <span className="tl-label">Período</span>
         <input type="range" min={-1500} max={-400} value={year} step={10} id="timeline" onChange={e => setYear(Number(e.target.value))} />
         <div id="period-wrap">
@@ -300,7 +321,7 @@ export default function App() {
         <div id="map-wrap">
           <MapView onSelectLugar={handleSelect} selectedId={selected?.id} />
         </div>
-        <div id="panel" className={drawerOpen ? 'drawer-open' : ''}>
+        <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>
           {selected ? (
             <Panel key={selected.id} lugar={selected} year={year} onClose={closeAll} />
           ) : (
@@ -316,7 +337,7 @@ export default function App() {
           )}
           <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
         </div>
-        <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''}>
+        <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
           <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
         </div>
         {anyOpen && <div id="drawer-overlay" onClick={closeAll} />}

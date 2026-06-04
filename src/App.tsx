@@ -332,7 +332,8 @@ export default function App() {
       setDrawerOpen(true)
     }
   }
-  const anyOpen = drawerOpen || menuOpen
+  const isMobile = window.innerWidth < 769
+  const anyOpen = menuOpen || (drawerOpen && isMobile)
 
   const drawerStyle = { top: `${drawerTop}px` }
 

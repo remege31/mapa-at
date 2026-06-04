@@ -296,6 +296,7 @@ export default function App() {
   const [year, setYear] = useState(-950)
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
+  const [timelineActive, setTimelineActive] = useState(true)
   const [drawerTop, setDrawerTop] = useState(82)
 
   const topbarRef = useRef<HTMLDivElement>(null)
@@ -345,15 +346,16 @@ export default function App() {
       </div>
       <div id="timeline-bar" ref={timelineRef}>
         <span className="tl-label">Período</span>
-        <input type="range" min={-1500} max={-400} value={year} step={10} id="timeline" onChange={e => setYear(Number(e.target.value))} />
-        <div id="period-wrap">
+        <input type="range" min={-1500} max={-400} value={year} step={10} id="timeline" onChange={e => setYear(Number(e.target.value))} disabled={!timelineActive} style={{opacity: timelineActive ? 1 : 0.35}} />
+        <button id="timeline-eye" onClick={() => setTimelineActive(a => !a)} aria-label="Activar/desactivar filtro de período" title={timelineActive ? "Desactivar filtro temporal" : "Activar filtro temporal"}>{timelineActive ? "👁" : "🙈"}</button>
+          <div id="period-wrap" style={{opacity: timelineActive ? 1 : 0.35}}>
           <span id="period-name">{getPeriodName(year)}</span>
           <span id="period-year">← año: {Math.abs(year)} a.C.</span>
         </div>
       </div>
       <div id="main">
         <div id="map-wrap">
-          <MapView onSelectLugar={handleSelect} selectedId={selected?.id} />
+          <MapView onSelectLugar={handleSelect} selectedId={selected?.id} year={year} timelineActive={timelineActive} />
         </div>
         <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>
           {selected ? (

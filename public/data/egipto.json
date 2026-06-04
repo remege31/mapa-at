@@ -8,17 +8,39 @@
   "jerarquia_pin": "primario",
   "nota_coordenadas": "Anclado en Menfis antigua (Mit Rahina, Gobernación de Giza) — capital más relevante de Egipto en el período del AT, mencionada como 'Nof' o 'Mof' en los profetas bíblicos",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Imperio Nuevo — Ramsés II, Éxodo" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Declive del Imperio Nuevo" },
-    { "desde": -1000, "hasta": -664,  "nombre": "Tercer Período Intermedio" },
-    { "desde": -664,  "hasta": -400,  "nombre": "Período Tardío — Influencia persa" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Imperio Nuevo — Ramsés II, Éxodo"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Declive del Imperio Nuevo"
+    },
+    {
+      "desde": -1000,
+      "hasta": -664,
+      "nombre": "Tercer Período Intermedio"
+    },
+    {
+      "desde": -664,
+      "hasta": -400,
+      "nombre": "Período Tardío — Influencia persa"
+    }
   ],
   "descripcion_geo": "Territorio del noreste de África, definido geográficamente por el valle del Nilo entre la primera catarata (Asuán) y el Delta mediterráneo. El Nilo es el eje vital: sus crecidas anuales depositan el limo fértil que hace posible la agricultura en el desierto. Menfis, en el vértice del Delta (a 20 km al sur del Cairo actual), fue la capital del Imperio Antiguo y Medio — cruce estratégico entre el Alto y el Bajo Egipto.",
   "altitud_m": "22 m (Menfis / Mit Rahina) — llanura aluvial del Nilo",
   "clima": "Desértico árido — menos de 50 mm de lluvia anual. Toda la vida depende del Nilo. Veranos extremadamente calurosos, inviernos templados. La crecida del Nilo (junio-septiembre) era el evento anual central.",
-  "recursos": ["Suelo aluvial del Nilo (grano, papiro, lino)", "Piedra caliza y granito (construcción)", "Oro (Nubia)", "Cobre (Sinaí)", "Comercio del Mar Rojo (incienso, marfil)", "Papiro (escritura y exportación)"],
+  "recursos": [
+    "Suelo aluvial del Nilo (grano, papiro, lino)",
+    "Piedra caliza y granito (construcción)",
+    "Oro (Nubia)",
+    "Cobre (Sinaí)",
+    "Comercio del Mar Rojo (incienso, marfil)",
+    "Papiro (escritura y exportación)"
+  ],
   "importancia_estrategica": "Potencia dominante del Mediterráneo oriental durante más de 1500 años del período AT. Control del corredor cananeo fue objetivo permanente. La esclavitud israelita en Egipto y el Éxodo son el evento fundacional de la identidad de Israel como pueblo liberado por Yahvé.",
-
   "otros_habitantes": [
     {
       "id": "egipcios",
@@ -49,34 +71,51 @@
       "periodo": "c. 744–656 a.C. (como faraones)"
     }
   ],
-
   "historias": [
     {
       "id": "jose-egipto",
       "titulo": "José en Egipto",
       "fecha": "c. 1700–1600 a.C. (trad.)",
       "descripcion": "José, vendido como esclavo por sus hermanos, asciende hasta convertirse en visir del faraón. Su interpretación de los sueños salva a Egipto y Canaán de la hambruna. Su historia es el puente narrativo entre los patriarcas y el período de la esclavitud y el Éxodo.",
-      "referencias": ["Gén 37:1-36", "Gén 39:1-41:57", "Gén 45:1-28"],
-      "personajes_clave": ["jose"]
+      "referencias": [
+        "Gén 37:1-36",
+        "Gén 39:1-41:57",
+        "Gén 45:1-28"
+      ],
+      "personajes_clave": [
+        "jose"
+      ]
     },
     {
       "id": "exodo",
       "titulo": "El Éxodo de Egipto",
       "fecha": "c. 1250 a.C. (trad.)",
       "descripcion": "Moisés lidera la liberación del pueblo israelita de la esclavitud en Egipto tras las diez plagas. El cruce del Mar de los Juncos y la marcha por el Sinaí son los eventos fundacionales de la identidad de Israel como pueblo liberado por Yahvé. El Éxodo es el centro gravitacional de toda la teología del AT.",
-      "referencias": ["Éx 1:1-15:21", "Éx 12:29-42", "Éx 14:5-31"],
-      "personajes_clave": ["moises", "aaron", "faraon"]
+      "referencias": [
+        "Éx 1:1-15:21",
+        "Éx 12:29-42",
+        "Éx 14:5-31"
+      ],
+      "personajes_clave": [
+        "moises",
+        "aaron",
+        "faraon"
+      ]
     },
     {
       "id": "huida-jeremias-egipto",
       "titulo": "El refugio en Egipto tras la caída de Jerusalén",
       "fecha": "586 a.C.",
       "descripcion": "Tras la destrucción de Jerusalén, un grupo de judíos —contra la advertencia de Jeremías— huye a Egipto (Tahpanhes / Defne) llevándose al profeta. Jeremías continúa profetizando en Egipto. La ironía histórica es total: Israel regresa a la tierra de la esclavitud.",
-      "referencias": ["Jr 41:16-43:13", "Jr 44:1-30"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jr 41:16-43:13",
+        "Jr 44:1-30"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
-
   "personajes": [
     {
       "id": "moises",
@@ -85,8 +124,18 @@
       "rol": "Libertador — legislador — mediador de la Alianza",
       "periodo": "c. 1300–1200 a.C. (trad.)",
       "descripcion": "Nacido en Egipto, educado en la corte del faraón y refugiado en Madián, Moisés es llamado por Yahvé en el Sinaí para liberar a Israel. Mediador de la Torá en el Monte Sinaí. La figura humana más mencionada en el AT.",
-      "referencias": ["Éx 2:1-25", "Éx 3:1-4:17", "Éx 19:1-20:21", "Dt 34:1-12"],
-      "ruta": ["egipto", "madian", "sinai", "canaan"]
+      "referencias": [
+        "Éx 2:1-25",
+        "Éx 3:1-4:17",
+        "Éx 19:1-20:21",
+        "Dt 34:1-12"
+      ],
+      "ruta": [
+        "egipto",
+        "madian",
+        "sinai",
+        "canaan"
+      ]
     },
     {
       "id": "jose",
@@ -95,8 +144,13 @@
       "rol": "Patriarca — visir de Egipto",
       "periodo": "c. 1700–1600 a.C. (trad.)",
       "descripcion": "Hijo de Jacob, vendido como esclavo y elevado a visir de Egipto. Su historia prefigura el tema de la providencia divina que actúa a través del sufrimiento. El relato más literariamente elaborado del Génesis.",
-      "referencias": ["Gén 37:1-50:26"],
-      "ruta": ["canaan", "egipto"]
+      "referencias": [
+        "Gén 37:1-50:26"
+      ],
+      "ruta": [
+        "canaan",
+        "egipto"
+      ]
     },
     {
       "id": "jeremias-egipto",
@@ -105,19 +159,31 @@
       "rol": "Profeta — testigo del exilio en Egipto",
       "periodo": "c. 586 a.C.",
       "descripcion": "Llevado contra su voluntad a Egipto tras la caída de Jerusalén. Profetiza contra los judíos refugiados en Egipto que regresan al culto de 'la Reina del Cielo' (Ishtar/Isis). Su presencia en Egipto cierra el círculo de la historia del AT.",
-      "referencias": ["Jr 43:1-44:30"],
-      "ruta": ["jerusalen", "egipto"]
+      "referencias": [
+        "Jr 43:1-44:30"
+      ],
+      "ruta": [
+        "jerusalen",
+        "egipto"
+      ]
     }
   ],
-
   "contexto_religioso": {
     "contexto_lugar": "Egipto representa en el AT el polo opuesto a Yahvé: tierra de esclavitud, politeísmo y muerte. La salida de Egipto (Éxodo) es el acto fundacional de la fe de Israel. Sin embargo, Egipto es también refugio en tiempos de crisis (Abraham, José, la Sagrada Familia en el NT). La ambivalencia de Egipto en el AT refleja la complejidad de la relación histórica.",
-    "religiones_presentes": ["Politeísmo egipcio (Ra, Osiris, Isis, Ptah, Amon)", "Culto de Atón (monoteísmo efímero bajo Akenatón, c. 1350 a.C.)", "Yahvismo israelita (en tensión con Egipto)"],
+    "religiones_presentes": [
+      "Politeísmo egipcio (Ra, Osiris, Isis, Ptah, Amon)",
+      "Culto de Atón (monoteísmo efímero bajo Akenatón, c. 1350 a.C.)",
+      "Yahvismo israelita (en tensión con Egipto)"
+    ],
     "mitos": [
       {
         "id": "plagas-egipto",
         "nombre": "Las Diez Plagas de Egipto",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Éx 7:14-12:36",
           "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Éxodo 9-10",
@@ -148,7 +214,6 @@
       }
     ]
   },
-
   "eventos_paralelos": [
     {
       "civilizacion": "Egipto",
@@ -222,5 +287,11 @@
       "evento": "Civilización olmeca — pirámides mesoamericanas",
       "descripcion": "La civilización olmeca construye pirámides escalonadas en el Golfo de México simultáneamente al período de las grandes pirámides tardías de Egipto. Las similitudes arquitectónicas son resultado de convergencia cultural independiente, no de contacto."
     }
+  ],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2",
+    "post_exilio"
   ]
 }

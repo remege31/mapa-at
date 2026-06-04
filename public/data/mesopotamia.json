@@ -8,18 +8,44 @@
   "jerarquia_pin": "primario",
   "nota_coordenadas": "Anclado en las ruinas de Babilonia antigua (cerca de Hilla, Iraq) — ciudad más mencionada del AT dentro del territorio mesopotámico",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Casitas en Babilonia" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Transición y fragmentación" },
-    { "desde": -1000, "hasta": -609,  "nombre": "Hierro II — Imperio Neoasirio" },
-    { "desde": -626,  "hasta": -539,  "nombre": "Imperio Neobabilónico" },
-    { "desde": -539,  "hasta": -400,  "nombre": "Dominio Persa (Aqueménida)" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Casitas en Babilonia"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Transición y fragmentación"
+    },
+    {
+      "desde": -1000,
+      "hasta": -609,
+      "nombre": "Hierro II — Imperio Neoasirio"
+    },
+    {
+      "desde": -626,
+      "hasta": -539,
+      "nombre": "Imperio Neobabilónico"
+    },
+    {
+      "desde": -539,
+      "hasta": -400,
+      "nombre": "Dominio Persa (Aqueménida)"
+    }
   ],
   "descripcion_geo": "Región entre los ríos Tigris y Éufrates, desde las montañas de Anatolia hasta el Golfo Pérsico. El nombre griego significa 'tierra entre los ríos'. Las inundaciones anuales depositaban limo fértil que hizo posible las primeras ciudades del mundo. Carente de piedra y madera, Mesopotamia dependía del comercio con el Levante, Anatolia e India. La llanura aluvial del sur (Babilonia/Sumer) y las tierras altas del norte (Asiria) definen sus dos zonas culturales principales.",
   "altitud_m": "Variable — desde el nivel del mar (sur) hasta 500 m (norte, Asiria)",
   "clima": "Semiárido continental — veranos extremadamente calurosos (45°C), inviernos fríos. Lluvia escasa; toda la agricultura depende del riego por canales desde el Éufrates y el Tigris.",
-  "recursos": ["Suelo aluvial fértil (con riego)", "Arcilla para ladrillo y tablillas cuneiformes", "Asfalto (betún natural)", "Dátiles", "Lana y textiles", "Posición en rutas comerciales hacia India, Egipto y Anatolia"],
+  "recursos": [
+    "Suelo aluvial fértil (con riego)",
+    "Arcilla para ladrillo y tablillas cuneiformes",
+    "Asfalto (betún natural)",
+    "Dátiles",
+    "Lana y textiles",
+    "Posición en rutas comerciales hacia India, Egipto y Anatolia"
+  ],
   "importancia_estrategica": "Cruce de las rutas comerciales entre el Mediterráneo, India y el Golfo Pérsico. Las grandes potencias mesopotamicas (Asiria, Babilonia) controlaron el Levante y presionaron directamente sobre Israel y Judá durante toda la Edad de Hierro.",
-
   "otros_habitantes": [
     {
       "id": "sumerios",
@@ -50,22 +76,29 @@
       "periodo": "c. 1000–539 a.C."
     }
   ],
-
   "historias": [
     {
       "id": "origen-abraham",
       "titulo": "Abraham parte de Ur",
       "fecha": "c. 2000–1800 a.C. (trad.)",
       "descripcion": "Abraham (Abram) parte de Ur de los Caldeos, en el sur de Mesopotamia, llamado por Yahvé hacia Canaán. La salida de Mesopotamia es el primer movimiento de la historia de la salvación — el punto de partida geográfico y teológico del AT.",
-      "referencias": ["Gén 11:31-32", "Gén 12:1-5", "Hch 7:2-4"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 11:31-32",
+        "Gén 12:1-5",
+        "Hch 7:2-4"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "torre-babel",
       "titulo": "La Torre de Babel",
       "fecha": "Época primordial (relato etiológico)",
       "descripcion": "En la llanura de Sinear (Mesopotamia), la humanidad construye una torre para llegar al cielo. Yahvé confunde las lenguas y dispersa los pueblos. El zigurat babilónico es el referente arquitectónico del relato.",
-      "referencias": ["Gén 11:1-9"],
+      "referencias": [
+        "Gén 11:1-9"
+      ],
       "personajes_clave": []
     },
     {
@@ -73,11 +106,19 @@
       "titulo": "El Exilio babilónico",
       "fecha": "597–539 a.C.",
       "descripcion": "Nabucodonosor II deporta a la élite judía a Babilonia en dos oleadas (597 y 586 a.C.). En Mesopotamia, el judaísmo se transforma: surge la sinagoga como institución, se recopilan las Escrituras, se desarrolla la esperanza mesiánica. El Exilio es el crisol del judaísmo clásico.",
-      "referencias": ["2 Re 24:10-17", "2 Re 25:1-21", "Sal 137:1-9", "Ez 1:1-3"],
-      "personajes_clave": ["daniel", "ezequiel", "nabucodonosor"]
+      "referencias": [
+        "2 Re 24:10-17",
+        "2 Re 25:1-21",
+        "Sal 137:1-9",
+        "Ez 1:1-3"
+      ],
+      "personajes_clave": [
+        "daniel",
+        "ezequiel",
+        "nabucodonosor"
+      ]
     }
   ],
-
   "personajes": [
     {
       "id": "abraham-meso",
@@ -86,8 +127,16 @@
       "rol": "Patriarca — origen en Ur de Caldea",
       "periodo": "c. 2000–1800 a.C. (trad.)",
       "descripcion": "Natural de Ur, ciudad sumeria en el sur de Mesopotamia. Su llamada y partida hacia Canaán es el acto fundacional de la historia bíblica. Mesopotamia es su tierra de origen — Canaán, su tierra de destino.",
-      "referencias": ["Gén 11:28-31", "Gén 15:7", "Neh 9:7"],
-      "ruta": ["ur", "haran", "canaan"]
+      "referencias": [
+        "Gén 11:28-31",
+        "Gén 15:7",
+        "Neh 9:7"
+      ],
+      "ruta": [
+        "ur",
+        "haran",
+        "canaan"
+      ]
     },
     {
       "id": "daniel",
@@ -96,8 +145,15 @@
       "rol": "Profeta en la corte babilónica",
       "periodo": "c. 605–536 a.C.",
       "descripcion": "Joven judío deportado a Babilonia que sirve en la corte de Nabucodonosor. Interpreta sueños y visiones. Su libro es el texto apocalíptico más influyente del AT y refleja la experiencia de la diáspora mesopotámica.",
-      "referencias": ["Dn 1:1-21", "Dn 2:1-49", "Dn 6:1-28"],
-      "ruta": ["jerusalen", "mesopotamia"]
+      "referencias": [
+        "Dn 1:1-21",
+        "Dn 2:1-49",
+        "Dn 6:1-28"
+      ],
+      "ruta": [
+        "jerusalen",
+        "mesopotamia"
+      ]
     },
     {
       "id": "ezequiel",
@@ -106,19 +162,34 @@
       "rol": "Profeta del Exilio en Babilonia",
       "periodo": "c. 593–571 a.C.",
       "descripcion": "Sacerdote deportado que profetiza entre los exiliados en el río Quebar (Mesopotamia). Sus visiones (la carroza divina, el valle de los huesos secos, el nuevo Templo) son los textos más visionarios del profetismo bíblico.",
-      "referencias": ["Ez 1:1-28", "Ez 37:1-14", "Ez 40:1-49"],
-      "ruta": ["jerusalen", "mesopotamia"]
+      "referencias": [
+        "Ez 1:1-28",
+        "Ez 37:1-14",
+        "Ez 40:1-49"
+      ],
+      "ruta": [
+        "jerusalen",
+        "mesopotamia"
+      ]
     }
   ],
-
   "contexto_religioso": {
     "contexto_lugar": "Mesopotamia es el origen de muchos de los mitos y estructuras literarias que el AT reinterpreta desde una perspectiva monoteísta: el diluvio universal, la creación desde el caos, el jardín primordial, la figura del rey-sacerdote. El Exilio babilónico obliga al judaísmo a reformularse sin tierra ni Templo, generando sus instituciones más duraderas.",
-    "religiones_presentes": ["Politeísmo sumerio-acadio (Anu, Enlil, Enki)", "Politeísmo babilónico (Marduk, Ishtar)", "Politeísmo asirio (Assur, Ishtar)", "Zoroastrismo (influencia persa post-539 a.C.)"],
+    "religiones_presentes": [
+      "Politeísmo sumerio-acadio (Anu, Enlil, Enki)",
+      "Politeísmo babilónico (Marduk, Ishtar)",
+      "Politeísmo asirio (Assur, Ishtar)",
+      "Zoroastrismo (influencia persa post-539 a.C.)"
+    ],
     "mitos": [
       {
         "id": "diluvio",
         "nombre": "El Diluvio Universal",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 6:1-9:29",
           "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Génesis 28-36",
@@ -149,7 +220,6 @@
       }
     ]
   },
-
   "eventos_paralelos": [
     {
       "civilizacion": "Egipto",
@@ -223,5 +293,11 @@
       "evento": "Declive olmeca y emergencia de Teotihuacán",
       "descripcion": "La civilización olmeca declina. Emergen culturas regionales en el Valle de México y Oaxaca. Monte Albán (zapoteca) es fundado c. 500 a.C. Sin ningún contacto con el mundo mesopotámico."
     }
+  ],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2",
+    "post_exilio"
   ]
 }

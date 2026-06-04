@@ -8,16 +8,33 @@
   "jerarquia_pin": "secundario",
   "nota_coordenadas": "Centro geográfico de la Península del Sinaí — entre el Golfo de Suez (oeste) y el Golfo de Aqaba (este)",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Éxodo y peregrinación" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Período de los Jueces" },
-    { "desde": -1000, "hasta": -586,  "nombre": "Hierro II — Ruta comercial activa" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Éxodo y peregrinación"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Período de los Jueces"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ruta comercial activa"
+    }
   ],
   "descripcion_geo": "Península triangular entre África y Asia, entre el Mar Mediterráneo al norte, el Golfo de Suez al oeste y el Golfo de Aqaba al este. Aproximadamente 61.000 km². Tres zonas distintas: llanura del norte (arenosa y árida), meseta central del Tih (piedra caliza, desolada) y macizo montañoso del sur (granito, hasta 2637 m en el Jabal Katrina). El desierto más inhóspito entre Egipto y Canaán — único paso terrestre entre África y Asia.",
   "altitud_m": "Variable — desde el nivel del mar hasta 2637 m (Jabal Katrina, 'Monte Santa Catalina'). Monte Sinaí tradicional (Jabal Musa): 2285 m.",
   "clima": "Hiperárido — menos de 25 mm de lluvia anual en el sur; algo más en el norte. Temperaturas extremas: 45°C en verano en las llanuras, bajo cero en las cumbres en invierno. Noches frías incluso en verano.",
-  "recursos": ["Cobre (minas de Timna, explotadas desde el Bronce Antiguo)", "Turquesa (Serabit el-Jadim — minas de turquesa del Imperio Nuevo egipcio)", "Mangane­so", "Rutas comerciales (Arabia-Egipto-Canaán)", "Agua en oasis (Kadesh-Barnea, Elim, Refidim)"],
+  "recursos": [
+    "Cobre (minas de Timna, explotadas desde el Bronce Antiguo)",
+    "Turquesa (Serabit el-Jadim — minas de turquesa del Imperio Nuevo egipcio)",
+    "Mangane­so",
+    "Rutas comerciales (Arabia-Egipto-Canaán)",
+    "Agua en oasis (Kadesh-Barnea, Elim, Refidim)"
+  ],
   "importancia_estrategica": "Único paso terrestre entre África y Asia — corredor obligado para ejércitos y caravanas. Región de revelación divina en el AT: el Sinaí es el espacio de la teofanía por excelencia. Su aridez extrema lo convierte en 'zona de prueba' — un espacio liminal entre la esclavitud (Egipto) y la tierra prometida (Canaán).",
-
   "otros_habitantes": [
     {
       "id": "madianitas",
@@ -41,34 +58,50 @@
       "periodo": "c. 1500–1000 a.C."
     }
   ],
-
   "historias": [
     {
       "id": "zarza-ardiente",
       "titulo": "La zarza ardiente — vocación de Moisés",
       "fecha": "c. 1280 a.C. (trad.)",
       "descripcion": "En el Monte Horeb (identificado con el Sinaí), Yahvé se revela a Moisés en la zarza que arde sin consumirse. Es la primera teofanía explícita del nombre divino: 'Yo soy el que soy' (YHWH). El Sinaí como montaña divina es establecido como espacio de revelación desde este momento.",
-      "referencias": ["Éx 3:1-4:17"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 3:1-4:17"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "decalogo",
       "titulo": "El Decálogo y la Alianza del Sinaí",
       "fecha": "c. 1250 a.C. (trad.)",
       "descripcion": "Moisés recibe las Tablas de la Ley en el Monte Sinaí. El Decálogo (Diez Mandamientos) establece los principios de la Alianza entre Yahvé e Israel. Este momento es el más denso teológicamente de todo el AT — el punto donde la geografía y la revelación se fusionan.",
-      "referencias": ["Éx 19:1-20:21", "Éx 24:1-18", "Dt 5:1-22"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 19:1-20:21",
+        "Éx 24:1-18",
+        "Dt 5:1-22"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "peregrinacion-40-anios",
       "titulo": "La peregrinación de los 40 años",
       "fecha": "c. 1250–1210 a.C. (trad.)",
       "descripcion": "Israel peregrina por el desierto del Sinaí durante 40 años antes de entrar en Canaán. El número 40 es teológico (generación completa) más que cronológico. El desierto es espacio de prueba, queja, maná, agua de la roca — y de la muerte de la generación del Éxodo.",
-      "referencias": ["Nm 14:33-34", "Nm 20:1-13", "Dt 8:1-20"],
-      "personajes_clave": ["moises", "aaron", "miriam"]
+      "referencias": [
+        "Nm 14:33-34",
+        "Nm 20:1-13",
+        "Dt 8:1-20"
+      ],
+      "personajes_clave": [
+        "moises",
+        "aaron",
+        "miriam"
+      ]
     }
   ],
-
   "personajes": [
     {
       "id": "moises-sinai",
@@ -77,8 +110,18 @@
       "rol": "Receptor de la Torá — mediador de la Alianza en el Sinaí",
       "periodo": "c. 1300–1200 a.C. (trad.)",
       "descripcion": "Su vida tiene tres actos geográficos: Egipto (nacimiento y formación), Sinaí/Madián (refugio y vocación), Éxodo/Sinaí (revelación y legislación). El Sinaí es el espacio de su mayor proximidad a Dios — 'cara a cara, como habla un hombre con su amigo' (Éx 33:11).",
-      "referencias": ["Éx 3:1-4:17", "Éx 19:1-20:21", "Éx 33:7-23", "Dt 34:1-12"],
-      "ruta": ["egipto", "madian", "sinai", "canaan"]
+      "referencias": [
+        "Éx 3:1-4:17",
+        "Éx 19:1-20:21",
+        "Éx 33:7-23",
+        "Dt 34:1-12"
+      ],
+      "ruta": [
+        "egipto",
+        "madian",
+        "sinai",
+        "canaan"
+      ]
     },
     {
       "id": "elias-sinai",
@@ -87,8 +130,14 @@
       "rol": "Profeta — peregrinación al Horeb",
       "periodo": "c. 875 a.C.",
       "descripcion": "Siglos después del Éxodo, Elías huye al Monte Horeb (Sinaí) en busca de Yahvé tras su victoria contra los profetas de Baal y la amenaza de Jezabel. Yahvé no se manifiesta en el viento, el terremoto ni el fuego — sino en 'la voz del silencio delgado'. El Sinaí como lugar de renovación profética.",
-      "referencias": ["1 Re 19:1-21"],
-      "ruta": ["monte-carmelo", "berseba", "sinai"]
+      "referencias": [
+        "1 Re 19:1-21"
+      ],
+      "ruta": [
+        "monte-carmelo",
+        "berseba",
+        "sinai"
+      ]
     },
     {
       "id": "miriam",
@@ -97,19 +146,33 @@
       "rol": "Profetisa — hermana de Moisés",
       "periodo": "c. 1250 a.C. (trad.)",
       "descripcion": "Hermana mayor de Moisés y Aarón. Lidera el cántico de triunfo tras el cruce del mar (Éx 15:20-21). Primera mujer llamada 'profetisa' en el AT. Muere y es sepultada en Cades (Nm 20:1) — en el desierto del Sinaí.",
-      "referencias": ["Éx 15:20-21", "Nm 12:1-16", "Nm 20:1"],
-      "ruta": ["egipto", "sinai"]
+      "referencias": [
+        "Éx 15:20-21",
+        "Nm 12:1-16",
+        "Nm 20:1"
+      ],
+      "ruta": [
+        "egipto",
+        "sinai"
+      ]
     }
   ],
-
   "contexto_religioso": {
     "contexto_lugar": "El Sinaí es el espacio de la teofanía por excelencia en el AT — la montaña donde Dios se revela, donde se entrega la Ley, donde se sella la Alianza. Su aridez extrema no es accidental: el desierto es el espacio liminal donde Israel aprende a depender exclusivamente de Yahvé, sin los recursos de la civilización. La tradición cristiana y el islam comparten el reconocimiento de la santidad del Sinaí.",
-    "religiones_presentes": ["Yahvismo (revelación en el Monte Sinaí)", "Cultos nómadas semíticos (madianitas, amalecitas)", "Religión egipcia (minas de turquesa en Serabit — templo a Hathor)"],
+    "religiones_presentes": [
+      "Yahvismo (revelación en el Monte Sinaí)",
+      "Cultos nómadas semíticos (madianitas, amalecitas)",
+      "Religión egipcia (minas de turquesa en Serabit — templo a Hathor)"
+    ],
     "mitos": [
       {
         "id": "teofania-sinai",
         "nombre": "La Revelación del Monte Sinaí",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Éx 19:1-20:21 · Dt 5:1-22",
           "fuente_secundaria": "// PENDIENTE — Talmud Babilónico, Shabbat 88a",
@@ -133,7 +196,11 @@
       {
         "id": "mana-desierto",
         "nombre": "El Maná en el Desierto",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Éx 16:1-36 · Nm 11:6-9",
           "fuente_secundaria": "// PENDIENTE — Midrash Rabbah, Éxodo 25",
@@ -164,7 +231,6 @@
       }
     ]
   },
-
   "eventos_paralelos": [
     {
       "civilizacion": "Egipto",
@@ -238,5 +304,10 @@
       "evento": "Emergencia de la civilización olmeca",
       "descripcion": "La civilización olmeca emerge en el Golfo de México simultáneamente al período tradicional del Éxodo. San Lorenzo Tenochtitlán es el primer gran centro urbano mesoamericano. Sin contacto con el mundo del Mediterráneo oriental."
     }
+  ],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
   ]
 }

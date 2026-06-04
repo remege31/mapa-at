@@ -11,20 +11,45 @@ const PIN: Record<string, { r: number; fill: string; stroke: string; labelSize: 
   terciario:  { r: 4,   fill: '#D4C5B0', stroke: '#6B6054', labelSize: 8   },
 }
 
-function makeIcon(lugar: Lugar, selected: boolean, zoom: number, showPulse: boolean, showTooltip: boolean): L.DivIcon {
+const PERIOD_SLUGS: Array<{ slug: string; min: number; max: number }> = [
+  { slug: 'bronce_tardio', min: -1500, max: -1200 },
+  { slug: 'hierro_1',      min: -1200, max: -1000 },
+  { slug: 'hierro_2',      min: -1000, max: -586  },
+  { slug: 'post_exilio',   min: -586,  max: -400  },
+]
+
+function getPeriodSlug(year: number): string {
+  return PERIOD_SLUGS.find(p => year >= p.min && year <= p.max)?.slug ?? 'hierro_2'
+}
+
+function makeIcon(
+  lugar: Lugar,
+  selected: boolean,
+  zoom: number,
+  showPulse: boolean,
+  showTooltip: boolean,
+  dimmed: boolean,
+): L.DivIcon {
   const cfg = PIN[lugar.jerarquia_pin] ?? PIN.secundario
 
-  // Escalar tamaño según zoom (zoom base = 5)
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
   const r = Math.round(cfg.r * zoomScale)
   const labelSize = Math.max(7, Math.round(cfg.labelSize * zoomScale))
   const d = r * 2
 
-  const fill = selected ? '#8B4A26' : cfg.fill
-  const labelColor = selected ? '#8B4A26' : cfg.fill === '#D4C5B0' ? '#6B6054' : cfg.fill
+  const fill = selected ? '#8B4A26' : dimmed ? '#BBBBBB' : cfg.fill
+  const stroke = dimmed ? '#CCCCCC' : cfg.stroke
+  const labelColor = selected
+    ? '#8B4A26'
+    : dimmed
+    ? '#AAAAAA'
+    : cfg.fill === '#D4C5B0' ? '#6B6054' : cfg.fill
   const shadow = selected
     ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
+    : dimmed
+    ? 'box-shadow:0 1px 3px rgba(0,0,0,.12);'
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
+  const wrapOpacity = dimmed ? 'opacity:0.4;' : ''
   const label = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
 
   const pulseHtml = showPulse ? `
@@ -77,14 +102,14 @@ function makeIcon(lugar: Lugar, selected: boolean, zoom: number, showPulse: bool
           100% { transform:translate(-50%,-50%) scale(1.8); opacity:0; }
         }
       </style>
-      <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;">
+      <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;${wrapOpacity}">
         ${tooltipHtml}
         ${pulseHtml}
         <div style="
           width:${d}px;height:${d}px;
           border-radius:50%;
           background:${fill};
-          border:2px solid ${cfg.stroke};
+          border:2px solid ${stroke};
           ${shadow}
           transition:all .2s;
           position:relative;z-index:1;
@@ -105,9 +130,11 @@ function makeIcon(lugar: Lugar, selected: boolean, zoom: number, showPulse: bool
 interface MapViewProps {
   onSelectLugar: (lugar: Lugar) => void
   selectedId?: string
+  year: number
+  timelineActive: boolean
 }
 
-export function MapView({ onSelectLugar, selectedId }: MapViewProps) {
+export function MapView({ onSelectLugar, selectedId, year, timelineActive }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef(new Map<string, L.Marker>())
@@ -162,12 +189,18 @@ export function MapView({ onSelectLugar, selectedId }: MapViewProps) {
   useEffect(() => {
     if (!mapRef.current || !lugares.length) return
 
+    const currentSlug = getPeriodSlug(year)
+
     lugares.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
       const showPulse = isJerusalen && showHint
       const showTooltip = isJerusalen && showHint
+
+      const inPeriod = !timelineActive || !lugar.periodos_at || lugar.periodos_at.includes(currentSlug)
+      const dimmed = timelineActive && !inPeriod
+
       const existing = markersRef.current.get(lugar.id)
-      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip)
+      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed)
 
       if (existing) {
         existing.setIcon(icon)
@@ -187,7 +220,7 @@ export function MapView({ onSelectLugar, selectedId }: MapViewProps) {
       marker.addTo(mapRef.current!)
       markersRef.current.set(lugar.id, marker)
     })
-  }, [lugares, selectedId, zoom, showHint])
+  }, [lugares, selectedId, zoom, showHint, year, timelineActive])
 
   return (
     <div

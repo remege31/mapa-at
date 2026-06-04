@@ -11,15 +11,11 @@ const PIN: Record<string, { r: number; fill: string; stroke: string; labelSize: 
   terciario:  { r: 4,   fill: '#D4C5B0', stroke: '#6B6054', labelSize: 8   },
 }
 
-const PERIOD_SLUGS: Array<{ slug: string; min: number; max: number }> = [
-  { slug: 'bronce_tardio', min: -1500, max: -1200 },
-  { slug: 'hierro_1',      min: -1200, max: -1000 },
-  { slug: 'hierro_2',      min: -1000, max: -586  },
-  { slug: 'post_exilio',   min: -586,  max: -400  },
-]
-
-function getPeriodSlug(year: number): string {
-  return PERIOD_SLUGS.find(p => year >= p.min && year <= p.max)?.slug ?? 'hierro_2'
+function getPeriodId(year: number): string {
+  if (year >= -400 && year > -586)  return 'post_exilio'
+  if (year <= -586 && year > -1000) return 'hierro_2'
+  if (year <= -1000 && year > -1200) return 'hierro_1'
+  return 'bronce_tardio'
 }
 
 function makeIcon(
@@ -28,29 +24,21 @@ function makeIcon(
   zoom: number,
   showPulse: boolean,
   showTooltip: boolean,
-  dimmed: boolean,
+  dimmed: boolean
 ): L.DivIcon {
   const cfg = PIN[lugar.jerarquia_pin] ?? PIN.secundario
-
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
   const r = Math.round(cfg.r * zoomScale)
   const labelSize = Math.max(7, Math.round(cfg.labelSize * zoomScale))
   const d = r * 2
 
-  const fill = selected ? '#8B4A26' : dimmed ? '#BBBBBB' : cfg.fill
-  const stroke = dimmed ? '#CCCCCC' : cfg.stroke
-  const labelColor = selected
-    ? '#8B4A26'
-    : dimmed
-    ? '#AAAAAA'
-    : cfg.fill === '#D4C5B0' ? '#6B6054' : cfg.fill
+  const fill = selected ? '#8B4A26' : cfg.fill
+  const labelColor = selected ? '#8B4A26' : cfg.fill === '#D4C5B0' ? '#6B6054' : cfg.fill
   const shadow = selected
     ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
-    : dimmed
-    ? 'box-shadow:0 1px 3px rgba(0,0,0,.12);'
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
-  const wrapOpacity = dimmed ? 'opacity:0.4;' : ''
   const label = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
+  const opacity = dimmed ? '0.25' : '1'
 
   const pulseHtml = showPulse ? `
     <div style="
@@ -102,14 +90,14 @@ function makeIcon(
           100% { transform:translate(-50%,-50%) scale(1.8); opacity:0; }
         }
       </style>
-      <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;${wrapOpacity}">
+      <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;opacity:${opacity};">
         ${tooltipHtml}
         ${pulseHtml}
         <div style="
           width:${d}px;height:${d}px;
           border-radius:50%;
           background:${fill};
-          border:2px solid ${stroke};
+          border:2px solid ${cfg.stroke};
           ${shadow}
           transition:all .2s;
           position:relative;z-index:1;
@@ -130,11 +118,11 @@ function makeIcon(
 interface MapViewProps {
   onSelectLugar: (lugar: Lugar) => void
   selectedId?: string
-  year: number
-  timelineActive: boolean
+  year?: number
+  timelineActive?: boolean
 }
 
-export function MapView({ onSelectLugar, selectedId, year, timelineActive }: MapViewProps) {
+export function MapView({ onSelectLugar, selectedId, year = -950, timelineActive = true }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef(new Map<string, L.Marker>())
@@ -176,7 +164,6 @@ export function MapView({ onSelectLugar, selectedId, year, timelineActive }: Map
     ).addTo(map)
 
     map.on('zoomend', () => setZoom(map.getZoom()))
-
     mapRef.current = map
 
     return () => {
@@ -189,21 +176,33 @@ export function MapView({ onSelectLugar, selectedId, year, timelineActive }: Map
   useEffect(() => {
     if (!mapRef.current || !lugares.length) return
 
-    const currentSlug = getPeriodSlug(year)
+    const currentPeriodId = getPeriodId(year)
 
     lugares.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
       const showPulse = isJerusalen && showHint
       const showTooltip = isJerusalen && showHint
 
-      const inPeriod = !timelineActive || !lugar.periodos_at || lugar.periodos_at.includes(currentSlug)
-      const dimmed = timelineActive && !inPeriod
+      // Determinar si el lugar está activo en este período
+      const periodosAt: string[] = (lugar as any).periodos_at ?? []
+      const isActive = !timelineActive || periodosAt.includes(currentPeriodId)
+      const dimmed = !isActive
 
       const existing = markersRef.current.get(lugar.id)
       const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed)
 
       if (existing) {
         existing.setIcon(icon)
+        // Deshabilitar click si está atenuado
+        if (dimmed) {
+          existing.off('click')
+        } else {
+          existing.off('click')
+          existing.on('click', () => {
+            if (isJerusalen && showHint) setShowHint(false)
+            cbRef.current(lugar)
+          })
+        }
         return
       }
 
@@ -212,10 +211,12 @@ export function MapView({ onSelectLugar, selectedId, year, timelineActive }: Map
         zIndexOffset: lugar.jerarquia_pin === 'primario' ? 1000 : 500,
       })
 
-      marker.on('click', () => {
-        if (isJerusalen && showHint) setShowHint(false)
-        cbRef.current(lugar)
-      })
+      if (!dimmed) {
+        marker.on('click', () => {
+          if (isJerusalen && showHint) setShowHint(false)
+          cbRef.current(lugar)
+        })
+      }
 
       marker.addTo(mapRef.current!)
       markersRef.current.set(lugar.id, marker)

@@ -114,16 +114,21 @@
 
 #timeline-eye {
   background: none;
-  border: none;
+  border: 1px solid var(--beige);
+  border-radius: 6px;
+  padding: 3px 7px;
   cursor: pointer;
   font-size: 16px;
-  padding: 2px 4px;
-  border-radius: 4px;
-  line-height: 1;
+  color: var(--gray);
+  transition: background 0.15s, border-color 0.15s;
   flex-shrink: 0;
-  transition: opacity .15s;
+  line-height: 1;
 }
-#timeline-eye:hover { opacity: 0.7; }
+
+#timeline-eye:hover {
+  background: var(--sand);
+  border-color: var(--ocre);
+}
 
 /* ─── main ────────────────────────────────────────────────────────────────── */
 

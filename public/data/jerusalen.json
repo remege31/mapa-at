@@ -229,7 +229,9 @@
       "civilizacion": "Egipto",
       "emoji": "🏺",
       "periodo_historico": "Tercer Período Intermedio (1070–664 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Decadencia del Imperio Nuevo",
       "descripcion": "Fragmentación del poder faraónico. Faraón Sheshonq I (Sisac) invade Judá c. 925 a.C. y saquea el Templo de Salomón (1 Re 14:25-26). Egipto compite con Asiria por el control del Levante."
     },
@@ -237,7 +239,9 @@
       "civilizacion": "Asiria",
       "emoji": "⚔️",
       "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Expansión máxima asiria",
       "descripcion": "Sargón II conquista Samaria (722 a.C.) y deporta a las 10 tribus del norte. Senaquerib sitia Jerusalén bajo Ezequías (701 a.C.) pero se retira sin tomar la ciudad (2 Re 19)."
     },
@@ -245,7 +249,10 @@
       "civilizacion": "Babilonia",
       "emoji": "🏛",
       "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
-      "periodo_at": "Edad de Hierro II — Post-Exilio",
+      "periodo_at": [
+        "hierro_2",
+        "post_exilio"
+      ],
       "evento": "Apogeo de Nabucodonosor II",
       "descripcion": "Nabucodonosor II destruye Jerusalén (586 a.C.) y deporta la élite judía. Babilonia se convierte en el centro cultural del mundo antiguo. El exilio redefine la identidad religiosa judía."
     },
@@ -253,7 +260,9 @@
       "civilizacion": "Persia",
       "emoji": "🦁",
       "periodo_historico": "Pre-aqueménida — Medos (700–550 a.C.)",
-      "periodo_at": "Post-Exilio",
+      "periodo_at": [
+        "post_exilio"
+      ],
       "evento": "Ascenso del Imperio Medo",
       "descripcion": "Los medos aliados con Babilonia destruyen Nínive (612 a.C.). El zoroastrismo se consolida en Irán. Ciro el Grande (550 a.C.) derrocará Babilonia y permitirá el retorno de los judíos."
     },
@@ -261,7 +270,9 @@
       "civilizacion": "Grecia",
       "emoji": "🏛",
       "periodo_historico": "Período Arcaico (800–480 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Surgimiento de la polis griega",
       "descripcion": "Homero compone la Ilíada y la Odisea (c. 750 a.C.). Primeros Juegos Olímpicos (776 a.C.). Las polis griegas desarrollan filosofía, democracia y escritura alfabética simultáneamente al período monárquico de Israel."
     },
@@ -269,7 +280,9 @@
       "civilizacion": "Roma",
       "emoji": "🐺",
       "periodo_historico": "Período Monárquico Romano (753–509 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Fundación de Roma (trad. 753 a.C.)",
       "descripcion": "Roma comienza como pequeño asentamiento en el Lacio. Período de los siete reyes romanos. Mientras Salomón construye el Templo, Roma aún es una aldea sin influencia mediterránea."
     },
@@ -277,7 +290,9 @@
       "civilizacion": "India",
       "emoji": "🕉",
       "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Composición de los Upanishads",
       "descripcion": "Los Upanishads (c. 800–500 a.C.) establecen los fundamentos del hinduismo clásico: Brahman, Atman, karma y moksha. Simultáneo al período de los profetas mayores de Israel."
     },
@@ -285,7 +300,9 @@
       "civilizacion": "China",
       "emoji": "🇨🇳",
       "periodo_historico": "Dinastía Zhou Occidental (1046–771 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Apogeo y colapso de Zhou Occidental",
       "descripcion": "Los Zhou establecen el sistema feudal chino y desarrollan el concepto del Mandato del Cielo. La caída de Zhou Occidental (771 a.C.) inicia el período de los Reinos Combatientes, donde emergen el confucianismo y el taoísmo."
     },
@@ -293,7 +310,9 @@
       "civilizacion": "América",
       "emoji": "🌽",
       "periodo_historico": "Formativo Medio Mesoamericano (900–400 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Declive olmeca y surgimiento de nuevas culturas",
       "descripcion": "La civilización olmeca (centro de México) alcanza su apogeo y declina. Se desarrollan los primeros sistemas de escritura mesoamericanos y calendarios. Monte Albán (zapoteca) es fundado c. 500 a.C."
     }

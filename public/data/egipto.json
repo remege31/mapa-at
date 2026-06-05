@@ -219,7 +219,11 @@
       "civilizacion": "Egipto",
       "emoji": "🏺",
       "periodo_historico": "Imperio Nuevo — Tercer Período Intermedio (1550–664 a.C.)",
-      "periodo_at": "Bronce Tardío — Hierro II",
+      "periodo_at": [
+        "bronce_tardio",
+        "hierro_1",
+        "hierro_2"
+      ],
       "evento": "Ramsés II, las Cartas de Amarna y el declive",
       "descripcion": "Ramsés II (1279–1213 a.C.) es el probable faraón del Éxodo o de las grandes construcciones. Las Cartas de Amarna (s. XIV a.C.) documentan el control egipcio de Canaán. El declive del Imperio Nuevo abre el espacio para la emergencia de Israel."
     },
@@ -227,7 +231,9 @@
       "civilizacion": "Asiria",
       "emoji": "⚔️",
       "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Asurbanipal conquista Menfis (671 a.C.)",
       "descripcion": "Esarhadón asirio conquista Menfis (671 a.C.) — primera conquista extranjera de la capital de Egipto. Egipto pasa a ser provincia asiria. El profeta Nahúm profetiza la caída de Nínive como respuesta a estos años de dominio asirio."
     },
@@ -235,7 +241,9 @@
       "civilizacion": "Babilonia",
       "emoji": "🏛",
       "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
-      "periodo_at": "Fin Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Carquemis (605 a.C.) — fin de la influencia egipcia en el Levante",
       "descripcion": "Nabucodonosor II derrota al ejército egipcio en Carquemis (605 a.C.). Egipto pierde definitivamente el control del Levante. El faraón Necao II, que había matado al rey Josías de Judá en Meguido (609 a.C.), es derrotado."
     },
@@ -243,7 +251,9 @@
       "civilizacion": "Persia",
       "emoji": "🦁",
       "periodo_historico": "Imperio Aqueménida (550–330 a.C.)",
-      "periodo_at": "Post-Exilio",
+      "periodo_at": [
+        "post_exilio"
+      ],
       "evento": "Cambises II conquista Egipto (525 a.C.)",
       "descripcion": "El rey persa Cambises II derrota al faraón Psamético III en Peluso y conquista Egipto. Egipto se convierte en satrapia persa. Los judíos del Elefantina (Alto Nilo) viven bajo dominio persa y mantienen correspondencia con Jerusalén."
     },
@@ -251,7 +261,10 @@
       "civilizacion": "Grecia",
       "emoji": "🏛",
       "periodo_historico": "Período Arcaico — Clásico (800–400 a.C.)",
-      "periodo_at": "Hierro II — Post-Exilio",
+      "periodo_at": [
+        "hierro_2",
+        "post_exilio"
+      ],
       "evento": "Colonias griegas en Egipto — Náucratis",
       "descripcion": "Los faraones saítas permiten la fundación de Náucratis (c. 620 a.C.), colonia griega en el Delta del Nilo. El intercambio cultural greco-egipcio prefigura el mundo helenístico. Heródoto visita Egipto c. 450 a.C. y escribe su descripción clásica."
     },
@@ -259,7 +272,9 @@
       "civilizacion": "Roma",
       "emoji": "🐺",
       "periodo_historico": "República Romana temprana (509–264 a.C.)",
-      "periodo_at": "Post-Exilio",
+      "periodo_at": [
+        "post_exilio"
+      ],
       "evento": "Roma expande su influencia en Italia — sin contacto con Egipto",
       "descripcion": "Roma se consolida como potencia italiana. Sin contacto con Egipto hasta el período helenístico. La alianza romano-ptolemaica comenzará en el siglo II a.C. — fuera del marco temporal del AT."
     },
@@ -267,7 +282,9 @@
       "civilizacion": "India",
       "emoji": "🕉",
       "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
-      "periodo_at": "Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Comercio India-Egipto por el Mar Rojo",
       "descripcion": "Existe evidencia de contacto comercial indirecto entre India y Egipto a través de Arabia y el Mar Rojo durante el primer milenio a.C. Salomón usó el puerto de Ezión-Guéber (1 Re 9:26) para comercio marítimo con el sur — posiblemente India."
     },
@@ -275,7 +292,10 @@
       "civilizacion": "China",
       "emoji": "🇨🇳",
       "periodo_historico": "Dinastía Zhou (1046–256 a.C.)",
-      "periodo_at": "Hierro II — Post-Exilio",
+      "periodo_at": [
+        "hierro_2",
+        "post_exilio"
+      ],
       "evento": "China sin contacto con Egipto — Ruta de la Seda futura",
       "descripcion": "China y Egipto en este período no tienen contacto directo. La Ruta de la Seda que conectaría China con el Mediterráneo comenzará a funcionar formalmente solo en el siglo II a.C. bajo el Imperio Han."
     },
@@ -283,7 +303,11 @@
       "civilizacion": "América",
       "emoji": "🌽",
       "periodo_historico": "Formativo Mesoamericano (1500–400 a.C.)",
-      "periodo_at": "Bronce Tardío — Hierro II",
+      "periodo_at": [
+        "bronce_tardio",
+        "hierro_1",
+        "hierro_2"
+      ],
       "evento": "Civilización olmeca — pirámides mesoamericanas",
       "descripcion": "La civilización olmeca construye pirámides escalonadas en el Golfo de México simultáneamente al período de las grandes pirámides tardías de Egipto. Las similitudes arquitectónicas son resultado de convergencia cultural independiente, no de contacto."
     }

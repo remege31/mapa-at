@@ -68,7 +68,7 @@ export interface EventoParalelo {
   civilizacion: string
   emoji: string
   periodo_historico: string
-  periodo_at: string
+  periodo_at: string[]
   evento: string
   descripcion: string
 }

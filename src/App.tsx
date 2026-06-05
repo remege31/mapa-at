@@ -21,6 +21,13 @@ function getPeriodName(year: number): string {
   return PERIODS.find(p => year >= p.min && year <= p.max)?.name ?? PERIODS[2].name
 }
 
+function getPeriodId(year: number): string {
+  if (year > -586)  return 'post_exilio'
+  if (year > -1000) return 'hierro_2'
+  if (year > -1200) return 'hierro_1'
+  return 'bronce_tardio'
+}
+
 function Acc({ icon, title, open, onToggle, children }: {
   icon: string; title: string; open: boolean; onToggle: () => void; children: ReactNode
 }) {
@@ -161,7 +168,7 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
   )
 }
 
-function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: () => void }) {
+function Panel({ lugar, year, timelineActive, onClose }: { lugar: Lugar; year: number; timelineActive: boolean; onClose: () => void }) {
   const [openAcc, setOpenAcc] = useState(-1)
   const [showFade, setShowFade] = useState(false)
   const bodyRef = useRef<HTMLDivElement>(null)
@@ -235,11 +242,14 @@ function Panel({ lugar, year, onClose }: { lugar: Lugar; year: number; onClose: 
           <div className="per-banner">
             <div>
               <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(year)}</div>
-              <div style={{ fontSize: 10, color: 'var(--gray)' }}>Cambia con el timeline</div>
+              <div style={{ fontSize: 10, color: 'var(--gray)' }}>{timelineActive ? 'Cambia con el timeline' : 'Mostrando todos los períodos'}</div>
             </div>
             <span className="ptag">{Math.abs(year)} a.C.</span>
           </div>
-          {lugar.eventos_paralelos.map(e => <EventoCard key={e.civilizacion} e={e} />)}
+          {(timelineActive
+            ? lugar.eventos_paralelos.filter(e => e.periodo_at.includes(getPeriodId(year)))
+            : lugar.eventos_paralelos
+          ).map(e => <EventoCard key={e.civilizacion} e={e} />)}
         </Acc>
         
       </div></div>
@@ -360,7 +370,7 @@ export default function App() {
         </div>
         <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>
           {selected ? (
-            <Panel key={selected.id} lugar={selected} year={year} onClose={closeAll} />
+            <Panel key={selected.id} lugar={selected} year={year} timelineActive={timelineActive} onClose={closeAll} />
           ) : (
             <>
               <DrawerHeader title="Selecciona un lugar" onClose={closeAll} />

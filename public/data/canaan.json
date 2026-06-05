@@ -3,7 +3,7 @@
   "nombre": "Canaán",
   "tipo": "territorio",
   "lat": 31.5,
-  "lng": 35.0,
+  "lng": 35,
   "frecuencia_at": 160,
   "jerarquia_pin": "secundario",
   "nota_coordenadas": "Centro geográfico aproximado de la región histórica de Canaán — coincide con Jerusalén, núcleo político del territorio en el AT",
@@ -223,7 +223,10 @@
       "civilizacion": "Egipto",
       "emoji": "🏺",
       "periodo_historico": "Imperio Nuevo (1550–1070 a.C.) — Período Intermedio (1070–664 a.C.)",
-      "periodo_at": "Bronce Tardío — Hierro I",
+      "periodo_at": [
+        "bronce_tardio",
+        "hierro_1"
+      ],
       "evento": "Dominio y retirada egipcia de Canaán",
       "descripcion": "Las Cartas de Amarna (s. XIV a.C.) documentan el control egipcio de Canaán. Ramsés II firma el primer tratado de paz conocido con los hititas (1259 a.C.). La retirada egipcia abre el espacio para el asentamiento israelita."
     },
@@ -231,7 +234,9 @@
       "civilizacion": "Asiria",
       "emoji": "⚔️",
       "periodo_historico": "Imperio Neoasirio (911–609 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Presión asiria sobre Canaán y el Levante",
       "descripcion": "Tiglat-Pileser III convierte Israel del norte en provincia asiria (734 a.C.). Sargón II deporta a Samaria (722 a.C.). El corredor cananeo se convierte en zona de conflicto permanente entre Asiria y Egipto."
     },
@@ -239,7 +244,9 @@
       "civilizacion": "Babilonia",
       "emoji": "🏛",
       "periodo_historico": "Imperio Neobabilónico (626–539 a.C.)",
-      "periodo_at": "Fin de la Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Conquista neobabilónica del Levante",
       "descripcion": "Nabucodonosor II derrota a Egipto en Carquemis (605 a.C.) y controla todo Canaán. Judá cae en 586 a.C. Canaán deja de ser un espacio israelita independiente por primera vez desde la conquista de Josué."
     },
@@ -247,7 +254,9 @@
       "civilizacion": "Grecia",
       "emoji": "🏛",
       "periodo_historico": "Período Arcaico (800–480 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Colonización griega del Mediterráneo",
       "descripcion": "Los griegos establecen colonias desde Sicilia hasta el Mar Negro. Los fenicios de Canaán compiten con ellos en las rutas comerciales del Mediterráneo occidental — una rivalidad que llegará a moldear el mundo helenístico."
     },
@@ -255,7 +264,9 @@
       "civilizacion": "Roma",
       "emoji": "🐺",
       "periodo_historico": "Período Monárquico Romano (753–509 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Roma como aldea — sin contacto con Canaán",
       "descripcion": "Roma en este período es un pequeño asentamiento sin influencia sobre el Mediterráneo oriental. El contacto romano con el Levante no ocurrirá hasta el siglo II a.C. — fuera del horizonte del AT."
     },
@@ -263,7 +274,9 @@
       "civilizacion": "India",
       "emoji": "🕉",
       "periodo_historico": "Período Védico Tardío (1000–500 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Composición de los Upanishads y emergencia del hinduismo clásico",
       "descripcion": "Simultáneo al período de los profetas israelitas en Canaán, India produce los Upanishads. El pensamiento monoteísta israelita y el monismo filosófico indio se desarrollan en paralelo sin contacto directo."
     },
@@ -271,7 +284,9 @@
       "civilizacion": "China",
       "emoji": "🇨🇳",
       "periodo_historico": "Dinastía Zhou Occidental y Oriental (1046–256 a.C.)",
-      "periodo_at": "Edad de Hierro I y II",
+      "periodo_at": [
+        "hierro_1"
+      ],
       "evento": "Sistema feudal zhou y emergencia del pensamiento filosófico",
       "descripcion": "Los Zhou consolidan el sistema feudal chino. Confucio (551–479 a.C.) y Lao-Tsé actúan en este período. El Eje Axial (Karl Jaspers) observa que todas las grandes tradiciones filosófico-religiosas emergen simultáneamente en el s. VI a.C."
     },
@@ -279,7 +294,9 @@
       "civilizacion": "América",
       "emoji": "🌽",
       "periodo_historico": "Formativo Medio Mesoamericano (900–400 a.C.)",
-      "periodo_at": "Edad de Hierro II",
+      "periodo_at": [
+        "hierro_2"
+      ],
       "evento": "Apogeo y declive olmeca",
       "descripcion": "La civilización olmeca alcanza su máximo desarrollo en el Golfo de México con centros ceremoniales como La Venta. Primera escritura mesoamericana. Sin contacto con el Mediterráneo — civilizaciones paralelas sin conexión."
     },
@@ -287,7 +304,10 @@
       "civilizacion": "Persia",
       "emoji": "🦁",
       "periodo_historico": "Medos y pre-aqueménida (700–550 a.C.)",
-      "periodo_at": "Fin de la Edad de Hierro II — Post-Exilio",
+      "periodo_at": [
+        "hierro_2",
+        "post_exilio"
+      ],
       "evento": "Ascenso de los medos y los persas",
       "descripcion": "Los medos destrozan Nínive (612 a.C.) con los babilonios. Ciro el Grande funda el Imperio Aqueménida (550 a.C.). Su decreto permitirá el retorno de los judíos de Babilonia a Canaán (Esd 1:1-4)."
     }

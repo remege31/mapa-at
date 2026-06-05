@@ -81,8 +81,8 @@ function makeIcon(
 
   return L.divIcon({
     className: '',
-    iconSize: [160, d + 60],
-    iconAnchor: [80, r],
+    iconSize: [d + 120, d + 60],
+    iconAnchor: [(d + 120) / 2, r],
     html: `
       <style>
         @keyframes pulse-ring {

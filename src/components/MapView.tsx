@@ -70,7 +70,7 @@ const TERRITORY_TYPE: Record<string, string> = {
   // Nombres adicionales detectados en world_bc1500 / world_bc1000 / world_bc500
   'Achaemenid Empire':                     'Imperio',
   'Kingdom of David and Solomon':          'Reino',
-  'state societies and Aramaean kingdoms': 'Zona tribal',
+  'state societies and Aramaean kingdoms': 'Reino',
   'Cimerians':                             'Zona tribal',
   'Iranian pastoralists':                  'Zona tribal',
   'Saharan pastoral nomads':               'Zona tribal',

@@ -26,6 +26,25 @@ const TERRITORY_COLORS: Record<string, string> = {
   'Urartu':                  '#6B4A8B',
   'Arabian pastoral nomads': '#6B6054',
   'Greek city-states':       '#3B6B8B',
+
+  // Nombres adicionales detectados en world_bc1500 / world_bc1000 / world_bc500
+  'Achaemenid Empire':                     '#A0522D',
+  'Kingdom of David and Solomon':          '#8B6A26',
+  'state societies and Aramaean kingdoms': '#8B6914',
+  'Cimerians':                             '#6B6054',
+  'Iranian pastoralists':                  '#8A7B6F',
+  'Saharan pastoral nomads':               '#6B6054',
+  'Illyrians':                             '#8A7B6F',
+  'Blemmyes':                              '#6B6054',
+  'Thrace':                                '#6B4A8B',
+  'Kush':                                  '#7A4A6A',
+  'Meroe':                                 '#7A4A6A',
+  'Bell-shaped burials culture':           '#3B6B8B',
+  'Karasuk culture':                       '#4A7A8B',
+  'Urnfield cultures':                     '#3B6B8B',
+  'Dravidians':                            '#4A7A8B',
+  'Phrygians':                             '#8A7B6F',
+
   'default':                 '#8B7355',
 }
 
@@ -47,6 +66,61 @@ const TERRITORY_TYPE: Record<string, string> = {
   'Greek city-states':       'Región cultural',
   'Arameans':                'Zona tribal',
   'Arabian pastoral nomads': 'Zona tribal',
+
+  // Nombres adicionales detectados en world_bc1500 / world_bc1000 / world_bc500
+  'Achaemenid Empire':                     'Imperio',
+  'Kingdom of David and Solomon':          'Reino',
+  'state societies and Aramaean kingdoms': 'Zona tribal',
+  'Cimerians':                             'Zona tribal',
+  'Iranian pastoralists':                  'Zona tribal',
+  'Saharan pastoral nomads':               'Zona tribal',
+  'Illyrians':                             'Zona tribal',
+  'Blemmyes':                              'Zona tribal',
+  'Thrace':                                'Región cultural',
+  'Kush':                                  'Reino',
+  'Meroe':                                 'Reino',
+  'Bell-shaped burials culture':           'Región cultural',
+  'Karasuk culture':                       'Región cultural',
+  'Urnfield cultures':                     'Región cultural',
+  'Dravidians':                            'Región cultural',
+  'Phrygians':                             'Zona tribal',
+}
+
+// Traducción al español de los nombres de territorios (cobertura completa)
+const TERRITORY_NAMES_ES: Record<string, string> = {
+  'Egypt':                   'Egipto',
+  'Assyria':                 'Asiria',
+  'Babylonia':               'Babilonia',
+  'Hittites':                'Hititas',
+  'Elam':                    'Elam',
+  'Israel':                  'Israel',
+  'Judah':                   'Judá',
+  'Canaan':                  'Canaán',
+  'Arameans':                'Arameos',
+  'Philistines':             'Filisteos',
+  'Phoenicia':               'Fenicia',
+  'Persia':                  'Persia',
+  'Media':                   'Media',
+  'Urartu':                  'Urartu',
+  'Arabian pastoral nomads': 'Pastores nómadas árabes',
+  'Greek city-states':       'Ciudades-estado griegas',
+
+  'Achaemenid Empire':                     'Imperio aqueménida',
+  'Kingdom of David and Solomon':          'Reino unido de Israel',
+  'state societies and Aramaean kingdoms': 'Reinos arameos',
+  'Cimerians':                             'Cimerios',
+  'Iranian pastoralists':                  'Pastores nómadas iranios',
+  'Saharan pastoral nomads':               'Pastores nómadas del Sahara',
+  'Illyrians':                             'Ilirios',
+  'Blemmyes':                              'Blemios',
+  'Thrace':                                'Tracia',
+  'Kush':                                  'Reino de Kush',
+  'Meroe':                                 'Reino de Meroë',
+  'Bell-shaped burials culture':           'Cultura del vaso campaniforme',
+  'Karasuk culture':                       'Cultura de Karasuk',
+  'Urnfield cultures':                     'Cultura de los campos de urnas',
+  'Dravidians':                            'Drávidas',
+  'Phrygians':                             'Frigios',
 }
 
 function getTerritoryColor(name: string): string {
@@ -65,6 +139,15 @@ function getTerritoryType(name: string): string {
     }
   }
   return ''
+}
+
+function getTerritoryNameES(name: string): string {
+  for (const key of Object.keys(TERRITORY_NAMES_ES)) {
+    if (name.toLowerCase().includes(key.toLowerCase())) {
+      return TERRITORY_NAMES_ES[key]
+    }
+  }
+  return name
 }
 
 const GEOJSON_BY_PERIOD: Record<string, string> = {
@@ -323,6 +406,7 @@ export function MapView({
 
             const tipo = getTerritoryType(name)
             const color = getTerritoryColor(name)
+            const nameES = getTerritoryNameES(name)
 
             const labelIcon = L.divIcon({
               className: '',
@@ -343,7 +427,7 @@ export function MapView({
                     letter-spacing:0.06em;
                     text-shadow:0 0 4px #F5F0E8,0 0 8px #F5F0E8;
                     line-height:1.3;
-                  ">${name}</div>
+                  ">${nameES}</div>
                   ${tipo ? `<div style="
                     font-family:system-ui,sans-serif;
                     font-size:9px;

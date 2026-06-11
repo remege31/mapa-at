@@ -8,24 +8,22 @@ import type {
   Mito,
   EventoParalelo,
 } from './types/lugar'
+import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
 import './App.css'
 
 const PERIODS = [
-  { min: -1500, max: -1200, name: 'Edad de Bronce Tardía · 1500–1200 a.C.' },
-  { min: -1200, max: -1000, name: 'Edad de Hierro I · 1200–1000 a.C.' },
-  { min: -1000, max: -586,  name: 'Edad de Hierro II · 1000–586 a.C.' },
-  { min: -586,  max: -400,  name: 'Post-Exilio · 586–400 a.C.' },
+  { id: 'bronce_tardio', name: 'Edad de Bronce Tardía', range: '1500–1200 a.C.' },
+  { id: 'hierro_1',      name: 'Edad de Hierro I',      range: '1200–1000 a.C.' },
+  { id: 'hierro_2',      name: 'Edad de Hierro II',     range: '1000–586 a.C.'  },
+  { id: 'post_exilio',   name: 'Post-Exilio',           range: '586–400 a.C.'   },
 ]
 
-function getPeriodName(year: number): string {
-  return PERIODS.find(p => year >= p.min && year <= p.max)?.name ?? PERIODS[2].name
+function getPeriodName(id: string): string {
+  return PERIODS.find(p => p.id === id)?.name ?? PERIODS[2].name
 }
 
-function getPeriodId(year: number): string {
-  if (year > -586)  return 'post_exilio'
-  if (year > -1000) return 'hierro_2'
-  if (year > -1200) return 'hierro_1'
-  return 'bronce_tardio'
+function getPeriodRange(id: string): string {
+  return PERIODS.find(p => p.id === id)?.range ?? PERIODS[2].range
 }
 
 function Acc({ icon, title, open, onToggle, children }: {
@@ -168,7 +166,9 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
   )
 }
 
-function Panel({ lugar, year, timelineActive, onClose }: { lugar: Lugar; year: number; timelineActive: boolean; onClose: () => void }) {
+function Panel({ lugar, periodId, onClose }: {
+  lugar: Lugar; periodId: string; onClose: () => void
+}) {
   const [openAcc, setOpenAcc] = useState(-1)
   const [showFade, setShowFade] = useState(false)
   const bodyRef = useRef<HTMLDivElement>(null)
@@ -241,17 +241,14 @@ function Panel({ lugar, year, timelineActive, onClose }: { lugar: Lugar; year: n
         <Acc icon="🌍" title="Eventos paralelos" open={openAcc === 4} onToggle={() => toggle(4)}>
           <div className="per-banner">
             <div>
-              <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(year)}</div>
-              <div style={{ fontSize: 10, color: 'var(--gray)' }}>{timelineActive ? 'Cambia con el timeline' : 'Mostrando todos los períodos'}</div>
+              <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(periodId)}</div>
+              <div style={{ fontSize: 10, color: 'var(--gray)' }}>{getPeriodRange(periodId)}</div>
             </div>
-            <span className="ptag">{Math.abs(year)} a.C.</span>
           </div>
-          {(timelineActive
-            ? lugar.eventos_paralelos.filter(e => e.periodo_at.includes(getPeriodId(year)))
-            : lugar.eventos_paralelos
-          ).map(e => <EventoCard key={e.civilizacion} e={e} />)}
+          {EVENTOS_PARALELOS_GLOBAL
+            .filter(e => e.periodo_at.includes(periodId))
+            .map(e => <EventoCard key={e.civilizacion} e={e} />)}
         </Acc>
-        
       </div></div>
       {showFade && <div className="panel-scroll-fade" />}
       <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
@@ -303,10 +300,10 @@ async function loadJerusalen(): Promise<Lugar | null> {
 
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
-  const [year, setYear] = useState(-950)
+  const [periodId, setPeriodId] = useState('hierro_2')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
-  const [timelineActive, setTimelineActive] = useState(true)
+  const [territoriosActive, setTerritoriosActive] = useState(false)
   const [drawerTop, setDrawerTop] = useState(82)
 
   const topbarRef = useRef<HTMLDivElement>(null)
@@ -344,7 +341,6 @@ export default function App() {
   }
   const isMobile = window.innerWidth < 769
   const anyOpen = menuOpen || (drawerOpen && isMobile)
-
   const drawerStyle = { top: `${drawerTop}px` }
 
   return (
@@ -357,20 +353,35 @@ export default function App() {
       </div>
       <div id="timeline-bar" ref={timelineRef}>
         <span className="tl-label">Período</span>
-        <input type="range" min={-1500} max={-400} value={year} step={10} id="timeline" onChange={e => setYear(Number(e.target.value))} disabled={!timelineActive} style={{opacity: timelineActive ? 1 : 0.35}} />
-        <button id="timeline-eye" onClick={() => setTimelineActive(a => !a)} aria-label="Activar/desactivar filtro de período" title={timelineActive ? "Desactivar filtro temporal" : "Activar filtro temporal"}>{timelineActive ? "👁" : "🙈"}</button>
-          <div id="period-wrap" style={{opacity: timelineActive ? 1 : 0.35}}>
-          <span id="period-name">{getPeriodName(year)}</span>
-          <span id="period-year">← año: {Math.abs(year)} a.C.</span>
+        <div id="period-btns">
+          {PERIODS.map(p => (
+            <button
+              key={p.id}
+              className={`period-btn${periodId === p.id ? ' active' : ''}`}
+              onClick={() => setPeriodId(p.id)}
+              title={p.range}
+            >
+              {periodId === p.id ? `${p.name} · ${p.range}` : p.name}
+            </button>
+          ))}
+        </div>
+        <div id="layers-row">
+          <button className={`layer-btn${territoriosActive ? ' active' : ''}`} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
+          <button className="layer-btn layer-btn-disabled" disabled title="Próximamente">🚶 Rutas</button>
         </div>
       </div>
       <div id="main">
         <div id="map-wrap">
-          <MapView onSelectLugar={handleSelect} selectedId={selected?.id} year={year} timelineActive={timelineActive} />
+          <MapView
+            onSelectLugar={handleSelect}
+            selectedId={selected?.id}
+            periodId={periodId}
+            territoriosActive={territoriosActive}
+          />
         </div>
         <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>
           {selected ? (
-            <Panel key={selected.id} lugar={selected} year={year} timelineActive={timelineActive} onClose={closeAll} />
+            <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (
             <>
               <DrawerHeader title="Selecciona un lugar" onClose={closeAll} />
@@ -386,7 +397,7 @@ export default function App() {
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
           <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
         </div>
-        {anyOpen && <div id="drawer-overlay" className={window.innerWidth >= 769 ? "desktop-active" : ""} onClick={closeAll} />}
+        {anyOpen && <div id="drawer-overlay" className={window.innerWidth >= 769 ? 'desktop-active' : ''} onClick={closeAll} />}
       </div>
     </div>
   )

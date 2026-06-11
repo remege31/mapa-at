@@ -5,17 +5,123 @@ import type { Lugar } from '../types/lugar'
 
 const LUGAR_IDS = ['jerusalen', 'egipto', 'mesopotamia', 'canaan', 'sinai'] as const
 
-const PIN: Record<string, { r: number; fill: string; stroke: string; labelSize: number }> = {
-  primario:   { r: 9,   fill: '#3C3C3C', stroke: '#fff',    labelSize: 9.5 },
-  secundario: { r: 6,   fill: '#6B6054', stroke: '#fff',    labelSize: 8.5 },
-  terciario:  { r: 4,   fill: '#D4C5B0', stroke: '#6B6054', labelSize: 8   },
+// Pin único tamaño — sin jerarquía visual
+const PIN = { r: 6, fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
+
+// Paleta aprobada por diseñadora
+const TERRITORY_COLORS: Record<string, string> = {
+  'Egypt':                   '#C9A84C',
+  'Assyria':                 '#8B3A3A',
+  'Babylonia':               '#C0522A',
+  'Hittites':                '#8B6914',
+  'Elam':                    '#7A4A6A',
+  'Israel':                  '#8B6A26',
+  'Judah':                   '#B8963E',
+  'Canaan':                  '#6B8E23',
+  'Arameans':                '#8A7B6F',
+  'Philistines':             '#8B7355',
+  'Phoenicia':               '#4A7A8B',
+  'Persia':                  '#A0522D',
+  'Media':                   '#7A4A2E',
+  'Urartu':                  '#6B4A8B',
+  'Arabian pastoral nomads': '#6B6054',
+  'Greek city-states':       '#3B6B8B',
+  'default':                 '#8B7355',
 }
 
-function getPeriodId(year: number): string {
-  if (year >= -400 && year > -586)  return 'post_exilio'
-  if (year <= -586 && year > -1000) return 'hierro_2'
-  if (year <= -1000 && year > -1200) return 'hierro_1'
-  return 'bronce_tardio'
+// Categoría política por territorio
+const TERRITORY_TYPE: Record<string, string> = {
+  'Egypt':                   'Imperio',
+  'Assyria':                 'Imperio',
+  'Babylonia':               'Imperio',
+  'Persia':                  'Imperio',
+  'Hittites':                'Imperio',
+  'Media':                   'Imperio',
+  'Israel':                  'Reino',
+  'Judah':                   'Reino',
+  'Elam':                    'Reino',
+  'Urartu':                  'Reino',
+  'Canaan':                  'Región cultural',
+  'Philistines':             'Región cultural',
+  'Phoenicia':               'Región cultural',
+  'Greek city-states':       'Región cultural',
+  'Arameans':                'Zona tribal',
+  'Arabian pastoral nomads': 'Zona tribal',
+}
+
+function getTerritoryColor(name: string): string {
+  for (const key of Object.keys(TERRITORY_COLORS)) {
+    if (name.toLowerCase().includes(key.toLowerCase())) {
+      return TERRITORY_COLORS[key]
+    }
+  }
+  return TERRITORY_COLORS['default']
+}
+
+function getTerritoryType(name: string): string {
+  for (const key of Object.keys(TERRITORY_TYPE)) {
+    if (name.toLowerCase().includes(key.toLowerCase())) {
+      return TERRITORY_TYPE[key]
+    }
+  }
+  return ''
+}
+
+const GEOJSON_BY_PERIOD: Record<string, string> = {
+  bronce_tardio: 'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1500.geojson',
+  hierro_1:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
+  hierro_2:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
+  post_exilio:   'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc500.geojson',
+}
+
+const REGION_BOUNDS = {
+  minLat: 20, maxLat: 42,
+  minLng: 25, maxLng: 55,
+}
+
+function isInRegion(feature: GeoJSON.Feature): boolean {
+  try {
+    const geom = feature.geometry
+    if (geom.type === 'Polygon') {
+      const coords = geom.coordinates[0]
+      return coords.some(([lng, lat]) =>
+        lat >= REGION_BOUNDS.minLat && lat <= REGION_BOUNDS.maxLat &&
+        lng >= REGION_BOUNDS.minLng && lng <= REGION_BOUNDS.maxLng
+      )
+    }
+    if (geom.type === 'MultiPolygon') {
+      return geom.coordinates.some(poly =>
+        poly[0].some(([lng, lat]) =>
+          lat >= REGION_BOUNDS.minLat && lat <= REGION_BOUNDS.maxLat &&
+          lng >= REGION_BOUNDS.minLng && lng <= REGION_BOUNDS.maxLng
+        )
+      )
+    }
+  } catch { /* ignorar */ }
+  return false
+}
+
+function getPolygonCenter(feature: GeoJSON.Feature): [number, number] | null {
+  try {
+    const geom = feature.geometry
+    let coords: number[][] = []
+    if (geom.type === 'Polygon') {
+      coords = geom.coordinates[0]
+    } else if (geom.type === 'MultiPolygon') {
+      // Usar el polígono más grande
+      let maxLen = 0
+      for (const poly of geom.coordinates) {
+        if (poly[0].length > maxLen) {
+          maxLen = poly[0].length
+          coords = poly[0]
+        }
+      }
+    }
+    if (!coords.length) return null
+    const lngSum = coords.reduce((s, c) => s + c[0], 0)
+    const latSum = coords.reduce((s, c) => s + c[1], 0)
+    return [latSum / coords.length, lngSum / coords.length]
+  } catch { return null }
 }
 
 function makeIcon(
@@ -26,14 +132,13 @@ function makeIcon(
   showTooltip: boolean,
   dimmed: boolean
 ): L.DivIcon {
-  const cfg = PIN[lugar.jerarquia_pin] ?? PIN.secundario
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
-  const r = Math.round(cfg.r * zoomScale)
-  const labelSize = Math.max(7, Math.round(cfg.labelSize * zoomScale))
+  const r = Math.round(PIN.r * zoomScale)
+  const labelSize = Math.max(7, Math.round(PIN.labelSize * zoomScale))
   const d = r * 2
 
-  const fill = selected ? '#8B4A26' : cfg.fill
-  const labelColor = selected ? '#8B4A26' : cfg.fill === '#D4C5B0' ? '#6B6054' : cfg.fill
+  const fill = selected ? '#8B4A26' : PIN.fill
+  const labelColor = selected ? '#8B4A26' : PIN.fill
   const shadow = selected
     ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
@@ -42,8 +147,7 @@ function makeIcon(
 
   const pulseHtml = showPulse ? `
     <div style="
-      position:absolute;
-      top:50%;left:50%;
+      position:absolute;top:50%;left:50%;
       transform:translate(-50%,-50%);
       width:${d + 16}px;height:${d + 16}px;
       border-radius:50%;
@@ -54,23 +158,16 @@ function makeIcon(
 
   const tooltipHtml = showTooltip ? `
     <div style="
-      position:absolute;
-      bottom:${d + 22}px;
-      left:50%;
+      position:absolute;bottom:${d + 22}px;left:50%;
       transform:translateX(-50%);
-      background:#3C3C3C;
-      color:#F5F0E8;
-      font-size:10px;
-      font-family:system-ui,sans-serif;
-      padding:4px 8px;
-      border-radius:6px;
-      white-space:nowrap;
-      pointer-events:none;
+      background:#3C3C3C;color:#F5F0E8;
+      font-size:10px;font-family:system-ui,sans-serif;
+      padding:4px 8px;border-radius:6px;
+      white-space:nowrap;pointer-events:none;
       box-shadow:0 2px 6px rgba(0,0,0,0.3);
     ">Toca para explorar
       <div style="
-        position:absolute;
-        bottom:-5px;left:50%;
+        position:absolute;bottom:-5px;left:50%;
         transform:translateX(-50%);
         width:0;height:0;
         border-left:5px solid transparent;
@@ -97,18 +194,15 @@ function makeIcon(
           width:${d}px;height:${d}px;
           border-radius:50%;
           background:${fill};
-          border:2px solid ${cfg.stroke};
+          border:2px solid ${PIN.stroke};
           ${shadow}
           transition:all .2s;
           position:relative;z-index:1;
         "></div>
         <span style="
-          font-size:${labelSize}px;
-          font-weight:500;
-          color:${labelColor};
-          font-family:system-ui,sans-serif;
-          white-space:nowrap;
-          margin-top:2px;
+          font-size:${labelSize}px;font-weight:500;
+          color:${labelColor};font-family:system-ui,sans-serif;
+          white-space:nowrap;margin-top:2px;
           text-shadow:0 0 4px #F5F0E8,0 0 8px #F5F0E8,0 0 12px #F5F0E8;
         ">${label}</span>
       </div>`,
@@ -118,14 +212,21 @@ function makeIcon(
 interface MapViewProps {
   onSelectLugar: (lugar: Lugar) => void
   selectedId?: string
-  year?: number
-  timelineActive?: boolean
+  periodId?: string
+  territoriosActive?: boolean
 }
 
-export function MapView({ onSelectLugar, selectedId, year = -950, timelineActive = true }: MapViewProps) {
+export function MapView({
+  onSelectLugar,
+  selectedId,
+  periodId = 'hierro_2',
+  territoriosActive = false,
+}: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef(new Map<string, L.Marker>())
+  const territoriosLayerRef = useRef<L.GeoJSON | null>(null)
+  const labelMarkersRef = useRef<L.Marker[]>([])
   const cbRef = useRef(onSelectLugar)
   const [lugares, setLugares] = useState<Lugar[]>([])
   const [zoom, setZoom] = useState(5)
@@ -170,45 +271,138 @@ export function MapView({ onSelectLugar, selectedId, year = -950, timelineActive
       map.remove()
       mapRef.current = null
       markersRef.current.clear()
+      territoriosLayerRef.current = null
     }
   }, [])
 
+  // ─── Territorios históricos ───────────────────────────────────────────────
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) return
+
+    // Eliminar capa y etiquetas anteriores
+    if (territoriosLayerRef.current) {
+      map.removeLayer(territoriosLayerRef.current)
+      territoriosLayerRef.current = null
+    }
+    labelMarkersRef.current.forEach(m => map.removeLayer(m))
+    labelMarkersRef.current = []
+
+    if (!territoriosActive) return
+
+    const url = GEOJSON_BY_PERIOD[periodId]
+
+    fetch(`${url}?_=${periodId}`)
+      .then(r => r.json())
+      .then((data: GeoJSON.FeatureCollection) => {
+        if (!mapRef.current) return
+
+        const filtered = {
+          ...data,
+          features: data.features.filter(isInRegion),
+        }
+
+        const layer = L.geoJSON(filtered, {
+          style: (feature) => {
+            const name: string = feature?.properties?.NAME ?? ''
+            const color = getTerritoryColor(name)
+            return {
+              fillColor: color,
+              fillOpacity: 0.18,
+              color: color,
+              weight: 2,
+              opacity: 0.85,
+            }
+          },
+          onEachFeature: (feature, _layer) => {
+            const name: string = feature.properties?.NAME ?? ''
+            if (!name) return
+
+            const center = getPolygonCenter(feature)
+            if (!center) return
+
+            const tipo = getTerritoryType(name)
+            const color = getTerritoryColor(name)
+
+            const labelIcon = L.divIcon({
+              className: '',
+              iconSize: [120, 32],
+              iconAnchor: [60, 16],
+              html: `
+                <div style="
+                  text-align:center;
+                  pointer-events:none;
+                  user-select:none;
+                ">
+                  <div style="
+                    font-family:Georgia,serif;
+                    font-size:11px;
+                    font-weight:600;
+                    color:${color};
+                    text-transform:uppercase;
+                    letter-spacing:0.06em;
+                    text-shadow:0 0 4px #F5F0E8,0 0 8px #F5F0E8;
+                    line-height:1.3;
+                  ">${name}</div>
+                  ${tipo ? `<div style="
+                    font-family:system-ui,sans-serif;
+                    font-size:9px;
+                    color:#6B6054;
+                    text-shadow:0 0 3px #F5F0E8,0 0 6px #F5F0E8;
+                    margin-top:1px;
+                  ">${tipo}</div>` : ''}
+                </div>`,
+            })
+
+            const labelMarker = L.marker(center, {
+              icon: labelIcon,
+              interactive: false,
+              zIndexOffset: 200,
+            })
+
+            labelMarker.addTo(mapRef.current!)
+            labelMarkersRef.current.push(labelMarker)
+          },
+        })
+
+        layer.addTo(mapRef.current)
+        layer.bringToBack()
+        territoriosLayerRef.current = layer
+      })
+      .catch(console.error)
+  }, [territoriosActive, periodId])
+
+  // ─── Marcadores ──────────────────────────────────────────────────────────
   useEffect(() => {
     if (!mapRef.current || !lugares.length) return
-
-    const currentPeriodId = getPeriodId(year)
 
     lugares.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
       const showPulse = isJerusalen && showHint
       const showTooltip = isJerusalen && showHint
 
-      // Determinar si el lugar está activo en este período
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
-      const isActive = !timelineActive || periodosAt.includes(currentPeriodId)
-      const dimmed = !isActive
+      const dimmed = !periodosAt.includes(periodId)
 
       const existing = markersRef.current.get(lugar.id)
       const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed)
 
       if (existing) {
         existing.setIcon(icon)
-        // Deshabilitar click si está atenuado
-        if (dimmed) {
-          existing.off('click')
-        } else {
-          existing.off('click')
+        existing.off('click')
+        if (!dimmed) {
           existing.on('click', () => {
             if (isJerusalen && showHint) setShowHint(false)
             cbRef.current(lugar)
           })
         }
+        existing.setZIndexOffset(1000)
         return
       }
 
       const marker = L.marker([lugar.lat, lugar.lng], {
         icon,
-        zIndexOffset: lugar.jerarquia_pin === 'primario' ? 1000 : 500,
+        zIndexOffset: 1000,
       })
 
       if (!dimmed) {
@@ -221,7 +415,7 @@ export function MapView({ onSelectLugar, selectedId, year = -950, timelineActive
       marker.addTo(mapRef.current!)
       markersRef.current.set(lugar.id, marker)
     })
-  }, [lugares, selectedId, zoom, showHint, year, timelineActive])
+  }, [lugares, selectedId, zoom, showHint, periodId])
 
   return (
     <div

@@ -86,48 +86,43 @@
   text-transform: uppercase;
 }
 
-#timeline {
-  flex: 1;
-  max-width: 320px;
-  accent-color: var(--terra);
-  cursor: pointer;
-}
-
-#period-wrap {
+#period-btns {
   display: flex;
-  flex-direction: column;
-  min-width: 240px;
+  flex-direction: row;
+  gap: 4px;
+  flex: 1;
 }
 
-#period-name {
+.period-btn {
   font-family: Georgia, serif;
-  font-size: 13px;
-  color: var(--ocre);
+  font-size: 11px;
+  color: var(--gray);
+  background: var(--sand);
+  border: 1px solid var(--beige);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
   line-height: 1.3;
 }
 
-#period-year {
-  font-size: 11px;
-  color: var(--terra);
+.period-btn:hover {
+  background: var(--beige);
+  border-color: var(--ocre);
+  color: var(--ink);
+}
+
+.period-btn.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
   font-weight: 500;
 }
 
-#timeline-eye {
-  background: none;
-  border: 1px solid var(--beige);
-  border-radius: 6px;
-  padding: 3px 7px;
-  cursor: pointer;
-  font-size: 16px;
-  color: var(--gray);
-  transition: background 0.15s, border-color 0.15s;
-  flex-shrink: 0;
-  line-height: 1;
-}
-
-#timeline-eye:hover {
-  background: var(--sand);
-  border-color: var(--ocre);
+.period-btn.disabled {
+  opacity: 0.4;
+  cursor: default;
 }
 
 /* ─── main ────────────────────────────────────────────────────────────────── */
@@ -774,9 +769,8 @@
   }
 
   #timeline-bar { gap: 8px; padding: 5px 10px; }
-  #period-wrap { min-width: 0; }
-  #period-name { font-size: 11px; }
-  #timeline { max-width: none; flex: 1; }
+  #period-btns { flex-wrap: wrap; }
+  .period-btn { font-size: 10px; padding: 3px 8px; }
 }
 
 /* ─── tablet ──────────────────────────────────────────────────────────────── */
@@ -866,4 +860,80 @@
   flex-shrink: 0;
   position: relative;
   z-index: 2;
+}
+/* ─── segunda fila de capas (bajo el timeline) ────────────────────────────── */
+
+#layers-row {
+  width: 100%;
+  display: flex;
+  gap: 6px;
+  padding: 4px 16px 6px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--beige);
+  flex-shrink: 0;
+}
+
+.layer-btn {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gray);
+  background: var(--sand);
+  border: 1px solid var(--beige);
+  border-radius: 14px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+  line-height: 1.6;
+}
+
+.layer-btn:hover {
+  background: var(--beige);
+  border-color: var(--ocre);
+  color: var(--ink);
+}
+
+.layer-btn.active {
+  background: var(--ocre);
+  border-color: var(--terra);
+  color: var(--paper);
+}
+
+.layer-btn.active:hover {
+  background: var(--terra);
+}
+
+.layer-btn-disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.layer-btn-disabled:hover {
+  background: var(--sand);
+  border-color: var(--beige);
+  color: var(--gray);
+}
+
+/* ─── tooltip de territorios (Leaflet) ────────────────────────────────────── */
+
+.territorio-tooltip {
+  background: var(--paper) !important;
+  border: 1px solid var(--beige) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+  padding: 0 !important;
+}
+
+.territorio-tooltip::before {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #layers-row {
+    padding: 4px 10px 5px;
+  }
+  .layer-btn {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
 }

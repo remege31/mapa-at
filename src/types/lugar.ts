@@ -92,6 +92,5 @@ export interface Lugar {
   historias: Historia[]
   personajes: Personaje[]
   contexto_religioso: ContextoReligioso
-  eventos_paralelos: EventoParalelo[]
   periodos_at?: string[]
 }

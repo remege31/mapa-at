@@ -249,8 +249,9 @@ function Panel({ lugar, periodId, onClose }: {
             .filter(e => e.periodo_at.includes(periodId))
             .map(e => <EventoCard key={e.civilizacion} e={e} />)}
         </Acc>
-      </div></div>
+      </div>
       {showFade && <div className="panel-scroll-fade" />}
+      </div>
       <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
     </>
   )

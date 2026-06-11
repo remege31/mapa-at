@@ -310,6 +310,10 @@ export function MapView({
   const markersRef = useRef(new Map<string, L.Marker>())
   const territoriosLayerRef = useRef<L.GeoJSON | null>(null)
   const labelMarkersRef = useRef<L.Marker[]>([])
+  const fadeOutTimeoutRef = useRef<number | null>(null)
+  const fadeInTimeoutRef = useRef<number | null>(null)
+  const pendingOldRef = useRef<{ layer: L.GeoJSON | null; labels: L.Marker[] } | null>(null)
+  const requestIdRef = useRef(0)
   const cbRef = useRef(onSelectLugar)
   const [lugares, setLugares] = useState<Lugar[]>([])
   const [zoom, setZoom] = useState(5)
@@ -363,13 +367,47 @@ export function MapView({
     const map = mapRef.current
     if (!map) return
 
-    // Eliminar capa y etiquetas anteriores
-    if (territoriosLayerRef.current) {
-      map.removeLayer(territoriosLayerRef.current)
-      territoriosLayerRef.current = null
+    const myRequestId = ++requestIdRef.current
+
+    // Si quedó un fade-out anterior sin completar, remover esa capa/etiquetas ya
+    if (fadeOutTimeoutRef.current) {
+      clearTimeout(fadeOutTimeoutRef.current)
+      fadeOutTimeoutRef.current = null
+      if (pendingOldRef.current) {
+        const { layer, labels } = pendingOldRef.current
+        if (layer) map.removeLayer(layer)
+        labels.forEach(m => map.removeLayer(m))
+        pendingOldRef.current = null
+      }
     }
-    labelMarkersRef.current.forEach(m => map.removeLayer(m))
+    if (fadeInTimeoutRef.current) {
+      clearTimeout(fadeInTimeoutRef.current)
+      fadeInTimeoutRef.current = null
+    }
+
+    // Fade-out de la capa y etiquetas anteriores antes de eliminarlas
+    const oldLayer = territoriosLayerRef.current
+    const oldLabels = labelMarkersRef.current
+    territoriosLayerRef.current = null
     labelMarkersRef.current = []
+
+    if (oldLayer || oldLabels.length) {
+      oldLayer?.setStyle({ fillOpacity: 0, opacity: 0 })
+      oldLabels.forEach(m => {
+        const el = m.getElement()
+        if (el) el.style.opacity = '0'
+      })
+
+      pendingOldRef.current = { layer: oldLayer, labels: oldLabels }
+      fadeOutTimeoutRef.current = window.setTimeout(() => {
+        if (mapRef.current) {
+          if (oldLayer) mapRef.current.removeLayer(oldLayer)
+          oldLabels.forEach(m => mapRef.current!.removeLayer(m))
+        }
+        pendingOldRef.current = null
+        fadeOutTimeoutRef.current = null
+      }, 300)
+    }
 
     if (!territoriosActive) return
 
@@ -379,6 +417,7 @@ export function MapView({
       .then(r => r.json())
       .then((data: GeoJSON.FeatureCollection) => {
         if (!mapRef.current) return
+        if (myRequestId !== requestIdRef.current) return // respuesta obsoleta
 
         const filtered = {
           ...data,
@@ -390,11 +429,12 @@ export function MapView({
             const name: string = feature?.properties?.NAME ?? ''
             const color = getTerritoryColor(name)
             return {
+              className: 'territorio-shape',
               fillColor: color,
-              fillOpacity: 0.18,
+              fillOpacity: 0,
               color: color,
               weight: 2,
-              opacity: 0.85,
+              opacity: 0,
             }
           },
           onEachFeature: (feature, _layer) => {
@@ -408,6 +448,10 @@ export function MapView({
             const color = getTerritoryColor(name)
             const nameES = getTerritoryNameES(name)
 
+            const labelFontSize = zoom >= 7 ? 11 : zoom === 6 ? 9 : 7
+            const showCategoria = zoom >= 6
+            const categoriaFontSize = Math.max(7, labelFontSize - 2)
+
             const labelIcon = L.divIcon({
               className: '',
               iconSize: [120, 32],
@@ -420,7 +464,7 @@ export function MapView({
                 ">
                   <div style="
                     font-family:Georgia,serif;
-                    font-size:11px;
+                    font-size:${labelFontSize}px;
                     font-weight:600;
                     color:${color};
                     text-transform:uppercase;
@@ -428,9 +472,9 @@ export function MapView({
                     text-shadow:0 0 4px #F5F0E8,0 0 8px #F5F0E8;
                     line-height:1.3;
                   ">${nameES}</div>
-                  ${tipo ? `<div style="
+                  ${tipo && showCategoria ? `<div style="
                     font-family:system-ui,sans-serif;
-                    font-size:9px;
+                    font-size:${categoriaFontSize}px;
                     color:#6B6054;
                     text-shadow:0 0 3px #F5F0E8,0 0 6px #F5F0E8;
                     margin-top:1px;
@@ -445,6 +489,11 @@ export function MapView({
             })
 
             labelMarker.addTo(mapRef.current!)
+            const el = labelMarker.getElement()
+            if (el) {
+              el.style.transition = 'opacity 300ms ease'
+              el.style.opacity = '0'
+            }
             labelMarkersRef.current.push(labelMarker)
           },
         })
@@ -452,9 +501,24 @@ export function MapView({
         layer.addTo(mapRef.current)
         layer.bringToBack()
         territoriosLayerRef.current = layer
+
+        // Fade-in: tras un breve respiro, subir a la opacidad final
+        fadeInTimeoutRef.current = window.setTimeout(() => {
+          layer.setStyle({ fillOpacity: 0.18, opacity: 0.85 })
+          labelMarkersRef.current.forEach(m => {
+            const el = m.getElement()
+            if (el) el.style.opacity = '1'
+          })
+          fadeInTimeoutRef.current = null
+        }, 30)
       })
       .catch(console.error)
-  }, [territoriosActive, periodId])
+
+    return () => {
+      if (fadeOutTimeoutRef.current) clearTimeout(fadeOutTimeoutRef.current)
+      if (fadeInTimeoutRef.current) clearTimeout(fadeInTimeoutRef.current)
+    }
+  }, [territoriosActive, periodId, zoom])
 
   // ─── Marcadores ──────────────────────────────────────────────────────────
   useEffect(() => {

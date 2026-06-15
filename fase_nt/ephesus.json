@@ -1,0 +1,67 @@
+{
+  "id": "ephesus",
+  "nombre": "Ephesus",
+  "tipo": "ciudad",
+  "nivel": "nt",
+  "mapa": "apostoles",
+  "lat": 37.9533,
+  "lng": 27.3678,
+  "frecuencia_nt": 23,
+  "jerarquia_pin": "primario",
+  "descripcion_geo": "// PENDIENTE — Major city in Asia Minor; important center for early Christianity",
+  "periodo_nt": "// PENDIENTE — verificar (ministerio_jesus / viajes_pablo / iglesia_primitiva)",
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "tradicion": "// PENDIENTE — judaismo_diaspora / cristianismo_primitivo / paganismo_greco_romano"
+  }
+}

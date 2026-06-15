@@ -1,0 +1,978 @@
+id,nombre,nivel,refs,lat,lng,brief,area
+jerusalem,Jerusalem,MVP,995,31.777444,35.234935,"The capital of Israel, a holy city for three religions",-
+egypt,Egypt,MVP,741,30.108086,31.33822,Ancient nation; Israelites enslaved there; plagues and Exodus,-
+babylon,Babylon,zona,306,32.53650368616845,44.42088287373876,"Ancient Mesopotamian city, capital of Babylonian Empire, site of the Tower of Babel.",-
+philistia,Philistia,zona,294,33.56316734135746,35.36634649354799,An ancient people and region in Canaan,-
+jordan,Jordan,zona,197,32.309099,35.5599,"A river and region, significant in Israel's history",-
+moab,Moab,zona,184,31.49684513710609,35.78284105296996,Ancient kingdom east of the Dead Sea in Jordan,Edom
+jericho,Jericho,N1,175,31.87060143818292,35.44386371224434,"An ancient city in Canaan, famously conquered by Israel",-
+canaan,Canaan,MVP,152,31.69352950368834,34.84388288576839,Ancient region; descendants of Ham; promised to Abraham's descendants,-
+assyria,Assyria,zona,149,36.35941,43.152887,"A powerful ancient empire, often in conflict with Israel.",-
+ammon,Ammon,zona,143,31.95018855468469,35.92413135872749,"An ancient nation and its capital city, enemies of Israel.",-
+syria,Syria,zona,135,33.519299,36.31344999999999,"Ancient region north of Israel, often in conflict",-
+samaria,Samaria,zona,134,32.28023100000001,35.19792900000002,Capital city of the northern kingdom of Israel; Samaritan inhabitants,-
+edom,Edom,zona,109,30.734691,35.60625,Descendants of Esau; enemy nation southeast of Israel,Edom
+gilead,Gilead,zona,99,32.042523,35.724241,Mountainous region east of Jordan; tribal territory and personal name.,Tribe of Manasseh
+chaldea,Chaldea,zona,91,30.9620520474569,46.10374195774169,Ancient Mesopotamian empire; known for astrology and wisdom,-
+bethel,Bethel,N1,82,31.93053920580005,35.22103274923676,"Important city in Israel, associated with Abraham and Jacob.",-
+tyre,Tyre,N1,80,33.27582782266882,35.19257453545583,"A major Phoenician port city, known for its trade",-
+dan,Dan,zona,76,33.24865997897308,35.65248345039043,Israelite tribe; city in northern Israel; originally called Laish/Leshem.,Tribe of Dan
+galilee,Galilee,zona,76,32.70674542474383,35.30152807767973,Region in northern Israel; key location in Jesus' ministry,-
+hebron,Hebron,N1,70,31.53577362133176,35.09409986578734,An important city in Judah; burial place of patriarchs.,-
+euphrates,Euphrates,zona,65,35.090577,40.42778,Major river in ancient Near East; boundary of Promised Land,-
+midian,Midian,zona,64,28.932881,34.90832,A nation descended from Abraham; oppressed Israel in the time of the judges,Edom
+lebanon,Lebanon,zona,63,33.752479,35.590804,A mountainous region known for its cedar trees,-
+damascus,Damascus,N1,61,33.519299,36.31344999999999,"Ancient city, capital of Syria, important in biblical history.",-
+bashan,Bashan,zona,60,32.80007552505443,35.93730130476259,"Region east of the Jordan, known for its fertility.",-
+bethlehem,Bethlehem,N1,60,31.70536129174666,35.21026630105202,City of David's birth and Jesus' birth.,Tribe of Judah
+mizpah,Mizpah,N1,56,31.83273947023218,35.1801628605877,A city in Benjamin; a place of gathering and judgment,-
+shechem,Shechem,N1,53,32.21369123124062,35.2817986718367,"City in Canaan, later allotted to Ephraim",-
+nile,Nile,N1,51,30.092632,31.230987,"The major river of Egypt, mentioned in various contexts",-
+amalek,Amalek,zona,49,30.65977,34.835554,"A nomadic people, descendants of Esau, enemies of Israel.",Edom
+cush,Cush,zona,49,21.959788,31.343557,Ancient region in Africa; associated with Egypt and Babylon,-
+sodom,Sodom,N1,49,31.19656033132318,35.39648411813492,Wicked city destroyed by God for its sins,-
+gibeon,Gibeon,N1,48,31.84684772753698,35.18491237777512,Hivite city that tricked Joshua into a peace treaty.,-
+judea,Judea,zona,48,31.777444,35.234935,"The southern region of Israel, centered around Jerusalem",-
+sidon,Sidon,N1,48,33.56316734135746,35.36634649354799,Phoenician city; home of Jezebel,-
+gibeah,Gibeah,N1,46,31.82378102460309,35.23100936128631,"A city of Benjamin, associated with Saul and atrocities.",-
+gath,Gath,N1,45,31.69352950368834,34.84388288576839,Philistine city; home of Goliath; refuge for David,Philistia
+sinai,Sinai,MVP,43,28.539722,33.973333,Mountain where Moses received the Ten Commandments,-
+negeb,Negeb,zona,42,30.3,34.2,"The southern region of Israel, a semi-arid area",-
+gilgal,Gilgal,N2,40,31.86378328132916,35.51854651224448,A significant site during Israel's early history in Canaan.,-
+ai,Ai,N2,39,31.91697811712517,35.26122639380886,A Canaanite city conquered by Joshua after initial defeat.,-
+jezreel,Jezreel,N2,39,32.5559631396043,35.33078927843792,"A city in Issachar, associated with Ahab and Jezebel",-
+heshbon,Heshbon,N2,38,31.80052000870321,35.80901866717255,"Amorite city conquered by Moses, allotted to Reuben",-
+shiloh,Shiloh,N2,38,32.05570050712985,35.28952869712683,Israelite sanctuary and assembly point during the judges' period,-
+persia,Persia,zona,37,34.798311,48.514966,An empire that ruled over the exiled Jews,-
+ramoth,Ramoth,N2,37,32.56526757366849,36.00555930879645,City of refuge east of the Jordan,-
+beersheba,Beersheba,N2,36,31.24495217357714,34.8408885849849,"Important city in southern Israel, associated with the patriarchs.",-
+holy_place,Holy Place,N2,36,31.777444,35.234935,The inner sanctuary of the Tabernacle and Temple,-
+hamath,Hamath,zona,35,35.136204,36.749488,"A major city and kingdom in Syria, often mentioned in the Bible.",-
+nazareth,Nazareth,NT,31,32.70674542474383,35.30152807767973,The hometown of Jesus in Galilee,-
+macedonia,Macedonia,zona,30,40.632155565205,22.9320868699276,A region in northern Greece; Paul preached there,-
+hermon_mount,Hermon Mount,N2,28,33.41615982399708,35.85725617635589,Mountain on the northern border of Israel,-
+kiriath_jearim,Kiriath-jearim,N2,28,31.771104,34.993812,A city where the ark resided,-
+rome,Rome,NT,28,41.9,12.48333333333333,Capital city of the Roman Empire,-
+kadesh,Kadesh,zona,27,30.68771281376111,34.49479554246946,An important oasis in the Wilderness of Zin,-
+red_sea,Red Sea,N2,26,27.088473,34.771729,Sea crossed by Israelites in the Exodus,-
+topheth,Topheth,N2,26,31.769079,35.227994,"Site of pagan child sacrifice, south of Jerusalem",-
+arnon,Arnon,zona,25,31.4288,35.677009,"A river and valley, serving as a boundary for Israel.",-
+carmel,Carmel,N2,25,31.43333151674604,35.13333188530802,Town in Judah; home of Nabal and Abigail,-
+ekron,Ekron,N2,24,31.77761410537458,34.85214575880509,One of the five major Philistine city-states,Philistia
+gaza,Gaza,N2,24,31.52481769532773,34.4333647185274,Philistine city; Samson's exploits; Philip's ministry,-
+gomorrah,Gomorrah,N2,24,31.15724866533878,35.4739543300078,Wicked city destroyed by God along with Sodom.,-
+lachish,Lachish,N2,24,31.56485056116292,34.8467256730566,A fortified city in Judah,-
+seir,Seir,zona,24,30.734691,35.60625,"Region inhabited by Edomites, descendants of Esau",Edom
+tarshish,Tarshish,N2,24,36.95299512880268,-6.379340234132555,Distant maritime city known for its wealth and trade,Tribe of Benjamin
+ashdod,Ashdod,N2,23,31.80299971086164,34.6351145939134,"A major Philistine city, known for Dagon worship.",Philistia
+ephesus,Ephesus,NT,23,37.95331433666365,27.36782511573013,Major city in Asia Minor; important center for early Christianity,-
+media,Media,zona,23,34.798311,48.514966,An ancient kingdom; part of the Persian Empire,-
+arabah,Arabah,zona,22,32.029676,35.520995,A desert region in the Jordan Valley and southward.,-
+asia,Asia,N2,22,39.23,32.73,A Roman province in western Asia Minor.,-
+nineveh,Nineveh,N2,22,36.35941,43.152887,"The capital of Assyria, known for its wickedness and repentance",-
+susa,Susa,zona,22,32.18919123705116,48.25788647687722,Capital city of the Persian Empire,-
+arabia,Arabia,zona,21,27.4,37.7,"A region and its inhabitants, mentioned in various contexts.",-
+jabesh,Jabesh,N2,21,32.37982175236296,35.61158746493092,"A town in Gilead, loyal to Saul",-
+beth_shemesh,Beth-shemesh,N2,20,31.75274835811488,34.97660913147738,"City in Judah, associated with the Ark's return.",-
+shephelah,Shephelah,zona,20,31.77761410537458,34.85214575880509,Lowland region between Judean hills and coastal plain,-
+paddan,Paddan,zona,19,36.86386407659651,39.03219672227345,The homeland of the patriarchs in Mesopotamia,-
+anathoth,Anathoth,N2,18,31.81291276898118,35.26349894226843,"A Levitical city in Benjamin, home of the prophet Jeremiah.",-
+keilah,Keilah,N2,18,31.614175,35.002752,"A town in the Shephelah of Judah, rescued by David",-
+ramah,Ramah,N2,18,31.89637863532434,35.20173068977705,"A town in Benjamin, near Gibeah and Jerusalem",-
+elam,Elam,zona,17,32.18919123705116,48.25788647687722,Ancient kingdom east of Babylon; ally and enemy of Israel,Persia
+gezer,Gezer,N2,17,31.87611111111111,34.9225,"A Canaanite city, conquered by Joshua and later by David.",-
+capernaum,Capernaum,NT,16,32.88059412581622,35.57515767479308,Town in Galilee; center of Jesus' ministry,-
+debir,Debir,N2,16,31.41666959977098,34.96667012280085,Canaanite city captured by Joshua and Caleb's family.,-
+geba,Geba,N2,16,31.85787804122625,35.25975521608824,A Levitical city in Benjamin,-
+libnah,Libnah,N2,16,31.56485056116292,34.8467256730566,A Canaanite city conquered by Joshua; a Levitical city,-
+sheba,Sheba,zona,16,9.022736,38.746799,"Kingdom known for wealth, trade, and the Queen of Sheba",-
+antioch,Antioch,NT,15,36.20233087051257,36.16238775165068,A major city where the gospel spread to Gentiles.,-
+caesarea,Caesarea,NT,15,32.499544608298,34.89218497556097,"Coastal city, center of Roman rule in Judea",-
+cyprus,Cyprus,zona,15,35.018306,33.207693,Island in the Mediterranean Sea; early Christian community,Cyprus
+geshur,Geshur,zona,15,33.0,36.41667,Aramean kingdom; Talmai's domain; refuge for Absalom,-
+olives_mount,Olives Mount,N2,15,31.77809503341373,35.2471976093501,A mountain ridge east of Jerusalem,-
+ziklag,Ziklag,N2,15,31.37760000000001,34.87356199999998,"A city given to David; originally Judah's, then Simeon's",Philistia
+joppa,Joppa,N3,14,32.05351968494696,34.75042606009946,"An ancient seaport, the main port for Jerusalem",-
+kidron,Kidron,zona,14,31.772134,35.236596,"A valley east of Jerusalem, site of significant events",-
+magadan,Magadan,N3,14,32.84733494629723,35.5229361797708,A place on the Sea of Galilee; home of Mary Magdalene,-
+salt_sea,Salt Sea,N3,14,31.538593,35.482268,Another name for the Dead Sea,-
+succoth,Succoth,N3,14,32.19998298531073,35.63331303389634,"City in Canaan, location of Solomon's bronze works",-
+tekoa,Tekoa,N3,14,31.63622127191993,35.21407721824517,"Town in Judah, home of the prophet Amos",-
+tirzah,Tirzah,N3,14,32.27136869937776,35.29430386845415,Canaanite city that became the capital of Israel,-
+ashkelon,Ashkelon,N3,13,31.66240510553615,34.54722773494757,"A major Philistine city, often a target of prophecy.",Philistia
+bethany,Bethany,NT,13,31.77166591433378,35.26212203964414,"Village near Jerusalem, home of Mary, Martha, and Lazarus.",-
+great_sea,Great Sea,zona,13,33.24,33.47,"The Mediterranean Sea, the western boundary of the Promised Land.",-
+hazor,Hazor,N3,13,33.01718199667929,35.56804856758258,Major Canaanite city conquered by Joshua,-
+mahanaim,Mahanaim,N3,13,32.214708,35.632914,A place east of the Jordan; David's refuge,-
+megiddo,Megiddo,zona,13,32.58418313614938,35.18229165870594,A strategic city in the Jezreel Valley,-
+netophah,Netophah,N3,13,31.735465,35.220503,"A town in Judah, home to several notable individuals",-
+zoar,Zoar,N3,13,30.9265225301655,35.4190606947832,"A city near Sodom, spared from destruction",-
+zobah,Zobah,zona,13,34.312571,36.925484,"An Aramean kingdom, enemy of Israel during David's reign",-
+beeroth,Beeroth,N3,12,31.90007449127097,35.21668800602465,"Hivite city, later allotted to Benjamin.",-
+beth_horon_lower,Beth-horon Lower,N3,12,31.87892595986906,35.12356744466153,"Town in Ephraim and Dan, site of a famous battle.",-
+corinth,Corinth,NT,12,37.9059573586561,22.87788175588845,Ancient Greek city; recipient of Paul's epistles,-
+dibon,Dibon,N3,12,31.49684513710609,35.78284105296996,"Moabite city, allotted to Gad, later possessed by Moab.",-
+goshen,Goshen,zona,12,30.72850163814402,31.80469223616506,A region in Egypt where the Israelites settled and prospered.,-
+haran,Haran,N3,12,36.86386407659651,39.03219672227345,"A city in Mesopotamia, associated with Abraham and his family.",-
+jazer,Jazer,N3,12,31.94352951689796,35.72776961157128,"A town in Gilead, allotted to Gad",-
+libya,Libya,N3,12,32.824979,21.858301,A country in North Africa,-
+maacah,Maacah,zona,12,33.2,36.5,A region near Geshur,-
+timnah,Timnah,N3,12,31.784368,34.90968,Canaanite city associated with Judah and Dan,Philistia
+achaia,Achaia,N3,11,37.98333333333333,23.73333333333333,"A Roman province in southern Greece, including Corinth.",-
+adullam,Adullam,N3,11,31.65,35.0,"A Canaanite city, later fortified by Judah.",-
+brook_of_egypt,Brook of Egypt,zona,11,31.032047,33.854957,Southwestern boundary of the Promised Land,-
+caphtor,Caphtor,zona,11,35.171239,25.007204,Island home of the Philistines; visited by Paul,-
+chinnereth,Chinnereth,N3,11,32.80677585520321,35.58936052679091,Freshwater lake in northern Israel; location of Jesus' ministry,-
+greece,Greece,zona,11,37.95331433666365,27.36782511573013,"A nation and culture, often in opposition to Israel",Greece
+michmash,Michmash,N3,11,31.87018434231688,35.27923581936973,A town in Benjamin; site of Saul's camp and Jonathan's victory,-
+millo,Millo,N3,11,31.777444,35.234935,A fortification in Jerusalem built by Solomon,-
+most_holy_place,Most Holy Place,N3,11,31.777444,35.234935,The innermost room of the tabernacle and temple,-
+on,On,N3,11,30.108086,31.33822,"An ancient Egyptian city, mentioned in relation to Joseph",-
+ophir,Ophir,zona,11,22.0,77.0,A region known for its gold,Tribe of Judah
+riblah,Riblah,N3,11,34.431703,36.545259,Babylonian headquarters during the conquest of Judah,-
+seir_mount,Seir Mount,zona,11,30.734691,35.60625,"Mountainous region in Seir, associated with Edom",-
+thessalonica,Thessalonica,NT,11,40.632155565205,22.9320868699276,"Macedonian city, site of an early Christian church",-
+ziph,Ziph,N3,11,31.4833,35.1333,A town in Judah where David hid from Saul,-
+abel_beth_maacah,Abel-beth-maacah,N3,10,33.268526,35.578046,"A city in northern Israel, also called Abel-maim.",-
+aijalon,Aijalon,N3,10,31.84117376619545,35.02537926743067,"A Levitical city in Dan, site of Joshua's miracle.",-
+gerar,Gerar,N3,10,31.39129109635703,34.56057015639144,Philistine city; Abraham and Isaac's encounters with Abimelech,Philistia
+gog,Gog,zona,10,46.0,47.0,A symbolic enemy of God's people in prophetic literature.,-
+hor_mount,Hor Mount,N3,10,30.317396,35.407152,Mountain where Aaron died and was buried,-
+kedesh,Kedesh,N3,10,33.11298357486105,35.53361334150225,"A Canaanite city, later a Levitical city of refuge in Naphtali",-
+mamre,Mamre,N3,10,31.54909871686872,35.09356062020027,A place near Hebron; associated with Abraham,-
+zephath,Zephath,N3,10,30.880918,34.63062,A Canaanite city captured by Judah and Simeon,-
+zin,Zin,zona,10,30.68771281376111,34.49479554246946,A desert and wilderness region south of Judah,-
+zorah,Zorah,N3,10,31.762141,34.969319,"A town in the Shephelah, home of Samson",-
+aroer,Aroer,zona,9,31.47109529828131,35.82200331579328,A city on the edge of the Arnon Valley.,-
+beth_shean,Beth-shean,N3,9,32.5042384550589,35.50307739108582,"City in Manasseh, where Saul's body was displayed.",-
+jahaz,Jahaz,N3,9,31.50100308502659,35.92063125199366,"A town in Moab, site of Israelite victories",-
+laodicea,Laodicea,NT,9,37.76986723761415,29.06450110237073,A city in Asia Minor,-
+makkedah,Makkedah,N3,9,31.935117,34.781326,A Canaanite city conquered by Joshua,-
+paran,Paran,zona,9,29.151667,33.541944,A desert region in the Sinai Peninsula,-
+philippi,Philippi,NT,9,41.0119594798466,24.28619097780519,A city in Macedonia visited by Paul,-
+ashtaroth,Ashtaroth,N3,8,32.8333333333,36.0166666667,"A city of Og, king of Bashan.",-
+athens,Athens,NT,8,37.98333333333333,23.73333333333333,"A major city in Greece, visited by Paul.",-
+chebar,Chebar,N3,8,33.159129,44.06293,River in Babylonia; location of Ezekiel's visions,-
+cilicia,Cilicia,zona,8,36.91802695356275,34.89153398422567,Province in Asia Minor; Paul's birthplace and ministry area,-
+ebal_mount,Ebal Mount,N3,8,32.23293813761263,35.27304180036391,"A mountain in Canaan, site of curses and blessings ceremony.",-
+edrei,Edrei,N3,8,32.62413707696097,36.09899663593119,Amorite city defeated by Moses and the Israelites,-
+eglon,Eglon,N3,8,31.5,34.7667,Amorite king of Lachish; city in Judah,-
+elath,Elath,N3,8,29.528502,35.005732,Edomite port on the Red Sea; fortified by Judah,-
+engedi,Engedi,N3,8,31.46152536164766,35.39241108242345,Oasis in Judah; refuge for David; Chedorlaomer's victory,-
+eshtaol,Eshtaol,N3,8,31.782429,35.009012,City allotted to Judah and Dan; associated with Samson,-
+galatia,Galatia,zona,8,37.57813498250009,32.45318282875567,"A region in Asia Minor, recipient of Paul's epistle.",-
+jezreel,Jezreel,N3,8,31.53577362133176,35.09409986578734,"A town in Judah, home of David's wife Ahinoam",-
+kiriathaim,Kiriathaim,N3,8,31.58333333329998,35.70000000000012,"A Moabite city, later allotted to Reuben",-
+memphis,Memphis,N3,8,29.849632,31.253958,An important city in ancient Egypt,-
+meribah,Meribah,N3,8,30.68771281376111,34.49479554246946,A place where Moses disobeyed God,-
+pisgah,Pisgah,N3,8,31.76503129703305,35.71856575741812,"A mountain range in Moab, east of the Jordan",-
+rephaim_valley,Rephaim Valley,zona,8,31.756332,35.223059,"Valley near Jerusalem, site of battles",-
+shinar,Shinar,zona,8,32.53650368616845,44.42088287373876,"Ancient region in Mesopotamia, associated with Babylon",Mesopotamia
+taanach,Taanach,N3,8,32.51723975501718,35.21632508826309,"Canaanite city allotted to Manasseh, later a Levitical city",-
+tabor_mount,Tabor Mount,N3,8,32.68695640243183,35.39091304299688,"Mountain in Israel, site of Deborah and Barak's victory",-
+tob,Tob,zona,8,32.561735,36.240494,Region where Jephthah fled and recruited mercenaries,-
+aroer,Aroer,N3,7,31.9617,35.9115,"A city in Gad, built by the Gadites.",-
+azekah,Azekah,N3,7,31.70063856043753,34.93618589974822,"Judean town, site of battles and sieges.",-
+bahurim,Bahurim,N3,7,31.824736,35.388486,"Village near Jerusalem, home of Shimei, who cursed David.",-
+beth_aven,Beth-aven,zona,7,31.89571707979081,35.25309824700233,Town and wilderness near Ai and Bethel.,-
+bethsaida,Bethsaida,NT,7,32.90784828392077,35.62697295608815,"Town where Jesus performed miracles, home of several disciples",-
+bozrah,Bozrah,N3,7,30.734691,35.60625,Capital city of Edom,Edom
+cyrene,Cyrene,NT,7,32.824979,21.858301,City in North Africa; home of early Christians,-
+dedan,Dedan,zona,7,26.625139,37.919663,"An Arabian people and region, involved in trade.",-
+dor,Dor,N3,7,32.61323618394521,34.91889683434057,"A Canaanite city, later allotted to Manasseh but not conquered.",-
+ezion_geber,Ezion-geber,N3,7,29.75804307645581,35.0306017443078,Israelite encampment; port city on Red Sea,-
+golgotha,Golgotha,N3,7,31.777444,35.234935,"The place where Jesus was crucified, meaning ""Place of a Skull.""",-
+house_of_the_forest,House of the Forest,N3,7,31.777444,35.234935,A building in Solomon's palace complex,-
+jabbok,Jabbok,N3,7,32.193237,35.676305,"A river east of the Jordan, associated with Jacob",-
+kir,Kir,N3,7,31.18132579594509,35.70214779044711,"A Moabite city, later destroyed by the Babylonians",Moab
+lod,Lod,NT,7,31.95138888888889,34.89527777777778,A city in Benjamin; home of Aeneas healed by Peter,-
+mesopotamia,Mesopotamia,MVP,7,32.53650368616845,44.42088287373876,The region between the Tigris and Euphrates rivers,-
+nebo,Nebo,N3,7,31.748024,35.743257,A city and mountain in Moab,-
+nebo_mount,Nebo Mount,zona,7,31.76135780447535,35.74614824478083,The mountain where Moses viewed the Promised Land,-
+peniel,Peniel,N3,7,32.1843727808126,35.70287002746794,A place where Jacob wrestled with God,-
+sepharvaim,Sepharvaim,zona,7,33.789693,44.459399,City of origin for people resettled in Samaria,-
+sharon,Sharon,zona,7,32.639068,34.945929,Coastal plain known for its beauty and fertility,-
+tahpanhes,Tahpanhes,N3,7,30.860556,32.171389,Egyptian city where Jewish refugees fled after Jerusalem's destruction,-
+tishbe,Tishbe,N3,7,33.01718199667929,35.56804856758258,Hometown of the prophet Elijah,-
+zoan,Zoan,N3,7,30.97461982407924,31.88417306768534,"An ancient Egyptian city, probably Tanis",-
+ar,Ar,N3,6,31.44980942220132,35.59395836278803,The capital city of Moab.,-
+arpad,Arpad,N3,6,35.136204,36.749488,City conquered by Assyria,-
+baal_meon,Baal-meon,N3,6,31.679454,35.734892,"Moabite town, allotted to Reuben, later retaken by Moab.",-
+beth_arabah,Beth-arabah,zona,6,31.84332,35.50649,"Town and wilderness area in Judah, also associated with Benjamin.",-
+east,East,zona,6,31.95018855468469,35.92413135872749,A direction associated with invading armies and nomadic tribes.,-
+elim,Elim,zona,6,29.306194,32.980924,Desert oasis on Israel's journey from Egypt to Sinai,-
+eshtemoa,Eshtemoa,N3,6,31.373521,35.074552,Levitical city in Judah; received spoils from David's victory,-
+gibbethon,Gibbethon,zona,6,31.976623,35.004896,A Levitical city in the territory of Dan.,Philistia
+gihon,Gihon,N3,6,31.773116,35.237186,A river of Eden; a spring near Jerusalem.,-
+gilboa_mount,Gilboa Mount,N3,6,32.50984080716704,35.40843470396692,A mountain range where Saul and his sons died.,-
+hazeroth,Hazeroth,zona,6,28.916667,34.5,Israelite encampment during the wilderness wanderings,-
+ibleam,Ibleam,N3,6,32.45,35.2833,A Levitical city in Issachar,-
+iconium,Iconium,NT,6,37.88353038890398,32.4942625657248,A city in Asia Minor visited by Paul,-
+italy,Italy,zona,6,41.9,12.48333333333333,"A region in southern Europe, home to the Roman Empire",-
+jarmuth,Jarmuth,N3,6,31.70926894307416,34.96995387025439,"A Canaanite city, later allotted to Judah",-
+kishon,Kishon,N3,6,32.761948,35.064096,A river in northern Israel,-
+lystra,Lystra,NT,6,37.57813498250009,32.45318282875567,A city in Lycaonia; Paul and Barnabas preached there,-
+machpelah,Machpelah,N3,6,31.52464794555393,35.11073465087356,A cave near Hebron; burial place of patriarchs,-
+maon,Maon,N3,6,31.41666666666668,35.1166666666667,A city in Judah; home of Nabal and Abigail,-
+mareshah,Mareshah,N3,6,31.60393321295081,34.90237777777779,A town in Judah; fortified by Rehoboam,-
+migdol,Migdol,N3,6,30.020296,32.372233,A place near the Red Sea where the Israelites camped,-
+naioth,Naioth,N3,6,31.83273947023218,35.1801628605877,A place near Ramah where David fled from Saul,-
+nob,Nob,N3,6,31.799605,35.23298,A city of priests near Jerusalem,-
+ono,Ono,N3,6,32.02222222222223,34.86666666666667,"A town in Benjamin, near Lod",-
+ophrah,Ophrah,N3,6,32.60868269540592,35.28826433084549,Gideon's hometown in Manasseh; a town in Issachar,-
+pirathon,Pirathon,N3,6,32.286022,35.022944,"A town in Ephraim, home of several notable Israelites",-
+sela,Sela,N3,6,30.32243571223214,35.45627946919968,Edomite stronghold captured by King Amaziah of Judah,-
+shelah,Shelah,N3,6,31.777444,35.234935,Pool and tunnel in Jerusalem,-
+shur,Shur,zona,6,30.2354,33.247,Wilderness area between Canaan and Egypt,-
+socoh,Socoh,N3,6,31.68123465358001,34.97639817516712,Town in Judah; site of David's battle with Goliath,-
+teman,Teman,zona,6,30.203813,35.732568,"Region and town in Edom, known for wisdom",Edom
+troas,Troas,NT,6,39.50664305923271,26.08059270470616,"A city in Asia Minor, visited by Paul",-
+achor_valley,Achor Valley,zona,5,31.83689,35.399737,"A valley near Jericho, where Achan was stoned.",-
+admah,Admah,N3,5,31.11942270162137,35.41253049195169,One of the cities destroyed with Sodom and Gomorrah.,-
+ain,Ain,N3,5,31.370835,34.860665,"A city in Judah, allotted to the Levites.",-
+akeldama,Akeldama,N3,5,31.777444,35.234935,Field purchased with Judas' betrayal money; burial place for strangers,-
+baalath_beer,Baalath-beer,N3,5,31.244952,34.840888,"Town in the Negev, allotted to Simeon.",-
+bezer,Bezer,N3,5,32.51613740944529,36.48829075785014,Levitical city of refuge in Reuben,-
+carmel_mount,Carmel Mount,N3,5,32.729350157734,35.04978957235391,Mountain range; site of Elijah's confrontation with prophets of Baal,-
+corner_gate,Corner Gate,N3,5,31.777444,35.234935,Fortified gate in Jerusalem's wall,-
+elealeh,Elealeh,N3,5,31.813796,35.824275,Moabite city assigned to Reuben; later prophecies of destruction,-
+en_rogel,En-rogel,N3,5,31.767775,35.234408,Spring near Jerusalem; associated with Adonijah's and David's kingships,-
+gedor,Gedor,N3,5,31.63333,35.083333,Town in Judah; home of Judahite clan members,-
+gozan,Gozan,zona,5,36.840013,40.06889,A region in Mesopotamia where Israelite captives were deported.,-
+horonaim,Horonaim,N3,5,31.288056,35.515,A Moabite city mentioned in prophecies of judgment,-
+ivvah,Ivvah,zona,5,34.467725,41.964955,"City conquered by Assyria, people resettled in Samaria.",-
+kanah,Kanah,zona,5,32.74701517958585,35.33877162058164,Town in Asher's territory; village where Jesus performed miracles,-
+kenath,Kenath,N3,5,32.756919,36.6164,"A city in Gilead, captured by Nobah and renamed",-
+kibroth_hattaavah,Kibroth-hattaavah,zona,5,28.916667,34.5,A place where the Israelites complained and were punished,-
+lehi,Lehi,N3,5,31.75274835811488,34.97660913147738,A place where Samson fought the Philistines,-
+lo_debar,Lo-debar,N3,5,32.662488,35.783568,A town in Gilead; home of Mephibosheth,-
+marah,Marah,N3,5,29.35,32.933333,A place with bitter water on the Exodus route,-
+massah,Massah,N3,5,28.73106102564323,33.84169995726504,A place where the Israelites tested God,-
+medeba,Medeba,N3,5,31.72045763248588,35.79197231962891,A Moabite city captured by the Israelites,-
+meshech,Meshech,zona,5,46.0,47.0,"A nation, descendant of Japheth; associated with Tubal",Asia
+ophel,Ophel,zona,5,31.777444,35.234935,A fortified area in Jerusalem,-
+pamphylia,Pamphylia,N3,5,37.00520811721595,30.90494591606115,A Roman province in Asia Minor,-
+pathros,Pathros,zona,5,28.322364,30.692312,A region in Upper Egypt,-
+peor,Peor,N3,5,31.76503129703305,35.71856575741812,A mountain in Moab associated with idolatry,-
+rephidim,Rephidim,N3,5,28.73106102564323,33.84169995726504,Israelite encampment during the Exodus,-
+salt_valley,Salt Valley,zona,5,31.087328,35.38374,Valley where David and his commanders defeated enemies,-
+shaalbim,Shaalbim,N3,5,31.870364,34.981728,"Town in Dan, home of David's mighty men",-
+shittim,Shittim,N3,5,31.85826217905818,35.64156652792805,The last Israelite campsite before crossing the Jordan.,-
+sibmah,Sibmah,N3,5,31.815283,35.766738,Moabite town known for its vineyards,-
+tappuah,Tappuah,N3,5,32.11666666666667,35.23333333333333,Canaanite city allotted to Ephraim and Manasseh,-
+tarsus,Tarsus,NT,5,36.91802695356275,34.89153398422567,"City in Cilicia, birthplace of the apostle Paul",-
+thebes,Thebes,N3,5,25.700025,32.639441,"Ancient Egyptian city, known for its wealth and power",-
+tubal,Tubal,zona,5,40.905222,37.799969,"A nation, descendant of Japheth, known for trading",-
+water_gate,Water Gate,N3,5,31.777444,35.234935,"A gate in Jerusalem's wall, rebuilt by Nehemiah",-
+zarethan,Zarethan,N3,5,32.267821,35.576613,A place near the Jordan River associated with Israel's crossing,-
+zeboiim,Zeboiim,zona,5,31.11942270162137,35.41253049195169,One of the cities of the plain destroyed with Sodom,-
+achzib,Achzib,descartado,4,31.7,35.0,"A town in Judah, birthplace of Shelah.",-
+alexandria,Alexandria,descartado,4,31.2278414761719,29.9569242709775,A major city in Egypt,-
+antioch,Antioch,NT,4,38.31643056393041,31.17948683048973,A city in Pisidia where Paul preached the gospel.,-
+aphek,Aphek,descartado,4,32.1047126614992,34.93197921211777,"A city in the Shephelah, site of Philistine battles.",-
+arad,Arad,descartado,4,31.28098170907087,35.12636584365214,"Arad, Canaanite city, attacked Israel, later inhabited by Kenites",Tribe of Benjamin
+ararat,Ararat,descartado,4,39.70289295384448,44.29818047261773,A mountain range where Noah's ark rested after the flood.,-
+argob,Argob,descartado,4,33.144,36.136,"A region in Bashan, known for its fortified cities.",-
+ashan,Ashan,descartado,4,31.8099,34.9365,A city allotted to Judah and Simeon.,-
+baal_perazim,Baal-perazim,descartado,4,31.756332,35.223059,Place where David defeated the Philistines.,-
+bene_jaakan,Bene-jaakan,descartado,4,30.317396,35.407152,Israelite encampment during the wilderness wanderings.,-
+beth_barah,Beth-barah,descartado,4,31.8363211491438,35.55260017422344,Place where Gideon stationed men to intercept the Midianites.,-
+beth_jeshimoth,Beth-jeshimoth,descartado,4,31.77691134657884,35.59865748950166,"Town in Moab, allotted to Reuben, mentioned in prophecy.",-
+beth_millo,Beth-millo,descartado,4,32.21369123124062,35.2817986718367,"Fortified place in Shechem, associated with Abimelech's rule.",-
+beth_peor,Beth-peor,descartado,4,31.656099,35.71187,"Place east of the Jordan, where Moses was buried.",-
+beth_rehob,Beth-rehob,descartado,4,33.219354,35.544122,"Aramean city and region, allied with Ammon against David.",-
+beth_zur,Beth-zur,descartado,4,31.596107,35.10262,"Town in Judah, fortified by Rehoboam, repaired by Nehemiah.",-
+calneh,Calneh,descartado,4,32.127213,45.229995,"Ancient Mesopotamian city, possibly Kullania or Kullanhu",-
+chephirah,Chephirah,descartado,4,31.836401,35.095272,Gibeonite town; later part of Benjamin and Judah,-
+cherub,Cherub,descartado,4,32.53650368616845,44.42088287373876,Babylonian location; home of some returning exiles,-
+chinneroth,Chinneroth,descartado,4,32.80677585520321,35.58936052679091,Region and city near the Sea of Galilee,-
+derbe,Derbe,descartado,4,37.35092016962404,33.27141769926378,City in Lycaonia visited by Paul on missionary journeys.,-
+dung_gate,Dung Gate,descartado,4,31.777444,35.234935,"A gate in Jerusalem's wall, possibly used for waste removal.",-
+esau_mount,Esau Mount,descartado,4,30.734691,35.60625,Mountainous region of Edom; judgment prophesied by Obadiah,-
+eshcol_valley,Eshcol Valley,descartado,4,31.54909871686872,35.09356062020027,Valley where Israelite spies obtained a large cluster of grapes,-
+etham,Etham,descartado,4,30.467511,32.282767,Wilderness area where Israelites camped during the Exodus,-
+fish_gate,Fish Gate,descartado,4,31.777444,35.234935,Gate in Jerusalem's wall; rebuilt by Hassenaah during Nehemiah's time,-
+gaash,Gaash,descartado,4,32.121473,35.150392,Mountain in Ephraim; burial place of Joshua,-
+gebal,Gebal,descartado,4,34.11910360710159,35.6461419556213,Phoenician city; skilled builders; allied against Israel,-
+gederah,Gederah,descartado,4,31.823337,34.777779,Town in Judah; home of Baal-hanan and Jozabad,-
+gerizim_mount,Gerizim Mount,descartado,4,32.19956174365378,35.27285228460234,Mountain in Samaria; site of blessings and Jotham's parable,-
+giloh,Giloh,descartado,4,31.616667,35.083333,"A city in Judah; home of Ahithophel, David's counselor.",-
+golan,Golan,descartado,4,32.80007552505443,35.93730130476259,"A city of refuge in Bashan, allotted to Manasseh.",-
+hammath,Hammath,descartado,4,33.125828,35.165,A fortified city and Levitical town in Naphtali.,Tribe of Judah
+harod,Harod,descartado,4,32.549638,35.355647,A spring near where Gideon gathered his army.,-
+havvoth_jair,Havvoth-jair,descartado,4,32.042523,35.724241,Villages in Gilead captured by Jair,-
+hazar_enan,Hazar-enan,descartado,4,34.229499,37.240077,Town on the northern border of Israel,-
+hazar_shual,Hazar-shual,descartado,4,31.215418,34.942986,Town allotted to Judah and Simeon,-
+horesh,Horesh,descartado,4,31.45113920529978,35.08840337232346,A wilderness area where David hid from Saul,-
+hor_haggidgad,Hor-haggidgad,descartado,4,30.358285,35.19027,An Israelite campsite during the wilderness wanderings,-
+ijon,Ijon,descartado,4,33.32804402945069,35.61187505342423,A town in northern Israel conquered by Assyria,-
+jattir,Jattir,descartado,4,31.40143851886152,35.06941349210527,A town in the hill country of Judah,-
+jeshimon,Jeshimon,descartado,4,31.46152536164766,35.39241108242345,"A wilderness near Ziph, where David hid from Saul",-
+jokneam,Jokneam,descartado,4,32.66454576550823,35.10891818863304,"A Canaanite city, later a Levitical city in Zebulun",-
+kedemoth,Kedemoth,descartado,4,31.646073,35.894537,"A town in Moab, later a Levitical city in Reuben",-
+kir,Kir,descartado,4,33.123611,45.931389,"A city or region in Mesopotamia, possibly Elam",Assyria
+kue,Kue,descartado,4,36.91802695356275,34.89153398422567,A place Solomon obtained horses,-
+mephaath,Mephaath,descartado,4,31.85,35.933333,"A Levitical city in Reuben, later Moabite",-
+moladah,Moladah,descartado,4,31.162327,35.057114,"Town in the Negev, allotted to Judah and Simeon",-
+oboth,Oboth,descartado,4,31.49684513710609,35.78284105296996,A place where the Israelites camped during the Exodus,-
+phrygia,Phrygia,descartado,4,37.76986723761415,29.06450110237073,A region in Asia Minor with early Christians,-
+pi_hahiroth,Pi-hahiroth,descartado,4,29.94658,32.425144,A place near the Red Sea crossing,-
+rameses,Rameses,descartado,4,30.799370210096,31.834216685474,Egyptian city where Israelites lived before the Exodus,-
+rehob,Rehob,descartado,4,32.955448,35.211971,Levitical city in Asher,-
+rimmon,Rimmon,descartado,4,31.93466,35.297063,Rock where Benjamites fled after battle,-
+salecah,Salecah,descartado,4,32.493941,36.710337,"City in Bashan, east of the Jordan River",-
+sepharad,Sepharad,descartado,4,38.47682690345803,28.11413118732089,City in Asia Minor; destination of exiled Jews,-
+shaveh,Shaveh,descartado,4,31.58333333329998,35.70000000000012,Valley where Chedorlaomer defeated the Emites,-
+sheep_gate,Sheep Gate,descartado,4,31.777444,35.234935,Gate in Jerusalem near the sheep market,-
+sin,Sin,descartado,4,28.838778,33.420573,Wilderness area between Elim and Sinai,-
+smyrna,Smyrna,descartado,4,38.45196037886051,27.16192104844777,One of the seven churches of Asia Minor,-
+succoth,Succoth,descartado,4,30.62077414398056,32.25869322351544,First Israelite campsite after leaving Egypt during Exodus,-
+thyatira,Thyatira,descartado,4,38.92579128786831,27.85655574592795,"City in Asia Minor, home of the prophet Lydia",-
+tower_of_hananel,Tower of Hananel,descartado,4,31.777444,35.234935,"A tower in Jerusalem's wall, rebuilt by Nehemiah",-
+ur,Ur,descartado,4,30.9620520474569,46.10374195774169,The hometown of Abraham in Mesopotamia,-
+valley_gate,Valley Gate,descartado,4,31.777444,35.234935,"A gate in Jerusalem's wall, rebuilt by Nehemiah",-
+zanoah,Zanoah,descartado,4,31.716667,35.0,A town in the Judean lowlands allotted to Judah,-
+zaphon,Zaphon,descartado,4,32.23771,35.585865,A city in Gad and a term for the north,-
+zarephath,Zarephath,descartado,4,33.4333,35.3,A Phoenician city where Elijah stayed with a widow,-
+zered,Zered,descartado,4,30.884128,35.897633,A brook marking the end of Israel's wilderness wanderings,-
+abdon,Abdon,descartado,3,33.047808,35.146201,A Levitical city in the territory of Asher.,-
+abel_meholah,Abel-meholah,descartado,3,32.35601,35.536929,"A town in Israel, home of Elisha.",-
+achshaph,Achshaph,descartado,3,32.95182083157021,35.17382658065705,A Canaanite city-state conquered by Joshua.,-
+ahava,Ahava,descartado,3,33.625197,42.786647,A place where Ezra assembled the returning exiles.,-
+akrabbim,Akrabbim,descartado,3,30.688292,35.263182,A pass marking the southern border of Judah,-
+aphek,Aphek,descartado,3,32.77826806589006,35.69874935270775,"A city in the north, site of Aramean battles.",-
+aphek,Aphek,descartado,3,34.066067,35.865801,A city in the territory of Asher.,-
+areopagus,Areopagus,descartado,3,37.98333333333333,23.73333333333333,A hill in Athens where Paul preached the gospel.,-
+azmon,Azmon,descartado,3,30.958506,34.3805,Place on the southern border of Judah.,-
+baal_zephon,Baal-zephon,descartado,3,29.938441,32.395473,Egyptian location where the Israelites camped before crossing the Red Sea.,-
+bamoth_baal,Bamoth-baal,descartado,3,31.76503129703305,35.71856575741812,Moabite high place where Balak took Balaam.,-
+beer_lahai_roi,Beer-lahai-roi,descartado,3,30.68771281376111,34.49479554246946,Well where Hagar encountered the Angel of the Lord.,-
+benjamin_gate,Benjamin Gate,descartado,3,31.777444,35.234935,"Gate in Jerusalem, associated with the tribe of Benjamin.",-
+berea,Berea,descartado,3,40.5167,22.2,City in Macedonia where Paul preached; home of Sopater.,-
+berothah,Berothah,descartado,3,33.93148,36.152049,City mentioned in Ezekiel's vision and David's conquests.,-
+besor,Besor,descartado,3,31.398056,34.436667,Brook where David's men pursued the Amalekites.,-
+beth_anath,Beth-anath,descartado,3,33.146864,35.427134,"Canaanite town allotted to Naphtali, but not fully conquered.",-
+beth_azmaveth,Beth-azmaveth,descartado,3,31.834203,35.260706,"Town of Benjamin, home to some who returned from exile.",-
+bethel,Bethel,descartado,3,31.244952,34.840888,Town in Judah that received spoils from David's victory.,Tribe of Simeon
+beth_hoglah,Beth-hoglah,descartado,3,31.837062,35.513151,Town on the border between Judah and Benjamin.,-
+beth_horon_upper,Beth-horon Upper,descartado,3,31.85891795409998,35.12831317484221,"Town in Ephraim, near Lower Beth-horon.",-
+beth_nimrah,Beth-nimrah,descartado,3,31.900811,35.625693,"Town in Gad, east of the Jordan River.",-
+bethphage,Bethphage,descartado,3,31.79038300543012,35.25667232374259,"Village near Bethany, where Jesus began His triumphal entry.",-
+beth_shemesh,Beth-shemesh,descartado,3,33.146864,35.427134,"Fortified city in Naphtali, not conquered by the tribe.",-
+carchemish,Carchemish,descartado,3,36.82928161099629,38.01576051001015,Ancient city; site of Babylonian victory over Egypt,-
+cenchreae,Cenchreae,descartado,3,37.88460365000972,22.9933595701051,Port of Corinth; home of Phoebe,-
+chesulloth,Chesulloth,descartado,3,32.683231,35.324694,Border town of Issachar and Zebulun,-
+colossae,Colossae,descartado,3,37.78333333333333,29.25,City in Phrygia; recipient of Paul's epistle,-
+daberath,Daberath,descartado,3,32.69171267584284,35.37171031061986,Levitical city in Issachar's territory,-
+decapolis,Decapolis,descartado,3,32.6817875,35.8700227,A group of ten Hellenistic cities in ancient Palestine.,-
+diblathaim,Diblathaim,descartado,3,31.49684513710609,35.78284105296996,A place where the Israelites camped during their wilderness wanderings.,-
+dimnah,Dimnah,descartado,3,32.781808,35.321364,A Levitical city in the territory of Zebulun.,-
+dothan,Dothan,descartado,3,32.42064338380848,35.18019829952955,A place where Joseph found his brothers and was sold.,-
+ebenezer,Ebenezer,descartado,3,31.83273947023218,35.1801628605877,A stone memorial set up by Samuel to commemorate victory.,-
+elah_valley,Elah Valley,descartado,3,31.690629,34.963136,Site of David's victory over Goliath,-
+en_dor,En-dor,descartado,3,32.62570020915744,35.38566744418715,Canaanite city; site of Saul's consultation with medium,-
+en_gannim,En-gannim,descartado,3,32.46349905885267,35.3036831926058,Levitical city in Issachar's territory,-
+ezem,Ezem,descartado,3,31.244952,34.840888,City allotted to Judah and Simeon,-
+fountain_gate,Fountain Gate,descartado,3,31.777444,35.234935,Gate in Jerusalem's wall; rebuilt by Shallun during Nehemiah's time,-
+gath_rimmon,Gath-rimmon,descartado,3,32.06972222222223,34.88305555555556,Levitical city in Dan and Manasseh,-
+gennesaret,Gennesaret,descartado,3,32.85935860372527,35.50993742021974,Plain on the northwest shore of the Sea of Galilee,-
+gilboa,Gilboa,descartado,3,32.516667,35.4,A mountain range where Saul and his sons died.,-
+goshen,Goshen,descartado,3,31.45,34.916667,A town and region in the hill country of Judah.,-
+habor,Habor,descartado,3,36.344972,40.789333,A river in Assyria where Israelite captives were settled.,-
+hachilah,Hachilah,descartado,3,31.466604,35.216691,"A hill in the Wilderness of Ziph, near David's hideout.",-
+hadid,Hadid,descartado,3,31.963575,34.952536,"A town in Benjamin, resettled after the Babylonian exile.",-
+halah,Halah,descartado,3,36.344972,40.789333,A place where Israelites were exiled by the Assyrians.,-
+harosheth_hagoyim,Harosheth-hagoyim,descartado,3,32.691177,35.110039,Canaanite city ruled by Sisera,-
+helkath,Helkath,descartado,3,32.955448,35.211971,Levitical city in the territory of Asher,-
+hena,Hena,descartado,3,34.467725,41.964955,Mesopotamian city conquered by Assyria,-
+holon,Holon,descartado,3,31.583333,34.95,Levitical city in the hill country of Judah,-
+jezreel_valley,Jezreel Valley,descartado,3,32.5559631396043,35.33078927843792,"A fertile valley in northern Israel, site of many battles",-
+jotbathah,Jotbathah,descartado,3,29.75804307645581,35.0306017443078,A place where the Israelites camped during their wilderness journey,-
+kabzeel,Kabzeel,descartado,3,31.1858,34.96745,"A town in the Negev, home of Benaiah",-
+kishion,Kishion,descartado,3,32.559061,35.246206,A Levitical city in Issachar,-
+kitron,Kitron,descartado,3,32.753141,35.279335,A city in Zebulun not conquered,-
+lasha,Lasha,descartado,3,31.718148,35.584826,A place marking Canaanite territory; a stop in Israel's journey,-
+madmannah,Madmannah,descartado,3,31.391668,34.940502,A town in the Negev of Judah,-
+magog,Magog,descartado,3,46.0,47.0,A nation that will attack Israel in the future,Asia
+meribah,Meribah,descartado,3,28.73106102564323,33.84169995726504,A place where the Israelites quarreled with Moses,-
+miletus,Miletus,descartado,3,37.5,27.3,A city in Asia Minor visited by Paul,-
+mishal,Mishal,descartado,3,33.047808,35.146201,A Levitical city in Asher,-
+moresheth,Moresheth,descartado,3,31.60393321295081,34.90237777777779,Hometown of the prophet Micah in Judah,-
+nahalol,Nahalol,descartado,3,32.722209,35.35282,A Levitical city in Zebulun,-
+nebo,Nebo,descartado,3,31.606256,35.037417,"A town in Judah, possibly named after a person",-
+ophrah,Ophrah,descartado,3,31.95378955858199,35.29913577541004,A town in Benjamin and a place in Manasseh,-
+perga,Perga,descartado,3,37.00520811721595,30.90494591606115,A city in Pamphylia visited by Paul,-
+phoenicia,Phoenicia,descartado,3,33.56316734135746,35.36634649354799,A region and people on the Mediterranean coast,-
+pontus,Pontus,descartado,3,40.905222,37.799969,A region in Asia Minor with Jewish inhabitants,-
+rimmon,Rimmon,descartado,3,31.370835,34.860665,A town in Judah and Simeon,-
+second_quarter,Second Quarter,descartado,3,31.777444,35.234935,District in Jerusalem mentioned by Huldah and Zephaniah,-
+sharuhen,Sharuhen,descartado,3,31.282222,34.4825,Town allotted to Simeon within Judah's territory,-
+shimron,Shimron,descartado,3,32.70528895585606,35.21333285757741,"Canaanite city conquered by Joshua, allotted to Zebulun",-
+shunem,Shunem,descartado,3,32.60563102234625,35.33430585716489,Town in Issachar; home of the Shunammite woman,-
+siddim_valley,Siddim Valley,descartado,3,31.235341,35.517624,Valley near the Dead Sea; site of battle,-
+syene,Syene,descartado,3,24.066181,32.895862,"Southern border of Egypt, modern-day Aswan",-
+tamar,Tamar,descartado,3,31.024923,35.064154,Landmark on the southeastern border of Israel,-
+tema,Tema,descartado,3,27.633172,38.554125,Arabian city and tribe known for trade,-
+thebez,Thebez,descartado,3,32.3241024517848,35.36825275634464,Canaanite city where Abimelech was killed,-
+timnath_heres,Timnath-heres,descartado,3,32.121473,35.150392,"Town allotted to Joshua, where he was buried",-
+uz,Uz,descartado,3,30.0334,36.44839,"A region associated with Job, Edom, and Arabia",Edom
+washer's_field,Washer's Field,descartado,3,31.769079,35.227994,"A location near Jerusalem's wall, mentioned in prophecies",-
+abana,Abana,descartado,2,33.545097,36.224661,"A river of Damascus, preferred by Naaman over the Jordan.",-
+abronah,Abronah,descartado,2,29.75804307645581,35.0306017443078,A desert campsite during Israel's wilderness wanderings.,-
+acco,Acco,descartado,2,32.927583,35.081555,"A seaport in Asher, also called Ptolemais.",-
+achzib,Achzib,descartado,2,33.04846798541127,35.10220252805766,A coastal town allotted to Asher.,-
+adummim,Adummim,descartado,2,31.817585,35.361646,A pass on the border between Judah and Benjamin.,-
+ahlab,Ahlab,descartado,2,33.02498036359259,35.44544657992798,A Canaanite city allotted to Asher.,-
+ain,Ain,descartado,2,34.353071,36.385705,A place on the eastern boundary of the Promised Land.,-
+alemeth,Alemeth,descartado,2,31.828406,35.287637,A Levitical city in Benjamin,-
+alush,Alush,descartado,2,28.770015,33.40046,A campsite during Israel's wilderness journey.,-
+anab,Anab,descartado,2,31.403888,34.944185,A city in the hill country of Judah.,-
+arumah,Arumah,descartado,2,32.154887,35.318192,A city associated with Abimelech and King Jehoiakim's mother.,-
+arvad,Arvad,descartado,2,34.856082,35.858485,"An island city, known for its skilled mariners and soldiers.",-
+ashnah,Ashnah,descartado,2,31.8099,34.9365,Two cities in the Shephelah region of Judah.,-
+ashteroth_karnaim,Ashteroth-karnaim,descartado,2,32.7666666667,36.0166666667,Ancient city defeated by Chedorlaomer,-
+assos,Assos,descartado,2,39.48955031303715,26.33586734239906,"A seaport in Mysia, visited by Paul.",-
+ataroth,Ataroth,descartado,2,31.85891795409998,35.12831317484221,A town on the border of Ephraim and Manasseh.,-
+ataroth,Ataroth,descartado,2,31.60000000000001,35.7,Town in Gilead allotted to Gad,-
+ataroth_addar,Ataroth-addar,descartado,2,31.85891795409998,35.12831317484221,A town on the border of Ephraim and Benjamin.,-
+avith,Avith,descartado,2,30.734691,35.60625,Capital city of Edomite king Hadad.,Edom
+baalath,Baalath,descartado,2,31.927451,35.055378,"Town fortified by Solomon, possibly in the Lebanon region.",-
+bamoth,Bamoth,descartado,2,31.76503129703305,35.71856575741812,Israelite encampment in Moab during the Exodus.,-
+beautiful_gate,Beautiful Gate,descartado,2,31.777444,35.234935,"Gate of the Jerusalem temple, site of Peter's miracle.",-
+beracah_valley,Beracah Valley,descartado,2,31.61065,35.165648,Valley where Jehoshaphat and his army blessed the Lord.,-
+beth_eked,Beth-eked,descartado,2,32.5559631396043,35.33078927843792,Place where Jehu killed the brothers of Ahaziah.,-
+bethesda,Bethesda,descartado,2,31.777444,35.234935,Pool in Jerusalem where Jesus healed a paralyzed man.,-
+beth_haccherem,Beth-haccherem,descartado,2,31.665911,35.241516,"Town in Judah, possibly fortified, mentioned by Jeremiah.",-
+beth_haram,Beth-haram,descartado,2,31.816667,35.583333,"Town in Gad, east of the Jordan, fortified by Gad.",-
+beth_pelet,Beth-pelet,descartado,2,31.215418,34.942986,"Town in southern Judah, resettled after the Babylonian exile.",-
+beth_togarmah,Beth-togarmah,descartado,2,40.065539,45.036328,"Region or people group trading with Tyre, allied with Gog.",-
+bezek,Bezek,descartado,2,31.898029,34.952878,City where Judah defeated Canaanites,-
+bithynia,Bithynia,descartado,2,40.905503,30.685778,A region in Asia Minor,-
+bozkath,Bozkath,descartado,2,31.56485056116292,34.8467256730566,"Town in Judah, birthplace of Josiah's mother",-
+broad_wall,Broad Wall,descartado,2,31.777444,35.234935,Section of Jerusalem's wall,-
+caesarea_philippi,Caesarea Philippi,descartado,2,33.2480599128704,35.69463725353769,City where Peter confessed Jesus as Messiah,-
+calah,Calah,descartado,2,36.142884,43.312178,Ancient Assyrian city built by Nimrod,-
+cappadocia,Cappadocia,descartado,2,36.731904,35.486302,Region in Asia Minor; home to early Christian believers,-
+casiphia,Casiphia,descartado,2,35.136204,36.749488,Place where Levites were recruited for temple service,-
+cherith,Cherith,descartado,2,32.309099,35.5599,Brook where Elijah hid during drought,-
+chesalon,Chesalon,descartado,2,31.781049,35.05113,Landmark on Judah's northern border,-
+chorazin,Chorazin,descartado,2,32.90909168933021,35.55292324144203,Town in Galilee; rebuked by Jesus for unbelief,-
+corban,Corban,descartado,2,31.777444,35.234935,Offering dedicated to God; temple treasury,-
+cuthah,Cuthah,descartado,2,32.733333,44.666667,Babylonian city; origin of Samaritan settlers,-
+dinhabah,Dinhabah,descartado,2,30.336614,35.529889,The capital city of Edom during Bela's reign.,Edom
+dophkah,Dophkah,descartado,2,28.770015,33.40046,A place where the Israelites camped during their wilderness wanderings.,-
+dragon_spring,Dragon Spring,descartado,2,31.777444,35.234935,"A water source near Jerusalem, mentioned in Nehemiah's wall inspection.",-
+ellasar,Ellasar,descartado,2,37.056944,40.997222,Mesopotamian city-state; allied with Elam against Sodom and Gomorrah,-
+eltekeh,Eltekeh,descartado,2,31.869521,35.06688,City in Dan's territory; later given to the Levites,-
+eltolad,Eltolad,descartado,2,31.244952,34.840888,A town allotted to Judah and Simeon,Tribe of Simeon
+enaim,Enaim,descartado,2,31.784368,34.90968,"Enaim, place where Tamar posed as a prostitute",-
+en_shemesh,En-shemesh,descartado,2,31.77402,35.270231,Spring on the border between Judah and Benjamin,-
+ephes_dammim,Ephes-dammim,descartado,2,31.691186,34.944496,Place where the Philistines and Israelites fought; Goliath's challenge,-
+ephraim_gate,Ephraim Gate,descartado,2,31.777444,35.234935,"Gate in Jerusalem's wall, broken down by King Jehoash",-
+ephraim_gate,Ephraim Gate,descartado,2,31.777444,35.234935,"Gate in Jerusalem's wall, rebuilt during Nehemiah's time",-
+ephron_mount,Ephron Mount,descartado,2,31.675746,35.042407,Mountain on the border between Judah and Benjamin,-
+erech,Erech,descartado,2,32.322222,45.636111,Ancient Mesopotamian city; part of Nimrod's kingdom,-
+etam,Etam,descartado,2,31.370835,34.860665,Villages associated with Simeon; home of Judahite clan,Tribe of Simeon then Judah
+etam,Etam,descartado,2,31.736294,35.05485,Cliff where Samson hid after defeating the Philistines,-
+ether,Ether,descartado,2,31.8099,34.9365,City allotted to Judah and Simeon,-
+fair_havens,Fair Havens,descartado,2,34.92138418681769,24.73114125973342,Harbor on Crete; Paul's ship stopped during journey to Rome,-
+gabbatha,Gabbatha,descartado,2,31.777444,35.234935,Raised stone platform in Jerusalem; location of Jesus' trial,-
+gallim,Gallim,descartado,2,31.816667,35.25,Town in Benjamin; home of Michal's husband Paltiel,-
+gath_hepher,Gath-hepher,descartado,2,32.73918470119603,35.32822661816711,Town in Zebulun; hometown of prophet Jonah,-
+gederoth,Gederoth,descartado,2,31.823337,34.777779,Town in Judah; captured by Philistines during Ahaz's reign,-
+gethsemane,Gethsemane,descartado,2,31.777444,35.234935,Garden near Jerusalem; site of Jesus' prayer and arrest,-
+gibeah,Gibeah,descartado,2,31.43333151674604,35.13333188530802,A town in the hill country of Judah.,-
+gilgal,Gilgal,descartado,2,32.029737,35.222604,A place associated with the prophets Elijah and Elisha.,-
+gittaim,Gittaim,descartado,2,31.963575,34.952536,Town where Beerothites fled; later inhabited by Benjamites.,-
+halak_mount,Halak Mount,descartado,2,30.916667,34.833333,A mountain marking the southern boundary of Joshua's conquests.,-
+hamon_gog_valley,Hamon-gog Valley,descartado,2,31.49684513710609,35.78284105296996,A valley where Gog and his army will be buried.,-
+haradah,Haradah,descartado,2,30.317396,35.407152,A desert campsite during Israel's journey from Egypt.,-
+hashmonah,Hashmonah,descartado,2,30.317396,35.407152,A desert campsite during Israel's journey from Egypt.,-
+hauran,Hauran,descartado,2,32.80007552505443,35.93730130476259,Region east of the Sea of Galilee,-
+havilah,Havilah,descartado,2,30.14,35.22,"Region inhabited by Ishmaelites, raided by Saul",-
+helam,Helam,descartado,2,32.1843727808126,35.70287002746794,Place where David defeated the Arameans,-
+hepher,Hepher,descartado,2,32.3667,34.8833,A Canaanite city conquered by Joshua; later a Solomonic district.,-
+hethlon,Hethlon,descartado,2,34.73799,36.340918,Place on the northern border of Israel,-
+hor_mount,Hor Mount,descartado,2,33.416159,35.857256,A mountain marking Israel's northern boundary,-
+horse_gate,Horse Gate,descartado,2,31.777444,35.234935,A gate in Jerusalem's wall near the temple,-
+immer,Immer,descartado,2,36.35941,43.152887,A place from which exiles returned to Jerusalem,-
+india,India,descartado,2,22.0,77.0,The eastern extent of Ahasuerus' Persian Empire,-
+iphtahel_valley,Iphtahel Valley,descartado,2,32.832774,35.277225,A valley on the border of Zebulun and Asher,-
+iye_abarim,Iye-abarim,descartado,2,31.49684513710609,35.78284105296996,An Israelite campsite near Moab,-
+jabneel,Jabneel,descartado,2,31.865518,34.746856,"A town on the border of Judah, later fortified",-
+janoah,Janoah,descartado,2,33.260246,35.302915,A town on the border of Ephraim,-
+jetur,Jetur,descartado,2,33.41615982399708,35.85725617635589,A descendant of Ishmael and a region in Syria,-
+jogbehah,Jogbehah,descartado,2,32.028743,35.862887,"A town in Gilead, fortified by the Gadites",-
+juttah,Juttah,descartado,2,31.45,35.083333,"A town in the hill country of Judah, a Levitical city",-
+kain,Kain,descartado,2,31.5,35.166667,A town in the hill country of Judah,-
+kanah,Kanah,descartado,2,32.138219,35.038971,A brook marking the border between Ephraim and Manasseh,-
+kehelathah,Kehelathah,descartado,2,30.317396,35.407152,A place where the Israelites camped during their wilderness journey,-
+kibzaim,Kibzaim,descartado,2,31.833333,35.3,A Levitical city in the territory of Ephraim,-
+king's_highway,King's Highway,descartado,2,31.18132579594509,35.70214779044711,An ancient trade route through Edom and Moab,-
+king's_valley,King's Valley,descartado,2,31.777444,35.234935,"A valley near Salem (Jerusalem), site of significant events",-
+libnah,Libnah,descartado,2,31.8099,34.9365,A place where Israel camped in the wilderness,-
+luhith,Luhith,descartado,2,31.288056,35.515,A place in Moab,-
+lycaonia,Lycaonia,descartado,2,37.88353038890398,32.4942625657248,A region in Asia Minor; Paul and Barnabas preached there,-
+madon,Madon,descartado,2,32.799879,35.459506,A Canaanite city conquered by Joshua,-
+mahaneh_dan,Mahaneh-dan,descartado,2,31.758315,34.994252,A place between Zorah and Eshtaol; Samson's birthplace,-
+makheloth,Makheloth,descartado,2,30.317396,35.407152,A place where the Israelites camped in the wilderness,-
+manahath,Manahath,descartado,2,31.752603,35.181972,A place where Benjamites lived after the exile,-
+masrekah,Masrekah,descartado,2,30.734691,35.60625,"The royal city of Samlah, an Edomite king",Edom
+mattanah,Mattanah,descartado,2,31.718148,35.584826,A place where the Israelites camped during their wilderness journey,-
+merom,Merom,descartado,2,33.075269,35.60548,A place where Joshua defeated Jabin's coalition,-
+michmethath,Michmethath,descartado,2,32.183333,35.283333,A place on the borders of Ephraim and Manasseh,-
+migron,Migron,descartado,2,31.82378102460309,35.23100936128631,A place near Gibeah where Saul camped,-
+minnith,Minnith,descartado,2,31.75,35.85,An Ammonite town known for its wheat,-
+misrephoth_maim,Misrephoth-maim,descartado,2,33.118952,35.139434,A place near Sidon where the Canaanites fled,-
+mithkah,Mithkah,descartado,2,30.317396,35.407152,An Israelite campsite during the wilderness wanderings,-
+mizpeh_valley,Mizpeh Valley,descartado,2,33.28177,35.573371,A region near Mount Hermon,-
+moreh,Moreh,descartado,2,32.21369123124062,35.2817986718367,Place near Shechem; also a hill near Gilgal,-
+moriah_mount,Moriah Mount,descartado,2,31.77759385009378,35.23525140955081,Site of Solomon's temple in Jerusalem,-
+moseroth,Moseroth,descartado,2,30.317396,35.407152,A place where the Israelites camped during their wilderness wanderings,-
+muster_gate,Muster Gate,descartado,2,31.777444,35.234935,A gate in Jerusalem mentioned in Nehemiah's time,-
+mysia,Mysia,descartado,2,39.50664305923271,26.08059270470616,A region in northwest Asia Minor visited by Paul,-
+naaran,Naaran,descartado,2,31.949518,35.45873,A border town between Ephraim and Benjamin,-
+neah,Neah,descartado,2,32.894254,35.221877,A border town of Zebulun and Asher,-
+nephtoah,Nephtoah,descartado,2,31.683036,35.167987,A spring on the border of Judah and Benjamin,-
+new_gate,New Gate,descartado,2,31.777444,35.234935,A gate in Jerusalem during Jeremiah's time,-
+nicopolis,Nicopolis,descartado,2,39.024033,20.73573,A city in Epirus where Paul planned to winter,-
+nimrim,Nimrim,descartado,2,31.133191,35.531138,A place in Moab known for its waters,-
+paphos,Paphos,descartado,2,34.75410576175517,32.40016213313376,A city on the island of Cyprus,-
+paran_mount,Paran Mount,descartado,2,29.151667,33.541944,A mountain associated with God's appearance,-
+pau,Pau,descartado,2,30.734691,35.60625,A city in Edom,Edom
+pelusium,Pelusium,descartado,2,28.838778,33.420573,"An Egyptian city, also known as Sin",-
+pergamum,Pergamum,descartado,2,39.11894592031751,27.16512610475739,A city in Asia Minor with a church,-
+pethor,Pethor,descartado,2,36.654616,38.068879,The hometown of Balaam in Mesopotamia,-
+philadelphia,Philadelphia,descartado,2,38.34904803135629,28.51946209047604,One of the seven churches in Asia Minor,-
+pisidia,Pisidia,descartado,2,38.31643056393041,31.17948683048973,A region in Asia Minor visited by Paul,-
+punon,Punon,descartado,2,31.49684513710609,35.78284105296996,A stopping place for the Israelites in the wilderness,-
+rakkath,Rakkath,descartado,2,32.79553799444466,35.52922039819518,City on the western shore of the Sea of Galilee,-
+rehoboth,Rehoboth,descartado,2,30.884128,35.897633,City associated with an Edomite king,Edom
+remeth,Remeth,descartado,2,32.5559631396043,35.33078927843792,Levitical city in Issachar,-
+rezeph,Rezeph,descartado,2,35.95,39.016667,City conquered by the Assyrians,-
+rimmon_perez,Rimmon-perez,descartado,2,31.8099,34.9365,Israelite encampment during the Exodus,-
+rissah,Rissah,descartado,2,30.317396,35.407152,Israelite encampment during the Exodus,-
+rithmah,Rithmah,descartado,2,31.8099,34.9365,Israelite encampment during the Exodus,-
+rogelim,Rogelim,descartado,2,32.214708,35.632914,Hometown of Barzillai the Gileadite,-
+sarid,Sarid,descartado,2,32.68978573733861,35.19666870006055,Border town of Zebulun's territory,-
+seba,Seba,descartado,2,9.022736,38.746799,Kingdom mentioned in prophetic and poetic texts,-
+shaaraim,Shaaraim,descartado,2,31.7001,34.89532,Town in Judah; site of Philistine retreat,-
+shamir,Shamir,descartado,2,32.36047,35.250054,Issacharite judge who led Israel for 23 years,-
+shepham,Shepham,descartado,2,34.353071,36.385705,Landmark on the northeastern border of the Promised Land,-
+shepher_mount,Shepher Mount,descartado,2,30.317396,35.407152,Campsite during Israel's wilderness wanderings,-
+sirah,Sirah,descartado,2,31.55,35.1,Place near Hebron where Abner was killed by Joab,-
+solomon's_portico,Solomon's Portico,descartado,2,31.777444,35.234935,Colonnade in Jerusalem's temple where apostles taught,-
+spain,Spain,descartado,2,40.481391,-3.175332,Country Paul intended to visit to preach gospel,-
+taberah,Taberah,descartado,2,28.916667,34.5,Israelite camp where God sent fire as judgment,-
+tadmor,Tadmor,descartado,2,34.5540491686839,38.26590497164145,City built by Solomon in the wilderness,-
+tahath,Tahath,descartado,2,30.317396,35.407152,Israelite campsite during the wilderness journey,-
+telassar,Telassar,descartado,2,32.18919123705116,48.25788647687722,Mesopotamian city conquered by the Assyrians,-
+tel_harsha,Tel-harsha,descartado,2,32.127213,45.229995,Babylonian city from which exiles returned,-
+tel_melah,Tel-melah,descartado,2,32.127213,45.229995,Babylonian city from which exiles returned,-
+terah,Terah,descartado,2,30.317396,35.407152,Israelite campsite during the wilderness journey,-
+tigris,Tigris,descartado,2,35.983343,43.346466,"River flowing from Eden, mentioned in Daniel's vision",-
+tower_of_eder,Tower of Eder,descartado,2,31.70536129174666,35.21026630105202,"A tower near Bethlehem, associated with the Messiah",-
+tower_of_the_hundred,Tower of the Hundred,descartado,2,31.777444,35.234935,"A tower in Jerusalem's wall, rebuilt by Nehemiah",-
+tower_of_the_ovens,Tower of the Ovens,descartado,2,31.777444,35.234935,"A tower in Jerusalem's wall, rebuilt by Nehemiah",-
+ulai,Ulai,descartado,2,32.178696,48.22489,"A river in Elam, near where Daniel saw a vision",-
+uphaz,Uphaz,descartado,2,22.0,77.0,A place known for its fine gold,-
+uzza,Uzza,descartado,2,31.777444,35.234935,A garden where Manasseh and Amon were buried,-
+yeshanah_gate,Yeshanah Gate,descartado,2,31.777444,35.234935,"A gate in Jerusalem's wall, rebuilt by Nehemiah",-
+zaanannim,Zaanannim,descartado,2,33.11298357486105,35.53361334150225,A place near Kedesh in Naphtali,-
+zalmonah,Zalmonah,descartado,2,31.49684513710609,35.78284105296996,A place where the Israelites camped during their wilderness journey,-
+zedad,Zedad,descartado,2,34.312571,36.925484,A place on the northern border of the Promised Land,-
+zela,Zela,descartado,2,31.792733,35.196862,A city in Benjamin where Saul's family was buried,-
+zemaraim,Zemaraim,descartado,2,31.910999,35.45728,A town in Benjamin; also a hill in Ephraim,-
+abel_keramim,Abel-keramim,descartado,1,32.02425,35.82352,"A place near Ammon, attacked by Jephthah.",-
+abilene,Abilene,descartado,1,33.5873,36.09171,A region ruled by Lysanias when John began preaching.,-
+accad,Accad,descartado,1,33.09201653975629,44.12924814594658,"An ancient city in Nimrod's kingdom, probably Akkad.",-
+adadah,Adadah,descartado,1,31.1858,34.96745,A town in the Negev region of Judah.,-
+adam,Adam,descartado,1,32.09772014797369,35.56469085401976,A city near the Jordan River.,-
+adamah,Adamah,descartado,1,32.7253,35.4382,A fortified city allotted to Naphtali.,-
+adami_nekeb,Adami-nekeb,descartado,1,32.6105,35.54289,A boundary marker for the territory of Naphtali.,-
+addar,Addar,descartado,1,30.9522,34.7187,A boundary marker for the territory of Judah.,-
+adithaim,Adithaim,descartado,1,31.7001,34.89532,A town in the Shephelah region of Judah.,-
+adoraim,Adoraim,descartado,1,31.51666666666667,34.98333333333333,A fortified city built by Rehoboam in Judah.,-
+adramyttium,Adramyttium,descartado,1,39.5748,26.9367,"A seaport in Asia Minor, visited by Paul.",-
+adriatic_sea,Adriatic Sea,descartado,1,42.415,16.3735,The sea where Paul's ship drifted during a storm.,-
+aenon,Aenon,descartado,1,32.398936,35.54351,A place near Salim where John the Baptist baptized.,-
+ai,Ai,descartado,1,31.80052000870321,35.80901866717255,"An Ammonite city, to be destroyed by Babylon.",-
+allammelech,Allammelech,descartado,1,32.97829,35.182915,A town allotted to Asher,-
+allon_bacuth,Allon-bacuth,descartado,1,31.93053920580005,35.22103274923676,"The burial place of Deborah, Rebekah's nurse.",-
+amad,Amad,descartado,1,33.019337,35.173644,A border town in the territory of Asher.,-
+amam,Amam,descartado,1,31.162327,35.057114,A town allotted to the tribe of Judah.,-
+amana,Amana,descartado,1,33.68137,36.055039,A mountain range mentioned in the Song of Solomon.,-
+amaw,Amaw,descartado,1,36.654616,38.068879,"A place near the Euphrates River, associated with Balaam.",-
+ammah,Ammah,descartado,1,31.869005,35.343177,"A hill near Gibeon, where Joab pursued Abner.",-
+amphipolis,Amphipolis,descartado,1,40.82322547229525,23.83863142894023,A city visited by Paul on his missionary journey.,-
+anaharath,Anaharath,descartado,1,32.607039,35.397389,A border town in the territory of Issachar.,-
+ananiah,Ananiah,descartado,1,31.83291,35.219683,A town inhabited by Benjamites after the Babylonian exile.,-
+angle,Angle,descartado,1,31.777444,35.234935,A tower built by King Uzziah in Jerusalem.,-
+anim,Anim,descartado,1,31.373521,35.074552,A city in the hill country of Judah.,-
+antipatris,Antipatris,descartado,1,32.10043792968003,34.94650938910333,A city where Paul was taken during his transfer to Caesarea.,-
+apollonia,Apollonia,descartado,1,40.58763251343323,23.35335168557556,A city in Macedonia visited by Paul.,-
+arab,Arab,descartado,1,31.450746,35.045648,A city allotted to the tribe of Judah.,-
+aram_maacah,Aram-maacah,descartado,1,33.2,36.5,Kingdom that fought against David,-
+aram_naharaim,Aram-naharaim,descartado,1,35.1,42.0,A region mentioned in the title of Psalm 60.,-
+aram_zobah,Aram-zobah,descartado,1,33.519299,36.31344999999999,A region mentioned in the title of Psalm 60.,-
+aroer,Aroer,descartado,1,31.14893187321126,34.9848522498051,"A city in Judah, receiving spoils from David.",-
+arubboth,Arubboth,descartado,1,31.68123465358001,34.97639817516712,A district in Israel under Solomon's rule.,-
+ashkenaz,Ashkenaz,descartado,1,40.6,44.6,A kingdom summoned to battle against Babylon.,Assyria
+atharim,Atharim,descartado,1,30.880918,34.63062,A place where the Canaanite king of Arad fought Israel.,-
+atroth_shophan,Atroth-shophan,descartado,1,31.9617,35.9115,Town allotted to the tribe of Gad.,-
+attalia,Attalia,descartado,1,36.88082580070078,30.69456557778969,Seaport in Pamphylia visited by Paul and Barnabas.,-
+aven_valley,Aven Valley,descartado,1,34.006944,36.203889,"Plain near Damascus, prophesied to be destroyed.",-
+avvim,Avvim,descartado,1,31.53577362133176,35.09409986578734,Town allotted to the tribe of Benjamin.,-
+azal,Azal,descartado,1,31.77809503341373,35.2471976093501,Unidentified place near Jerusalem mentioned in Zechariah's prophecy.,-
+aznoth_tabor,Aznoth-tabor,descartado,1,32.68695640243183,35.39091304299688,Border town of Naphtali near Mount Tabor.,-
+baalah,Baalah,descartado,1,31.24495217357714,34.8408885849849,Town allotted to the tribe of Simeon.,-
+baalah_mount,Baalah Mount,descartado,1,31.865518,34.746856,Mountain marking the northern boundary of Judah.,-
+baalath,Baalath,descartado,1,31.927451,35.055378,Town allotted to the tribe of Dan.,-
+baal_hazor,Baal-hazor,descartado,1,31.979434,35.279229,Place where Absalom sheared his sheep.,-
+baal_shalishah,Baal-shalishah,descartado,1,32.029737,35.222604,Place where a man brought provisions to Elisha.,-
+baal_tamar,Baal-tamar,descartado,1,31.82378102460309,35.23100936128631,Place near Gibeah where Israelites fought the Benjamites.,-
+bajith,Bajith,descartado,1,31.49684513710609,35.78284105296996,Moabite temple or high place mentioned in Isaiah's prophecy.,-
+balah,Balah,descartado,1,31.24495217357714,34.8408885849849,Town allotted to the tribe of Simeon.,-
+bath_rabbim,Bath-rabbim,descartado,1,31.80052000870321,35.80901866717255,"Gate in Heshbon, mentioned in Song of Solomon.",-
+beer,Beer,descartado,1,30.998062,35.498547,Site where God provided water for the Israelites.,-
+beer_elim,Beer-elim,descartado,1,30.998062,35.498547,Place mentioned in Isaiah's prophecy against Moab.,-
+bene_berak,Bene-berak,descartado,1,32.035782,34.827108,Town allotted to the tribe of Dan.,-
+benjamin_gate,Benjamin Gate,descartado,1,31.777444,35.234935,"Gate in Jerusalem's wall, mentioned in Zechariah's prophecy.",-
+bered,Bered,descartado,1,30.68771281376111,34.49479554246946,Place near where Hagar encountered the Angel of the Lord.,-
+betah,Betah,descartado,1,33.93148,36.152049,City from which David took bronze after defeating Hadadezer.,-
+beten,Beten,descartado,1,32.934736,35.270799,Town allotted to the tribe of Asher.,-
+beth_anoth,Beth-anoth,descartado,1,31.558456,35.124483,Town in the hill country of Judah.,-
+beth_arbel,Beth-arbel,descartado,1,32.56101132918748,35.84782996762625,"Place destroyed by Shalman, mentioned in Hosea's prophecy.",-
+beth_biri,Beth-biri,descartado,1,31.391668,34.940502,"Town in Simeon, formerly called Bethul.",-
+beth_car,Beth-car,descartado,1,31.83273947023218,35.1801628605877,Place where the Israelites pursued the Philistines.,-
+beth_dagon,Beth-dagon,descartado,1,31.908,34.775,"Town in Judah, named after the Philistine god Dagon.",-
+beth_dagon,Beth-dagon,descartado,1,32.899561,35.107928,"Town in Asher, named after the Philistine god Dagon.",-
+beth_eden,Beth-eden,descartado,1,33.519299,36.31344999999999,Place associated with the rulers of Aram (Syria).,-
+beth_emek,Beth-emek,descartado,1,32.978855,35.167096,"Town in Asher's territory, near the border.",-
+beth_ezel,Beth-ezel,descartado,1,31.743719,34.694006,"Town mentioned in Micah's prophecy, possibly near Jerusalem.",-
+beth_gamul,Beth-gamul,descartado,1,31.519692,35.844714,Moabite town mentioned in Jeremiah's prophecy against Moab.,-
+beth_haggan,Beth-haggan,descartado,1,32.58418313614938,35.18229165870594,Place near Jezreel where Ahaziah fled from Jehu.,-
+beth_lebaoth,Beth-lebaoth,descartado,1,31.391668,34.940502,"Town in Simeon, also called Lebaoth.",-
+bethlehem,Bethlehem,descartado,1,32.735379,35.189704,"Town in Zebulun, distinct from Bethlehem in Judah.",-
+beth_merchak,Beth-merchak,descartado,1,31.391668,34.940502,Place near Jerusalem where David stayed during Absalom's revolt.,-
+beth_pazzez,Beth-pazzez,descartado,1,32.46349905885267,35.3036831926058,"Beth-pazzez, town allotted to Issachar",-
+beth_shemesh,Beth-shemesh,descartado,1,32.40643,35.504628,Border town of Issachar.,-
+beth_shittah,Beth-shittah,descartado,1,32.552496,35.438257,"Beth-shittah, place near where Midianites fled from Gideon",-
+beth_tappuah,Beth-tappuah,descartado,1,31.52973,35.050377,Town in the hill country of Judah.,-
+betonim,Betonim,descartado,1,32.0105,35.706297,Town in Gad's territory,-
+bezek,Bezek,descartado,1,32.3667,35.4,Assembly point for Saul's army,-
+bilhah,Bilhah,descartado,1,31.24495217357714,34.8408885849849,Town in Simeon's territory,-
+biziothiah,Biziothiah,descartado,1,31.24495217357714,34.8408885849849,"A town in the Negev, allotted to Judah",-
+bor_ashan,Bor-ashan,descartado,1,31.8099,34.9365,A town in southern Judah,-
+bozez,Bozez,descartado,1,31.85716450320853,35.28714718824809,A rocky crag near Michmash,-
+brook_of_the_arabah,Brook of the Arabah,descartado,1,35.136204,36.749488,Eastern boundary of Jeroboam II's kingdom,-
+brook_of_the_willows,Brook of the Willows,descartado,1,32.309099,35.5599,Boundary of Moab's territory,-
+buz,Buz,descartado,1,26.625139,37.919663,"Arabian tribe, possibly descendants of Nahor",-
+cabbon,Cabbon,descartado,1,31.5,34.7667,Town in Judah's lowlands,-
+cabul,Cabul,descartado,1,32.865661,35.211814,Name given to 20 cities by Hiram,-
+cabul,Cabul,descartado,1,32.865661,35.211814,Border town of Asher,-
+cauda,Cauda,descartado,1,34.84351,24.091671,Island where Paul's ship sought shelter,-
+chephar_ammoni,Chephar-ammoni,descartado,1,31.966667,35.25,Town in Benjamin's territory,-
+chesil,Chesil,descartado,1,31.244952,34.840888,Town in Judah's southern region,-
+chilmad,Chilmad,descartado,1,36.35941,43.152887,Trading partner of Tyre,-
+chios,Chios,descartado,1,38.44484,26.063302,Island visited by Paul on his journey,-
+chitlish,Chitlish,descartado,1,31.823337,34.777779,Town in Judah's Shephelah region,-
+city_of_salt,City of Salt,descartado,1,31.46152536164766,35.39241108242345,Town in the wilderness of Judah,-
+cnidus,Cnidus,descartado,1,36.68502255790917,27.37439432376754,City on the coast of Asia Minor,-
+cos,Cos,descartado,1,36.80467006054953,27.08994040521288,Island visited by Paul on his journey,-
+cushan,Cushan,descartado,1,21.959788,31.343557,"Unknown location, possibly related to Cush",-
+dabbesheth,Dabbesheth,descartado,1,33.0,35.266682,Border town of Zebulun,-
+dalmatia,Dalmatia,descartado,1,43.515484,16.071538,Region on the eastern coast of the Adriatic Sea.,-
+dannah,Dannah,descartado,1,31.561025,34.975472,A city in the hill country of Judah.,-
+debir,Debir,descartado,1,31.816662,35.349994,A place on the northern border of Judah.,-
+dibon,Dibon,descartado,1,31.1858,34.96745,"A city in Judah, inhabited by the tribe of Judah.",-
+dilean,Dilean,descartado,1,31.56485056116292,34.8467256730566,A city in the lowlands of Judah.,-
+dimonah,Dimonah,descartado,1,31.1858,34.96745,A city in the Negev region of Judah.,-
+diviners'_oak,Diviners' Oak,descartado,1,32.21369123124062,35.2817986718367,"A tree near Shechem, associated with pagan divination practices.",-
+dizahab,Dizahab,descartado,1,28.507836,34.516339,A place near where Moses delivered his final speeches.,-
+dumah,Dumah,descartado,1,27.4,37.7,"A city or region in Arabia, recipient of a prophetic oracle.",-
+dumah,Dumah,descartado,1,31.43827,34.982762,A city in the hill country of Judah.,-
+dura,Dura,descartado,1,32.53650368616845,44.42088287373876,A plain in Babylon where Nebuchadnezzar set up a statue.,-
+east_gate,East Gate,descartado,1,31.777444,35.234935,"A gate in Jerusalem's wall, near the house of Shemaiah.",-
+ebez,Ebez,descartado,1,32.261621,35.328129,A town allotted to the tribe of Issachar.,-
+ecbatana,Ecbatana,descartado,1,34.798311,48.514966,A city in Media where a significant scroll was found.,-
+eder,Eder,descartado,1,31.1858,34.96745,A town in the Negev region of Judah.,-
+eglaim,Eglaim,descartado,1,30.998062,35.498547,Moabite city; its destruction prophesied by Isaiah,-
+egypt_sea,Egypt Sea,descartado,1,27.088473,34.771729,"Likely the Gulf of Suez, part of the Red Sea",-
+elon,Elon,descartado,1,31.973818,35.116531,City in the territory of Dan,-
+elonbeth_hanan,Elonbeth-hanan,descartado,1,31.852593,35.109078,City under the jurisdiction of Solomon's governor Ben-Deker,-
+el_paran,El-paran,descartado,1,29.151667,33.541944,Wilderness area where the Horites were defeated by Chedorlaomer,-
+eltekon,Eltekon,descartado,1,31.66057,34.995406,City in the hill country of Judah,-
+emek_keziz,Emek-keziz,descartado,1,31.837062,35.513151,"Emek-keziz, town allotted to Benjamin",-
+emmaus,Emmaus,descartado,1,31.83945022372554,34.9895293285359,"Emmaus, village where Jesus appeared to two disciples after resurrection",-
+enam,Enam,descartado,1,32.15,35.126,"Enam, town allotted to Judah in the Shephelah",-
+eneglaim,Eneglaim,descartado,1,30.998062,35.498547,Place mentioned in Ezekiel's vision of restored Israel,-
+en_gannim,En-gannim,descartado,1,31.75,34.950106,City in the lowlands of Judah,-
+en_haddah,En-haddah,descartado,1,32.478425,35.254452,City allotted to the tribe of Issachar,-
+en_hakkore,En-hakkore,descartado,1,31.75274835811488,34.97660913147738,Spring that appeared after Samson's victory over the Philistines,-
+en_hazor,En-hazor,descartado,1,33.1,35.35,City allotted to the tribe of Naphtali,-
+ephah,Ephah,descartado,1,28.932881,34.90832,Arabian tribe; known for their camels and dromedaries,-
+esek,Esek,descartado,1,31.39129109635703,34.56057015639144,Well dug by Isaac's servants; named after quarrel,-
+eshan,Eshan,descartado,1,31.420175,35.033537,City in the hill country of Judah,-
+etam,Etam,descartado,1,31.686465,35.17474,City fortified by Rehoboam in Judah,-
+eth_kazin,Eth-kazin,descartado,1,32.781808,35.321364,Border town of Zebulun near Neah,-
+ezel_stone,Ezel Stone,descartado,1,31.777444,35.234935,Location where David and Jonathan planned to meet,-
+forest_ephraim,Forest Ephraim,descartado,1,35.764722,32.381111,Location of the battle between David's forces and Absalom's army,-
+forum_of_appius,Forum of Appius,descartado,1,41.468706,12.993929,Marketplace on Appian Way; Christians met Paul on journey to Rome,-
+foundation_gate,Foundation Gate,descartado,1,31.777444,35.234935,Gate in Jerusalem's wall; location of Levite singers during coronation,-
+gamad,Gamad,descartado,1,34.856082,35.858485,People group; defenders of the towers of Tyre,-
+gareb,Gareb,descartado,1,31.777444,35.234935,A hill near Jerusalem,-
+gebim,Gebim,descartado,1,31.8,35.25,Town in Benjamin; mentioned in Isaiah's prophecy,-
+gederothaim,Gederothaim,descartado,1,31.823337,34.777779,Town in Judah; mentioned in list of allotted cities,-
+gedor,Gedor,descartado,1,31.823337,34.777779,Region where Simeonites sought pasture for their flocks,-
+geruth_chimham,Geruth Chimham,descartado,1,31.70536129174666,35.21026630105202,Lodging place near Bethlehem; refuge for Johanan's group,-
+giah,Giah,descartado,1,31.869005,35.343177,Location near Gibeon where Joab and Abishai pursued Abner.,-
+gibeath_elohim,Gibeath-elohim,descartado,1,31.93053920580005,35.22103274923676,"A place with a garrison of Philistines, near Gibeah.",-
+gidom,Gidom,descartado,1,31.93466,35.297063,"A place near Gibeah, associated with the Benjamite War.",-
+gimzo,Gimzo,descartado,1,31.928659,34.943219,A city in Judah captured by the Philistines.,-
+goah,Goah,descartado,1,31.777444,35.234935,"A place near Jerusalem, mentioned in a prophetic context.",-
+guard_gate,Guard Gate,descartado,1,31.777444,35.234935,"A gate in Jerusalem's wall, likely the Muster Gate.",-
+gur,Gur,descartado,1,32.45,35.2833,A place near Ibleam where Ahaziah was wounded.,-
+gurbaal,Gurbaal,descartado,1,30.734691,35.60625,"A place inhabited by Arabians, attacked by Uzziah's army.",-
+hadad_rimmon,Hadad-rimmon,descartado,1,32.524106,35.205136,A place near Megiddo associated with mourning for Josiah.,-
+hadashah,Hadashah,descartado,1,31.679512,34.695903,A town in the Shephelah region of Judah.,-
+hadrach,Hadrach,descartado,1,33.519299,36.31344999999999,A region mentioned in a prophetic oracle of judgment.,-
+haeleph,Haeleph,descartado,1,31.792733,35.196862,A town allotted to the tribe of Benjamin.,-
+halhul,Halhul,descartado,1,31.579549,35.099103,A town in the hill country of Judah.,-
+hali,Hali,descartado,1,32.934736,35.270799,A town allotted to the tribe of Asher.,-
+hall_of_judgment,Hall of Judgment,descartado,1,31.777444,35.234935,A hall in Solomon's palace where he administered justice.,-
+hall_of_pillars,Hall of Pillars,descartado,1,31.777444,35.234935,A porch with pillars in Solomon's palace.,-
+hall_of_the_throne,Hall of the Throne,descartado,1,31.777444,35.234935,Another name for the Hall of Judgment in Solomon's palace.,-
+ham,Ham,descartado,1,30.108086,31.33822,A place where Chedorlaomer defeated the Zuzim in battle.,-
+hamonah,Hamonah,descartado,1,31.49684513710609,35.78284105296996,"A city in Ezekiel's vision, meaning ""multitude"" or ""horde.""",-
+hanes,Hanes,descartado,1,29.085425,30.934402,An Egyptian city mentioned in a prophecy against Judah.,-
+hannathon,Hannathon,descartado,1,32.916002,35.426637,A border town in the territory of Zebulun.,-
+hara,Hara,descartado,1,36.344972,40.789333,A place where Israelite tribes were exiled by Tiglath-pileser.,-
+harmon,Harmon,descartado,1,32.28023100000001,35.19792900000002,A place mentioned in Amos's prophecy against Israel.,-
+hazar_addar,Hazar-addar,descartado,1,30.9522,34.7187,A town on the southern border of Canaan.,-
+hazar_gaddah,Hazar-gaddah,descartado,1,31.162327,35.057114,Town allotted to the tribe of Judah,-
+hazar_susah,Hazar-susah,descartado,1,31.391668,34.940502,Town allotted to the tribe of Simeon,-
+hazar_susim,Hazar-susim,descartado,1,31.391668,34.940502,A town allotted to the tribe of Simeon.,-
+hazer_hatticon,Hazer-hatticon,descartado,1,35.136204,36.749488,Place on the ideal border of Israel,-
+hazerim,Hazerim,descartado,1,31.52481769532773,34.4333647185274,Settlements inhabited by the Avvim,-
+hazor,Hazor,descartado,1,30.68771281376111,34.49479554246946,A town in the southland of Judah.,-
+hazor,Hazor,descartado,1,31.162327,35.057114,Town in the Negev region of Judah,-
+hazor,Hazor,descartado,1,31.833333,35.2,Town resettled by Benjamites after the Babylonian exile,-
+hazor_hadattah,Hazor-hadattah,descartado,1,31.162327,35.057114,Town in the Negev region of Judah,-
+hebron_valley,Hebron Valley,descartado,1,31.54909871686872,35.09356062020027,Valley near Hebron where Joseph sought his brothers,-
+helbah,Helbah,descartado,1,34.066067,35.865801,Canaanite town not conquered by the tribe of Asher,-
+helbon,Helbon,descartado,1,33.664912,36.248576,City known for its fine wine,-
+helech,Helech,descartado,1,34.856082,35.858485,A place or people mentioned in Ezekiel's prophecy.,-
+heleph,Heleph,descartado,1,33.134416,35.332157,Border town of Naphtali,-
+helkath_hazzurim,Helkath-hazzurim,descartado,1,31.880126,35.280188,Site of a battle between David's and Ish-bosheth's men,-
+heres,Heres,descartado,1,32.19998298531073,35.63331303389634,Place near where Gideon defeated the Midianites,-
+hereth,Hereth,descartado,1,31.621492,35.029273,Forest where David hid from Saul,-
+heshmon,Heshmon,descartado,1,31.215418,34.942986,A town in the southland of Judah.,-
+hierapolis,Hierapolis,descartado,1,37.924517,29.124525,"City in Phrygia, home to a Christian community",-
+hobah,Hobah,descartado,1,33.5,36.466667,Place north of Damascus pursued by Abraham,-
+holon,Holon,descartado,1,31.50100308502659,35.92063125199366,A city in Moab,-
+horem,Horem,descartado,1,33.166667,35.433333,A fortified city in Naphtali,-
+hosah,Hosah,descartado,1,32.178502,35.22758,A Levitical city in Asher,-
+hukkok,Hukkok,descartado,1,32.882153,35.496694,A town on the border of Naphtali,-
+humtah,Humtah,descartado,1,31.53577362133176,35.09409986578734,A town in the hill country of Judah,-
+idalah,Idalah,descartado,1,32.733333,35.166667,A town in Zebulun,-
+idumea,Idumea,descartado,1,30.734691,35.60625,A region south of Judea,-
+iim,Iim,descartado,1,31.244952,34.840888,A town in the Negev of Judah,-
+illyricum,Illyricum,descartado,1,43.515484,16.071538,A region where Paul preached the gospel,-
+iphtah,Iphtah,descartado,1,31.8099,34.9365,A town in the Shephelah of Judah,-
+irpeel,Irpeel,descartado,1,31.869343,35.197712,A town in Benjamin,-
+ithlah,Ithlah,descartado,1,31.823593,35.075769,A town in Dan,-
+ithnan,Ithnan,descartado,1,31.244952,34.840888,A town in the Negev of Judah,-
+iyim,Iyim,descartado,1,31.49684513710609,35.78284105296996,An Israelite campsite in the wilderness,-
+jabez,Jabez,descartado,1,31.70536129174666,35.21026630105202,A place associated with the families of scribes,-
+jabneel,Jabneel,descartado,1,32.7,35.5,A town on the border of Naphtali,-
+jagur,Jagur,descartado,1,31.1858,34.96745,A town in the Negev of Judah,-
+jair,Jair,descartado,1,32.042523,35.724241,An Israelite who possessed towns in Gilead,-
+janen,Janen,descartado,1,31.49684513710609,35.78284105296996,A place mentioned in the Septuagint,Moab
+janim,Janim,descartado,1,31.516667,35.166667,A town in the hill country of Judah,-
+janoah,Janoah,descartado,1,32.155895,35.361606,A town captured by the Assyrians from Israel,-
+japhia,Japhia,descartado,1,32.691633,35.274955,A town on the border of Zebulun,-
+jarmuth,Jarmuth,descartado,1,32.5559631396043,35.33078927843792,A Levitical city in Issachar,-
+jazer_sea,Jazer Sea,descartado,1,31.94352951689796,35.72776961157128,A poetic reference to the abundant vineyards of Jazer,-
+jehud,Jehud,descartado,1,32.033636,34.889599,A town allotted to Dan,-
+jekabzeel,Jekabzeel,descartado,1,31.1858,34.96745,A town in Judah inhabited after the Babylonian exile,-
+jemnath,Jemnath,descartado,1,31.80299971086164,34.6351145939134,A place mentioned in the Septuagint version of Joshua,Philistia
+jericho_valley,Jericho Valley,descartado,1,31.87060143818292,35.44386371224434,The valley where the city of Jericho is located,-
+jeruel,Jeruel,descartado,1,31.572903,35.406346,A wilderness where Jehoshaphat defeated his enemies,-
+jeshanah,Jeshanah,descartado,1,31.980029,35.229709,A town captured by Abijah from Jeroboam,-
+jeshua,Jeshua,descartado,1,31.162327,35.057114,A town in Judah inhabited after the Babylonian exile,-
+jezreel,Jezreel,descartado,1,32.5559631396043,35.33078927843792,"A son of Saul's son Jonathan, also called Merib-baal",-
+jokdeam,Jokdeam,descartado,1,31.366667,35.0,A town in the hill country of Judah,-
+joktheel,Joktheel,descartado,1,31.56485056116292,34.8467256730566,A town in the Shephelah region of Judah,-
+jotbah,Jotbah,descartado,1,29.75804307645581,35.0306017443078,"The hometown of Amon's mother, Meshullemeth",-
+kadesh,Kadesh,descartado,1,34.558327,36.522943,A place visited during David's census of Israel,-
+kamon,Kamon,descartado,1,32.042523,35.724241,"The burial place of Jair, a judge of Israel",-
+karka,Karka,descartado,1,30.958506,34.3805,A place on the southern border of Judah,-
+karkor,Karkor,descartado,1,32.1843727808126,35.70287002746794,A place where Gideon defeated Zebah and Zalmunna,-
+kartan,Kartan,descartado,1,33.125828,35.165,A Levitical city in the territory of Naphtali,-
+kerioth_hezron,Kerioth-hezron,descartado,1,31.162327,35.057114,A town in the Negev region of Judah,-
+kinah,Kinah,descartado,1,31.1858,34.96745,A town in the Negev region of Judah,-
+kiriathaim,Kiriathaim,descartado,1,33.125828,35.165,A Levitical city in Reuben,-
+kiriath_huzoth,Kiriath-huzoth,descartado,1,31.76503129703305,35.71856575741812,A place Balak took Balaam,-
+koa,Koa,descartado,1,34.798311,48.514966,A people group mentioned by Ezekiel,-
+laban,Laban,descartado,1,31.8099,34.9365,A place Moses spoke to Israel,-
+lahmam,Lahmam,descartado,1,31.566667,34.9,A city in the lowlands of Judah,-
+laishah,Laishah,descartado,1,31.8,35.25,A place near Anathoth and Gallim,-
+lakkum,Lakkum,descartado,1,32.68695640243183,35.39091304299688,A border town of Naphtali,-
+lasea,Lasea,descartado,1,34.93491734364034,24.80919899172515,"A city near Fair Havens, Crete",-
+lasharon,Lasharon,descartado,1,32.72544,35.467002,A Canaanite city conquered by Joshua,-
+lebanon_mount,Lebanon Mount,descartado,1,33.752479,35.590804,A mountain range marking the northern border of Israel,-
+lebaoth,Lebaoth,descartado,1,31.391668,34.940502,A town in the Negev of Judah,-
+leb_kamai,Leb-kamai,descartado,1,30.9620520474569,46.10374195774169,A cryptic name for Chaldea (Babylonia),-
+lebonah,Lebonah,descartado,1,32.07077,35.239871,A place near Shiloh in Ephraim,-
+luz,Luz,descartado,1,37.0,36.57,A Canaanite city; a man built another city named Luz,-
+lycia,Lycia,descartado,1,36.27471786927205,29.3186378339052,A region on the southwest coast of Asia Minor,-
+maarath,Maarath,descartado,1,31.621003,35.102328,A town in the hill country of Judah,-
+maareh_geba,Maareh-geba,descartado,1,31.82378102460309,35.23100936128631,A place near Gibeah where an ambush was set,-
+madmenah,Madmenah,descartado,1,31.8,35.25,A place near Jerusalem,-
+makaz,Makaz,descartado,1,31.870364,34.981728,A place in one of Solomon's administrative districts,-
+malta,Malta,descartado,1,35.85282675242785,14.53243601407711,An island where Paul was shipwrecked,-
+mareal,Mareal,descartado,1,32.697409,35.241789,A place on the border of Zebulun,-
+maroth,Maroth,descartado,1,31.743719,34.694006,A town in Judah,-
+mearah,Mearah,descartado,1,33.633333,35.433333,A place near Sidon,-
+meconah,Meconah,descartado,1,31.370835,34.860665,A town inhabited by the people of Judah after the exile,-
+me_jarkon,Me-jarkon,descartado,1,32.132898,34.788144,A place in the territory of Dan,-
+meroz,Meroz,descartado,1,32.68695640243183,35.39091304299688,A place cursed for not helping against Sisera,-
+mesha,Mesha,descartado,1,28.85726,34.859127,A place marking the Joktanite territory,-
+meshech_tubal,Meshech-Tubal,descartado,1,46.0,47.0,Two nations mentioned together; defeated by Babylon,Asia
+middin,Middin,descartado,1,31.743894,35.401591,A town in the wilderness of Judah,-
+migdal_el,Migdal-el,descartado,1,33.232131,35.362942,A fortified city in Naphtali,-
+migdal_gad,Migdal-gad,descartado,1,31.666667,34.583333,A town in the lowlands of Judah,-
+minni,Minni,descartado,1,40.6,44.6,A kingdom allied with Ararat and Ashkenaz,-
+mitylene,Mitylene,descartado,1,39.10033557286295,26.55180477541001,A city on the island of Lesbos visited by Paul,-
+mizar_mount,Mizar Mount,descartado,1,33.41615982399708,35.85725617635589,A mountain mentioned in a psalm of lament,-
+mizpeh,Mizpeh,descartado,1,31.56485056116292,34.8467256730566,A town in the lowlands of Judah,-
+moreh,Moreh,descartado,1,32.61773063505183,35.35737645291343,Place near Shechem; hill where Gideon camped,-
+mortar,Mortar,descartado,1,31.777444,35.234935,A district or valley in or near Jerusalem,-
+moserah,Moserah,descartado,1,30.317396,35.407152,A place where the Israelites camped during their wilderness wanderings,-
+mozah,Mozah,descartado,1,31.802641,35.158376,A town in the territory of Benjamin,-
+myra,Myra,descartado,1,36.2307717908834,30.01145882074154,A city in Lycia where Paul's ship stopped,-
+naamah,Naamah,descartado,1,31.871782,34.871894,A town in the Judean lowlands,-
+nain,Nain,descartado,1,32.63083336680386,35.34782689102158,A town in Galilee where Jesus raised a widow's son,-
+naphath,Naphath,descartado,1,32.58418313614938,35.18229165870594,A region in Issachar with Manassite towns,-
+neapolis,Neapolis,descartado,1,40.94413199321298,24.41767995412326,A port city in Macedonia visited by Paul,-
+neballat,Neballat,descartado,1,31.992079,34.957563,A town in Benjamin inhabited by Benjamites after the exile,-
+netaim,Netaim,descartado,1,31.823337,34.777779,A place associated with potters in Judah,-
+nezib,Nezib,descartado,1,31.58805,34.992389,A town in the Judean lowlands,-
+nibshan,Nibshan,descartado,1,31.46152536164766,35.39241108242345,A town in the Judean wilderness,-
+ophni,Ophni,descartado,1,31.961989,35.215483,A town in Benjamin,-
+parah,Parah,descartado,1,31.833333,35.3,A city in Benjamin's territory,-
+patara,Patara,descartado,1,36.27471786927205,29.3186378339052,A city in Lycia visited by Paul,-
+patmos,Patmos,descartado,1,37.30752,26.548274,An island where John received the Revelation,-
+people's_gate,People's Gate,descartado,1,31.777444,35.234935,A gate in Jerusalem mentioned by Jeremiah,-
+perazim_mount,Perazim Mount,descartado,1,31.756332,35.223059,A place where David defeated the Philistines,-
+perez_uzza,Perez-uzza,descartado,1,31.777444,35.234935,A place named after Uzzah's death,-
+pharpar,Pharpar,descartado,1,33.379601,36.306085,"A river in Damascus, Syria",-
+phoenix,Phoenix,descartado,1,35.1988857652248,24.08098202270813,A harbor on the island of Crete,-
+pi_beseth,Pi-beseth,descartado,1,30.583333,31.5,An Egyptian city mentioned in Ezekiel's prophecy,-
+pithom,Pithom,descartado,1,30.59385132817632,32.18555803140015,A store city built by the Israelites in Egypt,-
+potsherd_gate,Potsherd Gate,descartado,1,31.777444,35.234935,A gate in Jerusalem mentioned by Jeremiah,-
+puteoli,Puteoli,descartado,1,40.83563065297087,14.2677438666742,A port city in Italy visited by Paul,-
+raamah,Raamah,descartado,1,15.68,42.78,"A trading partner of Tyre, possibly in Arabia",-
+raamses,Raamses,descartado,1,30.59385132817632,32.18555803140015,A store city built by the Israelites in Egypt,-
+rabbith,Rabbith,descartado,1,32.391416,35.377302,A town allotted to the tribe of Issachar,-
+rakkon,Rakkon,descartado,1,32.132898,34.788144,A town allotted to the tribe of Dan,-
+ramah,Ramah,descartado,1,33.111078,35.310464,A town on the border of Asher and Tyre,-
+ramah,Ramah,descartado,1,32.93901,35.368123,A fortified city in the territory of Naphtali,-
+ramath_lehi,Ramath-lehi,descartado,1,31.75274835811488,34.97660913147738,The place where Samson killed a thousand Philistines,-
+recah,Recah,descartado,1,31.70536129174666,35.21026630105202,Descendant of Judah,-
+rehob,Rehob,descartado,1,33.125828,35.165,City on the border of Asher,-
+rehoboth,Rehoboth,descartado,1,31.066829,34.59783,Well dug by Isaac,-
+rekem,Rekem,descartado,1,31.869343,35.197712,City in Benjamin,-
+resen,Resen,descartado,1,36.35941,43.152887,Ancient Assyrian city built by Nimrod,-
+rhegium,Rhegium,descartado,1,38.11158003147303,15.64327902497161,Italian city visited by Paul,-
+rhodes,Rhodes,descartado,1,36.44192632910195,28.22672173336723,Island visited by Paul on his journey,-
+riblah,Riblah,descartado,1,34.353071,36.385705,Place on the eastern border of the Promised Land,-
+rock_of_escape,Rock of Escape,descartado,1,31.41666666666668,35.1166666666667,Place where Saul stopped pursuing David,-
+sahar,Sahar,descartado,1,33.664912,36.248576,Unknown location mentioned in Ezekiel's prophecy,-
+salamis,Salamis,descartado,1,35.17724606944397,33.90755212865949,City on Cyprus visited by Paul and Barnabas,-
+salim,Salim,descartado,1,32.39933414034645,35.52644309698702,Place near Aenon where John the Baptist baptized,-
+salmone,Salmone,descartado,1,35.21229729880597,26.27449174374278,Promontory on the island of Crete,-
+samos,Samos,descartado,1,37.715172,26.934167,Island visited by Paul during his travels,-
+samothrace,Samothrace,descartado,1,40.467279,25.486069,Island visited by Paul during his second missionary journey,-
+sansannah,Sansannah,descartado,1,31.391668,34.940502,Town in the Negev region of Judah,-
+sebam,Sebam,descartado,1,31.815283,35.766738,Town in the territory of Reuben,-
+secacah,Secacah,descartado,1,31.766667,35.283333,Town in the wilderness of Judah,-
+secu,Secu,descartado,1,31.883333,35.2,Place near Ramah visited by Saul,-
+seir_mount,Seir Mount,descartado,1,31.783333,34.994,Landmark on the boundary of Judah,-
+seirah,Seirah,descartado,1,31.93053920580005,35.22103274923676,Place where Ehud escaped after killing Eglon,-
+seleucia,Seleucia,descartado,1,36.11101750333098,35.92680788324002,Port city from which Paul and Barnabas sailed,-
+seneh,Seneh,descartado,1,31.85309428405443,35.28616916703533,Rocky crag near Michmash,-
+sephar,Sephar,descartado,1,14.550219,44.392642,Boundary of the territory settled by Joktan's descendants,-
+shaalim,Shaalim,descartado,1,31.84684772753698,35.18491237777512,Region traversed by Saul in search of donkeys,-
+shahazumah,Shahazumah,descartado,1,32.40643,35.504628,Border town of Issachar,-
+shalishah,Shalishah,descartado,1,31.84684772753698,35.18491237777512,Region Saul passed through seeking donkeys,-
+shallecheth,Shallecheth,descartado,1,31.777444,35.234935,Gate in Jerusalem assigned to Shuppim and Hosah,-
+shamir,Shamir,descartado,1,31.416667,34.933333,Town in the hill country of Judah,-
+shaphir,Shaphir,descartado,1,31.743719,34.694006,Town addressed in Micah's prophecy,-
+sharon,Sharon,descartado,1,33.41615982399708,35.85725617635589,Region where Gadites pastured their flocks,-
+shebarim,Shebarim,descartado,1,31.91697811712517,35.26122639380886,Place near Ai where Israelites fled,-
+shema,Shema,descartado,1,31.162327,35.057114,Town in the Negev region of Judah,-
+shen,Shen,descartado,1,31.83273947023218,35.1801628605877,Place where Samuel set up the Ebenezer stone,-
+shihor_libnath,Shihor-libnath,descartado,1,32.538496,34.907697,Boundary point of Asher's territory,-
+shikkeron,Shikkeron,descartado,1,31.77761410537458,34.85214575880509,Town on the border of Judah,-
+shion,Shion,descartado,1,32.716666,35.333334,Town in the territory of Issachar,-
+shittim_valley,Shittim Valley,descartado,1,31.85826217905818,35.64156652792805,Valley mentioned in Joel's prophecy,-
+shoa,Shoa,descartado,1,34.798311,48.514966,People group mentioned in Ezekiel's prophecy,-
+shual,Shual,descartado,1,31.95378955858199,35.29913577541004,Region raided by Philistines during Saul's reign,-
+sibraim,Sibraim,descartado,1,35.136204,36.749488,Landmark on the northeastern border of the Promised Land,-
+silla,Silla,descartado,1,31.777444,35.234935,Place where King Joash was assassinated,-
+siphmoth,Siphmoth,descartado,1,31.373521,35.074552,Town in southern Judah that received spoils from David,-
+sitnah,Sitnah,descartado,1,31.39129109635703,34.56057015639144,"Well dug by Isaac, disputed by Philistines",-
+socoh,Socoh,descartado,1,31.41666959977098,34.96667012280085,A town in the hill country of Judah,-
+sorek_valley,Sorek Valley,descartado,1,31.825731,34.989013,"Valley where Delilah lived, Samson's downfall occurred",-
+straight,Straight,descartado,1,33.519299,36.31344999999999,Street in Damascus where Saul stayed after conversion,-
+suph,Suph,descartado,1,27.088473,34.771729,Place near where Moses spoke to Israel,-
+suphah,Suphah,descartado,1,27.088473,34.771729,Place mentioned in the Book of the Wars of the Lord,-
+sur,Sur,descartado,1,31.777444,35.234935,Gate of the temple in Jerusalem,-
+sychar,Sychar,descartado,1,32.20307656686443,35.31192106402537,Samaritan city near Jacob's well,-
+syracuse,Syracuse,descartado,1,37.06823247873927,15.2948238829937,City in Sicily where Paul's ship stopped,-
+syrtis,Syrtis,descartado,1,31.766667,18.505556,Dangerous shallow waters off the coast of Libya,-
+taanath_shiloh,Taanath-shiloh,descartado,1,32.15,35.383333,Landmark on the border of Ephraim's territory,-
+tabbath,Tabbath,descartado,1,32.35601,35.536929,Place near where Midianites fled from Gideon,-
+tabor,Tabor,descartado,1,31.93053920580005,35.22103274923676,"Oak tree near Bethel, mentioned in Samuel's prophecy",-
+tappuah,Tappuah,descartado,1,32.15,35.126,Town in the Judean Shephelah,-
+taralah,Taralah,descartado,1,31.792733,35.196862,Town allotted to the tribe of Benjamin,-
+tel_abib,Tel-abib,descartado,1,32.127213,45.229995,Settlement of exiled Jews in Babylonia,-
+telaim,Telaim,descartado,1,31.244952,34.840888,Place where Saul gathered his army,-
+telem,Telem,descartado,1,31.244952,34.840888,Town in the Negev region of Judah,-
+three_taverns,Three Taverns,descartado,1,41.59132,12.828636,Staging post on the Appian Way near Rome,-
+tibhath,Tibhath,descartado,1,33.93148,36.152049,City from which David took bronze for the Temple,-
+timnah,Timnah,descartado,1,31.699323,35.040359,Town in the hill country of Judah,-
+tiphsah,Tiphsah,descartado,1,35.847967,38.73235,"City on the Euphrates, extent of Solomon's kingdom",-
+tiphsah,Tiphsah,descartado,1,32.166667,35.166667,City attacked by King Menahem of Israel,-
+tochen,Tochen,descartado,1,31.8099,34.9365,Town in the territory of Simeon,-
+tolad,Tolad,descartado,1,31.244952,34.840888,Town in the territory of Simeon,-
+tophel,Tophel,descartado,1,30.936991,35.61687,A place near where Moses addressed the Israelites,-
+trachonitis,Trachonitis,descartado,1,32.833333,36.5,A rugged region northeast of the Jordan River,-
+travelers_valley,Travelers Valley,descartado,1,31.49684513710609,35.78284105296996,A valley where Gog's army will be buried,-
+ummah,Ummah,descartado,1,33.104377,35.180623,A town allotted to the tribe of Asher,-
+uzal,Uzal,descartado,1,15.354879,44.215092,A place mentioned in Ezekiel's prophecy,-
+uzzen_sheerah,Uzzen-sheerah,descartado,1,31.887821,35.045649,"A town built by Sheerah, daughter of Ephraim",-
+waheb,Waheb,descartado,1,27.088473,34.771729,A place mentioned in the Book of Numbers,-
+way_of_holiness,Way of Holiness,descartado,1,31.777444,35.234935,A prophesied highway for the redeemed in Isaiah,-
+wildgoats_rocks,Wildgoats Rocks,descartado,1,31.46152536164766,35.39241108242345,A place near En Gedi where David hid from Saul,-
+yiron,Yiron,descartado,1,33.088748,35.414111,A town allotted to the tribe of Naphtali,-
+zaanan,Zaanan,descartado,1,31.743719,34.694006,A town mentioned in Micah's prophecy,-
+zanoah,Zanoah,descartado,1,31.366667,35.0,A town in the hill country of Judah,-
+zeboim,Zeboim,descartado,1,31.10182240291489,35.47633656511371,A town resettled by the people of Judah after the exile,-
+zeboim_valley,Zeboim Valley,descartado,1,31.936283,35.424836,A valley mentioned in connection with Saul's military campaigns,-
+zelzah,Zelzah,descartado,1,31.717666,35.187019,A place near Rachel's tomb in Benjamin,-
+zenan,Zenan,descartado,1,31.743719,34.694006,A town in the Judean lowlands,-
+zephathah_valley,Zephathah Valley,descartado,1,31.615198,34.910085,A valley where Asa defeated the Cushite army,-
+zer,Zer,descartado,1,33.125828,35.165,A fortified city in Naphtali,-
+zeredah,Zeredah,descartado,1,32.23293813761263,35.27304180036391,"The hometown of Jeroboam, first king of Israel",-
+zereth_shahar,Zereth-shahar,descartado,1,31.616962,35.567522,A city in Reuben's territory by the Dead Sea,-
+ziddim,Ziddim,descartado,1,32.814279,35.435872,A fortified city in Naphtali,-
+zimri,Zimri,descartado,1,32.18919123705116,48.25788647687722,A nation mentioned in Jeremiah's prophecy against nations,-
+zior,Zior,descartado,1,31.589719,35.148296,A town in the hill country of Judah,-
+ziph,Ziph,descartado,1,31.244952,34.840888,A town in the Negev of Judah,-
+ziphron,Ziphron,descartado,1,34.229499,37.240077,A place on the northern border of the Promised Land,-
+ziz,Ziz,descartado,1,31.572903,35.406346,A pass where Jehoshaphat defeated Moab and Ammon,-
+zophim,Zophim,descartado,1,31.767811,35.725296,A place in Moab where Balaam blessed Israel,-
+zuph,Zuph,descartado,1,31.846847,35.184912,A land where Saul searched for his father's donkeys,-

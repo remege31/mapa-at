@@ -1,0 +1,72 @@
+{
+  "id": "libnah",
+  "nombre": "Libnah",
+  "tipo": "ciudad",
+  "nivel": 2,
+  "lat": 31.5649,
+  "lng": 34.8467,
+  "frecuencia_at": 16,
+  "jerarquia_pin": "secundario",
+  "descripcion_geo": "// PENDIENTE — A Canaanite city conquered by Joshua; a Levitical city",
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ]
+  }
+}

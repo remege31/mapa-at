@@ -1,0 +1,48 @@
+{
+  "id": "makkedah",
+  "nombre": "Makkedah",
+  "tipo": "ciudad",
+  "nivel": 3,
+  "lat": 31.9351,
+  "lng": 34.7813,
+  "frecuencia_at": 9,
+  "jerarquia_pin": "menor",
+  "descripcion_geo": "// PENDIENTE — A Canaanite city conquered by Joshua",
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "shiloh",
+  "nombre": "Shiloh",
+  "tipo": "ciudad",
+  "nivel": 2,
+  "lat": 32.0557,
+  "lng": 35.2895,
+  "frecuencia_at": 38,
+  "jerarquia_pin": "secundario",
+  "descripcion_geo": "// PENDIENTE — Israelite sanctuary and assembly point during the judges' period",
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ]
+  }
+}

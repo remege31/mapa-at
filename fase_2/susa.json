@@ -1,0 +1,72 @@
+{
+  "id": "susa",
+  "nombre": "Susa",
+  "tipo": "ciudad",
+  "nivel": 2,
+  "lat": 32.1892,
+  "lng": 48.2579,
+  "frecuencia_at": 22,
+  "jerarquia_pin": "secundario",
+  "descripcion_geo": "// PENDIENTE — Capital city of the Persian Empire",
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ]
+  }
+}

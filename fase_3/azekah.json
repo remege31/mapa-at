@@ -1,0 +1,48 @@
+{
+  "id": "azekah",
+  "nombre": "Azekah",
+  "tipo": "ciudad",
+  "nivel": 3,
+  "lat": 31.7006,
+  "lng": 34.9362,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "menor",
+  "descripcion_geo": "// PENDIENTE — Judean town, site of battles and sieges.",
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ]
+  }
+}

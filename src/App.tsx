@@ -360,16 +360,17 @@ export default function App() {
             <button
               key={p.id}
               className={`period-btn${periodId === p.id ? ' active' : ''}`}
+              aria-pressed={periodId === p.id}
               onClick={() => setPeriodId(p.id)}
               title={p.range}
             >
-              {periodId === p.id ? `${p.name} · ${p.range}` : p.name}
+              <span style={{display:'flex',flexDirection:'column',alignItems:'center',gap:0}}><span>{p.name}</span>{periodId !== p.id && <span style={{fontSize:'9px',opacity:0.7,fontFamily:'system-ui,sans-serif'}}>{p.range}</span>}</span>
             </button>
           ))}
         </div>
         <div id="layers-row">
-          <button className={`layer-btn${territoriosActive ? ' active' : ''}`} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
-          <button className={`layer-btn${rutasActive ? ' active' : ''}`} onClick={() => setRutasActive(a => !a)} title="Mostrar rutas de personajes">🚶 Rutas</button>
+          <button className={`layer-btn${territoriosActive ? ' active' : ''}`} aria-pressed={territoriosActive} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
+          <button className={`layer-btn${rutasActive ? ' active' : ''}`} aria-pressed={rutasActive} onClick={() => setRutasActive(a => !a)} title="Mostrar rutas de personajes">🚶 Rutas</button>
         </div>
       </div>
       <div id="main">

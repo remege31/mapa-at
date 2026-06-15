@@ -1,0 +1,154 @@
+{
+  "id": "dan",
+  "nombre": "Dan",
+  "tipo": "ciudad",
+  "lat": 33.2487,
+  "lng": 35.6525,
+  "frecuencia_at": 76,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": "// PENDIENTE",
+      "hasta": "// PENDIENTE",
+      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
+    }
+  ],
+  "descripcion_geo": "// PENDIENTE — Israelite tribe; city in northern Israel; originally called Laish/Leshem.",
+  "altitud_m": "// PENDIENTE",
+  "clima": "// PENDIENTE",
+  "recursos": [
+    "// PENDIENTE"
+  ],
+  "importancia_estrategica": "// PENDIENTE",
+  "otros_habitantes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "religion": "// PENDIENTE",
+      "periodo": "// PENDIENTE"
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "religion": "// PENDIENTE",
+      "periodo": "// PENDIENTE"
+    }
+  ],
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "periodo": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "religiones_presentes": [
+      "// PENDIENTE"
+    ],
+    "mitos": [
+      {
+        "id": "// PENDIENTE",
+        "nombre": "// PENDIENTE",
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
+        "judaismo": {
+          "fuente_primaria": "// PENDIENTE",
+          "fuente_secundaria": "// PENDIENTE",
+          "descripcion": "// PENDIENTE",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "// PENDIENTE",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "// PENDIENTE",
+          "fuente_secundaria": "// PENDIENTE",
+          "descripcion": "// PENDIENTE",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "// PENDIENTE",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": [
+    "// PENDIENTE — verificar ocupación arqueológica"
+  ]
+}

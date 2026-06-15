@@ -1,0 +1,67 @@
+{
+  "id": "thessalonica",
+  "nombre": "Thessalonica",
+  "tipo": "ciudad",
+  "nivel": "nt",
+  "mapa": "apostoles",
+  "lat": 40.6322,
+  "lng": 22.9321,
+  "frecuencia_nt": 11,
+  "jerarquia_pin": "secundario",
+  "descripcion_geo": "// PENDIENTE — Macedonian city, site of an early Christian church",
+  "periodo_nt": "// PENDIENTE — verificar (ministerio_jesus / viajes_pablo / iglesia_primitiva)",
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "tradicion": "// PENDIENTE — judaismo_diaspora / cristianismo_primitivo / paganismo_greco_romano"
+  }
+}

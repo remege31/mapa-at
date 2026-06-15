@@ -1,0 +1,204 @@
+name,refs,lat,lng,brief,area
+Jordan,197,32.309099,35.5599,"A river and region, significant in Israel's history",-
+Moab,184,31.49684513710609,35.78284105296996,Ancient kingdom east of the Dead Sea in Jordan,Edom
+Gilead,99,32.042523,35.724241,Mountainous region east of Jordan; tribal territory and personal name.,Tribe of Manasseh
+Euphrates,65,35.090577,40.42778,Major river in ancient Near East; boundary of Promised Land,-
+Lebanon,63,33.752479,35.590804,A mountainous region known for its cedar trees,-
+Nile,51,30.092632,31.230987,"The major river of Egypt, mentioned in various contexts",-
+Sinai,43,28.539722,33.973333,Mountain where Moses received the Ten Commandments,-
+Hermon Mount,28,33.41615982399708,35.85725617635589,Mountain on the northern border of Israel,-
+Kadesh,27,30.68771281376111,34.49479554246946,An important oasis in the Wilderness of Zin,-
+Red Sea,26,27.088473,34.771729,Sea crossed by Israelites in the Exodus,-
+Arnon,25,31.4288,35.677009,"A river and valley, serving as a boundary for Israel.",-
+Arabah,22,32.029676,35.520995,A desert region in the Jordan Valley and southward.,-
+Shephelah,20,31.77761410537458,34.85214575880509,Lowland region between Judean hills and coastal plain,-
+Cyprus,15,35.018306,33.207693,Island in the Mediterranean Sea; early Christian community,Cyprus
+Olives Mount,15,31.77809503341373,35.2471976093501,A mountain ridge east of Jerusalem,-
+Joppa,14,32.05351968494696,34.75042606009946,"An ancient seaport, the main port for Jerusalem",-
+Kidron,14,31.772134,35.236596,"A valley east of Jerusalem, site of significant events",-
+Magadan,14,32.84733494629723,35.5229361797708,A place on the Sea of Galilee; home of Mary Magdalene,-
+Salt Sea,14,31.538593,35.482268,Another name for the Dead Sea,-
+Great Sea,13,33.24,33.47,"The Mediterranean Sea, the western boundary of the Promised Land.",-
+Megiddo,13,32.58418313614938,35.18229165870594,A strategic city in the Jezreel Valley,-
+Chinnereth,11,32.80677585520321,35.58936052679091,Freshwater lake in northern Israel; location of Jesus' ministry,-
+Seir Mount,11,30.734691,35.60625,"Mountainous region in Seir, associated with Edom",-
+Hor Mount,10,30.317396,35.407152,Mountain where Aaron died and was buried,-
+Zin,10,30.68771281376111,34.49479554246946,A desert and wilderness region south of Judah,-
+Aroer,9,31.47109529828131,35.82200331579328,A city on the edge of the Arnon Valley.,-
+Paran,9,29.151667,33.541944,A desert region in the Sinai Peninsula,-
+Chebar,8,33.159129,44.06293,River in Babylonia; location of Ezekiel's visions,-
+Ebal Mount,8,32.23293813761263,35.27304180036391,"A mountain in Canaan, site of curses and blessings ceremony.",-
+Elath,8,29.528502,35.005732,Edomite port on the Red Sea; fortified by Judah,-
+Pisgah,8,31.76503129703305,35.71856575741812,"A mountain range in Moab, east of the Jordan",-
+Rephaim Valley,8,31.756332,35.223059,"Valley near Jerusalem, site of battles",-
+Tabor Mount,8,32.68695640243183,35.39091304299688,"Mountain in Israel, site of Deborah and Barak's victory",-
+Beth-aven,7,31.89571707979081,35.25309824700233,Town and wilderness near Ai and Bethel.,-
+Ezion-geber,7,29.75804307645581,35.0306017443078,Israelite encampment; port city on Red Sea,-
+Jabbok,7,32.193237,35.676305,"A river east of the Jordan, associated with Jacob",-
+Mesopotamia,7,32.53650368616845,44.42088287373876,The region between the Tigris and Euphrates rivers,-
+Nebo,7,31.748024,35.743257,A city and mountain in Moab,-
+Nebo Mount,7,31.76135780447535,35.74614824478083,The mountain where Moses viewed the Promised Land,-
+Sharon,7,32.639068,34.945929,Coastal plain known for its beauty and fertility,-
+Beth-arabah,6,31.84332,35.50649,"Town and wilderness area in Judah, also associated with Benjamin.",-
+Elim,6,29.306194,32.980924,Desert oasis on Israel's journey from Egypt to Sinai,-
+Gihon,6,31.773116,35.237186,A river of Eden; a spring near Jerusalem.,-
+Gilboa Mount,6,32.50984080716704,35.40843470396692,A mountain range where Saul and his sons died.,-
+Hazeroth,6,28.916667,34.5,Israelite encampment during the wilderness wanderings,-
+Kishon,6,32.761948,35.064096,A river in northern Israel,-
+Machpelah,6,31.52464794555393,35.11073465087356,A cave near Hebron; burial place of patriarchs,-
+Migdol,6,30.020296,32.372233,A place near the Red Sea where the Israelites camped,-
+Shur,6,30.2354,33.247,Wilderness area between Canaan and Egypt,-
+Achor Valley,5,31.83689,35.399737,"A valley near Jericho, where Achan was stoned.",-
+Carmel Mount,5,32.729350157734,35.04978957235391,Mountain range; site of Elijah's confrontation with prophets of Baal,-
+En-rogel,5,31.767775,35.234408,Spring near Jerusalem; associated with Adonijah's and David's kingships,-
+Kibroth-hattaavah,5,28.916667,34.5,A place where the Israelites complained and were punished,-
+Peor,5,31.76503129703305,35.71856575741812,A mountain in Moab associated with idolatry,-
+Salt Valley,5,31.087328,35.38374,Valley where David and his commanders defeated enemies,-
+Zarethan,5,32.267821,35.576613,A place near the Jordan River associated with Israel's crossing,-
+Zeboiim,5,31.11942270162137,35.41253049195169,One of the cities of the plain destroyed with Sodom,-
+Ararat,4,39.70289295384448,44.29818047261773,A mountain range where Noah's ark rested after the flood.,-
+Bene-jaakan,4,30.317396,35.407152,Israelite encampment during the wilderness wanderings.,-
+Chinneroth,4,32.80677585520321,35.58936052679091,Region and city near the Sea of Galilee,-
+Esau Mount,4,30.734691,35.60625,Mountainous region of Edom; judgment prophesied by Obadiah,-
+Eshcol Valley,4,31.54909871686872,35.09356062020027,Valley where Israelite spies obtained a large cluster of grapes,-
+Etham,4,30.467511,32.282767,Wilderness area where Israelites camped during the Exodus,-
+Gaash,4,32.121473,35.150392,Mountain in Ephraim; burial place of Joshua,-
+Gerizim Mount,4,32.19956174365378,35.27285228460234,Mountain in Samaria; site of blessings and Jotham's parable,-
+Harod,4,32.549638,35.355647,A spring near where Gideon gathered his army.,-
+Horesh,4,31.45113920529978,35.08840337232346,A wilderness area where David hid from Saul,-
+Hor-haggidgad,4,30.358285,35.19027,An Israelite campsite during the wilderness wanderings,-
+Jattir,4,31.40143851886152,35.06941349210527,A town in the hill country of Judah,-
+Jeshimon,4,31.46152536164766,35.39241108242345,"A wilderness near Ziph, where David hid from Saul",-
+Pi-hahiroth,4,29.94658,32.425144,A place near the Red Sea crossing,-
+Rimmon,4,31.93466,35.297063,Rock where Benjamites fled after battle,-
+Salecah,4,32.493941,36.710337,"City in Bashan, east of the Jordan River",-
+Shaveh,4,31.58333333329998,35.70000000000012,Valley where Chedorlaomer defeated the Emites,-
+Sin,4,28.838778,33.420573,Wilderness area between Elim and Sinai,-
+Valley Gate,4,31.777444,35.234935,"A gate in Jerusalem's wall, rebuilt by Nehemiah",-
+Zered,4,30.884128,35.897633,A brook marking the end of Israel's wilderness wanderings,-
+Areopagus,3,37.98333333333333,23.73333333333333,A hill in Athens where Paul preached the gospel.,-
+Baal-zephon,3,29.938441,32.395473,Egyptian location where the Israelites camped before crossing the Red Sea.,-
+Beer-lahai-roi,3,30.68771281376111,34.49479554246946,Well where Hagar encountered the Angel of the Lord.,-
+Beth-nimrah,3,31.900811,35.625693,"Town in Gad, east of the Jordan River.",-
+Diblathaim,3,31.49684513710609,35.78284105296996,A place where the Israelites camped during their wilderness wanderings.,-
+Elah Valley,3,31.690629,34.963136,Site of David's victory over Goliath,-
+Gennesaret,3,32.85935860372527,35.50993742021974,Plain on the northwest shore of the Sea of Galilee,-
+Gilboa,3,32.516667,35.4,A mountain range where Saul and his sons died.,-
+Goshen,3,31.45,34.916667,A town and region in the hill country of Judah.,-
+Habor,3,36.344972,40.789333,A river in Assyria where Israelite captives were settled.,-
+Hachilah,3,31.466604,35.216691,"A hill in the Wilderness of Ziph, near David's hideout.",-
+Holon,3,31.583333,34.95,Levitical city in the hill country of Judah,-
+Jezreel Valley,3,32.5559631396043,35.33078927843792,"A fertile valley in northern Israel, site of many battles",-
+Jotbathah,3,29.75804307645581,35.0306017443078,A place where the Israelites camped during their wilderness journey,-
+Siddim Valley,3,31.235341,35.517624,Valley near the Dead Sea; site of battle,-
+Abana,2,33.545097,36.224661,"A river of Damascus, preferred by Naaman over the Jordan.",-
+Abronah,2,29.75804307645581,35.0306017443078,A desert campsite during Israel's wilderness wanderings.,-
+Acco,2,32.927583,35.081555,"A seaport in Asher, also called Ptolemais.",-
+Alush,2,28.770015,33.40046,A campsite during Israel's wilderness journey.,-
+Anab,2,31.403888,34.944185,A city in the hill country of Judah.,-
+Assos,2,39.48955031303715,26.33586734239906,"A seaport in Mysia, visited by Paul.",-
+Beracah Valley,2,31.61065,35.165648,Valley where Jehoshaphat and his army blessed the Lord.,-
+Dophkah,2,28.770015,33.40046,A place where the Israelites camped during their wilderness wanderings.,-
+Dragon Spring,2,31.777444,35.234935,"A water source near Jerusalem, mentioned in Nehemiah's wall inspection.",-
+En-shemesh,2,31.77402,35.270231,Spring on the border between Judah and Benjamin,-
+Ephron Mount,2,31.675746,35.042407,Mountain on the border between Judah and Benjamin,-
+Gibeah,2,31.43333151674604,35.13333188530802,A town in the hill country of Judah.,-
+Halak Mount,2,30.916667,34.833333,A mountain marking the southern boundary of Joshua's conquests.,-
+Hamon-gog Valley,2,31.49684513710609,35.78284105296996,A valley where Gog and his army will be buried.,-
+Haradah,2,30.317396,35.407152,A desert campsite during Israel's journey from Egypt.,-
+Hashmonah,2,30.317396,35.407152,A desert campsite during Israel's journey from Egypt.,-
+Hauran,2,32.80007552505443,35.93730130476259,Region east of the Sea of Galilee,-
+Hor Mount,2,33.416159,35.857256,A mountain marking Israel's northern boundary,-
+Iphtahel Valley,2,32.832774,35.277225,A valley on the border of Zebulun and Asher,-
+Juttah,2,31.45,35.083333,"A town in the hill country of Judah, a Levitical city",-
+Kain,2,31.5,35.166667,A town in the hill country of Judah,-
+Kehelathah,2,30.317396,35.407152,A place where the Israelites camped during their wilderness journey,-
+King's Valley,2,31.777444,35.234935,"A valley near Salem (Jerusalem), site of significant events",-
+Libnah,2,31.8099,34.9365,A place where Israel camped in the wilderness,-
+Makheloth,2,30.317396,35.407152,A place where the Israelites camped in the wilderness,-
+Mattanah,2,31.718148,35.584826,A place where the Israelites camped during their wilderness journey,-
+Mithkah,2,30.317396,35.407152,An Israelite campsite during the wilderness wanderings,-
+Mizpeh Valley,2,33.28177,35.573371,A region near Mount Hermon,-
+Moreh,2,32.21369123124062,35.2817986718367,Place near Shechem; also a hill near Gilgal,-
+Moriah Mount,2,31.77759385009378,35.23525140955081,Site of Solomon's temple in Jerusalem,-
+Moseroth,2,30.317396,35.407152,A place where the Israelites camped during their wilderness wanderings,-
+Nephtoah,2,31.683036,35.167987,A spring on the border of Judah and Benjamin,-
+Paran Mount,2,29.151667,33.541944,A mountain associated with God's appearance,-
+Punon,2,31.49684513710609,35.78284105296996,A stopping place for the Israelites in the wilderness,-
+Rakkath,2,32.79553799444466,35.52922039819518,City on the western shore of the Sea of Galilee,-
+Shepher Mount,2,30.317396,35.407152,Campsite during Israel's wilderness wanderings,-
+Tadmor,2,34.5540491686839,38.26590497164145,City built by Solomon in the wilderness,-
+Tahath,2,30.317396,35.407152,Israelite campsite during the wilderness journey,-
+Terah,2,30.317396,35.407152,Israelite campsite during the wilderness journey,-
+Tigris,2,35.983343,43.346466,"River flowing from Eden, mentioned in Daniel's vision",-
+Ulai,2,32.178696,48.22489,"A river in Elam, near where Daniel saw a vision",-
+Zalmonah,2,31.49684513710609,35.78284105296996,A place where the Israelites camped during their wilderness journey,-
+Zemaraim,2,31.910999,35.45728,A town in Benjamin; also a hill in Ephraim,-
+Adam,1,32.09772014797369,35.56469085401976,A city near the Jordan River.,-
+Adramyttium,1,39.5748,26.9367,"A seaport in Asia Minor, visited by Paul.",-
+Adriatic Sea,1,42.415,16.3735,The sea where Paul's ship drifted during a storm.,-
+Amana,1,33.68137,36.055039,A mountain range mentioned in the Song of Solomon.,-
+Amaw,1,36.654616,38.068879,"A place near the Euphrates River, associated with Balaam.",-
+Ammah,1,31.869005,35.343177,"A hill near Gibeon, where Joab pursued Abner.",-
+Anim,1,31.373521,35.074552,A city in the hill country of Judah.,-
+Attalia,1,36.88082580070078,30.69456557778969,Seaport in Pamphylia visited by Paul and Barnabas.,-
+Aven Valley,1,34.006944,36.203889,"Plain near Damascus, prophesied to be destroyed.",-
+Aznoth-tabor,1,32.68695640243183,35.39091304299688,Border town of Naphtali near Mount Tabor.,-
+Baalah Mount,1,31.865518,34.746856,Mountain marking the northern boundary of Judah.,-
+Beth-anoth,1,31.558456,35.124483,Town in the hill country of Judah.,-
+Beth-arbel,1,32.56101132918748,35.84782996762625,"Place destroyed by Shalman, mentioned in Hosea's prophecy.",-
+Beth-tappuah,1,31.52973,35.050377,Town in the hill country of Judah.,-
+Bozez,1,31.85716450320853,35.28714718824809,A rocky crag near Michmash,-
+City of Salt,1,31.46152536164766,35.39241108242345,Town in the wilderness of Judah,-
+Dalmatia,1,43.515484,16.071538,Region on the eastern coast of the Adriatic Sea.,-
+Dannah,1,31.561025,34.975472,A city in the hill country of Judah.,-
+Dumah,1,31.43827,34.982762,A city in the hill country of Judah.,-
+Dura,1,32.53650368616845,44.42088287373876,A plain in Babylon where Nebuchadnezzar set up a statue.,-
+Egypt Sea,1,27.088473,34.771729,"Likely the Gulf of Suez, part of the Red Sea",-
+El-paran,1,29.151667,33.541944,Wilderness area where the Horites were defeated by Chedorlaomer,-
+Eltekon,1,31.66057,34.995406,City in the hill country of Judah,-
+En-hakkore,1,31.75274835811488,34.97660913147738,Spring that appeared after Samson's victory over the Philistines,-
+Esek,1,31.39129109635703,34.56057015639144,Well dug by Isaac's servants; named after quarrel,-
+Eshan,1,31.420175,35.033537,City in the hill country of Judah,-
+Gareb,1,31.777444,35.234935,A hill near Jerusalem,-
+Halhul,1,31.579549,35.099103,A town in the hill country of Judah.,-
+Hebron Valley,1,31.54909871686872,35.09356062020027,Valley near Hebron where Joseph sought his brothers,-
+Hereth,1,31.621492,35.029273,Forest where David hid from Saul,-
+Humtah,1,31.53577362133176,35.09409986578734,A town in the hill country of Judah,-
+Iyim,1,31.49684513710609,35.78284105296996,An Israelite campsite in the wilderness,-
+Janim,1,31.516667,35.166667,A town in the hill country of Judah,-
+Jazer Sea,1,31.94352951689796,35.72776961157128,A poetic reference to the abundant vineyards of Jazer,-
+Jericho Valley,1,31.87060143818292,35.44386371224434,The valley where the city of Jericho is located,-
+Jeruel,1,31.572903,35.406346,A wilderness where Jehoshaphat defeated his enemies,-
+Jokdeam,1,31.366667,35.0,A town in the hill country of Judah,-
+Lasea,1,34.93491734364034,24.80919899172515,"A city near Fair Havens, Crete",-
+Lebanon Mount,1,33.752479,35.590804,A mountain range marking the northern border of Israel,-
+Maarath,1,31.621003,35.102328,A town in the hill country of Judah,-
+Middin,1,31.743894,35.401591,A town in the wilderness of Judah,-
+Mizar Mount,1,33.41615982399708,35.85725617635589,A mountain mentioned in a psalm of lament,-
+Moreh,1,32.61773063505183,35.35737645291343,Place near Shechem; hill where Gideon camped,-
+Mortar,1,31.777444,35.234935,A district or valley in or near Jerusalem,-
+Moserah,1,30.317396,35.407152,A place where the Israelites camped during their wilderness wanderings,-
+Nibshan,1,31.46152536164766,35.39241108242345,A town in the Judean wilderness,-
+Perazim Mount,1,31.756332,35.223059,A place where David defeated the Philistines,-
+Pharpar,1,33.379601,36.306085,"A river in Damascus, Syria",-
+Rehoboth,1,31.066829,34.59783,Well dug by Isaac,-
+Secacah,1,31.766667,35.283333,Town in the wilderness of Judah,-
+Seir Mount,1,31.783333,34.994,Landmark on the boundary of Judah,-
+Seneh,1,31.85309428405443,35.28616916703533,Rocky crag near Michmash,-
+Shaalim,1,31.84684772753698,35.18491237777512,Region traversed by Saul in search of donkeys,-
+Shamir,1,31.416667,34.933333,Town in the hill country of Judah,-
+Shittim Valley,1,31.85826217905818,35.64156652792805,Valley mentioned in Joel's prophecy,-
+Sitnah,1,31.39129109635703,34.56057015639144,"Well dug by Isaac, disputed by Philistines",-
+Socoh,1,31.41666959977098,34.96667012280085,A town in the hill country of Judah,-
+Sorek Valley,1,31.825731,34.989013,"Valley where Delilah lived, Samson's downfall occurred",-
+Sychar,1,32.20307656686443,35.31192106402537,Samaritan city near Jacob's well,-
+Timnah,1,31.699323,35.040359,Town in the hill country of Judah,-
+Trachonitis,1,32.833333,36.5,A rugged region northeast of the Jordan River,-
+Travelers Valley,1,31.49684513710609,35.78284105296996,A valley where Gog's army will be buried,-
+Zanoah,1,31.366667,35.0,A town in the hill country of Judah,-
+Zeboim Valley,1,31.936283,35.424836,A valley mentioned in connection with Saul's military campaigns,-
+Zephathah Valley,1,31.615198,34.910085,A valley where Asa defeated the Cushite army,-
+Zereth-shahar,1,31.616962,35.567522,A city in Reuben's territory by the Dead Sea,-
+Zior,1,31.589719,35.148296,A town in the hill country of Judah,-
+Zuph,1,31.846847,35.184912,A land where Saul searched for his father's donkeys,-

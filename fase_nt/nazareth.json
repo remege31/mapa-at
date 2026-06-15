@@ -1,0 +1,67 @@
+{
+  "id": "nazareth",
+  "nombre": "Nazareth",
+  "tipo": "ciudad",
+  "nivel": "nt",
+  "mapa": "apostoles",
+  "lat": 32.7067,
+  "lng": 35.3015,
+  "frecuencia_nt": 31,
+  "jerarquia_pin": "primario",
+  "descripcion_geo": "// PENDIENTE — The hometown of Jesus in Galilee",
+  "periodo_nt": "// PENDIENTE — verificar (ministerio_jesus / viajes_pablo / iglesia_primitiva)",
+  "historias": [
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    },
+    {
+      "id": "// PENDIENTE",
+      "titulo": "// PENDIENTE",
+      "fecha": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "personajes_clave": [
+        "// PENDIENTE"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    },
+    {
+      "id": "// PENDIENTE",
+      "nombre": "// PENDIENTE",
+      "emoji": "// PENDIENTE",
+      "rol": "// PENDIENTE",
+      "descripcion": "// PENDIENTE",
+      "referencias": [
+        "// PENDIENTE"
+      ],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "// PENDIENTE",
+    "tradicion": "// PENDIENTE — judaismo_diaspora / cristianismo_primitivo / paganismo_greco_romano"
+  }
+}

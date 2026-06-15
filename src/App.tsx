@@ -305,6 +305,7 @@ export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
   const [territoriosActive, setTerritoriosActive] = useState(false)
+  const [rutasActive, setRutasActive] = useState(false)
   const [drawerTop, setDrawerTop] = useState(82)
 
   const topbarRef = useRef<HTMLDivElement>(null)
@@ -368,7 +369,7 @@ export default function App() {
         </div>
         <div id="layers-row">
           <button className={`layer-btn${territoriosActive ? ' active' : ''}`} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
-          <button className="layer-btn layer-btn-disabled" disabled title="Próximamente">🚶 Rutas</button>
+          <button className={`layer-btn${rutasActive ? ' active' : ''}`} onClick={() => setRutasActive(a => !a)} title="Mostrar rutas de personajes">🚶 Rutas</button>
         </div>
       </div>
       <div id="main">
@@ -378,6 +379,7 @@ export default function App() {
             selectedId={selected?.id}
             periodId={periodId}
             territoriosActive={territoriosActive}
+            rutasActive={rutasActive}
           />
         </div>
         <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>

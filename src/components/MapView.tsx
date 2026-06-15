@@ -3,10 +3,39 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Lugar } from '../types/lugar'
 
-const LUGAR_IDS = ['jerusalen', 'egipto', 'mesopotamia', 'canaan', 'sinai'] as const
+const LUGAR_IDS = [
+  // MVP original
+  'jerusalen', 'egipto', 'mesopotamia', 'canaan', 'sinai',
+  // fase_1
+  'ammon', 'babylon', 'bethel', 'bethlehem', 'damascus', 'dan',
+  'gath', 'gibeah', 'gibeon', 'hebron', 'jericho', 'mizpah',
+  'samaria', 'shechem', 'sidon', 'sodom', 'tyre',
+  // fase_2
+  'ai', 'anathoth', 'ashdod', 'beersheba', 'beth_shemesh', 'carmel',
+  'debir', 'ekron', 'gaza', 'geba', 'gezer', 'gomorrah', 'hamath',
+  'heshbon', 'jabesh', 'jezreel', 'keilah', 'kiriath_jearim', 'lachish',
+  'libnah', 'nineveh', 'ramah', 'ramoth', 'shiloh', 'susa', 'tarshish', 'ziklag',
+] as const
 
 // Pin único tamaño — sin jerarquía visual
 const PIN = { r: 6, fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
+
+// Waypoints para rutas — lugares sin JSON propio en scope actual
+const WAYPOINTS: Record<string, [number, number]> = {
+  'ur':           [30.9628, 46.1027],
+  'haran':        [36.8631, 39.0275],
+  'madian':       [28.4500, 35.0000],
+  'berseba':      [31.2430, 34.7993],
+  'siquem':       [32.2073, 35.2860],
+  'jerico':       [31.8710, 35.4440],
+  'gabaon':       [31.8390, 35.1790],
+  'anatot':       [31.8330, 35.2670],
+  'belen':        [31.7054, 35.2103],
+  'monte-efraim': [32.0500, 35.2000],
+  'tabor':        [32.6860, 35.3920],
+  'meguido':      [32.5840, 35.1840],
+  'monte-carmelo':[32.7500, 35.0500],
+}
 
 // Paleta aprobada por diseñadora
 const TERRITORY_COLORS: Record<string, string> = {
@@ -303,6 +332,7 @@ interface MapViewProps {
   selectedId?: string
   periodId?: string
   territoriosActive?: boolean
+  rutasActive?: boolean
 }
 
 export function MapView({
@@ -310,6 +340,7 @@ export function MapView({
   selectedId,
   periodId = 'hierro_2',
   territoriosActive = false,
+  rutasActive = false,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
@@ -570,6 +601,47 @@ export function MapView({
       markersRef.current.set(lugar.id, marker)
     })
   }, [lugares, selectedId, zoom, showHint, periodId])
+
+  // ─── Rutas de personajes ─────────────────────────────────────────────────
+  const rutasLayerRef = useRef<L.LayerGroup | null>(null)
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) return
+
+    // Limpiar rutas anteriores
+    if (rutasLayerRef.current) {
+      map.removeLayer(rutasLayerRef.current)
+      rutasLayerRef.current = null
+    }
+    if (!rutasActive || !lugares.length) return
+
+    const coordMap: Record<string, [number, number]> = { ...WAYPOINTS }
+    lugares.forEach(l => { coordMap[l.id] = [l.lat, l.lng] })
+
+    const group = L.layerGroup()
+    const RUTA_COLOR = '#8B4A26'
+
+    lugares.forEach(lugar => {
+      const periodosAt: string[] = (lugar as any).periodos_at ?? []
+      if (!periodosAt.includes(periodId)) return
+      ;(lugar.personajes ?? []).forEach(p => {
+        const pts = (p.ruta ?? [])
+          .filter((id: string) => coordMap[id])
+          .map((id: string) => coordMap[id] as [number, number])
+        if (pts.length < 2) return
+        L.polyline(pts, {
+          color: RUTA_COLOR,
+          weight: 2,
+          opacity: 0.75,
+          dashArray: '6 4',
+        }).addTo(group)
+      })
+    })
+
+    group.addTo(map)
+    rutasLayerRef.current = group
+  }, [rutasActive, lugares, periodId])
 
   return (
     <div

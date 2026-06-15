@@ -462,6 +462,7 @@ export function MapView({
         }
 
         const layer = L.geoJSON(filtered, {
+          interactive: false,
           style: (feature) => {
             const name: string = feature?.properties?.NAME ?? ''
             const color = getTerritoryColor(name)

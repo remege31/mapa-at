@@ -5,12 +5,10 @@
   --beige: #D4C5B0;
   --terra: #8B4A26;
   --sand: #E8DCC8;
-  --olive: #6B8E23;
   --gray: #6B6054;
   --blue: #2E5F8A;
   --ink: #3C3C3C;
   --paper: #F5F0E8;
-  --gray-on-dark: #B5AB97;
 }
 
 /* ─── layout ──────────────────────────────────────────────────────────────── */
@@ -158,38 +156,9 @@
   flex-shrink: 0;
 }
 
-#panel-name {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  color: var(--ink);
-  margin-bottom: 4px;
-}
 
-#panel-tags {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-}
 
-.ptag {
-  font-size: 10px;
-  background: var(--sand);
-  border: 1px solid var(--beige);
-  border-radius: 4px;
-  padding: 2px 7px;
-  color: var(--ocre);
-  font-weight: 500;
-}
 
-.ptag-freq {
-  font-size: 10px;
-  background: #EAF3DE;
-  border: 1px solid #C0DD97;
-  border-radius: 4px;
-  padding: 2px 7px;
-  color: #3B6D11;
-  font-weight: 500;
-}
 
 #panel-body {
   flex: 1;
@@ -817,17 +786,6 @@
   }
 }
 
-.panel-body-scroll::after {
-  content: '';
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 56px;
-  background: linear-gradient(to bottom, transparent, var(--paper));
-  pointer-events: none;
-  z-index: 2;
-}
 
 /* ─── menu items sin contenido ───────────────────────────────────────────── */
 .menu-item-disabled {

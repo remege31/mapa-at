@@ -270,7 +270,13 @@ function makeIcon(
           100% { transform:translate(-50%,-50%) scale(1.8); opacity:0; }
         }
       </style>
-      <div style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:pointer;opacity:${opacity};">
+      <div
+        tabindex="${dimmed ? '-1' : '0'}"
+        role="${dimmed ? 'none' : 'button'}"
+        aria-label="${dimmed ? '' : 'Explorar ${lugar.nombre}'}"
+        aria-disabled="${dimmed ? 'true' : 'false'}"
+        onkeydown="if(!${dimmed}&&(event.key==='Enter'||event.key===' ')){event.preventDefault();this.click();}"
+        style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:${dimmed?'default':'pointer'};opacity:${opacity};">
         ${tooltipHtml}
         ${pulseHtml}
         <div style="

@@ -52,7 +52,7 @@ function HistoriaCard({ h }: { h: Historia }) {
         {h.referencias.length > 0 && (
           <div className="meta">
             <span className="ml">Ref:</span>
-            {h.referencias.map(r => <span key={r} className="ref">{r}</span>)}
+            {h.referencias.map(r => <a key={r} className="ref" href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(r)}&version=RVR1960`} target="_blank" rel="noopener noreferrer">{r}</a>)}
           </div>
         )}
       </div>
@@ -75,7 +75,7 @@ function PersonajeCard({ p }: { p: Personaje }) {
         {p.referencias.length > 0 && (
           <div className="meta">
             <span className="ml">Ref:</span>
-            {p.referencias.slice(0, 3).map(r => <span key={r} className="ref">{r}</span>)}
+            {p.referencias.slice(0, 3).map(r => <a key={r} className="ref" href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(r)}&version=RVR1960`} target="_blank" rel="noopener noreferrer">{r}</a>)}
           </div>
         )}
       </div>

@@ -619,23 +619,58 @@ export function MapView({
     const coordMap: Record<string, [number, number]> = { ...WAYPOINTS }
     lugares.forEach(l => { coordMap[l.id] = [l.lat, l.lng] })
 
+    const PERSONAJE_COLORS = {
+  'Abraham': "#C4872A",
+  'Moisés': "#4A7A8B",
+  'José': "#6B7A3A",
+  'David': "#7A3A2A",
+  'Jeremías': "#6A4A7A",
+  'Daniel': "#2A4A7A",
+  'Ezequiel': "#8A6A2A",
+  'Elías': "#8A3A2A",
+  'Miriam': "#8A5A5A",
+  'Josué': "#3A6A4A",
+  'Débora': "#8A7A2A",
+  'Salomón': "#8B4A26"
+}
+    const DEFAULT_COLOR = '#8B4A26'
     const group = L.layerGroup()
-    const RUTA_COLOR = '#8B4A26'
+    const seen = new Set()
 
     lugares.forEach(lugar => {
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       if (!periodosAt.includes(periodId)) return
       ;(lugar.personajes ?? []).forEach(p => {
+        const key = p.nombre + ':' + (p.ruta ?? []).join(',')
+        if (seen.has(key)) return
+        seen.add(key)
+
         const pts = (p.ruta ?? [])
           .filter((id: string) => coordMap[id])
           .map((id: string) => coordMap[id] as [number, number])
         if (pts.length < 2) return
+
+        const color = (PERSONAJE_COLORS as any)[p.nombre] ?? DEFAULT_COLOR
+
         L.polyline(pts, {
-          color: RUTA_COLOR,
+          color,
           weight: 2,
-          opacity: 0.75,
+          opacity: 0.8,
           dashArray: '6 4',
         }).addTo(group)
+
+        const mid = Math.floor(pts.length / 2)
+        const midPt: [number,number] = pts.length % 2 === 0
+          ? [(pts[mid-1][0] + pts[mid][0]) / 2, (pts[mid-1][1] + pts[mid][1]) / 2]
+          : pts[mid]
+
+        const labelIcon = L.divIcon({
+          className: '',
+          iconSize: [90, 20],
+          iconAnchor: [45, 10],
+          html: '<div style="font-family:system-ui,sans-serif;font-size:9px;font-weight:600;color:' + color + ';background:rgba(245,240,232,0.88);border:1px solid ' + color + ';border-radius:4px;padding:1px 5px;white-space:nowrap;pointer-events:none;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.15);">' + p.nombre + '</div>',
+        })
+        L.marker(midPt, { icon: labelIcon, interactive: false, zIndexOffset: 500 }).addTo(group)
       })
     })
 

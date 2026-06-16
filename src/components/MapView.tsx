@@ -3,19 +3,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Lugar } from '../types/lugar'
 
-const LUGAR_IDS = [
-  // MVP original
-  'jerusalen', 'egipto', 'mesopotamia', 'canaan', 'sinai',
-  // fase_1
-  'ammon', 'babylon', 'bethel', 'bethlehem', 'damascus', 'dan',
-  'gath', 'gibeah', 'gibeon', 'hebron', 'jericho', 'mizpah',
-  'samaria', 'shechem', 'sidon', 'sodom', 'tyre',
-  // fase_2
-  'ai', 'anathoth', 'ashdod', 'beersheba', 'beth_shemesh', 'carmel',
-  'debir', 'ekron', 'gaza', 'geba', 'gezer', 'gomorrah', 'hamath',
-  'heshbon', 'jabesh', 'jezreel', 'keilah', 'kiriath_jearim', 'lachish',
-  'libnah', 'nineveh', 'ramah', 'ramoth', 'shiloh', 'susa', 'tarshish', 'ziklag',
-] as const
+// IDs cargados dinámicamente desde /data/index.json
 
 // Pin único tamaño — sin jerarquía visual
 const PIN = { r: 6, fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
@@ -359,11 +347,19 @@ export function MapView({
   useEffect(() => { cbRef.current = onSelectLugar }, [onSelectLugar])
 
   useEffect(() => {
-    Promise.all(
-      LUGAR_IDS.map(id =>
-        fetch(`/data/${id}.json`).then(r => r.json() as Promise<Lugar>)
+    fetch('/data/index.json')
+      .then(r => r.json() as Promise<string[]>)
+      .then(ids =>
+        Promise.all(
+          ids.map(id =>
+            fetch(`/data/${id}.json`)
+              .then(r => r.ok ? r.json() as Promise<Lugar> : null)
+              .catch(() => null)
+          )
+        )
       )
-    ).then(setLugares).catch(console.error)
+      .then(results => setLugares(results.filter(Boolean) as Lugar[]))
+      .catch(console.error)
   }, [])
 
   useEffect(() => {
@@ -570,20 +566,12 @@ export function MapView({
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       const dimmed = !periodosAt.includes(periodId)
 
-      const existing = markersRef.current.get(lugar.id)
       const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed)
 
+      const existing = markersRef.current.get(lugar.id)
       if (existing) {
-        existing.setIcon(icon)
-        existing.off('click')
-        if (!dimmed) {
-          existing.on('click', () => {
-            if (isJerusalen && showHint) setShowHint(false)
-            cbRef.current(lugar)
-          })
-        }
-        existing.setZIndexOffset(1000)
-        return
+        map.removeLayer(existing)
+        markersRef.current.delete(lugar.id)
       }
 
       const marker = L.marker([lugar.lat, lugar.lng], {

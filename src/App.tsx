@@ -292,13 +292,6 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
   )
 }
 
-async function loadJerusalen(): Promise<Lugar | null> {
-  try {
-    const res = await fetch('/data/jerusalen.json')
-    return await res.json()
-  } catch { return null }
-}
-
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [periodId, setPeriodId] = useState('hierro_2')
@@ -335,7 +328,8 @@ export default function App() {
       setMenuOpen(false)
       setDrawerOpen(true)
     } else {
-      const jer = await loadJerusalen()
+      const res = await fetch('/data/jerusalen.json').catch(() => null)
+      const jer = res?.ok ? await res.json() : null
       if (jer) setSelected(jer)
       setMenuOpen(false)
       setDrawerOpen(true)

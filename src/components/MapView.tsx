@@ -230,7 +230,8 @@ function makeIcon(
   zoom: number,
   showPulse: boolean,
   showTooltip: boolean,
-  dimmed: boolean
+  dimmed: boolean,
+  jerarquia: string = 'primario'
 ): L.DivIcon {
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
   const r = Math.round(PIN.r * zoomScale)
@@ -243,6 +244,7 @@ function makeIcon(
     ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
   const label = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
+  const hideLabel = dimmed || (jerarquia === 'secundario' && zoom < 9)
   const opacity = dimmed ? '0.25' : '1'
 
   const pulseHtml = showPulse ? `
@@ -310,6 +312,7 @@ function makeIcon(
           color:${labelColor};font-family:system-ui,sans-serif;
           white-space:nowrap;margin-top:2px;
           text-shadow:0 0 4px #F5F0E8,0 0 8px #F5F0E8,0 0 12px #F5F0E8;
+          visibility:${hideLabel ? 'hidden' : 'visible'};
         ">${label}</span>
       </div>`,
   })
@@ -566,8 +569,11 @@ export function MapView({
 
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       const dimmed = !periodosAt.includes(periodId)
+      const jerarquia = (lugar as any).jerarquia_pin ?? 'primario'
+      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 8) || (jerarquia === 'terciario' && zoom < 9)
+      if (hiddenByZoom) return
 
-      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed)
+      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed, jerarquia)
 
       const existing = markersRef.current.get(lugar.id)
       if (existing) {

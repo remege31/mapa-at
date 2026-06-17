@@ -204,15 +204,15 @@ function Panel({ lugar, periodId, onClose }: {
           <p className="desc">{lugar.descripcion_geo}</p>
           <div className="sec-label">Importancia estratégica</div>
           <p className="desc">{lugar.importancia_estrategica}</p>
-          {lugar.recursos.length > 0 && (<>
+          {(lugar.recursos ?? []).length > 0 && (<>
             <div className="sec-label">Recursos</div>
-            <ul className="resource-list">{lugar.recursos.map(r => <li key={r}>{r}</li>)}</ul>
+            <ul className="resource-list">{(lugar.recursos ?? []).map(r => <li key={r}>{r}</li>)}</ul>
           </>)}
-          {lugar.otros_habitantes.length > 0 && (<>
+          {(lugar.otros_habitantes ?? []).length > 0 && (<>
             <div className="sec-label">Otros habitantes</div>
             <div className="hab-list">
-              {lugar.otros_habitantes.map((h, i) => (
-                <div key={h.id} className="hab-row" style={i === lugar.otros_habitantes.length - 1 ? { borderBottom: 'none' } : {}}>
+              {(lugar.otros_habitantes ?? []).map((h, i) => (
+                <div key={h.id} className="hab-row" style={i === (lugar.otros_habitantes ?? []).length - 1 ? { borderBottom: 'none' } : {}}>
                   <div className="hab-name">{h.nombre}</div>
                   <div className="hab-desc">{h.descripcion}</div>
                 </div>
@@ -299,9 +299,20 @@ export default function App() {
   const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
   const [territoriosActive, setTerritoriosActive] = useState(false)
   const [rutasActive, setRutasActive] = useState(false)
+  const [searchQuery, setSearchQuery] = useState("")
+  const searchRef = useRef<HTMLInputElement>(null)
   const [drawerTop, setDrawerTop] = useState(82)
+  const [lugares, setLugares] = useState<import("./types/lugar").Lugar[]>([])
 
   const topbarRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    fetch("/data/index.json")
+      .then(r => r.json())
+      .then((ids: string[]) => Promise.all(ids.map(id => fetch("/data/" + id + ".json").then(r => r.ok ? r.json() : null).catch(() => null))))
+      .then(results => setLugares(results.filter(Boolean)))
+      .catch(console.error)
+  }, [])
   const timelineRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -322,6 +333,9 @@ export default function App() {
   }, [])
 
   const closeAll = () => { setDrawerOpen(false); setMenuOpen(false) }
+  const openSearch = () => { setSearchActive(true); setSearchQuery(""); setTimeout(() => searchRef.current?.focus(), 50) }
+  const closeSearch = () => { setSearchActive(false); setSearchQuery("") }
+  const searchResults = searchQuery.length >= 2 ? lugares.filter(l => l.nombre.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 6) : []
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
   const goToLastPlace = async () => {
     if (selected) {
@@ -343,9 +357,33 @@ export default function App() {
     <div id="app">
       <div id="topbar" ref={topbarRef}>
         <span id="topbar-title">Mapa Interactivo · Antiguo Testamento</span>
-        <button id="topbar-menu-btn" onClick={openMenu} aria-label="Menú">
-          <HamburgerIcon />
-        </button>
+        <div id="topbar-right">
+          <div id="topbar-search-wrap">
+            <span id="topbar-search-icon">🔍</span>
+            <input
+              id="topbar-search-input"
+              type="text"
+              placeholder="Buscar lugar..."
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
+              onKeyDown={e => { if (e.key === "Enter" && searchResults.length > 0) { handleSelect(searchResults[0]); setSearchQuery(""); } }}
+              aria-label="Buscar lugar"
+            />
+            {searchResults.length > 0 && (
+              <div id="search-dropdown">
+                {searchResults.map(l => (
+                  <button key={l.id} className="search-result" onClick={() => { handleSelect(l); setSearchQuery(""); }}>
+                    <span className="search-result-name">{l.nombre}</span>
+                    <span className="search-result-tipo">{l.tipo === "ciudad" ? "Ciudad" : l.tipo === "territorio" ? "Territorio" : "Región natural"}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+          <button id="topbar-menu-btn" onClick={openMenu} aria-label="Menú">
+            <HamburgerIcon />
+          </button>
+        </div>
       </div>
       <div id="timeline-bar" ref={timelineRef}>
         <span className="tl-label">Período</span>

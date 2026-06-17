@@ -556,7 +556,8 @@ export function MapView({
 
   // ─── Marcadores ──────────────────────────────────────────────────────────
   useEffect(() => {
-    if (!mapRef.current || !lugares.length) return
+    const map = mapRef.current
+    if (!map || !lugares.length) return
 
     lugares.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
@@ -586,7 +587,7 @@ export function MapView({
         })
       }
 
-      marker.addTo(mapRef.current!)
+      marker.addTo(map)
       markersRef.current.set(lugar.id, marker)
     })
   }, [lugares, selectedId, zoom, showHint, periodId])

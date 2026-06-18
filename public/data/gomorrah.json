@@ -1,72 +1,141 @@
 {
   "id": "gomorrah",
-  "nombre": "Gomorrah",
+  "nombre": "Gomorra",
   "tipo": "ciudad",
   "nivel": 2,
   "lat": 31.1572,
   "lng": 35.474,
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — Wicked city destroyed by God along with Sodom.",
-  "periodos_at": [
-    "bronce_tardio"
+  "nota_coordenadas": "Ubicación aproximada al sur del Mar Muerto — identificación arqueológica exacta incierta; coordenadas basadas en la tradición que sitúa las ciudades del llano en el extremo sur del Mar Muerto",
+  "periodos": [
+    { "desde": -2000, "hasta": -1800, "nombre": "Bronce Medio — Era patriarcal, destrucción de las ciudades del llano" }
+  ],
+  "periodos_at": ["bronce_tardio"],
+  "descripcion_geo": "Gomorra (hebreo: עֲמֹרָה) era una de las cinco ciudades del llano (kikkar) del Jordán, junto a Sodoma, Adma, Zeboyim y Bela/Zoar. Su ubicación exacta es arqueológicamente incierta; la tradición más extendida la sitúa al sur del Mar Muerto, en la zona actualmente sumergida o cubierta por los depósitos del extremo meridional del lago. Otra corriente la identifica con Tall el-Hammam al noreste del Mar Muerto. El 'llano del Jordán' descrito en Génesis como 'bien regado como el jardín de Yahvé' sugería una zona de alta productividad agrícola antes de la catástrofe. La geología de la zona muestra evidencias de actividad volcánica y depósitos de azufre compatibles con la descripción bíblica.",
+  "altitud_m": -400,
+  "clima": "Desértico árido extremo — el Mar Muerto y sus alrededores tienen el clima más seco y caluroso de la región. Precipitaciones inferiores a 50 mm anuales, temperaturas estivales de hasta 45°C, humedad relativa muy baja. En la era patriarcal la zona sur pudo haber sido más fértil antes de cambios geológicos o climáticos.",
+  "recursos": [
+    "Betún/asfalto del Mar Muerto (usado en construcción y calafateado de barcos)",
+    "Sales minerales del Mar Muerto",
+    "Agricultura en el fértil 'llano del Jordán' antes de la destrucción (según Gén 13:10)",
+    "Rutas caravaneras entre Arabia y Canaán"
+  ],
+  "importancia_estrategica": "Gomorra, junto a Sodoma, era parte de una coalición de cinco ciudades-estado del llano del Jordán que controlaban las rutas comerciales del extremo sur del Mar Muerto hacia Arabia. Su destrucción eliminó de golpe toda la infraestructura política y económica de la región y dejó a Lot, sobrino de Abraham, como único superviviente de la zona.",
+  "otros_habitantes": [
+    {
+      "id": "habitantes-llano",
+      "nombre": "Habitantes de las ciudades del llano",
+      "descripcion": "Las cinco ciudades del llano formaban una coalición política que había estado bajo dominio de Quedorlaomer de Elam durante doce años antes de rebelarse. Su captura y liberación por Abraham es el primer acto militar del patriarca narrado en Génesis. El texto las presenta como políticamente independientes pero étnica y culturalmente relacionadas con Canaán — Sodoma y Gomorra son hijos de Canaán en la tabla de naciones (Gén 10:19).",
+      "religion": "Politeísmo cananeo — sin especificación de divinidades; el texto bíblico enfatiza la maldad moral más que el sistema religioso concreto",
+      "periodo": "Bronce Medio, c. 2000-1800 a.C."
+    },
+    {
+      "id": "coalition-reyes-este",
+      "nombre": "Coalición de los cuatro reyes del Este",
+      "descripcion": "Quedorlaomer de Elam, Tidal rey de Goyim, Amrafel de Senaar y Arioc de Elasar formaron la coalición que dominó las ciudades del llano durante doce años. Cuando estas se rebelaron, la coalición oriental marchó contra ellas, las derrotó y tomó cautivo a Lot sobrino de Abraham. Este episodio (Gén 14) es la primera guerra narrada en la Biblia y sitúa el mundo patriarcal en el contexto de las rivalidades entre grandes potencias del Bronce Medio.",
+      "religion": "Politeísmo mesopotámico — Marduk, Enlil y divinidades de Elam y Babilonia",
+      "periodo": "Bronce Medio, c. 2000-1800 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "guerra-cinco-reyes",
+      "titulo": "La guerra de los cuatro reyes contra los cinco: Abraham rescata a Lot",
+      "fecha": "c. 1900 a.C. (tradición patriarcal)",
+      "descripcion": "Los reyes de Sodoma, Gomorra, Adma, Zeboyim y Bela se rebelaron contra Quedorlaomer de Elam tras doce años de vasallaje. La batalla se libró en el valle de Sidim (sur del Mar Muerto), lleno de pozos de betún. Los reyes de Sodoma y Gomorra huyeron y cayeron en los pozos; el resto huyó a los montes. Los vencedores tomaron todo el botín de Sodoma y Gomorra y se llevaron también a Lot, sobrino de Abraham, que vivía en Sodoma. Un fugitivo vino a contárselo a Abraham. El patriarca reunió a sus trescientos dieciocho hombres nacidos en su casa, los persiguió hasta Dan, los atacó de noche, los derrotó y recuperó todo el botín y a Lot. A su regreso, el sacerdote Melquisedec de Salén le salió al encuentro con pan y vino y lo bendijo en nombre de El Elyon.",
+      "referencias": ["Gén 14:1-24", "Gén 14:8-12", "Gén 14:18-20"],
+      "personajes_clave": ["abraham-gomorra", "lot", "melquisedec"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "destruccion-gomorra",
+      "titulo": "Fuego y azufre: la destrucción de Sodoma y Gomorra",
+      "fecha": "c. 1850 a.C. (tradición patriarcal)",
+      "descripcion": "Yahvé comunicó a Abraham su decisión de destruir Sodoma y Gomorra por la gravedad de sus pecados. Abraham intercedió repetidamente: ¿Destruirás al justo junto con el culpable? ¿No perdonarás por cincuenta justos? ¿Por cuarenta y cinco? ¿Por cuarenta? ¿Por treinta? ¿Por veinte? ¿Por diez? Yahvé aceptó cada vez. Pero no había diez justos. Dos ángeles llegaron a Sodoma, fueron a casa de Lot, y la población masculina de la ciudad rodeó la casa exigiendo que Lot los entregara para abusar de ellos. Los ángeles cegaron a los agresores y sacaron a Lot con su familia. Al amanecer, Lot llegó a Zoar. Entonces Yahvé hizo llover sobre Sodoma y Gomorra azufre y fuego. La mujer de Lot, que miró atrás, se convirtió en estatua de sal. Abraham, desde las colinas, vio el humo que subía de la tierra como el humo de un horno.",
+      "referencias": ["Gén 18:16-33", "Gén 19:1-29", "Gén 19:24-26"],
+      "personajes_clave": ["abraham-gomorra", "lot", "angeles-sodoma"]
+    },
+    {
+      "id": "gomorra-memoria-profetica",
+      "titulo": "Sodoma y Gomorra como arquetipo del juicio divino en los profetas",
+      "fecha": "siglos VIII-VI a.C.",
+      "descripcion": "La destrucción de Sodoma y Gomorra se convirtió en el paradigma profético del juicio divino sobre las naciones y sobre el propio Israel infiel. Isaías abre su libro comparando a Jerusalén con Sodoma y Gomorra: 'Si Yahvé no nos hubiera dejado un pequeño resto, seríamos como Sodoma, semejantes a Gomorra' (Is 1:9). Jeremías usa la comparación para anunciar el juicio sobre Babilonia: 'Como cuando Dios destruyó Sodoma y Gomorra y sus ciudades vecinas' (Jer 50:40). Amós la usa para describir el castigo que Israel ya ha sufrido: 'Os destruí como destruí a Sodoma y Gomorra, erais como un tizón arrebatado del fuego' (Am 4:11). La imagen de las ciudades quemadas se volvió la medida máxima de la ira divina en la literatura profética.",
+      "referencias": ["Is 1:9-10", "Jer 50:40", "Am 4:11"],
+      "personajes_clave": ["isaias-gomorra", "jeremias-gomorra"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "ruta": []
+      "id": "abraham-gomorra",
+      "nombre": "Abraham",
+      "emoji": "🌟",
+      "rol": "Patriarca intercesor por Sodoma y Gomorra",
+      "periodo": "c. 2000–1825 a.C. (tradición patriarcal)",
+      "descripcion": "La intercesión de Abraham ante Yahvé por Sodoma y Gomorra (Gén 18:16-33) es uno de los textos teológicos más profundos del AT. El patriarca no intercede por Sodoma porque sea su ciudad — vive en Hebrón — sino por principio de justicia universal: ¿Acaso el Juez de toda la tierra no hará justicia? Su negociación regresiva (50 → 45 → 40 → 30 → 20 → 10 justos) establece que la misericordia divina está dispuesta a perdonar a una multitud culpable por un pequeño remanente de inocentes. La tragedia es que ni diez justos existían. Abraham no falló en su intercesión — la misericordia divina no tuvo material con el que trabajar.",
+      "referencias": ["Gén 18:16-33", "Gén 14:14-16", "Gén 19:29"],
+      "ruta": ["mesopotamia", "canaan", "egipto", "beersheba", "hebron"]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "lot",
+      "nombre": "Lot",
+      "emoji": "🧂",
+      "rol": "Sobrino de Abraham, único superviviente justo de Sodoma",
+      "periodo": "c. 1900-1850 a.C. (tradición patriarcal)",
+      "descripcion": "Lot ben Harán, sobrino de Abraham, es el personaje que encarna la ambigüedad moral a lo largo de toda la narrativa de Sodoma y Gomorra. Eligió la fértil llanura del Jordán sobre las áridas colinas de Canaán; estableció progresivamente su tienda 'hasta Sodoma'; luego vivió en Sodoma misma. Su hospitalidad ante los dos ángeles — ofreciéndoles su casa y protegiéndolos de la violencia de la turba al costo de ofrecer a sus propias hijas — lo califica como justo en el contexto de una ciudad de perversión total. Huyó con su mujer y dos hijas; la mujer miró atrás y se convirtió en estatua de sal. Lot terminó sus días en una cueva con sus hijas, en circunstancias que el texto narra sin comentario moral explícito.",
+      "referencias": ["Gén 13:10-12", "Gén 19:1-11", "Gén 19:30-38"],
+      "ruta": ["mesopotamia", "canaan", "hebron"]
+    },
+    {
+      "id": "melquisedec",
+      "nombre": "Melquisedec",
+      "emoji": "🍞",
+      "rol": "Rey de Salén y sacerdote de El Elyon, figura misteriosa del Bronce Medio",
+      "periodo": "c. 1900 a.C. (tradición patriarcal)",
+      "descripcion": "Melquisedec (מַלְכִּי-צֶדֶק, 'rey de justicia') es el personaje más enigmático del Génesis. Rey de Salén (identificada con Jerusalén) y sacerdote de El Elyon ('Dios Altísimo'), salió al encuentro de Abraham tras su victoria sobre los cuatro reyes con pan y vino, y lo bendijo. Abraham le entregó el diezmo de todo el botín. El texto no da su genealogía, ni su origen, ni su final — ausencias que la tradición interpretó como significativas. El Salmo 110 ('Tú eres sacerdote para siempre según el orden de Melquisedec') convirtió su figura en el fundamento del sacerdocio davídico y, posteriormente, en la tipología del sacerdocio eterno de Cristo en la carta a los Hebreos.",
+      "referencias": ["Gén 14:18-20", "Sal 110:4", "Heb 7:1-17"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Gomorra, junto a Sodoma, es el símbolo por antonomasia del juicio divino en la Biblia y en las tres tradiciones abrahámicas. Pero la narrativa del Génesis contiene también la intercesión de Abraham — el texto más antiguo conocido sobre la oración de intercesión — y la figura enigmática de Melquisedec, cuya bendición a Abraham prefigura una tradición sacerdotal anterior al levitismo. La geografía del llano del Jordán como 'jardín de Yahvé' convertido en desolación humeante es la imagen más poderosa del AT sobre las consecuencias del pecado colectivo.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo del Bronce Medio — culto a El y divinidades locales",
+      "Culto de El Elyon — tradición de Melquisedec en Salén/Jerusalén, posiblemente anterior al yahvismo",
+      "Yahvismo patriarcal — Abraham como receptor de la bendición de El Elyon"
+    ],
+    "mitos": [
+      {
+        "id": "sodoma-gomorra-juicio",
+        "nombre": "La destrucción de Sodoma y Gomorra: el juicio que nunca se olvida",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 18:16-19:29; Ez 16:49-50",
+          "fuente_secundaria": "Mishná Sanedrín 10:3; Talmud Bavli, Sanedrín 109a; Midrash Rabbah Génesis 49-50",
+          "descripcion": "El Talmud (Sanedrín 109a) elabora extensamente los pecados de Sodoma: no eran solo los del capítulo 19 sino una injusticia social sistemática — negaban hospitalidad a los extranjeros, tenían leyes que protegían la crueldad, castigaban la generosidad. Ezequiel 16:49 precisa: 'El pecado de tu hermana Sodoma fue este: orgullo, hartura de pan y comodidad ociosa tuvo ella y sus hijas, pero no socorrió al pobre y al necesitado.' El Midrash desarrolla que los habitantes de Sodoma establecieron un lecho de Procusto para los viajeros: al alto lo estiraban, al bajo lo encogían. La Mishná afirma que los habitantes de Sodoma no tendrán parte en el mundo venidero.",
+          "similitudes": "Las tres tradiciones preservan la destrucción como acto de justicia divina ante una perversión colectiva máxima.",
+          "diferencias": "El judaísmo rabínico enfatiza la injusticia social (Ez 16:49) tanto como la perversión sexual; el Islam enfatiza principalmente el rechazo al profeta Lot y la perversión sexual.",
+          "significado_teologico": "El juicio de Sodoma y Gomorra establece que Dios interviene en la historia cuando la perversión humana alcanza un punto de no retorno. La intercesión de Abraham establece simultáneamente que la misericordia divina es la primera respuesta, no el juicio.",
+          "posible_relacion_cultural": "La destrucción de ciudades por fuego divino como castigo aparece en el Diluvio babilónico (Atrahasis, Gilgamesh) y en mitos de destrucción de ciudades por dioses ofendidos en todo el antiguo Oriente Próximo."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Lc 17:28-30; 2 Pe 2:6-9; Jud 7",
+          "fuente_secundaria": "Agustín, La Ciudad de Dios XVI,30; Orígenes, Homilías sobre el Génesis V",
+          "descripcion": "Jesús usó la destrucción de Sodoma como imagen del juicio final repentino: 'Como fue en los días de Lot... así será el día en que el Hijo del Hombre se manifieste' (Lc 17:28-30). Pedro (2 Pe 2:6-9) la presenta como precedente de que Dios sabe rescatar a los justos del juicio mientras destruye a los impíos. Judas (Jud 7) enfatiza la dimensión sexual del pecado. Orígenes leyó a Lot como tipo del justo que vive en medio del mundo sin corromperse; Agustín la usó para argumentar sobre la permisibilidad de la violencia divina. La mujer de Lot 'convertida en sal' fue interpretada alegóricamente como el alma que mira hacia atrás al pecado que dejó.",
+          "similitudes": "La destrucción repentina de Sodoma como imagen del juicio final es idéntica en los tres evangelios sinópticos y en 2 Pedro.",
+          "diferencias": "El NT usa Sodoma primariamente como tipo escatológico (el juicio vendrá así); el judaísmo la usa primariamente como advertencia ética presente.",
+          "significado_teologico": "Sodoma y Gomorra son la prueba de que el juicio divino es real, repentino y total — y de que la misericordia (el rescate de Lot) opera simultáneamente al juicio.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 7:80-84; 11:69-83; 15:57-74; 26:160-175",
+          "fuente_secundaria": "Ibn Kathir, Tafsir de la Sura Al-Araf 7:80-84; Al-Tabari, Tafsir",
+          "descripcion": "El Corán narra la historia de Lut (Lot) en al menos seis suras. Los ángeles llegaron a la ciudad de Lut enviados por Allah como mensajeros a Ibrahim (Abraham) y luego como ejecutores del castigo. El pueblo de Lut rechazó al profeta y quiso abusar de sus huéspedes. Allah salvó a Lut y a su familia (excepto su mujer, que quedó atrás) y destruyó la ciudad con una lluvia de piedras de arcilla endurecida. La narrativa coránica enfatiza el rechazo al profeta Lut como causa principal del castigo, junto con la perversión sexual. Ibn Kathir detalla que la destrucción fue mediante inversión de la ciudad (vuelta cabeza abajo) y lluvia de piedras.",
+          "similitudes": "La destrucción divina ante la perversión colectiva y el rescate del profeta justo son idénticos en las tres tradiciones.",
+          "diferencias": "El Islam sitúa a Lut como profeta enviado explícitamente a esa ciudad; la narrativa coránica no incluye la intercesión de Ibrahim por la ciudad (solo la recibe de los ángeles como notificación); la destrucción es por inversión y lluvia de piedras, no por azufre y fuego.",
+          "significado_teologico": "El pueblo de Lut es paradigma coránico de la comunidad que rechaza al profeta enviado por Allah. Su castigo es modelo de lo que les espera a quienes rechazan la revelación divina.",
+          "posible_relacion_cultural": "La tradición islámica identifica el lugar con la zona del Mar Muerto, coincidiendo con la geografía bíblica, aunque los detalles del castigo difieren."
+        }
+      }
     ]
   }
 }

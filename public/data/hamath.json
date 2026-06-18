@@ -7,68 +7,121 @@
   "lng": 36.7495,
   "frecuencia_at": 35,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A major city and kingdom in Syria, often mentioned in the Bible.",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2",
-    "post_exilio"
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Reino arameo independiente, frontera norte de Israel" },
+    { "desde": -1000, "hasta": -720, "nombre": "Hierro II — Reino vasallo y luego conquistado por Asiria" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Bajo dominio babilónico y persa" }
+  ],
+  "periodos_at": ["hierro_1", "hierro_2", "post_exilio"],
+  "descripcion_geo": "Hamath (hebreo: חֲמָת; hoy Hama, Siria) era la capital del reino arameo de Hamath, situada en el río Orontes en el centro de Siria, a unos 200 km al norte de Damasco. Controlaba el corredor natural entre Siria y Anatolia — la ruta de los ejércitos y el comercio entre Mesopotamia, Egipto y el Mediterráneo oriental. La expresión 'la entrada de Hamath' (lebó Hamath) marcaba el límite norte ideal del territorio israelita en múltiples textos bíblicos. Hamath fue uno de los reinos arameos más importantes del Hierro II, aliado ocasional de Israel contra Asiria y víctima final de la expansión asiria en 720 a.C.",
+  "altitud_m": 310,
+  "clima": "Mediterráneo continental — precipitaciones de 300-400 mm anuales, veranos calurosos y secos, inviernos fríos con posibles nevadas. El Orontes garantiza irrigación para agricultura intensiva en el valle.",
+  "recursos": [
+    "Agricultura irrigada por el Orontes (trigo, cebada, vid, olivo)",
+    "Control del corredor sirio norte-sur entre Mesopotamia y el Mediterráneo",
+    "Industria textil y artesanal",
+    "Madera del Líbano y Anti-Líbano para construcción",
+    "Comercio de tránsito entre Asiria, Fenicia y Egipto"
+  ],
+  "importancia_estrategica": "Hamath controlaba el paso obligado entre el norte (Anatolia, Asiria) y el sur (Canaán, Egipto). Su posición en el Orontes la convertía en la ciudad más importante de Siria interior. La expresión bíblica 'desde la entrada de Hamath hasta el río de Egipto' (1 Re 8:65) define los límites máximos del territorio israelita en la era salomónica. Su caída ante Asiria en 720 a.C. marcó el fin de los reinos arameos independientes de Siria.",
+  "otros_habitantes": [
+    {
+      "id": "arameos-hamath",
+      "nombre": "Arameos de Hamath",
+      "descripcion": "Hamath era capital de un reino arameo con cultura propia, documentada en inscripciones neohetitas y arameas del siglo IX-VIII a.C. El rey Toí de Hamath fue aliado de David tras la derrota de Hadadezer de Soba. Posteriormente, Hamath participó en la coalición anti-asiria de Qarqar (853 a.C.) junto a Acab de Israel y Damasco. Tras la caída ante Sargón II, la población aramea fue deportada y reemplazada por colonos de otras regiones del imperio asirio.",
+      "religion": "Politeísmo arameo — culto a Hadad (dios de la tormenta), El y Baalshamayin ('Señor de los cielos')",
+      "periodo": "Hierro I-II, c. 1200-720 a.C."
+    },
+    {
+      "id": "deportados-asirios-hamath",
+      "nombre": "Deportados asirios en Hamath",
+      "descripcion": "Tras la conquista de Hamath por Sargón II (720 a.C.), la ciudad fue repoblada con deportados de otras regiones del imperio asirio. Inversamente, gente de Hamath fue deportada a las ciudades de Samaria (2 Re 17:24) para reemplazar a los israelitas deportados del reino del norte. Esta política de intercambio de poblaciones fue el instrumento asirio para disolver identidades nacionales y religiosas.",
+      "religion": "Politeísmo sincrético — mezcla de cultos locales arameos con divinidades de las regiones de origen de los deportados",
+      "periodo": "Post-720 a.C., período asirio y babilónico"
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "toi-david-hamath",
+      "titulo": "Toí de Hamath y David: la alianza del enemigo común",
+      "fecha": "c. 990 a.C.",
+      "descripcion": "Cuando David derrotó a Hadadezer de Soba, Toí, rey de Hamath —enemigo también de Hadadezer— envió a su hijo Adoram a felicitar a David y a traerle objetos de plata, oro y bronce. David los consagró a Yahvé junto con el botín de todas sus victorias. El episodio refleja la lógica diplomática del antiguo Oriente Próximo: el enemigo de mi enemigo es mi amigo. La alianza entre Hamath e Israel no era ideológica sino estratégica — ambos reinos sufrían la presión expansionista de Aram-Soba. Esta relación cordial continuó bajo Salomón, quien controlaba 'toda la tierra de Hamath' según el Cronista (2 Cr 8:4), probablemente como estado vasallo o zona de influencia.",
+      "referencias": ["2 Sam 8:9-10", "1 Cr 18:9-10", "2 Cr 8:4"],
+      "personajes_clave": ["david-hamath", "toi"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "jeroboam-hamath",
+      "titulo": "Jeroboam II restaura el límite de Hamath",
+      "fecha": "c. 782 a.C.",
+      "descripcion": "El reinado de Jeroboam II de Israel fue el período de máxima expansión del reino del norte. El texto bíblico, en uno de sus pasajes más escuetos sobre un período de gran prosperidad, registra que Jeroboam 'restauró el límite de Israel desde la entrada de Hamath hasta el Mar del Arabá', cumpliendo la palabra de Yahvé pronunciada por el profeta Jonás ben Amitai de Gat-Hefer. Esta restauración del límite norte hasta Hamath significó la recuperación de territorios perdidos frente a Aram-Damasco. Contemporáneamente, el profeta Amós denunciaba la injusticia social de ese mismo reino próspero y anunciaba su destrucción inminente — el apogeo de Jeroboam II fue también el preludio del colapso asirio.",
+      "referencias": ["2 Re 14:25-28", "Am 6:2", "Am 6:14"],
+      "personajes_clave": ["jeroboam-ii", "jonas-profeta"]
+    },
+    {
+      "id": "hamath-cae-asiria",
+      "titulo": "La caída de Hamath ante Sargón II: el fin de los reinos arameos",
+      "fecha": "720 a.C.",
+      "descripcion": "Tras la caída de Samaria (722 a.C.), Sargón II de Asiria completó la conquista de Siria atacando a la coalición que resistía en el norte, liderada por Yaubidi de Hamath. La batalla de Qarqar (720 a.C.) fue la derrota definitiva: Yaubidi fue capturado y desollado vivo según las crónicas asirias. Hamath fue convertida en provincia asiria y su población deportada fue reemplazada con colonos de Babilonia, Cuta, Avá, Hamath y Sefarvaim enviados a Samaria (2 Re 17:24). Isaías 10:9 pone en boca del rey asirio su catálogo de victorias: '¿No es lo mismo Calno que Carquemish? ¿No es Hamath como Arpad?' — ciudades conquistadas con la misma facilidad que amenaza Jerusalén. Hamath pasó a ser símbolo del poder invencible de Asiria y de la inevitabilidad del juicio divino sobre Israel.",
+      "referencias": ["2 Re 17:24-30", "Is 10:9", "Is 36:19"],
+      "personajes_clave": ["sargon-ii-hamath", "isaias-hamath"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "toi",
+      "nombre": "Toí de Hamath",
+      "emoji": "🤝",
+      "rol": "Rey arameo de Hamath, aliado de David",
+      "periodo": "c. 1000 a.C.",
+      "descripcion": "Toí (también escrito Toú en 1 Cr 18:9) fue el rey de Hamath contemporáneo de David. Su envío de Adoram con ricos presentes tras la victoria davídica sobre Hadadezer de Soba fue un movimiento diplomático clásico: reconocer al nuevo poder regional mientras se establecía una alianza de seguridad mutua. Toí había 'tenido guerras' con Hadadezer, lo que hacía de David un aliado natural. Los objetos de metal precioso enviados a David — que el rey consagró al tesoro del templo futuro — son el único dato concreto sobre la personalidad de Toí: un rey pragmático que supo convertir la victoria ajena en su propia seguridad.",
+      "referencias": ["2 Sam 8:9-11", "1 Cr 18:9-11"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jeroboam-ii",
+      "nombre": "Jeroboam II",
+      "emoji": "👑",
+      "rol": "Rey del norte en su mayor expansión, contemporáneo de Amós y Oseas",
+      "periodo": "c. 793–753 a.C.",
+      "descripcion": "Jeroboam II ben Joás fue el rey más poderoso del reino del norte de Israel. Su largo reinado (cuarenta y un años) coincidió con la debilidad temporal de Asiria bajo Adad-nirari III y con la decadencia de Aram-Damasco, lo que permitió la expansión israelita hasta Hamath por el norte y el mar del Arabá por el sur. El texto bíblico lo condena por continuar los pecados de Jeroboam I (culto en Betel y Dan) pero registra su éxito militar. Sus contemporáneos los profetas Amós y Oseas denunciaron que la prosperidad del reinado ocultaba una putrefacción social: opresión de los pobres, lujo obsceno de las élites, corrupción del culto. La prosperidad de Jeroboam II fue el último destello antes del colapso del reino del norte.",
+      "referencias": ["2 Re 14:23-29", "Am 7:10-11", "Os 1:1"],
+      "ruta": []
+    },
+    {
+      "id": "jonas-profeta",
+      "nombre": "Jonás ben Amitai",
+      "emoji": "🐋",
+      "rol": "Profeta de Gat-Hefer que anunció la restauración del límite de Hamath",
+      "periodo": "c. 786 a.C.",
+      "descripcion": "Jonás ben Amitai de Gat-Hefer es mencionado en 2 Reyes 14:25 como el profeta que anunció la expansión de Jeroboam II hasta Hamath — única referencia histórica a este profeta fuera del libro que lleva su nombre. El libro de Jonás lo presenta en una situación radicalmente diferente: enviado a Nínive (capital asiria) a predicar arrepentimiento, huyó en dirección contraria porque temía que los asirios se arrepintieran y Dios los perdonara. El contraste entre el profeta que anuncia restauración para Israel (2 Re 14:25) y el profeta que no quiere misericordia para Nínive (Jon 4) es una de las ironías más ricas del canon hebreo.",
+      "referencias": ["2 Re 14:25", "Jon 1:1-3", "Jon 4:1-11"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Hamath aparece en el AT primariamente como referencia geográfica del límite norte ideal de Israel, pero también como protagonista indirecto de la historia del juicio divino: su caída ante Asiria se convirtió para Isaías en señal de que ninguna ciudad, por poderosa que fuera, podía resistir el instrumento del juicio divino. La deportación de gente de Hamath a Samaria (2 Re 17:24) y la introducción de su culto a Ashima en el territorio israelita es el ejemplo más concreto del sincretismo que siguió a la deportación asiria.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo arameo — Hadad como dios principal, Baalshamayin y El",
+      "Culto a Ashima — divinidad de Hamath introducida en Samaria tras la deportación asiria (2 Re 17:30)",
+      "Yahvismo israelita — en el contexto de la alianza David-Toí y la influencia de Israel sobre la región"
+    ],
+    "mitos": [
+      {
+        "id": "limite-hamath-tierra-prometida",
+        "nombre": "La entrada de Hamath: el norte que nunca fue plenamente conquistado",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 13:21; 1 Re 8:65; 2 Re 14:25; Am 6:14",
+          "fuente_secundaria": "Talmud Bavli, Guitín 8a; Sifre Números 83",
+          "descripcion": "La expresión 'lebó Hamath' (entrada de Hamath) aparece veintidós veces en el AT como marcador del límite norte de la tierra prometida. El Talmud (Guitín 8a) discute si los territorios al norte del límite de Hamath tienen el mismo estatuto legal que el territorio israelita propiamente dicho en relación con las leyes agrarias y el año sabático. El Sifre Números establece que los espías llegaron hasta Hamath como demostración del alcance de la promesa divina. La tensión entre el límite ideal (Hamath) y el límite real (mucho más al sur) es una de las marcas del 'ya pero todavía no' de la promesa territorial en la teología bíblica.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La promesa territorial tiene una dimensión ideal que nunca fue completamente realizada. El límite de Hamath funciona como recordatorio permanente de la distancia entre la promesa divina y la realidad histórica — lo que los profetas interpretaban como consecuencia de la infidelidad de Israel.",
+          "posible_relacion_cultural": "El uso de marcadores geográficos de frontera para definir el territorio de un pueblo aparece en inscripciones reales de todo el Oriente Próximo. La especificidad de 'lebó Hamath' sugiere que era un punto de paso conocido y reconocido internacionalmente en la geografía siria."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
     ]
   }
 }

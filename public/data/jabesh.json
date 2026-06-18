@@ -1,73 +1,133 @@
 {
   "id": "jabesh",
-  "nombre": "Jabesh",
+  "nombre": "Jabesh-Galaad",
   "tipo": "ciudad",
   "nivel": 2,
   "lat": 32.3798,
   "lng": 35.6116,
   "frecuencia_at": 21,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A town in Gilead, loyal to Saul",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad de Galaad, aliada de Benjamín" },
+    { "desde": -1000, "hasta": -722, "nombre": "Hierro II — Ciudad del reino del norte, leal a la memoria de Saúl" }
+  ],
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "descripcion_geo": "Jabesh-Galaad (hebreo: יָבֵשׁ גִּלְעָד, 'seco de Galaad') era una ciudad en la región de Galaad, al este del Jordán, en el territorio de la media tribu de Manasés. Su identificación exacta es debatida entre Tell Abu Kharaz y Wadi Yabis, en las colinas orientales del valle del Jordán, a unos 35 km al sur del mar de Galilea. La ciudad controlaba rutas en la zona de Galaad y tenía vínculos tribales especiales con Benjamín (la tribu de Saúl), vínculos que explican su lealtad extraordinaria a la dinastía saúlida incluso tras la muerte del rey. Su nombre ('seca') puede referirse a las características del wadi local en verano.",
+  "altitud_m": 400,
+  "clima": "Mediterráneo continental de transición — precipitaciones de 400-500 mm anuales en las colinas, veranos secos y calurosos, inviernos frescos. La proximidad al valle del Jordán crea variaciones microclimáticas entre la llanura y las colinas.",
+  "recursos": [
+    "Agricultura en las terrazas de Galaad (olivos, viñedos, higos)",
+    "Ganadería en las llanuras de Galaad",
+    "Bálsamo de Galaad — resina medicinal famosa en el mundo antiguo",
+    "Control de rutas en Transjordania norte",
+    "Madera de los bosques de Galaad"
+  ],
+  "importancia_estrategica": "Jabesh-Galaad era la ciudad que estableció el vínculo entre la Transjordania norte y la tribu de Benjamín en el período de los jueces y la monarquía temprana. Su lealtad a Saúl — rescatada por él al inicio de su reinado, rescatadora de su cuerpo al final — convierte a la ciudad en el testimonio más poderoso de la fidelidad tribal en el AT. Su posición en Galaad la situaba en la zona de tensión permanente entre Israel y los reinos transjordanos de Amón y Aram.",
+  "otros_habitantes": [
+    {
+      "id": "galaditas",
+      "nombre": "Galaditas de la media tribu de Manasés",
+      "descripcion": "Galaad era una región densamente poblada por israelitas de la media tribu de Manasés y las tribus de Rubén y Gad. Los habitantes de Jabesh-Galaad compartían el carácter semiindependiente de las tribus transjordanas — alejadas de los santuarios centrales, expuestas a presiones de Amón y Aram, con vínculos tribales propios. Su no participación en la guerra contra Benjamín (Jue 21) refleja esta independencia y les costó una represalia brutal de la asamblea israelita.",
+      "religion": "Yahvismo transjordano — con posibles influencias de cultos locales de Galaad; el bálsamo de Galaad tenía usos rituales y medicinales",
+      "periodo": "Hierro I-II, c. 1200-722 a.C."
+    },
+    {
+      "id": "amonitas-jabesh",
+      "nombre": "Amonitas bajo Nahas",
+      "descripcion": "Nahas el amonita sitiando Jabesh-Galaad al inicio del reinado de Saúl pone de manifiesto la presión permanente que Amón ejercía sobre las ciudades israelitas de Transjordania. La condición degradante que Nahas impuso — sacar el ojo derecho a todos los habitantes — era una forma de mutilación militar que incapacitaba para el combate y marcaba la derrota permanente. La petición de Jabesh al resto de Israel y la respuesta de Saúl establecieron el patrón de la monarquía como institución de defensa militar centralizada.",
+      "religion": "Politeísmo amonita — Milcom (Moloc) como dios nacional de Amón",
+      "periodo": "Hierro I, c. 1020 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "guerra-benjaminita-jabesh",
+      "titulo": "Jabesh-Galaad y la guerra benjaminita: el origen de un vínculo tribal",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Tras la guerra civil que casi exterminó a la tribu de Benjamín por el crimen de Guibeá, Israel juró que ninguno daría su hija en matrimonio a un benjaminita. Luego se arrepintieron de haber excluido a Benjamín de Israel. Descubrieron que nadie de Jabesh-Galaad había participado en la asamblea de Mispá. Israel envió doce mil guerreros a Jabesh-Galaad con órdenes de matar a todos los hombres y mujeres que hubieran conocido varón, y traer a las vírgenes. Encontraron cuatrocientas doncellas que fueron entregadas a los benjaminitas supervivientes. Este episodio oscuro del libro de Jueces estableció el vínculo entre Jabesh-Galaad y Benjamín — un vínculo sellado en sangre y matrimonio que explicaría la lealtad extrema de la ciudad a Saúl, rey benjaminita, dos generaciones después.",
+      "referencias": ["Jue 21:8-14", "Jue 20:1-48", "Jue 21:1-7"],
+      "personajes_clave": ["ancianos-jabesh"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "saul-libera-jabesh",
+      "titulo": "Saúl libera Jabesh: la victoria que confirmó al primer rey",
+      "fecha": "c. 1020 a.C.",
+      "descripcion": "Nahas el amonita sitió Jabesh-Galaad y ofreció condiciones humillantes: sacar el ojo derecho a todos como oprobio sobre Israel. Los jabeshitas pidieron siete días para buscar auxilio. Los mensajeros llegaron a Guibeá de Saúl. Saúl, que volvía del campo detrás de sus bueyes, escuchó el llanto del pueblo. El espíritu de Dios vino sobre él con furor: cortó su yunta de bueyes y envió los pedazos por todo Israel con la amenaza: 'Así se hará con los bueyes del que no salga detrás de Saúl y Samuel.' El temor de Yahvé cayó sobre el pueblo y salieron como un solo hombre — trescientos treinta mil según el texto. El ejército de Nahas fue destruido al amanecer. El pueblo quiso ejecutar a los que habían cuestionado la realeza de Saúl; este lo impidió: 'No morirá hoy nadie, porque hoy Yahvé ha obrado la salvación en Israel.' Jabesh-Galaad quedó para siempre ligada a la memoria de Saúl.",
+      "referencias": ["1 Sam 11:1-13", "1 Sam 11:6-8", "1 Sam 11:12-13"],
+      "personajes_clave": ["saul-jabesh", "nahas"]
+    },
+    {
+      "id": "jabesh-rescata-saul",
+      "titulo": "Los hombres de Jabesh rescatan el cuerpo de Saúl",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Tras la derrota de Israel en el monte Guilboa y la muerte de Saúl y sus hijos, los filisteos cortaron la cabeza de Saúl y colgaron su cuerpo y los de sus hijos en las murallas de Bet-Seán. Cuando los habitantes de Jabesh-Galaad oyeron lo que los filisteos habían hecho a Saúl, todos sus valientes caminaron toda la noche, tomaron el cuerpo de Saúl y los cuerpos de sus hijos de las murallas de Bet-Seán, volvieron a Jabesh, los quemaron allí y enterraron sus huesos bajo la tamarisco de Jabesh, ayunando siete días. Cuando David supo de este gesto, envió mensajeros para bendecirlos: 'Benditos seáis de Yahvé por haber mostrado esta lealtad a vuestro señor Saúl... yo también os recompensaré por este bien.' El rescate del cuerpo real fue el último acto de una lealtad que comenzó cuando Saúl los salvó de Nahas.",
+      "referencias": ["1 Sam 31:11-13", "2 Sam 2:4-7", "1 Cr 10:11-12"],
+      "personajes_clave": ["varones-jabesh", "saul-jabesh", "david-jabesh"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "saul-jabesh",
+      "nombre": "Saúl",
+      "emoji": "👑",
+      "rol": "Primer rey de Israel, libertador de Jabesh y víctima rescatada por ella",
+      "periodo": "c. 1050–1010 a.C.",
+      "descripcion": "Saúl ben Quis, de la tribu de Benjamín y la ciudad de Guibeá, fue el primer rey de Israel, ungido por Samuel ante la demanda del pueblo. Su relación con Jabesh-Galaad enmarca toda su carrera: la liberó en su primera victoria (confirmando su reinado) y fue rescatado por ella en su muerte (su único honor post mortem). Entre esos dos momentos, Saúl combatió a los filisteos, persiguió a David, consultó a la médium de Endor, y murió en el monte Guilboa. El texto bíblico lo presenta como hombre de gran potencial frustrado por la desobediencia — capaz de nobleza (perdonar a sus detractores tras la victoria sobre Nahas) e incapaz de obediencia consistente (el herem de Amalec, la persecución de David).",
+      "referencias": ["1 Sam 9:1-10:27", "1 Sam 11:1-15", "1 Sam 31:1-13"],
+      "ruta": ["gibeah", "jabesh", "carmel"]
+    },
+    {
+      "id": "nahas",
+      "nombre": "Nahas el Amonita",
+      "emoji": "🐍",
+      "rol": "Rey de Amón que sitió Jabesh-Galaad, detonante del reinado de Saúl",
+      "periodo": "c. 1020 a.C.",
+      "descripcion": "Nahas (נָחָשׁ, 'serpiente') el amonita es el antagonista cuya crueldad desencadena el primer acto público de Saúl como rey. Su condición de sacar el ojo derecho a todos los habitantes de Jabesh — 'para poner oprobio sobre todo Israel' — era una amenaza de humillación colectiva más que táctica militar. Nahas aparece brevemente en 2 Samuel 10 como amigo de David — su hijo Janún humilló a los enviados de David, desencadenando la guerra amonita. Un fragmento del Rollo del Mar Muerto (4QSam a) añade un párrafo introductorio sobre Nahas que no aparece en el texto masorético, describiendo sus crueldades previas contra las tribus transjordanas.",
+      "referencias": ["1 Sam 11:1-3", "2 Sam 10:1-5"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "varones-jabesh",
+      "nombre": "Los valientes de Jabesh-Galaad",
+      "emoji": "🦅",
+      "rol": "Hombres de Jabesh que rescataron el cuerpo de Saúl de las murallas de Bet-Seán",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "Los 'varones de Jabesh-Galaad' son el único colectivo anónimo del AT al que David envió una bendición formal por un acto de lealtad a su predecesor y rival. Su marcha nocturna de más de 30 km para rescatar los cuerpos de Saúl y sus hijos de las murallas de Bet-Seán es uno de los gestos de fidelidad más conmovedores del AT: la ciudad que Saúl salvó al inicio de su reinado lo rescató en su final, cerrando el círculo de una lealtad que duró toda una generación. El texto no da nombres individuales — el acto es de la ciudad entera, como cuando fue amenazada y como cuando fue liberada.",
+      "referencias": ["1 Sam 31:11-13", "2 Sam 2:4-7", "1 Cr 10:11-12"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Jabesh-Galaad es el lugar donde la lealtad tribal y la memoria colectiva se expresan con más fuerza en toda la narrativa de la monarquía temprana. La ciudad que recibió salvación de Saúl le devolvió dignidad en la muerte. Su vínculo con Benjamín, sellado en la oscura historia del libro de Jueces, se convirtió en motor de fidelidad política y personal que trascendió el colapso del reino saúlida. Teológicamente, la ciudad ilustra que la gratitud y la lealtad son valores que Yahvé reconoce incluso en contextos políticos turbulentos.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo transjordano de Galaad — con posibles influencias de cultos locales",
+      "Politeísmo amonita — presión externa de Amón con su dios Milcom"
+    ],
+    "mitos": [
+      {
+        "id": "lealtad-jabesh-saul",
+        "nombre": "La lealtad de Jabesh: honrar al rey caído",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 31:11-13; 2 Sam 2:4-7; 2 Sam 21:12-14",
+          "fuente_secundaria": "Talmud Bavli, Berajot 12b — sobre la obligación de honrar a los muertos; Midrash Samuel 29",
+          "descripcion": "El Talmud usa el gesto de los hombres de Jabesh para ilustrar el principio de kavod ha-met (honrar al muerto): la obligación de dar sepultura digna prevalece incluso sobre el peligro personal. El Midrash Samuel señala que David, al bendecir a Jabesh, no lo hizo por debilidad política sino por genuino reconocimiento de un acto de hesed (fidelidad amorosa) — la misma cualidad que David valoraba en sus propias relaciones. La recolección posterior de los huesos de Saúl por David (2 Sam 21:12-14) para enterrarlos en el sepulcro familiar en Betzela completa el ciclo de dignidad devuelta al rey caído.",
+          "similitudes": "La obligación moral de honrar a los muertos y la fidelidad a quienes nos beneficiaron son valores compartidos por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo elabora el kavod ha-met como obligación religiosa codificada; el NT lo expresa en términos de amor fraterno sin codificación legal específica.",
+          "significado_teologico": "La lealtad (hesed) no termina con la muerte del benefactor. Los hombres de Jabesh expresaron con su acción nocturna lo que el texto llama 'lealtad y verdad' — la combinación de fidelidad práctica y compromiso íntegro que el AT presenta como imitación de los atributos divinos.",
+          "posible_relacion_cultural": "El rescate del cuerpo del rey caído para darle sepultura digna es un motivo recurrente en la épica heroica del Oriente Próximo, incluyendo el lamento de Aquiles por Patroclo en la Ilíada y el rescate del cuerpo de Héctor por Príamo."
+        },
+        "cristianismo": {
+          "fuente_primaria": "2 Sam 2:5-6; Jn 19:38-42; Mc 14:8",
+          "fuente_secundaria": "Juan Crisóstomo, Homilías sobre el Evangelio de Juan 85",
+          "descripcion": "Los Padres de la Iglesia establecieron una tipología entre el rescate del cuerpo de Saúl por los hombres de Jabesh y el entierro de Jesús por José de Arimatea y Nicodemo — dos hombres que arriesgaron su posición social para dar sepultura digna al Maestro caído. Juan Crisóstomo señaló que en ambos casos la lealtad post mortem al señor caído es la última declaración de fidelidad cuando todos los demás han huido. La unción del cuerpo de Jesús por María de Betania ('ha hecho lo que podía', Mc 14:8) fue también leída en este contexto de lealtad que honra al señor en su muerte.",
+          "similitudes": "La fidelidad que se expresa en el cuidado del cuerpo del señor muerto es idéntica en ambos relatos.",
+          "diferencias": "El NT añade la dimensión de la resurrección — el cuerpo honrado será glorificado; la lealtad de Jabesh no tenía esa expectativa.",
+          "significado_teologico": "Honrar al muerto es acto de fe en que la vida y la dignidad humana no terminan con la muerte. Para el NT, es anticipación de la resurrección.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

@@ -1,73 +1,113 @@
 {
   "id": "ramah",
-  "nombre": "Ramah",
+  "nombre": "Ramá",
   "tipo": "ciudad",
   "nivel": 2,
   "lat": 31.8964,
   "lng": 35.2017,
   "frecuencia_at": 18,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A town in Benjamin, near Gibeah and Jerusalem",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "descripcion_geo": "Ciudad de la tribu de Benjamín situada en las colinas al norte de Jerusalén, a unos 8 km de la capital. Su posición elevada en la ruta principal entre Jerusalén y Betel la convertía en punto estratégico de control del territorio central de Israel. Identificada con la actual er-Ram.",
+  "altitud_m": 858,
+  "clima": "Mediterráneo de montaña; veranos secos y cálidos, inviernos con lluvias y niebla ocasional.",
+  "recursos": ["Agricultura de terrazas en piedra caliza", "Olivos y viñedos", "Pastos para ganado", "Piedra caliza local"],
+  "importancia_estrategica": "Nudo viario entre Jerusalén y el norte de Israel. Fue punto de concentración de deportados durante la conquista babilónica y residencia habitual del profeta Samuel, lo que le otorgó un peso religioso y político excepcional.",
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos": [
+    { "desde": -1100, "hasta": -1000, "nombre": "Período de los Jueces — Samuel en Ramá" },
+    { "desde": -900, "hasta": -586, "nombre": "Monarquía dividida — frontera entre Israel y Judá" }
+  ],
+  "otros_habitantes": [
+    { "id": "benjaminitas", "nombre": "Benjaminitas", "descripcion": "Tribu israelita a la que pertenecía Ramá. Su territorio fue disputado entre los reinos de Israel y Judá tras la división monárquica.", "religion": "Yahvismo", "periodo": "hierro_1 — hierro_2" },
+    { "id": "cananeos_del_norte", "nombre": "Cananeos del norte de Benjamín", "descripcion": "Pobladores previos de las colinas centrales que coexistieron con las tribus israelitas durante la instalación en Canaán.", "religion": "Politeísmo cananeo — culto a Baal y Asera", "periodo": "bronce_tardio — hierro_1" },
+    { "id": "babilonios_ocupantes", "nombre": "Administración babilónica", "descripcion": "Tras la destrucción de Jerusalén, Ramá fue usada por el general Nabuzaradán como punto de concentración de deportados judíos antes de su traslado a Babilonia.", "religion": "Politeísmo babilónico", "periodo": "hierro_2" }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "samuel_en_rama",
+      "titulo": "Samuel juez y profeta en Ramá",
+      "fecha": "c. 1050 a.C.",
+      "descripcion": "El profeta y juez Samuel estableció su residencia en Ramá, desde donde administraba justicia recorriendo un circuito anual que incluía Betel, Guilgal y Mizpa. En Ramá ungió a Saúl como primer rey de Israel y más tarde, tras el rechazo divino de Saúl, ungió secretamente a David en Belén. Ramá fue también el lugar de la muerte y sepultura de Samuel, quien ejerció allí la última gran magistratura de Israel antes de la monarquía.",
+      "referencias": ["1 Sam 7:17", "1 Sam 8:4-5", "1 Sam 19:18-24", "1 Sam 25:1"],
+      "personajes_clave": ["samuel"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "baasa_fortifica_rama",
+      "titulo": "Baasá fortifica Ramá contra Judá",
+      "fecha": "c. 885 a.C.",
+      "descripcion": "El rey Baasá de Israel inició la fortificación de Ramá para bloquear el tráfico hacia el reino de Judá. El rey Asá de Judá respondió sobornando con plata y oro del tesoro del templo al rey Ben-Hadad de Aram para que atacara el norte de Israel. Ben-Hadad invadió las ciudades del norte, forzando a Baasá a abandonar Ramá. Asá utilizó las piedras de las obras de Ramá para construir sus propias fortificaciones en Geba y Mizpa.",
+      "referencias": ["1 Re 15:17-22", "2 Cr 16:1-6"],
+      "personajes_clave": ["baasa", "asa"]
+    },
+    {
+      "id": "llanto_en_rama",
+      "titulo": "El llanto de Ramá: los deportados a Babilonia",
+      "fecha": "586 a.C.",
+      "descripcion": "Tras la caída de Jerusalén, el general babilónico Nabuzaradán concentró en Ramá a los judíos destinados al exilio antes de emprender la marcha a Babilonia. El profeta Jeremías, que había sido liberado de sus cadenas allí, contempló la escena. Su oráculo evoca a Raquel llorando por sus hijos desde la tumba: una imagen que el Nuevo Testamento retomaría para la matanza de los inocentes en Belén.",
+      "referencias": ["Jer 31:15", "Jer 40:1-4"],
+      "personajes_clave": ["jeremias"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "samuel",
+      "nombre": "Samuel",
+      "emoji": "🕍",
+      "rol": "Profeta, juez y ungidor de reyes",
+      "periodo": "c. 1080–1010 a.C.",
+      "descripcion": "Último gran juez de Israel y primer profeta de la era monárquica. Nacido en respuesta a la oración de su madre Ana en Siló, fue consagrado al Señor desde niño. Desde Ramá dirigió la transición de Israel hacia la monarquía, ungiendo tanto a Saúl como a David. Su sepultura en Ramá la convirtió en lugar de peregrinación.",
+      "referencias": ["1 Sam 1:20", "1 Sam 7:15-17", "1 Sam 25:1"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "baasa",
+      "nombre": "Baasá",
+      "emoji": "🏰",
+      "rol": "Rey de Israel (norte)",
+      "periodo": "c. 900–877 a.C.",
+      "descripcion": "Rey del reino del norte que intentó controlar Ramá como posición estratégica frente a Judá. Su política de bloqueo comercial contra Judá desencadenó la intervención aramea y la inutilización de su proyecto defensivo en Ramá.",
+      "referencias": ["1 Re 15:16-22", "2 Cr 16:1-6"],
+      "ruta": []
+    },
+    {
+      "id": "jeremias",
+      "nombre": "Jeremías",
+      "emoji": "😢",
+      "rol": "Profeta del exilio babilónico",
+      "periodo": "c. 627–580 a.C.",
+      "descripcion": "Profeta de Anatot que vivió la destrucción de Jerusalén y fue liberado por los babilonios en Ramá. Allí contempló la concentración de deportados y pronunció el oráculo de Raquel llorando, imagen de dolor nacional que atravesaría los siglos y las tradiciones religiosas.",
+      "referencias": ["Jer 1:1", "Jer 31:15", "Jer 40:1-6"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
-    "religiones_presentes": [
-      "// PENDIENTE"
+    "contexto_lugar": "Ramá fue el centro espiritual del período de transición entre los jueces y la monarquía gracias a la figura de Samuel. Su función como sede profética y lugar de juicio la convirtió en referente del yahvismo premonárquico. Más tarde, su papel en el exilio babilónico le dio una carga simbólica de duelo nacional que atravesó las tres tradiciones abrahámicas.",
+    "religiones_presentes": ["judaismo", "cristianismo"],
+    "mitos": [
+      {
+        "id": "raquel_llora_en_rama",
+        "nombre": "Raquel llora por sus hijos en Ramá",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jer 31:15",
+          "fuente_secundaria": "Midrash Rabbah, Lamentaciones, Petijta 24 — Raquel intercede ante Dios por Israel en el exilio, conmoviendo su misericordia más que los patriarcas",
+          "descripcion": "El profeta Jeremías evoca a Raquel, madre de Benjamín y José, llorando desde su tumba en Ramá por los hijos de Israel que marchan al exilio. Dios responde prometiendo el retorno.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El llanto de Raquel es la voz de la maternidad de Israel ante el dolor del exilio. Su intercesión materna ante Dios supera en el Midrash la de los propios patriarcas, revelando una teología de la compasión.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Mt 2:17-18",
+          "fuente_secundaria": "Orígenes, Commentarii in Matthaeum 2.16 — interpreta el llanto de Ramá como prefiguración del martirio de los inocentes",
+          "descripcion": "El evangelista Mateo cita el oráculo de Jeremías para interpretar la matanza de los inocentes por Herodes en Belén tras el nacimiento de Jesús. Ramá se convierte en símbolo del dolor de las madres de Israel.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El dolor de Ramá prefigura el sufrimiento asociado al nacimiento del Mesías. Jesús llega al mundo en medio de la violencia del poder político, cumpliendo el patrón del pueblo que llora y es consolado.",
+          "posible_relacion_cultural": "Ambas tradiciones comparten la figura de Raquel como madre intercesora cuyo llanto moviliza la misericordia divina."
+        },
+        "islam": null
+      }
     ]
   }
 }

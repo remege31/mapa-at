@@ -1,73 +1,112 @@
 {
   "id": "nineveh",
-  "nombre": "Nineveh",
+  "nombre": "Nínive",
   "tipo": "ciudad",
   "nivel": 2,
   "lat": 36.3594,
   "lng": 43.1529,
   "frecuencia_at": 22,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — The capital of Assyria, known for its wickedness and repentance",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "descripcion_geo": "Capital del Imperio Neoasirio, situada en la orilla oriental del río Tigris frente a la actual Mosul (Iraq). Sus murallas abarcaban más de 12 km de perímetro, con palacios monumentales decorados con relieves de piedra y la célebre Biblioteca de Asurbanipal, que reunió más de 30.000 tablillas cuneiformes. Controlaba las rutas entre Mesopotamia y Anatolia.",
+  "altitud_m": 223,
+  "clima": "Semiárido continental; veranos secos y calurosos, inviernos fríos con lluvias escasas.",
+  "recursos": ["Agricultura de regadío en el Tigris", "Comercio de larga distancia", "Piedra caliza para construcción", "Madera importada del Líbano"],
+  "importancia_estrategica": "Centro político y militar del Imperio Neoasirio en su apogeo. Su caída en 612 a.C. ante la alianza babilonio-meda reconfiguró todo el Oriente Próximo y abrió el camino al dominio babilónico sobre Judá.",
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos": [
+    { "desde": -900, "hasta": -612, "nombre": "Apogeo y caída del Imperio Neoasirio" }
+  ],
+  "otros_habitantes": [
+    { "id": "asirios", "nombre": "Asirios", "descripcion": "Pueblo semita que convirtió Nínive en capital imperial c. 700 a.C. bajo Senaquerib. Conocidos por su maquinaria militar y sus grandiosos relieves palaciegos que narran campañas de conquista.", "religion": "Politeísmo mesopotámico — culto a Assur, Ishtar e Inanna", "periodo": "hierro_2" },
+    { "id": "caldeos", "nombre": "Caldeos", "descripcion": "Participaron en la coalición que destruyó Nínive en 612 a.C. junto con los medos. Representaron el relevo del poder en el Creciente Fértil.", "religion": "Politeísmo babilónico — culto a Marduk y Nabu", "periodo": "hierro_2" },
+    { "id": "medos", "nombre": "Medos", "descripcion": "Pueblo iranio aliado con Babilonia en la destrucción de Nínive. Su irrupción desde el Zagros marcó el fin del dominio asirio sobre el Oriente Próximo.", "religion": "Proto-zoroastrismo", "periodo": "hierro_2" }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "jonas_en_ninive",
+      "titulo": "Jonás y la conversión de Nínive",
+      "fecha": "c. 760 a.C.",
+      "descripcion": "El profeta Jonás, enviado por Dios a proclamar el juicio sobre Nínive, huye en dirección contraria embarcando en Jope. Tras ser tragado por un gran pez y devuelto a tierra al tercer día, obedece y recorre la ciudad anunciando su destrucción en cuarenta días. Ante su predicación, el rey de Nínive y todo el pueblo se cubren de saco y ceniza. Dios retira el castigo, lo que provoca la indignación de Jonás, revelando la tensión entre la justicia y la misericordia divinas.",
+      "referencias": ["Jon 1:1-2", "Jon 3:1-10", "Jon 4:1-11"],
+      "personajes_clave": ["jonas", "rey_de_ninive"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "senaquerib_contra_juda",
+      "titulo": "Senaquerib amenaza Jerusalén",
+      "fecha": "c. 701 a.C.",
+      "descripcion": "El rey asirio Senaquerib lanza desde Nínive su campaña militar contra el reino de Judá. Su general Rabsaces sitia Jerusalén y exige la rendición al rey Ezequías en hebreo, delante del pueblo, para provocar el pánico. El profeta Isaías anuncia que Dios defenderá la ciudad sin que entren flechas en ella. Esa noche un ángel del Señor abate al ejército asirio. Senaquerib regresa a Nínive, donde es asesinado por sus propios hijos Adramélec y Saréser.",
+      "referencias": ["2 Re 18:13-19:37", "Is 36:1-37:38", "2 Cr 32:1-23"],
+      "personajes_clave": ["senaquerib", "ezequias", "isaias"]
+    },
+    {
+      "id": "caida_de_ninive",
+      "titulo": "La caída de Nínive y el oráculo de Nahúm",
+      "fecha": "612 a.C.",
+      "descripcion": "El profeta Nahúm dedica todo su libro a anunciar el fin de Nínive, describiendo con detalle poético su destrucción como acto de justicia divina sobre la ciudad que oprimió a los pueblos. En 612 a.C. la alianza babilonio-meda desborda sus murallas. La ciudad es saqueada e incendiada y queda despoblada durante siglos, hundiéndose literalmente bajo la arena hasta que las excavaciones del siglo XIX la redescubrieron.",
+      "referencias": ["Nah 1:1", "Nah 2:1-14", "Nah 3:1-19"],
+      "personajes_clave": ["nahum"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jonas",
+      "nombre": "Jonás",
+      "emoji": "🐟",
+      "rol": "Profeta enviado a Nínive",
+      "periodo": "c. 760 a.C.",
+      "descripcion": "Profeta israelita hijo de Amitai, oriundo de Gat-Héfer en Galilea. Su misión es única en la literatura profética: enviado a una potencia extranjera pagana, no a Israel. Su resistencia, huida y obediencia final articulan una teología de la misericordia divina que trasciende las fronteras nacionales de Israel.",
+      "referencias": ["Jon 1:1-3", "Jon 3:3-4", "2 Re 14:25"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "senaquerib",
+      "nombre": "Senaquerib",
+      "emoji": "⚔️",
+      "rol": "Rey de Asiria",
+      "periodo": "c. 705–681 a.C.",
+      "descripcion": "Rey del Imperio Neoasirio que hizo de Nínive la capital más grandiosa de su tiempo construyendo el Palacio Sin Rival. Su campaña contra Judá en 701 a.C. está documentada tanto en fuentes bíblicas como en sus propios Anales. Fue asesinado en el templo de Nínive por sus hijos Adramélec y Saréser.",
+      "referencias": ["2 Re 19:36-37", "Is 37:37-38", "2 Cr 32:21"],
+      "ruta": []
+    },
+    {
+      "id": "nahum",
+      "nombre": "Nahúm",
+      "emoji": "📜",
+      "rol": "Profeta del juicio sobre Nínive",
+      "periodo": "c. 650–612 a.C.",
+      "descripcion": "Profeta de Elcos cuyo único tema es el oráculo contra Nínive. Su libro, escrito antes de la caída de la ciudad, describe con precisión poética su destrucción inminente como venganza divina por la crueldad asiria. Representa la voz teológica que interpreta el colapso imperial como justicia de Dios sobre el opresor.",
+      "referencias": ["Nah 1:1", "Nah 2:8-10", "Nah 3:18-19"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
-    "religiones_presentes": [
-      "// PENDIENTE"
+    "contexto_lugar": "Nínive albergaba el templo principal de Ishtar, diosa asiria de la guerra y el amor. En la tradición bíblica la ciudad representa el paradigma del poder pagano soberbio que Dios puede tanto perdonar (Jonás) como destruir (Nahúm), según su respuesta moral. Esta tensión entre misericordia y juicio hace de Nínive un referente teológico central.",
+    "religiones_presentes": ["judaismo", "islam"],
+    "mitos": [
+      {
+        "id": "arrepentimiento_de_ninive",
+        "nombre": "El arrepentimiento de Nínive",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Jon 3:5-10",
+          "fuente_secundaria": "Talmud Bavli, Taanit 16a — el ayuno de Nínive como modelo de teshuvá colectiva; debate sobre si su arrepentimiento fue sincero o meramente externo",
+          "descripcion": "El pueblo de Nínive, desde el rey hasta el último ciudadano, proclama ayuno y viste saco al escuchar la predicación de Jonás. Dios observa sus obras y renuncia al castigo que había anunciado.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "Demuestra que la misericordia divina alcanza a las naciones paganas y que el arrepentimiento genuino puede revertir el juicio. Desafía el exclusivismo nacional israelita.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": {
+          "fuente_primaria": "Corán, Sura 37 (As-Saffat): 139-148",
+          "fuente_secundaria": "Ibn Kathir, Tafsir de Sura 37:147 — describe a los habitantes como 'cien mil o más' que creyeron y fueron prosperados por Dios",
+          "descripcion": "El Corán narra la historia de Yunus (Jonás) como profeta enviado a su pueblo. Cuando se marchó sin permiso divino fue tragado por un gran pez, pero su glorificación constante a Dios le salvó. Su pueblo creyó y fue liberado del castigo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "Yunus es uno de los profetas del Islam. Su historia ilustra la necesidad de perseverancia en la misión profética y la misericordia de Dios hacia quienes se arrepienten colectivamente.",
+          "posible_relacion_cultural": null
+        }
+      }
     ]
   }
 }

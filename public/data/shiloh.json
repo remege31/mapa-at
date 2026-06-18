@@ -1,73 +1,112 @@
 {
   "id": "shiloh",
-  "nombre": "Shiloh",
+  "nombre": "Siló",
   "tipo": "ciudad",
   "nivel": 2,
   "lat": 32.0557,
   "lng": 35.2895,
   "frecuencia_at": 38,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — Israelite sanctuary and assembly point during the judges' period",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1"
+  "descripcion_geo": "Ciudad en las montañas de Efraín, en el corazón geográfico de Canaán, a unos 35 km al norte de Jerusalén. Situada en un valle protegido entre colinas, fue el primer santuario central permanente de Israel tras la conquista. Identificada con la actual Khirbet Seilun, donde las excavaciones han confirmado ocupación israelita del período de los jueces.",
+  "altitud_m": 873,
+  "clima": "Mediterráneo de montaña; precipitaciones moderadas en invierno, veranos secos y cálidos.",
+  "recursos": ["Olivos y viñas en las terrazas circundantes", "Pastos para los animales del santuario", "Agua de manantiales locales", "Piedra caliza para construcción"],
+  "importancia_estrategica": "Primera sede permanente del Tabernáculo y el Arca de la Alianza tras la conquista de Canaán. Centro religioso y administrativo de las doce tribus durante todo el período de los jueces. Su destrucción por los filisteos c. 1050 a.C. marcó el fin de la era tribal y el inicio de la monarquía.",
+  "periodos_at": ["bronce_tardio", "hierro_1"],
+  "periodos": [
+    { "desde": -1200, "hasta": -1050, "nombre": "Santuario central de Israel — período de los jueces" }
+  ],
+  "otros_habitantes": [
+    { "id": "efraimitas", "nombre": "Efraimitas", "descripcion": "Tribu dominante en cuyo territorio se ubicaba Siló. Su liderazgo tribal fue reforzado por la presencia del santuario central en su zona.", "religion": "Yahvismo", "periodo": "hierro_1" },
+    { "id": "cananeos_efraim", "nombre": "Cananeos de la región de Efraín", "descripcion": "Pobladores previos de las colinas de Efraín que no fueron desplazados completamente durante la instalación israelita, según el libro de Jueces.", "religion": "Politeísmo cananeo", "periodo": "bronce_tardio — hierro_1" },
+    { "id": "sacerdotes_de_eli", "nombre": "Casa sacerdotal de Elí", "descripcion": "Familia sacerdotal que administraba el santuario de Siló durante generaciones. Sus hijos Ofni y Fineés corrompieron el culto, precipitando el juicio divino sobre la casa de Elí.", "religion": "Yahvismo sacerdotal", "periodo": "hierro_1" }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "arca_en_silo",
+      "titulo": "El Tabernáculo y el Arca de la Alianza en Siló",
+      "fecha": "c. 1200–1050 a.C.",
+      "descripcion": "Tras la distribución del territorio conquistado, Josué instaló el Tabernáculo en Siló y desde allí distribuyó por sorteo las porciones de tierra a las tribus que aún no habían recibido heredad. Siló se convirtió en el centro religioso y jurídico de la confederación tribal israelita durante unos 150 años. El Arca de la Alianza permaneció allí hasta ser capturada por los filisteos en la batalla de Eben-Ézer.",
+      "referencias": ["Jos 18:1", "Jos 19:51", "Jue 21:19"],
+      "personajes_clave": ["josue", "eli"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "samuel_llamado_en_silo",
+      "titulo": "El llamado de Samuel en el santuario de Siló",
+      "fecha": "c. 1075 a.C.",
+      "descripcion": "Ana, esposa de Elcaná, acude cada año a Siló al santuario y ora angustiosamente por un hijo. Elí el sacerdote, al verla mover los labios sin sonido, la confunde con una ebria. Ana le explica su oración y Elí la bendice. Nace Samuel, que es consagrado al Señor y dejado en Siló al servicio de Elí. Una noche Dios llama a Samuel tres veces; el niño responde finalmente tras la instrucción de Elí. El primer oráculo de Samuel anuncia el juicio sobre la casa de Elí.",
+      "referencias": ["1 Sam 1:3-28", "1 Sam 3:1-21"],
+      "personajes_clave": ["samuel", "eli", "ana"]
+    },
+    {
+      "id": "destruccion_de_silo",
+      "titulo": "La destrucción de Siló y la pérdida del Arca",
+      "fecha": "c. 1050 a.C.",
+      "descripcion": "Los israelitas sacan el Arca de la Alianza de Siló para llevarla al campo de batalla contra los filisteos en Eben-Ézer, confiando en que su presencia asegurará la victoria. Pero los filisteos derrotan a Israel y capturan el Arca. Los hijos de Elí, Ofni y Fineés, mueren en combate. Al conocer la noticia, el anciano Elí cae de su asiento y muere. Siló es destruida y no vuelve a mencionarse como santuario activo. El profeta Jeremías usará Siló como paradigma del castigo divino sobre el templo de Jerusalén siglos después.",
+      "referencias": ["1 Sam 4:1-22", "Sal 78:60", "Jer 7:12-14"],
+      "personajes_clave": ["eli", "samuel"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "eli",
+      "nombre": "Elí",
+      "emoji": "🕯️",
+      "rol": "Sumo sacerdote en Siló",
+      "periodo": "c. 1100–1050 a.C.",
+      "descripcion": "Sacerdote y juez de Israel que administró el santuario de Siló durante cuarenta años. Recibió y crió al niño Samuel. Su incapacidad para corregir a sus hijos Ofni y Fineés, que abusaban de las ofrendas y de las mujeres del santuario, provocó el oráculo de condenación de su casa. Murió al conocer la captura del Arca.",
+      "referencias": ["1 Sam 1:9-17", "1 Sam 2:12-17", "1 Sam 4:18"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "ana_de_silo",
+      "nombre": "Ana",
+      "emoji": "🙏",
+      "rol": "Madre de Samuel — prototipo de la oración de petición",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Esposa de Elcaná y madre de Samuel. Su oración en el santuario de Siló, pronunciada en silencio bajo el peso de la esterilidad y la humillación familiar, se convirtió en modelo de oración interior para la tradición judía. Su cántico de acción de gracias tras el nacimiento de Samuel es considerado antecedente literario del Magnificat.",
+      "referencias": ["1 Sam 1:9-20", "1 Sam 2:1-10"],
+      "ruta": []
+    },
+    {
+      "id": "josue_silo",
+      "nombre": "Josué",
+      "emoji": "🏕️",
+      "rol": "Conductor de Israel — instaló el Tabernáculo en Siló",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Sucesor de Moisés que condujo la conquista de Canaán y eligió Siló como sede del Tabernáculo para la distribución del territorio conquistado entre las tribus. Su decisión convirtió Siló en el primer centro sacral permanente de Israel en la tierra prometida.",
+      "referencias": ["Jos 18:1", "Jos 19:51", "Jos 22:9"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
-    "religiones_presentes": [
-      "// PENDIENTE"
+    "contexto_lugar": "Siló fue el Jerusalén de la era pretemporal israelita: el lugar donde residía la presencia divina en el Arca y el Tabernáculo durante la confederación tribal. Su destrucción fue interpretada por los profetas como prefiguración del destino del Templo de Jerusalén si Israel abandonaba la alianza. La memoria de Siló funcionó como advertencia teológica durante siglos.",
+    "religiones_presentes": ["judaismo", "cristianismo"],
+    "mitos": [
+      {
+        "id": "oración_de_ana",
+        "nombre": "La oración silenciosa de Ana en Siló",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 1:9-20",
+          "fuente_secundaria": "Talmud Bavli, Berakhot 31a-b — la oración de Ana como modelo de las dieciocho bendiciones (Amidá); se aprenden de ella seis leyes de la oración correcta",
+          "descripcion": "Ana ora en Siló moviendo los labios sin emitir sonido, derramando su alma ante el Señor por su esterilidad. Su oración silenciosa e interior se convirtió para los rabinos en el modelo definitivo de la oración judía.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La oración de Ana establece que la comunicación auténtica con Dios es interior y directa, no necesariamente mediada por el sacerdote o la liturgia externa. Su cántico anticipa la teología de la inversión divina: el humillado es exaltado.",
+          "posible_relacion_cultural": "El cántico de Ana (1 Sam 2:1-10) es reconocido por exegetas de ambas tradiciones como modelo literario del Magnificat de María en el NT."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Lc 1:46-55",
+          "fuente_secundaria": "Orígenes, Homilías sobre Lucas 7 — identifica explícitamente el cántico de Ana como prototipo del Magnificat de María",
+          "descripcion": "El Magnificat de María en el evangelio de Lucas sigue de cerca la estructura y el vocabulario del cántico de Ana. Ambas mujeres celebran la inversión divina del orden social: el humillado es exaltado, el poderoso es derribado.",
+          "similitudes": "Ambos cánticos celebran la acción de Dios que exalta a los humildes y derriba a los poderosos; ambas mujeres son madres de figuras que inauguran una nueva era en la historia de la salvación.",
+          "diferencias": null,
+          "significado_teologico": "Para la tradición cristiana, Ana prefigura a María y Samuel prefigura a Juan el Bautista. Siló como lugar de consagración anticipa el templo como lugar de presentación de Jesús.",
+          "posible_relacion_cultural": "La tipología Ana-María es uno de los paralelos narrativos más estudiados entre el AT y el NT en la exégesis patrística."
+        },
+        "islam": null
+      }
     ]
   }
 }

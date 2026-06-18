@@ -12,6 +12,7 @@ import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
 import './App.css'
 
 const PERIODS = [
+  { id: 'todos',         name: 'Todos los períodos',    range: '' },
   { id: 'bronce_tardio', name: 'Edad de Bronce Tardía', range: '1500–1200 a.C.' },
   { id: 'hierro_1',      name: 'Edad de Hierro I',      range: '1200–1000 a.C.' },
   { id: 'hierro_2',      name: 'Edad de Hierro II',     range: '1000–586 a.C.'  },
@@ -393,7 +394,7 @@ export default function App() {
               onClick={() => setPeriodId(p.id)}
               title={p.range}
             >
-              <span style={{display:'flex',flexDirection:'column',alignItems:'center',gap:0}}><span>{p.name}</span>{periodId !== p.id && <span style={{fontSize:'9px',opacity:0.7,fontFamily:'system-ui,sans-serif'}}>{p.range}</span>}</span>
+              <span style={{display:'flex',flexDirection:'column',alignItems:'center',gap:0}}><span>{p.name}</span>{periodId !== p.id && p.range && <span style={{fontSize:'9px',opacity:0.7,fontFamily:'system-ui,sans-serif'}}>{p.range}</span>}</span>
             </button>
           ))}
         </div>

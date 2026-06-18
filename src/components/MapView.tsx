@@ -591,7 +591,7 @@ export function MapView({
       const showTooltip = isJerusalen && showHint
 
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
-      const dimmed = !periodosAt.includes(periodId)
+      const dimmed = periodId !== 'todos' && !periodosAt.includes(periodId)
       const jerarquia = (lugar as any).jerarquia_pin ?? 'primario'
       const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8)
 

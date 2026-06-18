@@ -7,69 +7,137 @@
   "lng": 34.4334,
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — Philistine city; Samson's exploits; Philip's ministry",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2",
-    "post_exilio"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad egipcia de guarnición en Canaán" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Capital de la Pentápolis filistea" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad filistea bajo presión israelita y asiria" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Ciudad bajo dominio babilónico y persa" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2", "post_exilio"],
+  "descripcion_geo": "Gaza (hebreo: עַזָּה; egipcio: Ghazzat) era la ciudad más meridional y políticamente más importante de la Pentápolis filistea, situada en la llanura costera a unos 4 km del Mediterráneo y en el extremo norte del Sinaí. Controlaba el paso obligatorio de la Via Maris entre Egipto y Canaán. Su posición estratégica la convirtió en sede de la administración egipcia en Canaán durante el Imperio Nuevo y en capital efectiva de la Pentápolis filistea. Con ocupación ininterrumpida desde el Calcolítico hasta hoy, Gaza es una de las ciudades habitadas más antiguas del mundo. El tell arqueológico está bajo la ciudad moderna, limitando las excavaciones.",
+  "altitud_m": 10,
+  "clima": "Mediterráneo costero árido de transición — precipitaciones de 300-400 mm anuales (las más bajas de la costa cananea), veranos cálidos y secos con humedad costera, inviernos suaves. Zona de transición entre el clima mediterráneo y el desértico del Sinaí.",
+  "recursos": [
+    "Control absoluto de la Via Maris — ruta entre Egipto y el Levante",
+    "Puerto marítimo y comercio mediterráneo",
+    "Agricultura de llanura costera (trigo, cebada, vid)",
+    "Comercio de tránsito entre Arabia, Egipto y el Mediterráneo",
+    "Industria textil y artesanal"
+  ],
+  "importancia_estrategica": "Gaza era el nexo obligado entre África y Asia en la antigüedad. Quien controlaba Gaza controlaba el flujo de mercancías, ejércitos y comunicaciones entre Egipto y el resto del Levante. Los faraones del Imperio Nuevo la usaron como cuartel general de su administración en Canaán. Los asirios la convirtieron en punto de control de la frontera con Egipto. Esta posición de bisagra geopolítica explica que haya sido objeto de conquista por todas las grandes potencias del antiguo Oriente Próximo.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos-gaza",
+      "nombre": "Filisteos de Gaza",
+      "descripcion": "Gaza era la ciudad más poderosa de la Pentápolis. El templo de Dagón en Gaza (Jue 16:23-30) era el santuario principal de la confederación filistea — Sansón lo derrumbó matando a más personas en su muerte que en vida. Los filisteos de Gaza mantuvieron la ciudad como capital política y religiosa de su confederación durante todo el período del Hierro I-II, resistiendo sucesivamente a israelitas, asirios y egipcios.",
+      "religion": "Politeísmo filisteo — Dagón como dios principal; sincretismo con cultos cananeos (Astarté, Baal)",
+      "periodo": "c. 1200–600 a.C."
+    },
+    {
+      "id": "egipcios-gaza",
+      "nombre": "Guarnición egipcia del Imperio Nuevo",
+      "descripcion": "Durante el Bronce Tardío (c. 1550-1200 a.C.), Gaza era la sede principal de la administración egipcia en Canaán. Las cartas de Amarna (siglo XIV a.C.) mencionan a Gaza como centro de poder regional. Los faraones Tutmosis III y Ramsés II usaron Gaza como base de operaciones para sus campañas en Canaán y Siria. La caída del Imperio Nuevo y la llegada de los Pueblos del Mar (incluyendo los filisteos) transformaron la ciudad egipcia en ciudad filistea hacia 1175 a.C.",
+      "religion": "Politeísmo egipcio — culto a Amón, Ra, Ptah; sincretismo con divinidades cananeas locales",
+      "periodo": "Bronce Tardío, c. 1550-1175 a.C."
+    },
+    {
+      "id": "israelitas-frontera-sur",
+      "nombre": "Israelitas del límite sur",
+      "descripcion": "Gaza figura en los textos bíblicos como el límite sur ideal del territorio israelita ('desde Dan hasta Gaza' o 'desde la entrada de Hamat hasta el río de Egipto'). La tribu de Judá tomó Gaza temporalmente (Jue 1:18) pero no pudo mantenerla. La presencia israelita en la zona fue siempre periférica y conflictiva, representada narrativamente por la figura de Sansón, que operó en la zona de frontera entre Dan y la llanura filistea.",
+      "religion": "Yahvismo tribal — sin presencia permanente en Gaza propiamente dicha",
+      "periodo": "Hierro I-II, contacto intermitente"
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "sanson-gaza",
+      "titulo": "Sansón en Gaza: la noche que arrancó las puertas",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Sansón fue a Gaza y vio allí a una prostituta; entró a ella. Se dijo a los gazatitas: 'Sansón ha venido aquí.' Lo cercaron y lo acecharon toda la noche a la puerta de la ciudad, diciendo: 'Al amanecer lo mataremos.' Sansón estuvo echado hasta la medianoche; a medianoche se levantó, agarró las puertas de la ciudad con los dos postes y las arrancó con cerrojo y todo, se las cargó sobre los hombros y las subió a la cima del monte que está frente a Hebrón. El episodio es el primer encuentro de Sansón con Gaza — una demostración de fuerza física sobrenatural en el corazón de la ciudad enemiga. No fue allí como guerrero sino como hombre que siguió sus instintos, pero su fuerza divina transformó la trampa en exhibición de poder. La escena prefigura su muerte en el mismo templo de Gaza: Sansón siempre actúa en Gaza con consecuencias desproporcionadas.",
+      "referencias": ["Jue 16:1-3"],
+      "personajes_clave": ["sanson"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "sanson-muerte-dagon",
+      "titulo": "La muerte de Sansón: el templo de Dagón derrumbado",
+      "fecha": "c. 1080 a.C.",
+      "descripcion": "Capturado tras la traición de Dalila, con los ojos arrancados y encadenado, Sansón molía en la cárcel de Gaza. Los señores filisteos convocaron una gran fiesta en honor de Dagón: 'Nuestro dios nos ha entregado a Sansón nuestro enemigo.' Tres mil hombres y mujeres llenaban el templo. Sansón pidió al criado que lo llevara a los dos pilares centrales que sostenían la estructura. Puso una mano en cada pilar e invocó a Yahvé: 'Señor Yahvé, acuérdate de mí, te ruego; dame fuerza solo esta vez, para que de un golpe tome venganza de los filisteos por mis dos ojos.' Empujó con toda su fuerza y el edificio se desplomó sobre los señores filisteos y sobre todo el pueblo que había en él. Los muertos que mató al morir superaron a los que había matado en vida. Sus hermanos y toda la familia de su padre bajaron y lo recogieron y lo enterraron en el sepulcro de su padre Manoa, entre Sora y Estaol.",
+      "referencias": ["Jue 16:21-31", "Jue 16:23-30"],
+      "personajes_clave": ["sanson", "senores-filisteos-gaza"]
+    },
+    {
+      "id": "amos-gaza",
+      "titulo": "Amós condena a Gaza: el oráculo contra los traficantes de esclavos",
+      "fecha": "c. 760 a.C.",
+      "descripcion": "El profeta Amós abrió su libro con una serie de oráculos contra las naciones vecinas de Israel. El oráculo contra Gaza es el segundo: 'Por tres crímenes de Gaza y por cuatro no revocaré mi decreto: porque deportaron una población entera para entregarla a Edom.' El crimen denunciado es la trata de esclavos — Gaza como intermediaria en la deportación de poblaciones completas para su venta en los mercados de Edom (y de allí probablemente a Arabia y Mesopotamia). Este oráculo documenta a Gaza como centro del comercio de esclavos en el siglo VIII a.C. y establece que Yahvé juzgará a las naciones paganas no solo por su idolatría sino por sus crímenes contra la dignidad humana.",
+      "referencias": ["Am 1:6-8", "Sof 2:4", "Jer 25:20"],
+      "personajes_clave": ["amos"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "sanson",
+      "nombre": "Sansón",
+      "emoji": "💪",
+      "rol": "Juez nazirita de Dan, guerrero personal contra los filisteos",
+      "periodo": "c. 1100–1080 a.C.",
+      "descripcion": "Sansón ben Manoa, de la tribu de Dan, es el juez más paradójico del AT: consagrado a Dios desde el vientre materno como nazirita (voto de no cortarse el cabello, no beber vino, no tocar cadáveres), su vida estuvo marcada por la ruptura sistemática de las tres condiciones de su consagración. Su fuerza no era física en el sentido convencional sino un don del Espíritu de Yahvé que le venía en momentos específicos. Sus hazañas en Gaza — arrancar las puertas de la ciudad y derrumbar el templo de Dagón — son los puntos extremos de su narrativa: la primera demuestra que ningún lugar enemigo puede retenerlo, la última que su muerte elegida vale más que toda su vida de violencia espontánea.",
+      "referencias": ["Jue 13:2-5", "Jue 14:1-20", "Jue 16:1-31"],
+      "ruta": ["dan", "gaza"]
+    },
+    {
+      "id": "amos",
+      "nombre": "Amós",
+      "emoji": "🌾",
+      "rol": "Profeta pastor de Tecoa, primer profeta escritor del AT",
+      "periodo": "c. 760 a.C.",
+      "descripcion": "Amós de Tecoa fue pastor y cultivador de sicomoros en el desierto de Judá. Sin formación profética oficial ('no soy profeta ni hijo de profeta'), recibió la llamada divina y fue enviado al santuario real del norte en Betel para pronunciar juicio sobre Israel en el momento de su mayor prosperidad. Su libro abre con oráculos contra las naciones vecinas (incluyendo Gaza) antes de dirigir el mensaje principal a Israel — una estrategia retórica que atrapaba la aprobación del oyente israelita antes de volverla en su contra. Su visión de la justicia social es la más sistemática del profetismo pre-exílico.",
+      "referencias": ["Am 1:1", "Am 7:14-15", "Am 5:21-24"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "dalila",
+      "nombre": "Dalila",
+      "emoji": "✂️",
+      "rol": "Mujer del valle de Sorec, instrumento de la captura de Sansón",
+      "periodo": "c. 1080 a.C.",
+      "descripcion": "Dalila (nombre de origen incierto, posiblemente cananeo: 'delicada' o 'de noche') es el personaje femenino más famoso de la narrativa de Sansón. No se la llama filistea explícitamente, y su nombre no es hebreo ni claramente filisteo. Los señores filisteos le ofrecieron mil cien siclos de plata cada uno —un precio enorme— para que descubriera el secreto de la fuerza de Sansón. Tres veces Sansón la engañó con respuestas falsas; a la cuarta, cansado de sus insistencias ('su alma se angustió hasta morir'), reveló la verdad del cabello nazirita. Dalila hizo rapar sus siete trenzas mientras dormía sobre sus rodillas. Su figura ha generado interpretaciones contrapuestas: traidora calculadora, víctima de presiones externas, o simplemente mujer que eligió el dinero sobre el amor.",
+      "referencias": ["Jue 16:4-20", "Jue 16:15-17"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Gaza es el escenario del choque más dramático entre Yahvé y Dagón en el AT: el derrumbe del templo por Sansón. Pero también es la ciudad donde el profeta Amós sitúa uno de los pecados que Dios no puede perdonar: la trata de seres humanos. Gaza condensa así dos dimensiones del monoteísmo ético bíblico: la soberanía de Yahvé sobre los dioses ajenos (Dagón derrumbado) y la exigencia de justicia sobre las naciones que tratan a las personas como mercancía.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo filisteo — Dagón como dios principal, con santuario central en Gaza",
+      "Politeísmo egipcio — herencia de la administración del Imperio Nuevo",
+      "Yahvismo israelita — presencia narrativa pero no institucional en la ciudad"
+    ],
+    "mitos": [
+      {
+        "id": "sanson-nazireo",
+        "nombre": "El nazirato de Sansón: la fuerza divina y la debilidad humana",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 13:1-7; Núm 6:1-21",
+          "fuente_secundaria": "Talmud Bavli, Sotá 9b-10a; Midrash Tanjuma, Naso 24",
+          "descripcion": "La tradición rabínica debatió intensamente el estatuto de Sansón. El Talmud (Sotá 9b) señala que Sansón 'juzgó a Israel igual que su Padre en los cielos': como Dios juzga con misericordia, Sansón actuó solo, sin ejército. Pero también identifica en cada una de sus caídas (Timna, Gaza, Dalila) una violación del voto nazirita. El Midrash Tanjuma lee la oración final de Sansón como la más auténtica de su vida: el hombre que nunca pidió ayuda divina genuinamente, la pidió cuando no tenía nada más — y fue escuchado. La muerte de Sansón como acto de venganza personal vs. sacrificio por Israel es un debate rabínico abierto.",
+          "similitudes": "El tema del consagrado a Dios que falla y es restaurado en el último momento aparece en las tres tradiciones.",
+          "diferencias": "El judaísmo es ambivalente sobre Sansón: héroe imperfecto, no modelo de piedad.",
+          "significado_teologico": "La fuerza de Sansón no es suya sino de Yahvé; cuando actúa por impulso propio es vulnerable; cuando invoca a Dios —aunque sea para venganza personal— recibe el don sobrenatural.",
+          "posible_relacion_cultural": "La figura del héroe de fuerza sobrenatural vinculada al cabello tiene paralelos en Gilgamesh y en el mito de Aquiles (talón vulnerable). La consagración física como fuente de poder es un motivo universal en la mitología heroica."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Heb 11:32-34; Jue 16:28-30",
+          "fuente_secundaria": "Agustín, La Ciudad de Dios I,21; Ambrosio, De Spiritu Sancto I,1",
+          "descripcion": "Hebreos 11:32 incluye a Sansón en la lista de héroes de la fe junto a Gedeón, Barac, Jefté y David. Agustín en La Ciudad de Dios (I,21) abordó la muerte de Sansón en el contexto de la pregunta sobre el suicidio: ¿fue lícita? Respondió que actuó movido por el Espíritu Santo y que su caso es excepcional, no norma. Ambrosio vio en Sansón un tipo de Cristo: como Cristo murió para destruir al enemigo, Sansón murió para destruir a los filisteos. La oración de Sansón antes de derrumbar el templo fue interpretada como prefiguración de la oración de Jesús en Getsemaní.",
+          "similitudes": "La muerte que derrota al enemigo más que la vida es el núcleo tipológico de la lectura cristiana.",
+          "diferencias": "El NT valida la fe de Sansón, no su moral; la tipología cristológica transforma la venganza personal en sacrificio redentor.",
+          "significado_teologico": "Dios puede obrar a través de instrumentos imperfectos. La fe que actúa en el límite —cuando ya no hay otra opción— también es fe real.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

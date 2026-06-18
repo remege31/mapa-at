@@ -7,68 +7,128 @@
   "lng": 34.8521,
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — One of the five major Philistine city-states",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la llanura costera" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad filistea, receptora del arca" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad filistea, centro de culto a Baal-Zebub" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Ekron (hebreo: עֶקְרוֹן; filisteo: Amqaruna) era la más septentrional de las cinco ciudades de la Pentápolis filistea, situada en el extremo norte de la llanura filistea, en la zona de transición con la Sefela de Judá. Identificada definitivamente con Tel Miqne (excavada 1981-1996), es uno de los yacimientos arqueológicos del Hierro I-II mejor documentados del Levante. El tell de 20 hectáreas reveló una ciudad con más de cien instalaciones de producción de aceite de oliva en el período del Hierro IIC (siglo VII a.C.), la mayor industria oleícola conocida del mundo antiguo. Una inscripción real dedicatoria en lengua filistea menciona al rey Ikausu (Aquis) de Amqaruna, confirmando la identificación del lugar.",
+  "altitud_m": 40,
+  "clima": "Mediterráneo costero de llanura — precipitaciones de 450-500 mm anuales, veranos cálidos moderados por brisas marinas, inviernos suaves. Suelos fértiles de aluvión aptos para olivares intensivos.",
+  "recursos": [
+    "Industria de aceite de oliva — más de cien prensas del siglo VII a.C. (confirmado arqueológicamente)",
+    "Agricultura de llanura (trigo, cebada, vid, olivo)",
+    "Comercio con Asiria, Egipto y el Mediterráneo oriental",
+    "Artesanía en hierro y bronce",
+    "Control de ruta entre la llanura filistea y las tierras altas de Judá"
+  ],
+  "importancia_estrategica": "Ekron era la ciudad filistea más cercana al territorio israelita de Judá y Dan, lo que la convirtió en punto de fricción constante. Su industria oleícola del siglo VII funcionó bajo protectorado asirio, evidenciando la integración económica de la ciudad-estado en el sistema imperial. El dios Baal-Zebub de Ekron, consultado por el rey Ocozías de Israel, se convirtió en el símbolo por antonomasia del culto extranjero que amenazaba la fidelidad yahvista.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos-ekron",
+      "nombre": "Filisteos de Ekron",
+      "descripcion": "La inscripción real de Ekron (siglo VII a.C.) es uno de los únicos textos en lengua filistea conocidos y menciona a cinco reyes consecutivos de la ciudad. Los filisteos de Ekron desarrollaron una sofisticada industria oleícola bajo el protectorado de Asiria tras la campaña de Senaquerib (701 a.C.), convirtiéndose en proveedores de aceite para el imperio. Esta adaptación pragmática al poder asirio contrasta con la resistencia de otras ciudades filisteas.",
+      "religion": "Politeísmo filisteo — culto principal a Baal-Zebub (señor de las moscas o señor de lo alto), con asimilación de cultos cananeos",
+      "periodo": "c. 1200-604 a.C. (destrucción por Nabucodonosor)"
+    },
+    {
+      "id": "israelitas-zona-dan",
+      "nombre": "Israelitas de la tribu de Dan",
+      "descripcion": "El territorio originalmente asignado a Dan incluía ciudades próximas a Ekron (Jos 19:43). La presión filistea impidió que Dan tomara posesión efectiva de su herencia en la llanura, forzando finalmente la migración danita al norte (Jue 18). La zona entre Ekron y las colinas de Judá fue territorio de conflicto permanente, donde figuras como Sansón operaban en la frontera cultural entre israelitas y filisteos.",
+      "religion": "Yahvismo tribal con sincretismo — la tribu de Dan estableció posteriormente un santuario con ídolo en su nueva ubicación norte (Jue 18:30-31)",
+      "periodo": "Hierro I, c. 1200-1050 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "arca-ekron",
+      "titulo": "El arca llega a Ekron: la plaga que no podían detener",
+      "fecha": "c. 1050 a.C.",
+      "descripcion": "Cuando el arca causó estragos en Ashdod y luego en Gat, los señores filisteos la enviaron a Ekron. Los ekronitas, al verla llegar, clamaron: '¡Han traído a nosotros el arca del Dios de Israel para matarnos a todos!' La ciudad entera fue golpeada con una plaga mortal. Las voces de los que morían llegaban hasta el cielo. Los señores filisteos convocaron una asamblea de urgencia. Sus sacerdotes y adivinos recomendaron la devolución del arca con una ofrenda expiatoria de tumores de oro y ratones de oro —uno por cada ciudad filistea— reconociendo implícitamente el poder de Yahvé. Ekron fue la última estación del arca en territorio filisteo, el punto donde la coalición de las cinco ciudades decidió que ningún precio era demasiado alto para devolver aquel objeto devastador.",
+      "referencias": ["1 Sam 5:10-12", "1 Sam 6:1-9", "1 Sam 5:8-9"],
+      "personajes_clave": ["senores-filisteos"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "baal-zebub-ocozias",
+      "titulo": "Ocozías consulta a Baal-Zebub: el rey que preguntó al dios equivocado",
+      "fecha": "c. 852 a.C.",
+      "descripcion": "El rey Ocozías de Israel cayó por la celosía de su habitación en Samaria y quedó gravemente herido. En lugar de consultar al profeta de Yahvé, envió mensajeros a consultar a Baal-Zebub, dios de Ekron, para saber si se recuperaría. El profeta Elías los interceptó en el camino con un mensaje fulminante: '¿Acaso no hay Dios en Israel para que vayas a consultar a Baal-Zebub, dios de Ekron? Por eso no bajarás del lecho donde has subido, sino que morirás.' El rey envió un capitán con cincuenta hombres para traer a Elías. El profeta hizo bajar fuego del cielo que los consumió. Un segundo grupo corrió la misma suerte. El tercer capitán se postró ante Elías suplicando su vida. El profeta bajó y repitió ante el rey el mismo oráculo de muerte. Ocozías murió sin hijo varón, y reinó en su lugar su hermano Jorán.",
+      "referencias": ["2 Re 1:1-17", "2 Re 1:2-4", "2 Re 1:9-12"],
+      "personajes_clave": ["elias-ekron", "ocozias"]
+    },
+    {
+      "id": "ekron-industria-asiriia",
+      "titulo": "Ekron bajo Asiria: la ciudad industrial del aceite",
+      "fecha": "c. 700 a.C.",
+      "descripcion": "Tras la campaña de Senaquerib (701 a.C.), Ekron fue transformada en un centro industrial bajo protectorado asirio. La arqueología ha revelado que en el siglo VII la ciudad alcanzó su máxima extensión (20 hectáreas) y desarrolló una industria de aceite de oliva sin precedentes: más de cien instalaciones de prensado, capaces de producir cientos de toneladas de aceite al año para exportación al mercado asirio y mediterráneo. Una inscripción real filistea del rey Ikausu dedica un templo a su diosa. Este período de prosperidad material coincidió con la denuncia profética de Sofonías y Amós contra las ciudades filisteas. Ekron fue finalmente destruida por Nabucodonosor en 604 a.C., confirmado tanto por el texto bíblico (Jer 25:20) como por las crónicas babilónicas.",
+      "referencias": ["Jer 25:20", "Sof 2:4", "Am 1:8"],
+      "personajes_clave": ["jeremias-ekron"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "elias-ekron",
+      "nombre": "Elías",
+      "emoji": "⚡",
+      "rol": "Profeta del fuego, defensor de la exclusividad yahvista",
+      "periodo": "c. 875–850 a.C.",
+      "descripcion": "El Elías del episodio de Ekron es el mismo profeta del Carmelo, pero en un contexto diferente: no convoca al pueblo a elegir entre Yahvé y Baal, sino que intercepta la consulta de un rey moribundo al dios extranjero. Su pregunta retórica —'¿Acaso no hay Dios en Israel?'— es el núcleo teológico del episodio: la consulta a Baal-Zebub no es solo infidelidad religiosa sino declaración implícita de que Yahvé es incapaz o no merece ser consultado. El fuego que consume a los capitanes recuerda al fuego del Carmelo: Elías es el profeta cuya palabra tiene poder físico sobre la naturaleza.",
+      "referencias": ["2 Re 1:3-4", "2 Re 1:10-12", "2 Re 1:15-17"],
+      "ruta": ["carmel", "beersheba"]
+    },
+    {
+      "id": "ocozias",
+      "nombre": "Ocozías de Israel",
+      "emoji": "👑",
+      "rol": "Rey de Israel, hijo de Ajab, muerto por consultar a Baal-Zebub",
+      "periodo": "c. 853–852 a.C.",
+      "descripcion": "Ocozías ben Ajab reinó solo dos años sobre Israel. Hijo del rey Ajab y la reina Jezabel, continuó la política religiosa de sus padres — el culto a Baal que había caracterizado su dinastía. Su decisión de consultar a Baal-Zebub de Ekron ante una enfermedad es leída por el texto bíblico como el acto que sellaba su destino: no solo era idolátrico sino que revelaba una desconfianza radical en Yahvé. Murió sin heredero, cerrando su línea dinástica, y fue sucedido por su hermano Jorán. El texto lo menciona brevemente, como eco negativo de su padre Ajab.",
+      "referencias": ["1 Re 22:52-53", "2 Re 1:1-2", "2 Re 1:17-18"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "senores-filisteos",
+      "nombre": "Los cinco señores filisteos",
+      "emoji": "🛡️",
+      "rol": "Gobernantes de la Pentápolis filistea",
+      "periodo": "c. 1200–1000 a.C.",
+      "descripcion": "Los 'seren' (señores) filisteos son el consejo de gobierno de las cinco ciudades de la Pentápolis: Gaza, Ascalón, Ashdod, Ekron y Gat. Aparecen siempre actuando en consejo, lo que refleja una estructura política confederal inusual en el Levante del Bronce Final-Hierro I. En los episodios del arca, mostraron una racionalidad pragmática: consultaron a sus propios sacerdotes y adivinos, reconocieron el poder de Yahvé sin convertirse a él, y adoptaron la solución menos costosa (devolver el arca con ofrendas). En el episodio de Sansón (Jue 16), convocaron la gran asamblea en el templo de Dagón de Gaza que terminó en la muerte del juez y de tres mil filisteos.",
+      "referencias": ["1 Sam 6:2-9", "1 Sam 6:16-18", "Jue 16:27-30"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Ekron es la ciudad filistea que aparece en los dos extremos del espectro teológico del AT: primero como víctima del poder de Yahvé (episodio del arca), luego como centro del culto a Baal-Zebub que atrae la consulta del rey de Israel. El nombre 'Baal-Zebub' (בַּעַל זְבוּב, 'señor de las moscas') puede ser una deformación burlesca del nombre original 'Baal-Zebul' ('señor del palacio/exaltado'), transformada por los redactores bíblicos en insulto. Esta misma deformación sobrevivió en el NT como nombre del príncipe de los demonios ('Beelzebub').",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo filisteo — culto a Baal-Zebub como deidad oracular principal",
+      "Yahvismo israelita — presencia del arca como signo de soberanía de Yahvé"
+    ],
+    "mitos": [
+      {
+        "id": "baal-zebub-beelzebub",
+        "nombre": "Baal-Zebub de Ekron: del dios filisteo al príncipe de los demonios",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 1:2-16",
+          "fuente_secundaria": "Talmud Bavli, Sanedrín 102b; Targum Jonatán sobre 2 Re 1:2",
+          "descripcion": "El Targum Jonatán (traducción aramea del AT) parafrasea la consulta de Ocozías a Baal-Zebub como 'consultar al ídolo de las moscas de Ekron', subrayando el aspecto degradante del nombre. La tradición rabínica (Sanedrín 102b) usó el episodio de Ocozías como ejemplo extremo de apostasía real: un rey de Israel que, teniendo acceso a profetas de Yahvé, prefirió consultar a un dios extranjero. El episodio fue leído como prueba de que la casa de Ajab estaba irremediablemente corrompida.",
+          "similitudes": "Las tres tradiciones asocian a Baal-Zebub con fuerzas opuestas a Dios.",
+          "diferencias": "El judaísmo trata a Baal-Zebub como un ídolo sin poder real; el NT lo eleva a rango de príncipe demoníaco.",
+          "significado_teologico": "Consultar a dioses ajenos es una declaración implícita de que Yahvé no puede o no quiere responder — apostasía práctica más que teológica.",
+          "posible_relacion_cultural": "El nombre Baal-Zebul ('señor exaltado') aparece en textos ugaríticos como epíteto de Baal, confirmando que la forma bíblica 'Zebub' (moscas) es una alteración degradante intencional."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Mt 12:24-27; Mc 3:22; Lc 11:15-19",
+          "fuente_secundaria": "Orígenes, Contra Celso VII,17; Jerónimo, Comentario sobre Mateo 12:24",
+          "descripcion": "En los evangelios, los fariseos acusan a Jesús de expulsar demonios 'por Beelzebul, el príncipe de los demonios' (Mt 12:24). El nombre filisteo de Ekron ha sido transformado en título del adversario supremo de Dios. Jesús responde con el argumento lógico: un reino dividido contra sí mismo no puede subsistir — si expulso demonios por Beelzebul, ¿por quién los expulsan vuestros hijos? El uso del nombre conecta la controversia cristológica del NT con la antigua polémica anti-idolátrica del AT: el dios de Ekron que sedujo a Ocozías se convierte en el adversario que los líderes religiosos atribuyen a Jesús.",
+          "similitudes": "La asociación de Baal-Zebub con el mal demoníaco es una continuidad directa entre AT y NT.",
+          "diferencias": "El AT lo trata como ídolo inerte; el NT lo personifica como ser espiritual con poder real pero subordinado a Cristo.",
+          "significado_teologico": "La acusación de actuar por Beelzebul es la blasfemia que Jesús refuta con su argumento más lógico de los evangelios: el bien no puede venir del mal.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

@@ -7,67 +7,128 @@
   "lng": 35.2598,
   "frecuencia_at": 16,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A Levitical city in Benjamin",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad benjaminita, escenario de la primera victoria de Jonatán" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Frontera norte del reino de Judá" }
+  ],
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "descripcion_geo": "Geba (hebreo: גֶּבַע, 'colina') era una ciudad levítica en el territorio de Benjamín, situada a unos 9 km al noreste de Jerusalén, frente a Micmas al otro lado del paso del wadi Suweinit. Identificada con la actual Jeba, dominaba uno de los pasos estratégicos entre las tierras altas de Benjamín y el valle del Jordán. La expresión 'desde Geba hasta Beersheba' se usaba como descripción del territorio del reino de Judá (2 Re 23:8), siendo Geba el límite norte. El paso de Micmas, entre Geba y Micmas, fue escenario de la audaz operación de Jonatán que cambió el curso de la guerra filistea.",
+  "altitud_m": 630,
+  "clima": "Mediterráneo de montaña — precipitaciones de 500-550 mm anuales, inviernos fríos con posibilidad de nieve, veranos secos y cálidos. El wadi Suweinit al sur crea un microclima más húmedo en la hondonada.",
+  "recursos": [
+    "Posición defensiva elevada con control del paso de Micmas",
+    "Agricultura de terrazas en las laderas (olivos, viñedos, higueras)",
+    "Pastos en las colinas circundantes",
+    "Piedra caliza para construcción",
+    "Control de la ruta norte-sur por las tierras altas de Benjamín"
+  ],
+  "importancia_estrategica": "Geba controlaba el paso de Micmas, el corredor natural entre el norte y el centro de Benjamín. Su función como 'frontera norte de Judá' (2 Re 23:8) la convirtió en referencia geográfica permanente del reino sureño. En tiempos de la monarquía, Asa de Judá la fortaleció con las piedras de Ramá (1 Re 15:22), confirmando su valor defensivo. La batalla de Micmas, con la guarnición filistea al otro lado del paso, la convirtió en símbolo del período de dominación filistea y de su ruptura.",
+  "otros_habitantes": [
+    {
+      "id": "benjaminitas-geba",
+      "nombre": "Benjaminitas de Geba",
+      "descripcion": "Geba era ciudad levítica asignada a la tribu de Benjamín (Jos 21:17; 1 Cr 6:45). Los benjaminitas de la zona de Geba-Micmas eran conocidos como guerreros: la tribu de Benjamín era célebre por sus honderos zurdos (Jue 20:16) y por producir al primer rey de Israel (Saúl era benjaminita de Guibeá, ciudad vecina). La familia de Saúl tenía raíces en esta zona de Benjamín.",
+      "religion": "Yahvismo tribal de Benjamín — con tensiones entre el santuario de Betel al norte y el de Jerusalén al sur",
+      "periodo": "Hierro I-II, c. 1200-586 a.C."
+    },
+    {
+      "id": "filisteos-guarnicion-micmas",
+      "nombre": "Guarnición filistea de Micmas",
+      "descripcion": "En el período de dominación filistea, los filisteos establecieron una guarnición militar en Micmas, justo al norte del wadi frente a Geba. Esta guarnición controlaba el paso estratégico y simbolizaba la subyugación de Israel: los filisteos incluso prohibían a los israelitas tener herreros para que no fabricaran armas (1 Sam 13:19-22). La destrucción de esta guarnición por Jonatán fue el detonante de la batalla que liberó temporalmente a Israel de la presión filistea.",
+      "religion": "Politeísmo filisteo — Dagón y Baal-Zebub, con sincretismo cananeo local",
+      "periodo": "Hierro I, c. 1050-1000 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "jonatan-micmas",
+      "titulo": "Jonatán en el paso de Micmas: la audacia que salvó a Israel",
+      "fecha": "c. 1020 a.C.",
+      "descripcion": "Saúl estaba acampado en Guibeá con seiscientos hombres; los filisteos con un ejército inmenso en Micmas, al otro lado del paso. Jonatán, sin decírselo a su padre, propuso a su escudero cruzar a la guarnición filistea: 'Quizás actúe Yahvé en nuestro favor, pues para Yahvé no hay obstáculo en salvar con muchos o con pocos.' Descendieron al wadi por la ladera rocosa y se encaramaron al otro lado con manos y pies. Veinte filisteos cayeron muertos en un espacio de media hectárea. Cundió el pánico en el campamento filisteo, en el campo y entre todas las tropas. Los guardias de Saúl en Guibeá vieron la multitud filistea dispersarse. Saúl contó a su gente y faltaba Jonatán. El arca fue traída, luego Saúl prescindió de ella y atacó. El pánico se extendió: los hebreos que servían en el ejército filisteo se volvieron contra ellos. Los israelitas escondidos en la montaña de Efraín salieron a perseguir. Yahvé salvó a Israel aquel día.",
+      "referencias": ["1 Sam 14:1-23", "1 Sam 14:6", "1 Sam 13:19-22"],
+      "personajes_clave": ["jonatan", "saul-geba"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "asa-fortalece-geba",
+      "titulo": "Asa fortalece Geba con las piedras de Ramá",
+      "fecha": "c. 895 a.C.",
+      "descripcion": "El rey Baasá de Israel comenzó a construir Ramá para bloquear el tráfico hacia Judá. Asa de Judá respondió con un movimiento diplomático-militar: envió a Ben-hadad de Damasco plata y oro del tesoro del templo para romper la alianza sirio-israelita. Cuando Ben-hadad atacó el norte de Israel, Baasá abandonó Ramá. Asa convocó a todo Judá —nadie estaba exento— y se llevaron las piedras y la madera con que Baasá construía Ramá; con ellas Asa edificó Gueba de Benjamín (Geba) y Mispá. El episodio establece a Geba como ciudad militarmente renovada en el siglo IX, parte del sistema defensivo norte de Judá. El profeta Hanani criticó a Asa por haberse apoyado en Siria en lugar de confiar en Yahvé.",
+      "referencias": ["1 Re 15:17-22", "2 Cr 16:1-10"],
+      "personajes_clave": ["asa"]
+    },
+    {
+      "id": "josias-geba-beersheba",
+      "titulo": "Josías: la reforma desde Geba hasta Beersheba",
+      "fecha": "c. 621 a.C.",
+      "descripcion": "La gran reforma religiosa del rey Josías incluyó la destrucción de todos los lugares de culto en las alturas 'desde Geba hasta Beersheba' — la fórmula bíblica para todo el territorio del reino de Judá. Josías también profanó el altar de Betel, que había construido Jeroboam ben Nabat, destruyó la asera y quemó los huesos humanos sobre el altar. Geba, como límite norte de Judá, marca el alcance septentrional de la reforma josiana que pretendía centralizar todo el culto yahvista en el templo de Jerusalén. Esta centralización convirtió a Geba de ciudad levítica autónoma en punto de frontera del territorio religiosamente unificado.",
+      "referencias": ["2 Re 23:8", "2 Re 23:4-20", "2 Cr 34:3-7"],
+      "personajes_clave": ["josias"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jonatan",
+      "nombre": "Jonatán",
+      "emoji": "🏹",
+      "rol": "Príncipe de Israel, guerrero de fe, amigo de David",
+      "periodo": "c. 1050–1010 a.C.",
+      "descripcion": "Jonatán ben Saúl es uno de los personajes más admirados del AT. Guerrero excepcional —su hazaña en el paso de Micmas frente a Geba es un ejemplo de audacia militar fundada en confianza divina— y amigo leal de David hasta la muerte. Su amistad con David ('amó a David como a sí mismo') puso en conflicto la lealtad filial con la lealtad al ungido de Yahvé. Eligió a David repetidamente sobre los intereses de su propia dinastía. Murió en la batalla del monte Guilboa junto a su padre Saúl, sin haber traicionado ni a su padre ni a su amigo. David lo lloró con el canto más bello del AT: 'Tu amor para mí era admirable, más que el amor de las mujeres.'",
+      "referencias": ["1 Sam 14:1-15", "1 Sam 18:1-4", "2 Sam 1:19-27"],
+      "ruta": ["geba", "jerusalen"]
+    },
+    {
+      "id": "asa",
+      "nombre": "Asa",
+      "emoji": "⚔️",
+      "rol": "Rey reformador de Judá, constructor de Geba como fortaleza fronteriza",
+      "periodo": "c. 911–870 a.C.",
+      "descripcion": "Asa fue uno de los reyes más positivamente valorados de Judá. Destruyó los altares de dioses extranjeros, las estelas sagradas, cortó las aseras y ordenó a Judá que buscara a Yahvé. Incluso depuso a su propia abuela Macá de su rango de reina madre porque había hecho una imagen obscena de Asera. Su decisión de fortalecer Geba con las piedras de Ramá fue tácticamente brillante pero teológicamente cuestionada: usó el tesoro del templo para pagar a Siria en lugar de confiar en Yahvé. Los últimos años de su reinado los pasó enfermo de los pies —el texto sugiere que buscó médicos pero no a Yahvé— y murió con una reputación agridulce: fiel en lo grande, descuidado en lo último.",
+      "referencias": ["1 Re 15:9-24", "2 Cr 14:1-16:14"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "josias",
+      "nombre": "Josías",
+      "emoji": "📖",
+      "rol": "Rey reformador, el más fiel de todos los reyes de Judá según el texto bíblico",
+      "periodo": "c. 640–609 a.C.",
+      "descripcion": "Josías ben Amón subió al trono con ocho años. En el año 18 de su reinado, durante las obras de reparación del templo, el sumo sacerdote Jilquías encontró 'el libro de la ley'. Cuando se lo leyeron al rey, este rasgó sus vestiduras y emprendió la reforma más radical de la historia de Judá: destrucción sistemática de todos los lugares de culto sincretista desde Geba hasta Beersheba, destrucción del altar de Betel, celebración de la Pascua con una solemnidad desconocida desde los jueces. El texto lo elogia sin reservas: 'No hubo antes de él un rey que se convirtiera a Yahvé con todo su corazón, con toda su alma y con toda su fuerza, conforme a toda la ley de Moisés.' Murió en Meguido enfrentando al faraón Necao II, incomprensiblemente para sus contemporáneos.",
+      "referencias": ["2 Re 22:1-23:30", "2 Re 23:25", "2 Cr 34:1-35:27"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Geba aparece en el AT como marcador geográfico del territorio de Judá ('desde Geba hasta Beersheba') y como escenario de dos momentos clave: la primera victoria israelita sobre la guarnición filistea (Jonatán) y el límite norte de la reforma josiana. Su condición de ciudad levítica en tierra fronteriza la sitúa en la tensión permanente entre la centralización del culto en Jerusalén y la dispersión de las prácticas religiosas en las ciudades periféricas.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo levítico — ciudad sacerdotal asignada a la tribu de Leví en Benjamín",
+      "Sincretismo popular — lugares de culto en alturas destruidos por Josías",
+      "Influencia filistea durante el período de dominación del Hierro I"
+    ],
+    "mitos": [
+      {
+        "id": "fe-audaz-jonatan",
+        "nombre": "La fe audaz de Jonatán: salvar con muchos o con pocos",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 14:6; 1 Sam 14:12-15",
+          "fuente_secundaria": "Talmud Bavli, Berajot 4a; Midrash Samuel 17",
+          "descripcion": "La frase de Jonatán — 'Para Yahvé no hay obstáculo en salvar con muchos o con pocos' (1 Sam 14:6) — se convirtió en una de las expresiones de fe más citadas en la tradición rabínica. El Talmud (Berajot 4a) la usa para ilustrar que la acción de fe no espera condiciones favorables sino que actúa sobre la confianza en el poder divino. El Midrash Samuel compara la audacia de Jonatán con la de David frente a Goliat: ambos actuaron solos contra una fuerza desproporcionada, confiando en que Yahvé era el verdadero protagonista de la batalla.",
+          "similitudes": "La confianza en la intervención divina que transforma la debilidad humana en victoria es un principio compartido por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo enfatiza la acción humana como condición necesaria (Jonatán subió antes de que Dios actuara); no hay fe pasiva.",
+          "significado_teologico": "La fe bíblica no es quietismo sino audacia activa: el creyente da el primer paso y confía en que Dios actuará en respuesta.",
+          "posible_relacion_cultural": "El motivo del pequeño ejército que derrota al grande con ayuda divina aparece en inscripciones reales del Oriente Próximo (Ramsés II en Kadesh, Sargón II), aunque sin el componente de fe personal que caracteriza la narrativa israelita."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 14:6; 2 Cor 12:9-10; Fil 4:13",
+          "fuente_secundaria": "Juan Crisóstomo, Homilías sobre 1 Samuel 14",
+          "descripcion": "La teología paulina de la fuerza en la debilidad ('cuando soy débil, entonces soy fuerte', 2 Cor 12:10) tiene en Jonatán en Micmas uno de sus más claros antecedentes veterotestamentarios. Juan Crisóstomo usó el episodio de Jonatán en sus homilías para ilustrar que la confianza en Dios no excluye la acción valiente sino que la funda. La expresión 'con muchos o con pocos' fue leída como figura de la acción misionera: la Iglesia no necesita mayorías para actuar, sino confianza en que Dios puede obrar con cualquier instrumento.",
+          "similitudes": "La paradoja de la fuerza divina que se manifiesta en la debilidad humana es idéntica en ambas tradiciones.",
+          "diferencias": "El NT lleva el principio a su extremo en la cruz: la debilidad suprema (muerte) es el instrumento de la victoria suprema (resurrección).",
+          "significado_teologico": "La fe no calcula probabilidades sino confía en la soberanía divina. Jonatán es el AT como prefiguración del principio paulino: 'Todo lo puedo en Aquel que me fortalece.'",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

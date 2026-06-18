@@ -7,67 +7,136 @@
   "lng": 35.2635,
   "frecuencia_at": 18,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A Levitical city in Benjamin, home of the prophet Jeremiah.",
-  "periodos_at": [
-    "hierro_2",
-    "post_exilio"
+  "periodos": [
+    { "desde": -1000, "hasta": -722, "nombre": "Hierro II — Monarquía unida y dividida" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Retorno y reconstrucción" }
+  ],
+  "periodos_at": ["hierro_2", "post_exilio"],
+  "descripcion_geo": "Anathoth (hebreo: עֲנָתוֹת) era una ciudad levítica en el territorio de Benjamín, situada a unos 5 km al noreste de Jerusalén, en las estribaciones orientales de la serranía central de Judea. El lugar está identificado con la actual Ras el-Kharrubeh, junto al pueblo moderno de Anata. A unos 700 metros sobre el nivel del mar, la ciudad ofrecía una posición elevada con vistas hacia el desierto de Judea al este y la llanura de Benjamín al norte. Su proximidad a Jerusalén la convirtió en lugar de exilio honorable para figuras políticas caídas en desgracia, y en cuna de uno de los profetas más importantes del AT.",
+  "altitud_m": 700,
+  "clima": "Mediterráneo semiárido de transición — la ciudad marca la frontera climática entre la zona mediterránea y el desierto de Judea. Lluvias invernales de 400-500 mm anuales, veranos secos y calurosos, vientos del este (siroco) frecuentes en primavera y otoño.",
+  "recursos": [
+    "Campos de cultivo de cebada y trigo en la llanura de Benjamín",
+    "Olivares y viñedos en las laderas",
+    "Pastos para ganado menor (ovejas y cabras)",
+    "Piedra caliza local para construcción",
+    "Posición en la ruta norte-sur por las tierras altas de Benjamín"
+  ],
+  "importancia_estrategica": "Ciudad levítica asignada a los hijos de Aarón (Jos 21:18), Anathoth funcionó como centro sacerdotal subsidiario de Jerusalén. Su posición a media hora de marcha de la capital la convirtió en lugar idóneo para exilios políticos controlados. La ciudad también era punto en la ruta militar norte-sur por las colinas de Benjamín, como evidencia la descripción de la marcha asiria en Is 10:30.",
+  "otros_habitantes": [
+    {
+      "id": "sacerdotes-levitas",
+      "nombre": "Sacerdotes levitas de la familia de Abiatar",
+      "descripcion": "Anathoth era ciudad levítica y albergaba una familia sacerdotal ligada a la línea de Elí de Siló. Abiatar, sacerdote de David, fue desterrado aquí por Salomón por haber apoyado la candidatura de Adonías al trono. Esta familia sacerdotal, desplazada del santuario central por los zadoquitas, puede haber influido en la formación de la tradición profética crítica representada por Jeremías.",
+      "religion": "Yahvismo levítico — tradición sacerdotal de Siló, en tensión con el sacerdocio zadoquita de Jerusalén",
+      "periodo": "Desde c. 970 a.C. (destierro de Abiatar) hasta el período post-exílico"
+    },
+    {
+      "id": "benjaminitas",
+      "nombre": "Habitantes benjaminitas",
+      "descripcion": "La población base de Anathoth pertenecía a la tribu de Benjamín. Los 'hombres de Anathoth' que amenazaron de muerte a Jeremías si seguía profetizando (Jer 11:21) representan el estamento local que veía en las profecías contra Jerusalén y el templo una traición a los intereses tribales y a la institución sacerdotal local.",
+      "religion": "Yahvismo popular — mezcla de culto oficial y prácticas sincretistas locales",
+      "periodo": "Período de la monarquía, siglos X-VI a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "destierro-abiatar",
+      "titulo": "El destierro de Abiatar: primer exilio a Anathoth",
+      "fecha": "c. 970 a.C.",
+      "descripcion": "Cuando Salomón consolidó su trono tras la muerte de David, uno de sus primeros actos fue deponer al sacerdote Abiatar, que había apoyado la candidatura rival de Adonías. Salomón le perdonó la vida por haber portado el arca ante David su padre, pero lo desterró a Anathoth con la prohibición de ejercer como sacerdote en Jerusalén. Con este acto se consumó el desplazamiento de la línea sacerdotal de Elí —vinculada al antiguo santuario de Siló— y la consolidación del sacerdocio zadoquita como línea oficial de Jerusalén. Anathoth quedó así marcada como ciudad de exilio sacerdotal y de tradición yahvista alternativa, un hecho que los estudiosos han relacionado con la formación posterior de la escuela profética que produjo el libro de Jeremías.",
+      "referencias": ["1 Re 2:26-27", "1 Sam 2:31-35", "1 Re 1:7-8"],
+      "personajes_clave": ["abiatar", "salomon"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "vocacion-jeremias",
+      "titulo": "Jeremías: el profeta de Anathoth",
+      "fecha": "c. 627 a.C.",
+      "descripcion": "Jeremías ben Jilquías nació en Anathoth, de familia sacerdotal. Su vocación profética llegó siendo joven, en el año 13 del reinado de Josías. Desde el principio su mensaje fue radical: el templo no garantizaba protección automática, los pactos con Egipto eran fatales, Babilonia era el instrumento de juicio divino. Sus propios paisanos de Anathoth conspiraron para matarlo si no dejaba de profetizar en nombre de Yahvé. Jeremías descubrió la conspiración por revelación divina y dirigió a Dios una de las llamadas 'confesiones' —oraciones de queja íntima— que son únicas en la literatura profética. La ciudad que lo vio nacer se convirtió en su primera persecución.",
+      "referencias": ["Jer 1:1-3", "Jer 11:21-23", "Jer 1:6-8"],
+      "personajes_clave": ["jeremias"]
+    },
+    {
+      "id": "campo-anathoth",
+      "titulo": "La compra del campo: profecía de esperanza en tiempo de ruina",
+      "fecha": "587 a.C.",
+      "descripcion": "Mientras Jeremías estaba preso en el patio de la guardia del palacio real de Jerusalén, con la ciudad sitiada por los babilonios, su primo Janamel vino a ofrecerle el rescate de un campo familiar en Anathoth. El profeta que llevaba décadas anunciando la catástrofe realizó la compra con todos los procedimientos legales: pesó diecisiete siclos de plata, firmó el documento ante testigos, entregó el documento sellado a su secretario Baruc con instrucción de guardarlo en un recipiente de arcilla para que durase mucho tiempo. El gesto era deliberadamente paradójico: comprar tierra en una ciudad a punto de ser arrasada era un acto de fe en el futuro que Yahvé prometía. 'Todavía se comprarán campos en esta tierra', declaró el profeta.",
+      "referencias": ["Jer 32:6-15", "Jer 32:1-5", "Jer 32:36-44"],
+      "personajes_clave": ["jeremias", "baruc"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jeremias",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta de Anathoth, anunciador de la caída de Jerusalén",
+      "periodo": "c. 650–580 a.C.",
+      "descripcion": "Jeremías ben Jilquías es el profeta bíblico de vida más documentada. Natural de Anathoth, de familia sacerdotal, ejerció su ministerio durante cuatro décadas bajo los reinados de Josías, Joacaz, Joyaquim, Jeconías y Sedecías. Predicó la rendición ante Babilonia como voluntad divina, fue acusado de traición, encarcelado, arrojado a una cisterna, sobrevivió la caída de Jerusalén en 586 a.C. y terminó su vida en Egipto, a donde fue llevado contra su voluntad por los supervivientes que huían tras el asesinato de Godolías. Sus 'Confesiones' (caps. 11-20) son el registro de interioridad espiritual más íntimo del AT.",
+      "referencias": ["Jer 1:1-10", "Jer 20:7-18", "Jer 38:1-13"],
+      "ruta": ["anathoth", "jerusalen"]
+    },
+    {
+      "id": "abiatar",
+      "nombre": "Abiatar",
+      "emoji": "🕍",
+      "rol": "Sumo sacerdote de David, desterrado a Anathoth por Salomón",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Abiatar era el único superviviente de la masacre de los sacerdotes de Nob ordenada por Saúl (1 Sam 22). Escapó a David llevando el efod sagrado y se convirtió en sacerdote fiel del rey durante toda la era de persecución y el reinado posterior. Su error político fue apoyar a Adonías en la sucesión, frente a la candidatura de Salomón respaldada por Sadoc. El destierro a Anathoth lo convirtió en fundador involuntario de una tradición sacerdotal marginada que algunos estudiosos (Cross, Nicholson) relacionan con el ethos deuteronómico y el círculo formativo del libro de Jeremías.",
+      "referencias": ["1 Sam 22:20-23", "2 Sam 15:24-29", "1 Re 2:26-27"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "baruc",
+      "nombre": "Baruc ben Nerías",
+      "emoji": "✍️",
+      "rol": "Secretario y fiel discípulo de Jeremías",
+      "periodo": "c. 620–580 a.C.",
+      "descripcion": "Baruc ben Nerías fue el escriba personal de Jeremías y custodio de sus oráculos escritos. De familia noble —su hermano Seraías era alto funcionario real—, eligió la lealtad al profeta sobre la carrera cortesana. Fue Baruc quien leyó públicamente en el templo el rollo de Jeremías (604 a.C.) cuando el profeta tenía prohibida la entrada; quien custodió los documentos de la compra del campo de Anathoth; y quien compiló y editó el libro de Jeremías según el consenso académico mayoritario. Su propio libro canónico (incluido en la Biblia católica) preserva oraciones de arrepentimiento y esperanza.",
+      "referencias": ["Jer 36:4-8", "Jer 32:12-16", "Jer 45:1-5"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Anathoth representa en la historia bíblica la tensión entre el profetismo y la institución sacerdotal oficial. Ciudad levítica asignada a los sacerdotes aaronitas, fue también lugar de exilio para la línea sacerdotal marginada por Salomón y cuna del profeta que más radicalmente cuestionó la inviolabilidad del templo y de Jerusalén. El 'sermón del templo' de Jeremías (Jer 7 y 26), con su comparación con la destruida Siló, escandalizó a los sacerdotes y profetas oficiales porque socavaba la teología de la presencia divina incondicional en el templo.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo levítico — tradición sacerdotal vinculada a Siló",
+      "Yahvismo profético — corriente crítica con el establishment del templo",
+      "Yahvismo popular con elementos sincretistas (culto en alturas locales)"
+    ],
+    "mitos": [
+      {
+        "id": "profeta-sin-honra",
+        "nombre": "El profeta rechazado en su tierra",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Jer 11:21-23; Jer 12:6",
+          "fuente_secundaria": "Midrash Rabbah, Lamentaciones, Proem 34",
+          "descripcion": "Los hombres de Anathoth amenazaron de muerte a Jeremías para silenciarlo: 'No profetices en nombre de Yahvé o morirás a nuestras manos.' Incluso su propia familia lo traicionó (Jer 12:6). La tradición rabínica leyó la persecución de Jeremías como paradigma del destino del profeta auténtico en Israel: cuanto más verdadera es la palabra, más violenta es la resistencia. El Midrash compara el sufrimiento de Jeremías con el del justo que carga con los pecados de su generación.",
+          "similitudes": "El motivo del profeta rechazado por los suyos es transversal a las tres tradiciones.",
+          "diferencias": "El judaísmo insiste en la dimensión colectiva: el rechazo de Jeremías es el rechazo de Israel a su propia vocación aliancista.",
+          "significado_teologico": "La fidelidad profética se mide precisamente por la persecución: el profeta verdadero no dice lo que el pueblo quiere oír sino lo que Dios ordena decir.",
+          "posible_relacion_cultural": "El motivo del mensajero divino perseguido por su propio pueblo aparece en textos mesopotámicos de lamento, aunque sin el componente de alianza que lo define en el caso israelita."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Lc 4:24; Mt 13:57; Heb 11:36-38",
+          "fuente_secundaria": "Tertuliano, Adversus Marcionem IV,8",
+          "descripcion": "Jesús citó explícitamente el patrón de Jeremías al declarar en Nazaret: 'Ningún profeta es bien recibido en su tierra.' Los evangelios presentan a Jeremías como el tipo profético que más claramente prefigura la pasión de Cristo: la persecución por la clase sacerdotal, el arresto, la prisión, la intercesión por sus perseguidores. Mateo 16:14 refiere que algunos identificaban a Jesús con el propio Jeremías resucitado. Tertuliano y otros padres desarrollaron esta tipología extensamente.",
+          "similitudes": "El rechazo por los propios connacionales y la persecución por la élite religiosa son paralelos estructurales exactos entre Jeremías y Jesús.",
+          "diferencias": "Jeremías sobrevivió y continuó su ministerio en Egipto; la tipología cristiana lleva el arquetipo hasta la muerte redentora.",
+          "significado_teologico": "Jeremías es el profeta que más directamente prefigura a Cristo en su sufrimiento, su intercesión y su anuncio de una nueva alianza (Jer 31:31-34, citado en Heb 8:8-12).",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 2:61; 3:21; 3:112",
+          "fuente_secundaria": "Ibn Kathir, Tafsir de la Sura Al-Baqarah 2:61",
+          "descripcion": "El Corán no menciona a Jeremías por nombre, pero el patrón del profeta rechazado y perseguido por su pueblo es un tema coránico central. Los versículos sobre los 'que mataban a los profetas sin razón' (2:61, 3:21) son interpretados por los comentaristas como referencias a la persecución de profetas israelitas incluyendo el período pre-exílico. Ibn Kathir en su Tafsir identifica a 'Armiya' (Jeremías) como profeta enviado a los israelitas antes de la destrucción del templo por Nabucodonosor.",
+          "similitudes": "La persecución del profeta veraz por su propia comunidad es un motivo idéntico en la tradición islámica.",
+          "diferencias": "El Islam enfatiza la responsabilidad colectiva de la comunidad que rechaza al profeta más que la dimensión de sufrimiento personal del profeta mismo.",
+          "significado_teologico": "El rechazo a los profetas es, en el Corán, el pecado más grave de las comunidades históricas y la causa última de sus castigos históricos.",
+          "posible_relacion_cultural": "La figura de 'Armiya' en la literatura islámica medieval combina rasgos de Jeremías con los de Ezequiel y otros profetas del período."
+        }
+      }
     ]
   }
 }

@@ -7,68 +7,129 @@
   "lng": 34.9766,
   "frecuencia_at": 20,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — City in Judah, associated with the Ark's return.",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la ruta costera" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Zona de contacto Israel-Filisteos" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza de Judá con Filistea" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Beth-shemesh (hebreo: בֵּית שֶׁמֶשׁ, 'Casa del Sol') era una ciudad en el valle de Sorec, en la Sefela (tierras bajas de Judá), a unos 25 km al oeste de Jerusalén. El tell arqueológico (Tel Beth-shemesh, actual Ain Shems) domina la entrada al valle de Sorec, el corredor natural entre la llanura filistea y las tierras altas de Judá. Excavaciones del siglo XX revelaron una ciudad con murallas del Bronce Tardío, hornos de fundición del Hierro I y un silo de grano del Hierro II de grandes dimensiones. La ciudad era punto de transición entre el mundo filisteo de la llanura y el Judá montañoso.",
+  "altitud_m": 270,
+  "clima": "Mediterráneo de transición — más húmedo que el interior montañoso (550-600 mm anuales), temperaturas moderadas por la influencia costera, veranos secos y cálidos, inviernos lluviosos suaves.",
+  "recursos": [
+    "Agricultura de secano en el fértil valle de Sorec (trigo, cebada, vid)",
+    "Control del paso entre la llanura costera y las tierras altas",
+    "Hornos de fundición de bronce y hierro (confirmados arqueológicamente)",
+    "Bosques de la Sefela para carbón y construcción",
+    "Ruta comercial que unía Filistea con Judá y Jerusalén"
+  ],
+  "importancia_estrategica": "Beth-shemesh era la 'puerta de Judá' desde la llanura filistea. El valle de Sorec era la ruta natural de invasión desde el oeste — el mismo camino que siguieron los bueyes que llevaban el arca de regreso desde Filistea. La ciudad fue campo de batalla entre Judá e Israel (2 Re 14:11-13) y entre Judá y Filistea (2 Cr 28:18). Su posición fronteriza la hacía perennemente disputada.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-beth-shemesh",
+      "nombre": "Cananeos del valle de Sorec",
+      "descripcion": "Beth-shemesh era ciudad levítica asignada a los hijos de Aarón (Jos 21:16), pero la tribu de Judá 'no pudo expulsar' a los cananeos del valle de Sorec (Jue 1:35 LXX). El nombre mismo de la ciudad ('Casa del Sol') sugiere un santuario solar precananeo o cananeo. El dios solar Shemesh era adorado en la región, y la ciudad puede haber sido originalmente un centro de culto solar antes de su integración en el sistema levítico israelita.",
+      "religion": "Politeísmo cananeo — probable culto solar a Shemesh, con elementos de Baal y Asera",
+      "periodo": "Bronce Tardío hasta el Hierro I, c. 1400-1000 a.C."
+    },
+    {
+      "id": "filisteos-zona-sorec",
+      "nombre": "Filisteos del valle de Sorec",
+      "descripcion": "El valle de Sorec era zona de fricción permanente entre Judá y Filistea. El episodio de Sansón y Dalila transcurre en este mismo valle (Jue 16:4). Los filisteos de Ashdod, Ascalón y Gat competían por controlar el acceso al corredor del Sorec. La presencia filistea en la zona hasta Timna (Jue 14:1) evidencia que la frontera étnica era fluida y que las relaciones de convivencia y conflicto eran simultáneas.",
+      "religion": "Politeísmo filisteo — Dagón, Baal-Zebub; sincretismo progresivo con cultos cananeos locales",
+      "periodo": "Hierro I-II, c. 1200-700 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "arca-regresa-beth-shemesh",
+      "titulo": "El regreso del arca: los bueyes de Beth-shemesh",
+      "fecha": "c. 1050 a.C.",
+      "descripcion": "Tras siete meses en Filistea causando plagas en cada ciudad que la albergaba, los sacerdotes filisteos aconsejaron devolver el arca en una carreta nueva tirada por dos vacas recién paridas a las que nunca habían puesto yugo, separadas de sus terneros. Si las vacas subían por el camino de Beth-shemesh, sería señal de que Yahvé había causado los males; si no, sería casualidad. Las vacas tomaron directamente el camino de Beth-shemesh, mugiendo sin desviarse ni a derecha ni a izquierda. Los habitantes de Beth-shemesh estaban segando el trigo en el valle cuando levantaron la vista y vieron el arca. Rejoubilaron y ofrecieron las vacas en holocausto, usando la carreta como leña. Pero algunos miraron dentro del arca y murieron — setenta hombres según el texto— lo que recordó que la santidad del arca era peligrosa incluso para Israel. Los sobrevivientes enviaron mensajeros a Quiriat-jearim para que recogieran el arca.",
+      "referencias": ["1 Sam 6:1-21", "1 Sam 6:10-15", "1 Sam 6:19-21"],
+      "personajes_clave": ["levitas-beth-shemesh"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "batalla-beth-shemesh-amazias",
+      "titulo": "La batalla de Beth-shemesh: Judá derrotada por Israel",
+      "fecha": "c. 790 a.C.",
+      "descripcion": "El rey Amasías de Judá, envanecido por su victoria sobre Edom, desafió al rey Joás de Israel. Joás le respondió con una fábula: 'El cardo del Líbano mandó al cedro: Da a mi hijo tu hija por mujer.' La advertencia no fue escuchada. Los ejércitos se enfrentaron en Beth-shemesh, en el valle que separa los reinos. Judá fue completamente derrotada: Amasías fue capturado, Joás marchó a Jerusalén, derribó cuatrocientos codos del muro norte de la ciudad y se llevó los tesoros del templo y del palacio más rehenes. Beth-shemesh, ciudad de Judá, fue así el escenario de la mayor humillación del reino sureño a manos de su hermano del norte.",
+      "referencias": ["2 Re 14:8-14", "2 Cr 25:17-24"],
+      "personajes_clave": ["amazias", "joas-israel"]
+    },
+    {
+      "id": "filisteos-toman-beth-shemesh",
+      "titulo": "Acaz pierde Beth-shemesh ante los filisteos",
+      "fecha": "c. 735 a.C.",
+      "descripcion": "Durante el reinado de Acaz, uno de los reyes más criticados de Judá por su sincretismo, los filisteos aprovecharon la debilidad del reino para recuperar ciudades de la Sefela: tomaron Beth-shemesh, Ayalón, Gederot, Socoh, Timna y Gimzo con sus aldeas. El Cronista interpreta estas pérdidas como castigo divino por la apostasía de Acaz. La pérdida de Beth-shemesh significaba ceder el control de la puerta occidental de Judá y abrir el camino hacia las tierras altas y Jerusalén. Es el contexto geopolítico en que Acaz pidió ayuda al rey de Asiria, entregando los tesoros del templo como tributo — decisión que los profetas (Isaías) condenaron como pérdida de soberanía teológica y política.",
+      "referencias": ["2 Cr 28:18-21", "2 Re 16:5-9", "Is 7:1-17"],
+      "personajes_clave": ["acaz", "isaias"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "acaz",
+      "nombre": "Acaz",
+      "emoji": "👑",
+      "rol": "Rey de Judá, paradigma del sincretismo y la capitulación política",
+      "periodo": "c. 735–715 a.C.",
+      "descripcion": "Acaz ben Jotam es el rey de Judá más negativamente retratado antes de Manasés. Hizo pasar a su hijo por el fuego (posiblemente sacrificio ritual), ofreció en las alturas y bajo todo árbol frondoso, y ante la coalición sirio-israelita que amenazaba Jerusalén, rechazó la propuesta de Isaías de confiar en Yahvé e invocó la ayuda de Tiglatpileser III de Asiria, enviando los tesoros del templo como tributo. En Damasco vio un altar asirio y ordenó reproducirlo en el templo de Jerusalén, desplazando el altar de bronce de Salomón. La pérdida de Beth-shemesh ante los filisteos es uno de los signos del deterioro de su reinado.",
+      "referencias": ["2 Re 16:1-20", "2 Cr 28:1-27", "Is 7:1-25"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "amazias",
+      "nombre": "Amasías",
+      "emoji": "⚔️",
+      "rol": "Rey de Judá, victorioso contra Edom, derrotado en Beth-shemesh",
+      "periodo": "c. 800–783 a.C.",
+      "descripcion": "Amasías empezó bien: ejecutó a los asesinos de su padre (pero no a sus hijos, conforme a la ley de Moisés) y venció militarmente a Edom en el Valle de la Sal. Su error fue doble: contrató y luego despidió a cien mil soldados israelitas que habían cobrado su paga, y adoró a los dioses de Edom que había derrotado. Un profeta le advirtió: 'El que los ha abandonado te abandonará a ti.' Envanecido por la victoria sobre Edom, desafió a Israel y fue aplastado en Beth-shemesh. El texto bíblico presenta su derrota como consecuencia directa de su apostasía idolátrica.",
+      "referencias": ["2 Re 14:1-14", "2 Cr 25:1-24"],
+      "ruta": []
+    },
+    {
+      "id": "levitas-beth-shemesh",
+      "nombre": "Levitas de Beth-shemesh",
+      "emoji": "🕍",
+      "rol": "Sacerdotes levitas que recibieron el arca al regresar de Filistea",
+      "periodo": "c. 1050 a.C.",
+      "descripcion": "Los habitantes levitas de Beth-shemesh son los protagonistas anónimos del regreso del arca. Su regocijo al ver el arca volver desde Filistea contrasta con la muerte de los que miraron dentro. El texto (1 Sam 6:15) especifica que 'los levitas bajaron el arca' y la colocaron sobre la gran piedra, que quedó como memorial en el campo de Josué de Beth-shemesh. El episodio establece que incluso para los sacerdotes levitas la presencia divina en el arca es sagrada-peligrosa: puede ser portada pero no contemplada sin las precauciones rituales adecuadas.",
+      "referencias": ["1 Sam 6:13-21", "Núm 4:1-20"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Beth-shemesh —'Casa del Sol'— porta en su propio nombre la tensión entre el culto solar cananeo y el yahvismo que la convirtió en ciudad levítica. El episodio del arca, que culmina aquí, es uno de los textos más teológicamente densos del AT sobre la santidad divina: la presencia de Yahvé no puede ser manipulada por ningún pueblo, ni siquiera por Israel. El arca que los filisteos no pudieron retener tampoco puede ser mirada impunemente por los israelitas que la reciben. La santidad es simétrica en su peligrosidad.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo levítico — ciudad asignada a los sacerdotes aaronitas",
+      "Politeísmo cananeo residual — posible culto solar anterior a la asignación levítica",
+      "Politeísmo filisteo — influencia de la zona de contacto"
+    ],
+    "mitos": [
+      {
+        "id": "santidad-arca",
+        "nombre": "La santidad del arca y el peligro de lo sagrado",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 6:19-21; Núm 4:15-20; 2 Sam 6:6-7",
+          "fuente_secundaria": "Talmud Bavli, Sotá 35a; Maimonides, Mishné Torá, Hiljot Bet HaBejirá 4:1",
+          "descripcion": "La muerte de los que miraron dentro del arca en Beth-shemesh se suma a la muerte de Uzza (que la tocó para estabilizarla, 2 Sam 6) y a las instrucciones de Números 4 que prohíben a los levitas no coatitas tocar o ver los objetos sagrados bajo pena de muerte. La tradición rabínica desarrolló una teología del kadosh ('santo, separado'): lo sagrado no es simplemente bueno sino radicalmente 'otro', y el contacto no autorizado provoca una reacción que el texto describe como muerte. Maimonides sistematizó estas normas en el contexto del templo.",
+          "similitudes": "La noción de que lo sagrado es peligroso para el no iniciado aparece en muchas tradiciones religiosas.",
+          "diferencias": "El yahvismo bíblico distingue entre santidad como propiedad divina intransferible y pureza ritual como condición humana; el encuentro sin mediación adecuada es letal en ambos sentidos.",
+          "significado_teologico": "Dios no puede ser domesticado ni controlado por ningún pueblo. La santidad del arca protege tanto de los enemigos (filisteos) como de la familiaridad irreverente (israelitas de Beth-shemesh).",
+          "posible_relacion_cultural": "El concepto de objeto sagrado que destruye al no iniciado tiene paralelos en el tabú polinesio y en la noción mesopotámica de 'melammu' (resplandor divino aterrador), aunque sin el componente de alianza que define el arca israelita."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Heb 9:1-7; 1 Cor 11:27-30",
+          "fuente_secundaria": "Juan Crisóstomo, Homilías sobre 1 Corintios, XXVII",
+          "descripcion": "El NT aplica el principio de la santidad del arca a la Eucaristía: Pablo en 1 Cor 11:27-30 advierte que quien come el pan y bebe el cáliz de manera indigna 'es reo del cuerpo y la sangre del Señor', y que por eso hay enfermos y muertos entre ellos. La analogía es exacta: como en Beth-shemesh la irreverencia ante el arca producía muerte, la irreverencia ante el cuerpo de Cristo produce enfermedad espiritual y física. Hebreos 9 compara el acceso restringido al Santo de los Santos con el acceso universal que Cristo hace posible a través de su sangre.",
+          "similitudes": "La santidad de la presencia divina como principio que exige respeto ritualizado es idéntica en ambos testamentos.",
+          "diferencias": "El NT transforma el peligro de la santidad en llamada a la dignidad: Cristo hace posible el acceso al Padre, pero esa posibilidad exige una respuesta moral a su altura.",
+          "significado_teologico": "La encarnación no domestica la santidad divina; la hace accesible bajo la condición de la fe y el amor, no de la mera cercanía física.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

@@ -7,69 +7,136 @@
   "lng": 34.6351,
   "frecuencia_at": 23,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A major Philistine city, known for Dagon worship.",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2",
-    "post_exilio"
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Pentápolis filistea" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad-estado filistea bajo presión israelita y asiria" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Bajo dominio persa" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2", "post_exilio"],
+  "descripcion_geo": "Ashdod (hebreo: אַשְׁדּוֹד; filisteo: Asdudu) era la mayor de las cinco ciudades de la Pentápolis filistea, situada en la llanura costera de Canaán a unos 5 km del Mediterráneo y 35 km al norte de Gaza. Controlaba la ruta costera (Via Maris) entre Egipto y el norte de Canaán. El tell arqueológico (Tel Ashdod) muestra ocupación ininterrumpida desde el Bronce Medio hasta el período helenístico. La ciudad baja ('Ashdod-yam', el puerto) completaba el sistema urbano. Con una extensión de 60 hectáreas en su apogeo, fue una de las ciudades más grandes de Canaán durante el Hierro I-II.",
+  "altitud_m": 35,
+  "clima": "Mediterráneo costero — veranos cálidos y secos moderados por la brisa marina, inviernos suaves con lluvias de 400-500 mm. Suelos de fértil tierra roja (hamra) aptos para agricultura intensiva.",
+  "recursos": [
+    "Puerto marítimo y acceso al comercio mediterráneo",
+    "Llanura costera de alta productividad agrícola (trigo, cebada, vid, olivo)",
+    "Control de la Via Maris — ruta comercial y militar principal",
+    "Industria textil y de tinte de púrpura",
+    "Artesanía en bronce y hierro — los filisteos controlaban la metalurgia del hierro"
+  ],
+  "importancia_estrategica": "Ashdod era la llave norte de la Pentápolis filistea y el control de la Via Maris la convertía en ciudad indispensable para cualquier potencia que quisiera dominar el corredor entre Egipto y Mesopotamia. Su caída ante Uzías de Judá (c. 760 a.C.) y posteriormente ante los asirios de Sargón II (712 a.C.) marcan dos momentos decisivos de la expansión de los grandes imperios sobre la costa cananea.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos",
+      "nombre": "Filisteos",
+      "descripcion": "Los filisteos, llegados como 'Pueblos del Mar' hacia 1200 a.C., se establecieron en la llanura costera y fundaron la Pentápolis (Gaza, Ascalón, Ashdod, Ecrón, Gat). En Ashdod establecieron el templo principal de Dagón, su dios agrícola y de los cereales. Tecnológicamente avanzados en metalurgia del hierro, mantuvieron una superioridad militar sobre Israel durante los siglos XI-X a.C. La ciudad albergó también una clase mercantil cosmopolita con contactos en Chipre, el Egeo y Egipto, como evidencian los hallazgos arqueológicos de cerámica micénica y chipriota.",
+      "religion": "Politeísmo filisteo — culto a Dagón (dios principal), Baal-Zebub (Ecrón), Astarté. Sincretismo progresivo con cultos cananeos.",
+      "periodo": "c. 1200–600 a.C."
+    },
+    {
+      "id": "cananeos-ashdod",
+      "nombre": "Población cananea prefilistea",
+      "descripcion": "Antes de la llegada de los filisteos, Ashdod era una ciudad cananea del Bronce Tardío con conexiones comerciales con Ugarit y Egipto. La excavación arqueológica ha revelado que los filisteos no erradicaron a la población cananea sino que se fusionaron gradualmente con ella. Para el siglo IX a.C., la distinción cultural entre filisteos y cananeos en Ashdod era ya tenue, evidenciada por la adopción filistea de nombres teofóricos semíticos y prácticas religiosas cananeas.",
+      "religion": "Politeísmo cananeo — Baal, Asera, El",
+      "periodo": "Bronce Tardío hasta c. 1100 a.C., con asimilación gradual posterior"
+    },
+    {
+      "id": "judios-ashdod-postexilio",
+      "nombre": "Población mixta post-exílica",
+      "descripcion": "Nehemías menciona que los hijos de matrimonios mixtos entre israelitas retornados y mujeres de Ashdod ya no sabían hablar hebreo, solo 'el idioma de Ashdod' (Neh 13:24). Este dato arqueológico-lingüístico revela que Ashdod post-exílica era una ciudad multicultural donde la identidad israelita corría riesgo de disolverse, siendo uno de los problemas que Nehemías abordó con mayor urgencia en su reforma.",
+      "religion": "Sincretismo — mezcla de yahvismo y cultos locales cananeos y filisteos",
+      "periodo": "Post-exilio, siglos V-IV a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "arca-dagon",
+      "titulo": "El arca en el templo de Dagón",
+      "fecha": "c. 1050 a.C.",
+      "descripcion": "Tras la batalla de Eben-ezer, los filisteos capturaron el arca de la alianza y la trasladaron a Ashdod como trofeo de guerra, colocándola en el templo de Dagón junto a la estatua del dios. A la mañana siguiente, encontraron a Dagón caído rostro a tierra ante el arca. Lo recolocaron, pero al día siguiente volvieron a encontrarlo caído, esta vez con la cabeza y las manos cortadas sobre el umbral. Simultáneamente, una plaga devastadora (hemorras, quizás peste bubónica transmitida por ratones) golpeó a la ciudad. Los ashdoditas enviaron el arca a Gat, y de allí a Ecrón, con idénticos resultados catastróficos. Tras siete meses, los señores filisteos acordaron devolver el arca a Israel con una ofrenda de cinco tumores de oro y cinco ratones de oro, uno por cada ciudad de la Pentápolis.",
+      "referencias": ["1 Sam 5:1-7", "1 Sam 5:6-12", "1 Sam 6:1-12"],
+      "personajes_clave": ["dagon-sacerdotes"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "uzias-ashdod",
+      "titulo": "Uzías derriba los muros de Ashdod",
+      "fecha": "c. 760 a.C.",
+      "descripcion": "El rey Uzías de Judá (también llamado Azarías) emprendió una expansión militar sistemática hacia el oeste. Sus tropas atacaron Gat, Jabné y Ashdod, derribaron sus murallas y construyeron ciudades en el territorio de Ashdod y entre los filisteos. Esta campaña representó el punto máximo de poder del reino de Judá antes de la amenaza asiria. La excavación arqueológica de Tell Ashdod ha confirmado un nivel de destrucción del siglo VIII que puede corresponder a esta campaña. La victoria de Uzías es también el trasfondo de su posterior orgullo —quiso ofrecer incienso en el templo como sacerdote, fue golpeado con lepra y vivió aislado hasta su muerte.",
+      "referencias": ["2 Cr 26:6-8", "2 Re 15:1-7", "Is 20:1"],
+      "personajes_clave": ["uzias"]
+    },
+    {
+      "id": "sargon-ashdod",
+      "titulo": "La rebelión de Ashdod y la campaña de Sargón II",
+      "fecha": "712 a.C.",
+      "descripcion": "El rey Yamani de Ashdod encabezó una coalición anti-asiria buscando el apoyo de Egipto, Etiopía y Judá. Sargón II de Asiria envió a su tartan (general en jefe) a sofocar la rebelión. Yamani huyó a Egipto (o Etiopía), donde fue finalmente entregado encadenado a los asirios. Ashdod fue convertida en provincia asiria. El profeta Isaías actuó entonces como señal profética: anduvo tres años descalzo y en ropa interior por las calles de Jerusalén para advertir que así marcharían los prisioneros de Egipto y Etiopía cuando cayeran ante Asiria — el aviso era para Judá de no confiar en esas potencias. Las crónicas de Sargón II, descubiertas en Khorsabad, mencionan esta campaña explícitamente.",
+      "referencias": ["Is 20:1-6", "2 Re 18:8"],
+      "personajes_clave": ["isaias", "yamani"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "uzias",
+      "nombre": "Uzías (Azarías)",
+      "emoji": "🛡️",
+      "rol": "Rey de Judá en su mayor expansión territorial",
+      "periodo": "c. 792–740 a.C.",
+      "descripcion": "Uzías fue el rey de Judá que llevó el reino a su mayor extensión territorial desde Salomón. Además de su campaña contra Ashdod, reorganizó el ejército con equipamiento metálico avanzado, fortaleció las defensas de Jerusalén con torres y máquinas de guerra, y desarrolló la agricultura del Neguev con cisternas y torres. Su reinado largo y próspero terminó en tragedia: intentó arrogarse funciones sacerdotales en el templo, fue golpeado con lepra y vivió el resto de su vida en una 'casa de aislamiento', mientras su hijo Jotam gobernaba como corregente. El año de su muerte marca el inicio del ministerio profético de Isaías (Is 6:1).",
+      "referencias": ["2 Cr 26:1-23", "2 Re 15:1-7", "Is 6:1"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "isaias",
+      "nombre": "Isaías",
+      "emoji": "🔥",
+      "rol": "Profeta de Jerusalén, consejero de reyes durante la crisis asiria",
+      "periodo": "c. 760–700 a.C.",
+      "descripcion": "Isaías ben Amós fue el profeta de la corte de Jerusalén durante el período más crítico de la expansión asiria. Su actuación ante la crisis de Ashdod —andar tres años en ropa interior como señal profética— es uno de los gestos proféticos más llamativos del AT. Profeta de visión cósmica e histórica, combinó el anuncio de juicio sobre Israel y sus vecinos con las más elevadas promesas mesiánicas del AT. Su libro, el más largo de los profetas, influyó decisivamente en la teología bíblica posterior y es el más citado en el Nuevo Testamento.",
+      "referencias": ["Is 1:1", "Is 6:1-13", "Is 20:1-6"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "yamani",
+      "nombre": "Yamani de Ashdod",
+      "emoji": "⚔️",
+      "rol": "Rey rebelde de Ashdod que desafió a Asiria",
+      "periodo": "c. 713–712 a.C.",
+      "descripcion": "Yamani ('el Griego' o 'el Jonio', posiblemente indicando origen egeo o mercenario) fue un usurpador que tomó el trono de Ashdod y organizó la rebelión anti-asiria más significativa de la costa cananea de su tiempo. Buscó coalición con Egipto, Etiopía, Moab, Edom y posiblemente Judá. Su nombre en las crónicas asirias (Ia-ma-ni) y la mención a su huida a 'las regiones lejanas de Ethiopia' que lo entregó encadenado a Sargón son históricamente verificables. Su fracaso demostró que ninguna coalición regional podía resistir el poder militar de Asiria en su apogeo.",
+      "referencias": ["Is 20:1", "Inscripciones de Sargón II en Khorsabad"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Ashdod es el escenario del enfrentamiento más directo entre el Dios de Israel y una deidad rival en todo el AT: el derrumbe de Dagón ante el arca de la alianza. El episodio funciona narrativamente como una anti-procesión triunfal — el trofeo de guerra se convierte en el destructor del santuario del vencedor. Teológicamente, el texto afirma que la captura del arca no significaba la derrota de Yahvé sino su desplazamiento temporal a territorio enemigo, donde continuaba obrando con plena soberanía.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo filisteo — culto a Dagón como divinidad principal",
+      "Yahvismo israelita — presencia del arca como símbolo de la presencia divina",
+      "Politeísmo cananeo sincretizado — Baal, Astarté"
+    ],
+    "mitos": [
+      {
+        "id": "dagon-vs-yhwh",
+        "nombre": "La caída de Dagón ante el arca",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 5:1-5",
+          "fuente_secundaria": "Talmud Bavli, Avodá Zará 44a; Midrash Samuel 13",
+          "descripcion": "El episodio del arca en Ashdod es leído en la tradición rabínica como demostración de la superioridad de Yahvé sobre todos los dioses. El Midrash Samuel desarrolla que los filisteos encontraron a Dagón 'postrado ante el arca' como un siervo ante su señor. El Talmud (Avodá Zará 44a) usa el pasaje para ilustrar la impotencia de los ídolos: el propio Dagón fue el primero en 'reconocer' la soberanía de Yahvé. La plaga que siguió fue interpretada como confirmación de que la soberanía divina no podía ser detenida por fronteras geopolíticas.",
+          "similitudes": "Las tres tradiciones comparten la noción de que los ídolos son impotentes ante el Dios verdadero.",
+          "diferencias": "El judaísmo enfatiza la soberanía territorial absoluta de Yahvé; el Islam llevaría este principio al tawhid (unicidad divina) absoluto.",
+          "significado_teologico": "Yahvé no puede ser 'capturado' ni confinado. La presencia divina obra incluso en tierra enemiga. El arca es signo de la incontrolable soberanía de Dios.",
+          "posible_relacion_cultural": "Dagón (דָּגוֹן) es una deidad semítica occidental con raíces en la Siria del Bronce Medio (Ebla, Mari). Su nombre puede relacionarse con 'grano' (dagan) o con 'nube/lluvia'. Los textos de Ugarit lo presentan como padre de Baal."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 5:1-5; 1 Cor 8:4-6",
+          "fuente_secundaria": "Agustín, La Ciudad de Dios, I,1",
+          "descripcion": "Los padres de la Iglesia usaron el episodio de Dagón como demostración de la falsedad de los ídolos, argumento apologético central en el contexto del mundo greco-romano politeísta. Agustín en La Ciudad de Dios compara la presencia del arca en Ashdod con la situación de la Iglesia en el Imperio Romano: Dios obra en territorio hostil y termina triunfando sin necesidad de protección humana. El episodio prefigura también, en lectura tipológica, a Cristo que entra en el reino de la muerte y lo derrota desde dentro.",
+          "similitudes": "La soberanía divina que trasciende fronteras es idéntica en ambas tradiciones.",
+          "diferencias": "El NT reinterpreta el poder divino en términos de debilidad aparente y resurrección, no de derrumbe físico de ídolos.",
+          "significado_teologico": "La aparente derrota (captura del arca) oculta una victoria superior. Teología de la cruz avant la lettre.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

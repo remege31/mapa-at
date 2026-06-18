@@ -7,66 +7,125 @@
   "lng": 35.2612,
   "frecuencia_at": 39,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A Canaanite city conquered by Joshua after initial defeat.",
-  "periodos_at": [
-    "bronce_tardio"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Conquista de Canaán" }
+  ],
+  "periodos_at": ["bronce_tardio"],
+  "descripcion_geo": "Ai (hebreo: הָעַי, 'la ruina') era una ciudad cananea ubicada en las tierras altas de Benjamín, al este de Betel, a unos 15 km al norte de Jerusalén. Situada sobre una colina a aproximadamente 900 metros sobre el nivel del mar, controlaba un paso estratégico hacia el corazón de Canaán desde el valle del Jordán. El emplazamiento identificado con Ai (et-Tell) fue excavado en el siglo XX, revelando una ciudad que ya estaba en ruinas durante el período del Bronce Tardío, lo que ha generado un debate arqueológico continuado sobre su identificación exacta.",
+  "altitud_m": 900,
+  "clima": "Mediterráneo de altura — inviernos fríos con lluvias ocasionales de nieve, veranos secos y cálidos. Vientos del oeste traen humedad desde el Mediterráneo.",
+  "recursos": [
+    "Piedra caliza para construcción",
+    "Pastos para ganado en las colinas circundantes",
+    "Posición defensiva elevada con amplia visibilidad",
+    "Acceso a rutas comerciales hacia Betel y el interior de Canaán"
+  ],
+  "importancia_estrategica": "Ai controlaba la ruta de ascenso desde el vado de Adán en el Jordán hacia las tierras altas centrales de Canaán. Su caída abría el camino hacia Betel y el corazón del territorio cananeo. Era la segunda ciudad atacada por Israel tras Jericó, y su derrota inicial reveló la fragilidad de la moral israelita ante la desobediencia.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-ai",
+      "nombre": "Cananeos de Ai",
+      "descripcion": "Población cananea que habitaba la ciudad-estado de Ai y sus aldeas dependientes. Bajo el liderazgo de su rey, infligieron a Israel su primera derrota militar en Canaán, matando a 36 soldados israelitas en la emboscada inicial. Su victoria temporal se convirtió en derrota definitiva cuando Israel, purificado del pecado de Acán, aplicó una táctica de emboscada que atrajo al ejército de Ai fuera de sus murallas.",
+      "religion": "Politeísmo cananeo — culto a Baal, Asera y divinidades locales de las alturas",
+      "periodo": "Bronce Tardío, anterior a c. 1220 a.C."
+    },
+    {
+      "id": "habitantes-betel-ai",
+      "nombre": "Aliados de Betel",
+      "descripcion": "En el segundo ataque a Ai, el rey de Betel envió tropas en apoyo de Ai (Jos 8:17), indicando una alianza política-militar entre las dos ciudades vecinas. Esta coalición regional era característica de las ciudades-estado cananeas del Bronce Tardío, que cooperaban ante amenazas externas.",
+      "religion": "Politeísmo cananeo — Betel ('Casa de Dios') tenía especial relevancia como lugar de culto en las alturas",
+      "periodo": "Bronce Tardío, c. 1220 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "primera-derrota-ai",
+      "titulo": "La primera derrota: el pecado de Acán",
+      "fecha": "c. 1220 a.C.",
+      "descripcion": "Tras la caída de Jericó, Josué envió espías a Ai que regresaron con un informe optimista: bastaban dos o tres mil hombres para tomarla. El ataque inicial fue un desastre: los defensores de Ai persiguieron a los israelitas cuesta abajo y mataron a treinta y seis hombres. El corazón del pueblo se derritió como agua. La derrota no era militar sino espiritual: Acán, de la tribu de Judá, había tomado secretamente un manto babilónico, doscientos siclos de plata y un lingote de oro del botín de Jericó, que estaba consagrado al anatema divino. La adivinación por suertes señaló a Acán, quien confesó y fue apedreado junto con su familia en el valle de Acor. Sobre su cuerpo se levantó un gran montón de piedras que quedó como memorial.",
+      "referencias": ["Jos 7:1-26", "Jos 7:2-5", "Jos 7:19-25"],
+      "personajes_clave": ["josue", "acan"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "conquista-ai",
+      "titulo": "La emboscada y la caída de Ai",
+      "fecha": "c. 1220 a.C.",
+      "descripcion": "Purificado el campamento, Yahvé ordenó a Josué una estrategia de doble movimiento. Por la noche, Josué apostó treinta mil guerreros escogidos al oeste de la ciudad, ocultos. Al amanecer, Josué avanzó frontalmente con el grueso del ejército. Los defensores de Ai, confiados por su victoria anterior, salieron en persecución dejando la ciudad sin guarnición. Entonces la señal: Josué extendió su lanza hacia Ai y la emboscada emergió, tomó la ciudad y le prendió fuego. Los de Ai, atrapados entre dos grupos israelitas, fueron aniquilados. El rey de Ai fue capturado vivo, ahorcado al atardecer y sepultado bajo un montón de piedras en la entrada de la ciudad. Ai quedó para siempre 'un tell, una desolación', cumpliendo el significado de su nombre.",
+      "referencias": ["Jos 8:1-29", "Jos 8:18-19", "Jos 8:28-29"],
+      "personajes_clave": ["josue", "rey-ai"]
+    },
+    {
+      "id": "renovacion-alianza-ebal",
+      "titulo": "Renovación de la alianza en el monte Ebal",
+      "fecha": "c. 1220 a.C.",
+      "descripcion": "Inmediatamente después de la conquista de Ai, Josué condujo a todo Israel —hombres, mujeres, niños y extranjeros residentes— al norte, entre los montes Ebal y Guerizín, cerca de Siquén. Allí construyó un altar de piedras sin labrar, ofreció holocaustos y sacrificios de comunión, e inscribió sobre piedras encaladas una copia de la ley de Moisés. El arca del pacto ocupó el centro mientras los sacerdotes levitas permanecían a su lado. Josué leyó en voz alta todas las palabras de la ley —bendiciones y maldiciones— ante la asamblea completa. Este acto, cumplimiento directo de la instrucción de Moisés (Dt 27), convirtió la victoria militar en renovación de identidad: Israel no era solo un ejército conquistador sino una comunidad aliancista con su Dios.",
+      "referencias": ["Jos 8:30-35", "Dt 27:2-8", "Dt 11:29"],
+      "personajes_clave": ["josue"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "josue",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Sucesor de Moisés, comandante militar de Israel",
+      "periodo": "c. 1270–1200 a.C.",
+      "descripcion": "Josué ben Nun, de la tribu de Efraín, fue el líder que condujo a Israel desde el desierto hasta la tierra prometida. Sirviente personal de Moisés y uno de los dos espías (junto a Caleb) que dieron un informe de fe sobre Canaán, fue designado sucesor de Moisés antes de su muerte. En Ai, Josué experimentó tanto la humillación de la derrota inicial como el triunfo de la estrategia de emboscada. El gesto de extender su lanza hacia la ciudad —manteniendo el brazo extendido hasta la destrucción total, como Moisés en Refidim— lo presenta como mediador entre la acción divina y la militar.",
+      "referencias": ["Jos 1:1-9", "Jos 7:6-9", "Jos 8:18-26"],
+      "ruta": ["jerico", "ai", "shechem", "gibeon", "jerusalen", "hebron"]
+    },
+    {
+      "id": "acan",
+      "nombre": "Acán",
+      "emoji": "💰",
+      "rol": "Guerrero israelita de Judá, protagonista del pecado del anatema",
+      "periodo": "c. 1220 a.C.",
+      "descripcion": "Acán ben Carmi, de la familia del Zeraj, tribu de Judá, es la figura trágica de la campaña de Ai. Su transgresión —tomar objetos del anatema (herem) de Jericó— no fue un acto individual sin consecuencias colectivas: su pecado secreto causó la muerte de 36 israelitas y la primera derrota militar de la conquista. Cuando confesó ante Josué, nombró exactamente lo que tomó: un manto de Sinar (babilónico), doscientos siclos de plata y un lingote de oro de cincuenta siclos. Su historia es el relato fundacional del principio de solidaridad corporativa en Israel: la fidelidad individual sostiene o quiebra la comunidad entera.",
+      "referencias": ["Jos 7:1", "Jos 7:18-25", "1 Cr 2:7"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "rey-ai",
+      "nombre": "Rey de Ai",
+      "emoji": "👤",
+      "rol": "Monarca de la ciudad-estado de Ai",
+      "periodo": "c. 1220 a.C.",
+      "descripcion": "El texto bíblico no preserva el nombre del rey de Ai, lo que era habitual para los reyes de ciudades-estado menores en la narrativa de Josué. Su victoria inicial sobre la primera expedición israelita lo convirtió en símbolo de la vulnerabilidad de Israel ante la desobediencia. Capturado vivo durante la emboscada mientras sus tropas quedaban atrapadas entre dos fuerzas israelitas, fue ejecutado al atardecer —como los textos del Deuteronomio prescribían— y enterrado bajo un montón de piedras en la entrada de la ciudad, espejo del destino de Acán en el valle de Acor.",
+      "referencias": ["Jos 8:23", "Jos 8:29", "Jos 12:9"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Ai representa en la narrativa bíblica el principio teológico del herem (anatema): la consagración total de la victoria a Dios, con destrucción completa del botín. La transgresión de Acán introduce la noción de que la santidad del campamento —y por tanto el favor divino en la batalla— es colectiva: el pecado de uno contamina a todos. La subsiguiente renovación de la alianza en el monte Ebal, realizada inmediatamente después de la conquista de Ai, subraya que la conquista de Canaán no era una campaña militar sino una misión sacral de establecimiento de la alianza de Yahvé en la tierra.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo israelita — sistema del herem y la alianza sinaítica",
+      "Politeísmo cananeo — culto a Baal y divinidades de las alturas"
+    ],
+    "mitos": [
+      {
+        "id": "herem-ai",
+        "nombre": "El anatema (herem) y la santidad de la conquista",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 7:1-26; Dt 7:1-6",
+          "fuente_secundaria": "Talmud Bavli, Sanedrín 44a — 'Toda Israel son responsables unos por otros'",
+          "descripcion": "El concepto de herem (חֵרֶם) designa la consagración total a Dios mediante destrucción. En Jericó, todo lo viviente y el metal precioso estaban bajo anatema; Acán al tomar para sí objetos anatematizados transfirió la impureza a todo Israel. El Talmud (Sanedrín 44a) usa este episodio para establecer el principio de solidaridad corporativa (kol Israel arevim ze baze). La confesión voluntaria de Acán antes de su ejecución fue interpretada rabínicamente como un acto que le aseguró porción en el mundo venidero.",
+          "similitudes": "La idea de que la transgresión individual afecta a la comunidad aparece en las tres tradiciones abrahámicas.",
+          "diferencias": "El herem como destrucción masiva ordenada por Dios es específico del contexto de la conquista bíblica; no tiene equivalente directo en el Islam.",
+          "significado_teologico": "La victoria militar depende de la pureza moral del campamento. La alianza con Yahvé es colectiva: la fidelidad o infidelidad de un individuo determina el destino del grupo.",
+          "posible_relacion_cultural": "El concepto de guerra santa con destrucción total del botín tiene paralelos en inscripciones moabitas (Estela de Mesha) donde el rey Mesha aplica el herem en nombre de Kemosh, su dios nacional."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Heb 11:30-31; 1 Cor 5:6-7",
+          "fuente_secundaria": "Orígenes, Homilías sobre Josué, VIII",
+          "descripcion": "La tradición patrística leyó la historia de Ai en clave alegórica: Acán representa el pecado oculto que debilita a la Iglesia entera. Pablo en 1 Cor 5:6-7 aplica exactamente este principio —'un poco de levadura fermenta toda la masa'— a un caso de pecado en la comunidad de Corinto. Orígenes interpretó la conquista de Canaán como imagen de la batalla espiritual del alma contra los vicios, y a Josué (cuyo nombre en griego es Jesús) como prefiguración de Cristo que guía al pueblo a la verdadera tierra prometida.",
+          "similitudes": "La responsabilidad colectiva ante el pecado individual aparece en la eclesiología paulina con la misma intensidad que en el texto josúanico.",
+          "diferencias": "El cristianismo rechaza la violencia literal del herem; la reinterpreta como combate espiritual y purificación moral de la comunidad.",
+          "significado_teologico": "Josué como tipo de Cristo: el nombre idéntico (Yeshua/Jesús) fue para los Padres una señal de que la conquista de Canaán prefiguraba la redención espiritual de la humanidad.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

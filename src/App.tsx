@@ -240,15 +240,19 @@ function Panel({ lugar, periodId, onClose }: {
           </>)}
         </Acc>
         <Acc icon="🌍" title="Eventos paralelos" open={openAcc === 4} onToggle={() => toggle(4)}>
-          <div className="per-banner">
-            <div>
-              <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(periodId)}</div>
-              <div style={{ fontSize: 10, color: 'var(--gray)' }}>{getPeriodRange(periodId)}</div>
+          {periodId === 'todos' ? (
+            <p className="desc" style={{ opacity: 0.5, padding: '8px 0' }}>Selecciona un período histórico para ver eventos paralelos.</p>
+          ) : (<>
+            <div className="per-banner">
+              <div>
+                <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(periodId)}</div>
+                <div style={{ fontSize: 10, color: 'var(--gray)' }}>{getPeriodRange(periodId)}</div>
+              </div>
             </div>
-          </div>
-          {EVENTOS_PARALELOS_GLOBAL
-            .filter(e => e.periodo_at.includes(periodId))
-            .map(e => <EventoCard key={e.civilizacion} e={e} />)}
+            {EVENTOS_PARALELOS_GLOBAL
+              .filter(e => e.periodo_at.includes(periodId))
+              .map(e => <EventoCard key={e.civilizacion} e={e} />)}
+          </>)}
         </Acc>
       </div>
       {showFade && <div className="panel-scroll-fade" />}

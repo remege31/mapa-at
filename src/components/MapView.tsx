@@ -231,7 +231,7 @@ function makeIcon(
   showPulse: boolean,
   showTooltip: boolean,
   dimmed: boolean,
-  jerarquia: string = 'primario'
+  hideLabelOverride: boolean = false
 ): L.DivIcon {
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
   const r = Math.round(PIN.r * zoomScale)
@@ -244,7 +244,7 @@ function makeIcon(
     ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
   const label = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
-  const hideLabel = dimmed || (jerarquia === 'secundario' && zoom < 9)
+  const hideLabel = dimmed || hideLabelOverride
   const opacity = dimmed ? '0.25' : '1'
 
   const pulseHtml = showPulse ? `
@@ -370,13 +370,24 @@ export function MapView({
 
     const map = L.map(containerRef.current, {
       center: [31, 37],
-      zoom: 5,
+      zoom: 7,
       minZoom: 4,
       maxZoom: 10,
       zoomControl: false,
     })
 
     L.control.zoom({ position: 'bottomright' }).addTo(map)
+
+    const ZoomIndicator = L.Control.extend({
+      onAdd(m: L.Map) {
+        const div = L.DomUtil.create('div', 'zoom-indicator')
+        div.id = 'zoom-level-indicator'
+        div.textContent = String(m.getZoom())
+        m.on('zoomend', () => { div.textContent = String(m.getZoom()) })
+        return div
+      }
+    })
+    new ZoomIndicator({ position: 'bottomright' }).addTo(map)
 
     L.tileLayer(
       'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
@@ -562,7 +573,19 @@ export function MapView({
     const map = mapRef.current
     if (!map || !lugares.length) return
 
-    lugares.forEach(lugar => {
+    // Collision avoidance por distancia mínima entre pins
+    const ORDEN: Record<string, number> = { primario: 0, secundario: 1, terciario: 2 }
+    const sorted = [...lugares].sort((a, b) => {
+      const ja = (a as any).jerarquia_pin ?? 'primario'
+      const jb = (b as any).jerarquia_pin ?? 'primario'
+      return (ORDEN[ja] ?? 2) - (ORDEN[jb] ?? 2)
+    })
+
+    // Pins ya procesados con su posición en pantalla
+    const placedPins: Array<{ x: number; y: number }> = []
+    const MIN_DIST = 52 // píxeles mínimos entre pins para mostrar label
+
+    sorted.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
       const showPulse = isJerusalen && showHint
       const showTooltip = isJerusalen && showHint
@@ -570,10 +593,28 @@ export function MapView({
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       const dimmed = !periodosAt.includes(periodId)
       const jerarquia = (lugar as any).jerarquia_pin ?? 'primario'
-      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 8) || (jerarquia === 'terciario' && zoom < 9)
-      if (hiddenByZoom) return
+      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8)
 
-      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed, jerarquia)
+      if (hiddenByZoom) {
+        const existing = markersRef.current.get(lugar.id)
+        if (existing) {
+          map.removeLayer(existing)
+          markersRef.current.delete(lugar.id)
+        }
+        return
+      }
+
+      const pt = map.latLngToContainerPoint([lugar.lat, lugar.lng])
+
+      const esNivel1 = jerarquia === 'primario'
+      const colisiona = !dimmed && !esNivel1 && placedPins.some(p => {
+        const dx = pt.x - p.x
+        const dy = pt.y - p.y
+        return Math.sqrt(dx * dx + dy * dy) < MIN_DIST
+      })
+      if (!dimmed) placedPins.push({ x: pt.x, y: pt.y })
+
+      const icon = makeIcon(lugar, lugar.id === selectedId, zoom, showPulse, showTooltip, dimmed, colisiona)
 
       const existing = markersRef.current.get(lugar.id)
       if (existing) {
@@ -581,9 +622,10 @@ export function MapView({
         markersRef.current.delete(lugar.id)
       }
 
+      const isSelected = lugar.id === selectedId
       const marker = L.marker([lugar.lat, lugar.lng], {
         icon,
-        zIndexOffset: 1000,
+        zIndexOffset: isSelected ? 2000 : jerarquia === 'primario' ? 1000 : jerarquia === 'secundario' ? 500 : 100,
       })
 
       if (!dimmed) {

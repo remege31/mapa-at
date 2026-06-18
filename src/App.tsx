@@ -300,7 +300,6 @@ export default function App() {
   const [territoriosActive, setTerritoriosActive] = useState(false)
   const [rutasActive, setRutasActive] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
-  const searchRef = useRef<HTMLInputElement>(null)
   const [drawerTop, setDrawerTop] = useState(82)
   const [lugares, setLugares] = useState<import("./types/lugar").Lugar[]>([])
 
@@ -333,8 +332,6 @@ export default function App() {
   }, [])
 
   const closeAll = () => { setDrawerOpen(false); setMenuOpen(false) }
-  const openSearch = () => { setSearchActive(true); setSearchQuery(""); setTimeout(() => searchRef.current?.focus(), 50) }
-  const closeSearch = () => { setSearchActive(false); setSearchQuery("") }
   const searchResults = searchQuery.length >= 2 ? lugares.filter(l => l.nombre.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 6) : []
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
   const goToLastPlace = async () => {

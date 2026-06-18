@@ -7,68 +7,129 @@
   "lng": 34.8467,
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A fortified city in Judah",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad israelita en la Sefela" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Segunda ciudad de Judá, sitiada por Asiria y Babilonia" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Lachish (hebreo: לָכִישׁ) era la segunda ciudad más importante de Judá tras Jerusalén, situada en la Sefela a unos 40 km al suroeste de la capital. Tell Lachish es uno de los yacimientos arqueológicos más importantes de Israel: las excavaciones revelaron dieciocho niveles de ocupación, desde el Calcolítico hasta el período persa. El tell domina la llanura circundante con murallas de gran espesor del Hierro II. Los Relieves de Lachish en el palacio de Senaquerib en Nínive — hoy en el British Museum — muestran el asedio asirio de 701 a.C. en extraordinario detalle. Las Cartas de Lachish (dieciocho óstraca del período 589-587 a.C.) son uno de los documentos epigráficos más importantes del hebreo bíblico.",
+  "altitud_m": 40,
+  "clima": "Mediterráneo de llanura — precipitaciones de 350-400 mm anuales, veranos calurosos y secos, inviernos suaves. Suelos de la Sefela muy fértiles para agricultura de secano.",
+  "recursos": [
+    "Agricultura intensiva de la Sefela — trigo, cebada, olivos, viñedos",
+    "Posición de control sobre la ruta Egipto-Jerusalén",
+    "Industria cerámica y artesanal",
+    "Murallas masivas del Hierro II — sistema defensivo doble",
+    "Almacenes reales para aprovisionamiento militar"
+  ],
+  "importancia_estrategica": "Lachish era la fortaleza clave del sistema defensivo occidental de Judá. Todo ejército que marchara desde Egipto o la costa hacia Jerusalén debía tomar Lachish primero. Los reyes de Judá la convirtieron en la segunda plaza fuerte del reino, con murallas de hasta 6 metros de espesor y un elaborado sistema de puertas. Tanto Senaquerib (701 a.C.) como Nabucodonosor (588-586 a.C.) la sitiaron antes de marchar sobre Jerusalén. Su caída era el preludio inevitable de la caída de la capital.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-lachish",
+      "nombre": "Cananeos de Lachish",
+      "descripcion": "Lachish del Bronce Tardío era una de las ciudades-estado cananeas más prosperas de la llanura costera interior. Las cartas de Amarna (siglo XIV a.C.) mencionan a Lachish en el contexto de las disputas entre ciudades-estado cananeas y la administración egipcia. El templo cananeo del Bronce Tardío (Templo del Foso) revela un culto sofisticado con objetos de lujo de Egipto, Chipre y el Egeo. Su conquista por Josué fue total — 'hirió a filo de espada a todo ser viviente' — lo que confirmaron las excavaciones al revelar un nivel de destrucción masiva del siglo XIII a.C.",
+      "religion": "Politeísmo cananeo — culto a Baal, Asera y divinidades de las alturas; el Templo del Foso evidencia influencias egipcias (culto a Hathor)",
+      "periodo": "Bronce Tardío hasta c. 1200 a.C."
+    },
+    {
+      "id": "asirios-lachish",
+      "nombre": "Ejército asirio de Senaquerib",
+      "descripcion": "El asedio de Lachish por Senaquerib en 701 a.C. es uno de los eventos militares mejor documentados de la historia bíblica: confirmado por las crónicas asirias, los Relieves de Lachish en Nínive (que muestran rampa de asedio, máquinas de guerra, deportados) y la arqueología del tell (puntas de flecha asirias, restos de la rampa). Los asirios construyeron una rampa de tierra y piedra contra el flanco suroeste de la ciudad — la primera rampa de asedio documentada arqueológicamente en Israel. Senaquerib supervisó personalmente el asedio desde su trono de campaña, como muestran los relieves.",
+      "religion": "Politeísmo asirio — Asur como dios nacional, Ishtar, Marduk",
+      "periodo": "Hierro II, 701 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "josue-conquista-lachish",
+      "titulo": "Josué conquista Lachish: la campaña del sur",
+      "fecha": "c. 1220 a.C.",
+      "descripcion": "Lachish formó parte de la coalición de cinco reyes del sur (Jerusalén, Hebrón, Yarmut, Laquis, Eglón) que atacó a Gabaón por su alianza con Israel. Josué los derrotó en la batalla de Gabaón, persiguió a los fugitivos por el descenso de Bet-Jorón y los siete hasta Azecá y Maquedá, donde atrapó y ejecutó a los cinco reyes en una cueva. Luego marchó sistemáticamente sobre cada ciudad: Lachish cayó en dos días. El rey de Gezer acudió en auxilio de Lachish — fue derrotado también. La brevedad de la conquista ('tomó Lachish el segundo día', Jos 10:32) contrasta con la resistencia que ofrecería a Senaquerib cinco siglos después, evidenciando que las murallas del Hierro II eran incomparablemente más sólidas que las del Bronce Tardío.",
+      "referencias": ["Jos 10:31-33", "Jos 10:1-15", "Jos 12:11"],
+      "personajes_clave": ["josue-lachish"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "senaquerib-lachish",
+      "titulo": "Senaquerib asedia Lachish: el mayor relieve militar del mundo antiguo",
+      "fecha": "701 a.C.",
+      "descripcion": "En su campaña contra Judá y el rey Ezequías, Senaquerib de Asiria asedió primero Lachish antes de marchar sobre Jerusalén. El asedio fue tan significativo para el rey asirio que mandó tallar en la sala del trono de su palacio en Nínive un relieve panorámico de 26 metros mostrando el asedio en detalle: soldados asirios ascendiendo por la rampa de tierra, arqueros protegidos por escuderos, defensores judíos arrojando piedras y antorchas, deportados saliendo en fila con sus pertenencias, empalados en la vista de la ciudad como advertencia. Fue el único evento de su campaña que Senaquerib consideró digno de tal representación artística — ni siquiera la rendición de Jerusalén mereció un relieve equivalente. La arqueología confirmó la rampa de asedio y un foso masivo lleno de 1.500 esqueletos humanos. Desde Lachish, Senaquerib envió a sus oficiales con un gran ejército a Jerusalén mientras él permanecía en Lachish.",
+      "referencias": ["2 Re 18:13-17", "2 Cr 32:9", "Is 36:1-2"],
+      "personajes_clave": ["senaquerib", "ezequias"]
+    },
+    {
+      "id": "cartas-lachish",
+      "titulo": "Las Cartas de Lachish: las últimas palabras antes del silencio",
+      "fecha": "589-587 a.C.",
+      "descripcion": "Durante el asedio babilónico final (589-586 a.C.), el comandante de Lachish intercambió cartas con un oficial en un puesto avanzado. Dieciocho de estas cartas sobre fragmentos de cerámica (óstraca) fueron descubiertas en 1935-1938. La más célebre (Carta IV) dice: 'Que sepa mi señor que estamos vigilando las señales de fuego de Lachish según todas las indicaciones que mi señor nos ha dado, pues ya no vemos las señales de Azecá.' Azecá había caído. Jeremías 34:7 confirma: 'Solo Lachish y Azecá quedaban de las ciudades de Judá.' Las cartas revelan moral militar en desintegración, acusaciones contra funcionarios que 'debilitan las manos del pueblo', y una desesperación apenas contenida. Poco después, Lachish cayó. La excavación confirmó un nivel de destrucción masiva por fuego del 586 a.C.",
+      "referencias": ["Jer 34:7", "Cartas de Lachish IV", "2 Re 25:1-4"],
+      "personajes_clave": ["comandante-lachish", "jeremias-lachish"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "ezequias",
+      "nombre": "Ezequías",
+      "emoji": "🙏",
+      "rol": "Rey reformador de Judá, resistió a Senaquerib con fe en Yahvé",
+      "periodo": "c. 715–686 a.C.",
+      "descripcion": "Ezequías ben Acaz es uno de los reyes más admirados de Judá. Destruyó los lugares de culto en las alturas, quitó las estelas, cortó la asera e incluso destruyó la serpiente de bronce de Moisés (Nehustán) que el pueblo veneraba. Cuando Senaquerib invadió Judá y tomó Lachish, Ezequías pagó inicialmente un tributo enorme —300 talentos de plata y 30 de oro— vaciando el tesoro del templo. Pero cuando los emisarios asirios pronunciaron su discurso de intimidación ante los muros de Jerusalén, Ezequías fue al templo, extendió la carta asiria ante Yahvé y oró. Isaías anunció que el rey de Asiria no entraría en la ciudad. El ejército asirio fue diezmado por una plaga y Senaquerib regresó a Nínive, donde fue asesinado por sus hijos.",
+      "referencias": ["2 Re 18:1-20:21", "2 Re 19:14-19", "Is 36:1-37:38"],
+      "ruta": ["lachish", "jerusalen"]
+    },
+    {
+      "id": "senaquerib",
+      "nombre": "Senaquerib",
+      "emoji": "⚔️",
+      "rol": "Rey de Asiria, conquistador de Lachish, fracasado ante Jerusalén",
+      "periodo": "c. 705–681 a.C.",
+      "descripcion": "Senaquerib ben Sargón II es el faraón asirio cuya campaña del 701 a.C. está mejor documentada en la historia bíblica y extrabíblica. Sus prismas de barro ('Prisma de Taylor') conservan su versión: afirmó haber encerrado a Ezequías en Jerusalén 'como un pájaro en jaula' y exigido tributo, pero no afirmó haber tomado la ciudad. El relieve de Lachish — su mayor logro artístico y militar — muestra su orgullo por esa conquista. Su muerte a manos de sus hijos en el templo de Nisroc (2 Re 19:37; Is 37:38) fue confirmada por las crónicas babilónicas: fue asesinado en 681 a.C.",
+      "referencias": ["2 Re 18:13-19:37", "Is 36:1-37:38", "Prisma de Taylor"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "ruta": []
+      "id": "jeremias-lachish",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta de Jerusalén, contemporáneo de la caída de Lachish ante Babilonia",
+      "periodo": "c. 650–580 a.C.",
+      "descripcion": "Jeremías vivió la caída de Lachish como profeta en Jerusalén sitiada. Su mención de Lachish y Azecá (Jer 34:7) como las últimas ciudades en pie antes de la capitulación total es el trasfondo histórico exacto de las Cartas de Lachish. Durante el mismo período, Jeremías fue arrojado a una cisterna por sus adversarios — acusado de debilitar la moral de los defensores, exactamente el cargo que las cartas de Lachish hacen contra los funcionarios que 'debilitan las manos'. La coincidencia lingüística entre las cartas y el libro de Jeremías es uno de los argumentos para la autenticidad histórica de ambos documentos.",
+      "referencias": ["Jer 34:7", "Jer 38:1-13", "Jer 32:1-5"],
+      "ruta": ["anathoth", "jerusalen"]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Lachish concentra en su historia los dos grandes juicios sobre Judá en el AT: el asirio de 701 a.C. (del que Judá sobrevivió por la fe de Ezequías) y el babilónico de 586 a.C. (del que no hubo salvación). Las Cartas de Lachish son el documento más humano del AT extracanónico: soldados reales, con nombres reales, escribiendo en hebreo coloquial sobre el colapso de su mundo. La arqueología confirmó sus palabras capa por capa en el tell.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo — documentado en el Templo del Foso del Bronce Tardío",
+      "Yahvismo oficial del reino de Judá — Lachish como segunda ciudad del reino",
+      "Politeísmo asirio — durante el asedio de Senaquerib"
+    ],
+    "mitos": [
+      {
+        "id": "ezequias-fe-senaquerib",
+        "nombre": "Ezequías extiende la carta ante Yahvé: la fe que detuvo a Asiria",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 19:14-19; Is 37:14-20",
+          "fuente_secundaria": "Talmud Bavli, Sanedrín 94b; Midrash Rabbah, Isaías 37",
+          "descripcion": "El Talmud (Sanedrín 94b) afirma que Dios quiso hacer a Ezequías el Mesías y al rey asirio Gog y Magog — pero Ezequías no cantó un himno de victoria espontáneo tras la derrota de Senaquerib, a diferencia de Moisés en el Mar Rojo. El Midrash desarrolla que la oración de Ezequías extendiendo la carta de Senaquerib ante el altar fue el acto de fe más puro de la monarquía: no pidió victoria militar sino reconocimiento de la soberanía de Yahvé sobre todos los reinos de la tierra. El ángel que mató a 185.000 asirios en una noche es el brazo ejecutor de esa fe.",
+          "similitudes": "La fe que enfrenta la amenaza militar con oración en lugar de capitulación es un principio compartido por las tres tradiciones monoteístas.",
+          "diferencias": "El judaísmo elabora la teología de Ezequías como casi-Mesías; el NT lo usa como tipo de Cristo que enfrenta al adversario con confianza en el Padre.",
+          "significado_teologico": "La fe genuina no calcula fuerzas militares sino confía en la soberanía divina sobre la historia. La carta de Senaquerib extendida ante Dios es la forma más concreta de oración de intercesión: llevar al Señor la amenaza misma.",
+          "posible_relacion_cultural": "El motivo del rey piadoso que ora ante la amenaza del enemigo poderoso y recibe intervención divina tiene paralelos en textos de victoria del Oriente Próximo, incluyendo la autobiografía de Ramsés II en Kadesh, donde el faraón ora a Amón antes de la batalla."
+        },
+        "cristianismo": {
+          "fuente_primaria": "2 Re 19:14-19; Mt 6:25-34; Jn 16:33",
+          "fuente_secundaria": "Agustín, Enarrationes in Psalmos 45; Beda, Comentario sobre 2 Re 19",
+          "descripcion": "La oración de Ezequías ante la carta de Senaquerib fue leída por Agustín como modelo de la oración cristiana ante la persecución: presentar la amenaza misma a Dios, reconocer su soberanía universal y pedir gloria para el nombre divino, no solo salvación personal. La instrucción de Jesús 'no os angustiéis' (Mt 6:25-34) fue interpretada en este contexto: la confianza de Ezequías es el AT de la paz que Jesús promete. Beda usó el episodio para la catequesis monástica: el monje que enfrenta la tribulación debe, como Ezequías, extenderla ante el Señor antes de actuar.",
+          "similitudes": "La confianza en la soberanía divina ante la amenaza de poderes humanos aparentemente invencibles es idéntica en ambas tradiciones.",
+          "diferencias": "El NT lleva el principio a la persecución por la fe; el martirio es la forma extrema del patrón de Ezequías.",
+          "significado_teologico": "Dios puede intervenir en la historia para salvar a quienes confían en él ante amenazas humanamente insuperables. La fe de Ezequías es el AT de la victoria pascual: lo que parecía derrota segura se convierte en liberación.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

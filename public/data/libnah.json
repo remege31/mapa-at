@@ -3,72 +3,126 @@
   "nombre": "Libnah",
   "tipo": "ciudad",
   "nivel": 2,
-  "lat": 31.5649,
-  "lng": 34.8467,
+  "lat": 31.6200,
+  "lng": 34.8900,
   "frecuencia_at": 16,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A Canaanite city conquered by Joshua; a Levitical city",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "nota_coordenadas": "Coordenadas corregidas — el esqueleto original tenía las mismas coordenadas que Lachish. Identificación probable con Tel Burna (lat 31.62, lng 34.89), aunque Tel Zayit es también candidato.",
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad levítica de refugio en Judá" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza de Judá" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Libnah (hebreo: לִבְנָה, 'blancura' o 'álamo blanco') era una ciudad en la Sefela de Judá, al noreste de Lachish. Su identificación exacta es debatida entre Tel Burna y Tel Zayit, ambos en la zona de la Sefela a unos 8-10 km al norte de Lachish. Era ciudad levítica asignada a los sacerdotes aaronitas (Jos 21:13) y ciudad de refugio. Aparece repetidamente junto a Lachish en las narraciones militares — la conquista de Josué, el asedio de Senaquerib — evidenciando que formaban un sistema defensivo complementario en el corredor occidental de Judá. El lugar de nacimiento de la madre del rey Josías (2 Re 23:31) y del rey Joacaz.",
+  "altitud_m": 250,
+  "clima": "Mediterráneo de transición en la Sefela — precipitaciones de 400-450 mm anuales, veranos secos y calurosos, inviernos lluviosos suaves. Suelos aptos para olivares y agricultura de secano.",
+  "recursos": [
+    "Olivares en las colinas de la Sefela",
+    "Agricultura de secano — trigo, cebada",
+    "Posición defensiva en el corredor Sefela-Judá montañosa",
+    "Ciudad levítica — centro de instrucción religiosa y justicia",
+    "Acceso a rutas entre la llanura filistea y Hebrón"
+  ],
+  "importancia_estrategica": "Libnah formaba con Lachish el sistema de ciudades-fortaleza del oeste de Judá. Su conquista por Josué precedió a la de Lachish en la campaña del sur. En el asedio de Senaquerib (701 a.C.), Libnah resistió al ejército asirio mientras el rey negociaba desde Lachish — resistencia notable para una ciudad menor. Su carácter de ciudad levítica la convertía en centro religioso y judicial para toda la zona.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-libnah",
+      "nombre": "Cananeos de Libnah",
+      "descripcion": "El rey de Libnah es uno de los treinta y un reyes cananeos derrotados por Josué (Jos 12:15). La ciudad fue conquistada en la campaña del sur tras Lachish, como parte del barrido sistemático del corredor occidental de Canaán. Su nombre puede referirse al color blanco de sus edificaciones de piedra caliza local o a los álamos blancos que crecían en la zona.",
+      "religion": "Politeísmo cananeo — culto a Baal y divinidades locales de las alturas",
+      "periodo": "Bronce Tardío hasta c. 1200 a.C."
+    },
+    {
+      "id": "familia-real-libnah",
+      "nombre": "Familia real de Libnah — conexión con la monarquía de Judá",
+      "descripcion": "Hamital bat Jeremías de Libnah fue la madre tanto del rey Joacaz (2 Re 23:31) como del rey Sedecías (2 Re 24:18), los dos últimos reyes de Judá antes de la destrucción babilónica. Esta conexión entre una familia de Libnah y la familia real davídica en el período final del reino de Judá es un dato de prosopografía bíblica que sitúa a Libnah en la red de alianzas matrimoniales de la corte de Jerusalén.",
+      "religion": "Yahvismo real de Judá",
+      "periodo": "Hierro II tardío, finales del siglo VII a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "josue-conquista-libnah",
+      "titulo": "Josué conquista Libnah: el barrido sistemático del sur",
+      "fecha": "c. 1220 a.C.",
+      "descripcion": "Tras la batalla de Gabaón y la ejecución de los cinco reyes del sur, Josué emprendió la conquista sistemática de las ciudades de la coalición. Tras tomar Maquedá, marchó a Libnah y la atacó. Yahvé la entregó también en manos de Israel junto con su rey. La hirió a filo de espada con todo ser viviente, sin dejar supervivientes, como había hecho con el rey de Jericó. Inmediatamente después atacó Lachish. El patrón es idéntico en todas las ciudades: ataque, victoria en un día o dos, destrucción total, marcha a la siguiente ciudad. Libnah, siendo la primera de la secuencia sur-norte, estableció el ritmo de la campaña y la aplicación consistente del herem.",
+      "referencias": ["Jos 10:29-30", "Jos 10:38-39", "Jos 12:15"],
+      "personajes_clave": ["josue-libnah"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "libnah-se-rebela",
+      "titulo": "Libnah se rebela contra Judá: la rebelión en tiempos de Jorán",
+      "fecha": "c. 848 a.C.",
+      "descripcion": "Durante el reinado del rey Jorán de Judá — hijo de Josafat, yerno de Ajab, que 'hizo lo malo a los ojos de Yahvé' — Libnah se rebeló simultáneamente con Edom. El texto bíblico es escueto: 'En aquel tiempo Libnah se rebeló contra su dominio, porque él había abandonado a Yahvé Dios de sus padres.' El Cronista añade que Jorán había construido alturas en las montañas de Judá, fornicado con los habitantes de Judá y extraviado a Jerusalén. La rebelión de Libnah — ciudad levítica — es leída como juicio divino: la ciudad que debía ser centro de enseñanza de la Torá rechazó a un rey que la había traicionado. Fue el único caso documentado en el AT de una ciudad interior de Judá rebelándose contra su rey.",
+      "referencias": ["2 Re 8:22", "2 Cr 21:10-11"],
+      "personajes_clave": ["joran-juda", "libnah-ancianos"]
+    },
+    {
+      "id": "senaquerib-libnah",
+      "titulo": "Senaquerib ataca Libnah durante el asedio de Jerusalén",
+      "fecha": "701 a.C.",
+      "descripcion": "Mientras Senaquerib negociaba (o presionaba) a Ezequías desde Lachish, envió a sus generales con un gran ejército hacia Jerusalén. Según el texto bíblico, cuando el rey de Etiopía avanzó contra Senaquerib, el rey asirio, al oír la noticia, envió mensajeros a Ezequías diciéndole que no se fiara de su Dios. En ese contexto, el texto menciona que Senaquerib 'estaba luchando contra Libnah' (2 Re 19:8), sugiriendo que Libnah resistió al ejército asirio mientras Lachish ya había caído. La resistencia de Libnah es breve en el texto pero significativa: una ciudad levítica que combatió al invasor mientras el rey negociaba desde Lachish.",
+      "referencias": ["2 Re 19:8", "Is 37:8", "2 Re 18:17"],
+      "personajes_clave": ["senaquerib-libnah", "ezequias"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "josue-libnah",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Comandante militar de Israel, conquistador de Libnah en la campaña del sur",
+      "periodo": "c. 1270–1200 a.C.",
+      "descripcion": "Josué ben Nun aparece en la conquista de Libnah como el comandante metódico que ejecuta el plan divino de conquista del sur de Canaán con disciplina sistemática. Su táctica de barrido — de ciudad en ciudad, sin descanso, aplicando el herem a cada una — convirtió la campaña del sur en la operación militar más rápida de la conquista. La mención de Libnah junto a Lachish, Eglón y Hebrón en la misma secuencia evidencia que Josué entendió la geografía estratégica: las ciudades de la Sefela y el sur de Judá formaban un sistema que debía ser desmantelado en orden.",
+      "referencias": ["Jos 10:29-43", "Jos 1:1-9", "Jos 24:29-30"],
+      "ruta": ["jerico", "ai", "gibeon", "lachish", "libnah", "hebron"]
+    },
+    {
+      "id": "joran-juda",
+      "nombre": "Jorán de Judá",
+      "emoji": "👑",
+      "rol": "Rey de Judá, yerno de Ajab, bajo cuyo reinado Libnah se rebeló",
+      "periodo": "c. 848–841 a.C.",
+      "descripcion": "Jorán ben Josafat es uno de los reyes de Judá más negativamente presentados. Su matrimonio con Atalía, hija de Ajab y Jezabel, introdujo en Judá las prácticas religiosas que habían contaminado el reino del norte. El Cronista registra que mató a todos sus hermanos con espada al subir al trono. Bajo su reinado, Edom y Libnah se independizaron de Judá. Murió de una enfermedad intestinal dolorosa — el Cronista la presenta como cumplimiento de la carta profética de Elías — y el texto añade que 'se fue sin que nadie lo lamentara', siendo enterrado en Jerusalén pero no en los sepulcros reales.",
+      "referencias": ["2 Re 8:16-24", "2 Cr 21:1-20"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "hamital",
+      "nombre": "Hamital bat Jeremías de Libnah",
+      "emoji": "👸",
+      "rol": "Madre de los últimos reyes de Judá, oriunda de Libnah",
+      "periodo": "c. 630–580 a.C.",
+      "descripcion": "Hamital bat Jeremías de Libnah fue la madre del rey Joacaz (reinó 3 meses, 609 a.C.) y del rey Sedecías (el último rey, 597-586 a.C.). Su origen en Libnah — ciudad levítica de la Sefela — la sitúa en una familia de posiblemente trasfondo sacerdotal o levítico. La mención explícita de su ciudad de origen en los textos de entronización de sus hijos (2 Re 23:31; 24:18) sigue el patrón bíblico de identificar a las madres de los reyes de Judá por su origen geográfico. Hamital vivió para ver la deportación babilónica de ambos hijos: Joacaz fue llevado a Egipto por el faraón Necao; Sedecías fue cegado y llevado a Babilonia.",
+      "referencias": ["2 Re 23:31", "2 Re 24:18", "Jer 52:1"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Libnah es la ciudad levítica que se rebeló contra un rey injusto — el único caso de rebelión documentada de una ciudad interior de Judá contra la monarquía davídica. Esta rebelión fue leída por el texto bíblico no como traición sino como consecuencia directa del abandono de Yahvé por el rey Jorán. La ciudad que debía enseñar la Torá rechazó al rey que la había traicionado. Libnah concentra así dos temas del yahvismo bíblico: la ciudad levítica como guardiana de la fidelidad, y el juicio que comienza por la casa de Israel antes que por los enemigos externos.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo — culto pre-israelita antes de la conquista de Josué",
+      "Yahvismo levítico — ciudad sacerdotal asignada a los hijos de Aarón y ciudad de refugio",
+      "Baalismo omrida — influencia de la política religiosa de Jorán de Judá"
+    ],
+    "mitos": [
+      {
+        "id": "ciudad-que-juzga-al-rey",
+        "nombre": "Libnah se rebela: cuando la ciudad levítica juzga al rey infiel",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 8:22; 2 Cr 21:10-11",
+          "fuente_secundaria": "Midrash Rabbah, Números 13; Talmud Bavli, Sanedrín 102b sobre reyes de Judá",
+          "descripcion": "El Talmud y los Midrashim usaron la rebelión de Libnah para ilustrar el principio de que la apostasía del rey contamina al reino entero y provoca reacciones en cadena — primero la rebelión de Edom (pueblo pagano), luego la de Libnah (ciudad israelita levítica). La secuencia muestra que el juicio se extiende de fuera hacia dentro: primero los paganos se liberan del rey infiel, luego los propios israelitas. La rebelión de una ciudad levítica es especialmente significativa porque las ciudades levíticas debían ser centros de lealtad yahvista — su rebelión contra un rey apostata es la forma más dramática de denuncia religiosa.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El rey que abandona a Yahvé pierde la lealtad tanto de las naciones vecinas como de su propio pueblo. La legitimidad de la monarquía davídica descansaba en la fidelidad a la alianza, no en el derecho hereditario solo.",
+          "posible_relacion_cultural": "La rebelión de ciudades-estado contra un rey que viola sus obligaciones religiosas o de justicia aparece en textos del antiguo Oriente Próximo, incluyendo los textos de Mari sobre ciudades que se niegan a pagar tributo a reyes considerados ilegítimos."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
     ]
   }
 }

@@ -7,68 +7,128 @@
   "lng": 35.0028,
   "frecuencia_at": 18,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A town in the Shephelah of Judah, rescued by David",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la Sefela de Judá" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad levítica de Judá, rescatada por David" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza del reino de Judá" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Keilah (hebreo: קְעִילָה) era una ciudad en la Sefela (tierras bajas) de Judá, identificada con Tell Qila, en las colinas occidentales de Judá a unos 18 km al noroeste de Hebrón y 8 km al este de Laquis. Controlaba una ruta entre la llanura filistea y las tierras altas de Judá. Mencionada en las cartas de Amarna (siglo XIV a.C.) como ciudad bajo influencia egipcia, evidenciando su importancia en el Bronce Tardío. Ciudad levítica según Jos 15:44 y la lista de ciudades de Judá. El episodio de David en Keilah es notable por el uso del efod para consultar a Yahvé — una de las pocas escenas del AT que muestra la consulta oracular en detalle.",
+  "altitud_m": 450,
+  "clima": "Mediterráneo de transición — precipitaciones de 400-500 mm anuales, veranos secos y cálidos, inviernos lluviosos. Suelos de la Sefela aptos para olivares y cultivos de secano.",
+  "recursos": [
+    "Eras de trillar — mencionadas explícitamente en la narrativa de David (1 Sam 23:1)",
+    "Olivares y viñedos en las laderas",
+    "Agricultura de secano (trigo, cebada)",
+    "Posición en la ruta entre la llanura filistea y Hebrón",
+    "Murallas defensivas que la hacían ciudad refuge (1 Sam 23:7)"
+  ],
+  "importancia_estrategica": "Keilah era ciudad amurallada en el corredor entre Filistea y el sur de Judá. Su posición en la ruta hacia Hebrón la hacía estratégicamente valiosa tanto para los filisteos como para David. El episodio de David en Keilah revela la dinámica política del período: una ciudad israelita amenazada que el futuro rey rescata, pero cuyos habitantes no dudan en entregarlo a Saúl si eso garantizaba su seguridad.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos-keilah",
+      "nombre": "Filisteos que atacaron Keilah",
+      "descripcion": "Los filisteos atacaron Keilah durante la época de David como forajido, saqueando las eras de trilla en el momento de la cosecha — el momento de máxima vulnerabilidad para una ciudad agrícola. Este ataque no era conquista territorial sino rapiña sistemática: los filisteos usaban su superioridad militar para despojar las ciudades fronterizas israelitas de su producción agrícola, manteniéndolas en dependencia económica sin necesidad de ocupación permanente.",
+      "religion": "Politeísmo filisteo — Dagón y Baal-Zebub",
+      "periodo": "Hierro I, c. 1000 a.C."
+    },
+    {
+      "id": "habitantes-keilah",
+      "nombre": "Ciudadanos de Keilah",
+      "descripcion": "Los habitantes de Keilah representan en la narrativa bíblica la ambigüedad de la lealtad política: rescatados por David a costa de la vida de sus hombres, estaban dispuestos a entregarlo a Saúl para preservar su propia seguridad. La consulta de David al efod revela que Yahvé mismo confirmó esta probabilidad ('Te entregarán'). El episodio establece que la gratitud política tiene límites cuando la supervivencia está en juego — y que David aprendió de este cálculo que no podía confiar en ciudades amuralladas.",
+      "religion": "Yahvismo popular del sur de Judá con posible influencia levítica (ciudad levítica)",
+      "periodo": "Hierro I-II, c. 1200-586 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "david-libera-keilah",
+      "titulo": "David libera Keilah: la primera victoria del rey forajido",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Mientras David era forajido en el desierto con sus seiscientos hombres, le comunicaron que los filisteos saqueaban las eras de Keilah. David consultó a Yahvé mediante el efod: '¿Debo atacar a los filisteos?' Yahvé respondió: 'Ve, ataca a los filisteos y salva a Keilah.' Sus hombres dudaban — ya tenían suficientes peligros en Judá — pero David consultó de nuevo y Yahvé confirmó. Atacaron a los filisteos, se llevaron su ganado y los derrotaron con gran matanza, y salvaron a los habitantes de Keilah. David se estableció en la ciudad. Cuando Saúl supo que David estaba en Keilah — ciudad amurallada con una sola entrada — creyó que Dios lo había entregado en sus manos y movilizó a todo su ejército.",
+      "referencias": ["1 Sam 23:1-5", "1 Sam 23:7-8"],
+      "personajes_clave": ["david-keilah", "abiatar-keilah"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "david-escapa-keilah",
+      "titulo": "El efod de Abiatar: David pregunta y huye antes de la trampa",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Cuando David supo que Saúl tramaba su captura, pidió a Abiatar el sacerdote que trajera el efod. Consultó a Yahvé: '¿Vendrá Saúl a Keilah? ¿Entregarán los ciudadanos de Keilah a mí y a mis hombres en manos de Saúl?' Yahvé respondió dos veces: sí, Saúl vendrá; sí, te entregarán. David y sus seiscientos hombres salieron de Keilah y se dispersaron. Saúl desistió de la expedición cuando supo que David había escapado. El episodio es teológicamente notable: Yahvé revela no solo lo que ocurrirá sino lo que habría ocurrido si David hubiera permanecido. La consulta del efod funciona como acceso a la providencia divina que permite al fugitivo anticipar la traición y evitarla.",
+      "referencias": ["1 Sam 23:6-13", "1 Sam 23:9-12"],
+      "personajes_clave": ["david-keilah", "abiatar-keilah", "saul-keilah"]
+    },
+    {
+      "id": "keilah-nehemias",
+      "titulo": "Keilah en la reconstrucción: lealtad a Nehemías",
+      "fecha": "c. 445 a.C.",
+      "descripcion": "En el registro de Nehemías sobre los que reconstruyeron el muro de Jerusalén, aparecen dos gobernadores de Keilah: Hasbías y Bavai ben Henadad, gobernadores de la mitad del distrito de Keilah, repararon cada uno su trecho del muro. Este dato tardío confirma que Keilah continuó como centro administrativo en el período post-exílico, con un sistema de distritos bajo autoridad persa. La mención en Nehemías conecta la ciudad con el proyecto de reconstrucción de la identidad judía post-exílica — la misma ciudad que David rescató participó en la reconstrucción de Jerusalén cinco siglos después.",
+      "referencias": ["Neh 3:17-18", "Neh 11:30"],
+      "personajes_clave": ["hasbias-keilah"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "ruta": []
+      "id": "david-keilah",
+      "nombre": "David",
+      "emoji": "🎯",
+      "rol": "Futuro rey de Israel, forajido que rescató Keilah siendo perseguido por Saúl",
+      "periodo": "c. 1040–970 a.C.",
+      "descripcion": "David ben Isaí de Belén es el rey más central de la narrativa bíblica. El episodio de Keilah pertenece al período más oscuro de su vida: perseguido por Saúl, viviendo en el desierto con seiscientos hombres, sin base fija. Su decisión de arriesgarse a salvar Keilah — contra el consejo de sus propios hombres, consultando a Yahvé dos veces — muestra el perfil de liderazgo que lo define: valiente, piadoso, prudente. Su huida de Keilah antes de ser entregado muestra también su inteligencia política: no murió por lealtad a quienes no se la debolverian.",
+      "referencias": ["1 Sam 16:1-13", "1 Sam 23:1-13", "2 Sam 5:1-5"],
+      "ruta": ["bethlehem", "hebron", "keilah", "ziklag", "jerusalen"]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "abiatar-keilah",
+      "nombre": "Abiatar",
+      "emoji": "🕍",
+      "rol": "Sacerdote fugitivo, portador del efod que consultaba a Yahvé",
+      "periodo": "c. 1020–970 a.C.",
+      "descripcion": "Abiatar era el único superviviente de la masacre de los sacerdotes de Nob ordenada por Saúl. Escapó a David llevando el efod — el instrumento oracular de consulta a Yahvé. En Keilah, el efod de Abiatar permitió a David consultar directamente a Dios sobre el peligro que se aproximaba. La unión de David con Abiatar es la alianza entre el rey ungido y el sacerdocio legítimo (línea de Elí) que sobrevivió a la persecución de Saúl. Abiatar acompañó a David durante toda la huida, el reinado y la vejez, hasta que fue depuesto por Salomón por apoyar a Adonías.",
+      "referencias": ["1 Sam 22:20-23", "1 Sam 23:6-12", "1 Re 2:26-27"],
+      "ruta": ["keilah", "jerusalen"]
+    },
+    {
+      "id": "hasbias-keilah",
+      "nombre": "Hasbías de Keilah",
+      "emoji": "🧱",
+      "rol": "Gobernador post-exílico de Keilah, constructor del muro de Jerusalén",
+      "periodo": "c. 445 a.C.",
+      "descripcion": "Hasbías ben Azrikam, gobernador de la mitad del distrito de Keilah, es uno de los muchos administradores locales del período persa que Nehemías convocó para reconstruir el muro de Jerusalén. Aunque figura solo brevemente en la lista de constructores (Neh 3:17), su presencia confirma que Keilah seguía siendo un centro administrativo importante cinco siglos después de los episodios davídicos. La continuidad de Keilah como entidad administrativa desde el período de David hasta el de Nehemías — pasando por la conquista asiria, la destrucción babilónica y el retorno persa — es un ejemplo de la resiliencia de los centros urbanos de la Sefela.",
+      "referencias": ["Neh 3:17"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Keilah es el lugar donde el efod — instrumento de consulta oracular — aparece con más detalle en todo el AT. La doble consulta de David (¿vendrá Saúl? ¿me entregarán los de Keilah?) y las dos respuestas divinas afirmativas revelan una teología de la providencia activa: Dios no solo conoce el futuro sino que lo revela para permitir al fiel actuar prudentemente. Keilah es también el lugar donde David aprendió que la gratitud de los rescatados tiene límites — lección que moldearía su liderazgo posterior.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo con consulta oracular mediante efod — práctica sacerdotal levítica",
+      "Influencia filistea en la zona fronteriza — politeísmo en las comunidades vecinas"
+    ],
+    "mitos": [
+      {
+        "id": "efod-consulta-divina",
+        "nombre": "El efod y la consulta a Dios: saber antes de actuar",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 23:6-12; Ex 28:15-30; Núm 27:21",
+          "fuente_secundaria": "Maimonides, Mishné Torá, Hiljot Klei HaMikdash 9:1-10; Talmud Bavli, Yomá 73a-b",
+          "descripcion": "El efod con el Urim y Tumim era el instrumento oficial de consulta a Dios para decisiones de Estado. El Talmud (Yomá 73a-b) discute cómo funcionaba: las letras del pectoral del sumo sacerdote se iluminaban para dar respuestas. Maimonides codificó que solo el rey o el sumo sacerdote podían consultar el Urim y Tumim, y solo para decisiones que afectaban a toda la comunidad. El episodio de Keilah muestra a David — aún no rey — usando este instrumento mediante Abiatar, lo que implica que la unción profética de Samuel le otorgó prerrogativas reales antes de la coronación formal.",
+          "similitudes": "La búsqueda de la voluntad divina antes de actuar en decisiones importantes es un principio compartido por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo codificó el Urim y Tumim como institución formal del sacerdocio; el NT lo reemplaza con la oración en el Espíritu Santo.",
+          "significado_teologico": "El fiel no actúa por impulso propio sino consultando la voluntad divina. La decisión de David de preguntar a Dios antes de arriesgarse — y de preguntar de nuevo ante la duda — es el modelo de la obediencia informada.",
+          "posible_relacion_cultural": "La consulta oracular mediante objetos sagrados (suertes, flechas, hígados) era práctica universal en el antiguo Oriente Próximo. El efod israelita comparte la estructura formal de la oraculística mesopotámica pero la transforma: no hay magia ni manipulación, solo pregunta y respuesta personal entre el fiel y su Dios."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 23:2-4; Jn 16:13; Hch 1:24-26",
+          "fuente_secundaria": "Orígenes, Homilías sobre 1 Samuel; Agustín, Confesiones X,26",
+          "descripcion": "Los Padres de la Iglesia leyeron las consultas de David al efod como tipo de la oración cristiana de discernimiento. La promesa del Espíritu como guía ('os guiará hacia la verdad completa', Jn 16:13) fue interpretada como el nuevo efod — el acceso personal e interior a la voluntad divina que reemplaza el instrumento externo sacerdotal. Agustín en las Confesiones usa el principio davídico de consultar a Dios antes de actuar como fundamento de su teología de la inquietud del alma: el corazón no descansa hasta que consulta y encuentra a Dios.",
+          "similitudes": "La prioridad de la voluntad divina sobre el cálculo humano antes de actuar es idéntica en ambas tradiciones.",
+          "diferencias": "El NT interioriza el acceso divino (oración, Espíritu) vs. el instrumento externo sacerdotal del AT.",
+          "significado_teologico": "Dios quiere ser consultado. La acción sin consulta divina previa es arrogancia; la acción tras consulta fiel es obediencia.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

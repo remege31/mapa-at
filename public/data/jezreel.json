@@ -7,67 +7,128 @@
   "lng": 35.3308,
   "frecuencia_at": 39,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A city in Issachar, associated with Ahab and Jezebel",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad de la tribu de Isacar" },
+    { "desde": -1000, "hasta": -722, "nombre": "Hierro II — Residencia real de la dinastía de Omri" }
+  ],
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "descripcion_geo": "Jezreel (hebreo: יִזְרְעֶאל, 'Dios siembra') era una ciudad en el territorio de Isacar, en el extremo occidental del valle que lleva su nombre — el valle de Jezreel, la mayor llanura agrícola de Canaán. Situada sobre una colina basáltica de 100 metros que domina la llanura, controlaba las rutas entre la costa mediterránea, el Jordán y Galilea. Identificada con Tel Jezreel, fue residencia secundaria de los reyes omridas junto a Samaria. Las excavaciones confirmaron una ciudadela real del siglo IX con murallas, fosos y una gran torre. A sus pies se desarrollaron las historias más dramáticas de la dinastía de Ajab: la viña de Nabot, el enfrentamiento con Elías, y la muerte de Jezabel.",
+  "altitud_m": 100,
+  "clima": "Mediterráneo de llanura — el valle de Jezreel es la zona agrícola más fértil de Canaán, con precipitaciones de 400-500 mm anuales, veranos cálidos, inviernos suaves. Los manantiales del Harod y del Jezreel irrigan la llanura. Campo de batalla natural por su amplitud y accesibilidad.",
+  "recursos": [
+    "Llanura agrícola de excepcional fertilidad — trigo, cebada, aceite, vino",
+    "Control de la ruta entre el Mediterráneo (Meguido) y el Jordán (Bet-Seán)",
+    "Agua del manantial de Harod al sur",
+    "Viñedos y huertos — la viña de Nabot es el ejemplo narrativo",
+    "Posición defensiva elevada sobre la llanura"
+  ],
+  "importancia_estrategica": "El valle de Jezreel era el campo de batalla más codiciado de Canaán — todos los grandes ejércitos lo cruzaron: egipcios, cananeos, filisteos, asirios. La ciudad de Jezreel, dominando el extremo oriental del valle, era el punto de mando ideal. Los reyes omridas la eligieron como residencia secundaria precisamente por esta combinación de fertilidad agrícola y control militar. La sangre derramada en Jezreel — desde Gedeón hasta la matanza de Jehú — convirtió su nombre en símbolo profético de juicio.",
+  "otros_habitantes": [
+    {
+      "id": "isacarianos",
+      "nombre": "Israelitas de la tribu de Isacar",
+      "descripcion": "Jezreel pertenecía al territorio de Isacar, tribu cuya herencia era la fértil llanura. La población israelita de Jezreel fue testigo y víctima de las arbitrariedades de los reyes omridas: la historia de Nabot el jezreelita — propietario de una viña heredada que el rey quería expropiar — es el relato más concreto de la tensión entre la propiedad familiar israelita (vinculada a la alianza) y la arbitrariedad del poder monárquico de estilo cananeo.",
+      "religion": "Yahvismo popular del reino del norte — con syncretismo baalista fomentado por la corte omrida",
+      "periodo": "Hierro I-II, c. 1200-722 a.C."
+    },
+    {
+      "id": "corte-omrida",
+      "nombre": "Corte real omrida",
+      "descripcion": "La dinastía de Omri (Omri, Ajab, Ocozías, Jorán) estableció en Jezreel una residencia real que competía con Samaria. La presencia de Jezabel — princesa fenicia de Sidón — introdujo en la corte de Jezreel el culto a Baal de Tiro y prácticas de gobierno de estilo oriental que chocaron frontalmente con las tradiciones israelitas de propiedad y justicia. La ciudadela excavada confirma un palacio real del siglo IX con foso, torres y almacenes.",
+      "religion": "Sincretismo baalista-yahvista — Jezabel promovió el culto a Baal de Tiro; Ajab mantuvo formalmente el yahvismo",
+      "periodo": "Hierro II, c. 880-840 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "nabot-jezreel",
+      "titulo": "La viña de Nabot: la propiedad, el poder y el juicio de Elías",
+      "fecha": "c. 860 a.C.",
+      "descripcion": "Nabot el jezreelita tenía una viña junto al palacio de Ajab en Jezreel. Ajab le ofreció una viña mejor o su precio en dinero. Nabot respondió: 'Me guarde Yahvé de darte la herencia de mis padres.' Ajab volvió a su casa malhumorado. Jezabel intervino: '¿Eres tú rey de Israel o no? Levántate, come y alégrate; yo te daré la viña de Nabot.' Escribió cartas en nombre de Ajab, selló con su sello y las envió a los ancianos y notables de Jezreel: proclamad ayuno, sentad a Nabot a la cabeza del pueblo, poned frente a él dos hombres malvados que testifiquen: ha maldecido a Dios y al rey. Lo sacaron fuera de la ciudad, lo apedrearon y murió. Cuando Jezabel comunicó la noticia a Ajab y este bajó a tomar posesión, la palabra de Yahvé llegó a Elías: 'Ve al encuentro de Ajab. En el lugar donde los perros lamieron la sangre de Nabot, los perros lamerán también tu sangre.' El episodio es el texto más preciso del AT sobre el choque entre la monarquía de estilo oriental y el derecho israelita de propiedad inalienable.",
+      "referencias": ["1 Re 21:1-29", "1 Re 21:3", "1 Re 21:17-19"],
+      "personajes_clave": ["ajab", "jezabel", "elias-jezreel"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "jehu-matanza-jezreel",
+      "titulo": "Jehú en Jezreel: el fin de la dinastía omrida",
+      "fecha": "c. 841 a.C.",
+      "descripcion": "Eliseo envió a un joven profeta a ungir a Jehú como rey sobre Israel en Ramot de Galaad, con la misión de exterminar la casa de Ajab. Jehú marchó velozmente hacia Jezreel — un centinela avisó: 'El mensajero llegó hasta ellos pero no regresa; el conducir es como el conducir de Jehú ben Nimsi, que conduce furiosamente.' El rey Jorán salió a su encuentro en el campo de Nabot el jezreelita. Jehú lo mató con una flecha que lo atravesó de parte a parte. El cuerpo de Jorán fue arrojado a la parcela de Nabot, cumpliendo el oráculo de Elías. Jehú mató también al rey Ocozías de Judá que lo acompañaba. Jezabel, que se había pintado los ojos y adornado el cabello, lo miró desde la ventana: '¿Estás bien, Zimri, asesino de tu señor?' Jehú ordenó a los eunucos arrojarla. Su sangre salpicó la pared y los caballos. Cuando fueron a enterrarla, no encontraron más que el cráneo, los pies y las palmas de las manos — los perros la habían devorado, cumpliendo el oráculo de Elías.",
+      "referencias": ["2 Re 9:1-37", "2 Re 9:20", "2 Re 9:30-37"],
+      "personajes_clave": ["jehu", "jezabel", "jorán"]
+    },
+    {
+      "id": "oseas-jezreel-nombre",
+      "titulo": "Oseas llama Jezreel a su hijo: el nombre como oráculo",
+      "fecha": "c. 755 a.C.",
+      "descripcion": "El profeta Oseas, por mandato divino, casó con una mujer llamada Gómer. Su primer hijo recibió el nombre de Jezreel: 'Llámalo Jezreel, porque dentro de poco castigaré a la casa de Jehú por la sangre de Jezreel y pondré fin al reino de la casa de Israel. En aquel día quebraré el arco de Israel en el valle de Jezreel.' La paradoja es teológicamente densa: la matanza de Jehú en Jezreel — que el libro de Reyes presenta como cumplimiento del mandato divino — es ahora presentada por Oseas como crimen que Dios castigará. El mismo lugar, el mismo acto, leídos desde dos ángulos del profetismo. El nombre Jezreel ('Dios siembra') fue cargado por Oseas con el doble significado de juicio y promesa: en Os 2:24-25, el mismo nombre se convierte en señal de restauración: 'Yo sembraré a Israel para mí en la tierra.'",
+      "referencias": ["Os 1:4-5", "Os 2:24-25", "Os 1:2-9"],
+      "personajes_clave": ["oseas", "jezreel-hijo"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "ruta": []
+      "id": "jezabel",
+      "nombre": "Jezabel",
+      "emoji": "👄",
+      "rol": "Reina de Israel, princesa fenicia, promotora del culto a Baal",
+      "periodo": "c. 874–841 a.C.",
+      "descripcion": "Jezabel bat Etbaal, princesa de Sidón y esposa de Ajab rey de Israel, es la figura femenina más poderosa y más negativamente retratada de los libros de Reyes. Organizó la matanza de los profetas de Yahvé, mantuvo a cuatrocientos cincuenta profetas de Baal y cuatrocientos de Asera a su mesa, maquinó el asesinato judicial de Nabot, y amenazó de muerte a Elías tras su victoria en el Carmelo. Su muerte en Jezreel — arrojada por la ventana por sus propios eunucos, devorada por los perros — fue leída como cumplimiento exacto del oráculo de Elías. Su nombre se convirtió en sinónimo de seducción al mal y corrupción del poder en toda la literatura posterior, incluyendo el Apocalipsis (Ap 2:20).",
+      "referencias": ["1 Re 18:4", "1 Re 21:7-14", "2 Re 9:30-37"],
+      "ruta": ["sidon", "jezreel", "samaria"]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jehu",
+      "nombre": "Jehú",
+      "emoji": "🏇",
+      "rol": "Rey de Israel, ejecutor del juicio divino sobre la casa de Ajab",
+      "periodo": "c. 841–814 a.C.",
+      "descripcion": "Jehú ben Nimsi fue ungido rey por un enviado de Eliseo con la misión de exterminar la casa de Ajab. Su conducción furiosa del carro se convirtió en proverbio (2 Re 9:20). Mató a Jorán rey de Israel, a Ocozías rey de Judá, a Jezabel, a setenta hijos de Ajab, a cuarenta y dos parientes de Ocozías y a todos los profetas de Baal reunidos bajo engaño en su templo. La Estela de Tel Dan (siglo IX a.C.) menciona posiblemente a Jehú como rey de Israel. La sangre de Jezreel — que justificó su reinado ante sus contemporáneos — fue condenada por Oseas una generación después como crimen que exigía castigo.",
+      "referencias": ["2 Re 9:1-10:36", "2 Re 9:20", "Os 1:4"],
+      "ruta": ["jezreel", "samaria"]
+    },
+    {
+      "id": "oseas",
+      "nombre": "Oseas",
+      "emoji": "💔",
+      "rol": "Profeta del reino del norte, el profeta del amor herido de Dios",
+      "periodo": "c. 755–725 a.C.",
+      "descripcion": "Oseas ben Beeri es el único profeta escritor originario del reino del norte de Israel. Su matrimonio con Gómer — mujer de prostitución — fue una experiencia biográfica que se convirtió en metáfora de la relación entre Yahvé e Israel: el amado que es traicionado pero que no puede dejar de amar. Su libro es el más emocionalmente intenso del profetismo pre-exílico. El nombre Jezreel dado a su primer hijo condensa la doble visión de Oseas: el mismo lugar es símbolo de juicio (la sangre de Jehú) y de esperanza (Dios volverá a sembrar a Israel). Ningún profeta del AT expresa con más fuerza la ternura y el dolor de Dios ante la infidelidad de su pueblo.",
+      "referencias": ["Os 1:1-3", "Os 2:16-25", "Os 11:1-9"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Jezreel es el escenario donde el conflicto entre el yahvismo profético y la monarquía de estilo oriental alcanzó su punto más dramático. La viña de Nabot condensa el choque entre dos concepciones del poder: la israelita (la tierra es herencia de Yahvé, inalienable) y la cananea-fenicia (el rey dispone de todo). La matanza de Jehú fue el juicio sobre esa concepción. Pero Oseas, una generación después, vio en la misma matanza un crimen que exigía nuevo juicio — sugiriendo que la violencia, incluso cuando ejecuta la voluntad divina, deja una deuda.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo israelita — tradición de la propiedad familiar inalienable",
+      "Baalismo fenicio — introducido por Jezabel desde Sidón",
+      "Sincretismo popular — mezcla de cultos yahvista y baalista en el reino del norte"
+    ],
+    "mitos": [
+      {
+        "id": "nabot-justicia-divina",
+        "nombre": "La viña de Nabot: la propiedad, la justicia y la memoria de Dios",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Re 21:1-29; Lv 25:23-28",
+          "fuente_secundaria": "Talmud Bavli, Sanedrín 48b; Midrash Tanjuma, Emor 24",
+          "descripcion": "El episodio de Nabot es el texto central del AT sobre la inalienabilidad de la herencia familiar. Levítico 25:23 establece el fundamento teológico: 'La tierra no se venderá a perpetuidad, porque la tierra es mía y vosotros sois para mí forasteros y huéspedes.' La negativa de Nabot no era obstinación sino obediencia a la ley. El Talmud (Sanedrín 48b) discute el estatuto de los bienes de un ejecutado injustamente: no pueden ser adquiridos por el ejecutor. El Midrash desarrolla que Ajab fue perdonado por su penitencia (1 Re 21:27-29) pero el juicio sobre su casa no fue cancelado, solo pospuesto.",
+          "similitudes": "La idea de que el poder político no puede atropellar la propiedad y la dignidad del individuo es un principio compartido por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo enfatiza el marco legal (herencia inalienable, ley del año jubilar); el NT desplaza el énfasis hacia la justicia como virtud personal.",
+          "significado_teologico": "La tierra pertenece a Yahvé, no al rey. El poder político tiene límites fijados por la ley divina. Cuando el rey los transgrede, el profeta tiene el deber de confrontarlo.",
+          "posible_relacion_cultural": "La protección de la propiedad familiar contra la confiscación real aparece en el Código de Hammurabi (§§30-31), pero sin el fundamento teológico del dominio divino sobre la tierra que caracteriza el caso israelita."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Re 21:1-29; Lc 12:15-21; Sant 5:1-6",
+          "fuente_secundaria": "Ambrosio, De Nabuthae (tratado completo sobre 1 Re 21); Juan Crisóstomo, Sobre la riqueza y la pobreza",
+          "descripcion": "Ambrosio de Milán escribió el primer tratado cristiano de justicia social basado enteramente en la historia de Nabot: De Nabuthae. Argumentó que la codicia de los ricos que acumulan propiedades a costa de los pobres repite el crimen de Ajab-Jezabel contra Nabot. Juan Crisóstomo usó el mismo texto para predicar contra la acumulación de riqueza en Constantinopla. Santiago 5:1-6 parece ecoar el episodio: 'El jornal de los obreros que han segado vuestros campos, retenido por vosotros, está gritando, y los clamores de los segadores han llegado a los oídos del Señor Sabaoth.'",
+          "similitudes": "La denuncia del abuso del poder económico sobre los pobres es idéntica en ambas tradiciones.",
+          "diferencias": "El NT universaliza el principio más allá de Israel; la patrística lo aplicó directamente a la estructura económica del Imperio Romano.",
+          "significado_teologico": "La sangre del inocente despojado clama a Dios. El poderoso que abusa del débil enfrentará el juicio divino — no escapará aunque sea rey.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

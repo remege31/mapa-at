@@ -7,67 +7,135 @@
   "lng": -6.3793,
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — Distant maritime city known for its wealth and trade",
-  "periodos_at": [
-    "hierro_1",
-    "hierro_2"
+  "nota_coordenadas": "Ubicación incierta — coordenadas basadas en la identificación más extendida con Tartessos en el sur de la península ibérica (zona de Huelva/Cádiz). Otras propuestas: Tarso en Cilicia, Cerdeña, norte de África. El pin aparece en el extremo occidental del mapa.",
+  "periodos": [
+    { "desde": -1000, "hasta": -722, "nombre": "Hierro I-II — Destino de las flotas de Salomón y Josafat; huida de Jonás" }
+  ],
+  "periodos_at": ["hierro_1", "hierro_2"],
+  "descripcion_geo": "Tarshish (hebreo: תַּרְשִׁישׁ) es el lugar más lejano del horizonte geográfico del AT — el extremo occidental del mundo conocido israelita. Su identificación exacta ha sido debatida durante siglos: la propuesta más aceptada la sitúa en Tartessos, civilización del sur de la península ibérica (actual Huelva/Cádiz) conocida por sus riquezas mineras de plata, hierro, estaño y plomo. Otras propuestas incluyen Tarso en Cilicia (Turquía), Cerdeña y el norte de África. Las 'naves de Tarshish' eran el tipo de barco oceánico más grande y robusto del mundo antiguo mediterráneo, capaz de travesías de meses. Tarshish funciona en el AT tanto como destino geográfico real como símbolo literario del 'fin del mundo'.",
+  "altitud_m": 10,
+  "clima": "Mediterráneo atlántico — si la identificación con Tartessos es correcta, zona de clima suave con influencia oceánica, precipitaciones de 500-600 mm anuales, veranos cálidos y secos, inviernos lluviosos suaves.",
+  "recursos": [
+    "Plata, hierro, estaño y plomo — metales preciosos e industriales (Ez 27:12)",
+    "Comercio marítimo de larga distancia",
+    "Madera de construcción naval",
+    "Productos del Mediterráneo occidental desconocidos en el Levante"
+  ],
+  "importancia_estrategica": "Tarshish no era importante estratégicamente para Israel en sentido militar sino económico y simbólico. Las flotas de Salomón y Josafat que partían de Ezión-guéber en el Mar Rojo hacia Ofir se llaman también 'naves de Tarshish' — tipo de embarcación, no necesariamente destino. Como símbolo, Tarshish representaba el límite occidental del mundo: el lugar más lejos posible de la presencia de Yahvé en Jerusalén, adonde huyó Jonás.",
+  "otros_habitantes": [
+    {
+      "id": "tartesios",
+      "nombre": "Tartesios — pueblo del extremo occidental",
+      "descripcion": "Si Tarshish es Tartessos, sus habitantes eran una civilización del Bronce Final-Hierro I en el suroeste de la península ibérica, conocida por Heródoto y otras fuentes griegas como productora de enormes riquezas minerales. Los fenicios de Tiro y Sidón establecieron relaciones comerciales con Tartessos antes del siglo IX a.C. — la conexión fenicia explica por qué Israel conocía Tarshish: la ruta pasaba por Tiro. La civilización tartesia declinó hacia el siglo VI a.C., posiblemente absorbida por los cartagineses.",
+      "religion": "Politeísmo ibérico occidental — divinidades locales con influencias fenicias (Melqart, Astarté) por el contacto comercial",
+      "periodo": "Hierro I-II, c. 1000-500 a.C."
+    },
+    {
+      "id": "comerciantes-fenicios-tarshish",
+      "nombre": "Comerciantes fenicios de Tiro",
+      "descripcion": "Los fenicios de Tiro eran los intermediarios del comercio entre el Levante y Tarshish. Ezequiel 27:12 describe el comercio de Tiro con Tarshish: 'Tarshish comerciaba contigo por la abundancia de toda clase de riquezas; con plata, hierro, estaño y plomo pagaban tus mercancías.' La ruta fenicia hacia Tarshish pasaba por el estrecho de Gibraltar (las Columnas de Hércules), en el límite del mundo conocido. Las colonias fenicias de Cádiz (Gadir) y el norte de África facilitaban el trayecto.",
+      "religion": "Politeísmo fenicio — Melqart de Tiro como dios patrono de las navegaciones comerciales",
+      "periodo": "Hierro I-II, c. 1000-600 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "flotas-salomon-tarshish",
+      "titulo": "Las naves de Tarshish de Salomón: el comercio que llegó al fin del mundo",
+      "fecha": "c. 950 a.C.",
+      "descripcion": "Salomón construyó una flota de naves en Ezión-guéber, en el Mar Rojo, con la ayuda de marineros fenicios expertos enviados por Hiram de Tiro. Las naves hacían el viaje a Ofir cada tres años y traían oro, plata, marfil, monos y pavos reales. El texto llama a estas embarcaciones 'naves de Tarshish' — denominación que indica el tipo de nave oceánica grande, no necesariamente el destino ibérico. Pero la expresión vincula el comercio marítimo máximo de Salomón con el símbolo del extremo occidental del mundo. El Cronista añade que Josafat intentó renovar estas flotas pero sus naves naufragaron en Ezión-guéber — señal de que el favor divino que acompañó a Salomón no se transfería automáticamente a sus sucesores.",
+      "referencias": ["1 Re 10:22", "1 Re 9:26-28", "2 Cr 20:35-37"],
+      "personajes_clave": ["salomon-tarshish", "hiram-tiro"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "jonas-huye-tarshish",
+      "titulo": "Jonás huye a Tarshish: el profeta que corrió hacia el fin del mundo",
+      "fecha": "c. 760 a.C. (narración; texto del libro probablemente post-exílico)",
+      "descripcion": "Cuando Yahvé ordenó a Jonás ir a Nínive a predicar el arrepentimiento, Jonás se levantó para huir a Tarshish, lejos de la presencia de Yahvé. Bajó a Jafá, encontró un barco que iba a Tarshish, pagó el pasaje y embarcó. La elección de Tarshish no es casual: era el punto más alejado posible de Nínive — mientras Nínive estaba al noreste, Tarshish estaba al extremo suroeste. Jonás intentó poner el máximo de geografía entre él y su misión. Yahvé lanzó un gran viento sobre el mar. Los marineros aterrorizados arrojaron el equipaje. Jonás dormía en el fondo de la nave. El capitán lo despertó: '¿Cómo puedes dormir? Levántate e invoca a tu Dios.' Las suertes señalaron a Jonás. Confesó y pidió ser arrojado al mar. Un gran pez lo tragó.",
+      "referencias": ["Jon 1:1-17", "Jon 1:3", "Jon 1:9-12"],
+      "personajes_clave": ["jonas", "marineros-tarshish"]
+    },
+    {
+      "id": "tarshish-profecias",
+      "titulo": "Tarshish en las profecías: el fin del mundo que alabará a Yahvé",
+      "fecha": "siglos VIII-VI a.C.",
+      "descripcion": "Los profetas usaron Tarshish en dos registros opuestos. Isaías 2:16 la menciona en el contexto del juicio: 'El día de Yahvé será contra todas las naves de Tarshish' — el símbolo de la riqueza y el orgullo comercial caerá bajo el juicio divino. Pero Isaías 66:19 la incluye en la visión escatológica de restauración: Yahvé enviará supervivientes 'a Tarshish, a Put, a Lud... a las islas lejanas que no han oído mi fama ni han visto mi gloria, y proclamarán mi gloria entre las naciones.' El Salmo 72:10 promete: 'Los reyes de Tarshish y de las islas traerán presentes.' Tarshish oscila entre símbolo del orgullo humano que será juzgado y símbolo de los confines de la tierra que finalmente reconocerán a Yahvé.",
+      "referencias": ["Is 2:16", "Is 66:19", "Sal 72:10"],
+      "personajes_clave": ["isaias-tarshish"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "jonas",
+      "nombre": "Jonás",
+      "emoji": "🐋",
+      "rol": "Profeta que huyó a Tarshish, tragado por el pez, enviado a Nínive",
+      "periodo": "c. 760 a.C. (referencia histórica); libro probablemente del siglo V-IV a.C.",
+      "descripcion": "Jonás ben Amitai de Gat-Hefer es el profeta más paradójico del AT. Único profeta que huyó explícitamente de su misión, fue tragado por un gran pez, oró desde las entrañas del abismo, fue vomitado en tierra y cumplió su misión — pero se disgustó cuando funcionó. Su libro termina con Dios preguntándole: '¿Y no voy a tener lástima de Nínive, esa gran ciudad, donde hay más de ciento veinte mil personas que no saben distinguir su derecha de su izquierda?' La pregunta queda sin respuesta — el libro termina abierto. Jonás es el anti-héroe profético: todos los profetas sufrían por su misión, él sufrió porque funcionó.",
+      "referencias": ["Jon 1:1-4:11", "2 Re 14:25", "Mt 12:39-41"],
+      "ruta": ["tarshish"]
+    },
+    {
+      "id": "marineros-tarshish",
+      "nombre": "Los marineros del barco a Tarshish",
+      "emoji": "⚓",
+      "rol": "Marineros paganos que reconocieron a Yahvé durante la tormenta",
+      "periodo": "c. 760 a.C. (narración)",
+      "descripcion": "Los marineros del barco a Tarshish son uno de los grupos más admirables del libro de Jonás. Paganos de diversas nacionalidades ('cada uno clamaba a su dios'), mostraron más humanidad y piedad que el profeta israelita: intentaron llegar a tierra antes de arrojar a Jonás, temieron arrojarlo al mar, y cuando la tormenta cedió 'temieron con gran temor a Yahvé, ofrecieron sacrificios y formularon votos.' El texto presenta una ironía brutal: los paganos que iban a Tarshish reconocieron a Yahvé en la tormenta mientras el profeta de Yahvé dormía en la bodega huyendo de su Dios.",
+      "referencias": ["Jon 1:5-16"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "hiram-tiro",
+      "nombre": "Hiram de Tiro",
+      "emoji": "🚢",
+      "rol": "Rey fenicio de Tiro, socio comercial de Salomón en las naves de Tarshish",
+      "periodo": "c. 980–947 a.C.",
+      "descripcion": "Hiram I de Tiro fue el aliado estratégico de Salomón en sus grandes proyectos: proveyó madera de cedro y ciprés del Líbano para el templo, envió artesanos especializados para la construcción, y facilitó marineros expertos para las flotas de Ezión-guéber. La alianza Salomón-Hiram fue el fundamento del apogeo económico del reinado salomónico: Israel tenía tierra, Fenicia tenía conocimiento marítimo y redes comerciales. Sin los marineros fenicios de Hiram, las 'naves de Tarshish' israelitas habrían sido imposibles. Esta cooperación entre el yahvismo y el comercio fenicio fue también, en perspectiva profética, el canal por el que el baalismo de Tiro llegó a Israel con Jezabel.",
+      "referencias": ["1 Re 5:15-26", "1 Re 9:26-28", "1 Re 10:11-12"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Tarshish es el horizonte geográfico máximo del AT — el punto donde termina el mundo conocido israelita. Teológicamente, su función es doble: símbolo del orgullo comercial que caerá bajo el juicio divino (las naves de Tarshish destruidas en Is 2:16) y símbolo de los confines de la tierra que finalmente reconocerán a Yahvé (Is 66:19; Sal 72:10). La huida de Jonás a Tarshish establece que no hay lugar en la tierra fuera del alcance de Yahvé — la máxima distancia geográfica no es distancia teológica.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo fenicio — Melqart de Tiro como intermediario comercial hacia Tarshish",
+      "Politeísmo ibérico-tartesio — si la identificación con Tartessos es correcta",
+      "Yahvismo israelita — presente narrativamente en Jonás y en las flotas de Salomón"
+    ],
+    "mitos": [
+      {
+        "id": "jonas-pez-resurreccion",
+        "nombre": "Jonás en el vientre del pez: tres días y tres noches",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Jon 1:17-2:10",
+          "fuente_secundaria": "Talmud Bavli, Nedarim 38a; Midrash Jonás (Pirkei de-Rabí Eliezer 10)",
+          "descripcion": "El Talmud (Nedarim 38a) establece que Jonás fue un profeta de plenas capacidades que recibió profecía para Israel y para las naciones. El Midrash Pirkei de-Rabí Eliezer describe las entrañas del pez como una sinagoga iluminada con una perla — Jonás oró desde allí. La tradición rabínica debatió si el pez era macho o hembra (primero macho, luego trasladado al vientre de una hembra más angosto que lo motivó a orar). El libro de Jonás se lee en la sinagoga en la tarde de Yom Kippur — el día de mayor arrepentimiento del año judío — porque trata del arrepentimiento que salva incluso a los paganos.",
+          "similitudes": "Las tres tradiciones preservan a Jonás/Yunus como profeta que sobrevivió en el vientre del pez por la misericordia divina.",
+          "diferencias": "El judaísmo enfatiza el arrepentimiento de Nínive como modelo universal; el Islam presenta a Yunus como profeta que no debía haberse adelantado a dejar a su pueblo.",
+          "significado_teologico": "No hay lugar donde la presencia de Dios no llegue — ni el fondo del mar ni las entrañas de un pez. La oración en el límite extremo es escuchada. El arrepentimiento genuino —incluso de una ciudad pagana— mueve la misericordia divina.",
+          "posible_relacion_cultural": "El motivo del héroe tragado por un monstruo marino y liberado tiene paralelos en mitología ugarítica (Baal vs. Yam) y griega (Heracles y el monstruo marino de Troya). La transformación bíblica convierte el monstruo en instrumento de salvación, no de muerte."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Mt 12:39-41; Lc 11:29-32",
+          "fuente_secundaria": "Tertuliano, De Resurrectione Carnis 32; Jerónimo, Comentario sobre Jonás",
+          "descripcion": "Jesús citó explícitamente a Jonás como única señal que daría a su generación: 'Así como Jonás estuvo tres días y tres noches en el vientre del pez, así estará el Hijo del Hombre tres días y tres noches en el seno de la tierra' (Mt 12:40). Jonás se convirtió así en la tipología bíblica más directa de la muerte y resurrección de Cristo. Tertuliano desarrolló la tipología completa: el pez es la muerte, las entrañas son el sepulcro, la salida es la resurrección. Los murales de las catacumbas romanas (siglos II-III) muestran a Jonás siendo arrojado y recogido como imagen de la resurrección — es uno de los motivos iconográficos paleocristianos más frecuentes.",
+          "similitudes": "Los tres días en el vientre del pez como prefiguración de la muerte y resurrección es la tipología más explícita del AT citada por el propio Jesús.",
+          "diferencias": "El judaísmo no desarrolla la tipología resurreccional de Jonás; el Islam tampoco.",
+          "significado_teologico": "Jonás es el signo por excelencia de Cristo: como Jonás salió del pez, Cristo salió del sepulcro. La misión a los gentiles (Nínive) prefigura la misión universal de la Iglesia.",
+          "posible_relacion_cultural": null
+        },
+        "islam": {
+          "fuente_primaria": "Corán 10:98; 21:87-88; 37:139-148; 68:48-50",
+          "fuente_secundaria": "Ibn Kathir, Tafsir de Yunus 10:98; Al-Tabari, Tafsir de los Profetas",
+          "descripcion": "El Corán menciona a Yunus (Jonás) en cuatro suras y lo llama 'Dhul-Nun' (el del pez). La narrativa coránica es más breve que la bíblica pero enfatiza que Yunus se fue sin permiso de Allah — 'se marchó enojado pensando que no tendríamos poder sobre él' (21:87). Desde las tinieblas del vientre del pez clamó: 'No hay más dios que Tú, ¡gloria a Ti!, yo fui de los injustos.' Allah lo liberó. Ibn Kathir desarrolla que la ciudad de Yunus es la única ciudad pagana que se arrepintió antes del castigo divino y fue perdonada — en contraste con otros pueblos que rechazaron a sus profetas. La sura 10 lleva el nombre de Yunus.",
+          "similitudes": "El profeta que se aleja de su misión, es castigado en el pez y es liberado por la misericordia divina tras el arrepentimiento es idéntico en las tres tradiciones.",
+          "diferencias": "El Islam enfatiza la falta de Yunus al marcharse 'sin permiso'; la narrativa es más breve y no incluye el episodio de la calabaza final ni la pregunta divina sin respuesta.",
+          "significado_teologico": "Yunus es ejemplo de que incluso un profeta puede cometer errores de impaciencia. La ciudad de Nínive es el único caso en el Corán de pueblo pagano que se arrepintió masivamente y fue perdonado.",
+          "posible_relacion_cultural": "La tradición islámica identifica la tumba de Yunus con el santuario de Nabi Yunus en Mosul, Iraq — destruido por ISIS en 2014."
+        }
+      }
     ]
   }
 }

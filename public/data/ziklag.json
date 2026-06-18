@@ -7,68 +7,129 @@
   "lng": 34.8736,
   "frecuencia_at": 15,
   "jerarquia_pin": "secundario",
-  "descripcion_geo": "// PENDIENTE — A city given to David; originally Judah's, then Simeon's",
-  "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
-    "hierro_2"
+  "periodos": [
+    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la llanura sur" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad filistea cedida a David como base de operaciones" },
+    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad del reino de Judá" }
+  ],
+  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "descripcion_geo": "Ziklag (hebreo: צִקְלַג) era una ciudad en el sur de Judá, en la zona de transición entre la Sefela y el Neguev norte, a unos 25 km al noreste de Beersheba. Su identificación es debatida entre Tell esh-Shari'a (Tel Sera) y Tell el-Khuweilfeh, ambos en el área del Neguev norte. Originalmente asignada a la tribu de Judá (Jos 15:31) y luego a Simeón (Jos 19:5), fue una ciudad filistea cuando David vivió como vasallo de Aquis de Gat. La ciudad tiene el honor dudoso de ser el lugar donde David recibió la noticia de la muerte de Saúl — y donde ejecutó al mensajero que pensó que le traía buenas noticias.",
+  "altitud_m": 90,
+  "clima": "Semiárido de transición hacia el Neguev — precipitaciones de 200-300 mm anuales, veranos muy calurosos y secos, inviernos frescos. Zona de pastoreo extensivo y agricultura limitada de secano.",
+  "recursos": [
+    "Pastos para ganadería extensiva",
+    "Control de rutas caravaneras hacia el Neguev y el Sinaí",
+    "Agricultura de secano en años favorables",
+    "Posición estratégica entre Filistea y el Neguev israelita",
+    "Base de operaciones para incursiones en el desierto"
+  ],
+  "importancia_estrategica": "Ziklag fue la base de operaciones de David durante sus dieciséis meses como vasallo del rey filisteo Aquis de Gat. Desde allí David simulaba hacer incursiones contra el Neguev de Judá mientras realmente atacaba a los enemigos de Israel (amalecitas, gesuritas, guizritas). La ciudad fue entregada a David como feudo personal — 'ha pertenecido a los reyes de Judá hasta hoy' (1 Sam 27:6) — convirtiéndose en el primer territorio propiamente davídico antes de su reinado.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos-ziklag",
+      "nombre": "Filisteos bajo Aquis de Gat",
+      "descripcion": "Ziklag pertenecía al territorio de la ciudad-estado filistea de Gat cuando David llegó como refugiado político. El rey Aquis la cedió a David como feudo, lo que convirtió al futuro rey de Israel en vasallo de un rey filisteo durante dieciséis meses. La ambigüedad política de este período — David como señor filisteo que realmente protegía a Israel — es uno de los episodios más complejos de la narrativa davídica.",
+      "religion": "Politeísmo filisteo — Dagón y divinidades de Gat",
+      "periodo": "Hierro I, c. 1012-1010 a.C."
+    },
+    {
+      "id": "amalecitas-ziklag",
+      "nombre": "Amalecitas del Neguev",
+      "descripcion": "Los amalecitas que incendiaron Ziklag y se llevaron cautivas a todas sus mujeres e hijos (incluyendo las dos esposas de David) operaban desde el Neguev y el Sinaí. Su ataque durante la ausencia de David y sus hombres fue un golpe de oportunismo: sabían que la ciudad estaba desguarnecida mientras los guerreros filisteos marchaban con Aquis. La velocidad de la respuesta de David — persecución de cuatrocientos kilómetros y recuperación de todo el botín sin bajas entre los cautivos — es uno de los episodios militares más admirados de su carrera.",
+      "religion": "Animismo de desierto — culto a divinidades nómadas sin santuarios fijos",
+      "periodo": "Hierro I, c. 1010 a.C."
+    }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "david-vasallo-aquis",
+      "titulo": "David en Ziklag: el rey en el exilio como vasallo filisteo",
+      "fecha": "c. 1012–1010 a.C.",
+      "descripcion": "Huyendo de Saúl, David con seiscientos hombres y sus familias se refugió en Gat bajo el rey filisteo Aquis. Aquis le concedió Ziklag como feudo. Desde allí David hacía incursiones contra los gesuritas, guizritas y amalecitas — enemigos del Neguev — pero decía a Aquis que atacaba el Neguev de Judá. Aquis confió en David: 'Se ha hecho odioso a su pueblo Israel, y será mi siervo para siempre.' Cuando los filisteos marcharon contra Israel antes de la batalla de Guilboa, Aquis quiso que David fuera con él. Los señores filisteos se negaron: '¿Qué hacen aquí estos hebreos? Podría volverse contra nosotros.' Aquis despidió a David con elogios. La diplomacia de David en Ziklag — mantener la confianza de un rey extranjero mientras realmente servía los intereses israelitas — es un ejemplo de la astucia política que definiría su reinado.",
+      "referencias": ["1 Sam 27:1-12", "1 Sam 29:1-11", "1 Sam 27:6"],
+      "personajes_clave": ["david-ziklag", "aquis"]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
-      "personajes_clave": [
-        "// PENDIENTE"
-      ]
+      "id": "ziklag-incendiada",
+      "titulo": "Ziklag incendiada: David al límite del liderazgo",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Cuando David y sus hombres regresaron de la concentración filistea, encontraron Ziklag incendiada y todas sus mujeres e hijos llevados cautivos por los amalecitas. El llanto fue tan grande que no había fuerza para más. El pueblo hablaba de apedrear a David — cada uno lloraba por sus hijos e hijas. El texto registra entonces: 'David se fortaleció en Yahvé su Dios.' Consultó al sacerdote Abiatar con el efod. Yahvé respondió: 'Persíguelos, que los alcanzarás y rescatarás todo.' Partieron cuatrocientos — doscientos quedaron exhaustos en el wadi de Besor. Un esclavo egipcio abandonado por los amalecitas los guió. Encontraron al ejército amalecita festejando el botín. Atacaron desde el amanecer hasta la tarde del día siguiente. Recuperaron todo — mujeres, hijos, ganado — sin perder a nadie. Cuando los cuatrocientos quisieron no repartir el botín con los doscientos que se habían quedado, David estableció un estatuto: 'Lo mismo tocará al que fue a la batalla que al que se quedó con el bagaje; partes iguales.' Esta norma se convirtió en ley permanente en Israel.",
+      "referencias": ["1 Sam 30:1-25", "1 Sam 30:6", "1 Sam 30:24-25"],
+      "personajes_clave": ["david-ziklag", "abiatar-keilah", "esclavo-egipcio"]
+    },
+    {
+      "id": "muerte-saul-ziklag",
+      "titulo": "La noticia de Guilboa: el amalecita que mató al mensajero",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Al tercer día de regresar de rescatar a los cautivos, llegó a Ziklag un hombre con la ropa rasgada y tierra en la cabeza — señal de luto. Era un amalecita que venía del campamento de Israel. Contó que Saúl y Jonatán habían muerto. Relató que él mismo había rematado a Saúl a petición del propio rey, que ya no podía tenerse en pie. Trajo la diadema real y el brazalete de Saúl para dárselos a David. Calculó mal: pensó que David recibiría la noticia como liberación de su perseguidor. David rasgó sus vestiduras, lamentó y lloró. Luego preguntó al mensajero: '¿Cómo no tuviste miedo de extender tu mano para matar al ungido de Yahvé?' Y ordenó ejecutarlo: 'Tu sangre sobre tu cabeza, pues tu propia boca testificó contra ti al decir Yo maté al ungido de Yahvé.' Ziklag es así el lugar donde David demostró que su lealtad a Saúl era genuina — no calculada — y donde pronunció el más bello lamento del AT: '¡Cómo han caído los valientes! Jonatán, en tus alturas quedas muerto.'",
+      "referencias": ["2 Sam 1:1-27", "2 Sam 1:14-16", "2 Sam 1:19-27"],
+      "personajes_clave": ["david-ziklag", "amalecita-mensajero"]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "david-ziklag",
+      "nombre": "David",
+      "emoji": "🎯",
+      "rol": "Futuro rey de Israel, señor de Ziklag como feudo filisteo",
+      "periodo": "c. 1040–970 a.C.",
+      "descripcion": "Los dieciséis meses de David en Ziklag son el período más ambiguo de su vida: vasallo de un rey filisteo, simulando atacar a Israel mientras protegía sus fronteras, recuperando Ziklag incendiada y estableciendo la ley del botín igualitario. En Ziklag David alcanza su punto más bajo (el pueblo quería apedrearlo) y su punto más alto de fidelidad (ejecutar al mensajero que mató al ungido de Yahvé). El lamento por Saúl y Jonatán compuesto en Ziklag — el 'Canto del Arco' (2 Sam 1:17-27) — es la pieza poética más intensa del AT histórico.",
+      "referencias": ["1 Sam 27:1-30:31", "2 Sam 1:1-27", "2 Sam 2:1-4"],
+      "ruta": ["bethlehem", "hebron", "keilah", "ziklag", "jerusalen"]
+    },
+    {
+      "id": "aquis",
+      "nombre": "Aquis de Gat",
+      "emoji": "🛡️",
+      "rol": "Rey filisteo de Gat, señor feudal de David en Ziklag",
+      "periodo": "c. 1020–1000 a.C.",
+      "descripcion": "Aquis ben Maoc era el rey de Gat — la ciudad filistea más cercana a la zona de operaciones de David en el sur. Su confianza en David fue absoluta y, en cierto sentido, ingenua: creyó genuinamente que David se había convertido en enemigo de Israel. Cedió Ziklag como feudo personal, quiso llevarlo a la batalla de Guilboa y lo defendió ante los señores filisteos que desconfiaban. Aquis es el rey extranjero más positivamente retratado del AT en relación con Israel: trató a David con lealtad y generosidad, y fue correspondido con engaño benevolente. La paradoja de la alianza David-Aquis — el futuro rey de Israel sirviendo al filisteo que más dañó a Israel — es una de las ironías más densas de la narrativa davídica.",
+      "referencias": ["1 Sam 21:11-16", "1 Sam 27:1-12", "1 Sam 29:1-11"],
       "ruta": []
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "referencias": [
-        "// PENDIENTE"
-      ],
+      "id": "esclavo-egipcio",
+      "nombre": "El esclavo egipcio abandonado",
+      "emoji": "🗺️",
+      "rol": "Esclavo abandonado por los amalecitas, guía providencial de David",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "El esclavo egipcio sin nombre que David encontró abandonado en el campo es uno de los personajes más inesperados de la narrativa davídica. Llevaba tres días sin comer ni beber cuando los hombres de David lo encontraron. David le dio pan, agua, un trozo de torta de higos y dos racimos de pasas. Recuperado, preguntó: '¿Puedes guiarme hasta esta tropa?' El esclavo puso una condición: que David jurara no matarlo ni entregarlo a su amo. Aceptado el trato, lo guió directamente al campamento amalecita. Sin él, David no habría encontrado a los amalecitas en la extensión del desierto. El episodio ilustra el principio narrativo davídico: la providencia divina usa instrumentos inesperados — un esclavo pagano hambriento — para cumplir sus propósitos.",
+      "referencias": ["1 Sam 30:11-16"],
       "ruta": []
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Ziklag es la ciudad donde David tocó fondo y se levantó. La crisis del incendio y el rapto de las familias — con el pueblo dispuesto a apedrearlo — fue el momento de mayor soledad de su carrera antes del reinado. La respuesta del texto es escueta y poderosa: 'David se fortaleció en Yahvé su Dios.' No hay visión, no hay ángel, no hay profeta: solo la decisión personal de buscar a Yahvé en el límite. La ley del botín igualitario que David estableció en Ziklag — partes iguales para los que combatieron y para los que se quedaron — se convirtió en estatuto permanente, transformando una decisión de liderazgo en principio de justicia.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo davídico — consulta al efod, oración personal en la crisis",
+      "Politeísmo filisteo — contexto de la ciudad cedida por Aquis de Gat",
+      "Animismo amalecita — enemigos del Neguev que incendiaron la ciudad"
+    ],
+    "mitos": [
+      {
+        "id": "david-fortalecido-yhwh",
+        "nombre": "David se fortaleció en Yahvé: la fe en el límite absoluto",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 30:6; Sal 18:1-3; Sal 22:1-5",
+          "fuente_secundaria": "Talmud Bavli, Berajot 10a; Midrash Samuel 23",
+          "descripcion": "El Talmud (Berajot 10a) usa el ejemplo de David en Ziklag para ilustrar el principio de que la confianza en Dios debe mantenerse incluso cuando todo el mundo está en contra. El Midrash Samuel desarrolla que 'David se fortaleció en Yahvé su Dios' significa que se recordó a sí mismo sus propias experiencias previas de salvación divina. Los Salmos atribuidos a David en períodos de persecución (22, 57, 142) reflejan exactamente este patrón: el hundimiento en el lamento seguido del fortalecimiento en la confianza. El episodio de Ziklag es el prototipo biográfico de los Salmos de lamentación.",
+          "similitudes": "La fe que se fortalece en el límite de la desesperación personal es un principio compartido por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo enfatiza la memoria de las intervenciones divinas pasadas como fundamento del fortalecimiento; el NT añade la dimensión del Espíritu Santo como presencia interior.",
+          "significado_teologico": "El liderazgo auténtico comienza con la relación personal con Dios, no con la autoridad externa. David perdió la confianza de su pueblo y encontró la de Dios — luego recuperó la de su pueblo. El orden importa.",
+          "posible_relacion_cultural": "El motivo del héroe en el punto más bajo que encuentra fortaleza interior para recuperarse es universal en la literatura heroica. La especificidad bíblica es el contenido: no es fuerza interior sino fortalecimiento en la relación con Dios — un acto de fe, no de voluntad."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 30:6; 2 Cor 4:8-9; Fil 4:13",
+          "fuente_secundaria": "Agustín, Confesiones VIII,12; Juan Crisóstomo, Homilías sobre los Salmos",
+          "descripcion": "La expresión 'David se fortaleció en Yahvé su Dios' fue usada por los Padres de la Iglesia como arquetipo de la gracia que sostiene al creyente en la tribulación. Pablo en 2 Cor 4:8-9 usa el mismo patrón: 'atribulados pero no aplastados, perplejos pero no desesperados, perseguidos pero no abandonados, derribados pero no destruidos.' Juan Crisóstomo usó el episodio de Ziklag en su catequesis sobre la persecución: el cristiano cuya ciudad arde y cuyos seres queridos son arrebatados debe hacer lo que David — fortalecer su confianza en Dios antes de actuar. El gesto de David de consultar el efod antes de perseguir a los amalecitas fue leído como figura de la oración de discernimiento.",
+          "similitudes": "El fortalecimiento en Dios como fundamento de la acción eficaz en el límite de las fuerzas humanas es idéntico en ambas tradiciones.",
+          "diferencias": "El NT lleva este principio hasta la muerte y resurrección: el límite máximo no es el incendio de Ziklag sino la cruz, y el fortalecimiento máximo es la resurrección.",
+          "significado_teologico": "La fe genuina no anestesia el dolor — David lloró hasta no tener fuerza — sino que da fundamento para actuar después del llanto. El fortalecimiento en Dios no es negación de la realidad sino fundamento para afrontarla.",
+          "posible_relacion_cultural": null
+        },
+        "islam": null
+      }
     ]
   }
 }

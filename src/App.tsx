@@ -299,7 +299,7 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
 
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
-  const [periodId, setPeriodId] = useState('hierro_2')
+  const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
   const [territoriosActive, setTerritoriosActive] = useState(false)

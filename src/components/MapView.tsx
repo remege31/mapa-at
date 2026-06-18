@@ -369,8 +369,8 @@ export function MapView({
     if (!containerRef.current || mapRef.current) return
 
     const map = L.map(containerRef.current, {
-      center: [31, 37],
-      zoom: 7,
+      center: [31.8, 35.5],
+      zoom: 9,
       minZoom: 4,
       maxZoom: 10,
       zoomControl: false,

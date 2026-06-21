@@ -1,0 +1,149 @@
+{
+  "id": "joppa",
+  "nombre": "Joppa",
+  "tipo": "ciudad",
+  "lat": 32.05351968494696,
+  "lng": 34.75042606009946,
+  "frecuencia_at": 14,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Puerto bajo dominio egipcio" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Puerto de Jerusalén" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Reconstrucción del Templo" }
+  ],
+  "descripcion_geo": "Antiguo puerto marítimo en la costa mediterránea, el único puerto natural utilizable entre Egipto y el Carmelo gracias a un arrecife de arenisca que protegía un fondeadero. Asentado sobre un promontorio rocoso de unos 35 m sobre el nivel del mar, dominaba la llanura costera de Sarón. Aunque nunca perteneció establemente al territorio israelita —quedó asignada a Dan pero rara vez bajo control efectivo—, funcionó como puerta marítima de facto para Jerusalén durante siglos.",
+  "altitud_m": 35,
+  "clima": "Mediterráneo costero — veranos cálidos y húmedos, inviernos suaves con lluvias, brisas marinas constantes que moderan la temperatura.",
+  "recursos": [
+    "Puerto natural (único fondeadero protegido entre Egipto y el Carmelo)",
+    "Pesca marítima",
+    "Comercio internacional (madera, productos de lujo)",
+    "Arenisca costera para construcción"
+  ],
+  "importancia_estrategica": "Joppa era la salida al mar de Jerusalén pese a estar fuera del control político israelita estable. Por su puerto entraban materiales que no existían en las tierras altas de Judá —notablemente la madera de cedro del Líbano para el Templo de Salomón y, siglos después, para el Segundo Templo—. Su posición en la Vía Maris (ruta costera entre Egipto y Mesopotamia) la convertía en un punto disputado por egipcios, filisteos, fenicios e israelitas sucesivamente.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_joppa",
+      "nombre": "Cananeos",
+      "descripcion": "Población original del puerto antes de la presencia israelita estable; ciudad-estado cananea documentada ya en fuentes egipcias del Bronce Tardío.",
+      "religion": "Politeísmo cananeo — culto a Baal y Dagón, deidades marítimas",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "egipcios_joppa",
+      "nombre": "Guarnición egipcia",
+      "descripcion": "Joppa aparece en el papiro egipcio del relato de la 'Toma de Joppa' (dinastía XVIII) y en las cartas de Amarna como plaza bajo control o influencia egipcia.",
+      "religion": "Politeísmo egipcio — culto a Amón-Ra y dioses del panteón faraónico",
+      "periodo": "c. 1450–1200 a.C."
+    },
+    {
+      "id": "fenicios_joppa",
+      "nombre": "Fenicios",
+      "descripcion": "Mercaderes y marinos fenicios operaron desde o a través de Joppa, especialmente en el transporte de madera del Líbano hacia Jerusalén bajo acuerdos con Hiram de Tiro.",
+      "religion": "Politeísmo fenicio — culto a Baal, Astarté y Melkart",
+      "periodo": "c. 1000–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "madera-templo-salomon",
+      "titulo": "Llegada de la madera de cedro para el Templo",
+      "fecha": "c. 960 a.C.",
+      "descripcion": "Hiram de Tiro envía troncos de cedro y ciprés del Líbano por mar hasta Joppa, desde donde son trasladados por tierra a Jerusalén para la construcción del Templo de Salomón.",
+      "referencias": ["2 Cr 2:16", "1 Re 5:9"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "madera-segundo-templo",
+      "titulo": "Madera para el Segundo Templo",
+      "fecha": "c. 537–516 a.C.",
+      "descripcion": "Tras el regreso del exilio babilónico, los repatriados repiten el patrón salomónico: pagan a sidonios y tirios para que transporten madera de cedro del Líbano por mar hasta Joppa, destinada a la reconstrucción del Templo bajo Zorobabel.",
+      "referencias": ["Esd 3:7"],
+      "personajes_clave": ["zorobabel"]
+    },
+    {
+      "id": "huida-jonas",
+      "titulo": "Jonás embarca hacia Tarsis",
+      "fecha": "Narrativa, s. VIII a.C. (contexto)",
+      "descripcion": "Jonás desciende a Joppa y allí toma un barco para huir hacia Tarsis, en sentido contrario al encargo divino de predicar en Nínive, episodio que abre el relato profético.",
+      "referencias": ["Jon 1:3"],
+      "personajes_clave": ["jonas"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "salomon",
+      "nombre": "Salomón",
+      "emoji": "👑",
+      "rol": "Rey de Israel, constructor del Templo",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Hijo de David que organiza la importación de materiales de construcción —entre ellos la madera recibida en Joppa— para erigir el Templo de Jerusalén mediante su alianza comercial con Hiram de Tiro.",
+      "referencias": ["1 Re 5:1-18", "2 Cr 2:1-16"],
+      "ruta": ["jerusalen", "joppa"]
+    },
+    {
+      "id": "zorobabel",
+      "nombre": "Zorobabel",
+      "emoji": "🏗️",
+      "rol": "Gobernador de Judá tras el exilio",
+      "periodo": "Activo c. 538–515 a.C.",
+      "descripcion": "Líder de la primera oleada de repatriados que organiza la reconstrucción del Templo, repitiendo la ruta de importación de madera por Joppa que un siglo antes había usado Salomón.",
+      "referencias": ["Esd 3:1-13", "Hag 1:1-15"],
+      "ruta": ["mesopotamia", "jerusalen", "joppa"]
+    },
+    {
+      "id": "jonas",
+      "nombre": "Jonás",
+      "emoji": "🐋",
+      "rol": "Profeta",
+      "periodo": "Narrativa, s. VIII a.C.",
+      "descripcion": "Profeta enviado a anunciar juicio sobre Nínive que, en lugar de obedecer, desciende a Joppa para embarcarse en dirección opuesta, hacia Tarsis, iniciando el relato de huida y el episodio del gran pez.",
+      "referencias": ["Jon 1:1-17"],
+      "ruta": ["joppa"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Joppa no fue nunca un centro de culto israelita, pero su función como puerto de Jerusalén la conecta simbólicamente con la santidad del Templo: la madera que llega allí es, en ambas reconstrucciones, materia destinada a la casa de YHWH. Su carácter de ciudad costera cosmopolita, expuesta a cultos cananeos, egipcios y fenicios, contrasta con su rol narrativo en Jonás como punto de partida de una huida que invierte el sentido de la vocación profética: en vez de ir hacia el este (Nínive), el profeta busca el oeste (Tarsis) a través del mar.",
+    "religiones_presentes": [
+      "Yahvismo (a través de su función logística para el Templo)",
+      "Politeísmo cananeo (Baal, Dagón)",
+      "Politeísmo fenicio (Baal, Astarté, Melkart)",
+      "Politeísmo egipcio (presencia documentada en fuentes extrabíblicas)"
+    ],
+    "mitos": [
+      {
+        "id": "huida-jonas-joppa",
+        "nombre": "Joppa como punto de huida de Jonás",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Jon 1:1-3",
+          "fuente_secundaria": "Talmud Babilónico, Nedarim 38a (sobre la profecía y la huida)",
+          "descripcion": "La tradición rabínica discute la huida de Jonás como un intento —teológicamente imposible pero narrativamente significativo— de escapar de la presencia de Dios, y Joppa marca el límite entre la tierra de Israel y el mundo exterior representado por el mar.",
+          "similitudes": "Mismo punto geográfico de partida en las tres tradiciones.",
+          "diferencias": null,
+          "significado_teologico": "Joppa funciona como umbral entre la vocación divina y la voluntad humana de evasión; el mar abierto representa lo no controlado por la alianza.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Mt 12:39-41 (referencia retrospectiva de Jesús al 'signo de Jonás')",
+          "fuente_secundaria": "Orígenes, Homilías sobre Jonás (lectura tipológica)",
+          "descripcion": "La patrística lee la huida desde Joppa y los tres días en el pez como tipología de la muerte y resurrección de Cristo, sin que el lugar mismo reciba desarrollo geográfico propio más allá de ser el punto de partida del relato.",
+          "similitudes": "Comparte el episodio base de la huida marítima desde Joppa.",
+          "diferencias": "El énfasis cristiano se desplaza del lugar al significado tipológico del tiempo (tres días).",
+          "significado_teologico": "Joppa, como punto de partida de la desobediencia, se vuelve indirectamente el origen narrativo de una figura de la resurrección.",
+          "posible_relacion_cultural": "Tradición compartida del relato de Jonás como figura profética común a las tres religiones abrahámicas."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 37:139-148 (Dhu'l-Nun / Yunus)",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre Sura As-Saffat",
+          "descripcion": "El Corán narra la huida de Yunus y su arrojo al mar sin nombrar Joppa explícitamente, pero la exégesis islámica tradicional identifica el puerto de partida con Joppa siguiendo la geografía bíblica heredada.",
+          "similitudes": "Mismo episodio de huida marítima y castigo por incumplir el encargo profético.",
+          "diferencias": "El Corán omite el nombre del puerto; la identificación con Joppa proviene de la tradición exegética posterior, no del texto coránico mismo.",
+          "significado_teologico": "Yunus es modelo de arrepentimiento (tawba) tras la desobediencia, y su invocación en el vientre del pez se cita como ejemplo de súplica aceptada por Dios.",
+          "posible_relacion_cultural": "Tradición compartida del profeta que huye por mar, con raíz común en el ciclo narrativo de Jonás/Yunus."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio", "hierro_2", "post_exilio"]
+}

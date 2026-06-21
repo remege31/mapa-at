@@ -1,0 +1,127 @@
+{
+  "id": "bozrah",
+  "nombre": "Bosra",
+  "tipo": "ciudad",
+  "lat": 30.734691,
+  "lng": 35.60625,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital de Edom, oráculos de juicio" }
+  ],
+  "descripcion_geo": "Ciudad capital del reino de Edom, situada al sur del Mar Salado, en la región montañosa que los descendientes de Esaú ocuparon según la tradición genealógica bíblica. Su posición fortificada en terreno elevado la convertía en centro administrativo y simbólico del poder edomita.",
+  "altitud_m": 1000,
+  "clima": "Semiárido de montaña — veranos secos y calurosos, inviernos fríos, propio de las tierras altas de Edom.",
+  "recursos": [
+    "Posición fortificada como capital administrativa de Edom",
+    "Tierras del altiplano edomita"
+  ],
+  "importancia_estrategica": "Bosra es la capital simbólica de Edom en los oráculos proféticos de juicio, mencionada reiteradamente como blanco principal del castigo divino debido a la hostilidad histórica de Edom hacia Israel, particularmente por su conducta durante la caída de Jerusalén ante Babilonia, motivo que intensifica notablemente el tono de los oráculos contra esta ciudad en comparación con otras capitales regionales.",
+  "otros_habitantes": [
+    {
+      "id": "edomitas_bosra",
+      "nombre": "Edomitas (descendientes de Esaú)",
+      "descripcion": "Población de Bosra, capital del reino de Edom, identificada genealógicamente como descendiente de Esaú, hermano de Jacob, según la tradición bíblica.",
+      "religion": "Politeísmo edomita — culto a Qos",
+      "periodo": "Desde c. 1200 a.C."
+    },
+    {
+      "id": "rezagados_juicio_bosra",
+      "nombre": "Población sometida al juicio profético",
+      "descripcion": "Habitantes de Bosra descritos en los oráculos de Isaías y Jeremías como destinatarios del castigo divino anunciado contra Edom por su hostilidad hacia Israel.",
+      "religion": "Politeísmo edomita",
+      "periodo": "c. 740–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "isaias-oraculo-bosra",
+      "titulo": "Isaías profetiza el día de venganza de YHWH sobre Bosra",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El profeta Isaías incluye un extenso oráculo donde describe a YHWH llegando desde Edom y Bosra con vestiduras teñidas de rojo, en una imagen de juicio violento descrito como 'día de venganza' y 'año de mis redimidos', usando explícitamente el lagar como metáfora del castigo divino sobre las naciones hostiles.",
+      "referencias": ["Is 34:6", "Is 63:1"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "jeremias-oraculo-bosra",
+      "titulo": "Jeremías profetiza la destrucción de Bosra",
+      "fecha": "c. 600 a.C.",
+      "descripcion": "Jeremías incluye a Bosra en su extenso oráculo contra Edom, anunciando que se convertirá en motivo de espanto y que nadie volverá a habitar allí, comparando el alcance de la destrucción con la de Sodoma y Gomorra.",
+      "referencias": ["Jer 49:13", "Jer 49:22"],
+      "personajes_clave": ["jeremias"]
+    },
+    {
+      "id": "amos-oraculo-bosra",
+      "titulo": "Amós profetiza fuego sobre Bosra",
+      "fecha": "c. 760–750 a.C.",
+      "descripcion": "El profeta Amós, en su serie de oráculos contra las naciones vecinas de Israel, anuncia que enviará fuego contra Teman que consumirá los palacios de Bosra, acusando a Edom de haber perseguido a su hermano con espada sin mostrar compasión.",
+      "referencias": ["Am 1:11-12"],
+      "personajes_clave": ["amos"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "isaias_bosra",
+      "nombre": "Isaías",
+      "emoji": "⚔️",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Compone una de las imágenes más violentas y vívidas de todo el corpus profético al describir a YHWH llegando desde Bosra con vestiduras manchadas de sangre tras pisar el lagar de la ira divina sobre las naciones.",
+      "referencias": ["Is 34:1-17", "Is 63:1-6"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "jeremias_bosra",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–586 a.C.",
+      "descripcion": "Incluye a Bosra en su extenso oráculo de juicio contra Edom, intensificado por la hostilidad edomita documentada durante la caída final de Jerusalén.",
+      "referencias": ["Jer 49:7-22"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "amos_bosra",
+      "nombre": "Amós",
+      "emoji": "🔥",
+      "rol": "Profeta de Judá enviado a las naciones vecinas",
+      "periodo": "Activo c. 760–750 a.C.",
+      "descripcion": "Denuncia a Edom por su persecución implacable a Israel ('su hermano') sin compasión, anunciando fuego divino sobre los palacios fortificados de Bosra.",
+      "referencias": ["Am 1:11-12"],
+      "ruta": ["tekoa"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Bosra recibe en el corpus profético un trato particularmente severo en comparación con otras capitales regionales, motivado por la condición de Edom como pueblo hermano de Israel —descendiente de Esaú— cuya hostilidad se interpreta como traición familiar agravada, no simple enemistad entre naciones extrañas. La imagen del 'lagar' de Isaías, donde YHWH mismo aparece manchado de la sangre del juicio ejecutado contra Edom, se convierte en una de las metáforas de juicio divino más intensas de toda la literatura profética bíblica.",
+    "religiones_presentes": [
+      "Politeísmo edomita — culto a Qos"
+    ],
+    "mitos": [
+      {
+        "id": "lagar-ira-divina-bosra",
+        "nombre": "El lagar de la ira divina sobre Bosra",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Is 34:1-17; Is 63:1-6",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la severidad especial del juicio contra Edom debido al parentesco fraterno con Israel a través de Esaú",
+          "descripcion": "La tradición judía explica la intensidad particular del lenguaje profético contra Bosra y Edom apelando al agravante del parentesco: a diferencia de otras naciones, Edom desciende directamente de Esaú, hermano de Jacob, lo que convierte su hostilidad histórica hacia Israel —especialmente durante la caída de Jerusalén— en una traición familiar que merece un juicio proporcionalmente más severo que el dirigido contra naciones sin ese vínculo de sangre.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La severidad excepcional del juicio contra Bosra ilustra el principio de que la traición entre pueblos emparentados constituye una falta moral agravada frente a la hostilidad ordinaria entre naciones extrañas.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Is 63:1-6 (recepción tipológica en Ap 19:13-15, la imagen del lagar de la ira de Dios)",
+          "fuente_secundaria": "Comentarios patrísticos y apocalípticos que retoman la imagen del lagar de Isaías para describir el juicio escatológico final",
+          "descripcion": "La tradición cristiana, particularmente en el Apocalipsis, retoma directamente la imagen isaiana del lagar y las vestiduras manchadas de sangre, aplicándola en clave cristológica y escatológica al juicio final ejercido por Cristo sobre las naciones rebeldes, generalizando una imagen originalmente dirigida específicamente contra Edom y Bosra hacia un horizonte universal de juicio final.",
+          "similitudes": "Comparte la imagen central del lagar como metáfora del juicio divino violento e ineludible.",
+          "diferencias": "La lectura cristiana universaliza y escatologiza la imagen, originalmente dirigida específicamente contra Edom, aplicándola al juicio final universal ejercido por Cristo.",
+          "significado_teologico": "La imagen del lagar de Bosra se convierte en figura veterotestamentaria del juicio final escatológico desarrollado plenamente en la literatura apocalíptica cristiana.",
+          "posible_relacion_cultural": "Recepción cristiana de la imaginería profética veterotestamentaria reinterpretada en clave escatológica cristiana."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

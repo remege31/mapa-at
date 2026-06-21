@@ -1,0 +1,120 @@
+{
+  "id": "migdol",
+  "nombre": "Migdol",
+  "tipo": "ciudad",
+  "lat": 30.020296,
+  "lng": 32.372233,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento del éxodo, cruce del Mar Rojo" }
+  ],
+  "descripcion_geo": "Localidad fronteriza egipcia cerca del Mar Rojo, mencionada como uno de los últimos puntos de acampada de Israel antes del cruce milagroso de las aguas durante la salida de Egipto, y posteriormente como destino de refugiados judíos tras la caída de Jerusalén.",
+  "altitud_m": 5,
+  "clima": "Desértico — extremadamente caluroso y seco, propio de la región fronteriza nororiental de Egipto.",
+  "recursos": [
+    "Posición fronteriza cerca del Mar Rojo",
+    "Punto de referencia geográfico del campamento del éxodo"
+  ],
+  "importancia_estrategica": "Migdol marca uno de los últimos puntos de acampada de Israel durante el éxodo de Egipto, justo antes del cruce milagroso del Mar Rojo, posicionando estratégicamente al pueblo entre Migdol y el mar frente a Baal-zefón; siglos después, vuelve a aparecer como destino de refugiados judíos huyendo hacia Egipto tras la caída de Jerusalén, cerrando un círculo geográfico irónico entre la salida original de Egipto y el regreso forzado de los descendientes de aquellos liberados.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_migdol",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo que acampa cerca de Migdol en su ruta de salida de Egipto, justo antes del cruce milagroso del Mar Rojo.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "refugiados_judios_migdol",
+      "nombre": "Refugiados judíos en Migdol",
+      "descripcion": "Población de Judá que, tras la destrucción de Jerusalén, se establece en Migdol entre otros destinos egipcios, denunciada por Jeremías por adoptar prácticas idolátricas en su nueva residencia.",
+      "religion": "Sincretismo yahvista-idolátrico (denunciado por Jeremías)",
+      "periodo": "c. 586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "exodo-campamento-migdol",
+      "titulo": "Israel acampa cerca de Migdol antes del Mar Rojo",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "YHWH instruye a Moisés que ordene a Israel acampar entre Migdol y el mar, frente a Baal-zefón, posicionamiento aparentemente vulnerable que sirve para atraer al ejército de Faraón hacia la trampa del cruce milagroso posterior.",
+      "referencias": ["Éx 14:1-2"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "migdol-referencia-numeros",
+      "titulo": "Migdol confirmada en la lista de campamentos del éxodo",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "El libro de Números confirma la posición de Migdol en la lista detallada de los lugares de acampada de Israel durante su salida de Egipto, registro que documenta sistemáticamente toda la ruta del peregrinaje.",
+      "referencias": ["Núm 33:7"],
+      "personajes_clave": []
+    },
+    {
+      "id": "jeremias-juicio-migdol",
+      "titulo": "Jeremías denuncia la idolatría de los judíos en Migdol",
+      "fecha": "c. 586–580 a.C.",
+      "descripcion": "Jeremías dirige su denuncia profética específicamente a los judíos que residen en Migdol, Tahpanes, Menfis y otras regiones de Egipto, condenando su persistencia en quemar incienso a la 'reina del cielo' pese a la destrucción de Jerusalén que tal idolatría había provocado.",
+      "referencias": ["Jer 44:1", "Jer 44:15-19"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_migdol",
+      "nombre": "Moisés",
+      "emoji": "🌊",
+      "rol": "Líder de Israel en el éxodo",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Dirige el posicionamiento estratégico de Israel cerca de Migdol antes del cruce milagroso del Mar Rojo, siguiendo las instrucciones divinas que parecen exponer al pueblo pero en realidad preparan la trampa contra el ejército egipcio.",
+      "referencias": ["Éx 14:1-4"],
+      "ruta": ["migdol"]
+    },
+    {
+      "id": "jeremias_migdol",
+      "nombre": "Jeremías",
+      "emoji": "😠",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 586–580 a.C.",
+      "descripcion": "Denuncia la persistente idolatría de los refugiados judíos en Migdol y otras ciudades egipcias, advirtiendo que su destino será la destrucción completa por repetir los mismos pecados que provocaron la caída de Jerusalén.",
+      "referencias": ["Jer 44:1-30"],
+      "ruta": ["tahpanhes", "migdol"]
+    },
+    {
+      "id": "faraon_migdol",
+      "nombre": "Faraón y su ejército",
+      "emoji": "🏛️",
+      "rol": "Perseguidores de Israel hasta el Mar Rojo",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Persigue a Israel hasta la región de Migdol, engañado por el aparente posicionamiento vulnerable del pueblo, antes de ser derrotado en el cruce milagroso del Mar Rojo.",
+      "referencias": ["Éx 14:5-9"],
+      "ruta": ["migdol"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Migdol conecta de manera irónica el inicio y un momento tardío de la historia de Israel: lugar de paso en la liberación original de la esclavitud egipcia bajo Moisés, y siglos después, destino de refugiados judíos que regresan voluntariamente a Egipto huyendo de las consecuencias de su propia infidelidad, cerrando un círculo geográfico que ilustra el contraste entre la liberación providencial original y el exilio autoinfligido posterior por la persistencia en la idolatría denunciada por Jeremías.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo egipcio (contexto del éxodo y de los refugiados posteriores)"
+    ],
+    "mitos": [
+      {
+        "id": "trampa-divina-migdol",
+        "nombre": "El posicionamiento aparentemente vulnerable como trampa divina en Migdol",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Éx 14:1-4",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la sabiduría aparentemente contraintuitiva del posicionamiento divino de Israel antes del cruce del Mar Rojo",
+          "descripcion": "La tradición judía observa que el mandato divino de posicionar a Israel en un lugar aparentemente vulnerable cerca de Migdol, lejos de ser un error estratégico, constituye precisamente el mecanismo mediante el cual YHWH atrae al ejército egipcio hacia su derrota definitiva, interpretando el episodio como ejemplo paradigmático de cómo la sabiduría divina puede manifestarse a través de estrategias que desde la perspectiva humana parecerían contraproducentes.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El posicionamiento de Migdol enseña que la sabiduría divina opera frecuentemente de maneras que trascienden y hasta contradicen la lógica estratégica humana convencional.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

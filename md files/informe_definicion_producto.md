@@ -1,6 +1,6 @@
 # INFORME DE DEFINICIÓN DE PRODUCTO
 ## Mapa Interactivo del Antiguo Testamento
-**Fecha de actualización:** 13 de junio de 2026
+**Fecha de actualización:** 18 de junio de 2026
 **Stakeholders:** Programador, Investigador, Diseñador
 **Product Owner:** Rebeca
 
@@ -12,11 +12,13 @@
 
 **Objetivo general:** Visualización interactiva que integra geografía, historias, contexto histórico paralelo y perspectivas religiosas del Antiguo Testamento.
 
-**Alcance MVP (Fase 1):** 5 lugares principales — Jerusalén, Canaán, Mesopotamia, Egipto, Sinaí
+**Alcance MVP (Fase 1):** 5 lugares principales — Jerusalén, Canaán, Mesopotamia, Egipto, Sinaí — completados.
+
+**Fase 2 (en curso / casi completada):** 44 lugares adicionales (nivel 1 y nivel 2), carga dinámica, búsqueda, rutas, zoom progresivo, estado inicial optimizado.
 
 **Público objetivo:** Personas cercanas a Rebeca, educadores, estudiantes, investigadores, tutores de religión/historia
 
-**Valor propuesto:** Entender la geografía del AT como personaje activo que moldea narrativas, contextualizado con civilizaciones paralelas (Egipto, Asiria, Babilonia, Persia, Grecia, Roma, India, China, América) y perspectivas religiosas (Judaísmo, Cristianismo, Islam)
+**Valor propuesto:** Entender la geografía del AT como personaje activo que moldea narrativas, contextualizado con civilizaciones paralelas y perspectivas religiosas (Judaísmo, Cristianismo, Islam)
 
 **Stack técnico:**
 - React + TypeScript + Leaflet.js + Vite
@@ -35,162 +37,127 @@ El mapa permite:
 - Comparar eventos bíblicos con lo que ocurría simultáneamente en otras civilizaciones
 - Entender cómo distintas religiones interpretan historias compartidas
 - Ver cambios de fronteras/territorios entre 4 períodos históricos
+- Buscar lugares por nombre
+- Ver rutas de los personajes principales sobre el mapa
 
 ---
 
-## 3. ESTADO ACTUAL — FASE 1 (IMPLEMENTADO)
+## 3. ESTADO ACTUAL — FASE 1 (COMPLETADA)
 
-✅ Mapa interactivo con pines (tamaño único, escalado por zoom, sin jerarquía visual)
-✅ Filtro por período mediante **4 botones fijos**: Bronce Tardío, Hierro I, Hierro II, Post-Exilio — siempre activo, afecta pines, territorios y eventos paralelos
-✅ Territorios con color y categoría política individual por territorio (~32 territorios mapeados, paleta + traducción ES completas), `fillOpacity: 0.18`, capa con toggle on/off (OFF por defecto)
-✅ Etiquetas permanentes sobre territorios (nombre ES + categoría política), escaladas por zoom
-✅ Animación fade (300ms) al cambiar período o activar/desactivar territorios
-✅ Coordenadas corregidas (Canaán/Jerusalén ya no se superponen)
-✅ Panel lateral con 5 acordeones exclusivos: Lugar, Historias, Personajes, Contexto religioso, Eventos paralelos
-✅ Eventos paralelos implementados con datos reales (`eventosParalelos.ts`), filtrados por período
-✅ Menú lateral (☰) con acceso a "último lugar consultado"
-✅ Autenticación SSH configurada (GitHub `remege31`)
-
----
-
-## 4. FUNCIONALIDADES — PANEL LATERAL
-
-Panel deslizable (drawer en mobile) con **5 acordeones**, exclusivos (uno abierto a la vez), cerrados por defecto:
-
-1. **📍 Lugar** — descripción geográfica, altitud, clima, recursos, importancia estratégica, otros habitantes (pueblos, sin interactividad con el mapa)
-2. **📖 Historias** — exactamente 3 historias por lugar (título, fecha, descripción, referencias bíblicas como tags — ⚠ aún no son links)
-3. **👤 Personajes** — exactamente 3 personajes (avatar emoji, nombre, rol, período, descripción, referencias; campo `ruta` existe en datos pero sin uso en UI)
-4. **✡ Contexto religioso** — contexto general + religiones presentes + mitos con checkboxes Judaísmo/Cristianismo/Islam (`null` = "no aplica" visible, no oculto)
-5. **🌍 Eventos paralelos** — banner de período activo + eventos de las 9 civilizaciones filtrados por `periodo_at`
+✅ Mapa interactivo con pines escalados por zoom  
+✅ Filtro por período — 4 botones fijos (Bronce Tardío, Hierro I, Hierro II, Post-Exilio)  
+✅ Territorios con color y categoría política individual (~32 territorios), toggle on/off  
+✅ Etiquetas permanentes sobre territorios, escaladas por zoom  
+✅ Animación fade (300ms) al cambiar período o activar/desactivar territorios  
+✅ Panel lateral con 5 acordeones exclusivos  
+✅ Eventos paralelos con datos reales, filtrados por período  
+✅ Menú lateral (☰) con acceso a último lugar consultado  
+✅ Autenticación SSH configurada (GitHub `remege31`)  
+✅ 5 JSONs MVP completos con fuentes secundarias (Midrash, Talmud, Ibn Kathir, patrística)
 
 ---
 
-## 5. ESPECIFICACIONES DEL MAPA
+## 4. ESTADO ACTUAL — FASE 2 (CASI COMPLETADA)
 
-**Layout:**
-- Desktop: Mapa flex-1 izquierda / Panel 340px derecha
-- Tablet (769-1024px): Panel/menú a 60vw (máx 480px)
-- Mobile: Panel y menú como drawers desde la derecha (92vw, máx 360px), overlay oscuro, botón ✕ para cerrar — acceso vía botón hamburguesa en topbar (no FAB)
+✅ Carga dinámica de lugares desde `index.json` — 49 lugares activos  
+✅ Búsqueda de lugares en topbar (input + dropdown, Enter para seleccionar)  
+✅ Botón "Todos los períodos" — muestra todos los pines sin filtro  
+✅ Estado inicial optimizado: todos los períodos, zoom 9, centro Israel, menú abierto  
+✅ Zoom progresivo por `jerarquia_pin` (primario siempre, secundario ≥6, terciario ≥8)  
+✅ Rutas de personajes funcionales (🚶 Rutas, colores por personaje, etiquetas)  
+✅ Referencias bíblicas como links a Bible Gateway ✅  
+✅ Accesibilidad por teclado en pines (tabindex, role, aria-label, Enter/Space)  
+✅ Collision avoidance de etiquetas entre pines cercanos  
+✅ z-index 2000 en pin seleccionado  
+✅ Territorios no bloquean clicks en pines (`interactive: false`)  
+✅ Contenido: 31/49 JSONs con 3 historias y 3 personajes completos (Lotes A–F)  
 
-**Tile base:** CartoDB `light_nolabels`
-
-**Pines:**
-- Tamaño uniforme, escalado por zoom (0.6×–1.6×)
-- Color `#3C3C3C`; seleccionado `#8B4A26` con halo
-- Etiqueta de nombre siempre visible con halo blanco
-- Jerusalén: marca ★ + pulso/tooltip de onboarding (solo mobile, hasta primer click)
-- Pines atenuados (opacity 0.25, sin click) si `periodos_at` no incluye el período activo
-- ⚠ Accesibilidad por teclado: pendiente de implementar
-
-**Territorios:**
-- Polígonos desde `aourednik/historical-basemaps` (3 datasets según período), recortados a la región de interés
-- Color y categoría política (Imperio/Reino/Región cultural/Zona tribal) individuales por territorio (~32 mapeados + color default)
-- Nombres traducidos al español, etiqueta permanente con categoría (visible desde zoom≥6)
-- `fillOpacity: 0.18`, fade in/out 300ms
-
-**Controles del mapa** (bajo el timeline):
-- Botón **Territorios**: muestra/oculta la capa de territorios — **OFF por defecto**
-- Botón **Rutas**: deshabilitado, "Próximamente" — sin funcionalidad de rutas de personajes implementada aún
-
-**Filtro de período:** 4 botones fijos, siempre activo, afecta pines + territorios + eventos paralelos
-
-**Paleta:**
-```css
---ocre:   #775C3C
---beige:  #D4C5B0
---terra:  #8B4A26
---sand:   #E8DCC8
---olive:  #6B8E23   /* sin uso detectado */
---gray:   #6B6054
---blue:   #2E5F8A
---lblue:  #6BA3D4   /* sin uso detectado */
---ink:    #3C3C3C
---paper:  #F5F0E8
---gray-on-dark: #B5AB97  /* sin uso detectado */
-```
-
-**Tipografía:** Georgia (etiquetas de territorio, títulos de panel) + system-ui (cuerpo, pines)
+⏳ **Pendiente de contenido:** 16 JSONs con campos PENDIENTE (ammon, babylon, bethel, bethlehem, damascus, dan, gath, gibeah, gibeon, hebron, jericho, mizpah, samaria, shechem, sidon, sodom, tyre + sodom = 16 total)  
+⏳ **Pendiente técnico:** fix scroll horizontal al activar Territorios (identificado, no resuelto)
 
 ---
 
-## 6. ESTRUCTURA DE DATOS
+## 5. FUNCIONALIDADES — PANEL LATERAL
 
-Definida en `estructura_json_at` (reescrito desde `lugar.ts` + `jerusalen.json`). Resumen:
+Panel deslizable (drawer en mobile) con **5 acordeones**, exclusivos, cerrados por defecto:
 
-- Un JSON por lugar en `/public/data/`; eventos paralelos en `src/data/eventosParalelos.ts`
-- Campos base: id, nombre, tipo, lat, lng, frecuencia_at, `jerarquia_pin` (campo intencional, controla visibilidad de pines por nivel), `periodos` (descriptivo), `periodos_at` (filtra el pin), descripcion_geo, altitud_m, clima, recursos (array), importancia_estrategica
-- `otros_habitantes`: 2–5 pueblos (id, nombre, descripción, religión, período) — sin relación con territorios del mapa
-- `historias`: exactamente 3, con `personajes_clave`
-- `personajes`: exactamente 3, con `emoji` y `ruta` (array, `[]` si no aplica)
-- `contexto_religioso`: contexto + `religiones_presentes` + 1–3 mitos con `aparece_en` y perspectivas Judaísmo/Cristianismo/Islam (`null` si no aplica)
+1. **📍 Lugar** — descripción geográfica, altitud, clima, recursos, importancia estratégica, otros habitantes (2–5 pueblos, sin interactividad con el mapa)
+2. **📖 Historias** — exactamente 3 por lugar (título, fecha, descripción, referencias como links a Bible Gateway)
+3. **👤 Personajes** — exactamente 3 (avatar emoji, nombre, rol, período, descripción, referencias como links; campo `ruta` existe pero sin botón individual)
+4. **✡ Contexto religioso** — contexto general + religiones presentes + 1–3 mitos con checkboxes Judaísmo/Cristianismo/Islam
+5. **🌍 Eventos paralelos** — si período activo: banner + eventos filtrados por civilización; si "Todos": mensaje explicativo
+
+---
+
+## 6. ESPECIFICACIONES DEL MAPA
+
+**Layout:** Desktop mapa flex-1 / Panel 340px · Tablet 60vw · Mobile drawer 92vw  
+**Tile base:** CartoDB `light_nolabels`  
+**Pines:** radio base r=6, zoom progresivo por jerarquía, collision avoidance  
+**Territorios:** aourednik/historical-basemaps, 3 datasets, ~32 territorios con color individual  
+**Controles:** 5 botones de período (Todos + 4) · 🗺 Territorios · 🚶 Rutas  
+**Búsqueda:** input en topbar, 2+ caracteres, dropdown 6 resultados máx  
+
+---
+
+## 7. ESTRUCTURA DE DATOS
+
+- 49 JSONs en `/public/data/` + `index.json` con lista de IDs
+- Campos clave: `jerarquia_pin` (intencional, controla zoom progresivo), `periodos_at` (filtra pines), `historias` (3), `personajes` (3), `otros_habitantes` (2–5), `contexto_religioso.mitos` (1–3)
+- Eventos paralelos en `src/data/eventosParalelos.ts`
 - Períodos válidos: `bronce_tardio`, `hierro_1`, `hierro_2`, `post_exilio`
+- Período especial: `todos` (no filtra pines, sin GeoJSON, sin eventos paralelos)
 
-**Reglas de investigación:**
-- Campo sin fuente → `null`
-- Contenido incierto → marcado con ⚠
-- Cristianismo representado solo con NT en Fase 1
-- 3 historias y 3 personajes por lugar
-
----
-
-## 7. FUENTES DE DATOS
-
-**Biblia (texto y referencias):**
-- Nueva Biblia de Jerusalén (física) — fuente principal de verdad
-- `eneleich1/La-Biblia-de-Jerusalen-Project` (GitHub, BJ 1976, JSON) — respaldo de texto de versículos citados; ⚠ derechos de redistribución no verificados, uso interno
-
-**Geografía y territorios:**
-- STEPBible / TIPNR (CC BY 4.0) — ~1.600 lugares bíblicos con coordenadas
-- `aourednik/historical-basemaps` (GeoJSON, GPL-3.0) — polígonos por período
-
-**Eventos paralelos:**
-- *Times History of the World*, *Peoples and Empires* — contenido redactado por el Investigador, sin dataset GitHub viable
-
-**Mitos paralelos — perspectivas religiosas:**
-- Judaísmo: Midrash Rabbah, BHS, Talmud
-- Cristianismo: Nueva Biblia de Jerusalén (NT, Fase 1)
-- Islam: Corán (trad. Julio Cortés), Hadith, Tafsir
-
-**Contexto académico general:**
-- Oxford Companion to the Bible, Oxford Research Encyclopedias
-
-Documentación completa: `decisiones_diseno.md`
+**Reglas:**
+- Campo sin fuente → `null`; contenido incierto → `⚠`
+- `lat`/`lng` y `jerarquia_pin` no se modifican al completar contenido
+- `periodos_at` debe reflejar ocupación arqueológica (pendiente I2, Fase 3)
 
 ---
 
-## 8. FASE 2 — PENDIENTES
+## 8. FUENTES DE DATOS
 
-**Técnicos (confirmados por auditoría de código):**
-- Referencias bíblicas como links clicables a Bible Gateway (`<a href>`)
-- Accesibilidad por teclado en pines (tabindex, role, aria-label)
-- Botón de ruta por personaje + visualización de rutas en el mapa (activar "🚶 Rutas")
-- Revisar/limpiar variables CSS sin uso (`--olive`, `--lblue`, `--gray-on-dark`)
-
-**Producto/contenido:**
-- Drawer mobile mejorado: gesto swipe de 3 posiciones (cerrado/peek/expandido, estilo Apple Maps)
-- Integración TIPNR: dataset procesado (CC BY 4.0), clasificado en 3 niveles (nivel_1: 17, nivel_2: 27, nivel_3: 80) + 19 NT separados. Esqueletos JSON generados. Pendiente: copiar a /public/data/ e implementar renderizado por niveles en MapView.tsx
-- Árbol genealógico: herramienta separada con integración futura; grupos propuestos (primordial, patriarcal, línea davídica, profetas por período)
-- Navegación por lista de lugares, conexiones historia↔ubicación, resaltado de polígonos de territorio
-- Escalado a 10–20+ lugares adicionales, búsqueda de lugares/mitos
+**Biblia:** Nueva Biblia de Jerusalén (física, fuente principal)  
+**Geografía:** STEPBible/TIPNR (CC BY 4.0) · `aourednik/historical-basemaps` (GeoJSON, GPL-3.0)  
+**Mitos:** Midrash Rabbah · Talmud Bavli · Sefaria · Archive.org (Talmud completo) · Ibn Kathir Tafsir · Patrística (Orígenes, Ireneo, Tertuliano, Melitón, Cirilo)  
+**Eventos paralelos:** redactados por el Investigador  
+**Referencias:** Bible Gateway (biblegateway.com) para links clicables
 
 ---
 
-## 9. FASE 3+ — FUTURO
+## 9. FASE 3 — CANDIDATOS
+
+| Ítem | Tipo |
+|---|---|
+| Completar 16 JSONs con PENDIENTE | Investigador |
+| Verificación arqueológica `periodos_at` (I2) | Investigador |
+| Drawer swipe gesture mobile (3 posiciones) | Programador |
+| Búsqueda de personajes y mitos | Programador |
+| Fix scroll horizontal al activar Territorios | Programador |
+| Timeline extendida hasta año 0 d.C. | Programador |
+| Botón de ruta por personaje individual | Programador |
+| Documentación final y actualización .md | Coordinador |
+| Testing en dispositivo físico (mapa-at.vercel.app) | Rebeca |
+
+---
+
+## 10. FUTURO (Fase 4+)
 
 - Segundo mapa: Apóstoles de Jesús (posible toggle de capa)
 - Comparador visual de mitos
 - Base de datos colaborativa
 - Visualizador separado de mitos cruzados
+- Árbol genealógico (herramienta separada)
 
 ---
 
-## 10. RIESGOS VIGENTES
+## 11. RIESGOS VIGENTES
 
 | Riesgo | Mitigación |
 |---|---|
-| Datos religiosos sesgados | Múltiples fuentes académicas por tradición; NT-only para Cristianismo en Fase 1 |
-| Datos históricos contradictorios | Documentar perspectivas distintas; `⚠` para contenido incierto |
-| Información incompleta | Campos `null` explícitos + lista `// PENDIENTE` |
-| Performance con muchos pines/territorios | Filtrado por período activo; TIPNR limitado a frecuencia ≥5 |
-| Texto bíblico de fuente no verificada (`eneleich1`) | Uso interno solamente, no redistribuir |
-| Edición de archivos sin editor de código | Workflow vía Terminal (heredocs, `node -e`); evitar GitHub web UI |
+| Datos religiosos sesgados | Múltiples fuentes académicas por tradición |
+| `periodos_at` asignados narrativamente, no arqueológicamente | Pendiente I2 en Fase 3 |
+| 16 JSONs con contenido PENDIENTE | Prioridad Investigador en Fase 3 |
+| Scroll horizontal bug con capa Territorios | Identificado, pendiente fix |
+| Edición de archivos sin editor de código | Workflow vía Terminal (heredocs, scripts Python) |
+| Dataset aourednik sin snapshot entre bc1500 y bc1000 | Aceptado y documentado |

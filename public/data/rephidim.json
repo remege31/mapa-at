@@ -1,0 +1,129 @@
+{
+  "id": "rephidim",
+  "nombre": "Refidim",
+  "tipo": "territorio",
+  "lat": 28.73106102564323,
+  "lng": 33.84169995726504,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Comparte coordenadas con Masá — son el mismo lugar geográfico bajo distintos nombres conmemorativos (Éx 17:1-7).",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Agua de la roca, victoria sobre Amalec" }
+  ],
+  "descripcion_geo": "Campamento del éxodo en el desierto del Sinaí, escenario tanto de la falta de agua resuelta mediante el milagro de la roca de Horeb como, en el mismo lugar, de la primera batalla campal de Israel contra un enemigo externo: los amalecitas.",
+  "altitud_m": 600,
+  "clima": "Desértico de montaña — extremadamente seco y caluroso durante el día, con temperaturas más frescas durante la noche, propio de la región montañosa del Sinaí.",
+  "recursos": [
+    "Roca de Horeb, fuente del milagro del agua",
+    "Posición elevada usada por Moisés durante la batalla contra Amalec"
+  ],
+  "importancia_estrategica": "Refidim es escenario de dos episodios consecutivos de gran importancia: la crisis de agua resuelta milagrosamente que da origen a los nombres Masá y Meribá, y la primera batalla militar significativa de Israel como nación organizada, contra los amalecitas, ganada gracias a la postura sostenida de Moisés con las manos alzadas sobre una colina cercana.",
+  "otros_habitantes": [
+    {
+      "id": "amalecitas_refidim",
+      "nombre": "Amalecitas",
+      "descripcion": "Pueblo nómada del desierto que ataca a Israel en Refidim, primer enemigo militar organizado enfrentado por el pueblo recién liberado de Egipto.",
+      "religion": "Politeísmo amalecita",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "israelitas_refidim",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo que experimenta en Refidim tanto la provisión milagrosa de agua como su primera victoria militar como nación, bajo el liderazgo combinado de Moisés y Josué.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "agua-roca-refidim",
+      "titulo": "El agua brota de la roca de Horeb en Refidim",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Ante la falta de agua en Refidim, Moisés golpea la roca de Horeb por instrucción divina, de la que brota agua suficiente para todo el pueblo, episodio que da origen a los nombres conmemorativos Masá y Meribá para el lugar.",
+      "referencias": ["Éx 17:1-7"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "batalla-amalec-refidim",
+      "titulo": "Israel derrota a Amalec en Refidim",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Amalec ataca a Israel en Refidim; Moisés ordena a Josué seleccionar hombres para combatir, mientras él mismo sube a una colina con Aarón y Hur, sosteniendo en alto la vara de Dios; mientras Moisés mantiene las manos alzadas, Israel prevalece, pero cuando las baja por cansancio, Amalec gana terreno, hasta que Aarón y Hur sostienen sus manos hasta la puesta del sol, asegurando la victoria definitiva.",
+      "referencias": ["Éx 17:8-13"],
+      "personajes_clave": ["moises", "josue"]
+    },
+    {
+      "id": "altar-yhwh-nisi-refidim",
+      "titulo": "Moisés construye un altar llamado 'YHWH es mi estandarte'",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras la victoria sobre Amalec, YHWH ordena escribir el evento como memorial e instruye que se declare guerra perpetua contra Amalec; Moisés edifica un altar que llama 'YHWH-nisi' ('YHWH es mi estandarte'), conmemorando la primera victoria militar de Israel como pueblo organizado.",
+      "referencias": ["Éx 17:14-16"],
+      "personajes_clave": ["moises"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_rephidim",
+      "nombre": "Moisés",
+      "emoji": "🙌",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Resuelve la crisis de agua y dirige simbólicamente la batalla contra Amalec desde la colina, sosteniendo en alto la vara de Dios como signo de la dependencia de la victoria respecto al poder divino más que a la fuerza militar humana.",
+      "referencias": ["Éx 17:1-16"],
+      "ruta": ["rephidim"]
+    },
+    {
+      "id": "josue_rephidim",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Comandante militar, futuro sucesor de Moisés",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Recibe su primera mención bíblica precisamente en Refidim, donde Moisés lo designa para seleccionar y comandar a los hombres de Israel en la batalla contra Amalec, primera aparición del futuro líder de la conquista de Canaán.",
+      "referencias": ["Éx 17:9-10", "Éx 17:13"],
+      "ruta": ["rephidim"]
+    },
+    {
+      "id": "aaron_hur_rephidim",
+      "nombre": "Aarón y Hur",
+      "emoji": "🤝",
+      "rol": "Sostenedores de las manos de Moisés",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Sostienen físicamente las manos cansadas de Moisés durante la prolongada batalla contra Amalec, asegurando que se mantengan alzadas hasta la victoria final al ponerse el sol, ejemplo de apoyo colaborativo decisivo en un momento crítico.",
+      "referencias": ["Éx 17:12"],
+      "ruta": ["rephidim"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Refidim conecta dos episodios fundacionales del Éxodo bajo el mismo techo geográfico: la provisión milagrosa de agua que revela el carácter providencial de YHWH, y la primera victoria militar de Israel, que establece el patrón teológico de que el éxito en la guerra depende directamente de la postura de dependencia espiritual (las manos alzadas de Moisés) más que de la estrategia o fuerza militar convencional, principio reforzado por la declaración de guerra perpetua contra Amalec como castigo por atacar a un pueblo vulnerable recién liberado.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo amalecita"
+    ],
+    "mitos": [
+      {
+        "id": "manos-alzadas-moises-amalec",
+        "nombre": "Las manos alzadas de Moisés y la victoria sobre Amalec",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Éx 17:8-16",
+          "fuente_secundaria": "Mishná, tratado Rosh Hashaná 3:8 (discusión sobre el significado de las manos alzadas de Moisés, aclarando que no era la posición física en sí la causa de la victoria sino la orientación del corazón del pueblo hacia el cielo)",
+          "descripcion": "La tradición rabínica clásica discute explícitamente el episodio para aclarar que no eran las manos de Moisés en sí mismas las que determinaban la victoria militar, sino que su postura funcionaba como recordatorio visual que dirigía los corazones de Israel hacia la dependencia de YHWH en el cielo, evitando cualquier interpretación mágica o supersticiosa del gesto físico.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento del valor simbólico de la postura de oración sostenida.",
+          "diferencias": null,
+          "significado_teologico": "El episodio establece que la victoria militar genuina depende de la orientación espiritual del pueblo hacia YHWH, simbolizada pero no causada mágicamente por el gesto físico de Moisés.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 17:8-13 (recepción tipológica patrística sobre las manos alzadas de Moisés como figura de la cruz u oración perseverante)",
+          "fuente_secundaria": "Comentarios patrísticos que asocian la postura de Moisés con la oración intercesora constante necesaria para la victoria espiritual",
+          "descripcion": "La tradición patrística cristiana, en algunas corrientes, lee tipológicamente la postura de Moisés con los brazos extendidos como prefiguración de la cruz, mientras que otra línea de interpretación enfatiza más generalmente el valor de la oración intercesora sostenida y el apoyo comunitario (representado por Aarón y Hur) como necesarios para sostener la lucha espiritual a lo largo del tiempo.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento de que la victoria depende de la dependencia espiritual sostenida hacia Dios.",
+          "diferencias": "Algunas lecturas cristianas añaden una dimensión tipológica explícita (manos extendidas como figura de la cruz) ausente en la interpretación judía tradicional.",
+          "significado_teologico": "El episodio se lee como modelo de oración perseverante y apoyo comunitario necesario para sostener la lucha espiritual hasta la victoria final.",
+          "posible_relacion_cultural": "Recepción cristiana del relato del Éxodo reinterpretado en clave devocional y, en algunas corrientes, tipológica."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

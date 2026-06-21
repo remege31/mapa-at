@@ -1,0 +1,121 @@
+{
+  "id": "beth_shean",
+  "nombre": "Bet-seán",
+  "tipo": "ciudad",
+  "lat": 32.5042384550589,
+  "lng": 35.50307739108582,
+  "frecuencia_at": 9,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad cananea no conquistada, exposición del cuerpo de Saúl" }
+  ],
+  "descripcion_geo": "Importante ciudad cananea estratégicamente situada en la confluencia del valle del Jordán y el valle de Jezreel, con un extenso tell que confirma arqueológicamente su importancia continua desde el Bronce Tardío hasta períodos posteriores, asignada formalmente a Manasés pero nunca conquistada militarmente durante el período de los Jueces.",
+  "altitud_m": -120,
+  "clima": "Mediterráneo de valle del Jordán — veranos muy calurosos y secos, inviernos templados, propio de la confluencia de los valles del Jordán y Jezreel.",
+  "recursos": [
+    "Posición estratégica en la confluencia de rutas comerciales principales",
+    "Tierras fértiles del valle del Jordán",
+    "Templo de Astarté (mencionado en el episodio de Saúl)"
+  ],
+  "importancia_estrategica": "Bet-seán es una de las ciudades cananeas más poderosas que Israel nunca logra conquistar durante todo el período de los Jueces, manteniendo control filisteo o cananeo independiente hasta bien entrada la monarquía; su mayor relevancia narrativa es como lugar de exposición humillante del cuerpo decapitado de Saúl tras la derrota de Gilboa, episodio que cierra trágicamente el primer reinado de Israel.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_bethshean",
+      "nombre": "Cananeos de Bet-seán",
+      "descripcion": "Población que Manasés nunca logra expulsar de la ciudad, manteniendo Bet-seán bajo control independiente o filisteo durante todo el período de los Jueces.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C. y persistente después"
+    },
+    {
+      "id": "filisteos_bethshean",
+      "nombre": "Filisteos",
+      "descripcion": "Fuerzas filisteas que exponen el cuerpo decapitado de Saúl en el muro de Bet-seán tras la batalla de Gilboa, utilizando el control de la ciudad como base para esta humillación pública del rey caído.",
+      "religion": "Politeísmo filisteo — culto a Dagón y Astarté",
+      "periodo": "c. 1010 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "manases-no-expulsa-bethshean",
+      "titulo": "Manasés no logra expulsar a los cananeos de Bet-seán",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "El libro de los Jueces registra explícitamente que Manasés no pudo desposeer a los habitantes de Bet-seán y sus aldeas, sometiéndolos en cambio a trabajo forzado en lugar de la conquista total prevista.",
+      "referencias": ["Jue 1:27"],
+      "personajes_clave": []
+    },
+    {
+      "id": "exposicion-saul-bethshean",
+      "titulo": "El cuerpo de Saúl es expuesto en el muro de Bet-seán",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Tras la batalla del monte Gilboa, los filisteos clavan los cuerpos sin cabeza de Saúl y sus hijos en el muro de Bet-seán, exponiéndolos públicamente como trofeo de guerra, mientras la cabeza y la armadura del rey son enviadas como ofrenda a los templos de sus dioses en otras ciudades filisteas.",
+      "referencias": ["1 Sam 31:8-10"],
+      "personajes_clave": ["saul"]
+    },
+    {
+      "id": "rescate-jabes-galaad-bethshean",
+      "titulo": "Los hombres de Jabés de Galaad rescatan los cuerpos",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Al enterarse de la humillación pública infligida a Saúl, los hombres valientes de Jabés de Galaad —ciudad que Saúl había rescatado al inicio de su reinado— marchan toda la noche, retiran los cuerpos del muro de Bet-seán, los queman y sepultan sus huesos bajo un tamarisco, ayunando siete días en señal de duelo y honor hacia su antiguo libertador.",
+      "referencias": ["1 Sam 31:11-13"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "saul_bethshean",
+      "nombre": "Saúl",
+      "emoji": "💀",
+      "rol": "Primer rey de Israel (cuerpo expuesto póstumamente)",
+      "periodo": "Muere c. 1010 a.C.",
+      "descripcion": "Su cuerpo decapitado es expuesto públicamente en el muro de Bet-seán por los filisteos como trofeo de guerra, en el episodio de mayor humillación póstuma sufrida por un rey de Israel en todo el relato bíblico.",
+      "referencias": ["1 Sam 31:8-10"],
+      "ruta": ["gilboa_mount", "beth_shean"]
+    },
+    {
+      "id": "hombres_jabes_bethshean",
+      "nombre": "Hombres valientes de Jabés de Galaad",
+      "emoji": "🕯️",
+      "rol": "Rescatadores leales del cuerpo de Saúl",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "Demuestran lealtad excepcional hacia Saúl al arriesgar sus vidas para rescatar su cuerpo humillado de Bet-seán, en gratitud por haber sido liberados por él de la amenaza de Nahas amonita al inicio de su reinado.",
+      "referencias": ["1 Sam 31:11-13", "1 Sam 11:1-11"],
+      "ruta": ["jabes_galaad", "beth_shean"]
+    },
+    {
+      "id": "filisteos_bethshean_personaje",
+      "nombre": "Comandantes filisteos",
+      "emoji": "🏆",
+      "rol": "Ejecutores de la humillación pública de Saúl",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "Organizan la exposición pública del cuerpo de Saúl en Bet-seán como demostración de su victoria decisiva sobre Israel en la batalla del monte Gilboa.",
+      "referencias": ["1 Sam 31:9-10"],
+      "ruta": ["beth_shean"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Bet-seán es escenario del episodio de mayor degradación pública sufrida por la monarquía israelita en todo el Antiguo Testamento, contrastado deliberadamente por el narrador con el acto de lealtad heroica de los hombres de Jabés de Galaad, quienes arriesgan sus vidas para restaurar la dignidad del rey caído mediante un rescate nocturno y una sepultura honorable, ilustrando que el honor hacia el ungido de YHWH puede sobrevivir incluso a la derrota y muerte más humillantes.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo y filisteo — culto a Dagón y Astarté"
+    ],
+    "mitos": [
+      {
+        "id": "rescate-honor-saul-bethshean",
+        "nombre": "El rescate del honor de Saúl por los hombres de Jabés",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 31:11-13",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la lealtad excepcional de Jabés de Galaad como ejemplo de gratitud duradera y honor hacia el rey ungido incluso después de su muerte vergonzosa",
+          "descripcion": "La tradición judía valora especialmente el episodio del rescate nocturno de los cuerpos por los hombres de Jabés como ejemplo paradigmático de hakarat hatov (reconocimiento del bien recibido), virtud que motiva a esta ciudad a arriesgar todo por restaurar la dignidad de quien los había liberado décadas antes, incluso cuando todo el resto de Israel parecía haber abandonado al rey caído en su momento de mayor humillación.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El acto de Jabés de Galaad demuestra que el reconocimiento de la gratitud y el honor debido al ungido de YHWH trasciende incluso las circunstancias más adversas y humillantes.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

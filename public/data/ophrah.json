@@ -1,0 +1,121 @@
+{
+  "id": "ophrah",
+  "nombre": "Ofra",
+  "tipo": "ciudad",
+  "lat": 32.60868269540592,
+  "lng": 35.28826433084549,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Hogar de Gedeón, llamado y juicio del altar de Baal" }
+  ],
+  "descripcion_geo": "Ciudad de la tribu de Manasés, en la región montañosa del norte de Israel, hogar de Gedeón y escenario del llamado angélico que lo convoca a liberar a Israel de la opresión madianita, además del posterior episodio del efod que Gedeón fabrica con el botín de su victoria.",
+  "altitud_m": 380,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las colinas de Manasés.",
+  "recursos": [
+    "Lagar familiar de Gedeón (lugar del llamado angélico)",
+    "Altar de Baal y la imagen de Asera destruidos por Gedeón",
+    "Tierras agrícolas de la región montañosa de Manasés"
+  ],
+  "importancia_estrategica": "Ofra es el punto de origen de uno de los ciclos de liberación más extensos del libro de los Jueces: el llamado de Gedeón ocurre en su propio lagar familiar mientras trilla trigo escondido por temor a los madianitas, y la ciudad es también escenario del primer acto de obediencia exigido a Gedeón —la destrucción del altar de Baal de su propio padre— antes de cualquier campaña militar contra el opresor externo.",
+  "otros_habitantes": [
+    {
+      "id": "abiezeritas_ofra",
+      "nombre": "Clan de Abiezer (familia de Gedeón)",
+      "descripcion": "Familia de la tribu de Manasés a la que pertenece Gedeón, residente en Ofra, que mantenía un altar a Baal y una imagen de Asera bajo la autoridad de Joás, padre de Gedeón.",
+      "religion": "Sincretismo yahvista-baalista (previo a la reforma de Gedeón)",
+      "periodo": "c. 1150 a.C."
+    },
+    {
+      "id": "madianitas_amenaza_ofra",
+      "nombre": "Madianitas y amalecitas",
+      "descripcion": "Pueblos invasores que oprimen severamente a Israel mediante razzias devastadoras de sus cosechas y ganado, motivo de la ocultación del grano que Gedeón trillaba en el lagar de Ofra.",
+      "religion": "Politeísmo madianita",
+      "periodo": "c. 1150 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "llamado-gedeon-ofra",
+      "titulo": "El ángel de YHWH llama a Gedeón en el lagar de Ofra",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Mientras Gedeón trilla trigo escondido en un lagar para protegerlo de los madianitas, el ángel de YHWH se le aparece y lo saluda como 'varón esforzado y valiente', encomendándole liberar a Israel; Gedeón duda de su capacidad por ser de la familia más pobre de Manasés, pero recibe la promesa de la presencia divina y una señal confirmatoria mediante fuego que consume su ofrenda.",
+      "referencias": ["Jue 6:11-24"],
+      "personajes_clave": ["gedeon"]
+    },
+    {
+      "id": "gedeon-destruye-altar-baal-ofra",
+      "titulo": "Gedeón destruye el altar de Baal de su padre",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Antes de cualquier acción militar, YHWH ordena a Gedeón derribar el altar de Baal y cortar la imagen de Asera que su propio padre mantenía en Ofra; Gedeón lo hace de noche por temor a su familia y a los hombres de la ciudad, quienes al descubrirlo al día siguiente exigen su muerte, pero Joás defiende a su hijo argumentando que si Baal es dios, que se defienda él mismo.",
+      "referencias": ["Jue 6:25-32"],
+      "personajes_clave": ["gedeon"]
+    },
+    {
+      "id": "gedeon-efod-ofra",
+      "titulo": "Gedeón fabrica un efod en Ofra que se convierte en trampa idolátrica",
+      "fecha": "c. 1130 a.C.",
+      "descripcion": "Tras su exitosa campaña militar, Gedeón solicita los pendientes de oro del botín y fabrica un efod que coloca en Ofra, su ciudad; el texto bíblico registra que 'todo Israel se prostituyó tras de él allí', convirtiéndose en tropezadero para Gedeón y su casa, en un giro irónico que contrasta con su anterior destrucción del culto idolátrico familiar.",
+      "referencias": ["Jue 8:24-27"],
+      "personajes_clave": ["gedeon"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "gedeon",
+      "nombre": "Gedeón",
+      "emoji": "🌾",
+      "rol": "Juez de Israel, liberador de la opresión madianita",
+      "periodo": "Activo c. 1150–1130 a.C.",
+      "descripcion": "Recibe en Ofra el llamado angélico que lo convierte en juez-libertador de Israel, comenzando con la destrucción del culto idolátrico de su propia familia antes de dirigir la célebre campaña de los trescientos hombres contra Madián.",
+      "referencias": ["Jue 6:11-32", "Jue 7:1-25"],
+      "ruta": ["ophrah"]
+    },
+    {
+      "id": "joas_padre_gedeon",
+      "nombre": "Joás, padre de Gedeón",
+      "emoji": "🛡️",
+      "rol": "Padre de Gedeón, defensor inesperado de su hijo",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Aunque originalmente mantenía el altar de Baal destruido por Gedeón, defiende a su hijo ante la multitud enfurecida con un argumento retórico que deja a Baal mismo la responsabilidad de defenderse, dando origen al sobrenombre 'Jerobaal' para Gedeón.",
+      "referencias": ["Jue 6:28-32"],
+      "ruta": ["ophrah"]
+    },
+    {
+      "id": "angel_yhwh_ofra",
+      "nombre": "El ángel de YHWH",
+      "emoji": "🔥",
+      "rol": "Mensajero divino que llama a Gedeón",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Se aparece a Gedeón en el lagar de Ofra, confirmando su llamado mediante una señal de fuego que consume milagrosamente la ofrenda de carne y panes sin levadura presentada por Gedeón.",
+      "referencias": ["Jue 6:11-22"],
+      "ruta": ["ophrah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Ofra encapsula la tensión teológica central del ciclo de Gedeón: la necesidad de purificar primero el culto familiar e inmediato (el altar de Baal del propio padre) antes de poder ser instrumento de liberación nacional contra la opresión externa, seguida irónicamente por la recaída del propio Gedeón en una forma distinta de idolatría (el efod) al final de su ministerio, ilustrando que ni siquiera los liberadores más exitosos están exentos de las tentaciones que combatieron en otros.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Sincretismo yahvista-baalista (culto familiar previo a la reforma de Gedeón)"
+    ],
+    "mitos": [
+      {
+        "id": "jerobaal-baal-defienda-ofra",
+        "nombre": "El origen del nombre Jerobaal: 'que Baal contienda'",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 6:32",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el argumento retórico de Joás como demostración temprana de la impotencia de los ídolos frente al poder real de YHWH",
+          "descripcion": "La tradición judía valora el argumento de Joás en defensa de Gedeón —dejar que Baal mismo se defienda si verdaderamente es dios— como ejemplo temprano y efectivo de polémica antiidolátrica práctica, que además da origen al sobrenombre 'Jerobaal' por el cual Gedeón es conocido en pasajes posteriores, vinculando indeleblemente su identidad con este momento fundacional de ruptura con el culto familiar a Baal.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio demuestra mediante la práctica, no solo la doctrina, la incapacidad de los ídolos para defenderse o actuar, contrastando implícitamente con el poder activo de YHWH manifestado en el llamado a Gedeón.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

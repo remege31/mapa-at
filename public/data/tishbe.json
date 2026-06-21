@@ -1,0 +1,135 @@
+{
+  "id": "tishbe",
+  "nombre": "Tisbe",
+  "tipo": "ciudad",
+  "lat": 32.193237,
+  "lng": 35.75,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Ubicación exacta incierta; coordenada aproximada que sitúa a Tisbe en la región central de Galaad, conforme a la identificación tradicional, distinta de la zona de Hazor (Galilea, al oeste del Jordán). Corregido el 21 jun 2026 — antes compartía coordenada con Hazor por error.",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad natal de Elías" }
+  ],
+  "descripcion_geo": "Ciudad o aldea de origen incierto y disputado, tradicionalmente ubicada en la región de Galaad, al este del Jordán, conocida exclusivamente por ser el lugar de origen del profeta Elías, sin otro desarrollo narrativo propio en el texto bíblico.",
+  "altitud_m": "Incierta (región de Galaad)",
+  "clima": "Mediterráneo de montaña — propio de la región de Galaad, con veranos secos y inviernos fríos.",
+  "recursos": [
+    "Sin recursos documentados específicamente en el texto bíblico"
+  ],
+  "importancia_estrategica": "Tisbe no tiene relevancia estratégica, militar ni administrativa alguna en el relato bíblico; su única función es identificar el origen geográfico de Elías, uno de los profetas más significativos de todo el Antiguo Testamento, cuyo ministerio se desarrolla principalmente en el reino del norte durante el reinado de Acab.",
+  "otros_habitantes": [
+    {
+      "id": "galaaditas_tishbe",
+      "nombre": "Población de Galaad",
+      "descripcion": "Habitantes de la región de Galaad de la que Elías es originario, territorio transjordano de fuerte identidad tribal y cierta distancia cultural respecto al centro político de Israel y Judá.",
+      "religion": "Yahvismo",
+      "periodo": "c. 870–850 a.C."
+    },
+    {
+      "id": "familia_elias_tishbe",
+      "nombre": "Familia de Elías",
+      "descripcion": "Núcleo familiar del profeta en su lugar de origen, sin más detalles proporcionados por el texto bíblico más allá de la identificación geográfica 'tisbita'.",
+      "religion": "Yahvismo",
+      "periodo": "c. 900–870 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "elias-presentado-tishbe",
+      "titulo": "Elías es presentado como 'tisbita, de los moradores de Galaad'",
+      "fecha": "c. 870 a.C.",
+      "descripcion": "El profeta Elías aparece por primera vez en el texto bíblico identificado explícitamente con su origen geográfico, anunciando directamente a Acab una sequía como castigo divino, sin que se proporcione ninguna narración previa sobre su llamado o formación, en contraste marcado con las extensas narrativas de vocación de otros profetas.",
+      "referencias": ["1 Re 17:1"],
+      "personajes_clave": ["elias"]
+    },
+    {
+      "id": "tishbe-origen-ambiguo",
+      "titulo": "La ambigüedad textual sobre el origen exacto de Tisbe",
+      "fecha": "Contexto textual, c. 870 a.C.",
+      "descripcion": "El texto hebreo de 1 Reyes 17:1 presenta cierta ambigüedad gramatical sobre si 'tisbita' se refiere a un gentilicio derivado de una ciudad llamada Tisbe o a otra lectura posible del texto original, generando desde la antigüedad debate exegético sobre la localización exacta de la patria de Elías.",
+      "referencias": ["1 Re 17:1"],
+      "personajes_clave": []
+    },
+    {
+      "id": "elias-ministerio-posterior-tishbe",
+      "titulo": "El ministerio posterior de Elías tras su origen en Tisbe",
+      "fecha": "c. 870–850 a.C.",
+      "descripcion": "Tras su breve identificación de origen en Tisbe, Elías desarrolla todo su extenso ministerio en otros lugares del reino del norte y sus alrededores, sin que el texto bíblico vuelva a mencionar su ciudad natal en ningún episodio posterior de su carrera profética.",
+      "referencias": ["1 Re 17:1-19:21", "2 Re 1:1-2:11"],
+      "personajes_clave": ["elias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "elias_tishbe",
+      "nombre": "Elías",
+      "emoji": "🔥",
+      "rol": "Profeta de Israel, originario de Tisbe",
+      "periodo": "Activo c. 870–850 a.C.",
+      "descripcion": "Uno de los profetas más significativos del Antiguo Testamento, identificado en su primera aparición textual mediante su origen en Tisbe, de Galaad, sin que se proporcione más información biográfica previa a su irrupción pública en la corte de Acab.",
+      "referencias": ["1 Re 17:1"],
+      "ruta": ["tishbe", "querit", "sarepta", "carmelo"]
+    },
+    {
+      "id": "acab_tishbe_contexto",
+      "nombre": "Acab",
+      "emoji": "👑",
+      "rol": "Rey de Israel, receptor del anuncio profético de Elías",
+      "periodo": "c. 874–853 a.C.",
+      "descripcion": "Recibe el primer anuncio profético de Elías sobre la sequía venidera, iniciando el extenso ciclo de confrontación entre el rey y el profeta tisbita que caracteriza buena parte de la narrativa de 1 Reyes.",
+      "referencias": ["1 Re 17:1"],
+      "ruta": []
+    },
+    {
+      "id": "galaaditas_tishbe_personaje",
+      "nombre": "Habitantes de Galaad",
+      "emoji": "🏘️",
+      "rol": "Comunidad de origen del profeta",
+      "periodo": "c. 900–870 a.C.",
+      "descripcion": "Población de la región transjordana donde el texto bíblico sitúa el origen de Elías, sin más desarrollo narrativo específico más allá de la identificación geográfica del profeta.",
+      "referencias": ["1 Re 17:1"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Tisbe carece de cualquier desarrollo narrativo, mítico o cúltico propio en el texto bíblico; su única función es identificar el origen de uno de los profetas más trascendentales del Antiguo Testamento, cuya irrupción repentina en la narrativa —sin genealogía detallada ni relato de vocación, a diferencia de Isaías, Jeremías o Ezequiel— refuerza el carácter abrupto y casi sobrenatural con que Elías aparece en la historia bíblica, como instrumento directo del juicio divino sobre la apostasía de Acab y Jezabel.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "elias-aparicion-abrupta-tishbe",
+        "nombre": "La aparición abrupta de Elías sin relato de vocación",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "1 Re 17:1",
+          "fuente_secundaria": "Comentario rabínico y tradición posterior sobre la identidad y origen misteriosos de Elías, incluyendo especulaciones sobre su posible identificación con otras figuras bíblicas",
+          "descripcion": "La tradición judía desarrolla una extensa literatura especulativa sobre los orígenes y la naturaleza de Elías, motivada en parte por la ausencia de información genealógica detallada en su primera aparición, que contribuye a la posterior elevación de Elías a una figura casi sobrenatural en el folclore y la liturgia judía, incluyendo su papel escatológico como precursor del Mesías.",
+          "similitudes": "Comparte con cristianismo e islam el reconocimiento de Elías como figura profética de estatus excepcional.",
+          "diferencias": null,
+          "significado_teologico": "La aparición sin antecedentes de Elías refuerza su carácter de instrumento profético directo de YHWH, no dependiente de credenciales genealógicas o institucionales convencionales.",
+          "posible_relacion_cultural": "Tradición compartida de Elías como figura profética de relevancia escatológica en las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Re 17:1 (recepción neotestamentaria de Elías en Mt 17:1-13, la Transfiguración; Lc 1:17, el paralelo con Juan el Bautista)",
+          "fuente_secundaria": "Comentarios patrísticos sobre Elías como figura precursora y tipológica",
+          "descripcion": "La tradición cristiana retoma a Elías como figura central de expectativa escatológica, presente junto a Moisés en la Transfiguración de Jesús, y como modelo tipológico aplicado a Juan el Bautista, otorgando al profeta de origen oscuro en Tisbe una relevancia teológica que trasciende ampliamente su breve presentación inicial en el texto.",
+          "similitudes": "Comparte con la lectura judía la valoración de Elías como figura de relevancia escatológica excepcional.",
+          "diferencias": "La lectura cristiana desarrolla específicamente la tipología entre Elías y Juan el Bautista, ausente en las lecturas judía e islámica.",
+          "significado_teologico": "Elías se convierte en figura tipológica central que conecta el Antiguo y Nuevo Testamento en la expectativa mesiánica cristiana.",
+          "posible_relacion_cultural": "Tradición compartida de Elías como profeta de relevancia escatológica común a judaísmo y cristianismo."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 6:85; 37:123-132 (referencias a Ilyas)",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre Ilyas como profeta enviado a un pueblo idólatra",
+          "descripcion": "El Corán reconoce a Ilyas (Elías) entre los profetas justos, enviado a advertir a su pueblo contra la idolatría del dios Baal, en paralelo temático con el conflicto bíblico de Elías contra los profetas de Baal en el monte Carmelo, aunque sin detallar su origen geográfico específico en Tisbe.",
+          "similitudes": "Reconocimiento compartido de Elías/Ilyas como profeta enviado específicamente contra la idolatría a Baal.",
+          "diferencias": "El Corán no desarrolla la identificación geográfica específica del origen de Ilyas en Tisbe ni el extenso ciclo narrativo presente en el texto bíblico.",
+          "significado_teologico": "Ilyas se integra en la cadena de profetas reconocidos por el islam enviados a confrontar la idolatría de sus respectivos pueblos.",
+          "posible_relacion_cultural": "Reconocimiento compartido de Elías/Ilyas como profeta fundacional en la tradición abrahámica común."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "millo",
+  "nombre": "Millo",
+  "tipo": "ciudad",
+  "lat": 31.777444,
+  "lng": 35.234935,
+  "frecuencia_at": 11,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Coordenadas genéricas de Jerusalén — Millo es una fortificación interna de la ciudad, no un asentamiento independiente.",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de la Ciudad de David" }
+  ],
+  "descripcion_geo": "Estructura defensiva de terrazas escalonadas dentro de la Ciudad de David, en la ladera oriental, que rellenaba y consolidaba el desnivel entre la cresta de la colina y el valle del Cedrón. Su nombre deriva de la raíz hebrea 'llenar' (male), describiendo su función como relleno estructural de terrazas para ampliar el área edificable de la ciudad.",
+  "altitud_m": "Integrada en la Ciudad de David, c. 740-760",
+  "clima": "Mediterráneo de montaña — el de Jerusalén, veranos secos, inviernos fríos con lluvias y ocasional nieve.",
+  "recursos": [
+    "Sistema de terrazas escalonadas de relleno y contención",
+    "Ampliación del área urbanizable de la Ciudad de David",
+    "Punto de unión entre la fortaleza de Sion y el resto de la ciudad"
+  ],
+  "importancia_estrategica": "El Millo es una de las obras de ingeniería defensiva más significativas del reino unido: David lo construye tras conquistar la fortaleza jebusea, y Salomón lo refuerza como parte de su programa constructivo junto al Templo y el palacio. Funcionaba como elemento estructural que sostenía y ampliaba la pendiente oriental de la colina, permitiendo el crecimiento urbano de Jerusalén hacia el norte en dirección al área del Templo.",
+  "otros_habitantes": [
+    {
+      "id": "jebuseos_millo",
+      "nombre": "Jebuseos",
+      "descripcion": "Población original de la fortaleza de Sion antes de su conquista por David; el sistema de terrazas que luego se conocería como Millo probablemente tiene antecedentes constructivos jebuseos sobre los que David y Salomón edifican.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1000 a.C."
+    },
+    {
+      "id": "trabajadores_forzados_millo",
+      "nombre": "Levas de trabajo forzado salomónicas",
+      "descripcion": "Mano de obra movilizada por Salomón para sus grandes proyectos constructivos, entre ellos el refuerzo del Millo, junto con el Templo, el palacio y las murallas de Jerusalén.",
+      "religion": "Yahvismo (población israelita) y cultos diversos (población no israelita sometida a leva)",
+      "periodo": "c. 970–931 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "david-construye-millo",
+      "titulo": "David construye desde el Millo hacia adentro",
+      "fecha": "c. 1000 a.C.",
+      "descripcion": "Tras conquistar la fortaleza jebusea de Sion y establecerla como la Ciudad de David, el rey edifica alrededor desde el Millo hacia el interior, ampliando y consolidando la nueva capital.",
+      "referencias": ["2 Sam 5:9", "1 Cr 11:8"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "salomon-refuerza-millo",
+      "titulo": "Salomón incluye el Millo en su programa constructivo",
+      "fecha": "c. 970–960 a.C.",
+      "descripcion": "Entre los grandes proyectos de Salomón —el Templo, su propia casa, el Millo y el muro de Jerusalén— se enumera el refuerzo de esta estructura defensiva, sostenida mediante trabajo forzado movilizado de las distintas regiones del reino.",
+      "referencias": ["1 Re 9:15", "1 Re 9:24", "1 Re 11:27"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "joas-asesinado-millo",
+      "titulo": "El rey Joás es asesinado cerca del Millo",
+      "fecha": "c. 796 a.C.",
+      "descripcion": "El rey Joás de Judá es asesinado por sus propios siervos en la casa del Millo (o 'que desciende hacia Sila', según la lectura del texto), en una conspiración palaciega que pone fin a su reinado tras el episodio de Zacarías hijo de Joiada.",
+      "referencias": ["2 Re 12:20-21", "2 Cr 24:25"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "david_millo",
+      "nombre": "David",
+      "emoji": "🏗️",
+      "rol": "Rey de Israel, fundador de la Ciudad de David",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Ordena la construcción del Millo como parte de la consolidación de su nueva capital tras la conquista de la fortaleza jebusea, ampliando estructuralmente la colina de Sion.",
+      "referencias": ["2 Sam 5:6-10"],
+      "ruta": ["hebrón", "jerusalen"]
+    },
+    {
+      "id": "salomon_millo",
+      "nombre": "Salomón",
+      "emoji": "👑",
+      "rol": "Rey de Israel, constructor del Templo y de obras civiles",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Incluye el refuerzo del Millo entre sus grandes proyectos arquitectónicos, junto al Templo y el palacio real, movilizando trabajo forzado para sostener la expansión de Jerusalén.",
+      "referencias": ["1 Re 9:15-24"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "joas_milo",
+      "nombre": "Joás de Judá",
+      "emoji": "⚰️",
+      "rol": "Rey de Judá, asesinado cerca del Millo",
+      "periodo": "c. 835–796 a.C.",
+      "descripcion": "Rey que tras un reinado marcado inicialmente por la restauración del Templo y después por el abandono del culto yahvista tras la muerte del sacerdote Joiada, es asesinado por sus propios siervos en una conspiración cuyo escenario el texto sitúa cerca del Millo.",
+      "referencias": ["2 Re 12:19-21", "2 Cr 24:23-25"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El Millo no es en sí mismo un espacio de culto, pero su construcción está estrechamente ligada a los dos grandes proyectos de legitimación religiosa de la monarquía davídico-salomónica: la consolidación de Jerusalén como capital política bajo David y la edificación del Templo bajo Salomón. Su mención en el asesinato de Joás añade una capa adicional de significado, marcando el lugar como escenario tanto de consolidación como de crisis del poder real en Judá.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (sustrato jebuseo previo)"
+    ],
+    "mitos": [
+      {
+        "id": "millo-consolidacion-davidica",
+        "nombre": "El Millo como símbolo de la consolidación del poder davídico-salomónico",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 5:9; 1 Re 9:15",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre las obras constructivas de David y Salomón como expresión del establecimiento definitivo de la monarquía en Jerusalén",
+          "descripcion": "La tradición judía lee la construcción y refuerzo sucesivo del Millo por David y luego por Salomón como signo material continuo de la consolidación de Jerusalén como centro político y religioso de Israel, vinculando la solidez de la estructura física con la estabilidad buscada para la dinastía davídica.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La obra arquitectónica se interpreta como expresión visible del establecimiento de la promesa davídica sobre Jerusalén como ciudad elegida.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

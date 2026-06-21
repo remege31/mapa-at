@@ -1,0 +1,120 @@
+{
+  "id": "tappuah",
+  "nombre": "Tapúa",
+  "tipo": "ciudad",
+  "lat": 32.11666666666667,
+  "lng": 35.23333333333333,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad en la frontera entre Efraín y Manasés" }
+  ],
+  "descripcion_geo": "Ciudad cananea en la región central de Canaán, situada en la frontera entre los territorios de Efraín y Manasés, cuyo nombre ('manzana' o 'región de manzanas') sugiere la fertilidad agrícola del entorno inmediato.",
+  "altitud_m": 450,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las colinas centrales de Canaán.",
+  "recursos": [
+    "Tierras fértiles (origen del nombre, asociado a manzanas o frutales)",
+    "Posición fronteriza entre Efraín y Manasés"
+  ],
+  "importancia_estrategica": "Tapúa ejemplifica un caso particular del sistema de reparto tribal: la ciudad misma pertenece a Manasés, pero el territorio circundante (la 'tierra de Tapúa') queda asignado a Efraín, situación administrativa compleja que refleja los ajustes territoriales necesarios entre tribus vecinas con límites entrelazados en el centro de Canaán.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_tapua",
+      "nombre": "Cananeos",
+      "descripcion": "Población original de Tapúa, ciudad cuyo rey aparece entre los derrotados por Josué en la lista de la conquista de Canaán.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "efrainitas_manasitas_tapua",
+      "nombre": "Tribus de Efraín y Manasés",
+      "descripcion": "Población israelita que comparte de manera compleja la posesión de Tapúa y su territorio circundante, con la ciudad asignada a Manasés pero la tierra adyacente a Efraín.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "josue-derrota-rey-tapua",
+      "titulo": "Josué derrota al rey de Tapúa",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tapúa aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus como ciudad-estado independiente antes de la ocupación israelita.",
+      "referencias": ["Jos 12:17"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "tapua-frontera-efrain-manases",
+      "titulo": "Tapúa en la frontera entre Efraín y Manasés",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "El libro de Josué especifica la situación particular de Tapúa: la ciudad pertenece a Manasés, pero la tierra de Tapúa que la rodea queda asignada a los hijos de Efraín, reflejando los ajustes complejos del reparto territorial entre tribus vecinas.",
+      "referencias": ["Jos 16:8", "Jos 17:8"],
+      "personajes_clave": []
+    },
+    {
+      "id": "tapua-limite-tribal-confirmado",
+      "titulo": "Tapúa confirmada como punto de referencia fronterizo",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "La ciudad y su territorio se mencionan repetidamente en la descripción detallada de los límites tribales del centro de Canaán, sirviendo como punto de referencia geográfico estable para definir la frontera entre Efraín y Manasés.",
+      "referencias": ["Jos 17:7-8"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_tapua",
+      "nombre": "Josué",
+      "emoji": "🗺️",
+      "rol": "Líder militar y organizador del reparto territorial",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Derrota al rey cananeo de Tapúa y posteriormente organiza la compleja asignación territorial de la ciudad y su entorno entre las tribus de Efraín y Manasés.",
+      "referencias": ["Jos 12:17", "Jos 16:8", "Jos 17:8"],
+      "ruta": []
+    },
+    {
+      "id": "efrainitas_tapua_personaje",
+      "nombre": "Tribu de Efraín",
+      "emoji": "🌳",
+      "rol": "Poseedores de la tierra de Tapúa",
+      "periodo": "Desde c. 1200 a.C.",
+      "descripcion": "Recibe el territorio agrícola circundante a Tapúa, aunque la ciudad misma queda formalmente asignada a Manasés, situación particular del reparto fronterizo.",
+      "referencias": ["Jos 16:8"],
+      "ruta": []
+    },
+    {
+      "id": "manasitas_tapua_personaje",
+      "nombre": "Tribu de Manasés",
+      "emoji": "🏘️",
+      "rol": "Poseedores de la ciudad de Tapúa",
+      "periodo": "Desde c. 1200 a.C.",
+      "descripcion": "Recibe la ciudad de Tapúa propiamente dicha, aunque las tierras agrícolas circundantes pertenecen a Efraín, ejemplo del entrelazamiento territorial entre ambas tribus hermanas.",
+      "referencias": ["Jos 17:7-8"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Tapúa carece de desarrollo narrativo o mítico propio; su valor para el corpus bíblico es exclusivamente geográfico-administrativo, ilustrando la complejidad práctica del sistema de reparto tribal donde una ciudad y su territorio circundante pueden pertenecer a tribus distintas, reflejo de los ajustes necesarios para acomodar los límites de tribus hermanas (Efraín y Manasés, ambas descendientes de José) en una misma región geográfica del centro de Canaán.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (sustrato original)"
+    ],
+    "mitos": [
+      {
+        "id": "frontera-compleja-tapua-tribus",
+        "nombre": "La complejidad fronteriza de Tapúa entre tribus hermanas",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 16:8; Jos 17:7-8",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la división detallada de territorios entre Efraín y Manasés, ambas tribus descendientes de José, como ejemplo de la precisión legal del sistema de reparto territorial mosaico",
+          "descripcion": "La tradición judía observa que la situación particular de Tapúa —ciudad de una tribu, territorio de otra— ejemplifica la meticulosidad del sistema legal de reparto territorial establecido por Josué, capaz de acomodar situaciones fronterizas complejas entre tribus estrechamente relacionadas como Efraín y Manasés sin generar conflicto, mediante una distribución cuidadosamente diferenciada de ciudad y territorio agrícola.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La precisión administrativa del reparto territorial, incluso en casos fronterizos complejos como Tapúa, refleja el orden y la justicia con que se ejecuta la distribución de la tierra prometida entre las tribus de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

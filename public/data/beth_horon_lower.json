@@ -1,0 +1,130 @@
+{
+  "id": "beth_horon_lower",
+  "nombre": "Beth-horon Lower",
+  "tipo": "ciudad",
+  "lat": 31.87892595986906,
+  "lng": 35.12356744466153,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Batalla de Gabaón, ciudad efraimita en frontera con Benjamín" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación salomónica" }
+  ],
+  "descripcion_geo": "Ciudad en el extremo inferior del célebre paso de Bet-horón, ruta de ascenso de unos 600 metros de desnivel entre el valle de Aijalon y la meseta central de Benjamín/Efraín, una de las vías de comunicación más importantes y disputadas entre la llanura costera y Jerusalén. Forma par con Bet-horón la Alta (situada más arriba en el mismo paso).",
+  "altitud_m": 400,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias, clima intermedio entre la costa y las montañas debido a la posición en la ladera del paso.",
+  "recursos": [
+    "Control del paso estratégico de Bet-horón",
+    "Tierras agrícolas en terrazas",
+    "Posición fortificable en la ruta costa-Jerusalén"
+  ],
+  "importancia_estrategica": "El paso de Bet-horón es la ruta militar más usada en la historia bíblica para acceder a Jerusalén desde la llanura costera, motivo por el cual aparece repetidamente en relatos de guerra: la persecución de Josué tras Gabaón, la fortificación salomónica del sistema defensivo del reino, y siglos después episodios de la guerra macabea. Quien controla Bet-horón controla el acceso militar más directo al corazón montañoso de Judá-Israel.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_bethoron",
+      "nombre": "Cananeos",
+      "descripcion": "Población original del paso antes de la conquista israelita, controlando un punto de tránsito naturalmente valioso entre la costa y las montañas.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "efraimitas_bethoron",
+      "nombre": "Tribu de Efraín",
+      "descripcion": "Beth-horón Baja queda asignada al territorio de Efraín, en la frontera con Benjamín, formando parte del sistema de ciudades que aseguraban el flanco occidental de las tribus centrales.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "persecucion-bethoron-gabaon",
+      "titulo": "La subida de Bet-horón en la persecución de Gabaón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tras la derrota de la coalición de cinco reyes amorreos en Gabaón, Israel persigue a los ejércitos en fuga por el camino de la subida de Bet-horón hasta Azecá y Maquedá, mientras YHWH arroja grandes piedras de granizo sobre los fugitivos, matando a más enemigos el granizo que la espada israelita.",
+      "referencias": ["Jos 10:10-11"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "fortificacion-salomon-bethoron",
+      "titulo": "Salomón fortifica Beth-horón la Baja",
+      "fecha": "c. 970–931 a.C.",
+      "descripcion": "Salomón reconstruye y fortifica Beth-horón la Alta y la Baja como parte del sistema de ciudades de almacenamiento, carros y jinetes que aseguran las rutas estratégicas del reino, junto con Baalat y Tadmor.",
+      "referencias": ["2 Cr 8:5", "1 Re 9:17"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "construccion-asignacion-bethoron",
+      "titulo": "Asignación y reconstrucción de Beth-horón",
+      "fecha": "c. 1400–1200 a.C. (genealogía), c. 1200 a.C. (asignación)",
+      "descripcion": "Las genealogías cronistas atribuyen la fundación o reconstrucción de las dos Bet-horón a Seerá, hija de Efraín, vinculando el origen de la ciudad a la tribu que recibiría el territorio tras la conquista.",
+      "referencias": ["1 Cr 7:24", "Jos 16:3-5"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_bethoron",
+      "nombre": "Josué",
+      "emoji": "🌩️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Dirige la persecución de los ejércitos amorreos por la cuesta de Bet-horón tras la victoria de Gabaón, episodio acompañado del prodigio del granizo y, acto seguido, del sol detenido sobre el valle vecino de Aijalon.",
+      "referencias": ["Jos 10:10-14"],
+      "ruta": ["gabaon", "beth_horon_lower", "aijalon", "makkedah"]
+    },
+    {
+      "id": "salomon_bethoron",
+      "nombre": "Salomón",
+      "emoji": "🏰",
+      "rol": "Rey de Israel, constructor de fortificaciones",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Ordena la fortificación de Beth-horón la Baja como parte del sistema defensivo de ciudades-guarnición que protegían las rutas de acceso al reino.",
+      "referencias": ["2 Cr 8:1-6", "1 Re 9:15-19"],
+      "ruta": ["jerusalen", "beth_horon_lower"]
+    },
+    {
+      "id": "seera",
+      "nombre": "Seerá",
+      "emoji": "🏗️",
+      "rol": "Hija de Efraín, constructora según la genealogía cronista",
+      "periodo": "Genealógico, anterior a la conquista",
+      "descripcion": "Mencionada en las listas genealógicas de 1 Crónicas como constructora de Beth-horón la Baja y la Alta, una de las pocas mujeres a las que el texto bíblico atribuye explícitamente la fundación de ciudades.",
+      "referencias": ["1 Cr 7:24"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Beth-horón la Baja se asocia religiosamente al mismo episodio del granizo divino que acompaña la persecución de Josué, presentado por la teología deuteronomista como intervención directa de YHWH en combate junto a Israel, en paralelo inmediato con el milagro del sol detenido en Aijalon. Su fortificación posterior bajo Salomón refleja además la consolidación del control yahvista-davídico sobre las rutas estratégicas del reino unido.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "granizo-bethoron",
+        "nombre": "El granizo divino en la subida de Bet-horón",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 10:10-11",
+          "fuente_secundaria": "Comentario rabínico tradicional que vincula el granizo de Bet-horón con el granizo de la plaga de Egipto como segunda manifestación del mismo tipo de juicio divino",
+          "descripcion": "La tradición judía conecta este granizo con el de las plagas de Egipto, leyendo ambos episodios como manifestaciones del mismo recurso divino de juicio reservado especialmente para los enemigos de Israel en momentos decisivos de su historia.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El prodigio refuerza la idea de que la victoria militar de Israel no depende únicamente de la fuerza humana sino de la intervención directa de YHWH como guerrero divino.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jos 10:10-11 (recepción patrística como ejemplo de juicio divino mediante fenómenos naturales)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos sobre el paralelismo entre el granizo de Egipto y el de Bet-horón",
+          "descripcion": "La tradición cristiana antigua retoma el episodio dentro del catálogo de prodigios del Antiguo Testamento que demuestran el señorío divino sobre la naturaleza al servicio de la salvación de su pueblo.",
+          "similitudes": "Comparte con la lectura judía la conexión tipológica con el granizo de las plagas de Egipto.",
+          "diferencias": "La lectura cristiana suele integrar el episodio en una cadena tipológica más amplia de liberación, vinculándolo eventualmente a temas de juicio escatológico.",
+          "significado_teologico": "El granizo se interpreta como signo del poder divino que acompaña y precede a la acción humana en la historia de la salvación.",
+          "posible_relacion_cultural": "Recepción compartida del libro de Josué y del ciclo de plagas de Egipto como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

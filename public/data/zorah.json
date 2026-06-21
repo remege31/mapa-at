@@ -1,0 +1,128 @@
+{
+  "id": "zorah",
+  "nombre": "Zorah",
+  "tipo": "ciudad",
+  "lat": 31.762141,
+  "lng": 34.969319,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad natal de Sansón, asentamiento danita" }
+  ],
+  "descripcion_geo": "Ciudad asentada en una colina de la Sefelá, en el límite entre el territorio de Dan y Judá, próxima al valle de Sorek. Posición elevada con vistas hacia la llanura filistea, lo que la convertía en punto de observación natural sobre el territorio enemigo.",
+  "altitud_m": 245,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, algo más fresco que la llanura costera por su altitud.",
+  "recursos": [
+    "Posición elevada de observación sobre la llanura filistea",
+    "Tierras agrícolas de la Sefelá",
+    "Cercanía al valle de Sorek"
+  ],
+  "importancia_estrategica": "Zorah fue uno de los puntos de partida del asentamiento danita antes de la migración de buena parte de la tribu hacia el norte; como ciudad natal de Sansón, funciona narrativamente como base de operaciones simbólica del único juez cuya lucha contra los filisteos es individual y carismática antes que colectiva.",
+  "otros_habitantes": [
+    {
+      "id": "danitas_zorah",
+      "nombre": "Tribu de Dan",
+      "descripcion": "Familias danitas asentadas en Zorah, entre ellas la de Manoa, padre de Sansón; desde Zorah parte también la expedición de espías danitas que precede a la migración de la tribu hacia Lais, al norte.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "judaitas_zorah",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Zorah aparece también vinculada genealógicamente a clanes de Judá en las listas cronistas, reflejando la naturaleza fronteriza y compartida de la zona entre ambas tribus.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1000–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "anuncio-nacimiento-sanson",
+      "titulo": "Anuncio del nacimiento de Sansón",
+      "fecha": "c. 1120 a.C.",
+      "descripcion": "El ángel de YHWH se aparece en Zorah a la esposa estéril de Manoa y anuncia el nacimiento de un hijo que será nazareo desde el vientre y comenzará a liberar a Israel de mano de los filisteos; Manoa ofrece posteriormente un sacrificio y el ángel asciende en la llama del altar.",
+      "referencias": ["Jue 13:2-23"],
+      "personajes_clave": ["manoa", "sanson"]
+    },
+    {
+      "id": "espiritu-sanson-zorah",
+      "titulo": "El Espíritu de YHWH comienza a moverse sobre Sansón",
+      "fecha": "c. 1105 a.C.",
+      "descripcion": "El texto bíblico señala que entre Zorah y Estaol, el Espíritu de YHWH comenzó a manifestarse sobre Sansón durante su juventud, marcando el inicio de su vocación como juez-libertador.",
+      "referencias": ["Jue 13:24-25"],
+      "personajes_clave": ["sanson"]
+    },
+    {
+      "id": "sepultura-sanson-zorah",
+      "titulo": "Sepultura de Sansón entre Zorah y Estaol",
+      "fecha": "c. 1070 a.C.",
+      "descripcion": "Tras su muerte en Gaza al derribar el templo de Dagón, los hermanos y la familia de Sansón recuperan su cuerpo y lo sepultan en la tumba de su padre Manoa, entre Zorah y Estaol, cerrando el ciclo narrativo en el lugar de su origen.",
+      "referencias": ["Jue 16:31"],
+      "personajes_clave": ["sanson", "manoa"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "sanson",
+      "nombre": "Sansón",
+      "emoji": "💪",
+      "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
+      "periodo": "c. 1100–1070 a.C.",
+      "descripcion": "Nacido en Zorah tras el anuncio angélico a su madre, Sansón es consagrado nazareo desde antes de nacer; su ciclo vital completo —nacimiento, vocación, y sepultura final— se cierra en esta misma ciudad y sus alrededores.",
+      "referencias": ["Jue 13:24-25", "Jue 16:31"],
+      "ruta": ["zorah", "timnah", "gaza"]
+    },
+    {
+      "id": "manoa",
+      "nombre": "Manoa",
+      "emoji": "🙏",
+      "rol": "Padre de Sansón, danita de Zorah",
+      "periodo": "c. 1120 a.C.",
+      "descripcion": "Recibe junto a su esposa el anuncio angélico del nacimiento de Sansón; tras un sacrificio en el que el ángel asciende en la llama, teme haber visto a Dios y morir, pero su esposa lo tranquiliza con un argumento de sentido práctico.",
+      "referencias": ["Jue 13:2-23"],
+      "ruta": ["zorah"]
+    },
+    {
+      "id": "esposa_manoa",
+      "nombre": "Esposa de Manoa",
+      "emoji": "👩",
+      "rol": "Madre de Sansón",
+      "periodo": "c. 1120 a.C.",
+      "descripcion": "Mujer estéril de Zorah a quien se le aparece el ángel de YHWH con las instrucciones nazareas para el hijo por nacer; figura de fe y discernimiento que tranquiliza a Manoa tras la teofanía.",
+      "referencias": ["Jue 13:2-23"],
+      "ruta": ["zorah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Zorah es el punto de origen y cierre del ciclo de Sansón, enmarcado por dos teofanías de distinto signo: el anuncio angélico de su nacimiento y, en sentido figurado, el retorno final de su cuerpo tras una vida marcada por la tensión entre vocación nazarea y debilidad personal. La ciudad encarna el ideal yahvista del nazareato como consagración especial, contrastado narrativamente con los incumplimientos sucesivos del propio Sansón a lo largo de su vida.",
+    "religiones_presentes": [
+      "Yahvismo (incluyendo la institución del nazareato)"
+    ],
+    "mitos": [
+      {
+        "id": "anuncio-angelico-zorah",
+        "nombre": "El anuncio angélico del nazareo en Zorah",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 13:2-23",
+          "fuente_secundaria": "Talmud Babilónico, Berajot 6b (sobre la identidad del 'ángel de YHWH')",
+          "descripcion": "La tradición rabínica discute extensamente la naturaleza del 'ángel de YHWH' que se aparece en Zorah, debatiendo si se trata de un ángel propiamente dicho o de una manifestación profética, y desarrolla el nazareato de Sansón como caso paradigmático —aunque imperfecto— de consagración especial.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El relato establece el patrón bíblico del 'nacimiento anunciado a madre estéril' que se repetirá con otros libertadores y profetas de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jue 13:2-23 (lectura tipológica patrística)",
+          "fuente_secundaria": "Padres de la Iglesia que vinculan anuncios angélicos a madres estériles como prefiguración del anuncio a Isabel y a María",
+          "descripcion": "La tradición patrística temprana lee el anuncio en Zorah dentro de una cadena tipológica de nacimientos anunciados por mensajeros divinos a mujeres estériles o vírgenes, que culmina en los relatos evangélicos de la infancia.",
+          "similitudes": "Comparte la estructura del anuncio angélico a una mujer y la consagración especial del hijo desde el vientre.",
+          "diferencias": "El destinatario final de la tipología cristiana (la anunciación a María) implica una virginidad, no esterilidad, y un propósito redentor universal frente al propósito local de liberación de Sansón.",
+          "significado_teologico": "El episodio de Zorah se integra en la lectura cristiana como antecedente veterotestamentario del patrón de la anunciación.",
+          "posible_relacion_cultural": "Motivo narrativo compartido del nacimiento anunciado a una mujer estéril, presente en múltiples relatos del corpus bíblico común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

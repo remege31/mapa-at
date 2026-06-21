@@ -1,0 +1,129 @@
+{
+  "id": "shittim",
+  "nombre": "Sitim",
+  "tipo": "ciudad",
+  "lat": 31.85826217905818,
+  "lng": 35.64156652792805,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Último campamento antes del cruce del Jordán, idolatría de Baal-peor" }
+  ],
+  "descripcion_geo": "Llanura en las estepas de Moab, al este del río Jordán, frente a Jericó, donde Israel acampa en su último asentamiento prolongado antes de cruzar a la tierra prometida. Su nombre ('acacias') describe la vegetación característica de la zona, árboles que proporcionaron también la madera para el Tabernáculo.",
+  "altitud_m": -250,
+  "clima": "Desértico de valle del Jordán — extremadamente caluroso en verano, templado en invierno, con vegetación de acacias adaptada a la aridez.",
+  "recursos": [
+    "Madera de acacia (utilizada en la construcción del Tabernáculo)",
+    "Último punto de acampada antes del cruce del Jordán",
+    "Proximidad a Moab y su población"
+  ],
+  "importancia_estrategica": "Sitim es el último gran campamento israelita antes de la entrada en Canaán, momento culminante que combina la preparación final para la conquista con uno de los episodios de apostasía más graves del peregrinaje por el desierto: la idolatría con Baal-peor y la unión con mujeres moabitas, que desencadena una plaga devastadora y exige una respuesta drástica para restaurar la fidelidad del pueblo antes de cruzar el Jordán.",
+  "otros_habitantes": [
+    {
+      "id": "moabitas_sitim",
+      "nombre": "Mujeres y población de Moab",
+      "descripcion": "Población moabita y madianita que invita a los israelitas a participar en los sacrificios a sus dioses, particularmente Baal-peor, provocando la apostasía masiva en Sitim.",
+      "religion": "Politeísmo moabita — culto a Quemos y Baal-peor",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "israelitas_sitim",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo israelita acampado en Sitim, preparándose para el cruce del Jordán, que cae masivamente en la idolatría con Baal-peor antes de la intervención correctiva de Finees.",
+      "religion": "Yahvismo (con episodio de apostasía)",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "idolatria-baal-peor-sitim",
+      "titulo": "La apostasía de Baal-peor en Sitim",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Mientras Israel acampa en Sitim, el pueblo comienza a tener relaciones con mujeres moabitas que los invitan a los sacrificios de sus dioses; Israel se une al culto de Baal-peor, provocando la ira de YHWH y una plaga que mata a veinticuatro mil personas.",
+      "referencias": ["Núm 25:1-9"],
+      "personajes_clave": ["finees"]
+    },
+    {
+      "id": "finees-detiene-plaga-sitim",
+      "titulo": "Finees detiene la plaga con su celo",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Al ver a un israelita introducir abiertamente a una mujer madianita ante toda la congregación llorando en la entrada del Tabernáculo, Finees, nieto de Aarón, los atraviesa a ambos con una lanza, deteniendo la plaga; YHWH le otorga a él y a su descendencia un pacto de sacerdocio perpetuo por su celo.",
+      "referencias": ["Núm 25:6-13"],
+      "personajes_clave": ["finees"]
+    },
+    {
+      "id": "espias-jerico-sitim",
+      "titulo": "Josué envía espías desde Sitim hacia Jericó",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Antes del cruce del Jordán, Josué envía secretamente dos espías desde Sitim para reconocer Jericó y la tierra, quienes son recibidos y protegidos por Rahab antes de regresar con un informe favorable sobre las posibilidades de conquista.",
+      "referencias": ["Jos 2:1-24"],
+      "personajes_clave": ["josue"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "finees",
+      "nombre": "Finees",
+      "emoji": "🗡️",
+      "rol": "Sacerdote, nieto de Aarón",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Detiene con su acción decisiva la plaga desatada por la apostasía de Baal-peor en Sitim, recibiendo a cambio un pacto de sacerdocio perpetuo para su descendencia por su celo en favor de la santidad de YHWH.",
+      "referencias": ["Núm 25:6-13"],
+      "ruta": ["shittim"]
+    },
+    {
+      "id": "josue_sitim",
+      "nombre": "Josué",
+      "emoji": "🔍",
+      "rol": "Sucesor de Moisés, líder de la conquista",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Envía desde Sitim a los dos espías que reconocerán Jericó, preparando la primera fase de la conquista de Canaán tras el cruce del Jordán.",
+      "referencias": ["Jos 2:1"],
+      "ruta": ["shittim", "jerico"]
+    },
+    {
+      "id": "moises_sitim",
+      "nombre": "Moisés",
+      "emoji": "⚖️",
+      "rol": "Líder de Israel, ejecutor del juicio sobre Baal-peor",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Ordena la ejecución de los líderes israelitas que participaron en la idolatría de Baal-peor en Sitim, en respuesta directa al mandato divino de detener la apostasía antes de la entrada a la tierra prometida.",
+      "referencias": ["Núm 25:4-5"],
+      "ruta": ["shittim"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Sitim es escenario del último gran fracaso colectivo de la generación del desierto antes de entrar a la tierra prometida, y simultáneamente del origen de un pacto sacerdotal perpetuo otorgado a la línea de Finees por su celo. El episodio de Baal-peor se convierte en referencia paradigmática bíblica posterior de la apostasía mediante asimilación religiosa y matrimonial con pueblos vecinos, advertencia repetida en textos legales y proféticos posteriores.",
+    "religiones_presentes": [
+      "Yahvismo (con episodio grave de apostasía)",
+      "Politeísmo moabita — culto a Quemos y Baal-peor"
+    ],
+    "mitos": [
+      {
+        "id": "celo-finees-pacto",
+        "nombre": "El celo de Finees y el pacto sacerdotal perpetuo",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 25:1-13",
+          "fuente_secundaria": "Talmud Babilónico, Sanedrín 82a (discusión sobre la legitimidad del acto de Finees); Sal 106:30-31",
+          "descripcion": "La tradición rabínica discute extensamente la legitimidad excepcional del acto de Finees —ejecutado sin juicio formal— como caso único de celo justificado por la gravedad de la profanación pública, citando el Salmo 106 donde el acto 'le fue contado por justicia'; el pacto de sacerdocio perpetuo otorgado se interpreta como reconocimiento divino directo de la pureza de intención de Finees.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio establece el principio de que el celo por la santidad de YHWH, ejercido con pureza de intención, puede detener el juicio divino colectivo y ser recompensado con un pacto duradero.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Núm 25:1-13 (recepción patrística sobre el celo religioso); 1 Cor 10:8 (referencia paulina al episodio como advertencia)",
+          "fuente_secundaria": "Comentarios patrísticos sobre el pasaje de 1 Corintios que cita explícitamente la cifra de víctimas del episodio de Baal-peor",
+          "descripcion": "El apóstol Pablo cita explícitamente el episodio de Sitim como advertencia contra la inmoralidad sexual e idolatría para la comunidad cristiana primitiva, integrando el relato en una catequesis moral sobre las consecuencias de la apostasía colectiva.",
+          "similitudes": "Comparte con la lectura judía el uso del episodio como advertencia paradigmática contra la apostasía mediante asimilación religiosa.",
+          "diferencias": "La lectura cristiana se centra en la aplicación moral-pastoral del episodio como advertencia, sin desarrollar la discusión sobre la legitimidad legal del acto de Finees presente en la tradición rabínica.",
+          "significado_teologico": "El episodio se convierte en ejemplo neotestamentario citado directamente como advertencia contra la repetición de los pecados de la generación del desierto.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo del Éxodo y el desierto como historia sagrada fundacional común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

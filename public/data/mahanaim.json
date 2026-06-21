@@ -1,0 +1,120 @@
+{
+  "id": "mahanaim",
+  "nombre": "Majanaim",
+  "tipo": "ciudad",
+  "lat": 32.214708,
+  "lng": 35.632914,
+  "frecuencia_at": 13,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Encuentro angélico de Jacob, capital de Is-bóset, refugio de David" }
+  ],
+  "descripcion_geo": "Ciudad en Galaad, al este del Jordán, cuyo nombre ('dos campamentos') conmemora el encuentro de Jacob con los ángeles de Dios al regresar a Canaán. Posteriormente se convierte en capital temporal del reino de Is-bóset y, generaciones después, en refugio de David durante la rebelión de Absalón.",
+  "altitud_m": 450,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las tierras altas de Galaad.",
+  "recursos": [
+    "Posición defendible en Galaad",
+    "Capital temporal de la casa de Saúl",
+    "Refugio estratégico para David durante la rebelión de Absalón"
+  ],
+  "importancia_estrategica": "Majanaim cumple un papel recurrente como refugio y centro de poder transjordano en momentos de crisis política: capital de Is-bóset tras la muerte de Saúl, y siglos antes, lugar del encuentro angélico que precede al reencuentro decisivo de Jacob con Esaú; finalmente, refugio de David durante la rebelión de Absalón, cuando el rey reorganiza sus fuerzas leales para la batalla decisiva en el bosque de Efraín.",
+  "otros_habitantes": [
+    {
+      "id": "angeles_majanaim",
+      "nombre": "Ejército de Dios (ángeles)",
+      "descripcion": "Mensajeros divinos que Jacob encuentra en Majanaim, dando origen al nombre del lugar como 'dos campamentos' (el suyo propio y el de los ángeles).",
+      "religion": "Yahvismo patriarcal",
+      "periodo": "c. 1900 a.C. (narrativa)"
+    },
+    {
+      "id": "galaaditas_majanaim",
+      "nombre": "Población de Galaad",
+      "descripcion": "Habitantes de la región transjordana donde se ubica Majanaim, leales tanto a la casa de Saúl como, posteriormente, a David durante su huida de Absalón.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1010–975 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "jacob-angeles-majanaim",
+      "titulo": "Jacob encuentra a los ángeles de Dios en Majanaim",
+      "fecha": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Mientras regresa a Canaán tras veinte años con Labán, Jacob es recibido por ángeles de Dios; al verlos, declara 'éste es el campamento de Dios' y nombra el lugar Majanaim, episodio que precede inmediatamente a su angustiosa preparación para el reencuentro con Esaú.",
+      "referencias": ["Gén 32:1-2"],
+      "personajes_clave": ["jacob"]
+    },
+    {
+      "id": "isboset-capital-majanaim",
+      "titulo": "Majanaim como capital de Is-bóset",
+      "fecha": "c. 1010–1008 a.C.",
+      "descripcion": "Tras la muerte de Saúl, Abner establece a Is-bóset, hijo superviviente de Saúl, como rey sobre Israel desde Majanaim, capital temporal de la casa de Saúl en su disputa con David por el control del reino unido.",
+      "referencias": ["2 Sam 2:8-9"],
+      "personajes_clave": []
+    },
+    {
+      "id": "david-refugio-majanaim",
+      "titulo": "David se refugia en Majanaim durante la rebelión de Absalón",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Huyendo de la rebelión de su hijo Absalón, David se establece en Majanaim, donde recibe apoyo material crucial de Sobi, Maquir y Barzilai, y desde donde reorganiza sus tropas leales para la batalla decisiva del bosque de Efraín que termina con la muerte de Absalón.",
+      "referencias": ["2 Sam 17:24-29", "2 Sam 19:32"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jacob_majanaim",
+      "nombre": "Jacob",
+      "emoji": "👼",
+      "rol": "Patriarca",
+      "periodo": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Recibe en Majanaim el encuentro confortador con los ángeles de Dios justo antes de enfrentar la angustia del reencuentro con su hermano Esaú, momento que prepara espiritualmente su posterior lucha en Peniel.",
+      "referencias": ["Gén 32:1-2"],
+      "ruta": ["paddan", "mahanaim", "peniel"]
+    },
+    {
+      "id": "isboset_majanaim",
+      "nombre": "Is-bóset",
+      "emoji": "👑",
+      "rol": "Rey de Israel desde Majanaim, hijo de Saúl",
+      "periodo": "c. 1010–1008 a.C.",
+      "descripcion": "Reina sobre Israel desde la capital transjordana de Majanaim durante la guerra civil contra David, gobierno breve y dependiente del general Abner que termina con su asesinato.",
+      "referencias": ["2 Sam 2:8-10", "2 Sam 4:5-7"],
+      "ruta": ["mahanaim"]
+    },
+    {
+      "id": "david_majanaim",
+      "nombre": "David",
+      "emoji": "🏕️",
+      "rol": "Rey de Israel, refugiado durante la rebelión de Absalón",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Establece su base de operaciones en Majanaim durante la rebelión de Absalón, recibiendo apoyo material decisivo de líderes locales y reorganizando sus fuerzas para la batalla final contra su hijo rebelde.",
+      "referencias": ["2 Sam 17:24-29"],
+      "ruta": ["jerusalen", "mahanaim"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Majanaim funciona repetidamente en el texto bíblico como lugar de refugio y reorganización en momentos de crisis personal o política: para Jacob, es preparación espiritual mediante el encuentro angélico antes de una reconciliación incierta; para Is-bóset, es la última base de la dinastía saulida en disputa con David; para David mismo, generaciones después, es el refugio que le permite reagrupar fuerzas y sobrevivir a la rebelión de su propio hijo, estableciendo un patrón recurrente del lugar como punto de restauración providencial en momentos de máxima vulnerabilidad.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "campamento-dios-majanaim",
+        "nombre": "El 'campamento de Dios' que da nombre a Majanaim",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Gén 32:1-2",
+          "fuente_secundaria": "Midrash y comentario rabínico tradicional sobre la identidad de los ángeles encontrados por Jacob y su función protectora antes del reencuentro con Esaú",
+          "descripcion": "La tradición rabínica discute la identidad y función específica de los ángeles que Jacob encuentra en Majanaim, interpretando el encuentro como confirmación providencial de protección divina justo antes del momento de mayor vulnerabilidad emocional y física del patriarca, estableciendo el lugar como recordatorio permanente de que la angustia humana puede ir precedida de consuelo divino preparatorio.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El encuentro de Majanaim establece el patrón de que Dios provee consuelo y confirmación de su presencia protectora antes de los momentos de mayor prueba en la vida de sus elegidos.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

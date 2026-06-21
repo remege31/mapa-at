@@ -1,0 +1,127 @@
+{
+  "id": "meribah",
+  "nombre": "Meribá",
+  "tipo": "territorio",
+  "lat": 30.68771281376111,
+  "lng": 34.49479554246946,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Desobediencia de Moisés, agua de la roca" }
+  ],
+  "descripcion_geo": "Lugar en el desierto de Zin, cerca de Cades, cuyo nombre ('contienda' o 'querella') deriva directamente del episodio de disputa entre el pueblo de Israel y Moisés por la falta de agua, repitiendo un patrón ya ocurrido antes en otro lugar también llamado de forma similar en el desierto de Sin.",
+  "altitud_m": 600,
+  "clima": "Desértico — extremadamente seco y caluroso, propio del desierto de Zin en el extremo sur de la Transjordania.",
+  "recursos": [
+    "Roca de la que brota agua tras el gesto de Moisés",
+    "Escasez crítica de agua que motiva el episodio de queja"
+  ],
+  "importancia_estrategica": "Meribá no tiene relevancia estratégica militar, pero es uno de los lugares teológicamente más significativos del peregrinaje por el desierto: aquí Moisés, al golpear la roca en lugar de hablarle como YHWH había ordenado, comete la falta que le costará a él y a Aarón la entrada a la tierra prometida, episodio que se convierte en referencia bíblica recurrente sobre las consecuencias de la desobediencia incluso en los líderes más fieles.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_meribah",
+      "nombre": "Israel del éxodo (generación de Cades)",
+      "descripcion": "Pueblo que se queja amargamente contra Moisés y Aarón por la falta de agua en Cades, provocando la crisis que culmina en el episodio de la roca golpeada.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "miriam_meribah",
+      "nombre": "Miriam (contexto)",
+      "descripcion": "Hermana de Moisés y Aarón, cuya muerte y sepultura en Cades precede inmediatamente al episodio de la falta de agua en Meribá, en la misma sección narrativa.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "queja-pueblo-meribah",
+      "titulo": "El pueblo se queja por falta de agua en Cades",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Sin agua en Cades, el pueblo se congrega contra Moisés y Aarón, lamentándose amargamente y deseando haber muerto junto a sus hermanos delante de YHWH antes que enfrentar esta privación en un 'lugar malo' sin grano, higos, vides ni agua para beber.",
+      "referencias": ["Núm 20:1-5"],
+      "personajes_clave": ["moises", "aaron"]
+    },
+    {
+      "id": "moises-golpea-roca-meribah",
+      "titulo": "Moisés golpea la roca en lugar de hablarle",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "YHWH instruye a Moisés que tome la vara y hable a la roca delante de la congregación para que dé agua; en cambio, Moisés, visiblemente frustrado, reúne al pueblo, los reprende llamándolos 'rebeldes' y golpea la roca dos veces con la vara, de la que brota agua abundante a pesar de la desobediencia en el método.",
+      "referencias": ["Núm 20:6-11"],
+      "personajes_clave": ["moises", "aaron"]
+    },
+    {
+      "id": "juicio-moises-aaron-meribah",
+      "titulo": "YHWH anuncia que Moisés y Aarón no entrarán a la tierra prometida",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Como consecuencia directa de no haber 'santificado' a YHWH ante los ojos del pueblo en el episodio de la roca, YHWH anuncia a Moisés y Aarón que no introducirán a la congregación en la tierra que les ha sido dada, sentencia que marca el resto de sus vidas y se convierte en uno de los juicios más citados sobre las consecuencias de la desobediencia incluso de los líderes más cercanos a Dios.",
+      "referencias": ["Núm 20:12"],
+      "personajes_clave": ["moises", "aaron"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_meribah",
+      "nombre": "Moisés",
+      "emoji": "🪨",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Comete en Meribá la falta que le costará no poder entrar a la tierra prometida: golpear la roca en lugar de hablarle como YHWH había ordenado, episodio interpretado de múltiples formas a lo largo de la tradición pero unánimemente reconocido como momento decisivo de su biografía.",
+      "referencias": ["Núm 20:1-13"],
+      "ruta": ["meribah", "hor_mount", "pisgah"]
+    },
+    {
+      "id": "aaron_meribah",
+      "nombre": "Aarón",
+      "emoji": "⚖️",
+      "rol": "Sumo sacerdote de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Comparte el mismo juicio que Moisés por su participación en el episodio de Meribá, aunque el texto se centra principalmente en la acción directa de Moisés con la vara y la roca.",
+      "referencias": ["Núm 20:12", "Núm 20:24"],
+      "ruta": ["meribah", "hor_mount"]
+    },
+    {
+      "id": "pueblo_quejoso_meribah",
+      "nombre": "Congregación de Israel",
+      "emoji": "😠",
+      "rol": "Pueblo que provoca la crisis con su queja",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Provoca con su queja amarga por la falta de agua la situación que lleva a Moisés a la frustración que culmina en su acto de desobediencia, repitiendo el patrón recurrente de murmuración que caracteriza buena parte del relato del peregrinaje por el desierto.",
+      "referencias": ["Núm 20:2-5"],
+      "ruta": ["meribah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Meribá es uno de los episodios teológicamente más debatidos del Pentateuco: el castigo aparentemente desproporcionado a Moisés —excluido de la tierra prometida tras décadas de liderazgo fiel por un solo acto de frustración momentánea— genera una extensa tradición interpretativa sobre la naturaleza exacta de su falta, oscilando entre lecturas que enfatizan la desobediencia literal al método prescrito y lecturas que ven en ello un fallo más profundo de representar correctamente el carácter de YHWH ante el pueblo en un momento crítico.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "falta-moises-meribah-mito",
+        "nombre": "La naturaleza de la falta de Moisés en Meribá",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 20:1-13",
+          "fuente_secundaria": "Numerosas interpretaciones rabínicas y medievales (Rashi, Maimónides, Ramban) sobre la naturaleza exacta del pecado de Moisés en Meribá",
+          "descripcion": "La tradición judía desarrolla un extenso debate exegético sobre qué exactamente constituyó la falta de Moisés —golpear en lugar de hablar, la ira expresada al llamar 'rebeldes' al pueblo, la posible insinuación de que él y Aarón producían el agua ('¿sacaremos agua...?')—, sin llegar a consenso definitivo, pero coincidiendo en que el castigo refleja el estándar excepcionalmente alto exigido a un líder de su estatura ante el pueblo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio enseña que a mayor cercanía con Dios y mayor responsabilidad de liderazgo corresponde un estándar de fidelidad más exigente, no más laxo.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Núm 20:1-13 (recepción tipológica en 1 Cor 10:4, la roca identificada con Cristo)",
+          "fuente_secundaria": "Comentarios patrísticos que vinculan la roca de Meribá con Cristo como 'roca espiritual' que seguía a Israel",
+          "descripcion": "El apóstol Pablo identifica tipológicamente la roca de la que mana agua en el desierto con Cristo mismo, leyendo el episodio en clave cristológica como anticipo de la provisión espiritual definitiva, mientras que la tradición patrística reflexiona también sobre la severidad del juicio a Moisés como advertencia sobre la responsabilidad del liderazgo religioso.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento de la gravedad excepcional atribuida a la falta de un líder de la estatura de Moisés.",
+          "diferencias": "La lectura cristiana añade una dimensión tipológica explícita (la roca como Cristo) ausente en la interpretación judía tradicional del pasaje.",
+          "significado_teologico": "La roca de Meribá se convierte en figura veterotestamentaria de Cristo como fuente de provisión espiritual constante para el pueblo de Dios en su peregrinaje.",
+          "posible_relacion_cultural": "Recepción cristiana del ciclo del Éxodo reinterpretado tipológicamente en clave cristológica."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

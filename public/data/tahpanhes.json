@@ -1,0 +1,120 @@
+{
+  "id": "tahpanhes",
+  "nombre": "Tafnes",
+  "tipo": "ciudad",
+  "lat": 30.860556,
+  "lng": 32.171389,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Refugio de Jeremías y los repatriados de Judá" }
+  ],
+  "descripcion_geo": "Ciudad fronteriza egipcia en el delta del Nilo, destino principal de los refugiados judíos que huyen hacia Egipto tras el asesinato de Gedalías y la destrucción final de Jerusalén, llevando consigo de manera forzada al propio profeta Jeremías.",
+  "altitud_m": 10,
+  "clima": "Desértico subtropical — extremadamente caluroso y seco, propio del delta oriental del Nilo en Egipto.",
+  "recursos": [
+    "Posición fronteriza de acceso desde Canaán hacia Egipto",
+    "Refugio para la comunidad judía dispersada tras la caída de Jerusalén"
+  ],
+  "importancia_estrategica": "Tafnes es el destino principal de la última gran oleada de refugiados de Judá tras el asesinato de Gedalías, quienes, desoyendo la advertencia explícita de Jeremías, huyen hacia Egipto llevándose consigo al profeta a la fuerza; allí Jeremías realiza un signo profético enterrando piedras que anuncia la futura invasión egipcia por Nabucodonosor, cerrando trágicamente su ministerio en suelo extranjero.",
+  "otros_habitantes": [
+    {
+      "id": "refugiados_juda_tahpanhes",
+      "nombre": "Refugiados de Judá",
+      "descripcion": "Comunidad de judíos que huye hacia Tafnes tras el asesinato de Gedalías, temiendo represalias babilónicas, llevándose consigo a Jeremías y Baruc en contra de la voluntad expresa del profeta.",
+      "religion": "Yahvismo (con sincretismo idolátrico denunciado por Jeremías)",
+      "periodo": "c. 582 a.C."
+    },
+    {
+      "id": "egipcios_tahpanhes",
+      "nombre": "Población egipcia de Tafnes",
+      "descripcion": "Habitantes locales de la ciudad fronteriza que reciben a la comunidad de refugiados judíos huidos tras la caída final de Jerusalén.",
+      "religion": "Politeísmo egipcio",
+      "periodo": "c. 586–580 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "huida-forzada-jeremias-tahpanhes",
+      "titulo": "Jeremías es llevado por la fuerza a Tafnes",
+      "fecha": "c. 582 a.C.",
+      "descripcion": "Tras el asesinato de Gedalías, los jefes militares supervivientes deciden huir a Egipto pese a la advertencia explícita de Jeremías de que YHWH les prohibía hacerlo, y llevan consigo por la fuerza tanto al profeta como a su escriba Baruc, llegando finalmente a Tafnes.",
+      "referencias": ["Jer 43:1-7"],
+      "personajes_clave": ["jeremias"]
+    },
+    {
+      "id": "signo-piedras-tahpanhes",
+      "titulo": "Jeremías entierra piedras como signo profético en Tafnes",
+      "fecha": "c. 582 a.C.",
+      "descripcion": "Por orden de YHWH, Jeremías esconde grandes piedras en el pavimento de ladrillo a la entrada de la casa de Faraón en Tafnes, anunciando que en ese mismo lugar Nabucodonosor pondrá su trono cuando invada Egipto, prediciendo así que el refugio elegido por los fugitivos judíos no será seguro.",
+      "referencias": ["Jer 43:8-13"],
+      "personajes_clave": ["jeremias"]
+    },
+    {
+      "id": "jeremias-ultimo-oraculo-tahpanhes",
+      "titulo": "El último oráculo de Jeremías contra los idólatras de Egipto",
+      "fecha": "c. 580 a.C.",
+      "descripcion": "Desde Tafnes y las demás colonias judías de Egipto, Jeremías pronuncia su último oráculo registrado, denunciando severamente la persistencia idolátrica de la comunidad refugiada y anunciando que la espada y el hambre los consumirán hasta que no quede ningún sobreviviente, salvo unos pocos fugitivos.",
+      "referencias": ["Jer 44:1-30"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jeremias_tahpanhes",
+      "nombre": "Jeremías",
+      "emoji": "🪨",
+      "rol": "Profeta de Judá, llevado por la fuerza a Egipto",
+      "periodo": "Activo c. 582–580 a.C.",
+      "descripcion": "Termina su largo ministerio profético en Tafnes, llevado en contra de su voluntad por los refugiados que huyen de Babilonia, donde pronuncia tanto el signo profético de las piedras como su último oráculo conocido de denuncia contra la idolatría persistente de su pueblo.",
+      "referencias": ["Jer 43:1-13", "Jer 44:1-30"],
+      "ruta": ["mizpa", "tahpanhes"]
+    },
+    {
+      "id": "johanan_tahpanhes",
+      "nombre": "Johanán hijo de Carea",
+      "emoji": "🏃",
+      "rol": "Líder militar que dirige la huida a Egipto",
+      "periodo": "c. 582 a.C.",
+      "descripcion": "Dirige la decisión de huir a Egipto tras el asesinato de Gedalías, desoyendo la advertencia explícita de Jeremías y forzando al profeta a acompañarlos hasta Tafnes.",
+      "referencias": ["Jer 43:1-7"],
+      "ruta": ["mizpa", "tahpanhes"]
+    },
+    {
+      "id": "baruc_tahpanhes",
+      "nombre": "Baruc",
+      "emoji": "📜",
+      "rol": "Escriba de Jeremías",
+      "periodo": "c. 582–580 a.C.",
+      "descripcion": "Acompaña a Jeremías en su traslado forzado a Tafnes, compartiendo el destino del profeta en su exilio final en territorio egipcio.",
+      "referencias": ["Jer 43:6"],
+      "ruta": ["mizpa", "tahpanhes"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Tafnes marca el cierre trágico del ministerio de Jeremías: el profeta que advirtió repetidamente sobre los peligros de buscar seguridad en alianzas egipcias termina precisamente en territorio egipcio, llevado por la fuerza por quienes desoyeron su consejo final, donde debe pronunciar su última y más severa denuncia contra la persistente idolatría de un pueblo que, pese a haber presenciado la destrucción de Jerusalén, sigue sin abandonar sus prácticas paganas.",
+    "religiones_presentes": [
+      "Yahvismo (con sincretismo idolátrico denunciado)",
+      "Politeísmo egipcio"
+    ],
+    "mitos": [
+      {
+        "id": "piedras-trono-nabucodonosor-tahpanhes",
+        "nombre": "Las piedras enterradas como signo del trono de Nabucodonosor en Tafnes",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jer 43:8-13",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre los actos proféticos simbólicos como Jeremías enterrando piedras, comparados con otros gestos similares de profetas que comunican mensajes divinos mediante acciones físicas concretas más que solo palabras",
+          "descripcion": "La tradición judía valora el acto simbólico de Jeremías enterrando piedras a la entrada de la casa del faraón en Tafnes como ejemplo característico de la tradición profética de comunicar mensajes divinos mediante gestos físicos concretos y memorables, técnica que refuerza el impacto del mensaje verbal mediante una acción visible y permanente que la audiencia puede recordar y eventualmente verificar con el cumplimiento histórico.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El gesto profético confirma que ni siquiera el refugio en Egipto, considerado tradicionalmente como tierra de seguridad alternativa, escapa al alcance del juicio divino anunciado, pues el mismo Nabucodonosor que destruyó Jerusalén extenderá su poder hasta el corazón de Egipto.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

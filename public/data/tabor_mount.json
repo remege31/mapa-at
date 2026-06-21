@@ -1,0 +1,129 @@
+{
+  "id": "tabor_mount",
+  "nombre": "Monte Tabor",
+  "tipo": "territorio",
+  "lat": 32.68695640243183,
+  "lng": 35.39091304299688,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Victoria de Débora y Barac contra Sísara" }
+  ],
+  "descripcion_geo": "Montaña de forma cónica distintiva que se eleva abruptamente sobre la llanura de Jezreel, en el límite entre los territorios de Zabulón, Isacar y Neftalí, visible desde gran distancia y utilizada como punto de concentración militar estratégico por su posición dominante sobre la llanura.",
+  "altitud_m": 575,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de la región de Galilea baja.",
+  "recursos": [
+    "Posición elevada dominante sobre la llanura de Jezreel",
+    "Punto de concentración militar estratégico",
+    "Límite tribal entre Zabulón, Isacar y Neftalí"
+  ],
+  "importancia_estrategica": "El monte Tabor es el punto de concentración elegido por Débora para reunir al ejército israelita de diez mil hombres antes de descender contra las fuerzas de Sísara en la llanura, aprovechando la posición elevada como ventaja táctica inicial antes del enfrentamiento decisivo junto al río Quisón.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_tabor",
+      "nombre": "Tribus de Zabulón y Neftalí",
+      "descripcion": "Contingentes tribales convocados por Débora y Barac para concentrarse en el monte Tabor antes de la batalla decisiva contra Sísara.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1150 a.C."
+    },
+    {
+      "id": "cananeos_ejercito_tabor",
+      "nombre": "Ejército cananeo de Sísara",
+      "descripcion": "Fuerzas de Jabín de Hazor bajo el mando del general Sísara, que se posicionan en la llanura para enfrentar a las tropas israelitas concentradas en el Tabor.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 1150 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "debora-convoca-barac-tabor",
+      "titulo": "Débora convoca a Barac al monte Tabor",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Débora ordena a Barac, por mandato de YHWH, reunir diez mil hombres de Neftalí y Zabulón en el monte Tabor, prometiéndole que YHWH atraerá a Sísara y su ejército hasta el río Quisón para entregarlos en sus manos.",
+      "referencias": ["Jue 4:6-7"],
+      "personajes_clave": ["debora", "barac"]
+    },
+    {
+      "id": "barac-condicion-debora-tabor",
+      "titulo": "Barac condiciona su participación a la presencia de Débora",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Barac responde que solo subirá al Tabor si Débora lo acompaña; ella accede, pero le advierte que el honor de la victoria no será para él, sino que YHWH entregará a Sísara en mano de una mujer, anticipando el desenlace posterior con Jael.",
+      "referencias": ["Jue 4:8-9"],
+      "personajes_clave": ["debora", "barac"]
+    },
+    {
+      "id": "descenso-batalla-tabor",
+      "titulo": "Barac desciende del Tabor para la batalla decisiva",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Una vez reunidas las tropas en el Tabor y posicionado Sísara con sus novecientos carros de hierro en la llanura, Barac desciende del monte por orden de Débora; YHWH desbarata a Sísara y todo su ejército ante Israel, posiblemente mediante una tormenta repentina que inutiliza los carros en el barro del Quisón.",
+      "referencias": ["Jue 4:14-16"],
+      "personajes_clave": ["barac"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "debora_tabor",
+      "nombre": "Débora",
+      "emoji": "🌳",
+      "rol": "Jueza y profetisa de Israel",
+      "periodo": "Activa c. 1150 a.C.",
+      "descripcion": "Dirige estratégicamente la concentración de tropas en el monte Tabor y acompaña personalmente a Barac, asegurando la ejecución del plan divino de liberación contra la opresión cananea.",
+      "referencias": ["Jue 4:6-10", "Jue 4:14"],
+      "ruta": ["tabor_mount"]
+    },
+    {
+      "id": "barac_tabor",
+      "nombre": "Barac",
+      "emoji": "⚔️",
+      "rol": "General israelita, originario de Cedes",
+      "periodo": "Activo c. 1150 a.C.",
+      "descripcion": "Reúne y dirige las tropas concentradas en el Tabor, condicionando su participación a la presencia de Débora, y lidera el descenso decisivo hacia la victoria sobre Sísara.",
+      "referencias": ["Jue 4:6-16"],
+      "ruta": ["kedesh", "tabor_mount"]
+    },
+    {
+      "id": "sisara_tabor",
+      "nombre": "Sísara",
+      "emoji": "🏃",
+      "rol": "General del ejército cananeo de Jabín",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Posiciona sus novecientos carros de hierro en la llanura frente al Tabor, siendo derrotado decisivamente cuando Israel desciende de la montaña, episodio que culmina poco después en su propia muerte a manos de Jael.",
+      "referencias": ["Jue 4:13-16"],
+      "ruta": ["tabor_mount"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El monte Tabor es escenario de uno de los episodios fundacionales de la teología militar del libro de los Jueces: la victoria de Israel se atribuye explícitamente a la intervención directa de YHWH desbaratando al ejército cananeo, no a la superioridad militar israelita frente a los temibles novecientos carros de hierro de Sísara, estableciendo el patrón recurrente de victoria providencial que caracteriza todo el ciclo de los jueces-libertadores.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (ejército derrotado)"
+    ],
+    "mitos": [
+      {
+        "id": "victoria-debora-barac-tabor",
+        "nombre": "La victoria de Débora y Barac desde el monte Tabor",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 4:1-16; Jue 5:1-31 (Cántico de Débora)",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el liderazgo profético y militar conjunto de Débora y Barac, y el extenso Cántico de Débora como uno de los poemas más antiguos de la literatura hebrea",
+          "descripcion": "La tradición judía valora especialmente el doble liderazgo de Débora y Barac desde el Tabor como modelo de cooperación entre autoridad profética femenina y liderazgo militar masculino, y considera el Cántico de Débora que conmemora la victoria como uno de los textos poéticos más antiguos preservados en toda la Biblia hebrea, fuente histórica valiosa sobre la organización tribal temprana de Israel.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento de Débora como figura de liderazgo profético excepcional.",
+          "diferencias": null,
+          "significado_teologico": "La victoria desde el Tabor confirma que YHWH puede usar tanto a hombres como a mujeres como instrumentos de liberación, sin que el género determine la capacidad de liderazgo otorgada por el llamado divino.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jue 4:1-16 (recepción patrística sobre Débora como modelo de liderazgo profético femenino)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que citan a Débora como precedente de autoridad espiritual femenina legítima",
+          "descripcion": "La tradición cristiana retoma a Débora, junto con su papel decisivo en la victoria del Tabor, como precedente bíblico significativo de liderazgo espiritual femenino, citado en diversos contextos a lo largo de la historia de la interpretación cristiana para argumentar sobre los roles de autoridad religiosa de las mujeres.",
+          "similitudes": "Comparte con la lectura judía la valoración positiva del liderazgo de Débora como modelo profético legítimo.",
+          "diferencias": "La lectura cristiana posterior desarrolla con frecuencia el episodio en el contexto de debates eclesiales específicos sobre el liderazgo femenino, ausentes en la lectura judía original.",
+          "significado_teologico": "El episodio del Tabor se convierte en referencia bíblica recurrente en discusiones cristianas sobre la legitimidad del liderazgo espiritual y profético ejercido por mujeres.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de los Jueces como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

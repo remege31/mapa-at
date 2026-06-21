@@ -1,0 +1,121 @@
+{
+  "id": "memphis",
+  "nombre": "Menfis",
+  "tipo": "ciudad",
+  "lat": 29.849632,
+  "lng": 31.253958,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital egipcia, oráculos de juicio" }
+  ],
+  "descripcion_geo": "Una de las ciudades más importantes y antiguas de Egipto, capital tradicional del Bajo Egipto, mencionada en el texto bíblico bajo su nombre hebreo 'Nof' en los oráculos proféticos de juicio contra Egipto pronunciados durante el período final del reino de Judá.",
+  "altitud_m": 20,
+  "clima": "Desértico subtropical — extremadamente caluroso y seco durante todo el año, propio del valle del Nilo en el Bajo Egipto.",
+  "recursos": [
+    "Capital tradicional del Bajo Egipto",
+    "Centro administrativo y religioso de gran prestigio",
+    "Templos dedicados a diversas divinidades egipcias, incluido el dios Ptah"
+  ],
+  "importancia_estrategica": "Menfis aparece en el corpus profético tardío como destino de huida de los refugiados judíos tras la destrucción de Jerusalén y, simultáneamente, como blanco del juicio divino anunciado contra Egipto, reflejando la posición ambigua de esta gran potencia vecina como tanto refugio como amenaza para los sobrevivientes de la caída de Judá.",
+  "otros_habitantes": [
+    {
+      "id": "egipcios_menfis",
+      "nombre": "Población egipcia de Menfis",
+      "descripcion": "Habitantes de una de las ciudades más prestigiosas y antiguas de Egipto, blanco de los oráculos proféticos de juicio pronunciados por Isaías, Jeremías y Ezequiel.",
+      "religion": "Politeísmo egipcio — culto a Ptah y otras divinidades",
+      "periodo": "c. 1000–586 a.C."
+    },
+    {
+      "id": "refugiados_judios_menfis",
+      "nombre": "Refugiados judíos en Menfis",
+      "descripcion": "Población de Judá que, tras la destrucción de Jerusalén, huye hacia Egipto buscando refugio, incluyendo Menfis entre los destinos mencionados en las profecías de Jeremías.",
+      "religion": "Yahvismo (con sincretismo posterior denunciado por Jeremías)",
+      "periodo": "c. 586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "isaias-oraculo-menfis",
+      "titulo": "Isaías profetiza la consternación de los príncipes de Menfis",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El profeta Isaías incluye a Menfis (Nof) en su oráculo de juicio contra Egipto, anunciando que sus príncipes serán engañados y llevados al error, parte de un extenso pasaje que cuestiona la sabiduría tradicional egipcia.",
+      "referencias": ["Is 19:13"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "jeremias-juicio-menfis",
+      "titulo": "Jeremías anuncia la desolación de Menfis",
+      "fecha": "c. 600–580 a.C.",
+      "descripcion": "Jeremías profetiza que Menfis quedará asolada, desierta y sin habitantes, en el contexto de sus oráculos contra Egipto pronunciados especialmente tras la huida de los refugiados judíos hacia ese país.",
+      "referencias": ["Jer 46:14", "Jer 46:19"],
+      "personajes_clave": ["jeremias"]
+    },
+    {
+      "id": "ezequiel-imagenes-menfis",
+      "titulo": "Ezequiel anuncia el fin de los ídolos de Menfis",
+      "fecha": "c. 587 a.C.",
+      "descripcion": "El profeta Ezequiel, en su extenso oráculo contra Egipto, anuncia específicamente que destruirá las imágenes y hará cesar los ídolos de Menfis, dirigiéndose contra el corazón mismo del sistema religioso egipcio en una de sus ciudades de mayor prestigio cúltico.",
+      "referencias": ["Ez 30:13"],
+      "personajes_clave": ["ezequiel"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "isaias_menfis",
+      "nombre": "Isaías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Cuestiona la sabiduría tradicional de los consejeros de Menfis en su extenso oráculo de juicio contra el poder egipcio.",
+      "referencias": ["Is 19:1-15"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "jeremias_menfis",
+      "nombre": "Jeremías",
+      "emoji": "🏚️",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–580 a.C.",
+      "descripcion": "Profetiza la desolación de Menfis en el contexto más amplio de sus oráculos contra Egipto, pronunciados en parte durante su propio exilio forzado hacia ese país tras la caída de Jerusalén.",
+      "referencias": ["Jer 46:1-26"],
+      "ruta": ["tahpanhes", "memphis"]
+    },
+    {
+      "id": "ezequiel_menfis",
+      "nombre": "Ezequiel",
+      "emoji": "⚱️",
+      "rol": "Profeta del exilio",
+      "periodo": "Activo c. 593–571 a.C.",
+      "descripcion": "Anuncia el fin de los ídolos y el sistema cúltico de Menfis en su extenso oráculo de juicio contra Egipto.",
+      "referencias": ["Ez 30:1-19"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Menfis representa en el corpus profético tardío el poder egipcio en su capacidad dual de refugio aparente y amenaza real para los sobrevivientes de Judá: los oráculos coinciden en anunciar el juicio divino sobre esta gran capital y su sistema religioso politeísta, advirtiendo simultáneamente contra la falsa confianza depositada por algunos judíos en la protección egipcia frente a la inevitabilidad del juicio que también alcanzará a esta potencia vecina.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva de los oráculos proféticos)",
+      "Politeísmo egipcio — culto a Ptah y otras divinidades"
+    ],
+    "mitos": [
+      {
+        "id": "juicio-convergente-tres-profetas-menfis",
+        "nombre": "El juicio convergente de tres profetas sobre Menfis",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Is 19:13; Jer 46:14-19; Ez 30:13",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la convergencia de tres profetas distintos —Isaías, Jeremías y Ezequiel, en períodos separados por más de un siglo— en su anuncio de juicio contra la misma ciudad egipcia",
+          "descripcion": "La tradición judía observa con interés que tres profetas mayores, activos en períodos históricos distintos separados por generaciones, convergen independientemente en su anuncio de juicio contra Menfis, interpretando esta coincidencia profética sostenida en el tiempo como confirmación de la inevitabilidad del destino anunciado contra el poder egipcio.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La convergencia de múltiples voces proféticas a lo largo de generaciones distintas en el anuncio del mismo juicio refuerza la certeza y autoridad del mensaje profético sobre el destino de las grandes potencias paganas.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

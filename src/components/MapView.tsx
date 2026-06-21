@@ -5,8 +5,9 @@ import type { Lugar } from '../types/lugar'
 
 // IDs cargados dinámicamente desde /data/index.json
 
-// Pin único tamaño — sin jerarquía visual
-const PIN = { r: 6, fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
+// Radio base por jerarquía visual (7 / 5 / 3 px antes de aplicar zoomScale)
+const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3 }
+const PIN = { fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
 
 // Waypoints para rutas — lugares sin JSON propio en scope actual
 const WAYPOINTS: Record<string, [number, number]> = {
@@ -234,7 +235,9 @@ function makeIcon(
   hideLabelOverride: boolean = false
 ): L.DivIcon {
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
-  const r = Math.round(PIN.r * zoomScale)
+  const jerarquiaLugar = (lugar as any).jerarquia_pin ?? 'primario'
+  const baseRadius = PIN_RADIUS[jerarquiaLugar] ?? PIN_RADIUS.primario
+  const r = Math.round(baseRadius * zoomScale)
   const labelSize = Math.max(7, Math.round(PIN.labelSize * zoomScale))
   const d = r * 2
 

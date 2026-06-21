@@ -1,0 +1,128 @@
+{
+  "id": "massah",
+  "nombre": "Masá",
+  "tipo": "territorio",
+  "lat": 28.73106102564323,
+  "lng": 33.84169995726504,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Comparte coordenadas con Refidim — Masá y Meribá son los dos nombres dados al mismo lugar y episodio según Éx 17:7, conmemorando tanto la prueba (Masá) como la contienda (Meribá) del pueblo contra Moisés y YHWH.",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Prueba a YHWH en Refidim" }
+  ],
+  "descripcion_geo": "Nombre dado al lugar de Refidim para conmemorar específicamente el aspecto de 'prueba' del episodio de la falta de agua, distinguido del nombre 'Meribá' que conmemora el aspecto de 'contienda' del mismo evento, ambos nombres aplicados retrospectivamente al mismo sitio geográfico en el desierto del Sinaí.",
+  "altitud_m": 600,
+  "clima": "Desértico de montaña — extremadamente seco y caluroso durante el día, con temperaturas más frescas durante la noche, propio de la región montañosa del Sinaí.",
+  "recursos": [
+    "Roca de Horeb de la que brota agua",
+    "Punto de prueba de la confianza del pueblo en YHWH"
+  ],
+  "importancia_estrategica": "Masá no es un lugar distinto de Refidim sino su denominación conmemorativa específica para el aspecto de 'poner a prueba' a YHWH: el pueblo cuestiona directamente si 'está YHWH entre nosotros, o no', desafío que se convierte en referencia bíblica recurrente, especialmente en textos posteriores como advertencia contra la incredulidad y la tentación de poner a prueba la fidelidad divina.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_massah",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo que en este lugar pone a prueba explícitamente a YHWH cuestionando su presencia activa entre ellos por la falta de agua.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "ancianos_israel_massah",
+      "nombre": "Ancianos de Israel",
+      "descripcion": "Líderes tribales que acompañan a Moisés como testigos del milagro del agua brotada de la roca de Horeb, validando públicamente el evento.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "pueblo-prueba-yhwh-massah",
+      "titulo": "El pueblo pone a prueba a YHWH cuestionando su presencia",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Ante la falta de agua en Refidim, el pueblo contiende con Moisés preguntando explícitamente '¿está YHWH entre nosotros, o no?', desafío directo que da origen al doble nombre del lugar: Masá ('prueba') por cuestionar a YHWH, y Meribá ('contienda') por la disputa con Moisés.",
+      "referencias": ["Éx 17:1-7"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "moises-roca-horeb-massah",
+      "titulo": "Moisés golpea la roca de Horeb ante los ancianos",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Por instrucción de YHWH, Moisés golpea con su vara la roca de Horeb ante los ojos de los ancianos de Israel, de la que brota agua suficiente para todo el pueblo, resolviendo la crisis pero dejando registrado el nombre del lugar como recordatorio permanente de la prueba del pueblo.",
+      "referencias": ["Éx 17:5-6"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "deuteronomio-recuerdo-massah",
+      "titulo": "El Deuteronomio recuerda Masá como advertencia",
+      "fecha": "c. 1400 a.C. (referencia retrospectiva)",
+      "descripcion": "El Deuteronomio cita explícitamente el nombre 'Masá' en una serie de advertencias contra poner a prueba a YHWH como se hizo allí, estableciendo el episodio como precedente normativo negativo citado posteriormente en contextos legales y litúrgicos.",
+      "referencias": ["Deut 6:16", "Deut 9:22"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_massah",
+      "nombre": "Moisés",
+      "emoji": "🪨",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Resuelve la crisis de agua golpeando la roca de Horeb ante los ancianos de Israel, mientras enfrenta el cuestionamiento directo del pueblo sobre la presencia activa de YHWH entre ellos.",
+      "referencias": ["Éx 17:1-7"],
+      "ruta": ["rephidim", "massah"]
+    },
+    {
+      "id": "pueblo_prueba_massah",
+      "nombre": "Congregación de Israel",
+      "emoji": "❓",
+      "rol": "Pueblo que pone a prueba a YHWH",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Cuestiona directamente la presencia de YHWH entre ellos, episodio que se convierte en referencia bíblica negativa recurrente sobre el peligro de la incredulidad ante la provisión divina ya demostrada.",
+      "referencias": ["Éx 17:2-3", "Éx 17:7"],
+      "ruta": ["massah"]
+    },
+    {
+      "id": "ancianos_massah_personaje",
+      "nombre": "Ancianos de Israel",
+      "emoji": "👴",
+      "rol": "Testigos del milagro del agua",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Acompañan a Moisés como testigos oficiales del milagro de la roca, validando públicamente ante el pueblo la veracidad del evento providencial.",
+      "referencias": ["Éx 17:5-6"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Masá establece el patrón negativo de referencia para toda advertencia bíblica posterior contra el cuestionamiento incrédulo de la presencia y fidelidad divina: el nombre mismo del lugar se convierte en sinónimo de la tentación de exigir pruebas adicionales de un Dios que ya ha demostrado repetidamente su poder y compromiso, advertencia citada explícitamente en textos legales posteriores como modelo de conducta a evitar.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "no-tentaras-yhwh-massah",
+        "nombre": "'No tentarás a YHWH tu Dios' como principio derivado de Masá",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Éx 17:1-7; Deut 6:16",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el principio de no poner a prueba a Dios derivado directamente del nombre y episodio de Masá, citado en la Mishná y discusiones halájicas posteriores",
+          "descripcion": "La tradición judía desarrolla el principio explícito 'no tentarás a YHWH tu Dios' directamente del episodio de Masá, estableciendo una norma ética y religiosa fundamental contra la exigencia de pruebas adicionales de la fidelidad divina ya suficientemente demostrada, principio aplicado en discusiones halájicas posteriores sobre los límites apropiados de la petición religiosa.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento de este principio como norma ética fundamental.",
+          "diferencias": null,
+          "significado_teologico": "El episodio de Masá establece el principio permanente de que la fe genuina no requiere demandar pruebas adicionales constantes de un Dios cuya fidelidad ya ha sido demostrada históricamente.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Deut 6:16 (citado directamente por Jesús en Mt 4:7 y Lc 4:12 durante su tentación en el desierto)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la cita directa de Jesús del principio de Masá durante su propia confrontación con la tentación",
+          "descripcion": "Jesús cita textualmente el principio derivado de Masá ('No tentarás al Señor tu Dios') durante su confrontación con la tentación en el desierto, estableciendo una conexión directa entre el episodio veterotestamentario y la propia resistencia de Cristo a la tentación, en un paralelo deliberado entre el peregrinaje de Israel por el desierto y el período de prueba de Jesús.",
+          "similitudes": "Comparte con la lectura judía la valoración del principio como norma ética fundamental contra la exigencia de pruebas adicionales de la fidelidad divina.",
+          "diferencias": "La aplicación cristiana añade una dimensión tipológica directa donde Jesús mismo, citando el texto, recapitula y supera la prueba que Israel falló en Masá.",
+          "significado_teologico": "El principio de Masá se convierte en arma directa de Cristo contra la tentación, estableciendo su victoria como cumplimiento de lo que Israel no logró en el desierto original.",
+          "posible_relacion_cultural": "Recepción cristiana directa del texto deuteronómico citado por Jesús en su confrontación con la tentación."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "baalath_beer",
+  "nombre": "Baalat-beer",
+  "tipo": "ciudad",
+  "lat": 31.244952,
+  "lng": 34.840888,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad fronteriza de Simeón en el Néguev" }
+  ],
+  "descripcion_geo": "Ciudad en el extremo meridional del territorio de Simeón, en el Néguev, identificada en algunas listas bíblicas paralelas con Ramá del Néguev. Su nombre compuesto ('Baal del pozo') refleja el sustrato cananeo previo a la ocupación israelita, donde el culto a Baal se asociaba frecuentemente con fuentes de agua vitales en zonas áridas.",
+  "altitud_m": 300,
+  "clima": "Semiárido — veranos muy secos y calurosos, inviernos templados con lluvias escasas, propio del Néguev septentrional.",
+  "recursos": [
+    "Pozo o fuente de agua (origen del nombre compuesto)",
+    "Posición fronteriza en el extremo sur del territorio israelita"
+  ],
+  "importancia_estrategica": "Baalat-beer marca el límite meridional del territorio asignado a la tribu de Simeón, en una zona de transición hacia el desierto del Néguev profundo; su nombre, que conserva el elemento 'Baal', es un vestigio lingüístico directo de la población cananea previa y del proceso de asimilación e israelitización de topónimos en zonas de frontera.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_baalat_beer",
+      "nombre": "Población cananea original",
+      "descripcion": "Habitantes previos a la ocupación israelita que dieron al lugar su nombre compuesto con el elemento 'Baal', asociado al culto cananeo de fertilidad y fuentes de agua.",
+      "religion": "Politeísmo cananeo — culto a Baal",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "simeonitas_baalat_beer",
+      "nombre": "Tribu de Simeón",
+      "descripcion": "Población israelita asentada en el extremo sur de su territorio asignado, en la zona fronteriza del Néguev que incluye Baalat-beer.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "baalat-beer-ciudad-simeon",
+      "titulo": "Baalat-beer en la lista de ciudades de Simeón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "El libro de Josué registra Baalat-beer entre las últimas ciudades de la lista del territorio de Simeón, identificándola explícitamente como 'Ramá del Néguev', confirmando el patrón de doble denominación frecuente en topónimos de zonas fronterizas.",
+      "referencias": ["Jos 19:8"],
+      "personajes_clave": []
+    },
+    {
+      "id": "baalat-beer-juda-lista-paralela",
+      "titulo": "Mención paralela en la lista de Judá",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Una lista paralela de ciudades del extremo sur de Judá incluye una localidad de nombre similar ('Baal'), reflejando la naturaleza compartida y a veces ambigua de la frontera entre los territorios de Judá y Simeón en el Néguev.",
+      "referencias": ["Jos 15:29"],
+      "personajes_clave": []
+    },
+    {
+      "id": "baalat-beer-territorio-frontera",
+      "titulo": "Baalat-beer como marcador de frontera tribal",
+      "fecha": "c. 1200–1000 a.C.",
+      "descripcion": "La mención de Baalat-beer junto a otras ciudades del extremo meridional sirve en el texto bíblico como marcador del límite efectivo de la presencia israelita organizada antes de la transición al desierto del Néguev profundo, zona de menor control tribal estable.",
+      "referencias": ["Jos 19:1-9"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_baalat_beer",
+      "nombre": "Josué",
+      "emoji": "📜",
+      "rol": "Líder de la conquista, organizador del reparto territorial",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Dirige la asignación de Baalat-beer y las ciudades del extremo sur al territorio de la tribu de Simeón en el marco del reparto general de Canaán.",
+      "referencias": ["Jos 19:1-9"],
+      "ruta": []
+    },
+    {
+      "id": "simeonitas_baalat_personaje",
+      "nombre": "Clanes de Simeón",
+      "emoji": "🏜️",
+      "rol": "Población tribal del extremo sur del territorio israelita",
+      "periodo": "c. 1200–1000 a.C.",
+      "descripcion": "Habitantes de la tribu de Simeón asentados en las ciudades fronterizas del Néguev, entre ellas Baalat-beer, en el límite de la presencia organizada israelita hacia el desierto.",
+      "referencias": ["Jos 19:1-9"],
+      "ruta": []
+    },
+    {
+      "id": "poblacion_cananea_baal_beer",
+      "nombre": "Población cananea original",
+      "emoji": "🏺",
+      "rol": "Habitantes previos a la ocupación israelita",
+      "periodo": "Anterior a c. 1200 a.C.",
+      "descripcion": "Dieron origen al nombre del lugar vinculado al culto cananeo de Baal asociado a fuentes de agua, vestigio lingüístico de la presencia cananea previa en la región.",
+      "referencias": ["Jos 19:8"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Baalat-beer carece de desarrollo narrativo propio; su valor principal es lingüístico-histórico, como testimonio de la persistencia de nombres cananeos compuestos con el elemento 'Baal' incluso después de la asimilación israelita del territorio, fenómeno común en la toponimia bíblica del Néguev y reflejo de la lenta y nunca completa sustitución cultural y religiosa de la población cananea original.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (sustrato original, conservado en el topónimo)"
+    ],
+    "mitos": [
+      {
+        "id": "toponimos-baal-persistencia",
+        "nombre": "La persistencia de topónimos con el elemento 'Baal' en territorio israelita",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 19:8",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la conservación de nombres cananeos como recordatorio histórico de la conquista incompleta y la necesidad de vigilancia frente a la idolatría",
+          "descripcion": "La tradición judía observa que la persistencia de topónimos con el elemento 'Baal' en ciudades ya bajo control israelita —como Baalat-beer— sirve de recordatorio constante de la necesidad de vigilancia frente a la tentación idolátrica, dado que el nombre del lugar mismo preserva la memoria del culto cananeo previo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "Los topónimos persistentes funcionan como advertencia implícita sobre la tentación constante de la idolatría cananea incluso en territorio nominalmente yahvista.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/rbush": "^4.0.0",
     "leaflet": "^1.9.4",
+    "rbush": "^4.0.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },

@@ -1,0 +1,127 @@
+{
+  "id": "hor_mount",
+  "nombre": "Monte Hor",
+  "tipo": "territorio",
+  "lat": 30.317396,
+  "lng": 35.407152,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Muerte y sepultura de Aarón" }
+  ],
+  "descripcion_geo": "Montaña en la frontera de Edom, cerca de Cades, donde Israel acampa durante su peregrinaje por el desierto poco antes de la muerte de Aarón. Su identificación tradicional la sitúa en las cercanías de la región que después sería Sela/Petra.",
+  "altitud_m": 1350,
+  "clima": "Semiárido de montaña — veranos secos y calurosos, inviernos fríos, propio de la frontera meridional de Edom.",
+  "recursos": [
+    "Posición elevada en la frontera con Edom",
+    "Lugar de sepultura sacerdotal de referencia"
+  ],
+  "importancia_estrategica": "El monte Hor no tiene relevancia militar; su importancia es exclusivamente religiosa como lugar de la muerte de Aarón y la transferencia formal del sumo sacerdocio a su hijo Eleazar, episodio que marca la continuidad institucional del sacerdocio aarónico independientemente de la mortalidad de su primer titular.",
+  "otros_habitantes": [
+    {
+      "id": "edomitas_hor",
+      "nombre": "Edomitas",
+      "descripcion": "Población vecina de la región fronteriza donde se ubica el monte Hor, con quienes Israel había tenido un encuentro diplomático tenso poco antes, cuando el rey de Edom rehusó el paso pacífico solicitado por Moisés.",
+      "religion": "Politeísmo edomita — culto a Qos",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "israelitas_hor",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo acampado junto al monte Hor en el momento de la muerte de Aarón, testigo del duelo de treinta días que sigue a su fallecimiento.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "anuncio-muerte-aaron-hor",
+      "titulo": "YHWH anuncia la muerte de Aarón en el monte Hor",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "YHWH instruye a Moisés que suba con Aarón y Eleazar al monte Hor, donde Aarón morirá y será 'reunido a su pueblo' por no haber podido entrar a la tierra prometida, igual que Moisés, debido al episodio de desobediencia en las aguas de Meribá.",
+      "referencias": ["Núm 20:23-26"],
+      "personajes_clave": ["aaron", "moises", "eleazar"]
+    },
+    {
+      "id": "transferencia-sacerdocio-hor",
+      "titulo": "Eleazar recibe las vestiduras sacerdotales en la cumbre",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "En la cumbre del monte, Moisés despoja a Aarón de sus vestiduras sacerdotales y se las pone a Eleazar, su hijo, formalizando la transferencia del sumo sacerdocio antes de que Aarón muera allí mismo, estableciendo el patrón de sucesión hereditaria del oficio.",
+      "referencias": ["Núm 20:27-28"],
+      "personajes_clave": ["aaron", "eleazar", "moises"]
+    },
+    {
+      "id": "duelo-aaron-hor",
+      "titulo": "Treinta días de duelo por Aarón",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Toda la congregación de Israel llora a Aarón durante treinta días al ver que ha muerto, observancia de duelo que establece un precedente de luto comunal prolongado por la pérdida de un líder religioso central del pueblo.",
+      "referencias": ["Núm 20:29"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "aaron_hor",
+      "nombre": "Aarón",
+      "emoji": "⚰️",
+      "rol": "Primer sumo sacerdote de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Hermano de Moisés y primer sumo sacerdote de Israel, muere en la cumbre del monte Hor a la edad de ciento veintitrés años, sin poder entrar a la tierra prometida por su participación en la desobediencia de Meribá.",
+      "referencias": ["Núm 20:23-29", "Núm 33:38-39"],
+      "ruta": ["meribah", "hor_mount"]
+    },
+    {
+      "id": "eleazar_hor",
+      "nombre": "Eleazar",
+      "emoji": "👑",
+      "rol": "Hijo de Aarón, sucesor en el sumo sacerdocio",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Recibe en la cumbre del monte Hor las vestiduras sacerdotales de su padre Aarón, asumiendo formalmente el oficio de sumo sacerdote de Israel en un acto que garantiza la continuidad institucional del sacerdocio.",
+      "referencias": ["Núm 20:25-28"],
+      "ruta": ["hor_mount"]
+    },
+    {
+      "id": "moises_hor",
+      "nombre": "Moisés",
+      "emoji": "🏔️",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Sube al monte Hor junto a Aarón y Eleazar por instrucción divina, presidiendo personalmente tanto la transferencia del sacerdocio como la muerte de su hermano.",
+      "referencias": ["Núm 20:25-28"],
+      "ruta": ["meribah", "hor_mount"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El monte Hor es el lugar donde se establece formalmente el principio de continuidad institucional del sacerdocio aarónico por encima de la mortalidad de cualquier titular individual: la transferencia de las vestiduras de Aarón a Eleazar antes de la muerte del primero garantiza que el oficio sacerdotal no se interrumpe, estableciendo un modelo de sucesión que perdurará a lo largo de toda la historia del sacerdocio israelita hasta la destrucción del Segundo Templo.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "continuidad-sacerdocio-hor",
+        "nombre": "La continuidad del sumo sacerdocio establecida en el monte Hor",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 20:22-29",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el luto especial por Aarón ('toda la casa de Israel') en contraste con el duelo posterior por Moisés ('los hijos de Israel'), interpretado como reflejo de la popularidad excepcional de Aarón como pacificador",
+          "descripcion": "La tradición rabínica observa que el texto especifica que 'toda la casa de Israel' (incluyendo mujeres) lloró a Aarón, en contraste con la fórmula usada para Moisés, interpretando esta diferencia como testimonio del carácter especialmente conciliador y pacificador de Aarón, cuya muerte en el monte Hor establece además el modelo permanente de transmisión hereditaria del sumo sacerdocio.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La transferencia formal de las vestiduras sacerdotales antes de la muerte de Aarón establece el principio de que la institución sacerdotal trasciende a cualquier individuo particular que la ocupe.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Núm 20:22-29 (recepción tipológica en Heb 7:23-24, contraste entre el sacerdocio aarónico mortal y el sacerdocio eterno de Cristo)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la Carta a los Hebreos y la limitación del sacerdocio levítico frente al sacerdocio perpetuo según el orden de Melquisedec",
+          "descripcion": "La Carta a los Hebreos cita explícitamente la mortalidad de los sacerdotes aarónicos —ejemplificada en la muerte de Aarón mismo en el monte Hor— como argumento teológico central para contrastar el sacerdocio levítico, necesariamente sucesivo por causa de la muerte, con el sacerdocio único y perpetuo atribuido a Cristo según el orden de Melquisedec.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento de la importancia estructural del episodio para la institución sacerdotal.",
+          "diferencias": "La lectura cristiana utiliza precisamente la necesidad de sucesión por mortalidad —el punto central del episodio del monte Hor— como argumento para afirmar la superioridad de un sacerdocio que no requiere sucesión.",
+          "significado_teologico": "La muerte de Aarón y la necesaria transferencia del sacerdocio se convierten en argumento neotestamentario sobre la limitación inherente del sistema sacerdotal levítico frente al sacerdocio eterno de Cristo.",
+          "posible_relacion_cultural": "Recepción cristiana de la institución sacerdotal aarónica reinterpretada tipológicamente en clave cristológica."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

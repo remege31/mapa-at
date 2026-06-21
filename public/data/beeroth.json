@@ -1,0 +1,121 @@
+{
+  "id": "beeroth",
+  "nombre": "Beerot",
+  "tipo": "ciudad",
+  "lat": 31.90007449127097,
+  "lng": 35.21668800602465,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad hivita de la liga gabaonita, asignada a Benjamín" }
+  ],
+  "descripcion_geo": "Ciudad en el territorio de Benjamín, una de las cuatro ciudades de la liga hivita encabezada por Gabaón que pactó con Josué mediante engaño para evitar la destrucción. Su nombre ('pozos') refleja la presencia de fuentes de agua importantes en la región.",
+  "altitud_m": 750,
+  "clima": "Mediterráneo de montaña — veranos secos, inviernos fríos con lluvias, propio de la meseta de Benjamín.",
+  "recursos": [
+    "Pozos de agua (origen del nombre)",
+    "Tierras agrícolas de la meseta de Benjamín",
+    "Posición dentro de la liga hivita de Gabaón"
+  ],
+  "importancia_estrategica": "Beerot formaba parte de la liga de cuatro ciudades hivitas (junto con Gabaón, Cafira y Quiriat-jearim) que aseguró su supervivencia mediante un pacto obtenido por engaño con Josué, evitando así la destrucción aplicada a otras ciudades cananeas; posteriormente, sus habitantes se asimilan al territorio de Benjamín, aunque conservando cierta identidad diferenciada documentada en episodios posteriores de la monarquía temprana.",
+  "otros_habitantes": [
+    {
+      "id": "hivitas_beerot",
+      "nombre": "Hivitas de la liga gabaonita",
+      "descripcion": "Población original de Beerot, parte de la confederación de cuatro ciudades hivitas que pactó con Israel mediante un engaño, fingiendo proceder de tierras lejanas para evitar la destrucción aplicada a las ciudades cananeas locales.",
+      "religion": "Politeísmo cananeo-hivita",
+      "periodo": "c. 1200 a.C."
+    },
+    {
+      "id": "benjaminitas_beerot",
+      "nombre": "Tribu de Benjamín",
+      "descripcion": "Beerot se integra al territorio asignado a la tribu de Benjamín, con la población hivita original asimilada gradualmente como siervos del santuario según los términos del pacto de Gabaón.",
+      "religion": "Yahvismo (con sustrato hivita asimilado)",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "beerot-liga-gabaonita",
+      "titulo": "Beerot en la liga hivita de Gabaón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Junto con Gabaón, Cafira y Quiriat-jearim, Beerot forma parte de la confederación hivita que logra un pacto de paz con Josué mediante el engaño de presentarse como embajadores de un país lejano, evitando así la aplicación del herem reservado a las ciudades cananeas cercanas.",
+      "referencias": ["Jos 9:3-17"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "beerot-asignacion-benjamin",
+      "titulo": "Beerot asignada al territorio de Benjamín",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "En el reparto territorial, Beerot queda incluida entre las ciudades del territorio asignado a la tribu de Benjamín, completando la integración administrativa de la antigua liga hivita al sistema tribal israelita.",
+      "referencias": ["Jos 18:25"],
+      "personajes_clave": []
+    },
+    {
+      "id": "asesinato-isbaal-beerot",
+      "titulo": "Los asesinos de Is-bóset eran de Beerot",
+      "fecha": "c. 1008 a.C.",
+      "descripcion": "Recab y Baaná, los dos capitanes que asesinan a Is-bóset (hijo y sucesor de Saúl) mientras dormía, son identificados explícitamente como hombres de Beerot, de la tribu de Benjamín; David, lejos de premiar el acto, ordena su ejecución por el asesinato de un hombre justo en su propia casa.",
+      "referencias": ["2 Sam 4:1-12"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "embajadores_gabaonitas_beerot",
+      "nombre": "Embajadores de la liga hivita",
+      "emoji": "🎭",
+      "rol": "Delegación que negocia el pacto de paz con Josué",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Representantes de Beerot y las otras ciudades hivitas que se presentan ante Josué disfrazados de viajeros de tierras lejanas, logrando un pacto de protección mediante el engaño que después no puede romperse por haber sido sellado con juramento.",
+      "referencias": ["Jos 9:3-15"],
+      "ruta": ["beeroth", "gabaon"]
+    },
+    {
+      "id": "recab_baana",
+      "nombre": "Recab y Baaná",
+      "emoji": "🗡️",
+      "rol": "Capitanes de Beerot, asesinos de Is-bóset",
+      "periodo": "c. 1008 a.C.",
+      "descripcion": "Hombres de Beerot que asesinan a Is-bóset, hijo de Saúl, esperando recompensa de David; en cambio, son ejecutados por el rey como castigo ejemplar por el asesinato de un inocente.",
+      "referencias": ["2 Sam 4:2-12"],
+      "ruta": ["beeroth", "hebron"]
+    },
+    {
+      "id": "david_beerot",
+      "nombre": "David",
+      "emoji": "⚖️",
+      "rol": "Rey de Israel, juez del asesinato de Is-bóset",
+      "periodo": "c. 1008 a.C.",
+      "descripcion": "Rechaza la conducta de los asesinos de Beerot pese a que el crimen lo beneficiaba políticamente, ordenando su ejecución pública como afirmación de su integridad moral frente a la casa de Saúl.",
+      "referencias": ["2 Sam 4:9-12"],
+      "ruta": ["hebron"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Beerot encarna dos episodios de tensión ética distintos: la legitimidad de un pacto obtenido por engaño pero sellado con juramento divino, que Josué decide respetar pese a la trampa descubierta, y siglos después, el rechazo explícito de David a beneficiarse de un asesinato cometido por sus propios habitantes, reafirmando que ni siquiera la eliminación de un rival político justifica el derramamiento de sangre inocente.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo-hivita (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "pacto-juramento-gabaonita",
+        "nombre": "La inviolabilidad del pacto jurado con los hivitas de Beerot",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 9:3-27",
+          "fuente_secundaria": "Talmud Babilónico, Yebamot 79a (sobre la inviolabilidad del juramento incluso obtenido mediante engaño)",
+          "descripcion": "La tradición rabínica desarrolla extensamente el principio de que un juramento hecho en nombre de YHWH, incluso si fue obtenido mediante engaño por la otra parte, conserva su validez vinculante, citando este episodio como precedente para la doctrina sobre la santidad inviolable del juramento divino, tema retomado siglos después en la hambruna durante el reinado de David como castigo por la violación posterior de este pacto por Saúl.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La inviolabilidad del juramento hecho en nombre de YHWH se mantiene incluso cuando la otra parte actuó de mala fe, subrayando la santidad absoluta del nombre divino invocado en cualquier pacto.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

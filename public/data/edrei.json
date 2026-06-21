@@ -1,0 +1,121 @@
+{
+  "id": "edrei",
+  "nombre": "Edrei",
+  "tipo": "ciudad",
+  "lat": 32.62413707696097,
+  "lng": 36.09899663593119,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Derrota de Og, rey de Basán" }
+  ],
+  "descripcion_geo": "Una de las dos ciudades capitales del reino de Og, rey de Basán, situada en una región fértil al norte de Galaad, escenario de la batalla decisiva en que Israel derrota al último de los grandes reyes amorreos antes de cruzar el Jordán hacia Canaán propiamente dicha.",
+  "altitud_m": 550,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de la región de Basán.",
+  "recursos": [
+    "Tierras fértiles de Basán",
+    "Capital administrativa del reino de Og",
+    "Posición defendible en el norte de la Transjordania"
+  ],
+  "importancia_estrategica": "Edrei es escenario de la batalla final de la conquista de la Transjordania: la derrota de Og, descrito como el último superviviente de los refaítas (gigantes), cuya cama de hierro de nueve codos se conserva como testimonio de su estatura legendaria; esta victoria completa la conquista del territorio transjordano antes del cruce definitivo del Jordán hacia Canaán.",
+  "otros_habitantes": [
+    {
+      "id": "refaitas_edrei",
+      "nombre": "Og y los refaítas de Basán",
+      "descripcion": "Og, rey de Basán, descrito como el último superviviente de los refaítas, pueblo de gran estatura cuya cama de hierro se conservaba como prueba de su tamaño excepcional.",
+      "religion": "Religión cananea-transjordana primitiva",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "amorreos_edrei",
+      "nombre": "Amorreos de Basán",
+      "descripcion": "Población del reino de Og derrotada junto a su rey en la batalla decisiva de Edrei, completando la conquista israelita del norte de la Transjordania.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "og-sale-edrei",
+      "titulo": "Og de Basán sale a enfrentar a Israel en Edrei",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras la victoria sobre Sehón, Og, rey de Basán, sale con todo su pueblo a enfrentar a Israel en batalla cerca de Edrei; YHWH anima a Moisés diciéndole que no le tema, pues lo ha entregado en su mano junto con todo su pueblo y su tierra.",
+      "referencias": ["Núm 21:33", "Deut 3:1"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "derrota-og-edrei",
+      "titulo": "Israel derrota completamente a Og en Edrei",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Israel hiere a Og, a sus hijos y a todo su pueblo hasta no dejar sobreviviente, conquistando las sesenta ciudades de su reino, incluida la región de Argob, completando así la conquista total de la Transjordania antes del cruce del Jordán hacia Canaán.",
+      "referencias": ["Núm 21:34-35", "Deut 3:3-4"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "cama-hierro-og-recuerdo",
+      "titulo": "El recuerdo de la cama de hierro de Og",
+      "fecha": "Referencia retrospectiva, Deuteronomio",
+      "descripcion": "El Deuteronomio conserva el dato de que la cama de hierro de Og, de nueve codos de largo por cuatro de ancho, se exhibía en Rabá de los hijos de Amón como testimonio físico verificable de la estatura legendaria del último rey refaíta derrotado.",
+      "referencias": ["Deut 3:11"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "og_rey_basan",
+      "nombre": "Og, rey de Basán",
+      "emoji": "👹",
+      "rol": "Último rey de los refaítas",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Gobernante de gran estatura, descrito como último superviviente de los refaítas, derrotado completamente por Israel en la batalla de Edrei junto con todo su pueblo y reino.",
+      "referencias": ["Núm 21:33-35", "Deut 3:11"],
+      "ruta": ["edrei"]
+    },
+    {
+      "id": "moises_edrei",
+      "nombre": "Moisés",
+      "emoji": "⚔️",
+      "rol": "Líder de Israel en la conquista de la Transjordania",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Dirige la última gran batalla de la conquista de la Transjordania contra Og en Edrei, completando la posesión total del territorio al este del Jordán antes del cruce final hacia Canaán.",
+      "referencias": ["Núm 21:33-35", "Deut 3:1-7"],
+      "ruta": ["yahas", "edrei"]
+    },
+    {
+      "id": "pueblo_basan_edrei",
+      "nombre": "Pueblo de Basán",
+      "emoji": "🏘️",
+      "rol": "Población derrotada junto a Og",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Población completa del reino de Og, exterminada según el patrón del herem aplicado a este último gran reino amorreo de la Transjordania antes de la entrada a Canaán.",
+      "referencias": ["Núm 21:35", "Deut 3:3-7"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Edrei marca la conclusión decisiva de la conquista de toda la Transjordania, presentada por la teología deuteronomista como demostración progresiva del poder de YHWH para entregar reinos cada vez más formidables —desde Sehón hasta el legendario Og de los refaítas— en manos de Israel antes incluso de cruzar el Jordán hacia la tierra prometida propiamente dicha, estableciendo así un patrón ascendente de confianza para la conquista de Canaán que vendrá después.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Religión cananea-transjordana primitiva (refaítas)"
+    ],
+    "mitos": [
+      {
+        "id": "og-ultimo-refaita-edrei",
+        "nombre": "Og como último superviviente de los refaítas",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Deut 3:11",
+          "fuente_secundaria": "Comentario rabínico y tradiciones aggádicas extensas sobre la estatura legendaria de Og y su supervivencia desde tiempos del diluvio en algunas tradiciones midráshicas posteriores",
+          "descripcion": "La tradición judía desarrolla una extensa literatura aggádica sobre la figura de Og, incluyendo tradiciones que lo vinculan con la generación previa al diluvio y narrativas elaboradas sobre las dimensiones extraordinarias necesarias para su derrota, convirtiéndolo en figura paradigmática del último gran obstáculo gigantesco superado por Israel mediante el poder divino antes de la conquista de Canaán.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La derrota del legendario Og, el oponente más formidable de toda la conquista transjordana, demuestra que ningún poder, por imponente que parezca, puede resistir al designio divino de entregar la tierra a Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

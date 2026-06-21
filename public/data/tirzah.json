@@ -1,0 +1,122 @@
+{
+  "id": "tirzah",
+  "nombre": "Tirsa",
+  "tipo": "ciudad",
+  "lat": 32.27136869937776,
+  "lng": 35.29430386845415,
+  "frecuencia_at": 14,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista por Josué, herencia de las hijas de Zelofehad" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital temprana del reino del norte" }
+  ],
+  "descripcion_geo": "Ciudad cananea de notable belleza, según la describe el propio texto bíblico, que se convierte en una de las primeras capitales del reino de Israel del norte tras la división del reino unido, antes del traslado definitivo de la capital a Samaria por Omri.",
+  "altitud_m": 440,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las colinas del norte de Israel.",
+  "recursos": [
+    "Belleza paisajística reconocida en el texto bíblico",
+    "Capital administrativa temprana del reino del norte",
+    "Tierras agrícolas fértiles de la región"
+  ],
+  "importancia_estrategica": "Tirsa funciona como capital sucesiva de varios reyes del norte de Israel tras la división del reino —incluido Jeroboam, Baasa, Elá y los primeros años de Omri— hasta que este último decide trasladar definitivamente la capital a la recién construida Samaria, marcando el fin del período de Tirsa como sede del poder político israelita septentrional.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_tirsa",
+      "nombre": "Cananeos",
+      "descripcion": "Población original de Tirsa, ciudad cuyo rey aparece entre los derrotados por Josué en la lista de la conquista de Canaán.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "israelitas_tirsa",
+      "nombre": "Reino del norte (Israel)",
+      "descripcion": "Población que habita Tirsa durante su período como capital sucesiva de varios reyes del reino del norte tras la división de la monarquía unida.",
+      "religion": "Yahvismo (con sincretismo posterior bajo Jeroboam)",
+      "periodo": "c. 930–880 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "josue-derrota-rey-tirsa",
+      "titulo": "Josué derrota al rey de Tirsa",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tirsa aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus de ciudad-estado independiente antes de la ocupación israelita.",
+      "referencias": ["Jos 12:24"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "zelofehad-tirsa-herencia",
+      "titulo": "Las hijas de Zelofehad y la herencia femenina",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Mahla, Noa, Hogla, Milca y Tirsa, hijas de Zelofehad de la tribu de Manasés (esta última posiblemente epónima de la ciudad), presentan ante Moisés su caso por carecer de hermanos varones para heredar, obteniendo el derecho legal a heredar la tierra de su padre, estableciendo un precedente legal significativo sobre los derechos de herencia femenina en ausencia de descendencia masculina.",
+      "referencias": ["Núm 27:1-11"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "tirsa-capital-reino-norte",
+      "titulo": "Tirsa como capital sucesiva del reino del norte",
+      "fecha": "c. 930–880 a.C.",
+      "descripcion": "Tras la división del reino unido, Tirsa se convierte en residencia y capital de varios reyes sucesivos de Israel —Jeroboam, Baasa, Elá y el inicio del reinado de Omri— hasta que este último traslada definitivamente la capital a la nueva ciudad de Samaria.",
+      "referencias": ["1 Re 14:17", "1 Re 15:33", "1 Re 16:23-24"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_tirsa",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Derrota al rey cananeo de Tirsa en su extensa campaña de conquista, integrando la ciudad al territorio israelita.",
+      "referencias": ["Jos 12:24"],
+      "ruta": []
+    },
+    {
+      "id": "hijas_zelofehad_tirsa",
+      "nombre": "Hijas de Zelofehad",
+      "emoji": "⚖️",
+      "rol": "Demandantes del derecho de herencia femenina",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Establecen ante Moisés un precedente legal significativo sobre el derecho de las mujeres a heredar la tierra paterna en ausencia de hermanos varones, episodio que da nombre, posiblemente, a la futura ciudad de Tirsa.",
+      "referencias": ["Núm 27:1-11", "Núm 36:1-12"],
+      "ruta": []
+    },
+    {
+      "id": "omri_tirsa",
+      "nombre": "Omri",
+      "emoji": "🏛️",
+      "rol": "Rey de Israel, fundador de Samaria",
+      "periodo": "c. 885–874 a.C.",
+      "descripcion": "Reina inicialmente desde Tirsa antes de trasladar la capital del reino del norte a la nueva ciudad de Samaria, decisión que marca el fin definitivo del período de Tirsa como sede del poder político israelita.",
+      "referencias": ["1 Re 16:23-24"],
+      "ruta": ["tirzah", "samaria"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Tirsa conecta dos episodios de relevancia bien distinta: el establecimiento de un precedente legal significativo sobre derechos de herencia femenina en el ciclo mosaico, y siglos después, su función puramente política como capital temprana e inestable del reino del norte, marcado por sucesivas conspiraciones y asesinatos reales hasta la consolidación final del poder bajo Omri en Samaria, reflejando la inestabilidad política característica de los primeros años del reino dividido.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (sustrato original)"
+    ],
+    "mitos": [
+      {
+        "id": "herencia-hijas-zelofehad-tirsa",
+        "nombre": "El precedente legal de las hijas de Zelofehad",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 27:1-11; Núm 36:1-12",
+          "fuente_secundaria": "Talmud Babilónico, Bava Batra 119a-120a (discusión extensa sobre el caso legal de las hijas de Zelofehad como precedente halájico)",
+          "descripcion": "La tradición judía desarrolla extensamente el caso de las hijas de Zelofehad —incluyendo a la epónima Tirsa— como precedente legal fundamental sobre los derechos de herencia femenina, discutiendo en detalle las implicaciones halájicas del caso y su aplicación posterior a situaciones similares de ausencia de descendencia masculina directa.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El caso legal demuestra la apertura del sistema legal mosaico para adaptar e interpretar las leyes de herencia ante situaciones no previstas explícitamente, mediante consulta directa a YHWH a través de Moisés.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

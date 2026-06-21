@@ -1,0 +1,136 @@
+{
+  "id": "zoar",
+  "nombre": "Zoar",
+  "tipo": "ciudad",
+  "lat": 30.9265225301655,
+  "lng": 35.4190606947832,
+  "frecuencia_at": 13,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Ciudad perdonada en la destrucción de Sodoma" }
+  ],
+  "descripcion_geo": "Ciudad en el extremo sur del Mar Salado, originalmente llamada Bela, una de las cinco Ciudades de la Llanura pero la única que escapa a la destrucción de Sodoma y Gomorra a petición explícita de Lot, quien la encuentra demasiado pequeña ('zoar' significa 'pequeñez') para merecer destrucción junto a las demás.",
+  "altitud_m": -400,
+  "clima": "Desértico extremo — propio del extremo sur del Mar Salado, con escasísima precipitación y temperaturas muy elevadas.",
+  "recursos": [
+    "Posición en el extremo sur de la fértil llanura del Jordán",
+    "Refugio inmediato disponible tras la destrucción de Sodoma"
+  ],
+  "importancia_estrategica": "Zoar es la única de las cinco Ciudades de la Llanura que sobrevive a la destrucción narrada en Génesis 19, gracias a la intercesión directa de Lot, quien la elige como refugio más cercano y manejable que la huida hacia las montañas; posteriormente se convierte en punto de referencia geográfico fijo en la descripción del límite meridional de la visión de Moisés desde Pisgá y en los oráculos proféticos de juicio contra Moab.",
+  "otros_habitantes": [
+    {
+      "id": "reyes_coalicion_zoar",
+      "nombre": "Bela (rey de Zoar/Bela)",
+      "descripcion": "Rey local de la ciudad originalmente llamada Bela, miembro de la coalición de cinco reyes de las Ciudades de la Llanura enfrentada a Quedorlaomer.",
+      "religion": "Religión cananea-transjordana primitiva",
+      "periodo": "c. 2050 a.C. (narrativa, época de Abraham)"
+    },
+    {
+      "id": "lot_hijas_zoar",
+      "nombre": "Lot y sus dos hijas",
+      "descripcion": "Sobrevivientes de la destrucción de Sodoma que se refugian primero en Zoar antes de trasladarse a una cueva en las montañas cercanas por temor a permanecer en la ciudad.",
+      "religion": "Yahvismo (línea de Abraham)",
+      "periodo": "c. 2067 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "lot-intercede-zoar",
+      "titulo": "Lot intercede por Zoar como refugio",
+      "fecha": "c. 2067 a.C. (narrativa)",
+      "descripcion": "Al ser instado por los ángeles a huir a las montañas antes de la destrucción de Sodoma, Lot pide en cambio refugiarse en la cercana y pequeña ciudad de Bela, alegando no poder llegar a tiempo a las montañas; el ángel accede a su petición y perdona la ciudad por amor a Lot, cambiándole el nombre a Zoar ('pequeñez').",
+      "referencias": ["Gén 19:18-22"],
+      "personajes_clave": ["lot"]
+    },
+    {
+      "id": "moises-vision-zoar",
+      "titulo": "Zoar como límite sur de la visión de Moisés",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "En la descripción de la visión panorámica que Moisés contempla desde la cumbre de Pisgá, Zoar marca el límite meridional de la tierra prometida que se le muestra, abarcando así toda la extensión desde Galaad hasta el extremo sur.",
+      "referencias": ["Deut 34:3"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "isaias-jeremias-huida-zoar",
+      "titulo": "Zoar como destino de huida en los oráculos contra Moab",
+      "fecha": "c. 740–600 a.C.",
+      "descripcion": "Tanto Isaías como Jeremías mencionan a Zoar como destino de huida de los fugitivos moabitas que escapan del juicio anunciado contra su reino, retomando irónicamente la función histórica de la ciudad como lugar de refugio establecida ya en el relato de Lot.",
+      "referencias": ["Is 15:5", "Jer 48:34"],
+      "personajes_clave": ["isaias", "jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "lot_zoar",
+      "nombre": "Lot",
+      "emoji": "🙏",
+      "rol": "Sobrino de Abraham, intercesor por Zoar",
+      "periodo": "c. 2067 a.C. (narrativa)",
+      "descripcion": "Pide y obtiene la preservación de Zoar como refugio inmediato durante su huida de Sodoma, único caso en el relato de la destrucción donde la intercesión humana logra salvar explícitamente una ciudad entera del juicio anunciado.",
+      "referencias": ["Gén 19:18-23"],
+      "ruta": ["sodoma", "zoar"]
+    },
+    {
+      "id": "moises_zoar",
+      "nombre": "Moisés",
+      "emoji": "👁️",
+      "rol": "Legislador, visionario de la tierra prometida",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Contempla Zoar como límite sur de la extensa visión panorámica de la tierra prometida que recibe desde la cumbre de Pisgá poco antes de su muerte.",
+      "referencias": ["Deut 34:1-4"],
+      "ruta": ["pisgah"]
+    },
+    {
+      "id": "isaias_jeremias_zoar",
+      "nombre": "Isaías y Jeremías",
+      "emoji": "🏃",
+      "rol": "Profetas de Judá",
+      "periodo": "c. 740–600 a.C.",
+      "descripcion": "Mencionan a Zoar como destino de huida de los fugitivos moabitas en sus respectivos oráculos de juicio, dando a la antigua ciudad refugio de Lot una nueva función narrativa siglos después.",
+      "referencias": ["Is 15:5", "Jer 48:34"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Zoar es teológicamente significativa como única excepción dentro del relato de juicio total sobre las Ciudades de la Llanura, demostrando que la intercesión humana específica puede alterar el alcance de un juicio divino ya decretado. Su mención posterior tanto en la visión final de Moisés como en los oráculos proféticos de juicio contra Moab confirma su permanencia como punto geográfico de referencia estable a lo largo de toda la historia bíblica, desde el período patriarcal hasta la monarquía tardía.",
+    "religiones_presentes": [
+      "Religión cananea-transjordana primitiva",
+      "Yahvismo (perspectiva narrativa del relato)"
+    ],
+    "mitos": [
+      {
+        "id": "zoar-unica-ciudad-perdonada",
+        "nombre": "Zoar, la única Ciudad de la Llanura perdonada",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 19:18-23",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 50 (sobre el mérito de la intercesión de Lot por Zoar)",
+          "descripcion": "La tradición rabínica discute el mérito relativo de la petición de Lot, observando que, aunque Lot mismo no es presentado como modelo de justicia comparable a Abraham, su intercesión específica y concreta por una sola ciudad pequeña logra resultado inmediato, contrastando con la intercesión más amplia y general de Abraham por toda la región, que no logra evitar la destrucción de Sodoma misma.",
+          "similitudes": "Comparte con cristianismo e islam el reconocimiento de Zoar como única ciudad preservada del juicio sobre la región.",
+          "diferencias": null,
+          "significado_teologico": "La preservación de Zoar enseña que la intercesión concreta y específica, incluso de alguien no especialmente justo, puede ser efectiva cuando se dirige a un objetivo limitado y realizable.",
+          "posible_relacion_cultural": "Tradición compartida del ciclo de Lot como parte de la historia fundacional común a las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Gén 19:18-23 (recepción patrística sobre la gracia concedida por causa de la petición de un justo imperfecto)",
+          "fuente_secundaria": "Comentarios patrísticos que contrastan la debilidad moral de Lot con la eficacia de su súplica específica",
+          "descripcion": "La tradición cristiana retoma el episodio como ejemplo de que la gracia divina puede responder a una petición humilde y concreta incluso de alguien cuya trayectoria moral global es cuestionable, anticipando el principio más amplio de la gracia que no depende del mérito completo del suplicante.",
+          "similitudes": "Comparte con la lectura judía el valor de la intercesión concreta como eficaz independientemente del mérito general del intercesor.",
+          "diferencias": "La lectura cristiana tiende a generalizar el episodio como ilustración del principio más amplio de la gracia inmerecida.",
+          "significado_teologico": "La preservación de Zoar se convierte en figura veterotestamentaria de la gracia que responde a la petición humilde, independientemente del mérito acumulado de quien suplica.",
+          "posible_relacion_cultural": "Tradición compartida del ciclo de Lot como historia fundacional común a judaísmo y cristianismo."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 15:59-60; 29:32-33 (referencia a la salvación de la familia de Lut, 'excepto su mujer')",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre la salvación de Lut y su familia",
+          "descripcion": "El Corán confirma la salvación de Lut y su familia (excepto su esposa) del juicio sobre su pueblo, aunque no desarrolla con el mismo detalle topográfico la identificación específica de Zoar como ciudad de refugio distinta de las demás Ciudades de la Llanura.",
+          "similitudes": "Reconocimiento compartido de la salvación de Lut y su núcleo familiar más cercano del juicio sobre la región.",
+          "diferencias": "El relato coránico no detalla la negociación específica sobre Zoar como ciudad perdonada, centrándose más genéricamente en la salvación de la familia de Lut en su conjunto.",
+          "significado_teologico": "La salvación de Lut confirma el patrón coránico de que Dios preserva a los justos incluso en medio del juicio colectivo sobre comunidades enteras.",
+          "posible_relacion_cultural": "Tradición compartida del ciclo de Lot/Lut como relato profético fundacional común a las tres religiones abrahámicas."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio"]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "bahurim",
+  "nombre": "Bahurim",
+  "tipo": "ciudad",
+  "lat": 31.824736,
+  "lng": 35.388486,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Maldición de Simeí, huida de David" }
+  ],
+  "descripcion_geo": "Pequeña aldea en el territorio de Benjamín, en la ruta que desciende desde Jerusalén hacia el valle del Jordán, situada en el camino que David toma durante su huida de Absalón. Próxima al límite oriental del territorio benjaminita, vinculada también a la familia de Saúl.",
+  "altitud_m": 600,
+  "clima": "Mediterráneo de montaña en transición al desierto de Judea — veranos secos, inviernos fríos con lluvias moderadas.",
+  "recursos": [
+    "Posición en la ruta de descenso hacia el Jordán",
+    "Territorio vinculado a la familia de Saúl (lugar de origen de Simeí)"
+  ],
+  "importancia_estrategica": "Bahurim no tiene relevancia militar propia, pero es escenario de dos episodios significativos durante la rebelión de Absalón: la maldición pública de Simeí contra David como representante caído de la casa de Saúl, y el ocultamiento de los mensajeros de Husai en un pozo de la aldea para evadir a los perseguidores de Absalón, episodio crucial para la supervivencia de David.",
+  "otros_habitantes": [
+    {
+      "id": "benjaminitas_bahurim",
+      "nombre": "Clan de Saúl (línea de Simeí)",
+      "descripcion": "Familia benjaminita de Bahurim vinculada a la casa de Saúl; Simeí, pariente de Saúl, es originario de esta aldea y expresa abiertamente su hostilidad hacia David durante la rebelión de Absalón.",
+      "religion": "Yahvismo",
+      "periodo": "c. 975 a.C."
+    },
+    {
+      "id": "mujer_bahurim",
+      "nombre": "Familia que oculta a los mensajeros de David",
+      "descripcion": "Habitantes de Bahurim que ayudan a ocultar a Jonatán y Ahimaas, mensajeros de David, en un pozo cubierto con grano, evadiendo a los perseguidores de Absalón.",
+      "religion": "Yahvismo",
+      "periodo": "c. 975 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "simei-maldice-david-bahurim",
+      "titulo": "Simeí maldice a David en Bahurim",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Mientras David huye de Jerusalén ante la rebelión de Absalón, Simeí, pariente de Saúl originario de Bahurim, sale a su paso lanzándole piedras y maldiciéndolo públicamente como 'hombre sanguinario', acusándolo de usurpar el reino de la casa de Saúl; David rechaza la propuesta de Abisai de matarlo, aceptando la maldición como posible designio de YHWH.",
+      "referencias": ["2 Sam 16:5-14"],
+      "personajes_clave": ["david", "simei"]
+    },
+    {
+      "id": "mensajeros-ocultos-pozo-bahurim",
+      "titulo": "Jonatán y Ahimaas se ocultan en el pozo de Bahurim",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Tras recibir información secreta del consejero Husai sobre los planes de Absalón, los mensajeros Jonatán y Ahimaas son descubiertos por un sirviente de Absalón cerca de Bahurim, pero una mujer del lugar los esconde en un pozo cubierto con grano molido, permitiéndoles después continuar su misión hasta David con información vital para su supervivencia.",
+      "referencias": ["2 Sam 17:17-21"],
+      "personajes_clave": []
+    },
+    {
+      "id": "simei-perdon-bahurim",
+      "titulo": "Simeí pide perdón a David tras la derrota de Absalón",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Tras la derrota de Absalón, Simeí de Bahurim se apresura a salir al encuentro de David en su regreso a Jerusalén, postrándose y pidiendo perdón por su anterior maldición; David, pese a la insistencia de Abisai en ejecutarlo, le perdona la vida en ese momento, aunque la cuestión queda pendiente hasta el final del reinado.",
+      "referencias": ["2 Sam 19:16-23"],
+      "personajes_clave": ["david", "simei"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "simei",
+      "nombre": "Simeí",
+      "emoji": "🪨",
+      "rol": "Pariente de Saúl, originario de Bahurim",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Maldice públicamente a David durante su huida de Absalón, acusándolo de usurpar el trono de la casa de Saúl; posteriormente pide perdón y lo recibe de David, aunque el asunto se resolverá de forma distinta bajo el reinado de Salomón.",
+      "referencias": ["2 Sam 16:5-13", "2 Sam 19:16-23"],
+      "ruta": ["bahurim"]
+    },
+    {
+      "id": "david_bahurim",
+      "nombre": "David",
+      "emoji": "🏃",
+      "rol": "Rey de Israel, fugitivo durante la rebelión de Absalón",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Soporta con resignación teológica la maldición pública de Simeí en Bahurim, interpretándola como posible designio divino, y posteriormente perdona al mismo hombre que lo había humillado durante su momento de mayor vulnerabilidad.",
+      "referencias": ["2 Sam 16:10-12", "2 Sam 19:23"],
+      "ruta": ["jerusalen", "bahurim"]
+    },
+    {
+      "id": "jonatan_ahimaas_bahurim",
+      "nombre": "Jonatán y Ahimaas",
+      "emoji": "🕳️",
+      "rol": "Mensajeros sacerdotales que escapan en Bahurim",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Escapan de los perseguidores de Absalón gracias a una mujer de Bahurim que los oculta en un pozo, logrando finalmente entregar a David la información crítica sobre los planes militares de Absalón.",
+      "referencias": ["2 Sam 17:17-21"],
+      "ruta": ["jerusalen", "bahurim"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Bahurim condensa dos episodios que exploran la teología de la providencia divina en momentos de humillación y peligro extremo: la decisión de David de no vengarse de Simeí, aceptando la posibilidad de que la maldición provenga de un designio de YHWH, y la providencial protección de los mensajeros mediante la ayuda anónima de una familia local. Ambos episodios refuerzan el tema de la confianza en la justicia y protección divina por encima de la reacción violenta inmediata.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "maldicion-simei-providencia",
+        "nombre": "La maldición de Simeí como posible designio divino",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 16:5-14",
+          "fuente_secundaria": "Talmud Babilónico, Shabat 105b y Sanedrín 21a (discusión sobre la conducta de David frente a Simeí)",
+          "descripcion": "La tradición rabínica discute extensamente la respuesta de David a la maldición de Simeí —'quizás YHWH ha visto mi aflicción y me retribuirá bien por su maldición de hoy'— como ejemplo de humildad y aceptación de la disciplina divina incluso cuando llega a través de un instrumento humano hostil e injusto.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio enseña que incluso el insulto y la humillación pueden ser instrumentos del designio purificador de YHWH, y que la reacción adecuada es la aceptación humilde, no la venganza inmediata.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "2 Sam 16:5-14 (recepción patrística sobre la paciencia de David ante la injuria)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que vinculan la respuesta de David con la enseñanza neotestamentaria de no devolver mal por mal",
+          "descripcion": "La tradición cristiana antigua retoma la respuesta de David a Simeí como antecedente veterotestamentario de la paciencia cristiana ante la injuria y la calumnia, generalizando el episodio como modelo de mansedumbre aplicable a la vida del creyente.",
+          "similitudes": "Comparte con la lectura judía el valor de la aceptación humilde de la humillación como posible disciplina divina.",
+          "diferencias": "La lectura cristiana tiende a universalizar el principio como ética general de mansedumbre, más allá del contexto específico de legitimidad real.",
+          "significado_teologico": "El episodio se integra como prefiguración veterotestamentaria de la ética cristiana de no resistencia al mal y confianza en el juicio divino.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como figura central de la historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

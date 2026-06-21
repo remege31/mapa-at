@@ -1,0 +1,128 @@
+{
+  "id": "jabbok",
+  "nombre": "Jaboc",
+  "tipo": "territorio",
+  "lat": 32.193237,
+  "lng": 35.676305,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Frontera tribal, río de la lucha de Jacob" }
+  ],
+  "descripcion_geo": "Río afluente del Jordán que nace en Galaad y desciende en un curso sinuoso hasta desembocar en el Jordán, marcando una frontera natural significativa en la Transjordania, tanto en el ciclo patriarcal como en el reparto tribal posterior entre Gad y los amorreos.",
+  "altitud_m": 200,
+  "clima": "Mediterráneo de montaña en transición al valle del Jordán — variando según la altitud a lo largo de su curso.",
+  "recursos": [
+    "Curso fluvial permanente en la Transjordania central",
+    "Punto de cruce estratégico hacia Galaad",
+    "Frontera natural entre territorios tribales y reinos"
+  ],
+  "importancia_estrategica": "El Jaboc marca el límite norte del antiguo reino de Sehón conquistado por Israel, frontera natural entre el territorio asignado a Gad y los amorreos; es también, en el ciclo patriarcal, el lugar donde Jacob envía a su familia y posesiones al cruzar de noche, quedándose solo para el episodio decisivo de su lucha con el ser divino.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_jaboc",
+      "nombre": "Amorreos (reino de Sehón)",
+      "descripcion": "Población cuyo territorio se extendía hasta el Jaboc como frontera norte antes de la conquista israelita bajo Moisés.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "amonitas_jaboc",
+      "nombre": "Amonitas",
+      "descripcion": "Pueblo cuyo territorio limitaba también con el curso superior del Jaboc, vecino oriental de la región conquistada por Israel.",
+      "religion": "Politeísmo amonita — culto a Moloc",
+      "periodo": "c. 1400–1000 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "jacob-cruza-jaboc",
+      "titulo": "Jacob envía a su familia a cruzar el Jaboc",
+      "fecha": "c. 1900 a.C. (narrativa)",
+      "descripcion": "La noche antes de su reencuentro con Esaú, Jacob hace pasar a sus esposas, siervas, once hijos y todas sus posesiones a través del vado del Jaboc, quedándose él solo en la orilla, momento de soledad que precede inmediatamente al episodio de la lucha nocturna.",
+      "referencias": ["Gén 32:22-23"],
+      "personajes_clave": ["jacob"]
+    },
+    {
+      "id": "lucha-jacob-jaboc",
+      "titulo": "Jacob lucha con un hombre junto al Jaboc",
+      "fecha": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Quedándose solo en la orilla del Jaboc, Jacob lucha toda la noche con un hombre que resulta ser una manifestación divina; al amanecer, recibe una bendición y el nuevo nombre 'Israel' ('el que lucha con Dios'), quedando además cojo por una herida en el muslo, episodio que da origen también a una prohibición dietética israelita.",
+      "referencias": ["Gén 32:24-32"],
+      "personajes_clave": ["jacob"]
+    },
+    {
+      "id": "jaboc-frontera-sehon",
+      "titulo": "El Jaboc como frontera del territorio conquistado a Sehón",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "El texto bíblico establece repetidamente al Jaboc como límite norte del territorio amorreo de Sehón conquistado por Israel, frontera natural que después separa el territorio de Gad del de los amonitas.",
+      "referencias": ["Núm 21:24", "Deut 2:37", "Jos 12:2"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jacob_jaboc",
+      "nombre": "Jacob",
+      "emoji": "🤼",
+      "rol": "Patriarca",
+      "periodo": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Protagoniza junto al río Jaboc uno de los episodios más enigmáticos y teológicamente cargados de todo el ciclo patriarcal: su lucha nocturna con un ser divino que le otorga el nombre de Israel.",
+      "referencias": ["Gén 32:22-32"],
+      "ruta": ["mahanaim", "jabbok", "peniel"]
+    },
+    {
+      "id": "ser_divino_jaboc",
+      "nombre": "El hombre/ángel que lucha con Jacob",
+      "emoji": "✨",
+      "rol": "Manifestación divina",
+      "periodo": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Figura cuya identidad exacta —ángel, manifestación de YHWH, o representación simbólica— ha sido objeto de extenso debate interpretativo a lo largo de la historia de la exégesis bíblica, central en el episodio fundacional del nuevo nombre de Jacob.",
+      "referencias": ["Gén 32:24-30"],
+      "ruta": ["jabbok"]
+    },
+    {
+      "id": "moises_jaboc",
+      "nombre": "Moisés",
+      "emoji": "🗺️",
+      "rol": "Líder de Israel en la conquista de la Transjordania",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Establece el Jaboc como frontera norte del territorio conquistado de Sehón, marcando los límites de la posesión israelita en esta región de la Transjordania.",
+      "referencias": ["Núm 21:21-24", "Deut 2:36-37"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El Jaboc es escenario de uno de los episodios más reinterpretados de todo el corpus patriarcal: la lucha nocturna de Jacob, cuyo nombre cambia precisamente en este lugar para reflejar su nueva identidad como 'Israel', estableciendo así el río como punto fundacional simbólico del nombre que llevará todo el pueblo descendiente de Jacob a lo largo de toda la historia bíblica posterior.",
+    "religiones_presentes": [
+      "Yahvismo patriarcal"
+    ],
+    "mitos": [
+      {
+        "id": "lucha-jacob-nombre-israel",
+        "nombre": "La lucha de Jacob junto al Jaboc y el origen del nombre Israel",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Gén 32:22-32",
+          "fuente_secundaria": "Talmud Babilónico, Julin 91a (discusión sobre la identidad del 'hombre' y el origen de la prohibición del nervio ciático); Midrash Bereshit Rabbah 77-78",
+          "descripcion": "La tradición rabínica desarrolla extensamente la identidad del oponente de Jacob —frecuentemente interpretado como el ángel guardián de Esaú— y establece a partir de este episodio la prohibición dietética de comer el nervio ciático (gid hanasheh), convirtiendo el encuentro en fundamento legal directo de una práctica alimentaria observada hasta la actualidad.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento de la centralidad teológica del cambio de nombre de Jacob a Israel.",
+          "diferencias": null,
+          "significado_teologico": "El nuevo nombre 'Israel' ('el que lucha con Dios y con los hombres y vence') se convierte en designación fundacional de todo el pueblo descendiente de Jacob, capturando la esencia de una relación de lucha persistente pero finalmente bendecida con lo divino.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Gén 32:22-32 (recepción patrística sobre la lucha de Jacob como figura de la lucha espiritual del creyente)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la persistencia en la oración ejemplificada por Jacob, que no suelta a su oponente hasta recibir bendición",
+          "descripcion": "La tradición cristiana retoma frecuentemente el episodio del Jaboc como modelo espiritual de persistencia en la oración y la lucha de fe, generalizando el combate físico de Jacob como metáfora de la lucha espiritual del creyente que persiste hasta obtener la bendición divina.",
+          "similitudes": "Comparte con la lectura judía la valoración del cambio de nombre como momento de transformación fundamental de identidad.",
+          "diferencias": "La lectura cristiana tiende a espiritualizar y generalizar el episodio como modelo de oración persistente, mientras la lectura judía se centra más en las implicaciones legales y la fundación específica del nombre de Israel como pueblo.",
+          "significado_teologico": "La lucha de Jacob se convierte en figura general de la perseverancia espiritual del creyente que busca la bendición divina pese a la dificultad del encuentro.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Jacob como figura fundacional común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

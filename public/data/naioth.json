@@ -1,0 +1,128 @@
+{
+  "id": "naioth",
+  "nombre": "Naioth",
+  "tipo": "ciudad",
+  "lat": 31.83273947023218,
+  "lng": 35.1801628605877,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Refugio profético de David" }
+  ],
+  "descripcion_geo": "Localidad o área comunal próxima a Ramá, en el territorio de Benjamín, asociada a una comunidad de profetas bajo la dirección de Samuel. El nombre ('moradas' o 'viviendas') sugiere un asentamiento de tipo comunitario más que una ciudad amurallada convencional.",
+  "altitud_m": 790,
+  "clima": "Mediterráneo de montaña — veranos secos y templados, inviernos fríos con lluvias, propio de la meseta central de Benjamín.",
+  "recursos": [
+    "Comunidad profética organizada en torno a Samuel",
+    "Proximidad a Ramá, residencia y centro de actividad de Samuel",
+    "Refugio relativamente alejado del alcance directo de Saúl"
+  ],
+  "importancia_estrategica": "Naioth no tiene relevancia militar ni comercial; su importancia es exclusivamente narrativo-religiosa como sede de una comunidad de profetas bajo Samuel y como refugio de David durante la persecución de Saúl, episodio que ilustra el conflicto entre la autoridad profética y la autoridad real en ascenso.",
+  "otros_habitantes": [
+    {
+      "id": "profetas_naioth",
+      "nombre": "Comunidad de profetas (benei ha-nebiim)",
+      "descripcion": "Grupo de discípulos proféticos organizados en torno a Samuel en Naioth, antecedente de las posteriores 'escuelas de profetas' que aparecerán en los ciclos de Elías y Eliseo.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1020–1000 a.C."
+    },
+    {
+      "id": "mensajeros_saul_naioth",
+      "nombre": "Mensajeros de Saúl",
+      "descripcion": "Sucesivos grupos enviados por Saúl a capturar a David en Naioth, que terminan profetizando ellos mismos al entrar en contacto con la comunidad profética, incluido finalmente el propio Saúl.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "david-huye-naioth",
+      "titulo": "David se refugia con Samuel en Naioth",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Tras escapar del intento de Saúl de matarlo en su propia casa, David huye hasta Ramá, se reúne con Samuel y juntos se establecen en Naioth, donde David relata todo lo que Saúl le ha hecho.",
+      "referencias": ["1 Sam 19:18"],
+      "personajes_clave": ["david", "samuel"]
+    },
+    {
+      "id": "mensajeros-saul-profetizan",
+      "titulo": "Los mensajeros de Saúl profetizan en Naioth",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Saúl envía tres grupos sucesivos de mensajeros a capturar a David; cada grupo, al llegar a Naioth y ver a la compañía de profetas profetizando bajo Samuel, es sobrecogido por el Espíritu de Dios y profetiza también, fracasando en su misión.",
+      "referencias": ["1 Sam 19:19-21"],
+      "personajes_clave": ["david", "samuel", "saul"]
+    },
+    {
+      "id": "saul-profetiza-naioth",
+      "titulo": "Saúl mismo profetiza desnudo en Naioth",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Tras el fracaso de tres grupos de mensajeros, Saúl acude personalmente a Naioth; también él es sobrecogido por el Espíritu de Dios, profetiza durante el trayecto y permanece desnudo profetizando ante Samuel todo el día y la noche siguiente, dando origen al dicho '¿También Saúl entre los profetas?'.",
+      "referencias": ["1 Sam 19:22-24"],
+      "personajes_clave": ["saul", "samuel", "david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "david_naioth",
+      "nombre": "David",
+      "emoji": "🏃",
+      "rol": "Futuro rey de Israel, fugitivo de Saúl",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Tras escapar de un intento de asesinato directo en su propia casa, busca refugio junto a Samuel en Naioth, en uno de los primeros episodios de su huida prolongada de la persecución de Saúl.",
+      "referencias": ["1 Sam 19:18-24"],
+      "ruta": ["gabaa", "ramá", "naioth"]
+    },
+    {
+      "id": "samuel_naioth",
+      "nombre": "Samuel",
+      "emoji": "📯",
+      "rol": "Profeta y juez, líder de la comunidad profética de Naioth",
+      "periodo": "Activo hasta c. 1010 a.C.",
+      "descripcion": "Dirige la comunidad de profetas de Naioth y recibe a David fugitivo, presidiendo el episodio en que tanto los mensajeros de Saúl como el propio rey son sobrecogidos por el Espíritu profético.",
+      "referencias": ["1 Sam 19:18-24"],
+      "ruta": ["ramá", "naioth"]
+    },
+    {
+      "id": "saul_naioth",
+      "nombre": "Saúl",
+      "emoji": "👑",
+      "rol": "Primer rey de Israel",
+      "periodo": "c. 1050–1010 a.C.",
+      "descripcion": "Persigue personalmente a David hasta Naioth tras el fracaso de tres grupos de mensajeros; es sobrecogido por el Espíritu de Dios y profetiza desnudo, episodio que marca un punto culminante de su deterioro como figura real frente a la autoridad profética de Samuel.",
+      "referencias": ["1 Sam 19:22-24"],
+      "ruta": ["gabaa", "ramá", "naioth"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Naioth representa el espacio de la autoridad profética yahvista en tensión directa con el poder real institucional: el Espíritu de Dios que se manifiesta sobre los mensajeros y sobre el propio Saúl subraya que ni siquiera el rey ungido escapa al dominio de YHWH cuando se enfrenta al ámbito profético. El episodio funciona como anticipo narrativo del progresivo abandono divino de Saúl y de la legitimación implícita de David como sucesor protegido por la misma fuerza espiritual que humilla al rey reinante.",
+    "religiones_presentes": [
+      "Yahvismo (incluyendo la institución profética temprana)"
+    ],
+    "mitos": [
+      {
+        "id": "saul-entre-profetas",
+        "nombre": "¿También Saúl entre los profetas?",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 19:18-24",
+          "fuente_secundaria": "Targum y comentario rabínico tradicional sobre el dicho proverbial repetido también en 1 Sam 10:11-12",
+          "descripcion": "La tradición judía discute el episodio como segunda aparición del dicho proverbial '¿También Saúl entre los profetas?', interpretando el éxtasis profético de Saúl en Naioth como signo del progresivo retiro del favor divino, contrastado irónicamente con su apariencia externa de piedad profética.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio ilustra que el carisma profético momentáneo no equivale a fidelidad sostenida ni a legitimidad continuada del liderazgo de Saúl.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 19:18-24 (recepción patrística sobre la soberanía del Espíritu)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos sobre la libertad del Espíritu de Dios para actuar incluso sobre quienes se oponen a su designio",
+          "descripcion": "Algunos padres de la Iglesia leen el episodio como ejemplo de que el Espíritu de Dios puede manifestarse de manera transitoria incluso en personas espiritualmente desviadas, distinguiendo entre la experiencia carismática puntual y la santidad de vida sostenida.",
+          "similitudes": "Comparte con la lectura judía el énfasis en el contraste entre manifestación carismática y fidelidad real.",
+          "diferencias": "La lectura patrística tiende a generalizar el episodio como principio sobre la naturaleza del don profético, más allá del caso específico de Saúl.",
+          "significado_teologico": "El episodio refuerza la idea de la libertad soberana del Espíritu de Dios para actuar sobre cualquier persona, independientemente de su mérito moral.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de Samuel-Saúl-David como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

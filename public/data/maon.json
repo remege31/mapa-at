@@ -1,0 +1,128 @@
+{
+  "id": "maon",
+  "nombre": "Maón",
+  "tipo": "ciudad",
+  "lat": 31.41666666666668,
+  "lng": 35.1166666666667,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Hogar de Nabal y Abigail, refugio de David" }
+  ],
+  "descripcion_geo": "Ciudad en el extremo sur de la región montañosa de Judá, al sur de Hebrón, en el borde del desierto homónimo que se extiende hacia el sureste. Cercana a Carmel, donde Nabal poseía sus extensos rebaños, en una zona de transición entre tierra cultivable y desierto apta para el pastoreo extensivo.",
+  "altitud_m": 850,
+  "clima": "Semiárido — veranos muy secos y calurosos, inviernos fríos con lluvias escasas, en el borde meridional del desierto de Judá.",
+  "recursos": [
+    "Pastoreo extensivo de ovejas y cabras (rebaños de Nabal en Carmel)",
+    "Terreno desértico apto para ocultamiento",
+    "Posición fronteriza en el extremo sur de Judá"
+  ],
+  "importancia_estrategica": "Maón es relevante principalmente por su vínculo con el episodio de Nabal y Abigail, que marca un punto de inflexión en el desarrollo del carácter de David como futuro rey: su disposición inicial a la venganza violenta es desviada por la intervención diplomática de Abigail, quien después se convierte en su esposa. El desierto de Maón también figura entre los refugios de David durante su huida de Saúl.",
+  "otros_habitantes": [
+    {
+      "id": "calebitas_maon",
+      "nombre": "Clan de Caleb (línea de Nabal)",
+      "descripcion": "Familia calebita propietaria de extensos rebaños en la región de Carmel, cerca de Maón; Nabal, descrito como duro y de malas costumbres, pertenece a este linaje.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    },
+    {
+      "id": "pastores_maon",
+      "nombre": "Pastores y siervos de Nabal",
+      "descripcion": "Numerosos siervos y pastores al servicio de Nabal que custodiaban sus rebaños en el desierto de Maón y los alrededores del Carmel.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "david-protege-rebanos-nabal",
+      "titulo": "David y sus hombres protegen los rebaños de Nabal",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Mientras se esconde en el desierto cercano, David y sus hombres brindan protección informal a los pastores y rebaños de Nabal en Carmel, sin causarles daño ni robarles nada, expectativa implícita de hospitalidad recíproca según la costumbre del desierto.",
+      "referencias": ["1 Sam 25:4-8", "1 Sam 25:14-16"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "negativa-nabal-ira-david",
+      "titulo": "Nabal rechaza a los mensajeros de David",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Cuando David envía mensajeros a pedir provisiones en reconocimiento por la protección brindada, Nabal los insulta y se niega, comparando a David con un esclavo fugitivo; furioso, David se arma para destruir a Nabal y a toda su casa.",
+      "referencias": ["1 Sam 25:9-13"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "abigail-intercede-david",
+      "titulo": "Abigail intercede ante David y evita la masacre",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Informada por un siervo, Abigail, esposa de Nabal, sale al encuentro de David con provisiones abundantes y un discurso apaciguador que lo convence de no derramar sangre inocente; al regresar, Nabal sufre un colapso al enterarse de lo ocurrido y muere diez días después, tras lo cual David toma a Abigail por esposa.",
+      "referencias": ["1 Sam 25:18-42"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "nabal",
+      "nombre": "Nabal",
+      "emoji": "🐑",
+      "rol": "Rico ganadero calebita de Maón-Carmel",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Hombre adinerado pero de carácter duro ('nabal' significa 'necio') que rechaza la petición de provisión de David, provocando casi una masacre evitada solo por la intervención de su esposa Abigail; muere poco después de un colapso al conocer lo sucedido.",
+      "referencias": ["1 Sam 25:2-3", "1 Sam 25:36-38"],
+      "ruta": ["maon"]
+    },
+    {
+      "id": "abigail",
+      "nombre": "Abigail",
+      "emoji": "🕊️",
+      "rol": "Esposa de Nabal, después esposa de David",
+      "periodo": "c. 1015–1010 a.C.",
+      "descripcion": "Mujer descrita como sensata y hermosa que evita con su intervención diplomática la masacre de su casa, gesto que David reconoce explícitamente como providencial; tras la muerte de Nabal, se convierte en una de las esposas de David.",
+      "referencias": ["1 Sam 25:3", "1 Sam 25:18-35", "1 Sam 25:39-42"],
+      "ruta": ["maon", "hebrón"]
+    },
+    {
+      "id": "david_maon",
+      "nombre": "David",
+      "emoji": "⚔️",
+      "rol": "Futuro rey de Israel, fugitivo de Saúl",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Inicialmente dispuesto a la venganza violenta contra Nabal, es desviado de ese curso por la intervención de Abigail, episodio que el propio David reconoce como evitación providencial de un acto que habría comprometido su integridad moral.",
+      "referencias": ["1 Sam 25:21-22", "1 Sam 25:32-34"],
+      "ruta": ["ziph", "maon", "engadi"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Maón es escenario de uno de los episodios de mayor desarrollo de carácter en el ciclo de David previo a su reinado: la tentación de la venganza personal violenta, contenida no por autocontrol propio sino por la mediación providencial de Abigail. El relato refuerza la idea teológica de que el futuro rey de Israel debe aprender a confiar en que YHWH hará justicia a su tiempo, sin necesidad de derramar sangre inocente para defender su honor.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "abigail-intercesion-mito",
+        "nombre": "La intercesión de Abigail como contención providencial de la venganza",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 25:1-42",
+          "fuente_secundaria": "Talmud Babilónico, Meguilá 14a (Abigail contada entre las siete profetisas de Israel)",
+          "descripcion": "La tradición rabínica eleva a Abigail al estatus de una de las siete profetisas de Israel, valorando su discurso ante David no solo como diplomacia hábil sino como discernimiento profético genuino que anticipa el futuro reinado de David y lo protege de una culpa de sangre que habría comprometido su legitimidad.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La intervención de Abigail se interpreta como instrumento providencial que preserva la pureza moral del futuro ungido de YHWH frente a un acto de venganza personal.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 25:1-42 (recepción patrística de Abigail como modelo de prudencia y paz)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que presentan a Abigail como ejemplo de sabiduría femenina que previene el derramamiento de sangre",
+          "descripcion": "La tradición cristiana antigua valora a Abigail como figura de prudencia y mediación pacificadora, en ocasiones leída tipológicamente en relación con la intercesión que evita el juicio o la ira, aunque sin desarrollar el estatus profético explícito que le atribuye la tradición rabínica.",
+          "similitudes": "Comparte la valoración positiva del papel de Abigail como agente moral decisivo que evita un acto de violencia injustificada.",
+          "diferencias": "La tradición cristiana no suele atribuirle estatus profético formal como sí hace la tradición rabínica.",
+          "significado_teologico": "El episodio se lee como ejemplo de cómo la prudencia y la palabra oportuna pueden desviar la ira justa hacia un curso más conforme a la voluntad de Dios.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como figura central de la historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

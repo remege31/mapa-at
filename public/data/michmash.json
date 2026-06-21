@@ -1,0 +1,128 @@
+{
+  "id": "michmash",
+  "nombre": "Micmás",
+  "tipo": "ciudad",
+  "lat": 31.87018434231688,
+  "lng": 35.27923581936973,
+  "frecuencia_at": 11,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento de Saúl, victoria de Jonatán contra los filisteos" }
+  ],
+  "descripcion_geo": "Ciudad en el territorio de Benjamín, situada al borde de un profundo desfiladero (el paso de Micmás) que la separaba de Geba, formado por dos peñascos rocosos conocidos como Bosés y Sene. Esta garganta natural era el escenario de cruce obligado entre las posiciones israelita y filistea.",
+  "altitud_m": 600,
+  "clima": "Mediterráneo de montaña — veranos secos, inviernos fríos con lluvias, propio de la meseta de Benjamín.",
+  "recursos": [
+    "Desfiladero natural defensivo entre dos peñascos",
+    "Posición de control sobre el paso hacia el territorio benjaminita central"
+  ],
+  "importancia_estrategica": "Micmás es escenario de la batalla decisiva que marca el inicio de la liberación de Israel del dominio filisteo bajo Saúl, protagonizada principalmente por la audaz iniciativa de su hijo Jonatán; el desfiladero entre Micmás y Geba funciona como punto de inflexión geográfico y militar en el conflicto territorial entre Israel y Filistea durante el reinado de Saúl.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos_michmash",
+      "nombre": "Guarnición y ejército filisteo",
+      "descripcion": "Fuerza filistea acampada en Micmás con una guarnición avanzada en el desfiladero, incluyendo carros y jinetes en número descrito como 'como la arena que está a la orilla del mar'.",
+      "religion": "Politeísmo filisteo — culto a Dagón",
+      "periodo": "c. 1040 a.C."
+    },
+    {
+      "id": "benjaminitas_michmash",
+      "nombre": "Tribu de Benjamín",
+      "descripcion": "Población benjaminita de la región de Micmás, posteriormente repoblada tras el regreso del exilio según el censo de Nehemías.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–400 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "saul-acampa-geba-michmash",
+      "titulo": "El ejército filisteo se concentra en Micmás",
+      "fecha": "c. 1040 a.C.",
+      "descripcion": "Tras el ataque inicial de Jonatán a una guarnición filistea, los filisteos reúnen un ejército masivo de carros, jinetes e infantería y acampan en Micmás, provocando que la mayoría de los hombres de Saúl se dispersen por miedo, escondiéndose en cuevas y peñascos.",
+      "referencias": ["1 Sam 13:5-7"],
+      "personajes_clave": ["saul"]
+    },
+    {
+      "id": "jonatan-cruza-desfiladero-michmash",
+      "titulo": "Jonatán y su escudero cruzan el desfiladero",
+      "fecha": "c. 1040 a.C.",
+      "descripcion": "Sin avisar a su padre, Jonatán y su escudero deciden cruzar el desfiladero entre Bosés y Sene hacia la guarnición filistea de Micmás, confiando en que 'nada impide a YHWH salvar con muchos o con pocos'; tras una señal que interpretan como favorable, ascienden y derrotan a unos veinte hombres filisteos en un espacio reducido.",
+      "referencias": ["1 Sam 14:1-14"],
+      "personajes_clave": ["jonatan"]
+    },
+    {
+      "id": "panico-filisteo-michmash",
+      "titulo": "El pánico se extiende por el campamento filisteo",
+      "fecha": "c. 1040 a.C.",
+      "descripcion": "Tras la victoria inicial de Jonatán, un terremoto y un pánico sobrenatural se extienden por todo el campamento filisteo en Micmás; Saúl, al notar la confusión, lanza un ataque general que se convierte en una desbandada filistea, con los propios israelitas escondidos uniéndose a la persecución una vez confirmada la victoria.",
+      "referencias": ["1 Sam 14:15-23"],
+      "personajes_clave": ["saul", "jonatan"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jonatan_michmash",
+      "nombre": "Jonatán",
+      "emoji": "🗡️",
+      "rol": "Hijo de Saúl, héroe de la victoria de Micmás",
+      "periodo": "c. 1040 a.C.",
+      "descripcion": "Inicia por iniciativa propia, junto a su escudero, el ataque que desencadena la derrota general filistea en Micmás, demostrando una fe audaz en que la liberación de Israel no depende del número de combatientes sino de la voluntad de YHWH.",
+      "referencias": ["1 Sam 14:1-23"],
+      "ruta": ["geba", "michmash"]
+    },
+    {
+      "id": "saul_michmash",
+      "nombre": "Saúl",
+      "emoji": "👑",
+      "rol": "Primer rey de Israel",
+      "periodo": "c. 1040 a.C.",
+      "descripcion": "Acampa con un ejército menguado frente a la guarnición filistea de Micmás; al detectar el pánico desencadenado por la incursión de Jonatán, lanza el ataque general que culmina en la victoria israelita.",
+      "referencias": ["1 Sam 13:15-16", "1 Sam 14:20-23"],
+      "ruta": ["geba", "michmash"]
+    },
+    {
+      "id": "escudero_jonatan",
+      "nombre": "Escudero de Jonatán",
+      "emoji": "🛡️",
+      "rol": "Compañero leal en la incursión a Micmás",
+      "periodo": "c. 1040 a.C.",
+      "descripcion": "Acompaña a Jonatán en su arriesgada decisión de cruzar el desfiladero, respondiendo con plena confianza: 'Haz todo lo que tienes en tu corazón... aquí estoy contigo a tu voluntad'.",
+      "referencias": ["1 Sam 14:6-13"],
+      "ruta": ["michmash"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Micmás es escenario de una de las declaraciones de fe más citadas del Antiguo Testamento, pronunciada por Jonatán antes de su ataque: 'nada impide a YHWH salvar con muchos o con pocos'. El episodio funciona como anticipo temático del posterior duelo de David contra Goliat, estableciendo el patrón teológico recurrente de la victoria israelita lograda mediante la fe individual y la iniciativa audaz, confirmada por un signo providencial (el terremoto y el pánico filisteo) más que por la superioridad numérica o militar convencional.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo filisteo — culto a Dagón"
+    ],
+    "mitos": [
+      {
+        "id": "fe-jonatan-michmash",
+        "nombre": "La fe de Jonatán: salvación con muchos o con pocos",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 14:6",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la declaración de Jonatán como fórmula clásica de confianza en la providencia divina independientemente de las circunstancias numéricas",
+          "descripcion": "La tradición judía cita la frase de Jonatán como una de las expresiones bíblicas más claras del principio de que la salvación de Israel no depende de la magnitud de los recursos humanos disponibles, sino exclusivamente de la voluntad de YHWH, principio aplicado después a múltiples situaciones de adversidad nacional.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La frase de Jonatán se convierte en fórmula teológica recurrente sobre la libertad soberana de Dios para salvar independientemente de las condiciones materiales aparentes.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 14:6 (recepción patrística sobre la confianza en la providencia divina ante la adversidad numérica)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que retoman la fe de Jonatán como modelo aplicable a la vida espiritual cristiana",
+          "descripcion": "La tradición cristiana retoma la declaración de Jonatán como ejemplo de fe activa que no espera condiciones favorables para actuar, generalizando el principio a la vida espiritual del creyente individual frente a obstáculos aparentemente insuperables.",
+          "similitudes": "Comparte con la lectura judía el valor central de la fe en la providencia divina sobre las circunstancias materiales.",
+          "diferencias": "La lectura cristiana tiende a aplicar el principio de manera más individual y espiritual que la lectura judía, centrada más en la salvación colectiva de Israel.",
+          "significado_teologico": "El episodio se integra como ejemplo veterotestamentario de la fe que actúa sin esperar garantías humanas de éxito.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de Saúl y Jonatán como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

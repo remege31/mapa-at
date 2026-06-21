@@ -1,0 +1,120 @@
+{
+  "id": "zephath",
+  "nombre": "Sefat (Horma)",
+  "tipo": "ciudad",
+  "lat": 30.880918,
+  "lng": 34.63062,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista por Judá y Simeón, renombrada Horma" }
+  ],
+  "descripcion_geo": "Ciudad cananea en el Néguev meridional, conquistada conjuntamente por las tribus de Judá y Simeón y renombrada Horma ('destrucción' o 'consagración a la destrucción'), nombre que conmemora directamente el modo de su conquista mediante el voto del herem.",
+  "altitud_m": 500,
+  "clima": "Semiárido — veranos muy secos y calurosos, inviernos templados con lluvias escasas, propio del Néguev meridional.",
+  "recursos": [
+    "Posición en el Néguev meridional, escenario de varios episodios de conquista",
+    "Punto de referencia geográfico para campañas militares en el sur"
+  ],
+  "importancia_estrategica": "Sefat-Horma es escenario de dos episodios bélicos distintos en el mismo lugar: primero una derrota israelita tras la rebelión del pueblo que provoca la prohibición de entrar a Canaán por el norte, y después, generaciones más tarde, la conquista exitosa de la misma ciudad por Judá y Simeón, ilustrando el contraste entre la presunción desautorizada y la victoria obtenida con la bendición divina.",
+  "otros_habitantes": [
+    {
+      "id": "amalecitas_cananeos_sefat",
+      "nombre": "Amalecitas y cananeos",
+      "descripcion": "Coalición de pueblos que derrota a Israel en el primer intento fallido de entrar a Canaán por el sur tras la rebelión del pueblo contra el informe de los espías.",
+      "religion": "Politeísmo amalecita-cananeo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "rey_arad_sefat",
+      "nombre": "Rey cananeo de Arad",
+      "descripcion": "Gobernante local que ataca inicialmente a Israel en su ruta hacia el sur, provocando el voto de Israel que culmina en la destrucción de sus ciudades, incluida la que sería renombrada Horma.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "derrota-horma-rebelion",
+      "titulo": "La primera derrota de Israel en Horma",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras el informe negativo de los espías y la rebelión del pueblo, un grupo de israelitas, contradiciendo la prohibición explícita de Moisés, intenta entrar a Canaán por su propia cuenta sin el Arca ni la presencia de Moisés; son derrotados por los amalecitas y cananeos, que los persiguen hasta Horma.",
+      "referencias": ["Núm 14:39-45"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "voto-arad-horma",
+      "titulo": "El voto de Israel contra el rey de Arad",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Cuando el rey cananeo de Arad ataca a Israel y toma algunos prisioneros, Israel hace voto a YHWH de destruir completamente sus ciudades si le concede la victoria; YHWH escucha la petición, Israel derrota a los cananeos y destruye sus ciudades, dando origen al nombre Horma ('destrucción').",
+      "referencias": ["Núm 21:1-3"],
+      "personajes_clave": []
+    },
+    {
+      "id": "conquista-juda-simeon-sefat",
+      "titulo": "Judá y Simeón conquistan Sefat y la renombran Horma",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Tras la muerte de Josué, las tribus de Judá y Simeón, actuando juntas en la conquista del sur, hieren a los cananeos de Sefat y la destruyen completamente, confirmando el nombre Horma ya establecido generaciones antes en el episodio del voto contra Arad.",
+      "referencias": ["Jue 1:17"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_sefat",
+      "nombre": "Moisés",
+      "emoji": "🚫",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Advierte al pueblo sobre el peligro de entrar a Canaán sin la presencia de YHWH tras la rebelión por el informe de los espías, advertencia confirmada por la derrota sufrida en Horma cuando el pueblo actúa por su cuenta.",
+      "referencias": ["Núm 14:41-43"],
+      "ruta": []
+    },
+    {
+      "id": "rey_arad_sefat_personaje",
+      "nombre": "Rey cananeo de Arad",
+      "emoji": "⚔️",
+      "rol": "Gobernante cananeo derrotado en el voto de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Su ataque inicial contra Israel desencadena el voto de destrucción total que da origen al nombre Horma, tras la victoria israelita obtenida con la bendición divina.",
+      "referencias": ["Núm 21:1-3"],
+      "ruta": ["zephath"]
+    },
+    {
+      "id": "judaitas_simeonitas_sefat",
+      "nombre": "Tribus de Judá y Simeón",
+      "emoji": "🤝",
+      "rol": "Conquistadores aliados de Sefat",
+      "periodo": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Actúan en cooperación tribal para conquistar y destruir Sefat tras la muerte de Josué, completando el ciclo de destrucción que ya había dado nombre al lugar generaciones antes.",
+      "referencias": ["Jue 1:17"],
+      "ruta": ["zephath"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Sefat-Horma encarna en un mismo lugar dos teologías opuestas sobre la guerra santa: la derrota inicial demuestra que la presunción de actuar sin la autorización y presencia divina conduce al fracaso, mientras que la victoria posterior obtenida tras un voto formal a YHWH confirma que el éxito militar legítimo requiere consagración previa y reconocimiento explícito de que la victoria proviene de Dios, no de la iniciativa humana autónoma.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo-amalecita (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "contraste-presuncion-voto-horma",
+        "nombre": "El contraste entre la presunción y el voto consagrado en Horma",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 14:39-45; Núm 21:1-3",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la diferencia entre la acción presuntuosa sin mandato divino y la guerra santa autorizada mediante voto formal",
+          "descripcion": "La tradición judía contrasta explícitamente los dos episodios ocurridos en el mismo lugar: la derrota por actuar presuntuosamente sin la presencia de Moisés ni el Arca, frente a la victoria obtenida generaciones después mediante un voto formal y consagrado a YHWH, estableciendo un principio claro sobre la diferencia entre la iniciativa humana autónoma y la acción debidamente autorizada y consagrada a Dios.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El doble episodio de Horma enseña que el éxito en la guerra santa depende enteramente de actuar dentro del marco de la autorización y presencia divina, no de la audacia o iniciativa humana por sí sola.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

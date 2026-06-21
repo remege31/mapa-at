@@ -1,0 +1,121 @@
+{
+  "id": "riblah",
+  "nombre": "Riblá",
+  "tipo": "ciudad",
+  "lat": 34.431703,
+  "lng": 36.545259,
+  "frecuencia_at": 11,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Cuartel general babilónico, juicio de Sedequías" }
+  ],
+  "descripcion_geo": "Ciudad en Siria, sobre el río Orontes, estratégicamente situada para controlar las rutas entre Egipto y Mesopotamia, utilizada como cuartel general militar tanto por el faraón Necao como, de manera más decisiva, por Nabucodonosor durante sus campañas contra Judá.",
+  "altitud_m": 400,
+  "clima": "Mediterráneo continental — veranos cálidos y secos, inviernos fríos con lluvias, propio del valle del Orontes en Siria.",
+  "recursos": [
+    "Posición estratégica en la ruta entre Egipto y Mesopotamia",
+    "Cuartel general militar de potencias imperiales",
+    "Abundancia de agua y pastos para sostener grandes ejércitos"
+  ],
+  "importancia_estrategica": "Riblá es escenario de dos episodios decisivos en el destino final del reino de Judá: primero, el faraón Necao depone allí al rey Joacaz y lo lleva cautivo a Egipto; después, más trágicamente, Nabucodonosor establece su cuartel general en Riblá durante el asedio final de Jerusalén, y es allí donde el rey Sedequías, capturado tras intentar huir, es llevado para presenciar la ejecución de sus propios hijos antes de ser cegado y deportado a Babilonia.",
+  "otros_habitantes": [
+    {
+      "id": "egipcios_riblah",
+      "nombre": "Ejército egipcio bajo Necao",
+      "descripcion": "Fuerzas del faraón Necao que establecen temporalmente su cuartel en Riblá, desde donde depone al rey Joacaz de Judá.",
+      "religion": "Politeísmo egipcio",
+      "periodo": "c. 609 a.C."
+    },
+    {
+      "id": "babilonios_riblah",
+      "nombre": "Ejército babilónico bajo Nabucodonosor",
+      "descripcion": "Fuerzas imperiales babilónicas que establecen su cuartel general principal en Riblá durante la campaña final contra Jerusalén, lugar donde se ejecuta el juicio sobre Sedequías y los nobles de Judá.",
+      "religion": "Politeísmo babilónico — culto a Marduk",
+      "periodo": "c. 587–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "necao-depone-joacaz-riblah",
+      "titulo": "Necao depone a Joacaz en Riblá",
+      "fecha": "c. 609 a.C.",
+      "descripcion": "Tras solo tres meses de reinado, el faraón Necao convoca a Joacaz, rey de Judá, a Riblá, lo depone y lo lleva cautivo a Egipto, donde finalmente muere, imponiendo en su lugar a su hermano Joacim como rey vasallo de Egipto.",
+      "referencias": ["2 Re 23:31-34"],
+      "personajes_clave": []
+    },
+    {
+      "id": "sedequias-juicio-riblah",
+      "titulo": "Sedequías es juzgado en Riblá tras la caída de Jerusalén",
+      "fecha": "c. 586 a.C.",
+      "descripcion": "Capturado mientras huía por las llanuras de Jericó tras la caída de Jerusalén, Sedequías es llevado ante Nabucodonosor en Riblá; allí el rey babilónico ordena ejecutar a los hijos de Sedequías ante sus propios ojos, y finalmente lo manda cegar y atar con cadenas de bronce para ser deportado a Babilonia.",
+      "referencias": ["2 Re 25:5-7", "Jer 39:5-7", "Jer 52:9-11"],
+      "personajes_clave": []
+    },
+    {
+      "id": "nobles-juda-ejecutados-riblah",
+      "titulo": "Nobles y sacerdotes de Judá son ejecutados en Riblá",
+      "fecha": "c. 586 a.C.",
+      "descripcion": "Además del juicio sobre Sedequías, Nabucodonosor ordena llevar a Riblá a varios oficiales y sacerdotes principales de Jerusalén, incluido el sumo sacerdote Seraías, donde son ejecutados por orden directa del rey babilónico, cerrando trágicamente el destino del liderazgo religioso y político del reino de Judá.",
+      "referencias": ["2 Re 25:18-21", "Jer 52:24-27"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "necao_riblah",
+      "nombre": "Necao, faraón de Egipto",
+      "emoji": "👑",
+      "rol": "Faraón egipcio, deponedor de Joacaz",
+      "periodo": "c. 609 a.C.",
+      "descripcion": "Establece su autoridad sobre Judá deponiendo a Joacaz en Riblá e imponiendo a Joacim como rey vasallo, episodio que marca el inicio del período final y turbulento del reino de Judá antes de su destrucción definitiva.",
+      "referencias": ["2 Re 23:31-35"],
+      "ruta": ["riblah"]
+    },
+    {
+      "id": "nabucodonosor_riblah",
+      "nombre": "Nabucodonosor",
+      "emoji": "⛓️",
+      "rol": "Rey de Babilonia, destructor de Jerusalén",
+      "periodo": "c. 605–562 a.C.",
+      "descripcion": "Establece su cuartel general en Riblá durante la campaña final contra Jerusalén, ejecutando allí personalmente el juicio sobre Sedequías y los principales líderes capturados de Judá.",
+      "referencias": ["2 Re 25:6-7", "2 Re 25:18-21"],
+      "ruta": ["riblah"]
+    },
+    {
+      "id": "sedequias_riblah",
+      "nombre": "Sedequías",
+      "emoji": "😢",
+      "rol": "Último rey de Judá",
+      "periodo": "c. 597–586 a.C.",
+      "descripcion": "Es capturado, juzgado y castigado severamente en Riblá: obligado a presenciar la ejecución de sus propios hijos antes de ser cegado y deportado a Babilonia, cerrando trágicamente la línea de reyes davídicos en el trono de Judá.",
+      "referencias": ["2 Re 25:5-7"],
+      "ruta": ["jerico", "riblah", "babilonia"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Riblá es escenario del momento de máxima humillación y destrucción del reino de Judá: el juicio sobre Sedequías, presenciando la muerte de sus propios hijos antes de ser cegado, representa el cumplimiento literal y devastador de las advertencias proféticas reiteradas durante décadas sobre las consecuencias de la infidelidad persistente a la alianza con YHWH, marcando el fin definitivo de la monarquía davídica independiente hasta la restauración post-exílica.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva del relato bíblico)",
+      "Politeísmo egipcio y babilónico (potencias imperiales sucesivas)"
+    ],
+    "mitos": [
+      {
+        "id": "cumplimiento-juicio-sedequias-riblah",
+        "nombre": "El cumplimiento del juicio profético en la tragedia de Sedequías en Riblá",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 25:5-7; Jer 39:5-7",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el cumplimiento literal de las advertencias proféticas en el castigo de Sedequías, conectado con la profecía paradójica de Ezequiel (Ez 12:13) que anunciaba que el rey sería llevado a Babilonia sin verla, cumplida precisamente por su ceguera",
+          "descripcion": "La tradición judía observa con particular atención cómo el castigo específico de Sedequías en Riblá —cegado antes de ser deportado— cumple de manera literal y casi paradójica la profecía previa de Ezequiel de que el rey sería llevado a Babilonia 'sin verla', resolviendo así la aparente contradicción entre dos profecías distintas (la de Jeremías sobre el destino de Sedequías y la de Ezequiel sobre no ver Babilonia) mediante el detalle específico de la ceguera infligida en Riblá.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El cumplimiento preciso y hasta paradójico de profecías aparentemente contradictorias en el destino de Sedequías confirma la fiabilidad absoluta de la palabra profética, incluso en sus detalles más específicos y aparentemente difíciles de armonizar.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

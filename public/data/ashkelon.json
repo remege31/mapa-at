@@ -1,0 +1,122 @@
+{
+  "id": "ashkelon",
+  "nombre": "Ascalón",
+  "tipo": "ciudad",
+  "lat": 31.66240510553615,
+  "lng": 34.54722773494757,
+  "frecuencia_at": 13,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Una de las cinco ciudades filisteas, enigma de Sansón" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Blanco de oráculos proféticos de juicio" }
+  ],
+  "descripcion_geo": "Importante ciudad portuaria filistea en la llanura costera meridional, una de las cinco principales ciudades-estado de la Pentápolis filistea (junto con Gaza, Asdod, Gat y Ecrón), con puerto natural que la convertía en centro comercial y militar de primer orden.",
+  "altitud_m": 20,
+  "clima": "Mediterráneo costero — veranos cálidos y húmedos, inviernos suaves con lluvias, brisas marinas constantes.",
+  "recursos": [
+    "Puerto marítimo natural",
+    "Comercio internacional mediterráneo",
+    "Posición central en la confederación filistea de las cinco ciudades"
+  ],
+  "importancia_estrategica": "Ascalón es una de las cinco ciudades principales de la confederación filistea, potencia militar y comercial que domina la llanura costera meridional durante todo el período de los Jueces y buena parte de la monarquía; su mención recurrente en los oráculos proféticos de juicio contra Filistea confirma su estatus como símbolo central del poder filisteo que se opone sistemáticamente a Israel.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos_ascalon",
+      "nombre": "Filisteos",
+      "descripcion": "Población dominante de Ascalón, una de las cinco ciudades principales de la Pentápolis filistea, gobernada por sus propios príncipes ('serenim') a lo largo del período de los Jueces y la monarquía temprana.",
+      "religion": "Politeísmo filisteo — culto a Dagón",
+      "periodo": "c. 1200–586 a.C."
+    },
+    {
+      "id": "danitas_personal_ascalon",
+      "nombre": "Presencia danita ocasional",
+      "descripcion": "Sansón mata a treinta hombres de Ascalón para pagar la deuda del enigma de su boda en Timnah, episodio que documenta el alcance de sus acciones individuales contra las distintas ciudades filisteas.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1100 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "sanson-treinta-hombres-ascalon",
+      "titulo": "Sansón mata a treinta hombres de Ascalón",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Tras perder la apuesta del enigma del león y la miel en su boda de Timnah, Sansón desciende a Ascalón, mata a treinta hombres, toma sus despojos y entrega sus vestidos a quienes habían resuelto el enigma, episodio violento que ilustra el alcance territorial de su conflicto personal con los filisteos.",
+      "referencias": ["Jue 14:19"],
+      "personajes_clave": ["sanson"]
+    },
+    {
+      "id": "amos-oraculo-ascalon",
+      "titulo": "Amós profetiza fuego sobre Ascalón",
+      "fecha": "c. 760–750 a.C.",
+      "descripcion": "El profeta Amós incluye a Ascalón en su serie de oráculos contra las naciones vecinas, anunciando que enviará fuego que consumirá sus palacios como castigo por las prácticas de deportación esclavista de poblaciones enteras practicadas por los filisteos.",
+      "referencias": ["Am 1:6-8"],
+      "personajes_clave": ["amos"]
+    },
+    {
+      "id": "sofonias-jeremias-ascalon-destruccion",
+      "titulo": "Sofonías y Jeremías anuncian la destrucción final de Ascalón",
+      "fecha": "c. 630–600 a.C.",
+      "descripcion": "Tanto Sofonías como Jeremías profetizan la destrucción definitiva de Ascalón, con Sofonías anunciando que quedará asolada y Jeremías describiendo el clamor y la calvicie de duelo entre sus habitantes ante la inminente devastación, oráculos que se cumplirían históricamente con la conquista babilónica de la ciudad en 604 a.C.",
+      "referencias": ["Sof 2:4-7", "Jer 47:5-7"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "sanson_ascalon",
+      "nombre": "Sansón",
+      "emoji": "⚔️",
+      "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Extiende su conflicto personal con los filisteos hasta Ascalón, matando a treinta hombres para cumplir su deuda del enigma de la boda de Timnah.",
+      "referencias": ["Jue 14:19"],
+      "ruta": ["timnah", "ashkelon"]
+    },
+    {
+      "id": "amos_ascalon",
+      "nombre": "Amós",
+      "emoji": "🔥",
+      "rol": "Profeta de Judá enviado a las naciones vecinas",
+      "periodo": "Activo c. 760–750 a.C.",
+      "descripcion": "Denuncia a Ascalón y las demás ciudades filisteas por sus prácticas de comercio esclavista, anunciando juicio divino mediante fuego sobre sus palacios.",
+      "referencias": ["Am 1:6-8"],
+      "ruta": ["tekoa"]
+    },
+    {
+      "id": "jeremias_ascalon",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–586 a.C.",
+      "descripcion": "Profetiza la destrucción de Ascalón en el contexto de la invasión babilónica, oráculo que se cumple históricamente con la conquista de la ciudad por Nabucodonosor en 604 a.C.",
+      "referencias": ["Jer 47:1-7"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Ascalón, como centro del poder filisteo y del culto a Dagón, funciona en el corpus profético como símbolo recurrente de la oposición sistemática a Israel a lo largo de varios siglos, desde los conflictos individuales de Sansón hasta los oráculos de juicio de Amós, Sofonías y Jeremías; su destrucción histórica documentada por Nabucodonosor en 604 a.C. confirma el cumplimiento literal de las profecías de devastación pronunciadas contra ella.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva de los oráculos proféticos)",
+      "Politeísmo filisteo — culto a Dagón"
+    ],
+    "mitos": [
+      {
+        "id": "cumplimiento-profecia-ascalon",
+        "nombre": "El cumplimiento histórico de la profecía contra Ascalón",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Sof 2:4-7; Jer 47:1-7",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la confirmación histórica de los oráculos proféticos mediante la destrucción babilónica documentada de Ascalón en 604 a.C.",
+          "descripcion": "La tradición judía valora especialmente que la destrucción de Ascalón profetizada por Sofonías y Jeremías se cumpliera históricamente de manera verificable con la campaña de Nabucodonosor, confirmando mediante evidencia extrabíblica (crónicas babilónicas) la precisión y veracidad de las profecías de juicio contra las naciones vecinas de Israel.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El cumplimiento histórico verificable de la profecía contra Ascalón refuerza la confianza en la fiabilidad general del corpus profético bíblico sobre el destino de las naciones.",
+          "posible_relacion_cultural": "Convergencia documentada entre el oráculo profético bíblico y las crónicas babilónicas extrabíblicas sobre la campaña de Nabucodonosor contra Filistea."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

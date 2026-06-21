@@ -1,0 +1,123 @@
+{
+  "id": "ezion_geber",
+  "nombre": "Ezión-géber",
+  "tipo": "ciudad",
+  "lat": 29.75804307645581,
+  "lng": 35.0306017443078,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento del éxodo" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Puerto comercial de Salomón en el Mar Rojo" }
+  ],
+  "descripcion_geo": "Ciudad portuaria en el extremo norte del golfo de Áqaba, en el Mar Rojo, uno de los pocos puntos de acceso marítimo de Israel hacia el sur, usado tanto como campamento durante el éxodo como, siglos después, como puerto comercial de la flota mercante de Salomón.",
+  "altitud_m": 0,
+  "clima": "Desértico tropical — extremadamente caluroso durante todo el año, con escasísima precipitación, propio de la costa del golfo de Áqaba.",
+  "recursos": [
+    "Puerto natural en el Mar Rojo",
+    "Acceso a rutas comerciales marítimas hacia Ofir y el sur de Arabia",
+    "Astilleros para la construcción de la flota mercante"
+  ],
+  "importancia_estrategica": "Ezión-géber es el único puerto marítimo significativo de Israel hacia el sur, utilizado por Salomón para construir una flota que, en colaboración con marineros fenicios de Hiram de Tiro, navegaba hasta Ofir trayendo oro y mercancías exóticas; su control representa la única vía de acceso israelita al comercio marítimo del Mar Rojo y el océano Índico.",
+  "otros_habitantes": [
+    {
+      "id": "edomitas_ezion_geber",
+      "nombre": "Edomitas",
+      "descripcion": "Población local de la región costera del golfo de Áqaba, territorio bajo influencia o control edomita en distintos períodos, vecino directo del puerto de Ezión-géber.",
+      "religion": "Politeísmo edomita — culto a Qos",
+      "periodo": "c. 1200–586 a.C."
+    },
+    {
+      "id": "fenicios_ezion_geber",
+      "nombre": "Marineros fenicios de Hiram",
+      "descripcion": "Tripulaciones experimentadas enviadas por Hiram de Tiro para navegar junto a los siervos de Salomón en las expediciones comerciales desde Ezión-géber hacia Ofir.",
+      "religion": "Politeísmo fenicio — culto a Baal, Astarté y Melkart",
+      "periodo": "c. 960–930 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "campamento-exodo-ezion-geber",
+      "titulo": "Ezión-géber como campamento del éxodo",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Ezión-géber aparece en la lista de los lugares de acampada de Israel durante su peregrinaje por el desierto, registrada entre las etapas previas a la llegada al desierto de Zin (Cades).",
+      "referencias": ["Núm 33:35-36"],
+      "personajes_clave": []
+    },
+    {
+      "id": "flota-salomon-ezion-geber",
+      "titulo": "Salomón construye su flota mercante en Ezión-géber",
+      "fecha": "c. 960–950 a.C.",
+      "descripcion": "Salomón construye naves en Ezión-géber, junto al mar Rojo en tierra de Edom; Hiram de Tiro envía a sus siervos, marineros experimentados, para navegar junto a los hombres de Salomón hasta Ofir, de donde traen aproximadamente cuatrocientos veinte talentos de oro para el rey.",
+      "referencias": ["1 Re 9:26-28"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "josafat-flota-naufragio-ezion-geber",
+      "titulo": "Josafat intenta revivir la flota y fracasa",
+      "fecha": "c. 870 a.C.",
+      "descripcion": "El rey Josafat de Judá construye naves en Ezión-géber para navegar a Ofir en busca de oro, aliándose con Ocozías de Israel para el proyecto; el profeta Eliezer anuncia el fracaso del plan por la alianza impía con Israel, y efectivamente las naves se rompen y nunca llegan a zarpar.",
+      "referencias": ["1 Re 22:48-49", "2 Cr 20:35-37"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "salomon_ezion_geber",
+      "nombre": "Salomón",
+      "emoji": "⛵",
+      "rol": "Rey de Israel, constructor de la flota mercante",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Establece en Ezión-géber el puerto base de su flota comercial, en colaboración con Hiram de Tiro, obteniendo a través de estas expediciones marítimas el oro de Ofir que contribuye significativamente a la riqueza legendaria de su reinado.",
+      "referencias": ["1 Re 9:26-28"],
+      "ruta": ["jerusalen", "ezion_geber"]
+    },
+    {
+      "id": "hiram_ezion_geber",
+      "nombre": "Hiram de Tiro",
+      "emoji": "🚢",
+      "rol": "Rey de Tiro, proveedor de marineros experimentados",
+      "periodo": "c. 980–947 a.C.",
+      "descripcion": "Envía a sus marineros fenicios, expertos en navegación marítima de la que Israel carecía de tradición propia, para hacer posible las expediciones comerciales desde Ezión-géber hasta Ofir.",
+      "referencias": ["1 Re 9:27"],
+      "ruta": ["ezion_geber"]
+    },
+    {
+      "id": "josafat_ezion_geber",
+      "nombre": "Josafat",
+      "emoji": "💔",
+      "rol": "Rey de Judá",
+      "periodo": "c. 873–849 a.C.",
+      "descripcion": "Intenta revivir el comercio marítimo desde Ezión-géber en alianza con Ocozías de Israel, proyecto que fracasa con el naufragio de las naves antes de zarpar, episodio interpretado proféticamente como consecuencia de una alianza religiosamente inapropiada.",
+      "referencias": ["1 Re 22:48-49", "2 Cr 20:35-37"],
+      "ruta": ["jerusalen", "ezion_geber"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Ezión-géber representa el período de mayor apertura comercial y prosperidad material de Israel bajo Salomón, donde la cooperación con Tiro fenicio permite el acceso a rutas comerciales lejanas; el posterior fracaso de la iniciativa similar de Josafat, atribuido proféticamente a una alianza inapropiada con el reino del norte, ilustra la teología deuteronomista según la cual el éxito de los emprendimientos reales depende de la corrección religiosa y política de las alianzas establecidas, no solo de la viabilidad técnica del proyecto.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo edomita (territorio circundante)",
+      "Politeísmo fenicio (marineros aliados)"
+    ],
+    "mitos": [
+      {
+        "id": "naufragio-profetico-josafat",
+        "nombre": "El naufragio profético de la flota de Josafat",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Re 22:48-49; 2 Cr 20:35-37",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la profecía de Eliezer contra la alianza de Josafat con la casa de Acab",
+          "descripcion": "La tradición judía interpreta el fracaso de la flota de Josafat como ejemplo paradigmático de cómo incluso un rey generalmente piadoso puede ver frustrados sus proyectos legítimos cuando los persigue mediante alianzas inapropiadas con reyes idólatras, reforzando el principio de que el éxito material depende de la pureza de las asociaciones políticas, no solo de la viabilidad técnica del emprendimiento.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El fracaso de la flota de Josafat enseña que las alianzas con quienes practican idolatría comprometen incluso los proyectos materialmente sensatos de un rey justo.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

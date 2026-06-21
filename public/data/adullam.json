@@ -1,0 +1,129 @@
+{
+  "id": "adullam",
+  "nombre": "Adulam",
+  "tipo": "ciudad",
+  "lat": 31.65,
+  "lng": 35.0,
+  "frecuencia_at": 11,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Refugio de David en la cueva de Adulam" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de Roboam" }
+  ],
+  "descripcion_geo": "Ciudad cananea en la Sefelá de Judá, próxima a una cueva o complejo de cuevas naturales en la zona de piedra caliza, que sirvió de refugio a David durante su período de huida de Saúl. Su posición en la transición entre las montañas de Judá y la llanura costera la hacía estratégicamente relevante.",
+  "altitud_m": 380,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá occidental.",
+  "recursos": [
+    "Cuevas naturales de refugio",
+    "Tierras agrícolas de la Sefelá",
+    "Posición fortificable entre Judá y Filistea"
+  ],
+  "importancia_estrategica": "La cueva de Adulam es uno de los lugares más significativos del período de formación de David como líder: allí se reúne el núcleo original de sus seiscientos hombres —familiares, endeudados y descontentos— que constituirá la base de su futuro ejército personal. Siglos después, Roboam fortifica la ciudad como parte del sistema defensivo de Judá.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_adulam",
+      "nombre": "Cananeos",
+      "descripcion": "Población original de la ciudad de Adulam, mencionada ya en el ciclo de Judá en Génesis como lugar de residencia de su amigo Hira el adulamita.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "seguidores_david_adulam",
+      "nombre": "Los seiscientos hombres de David",
+      "descripcion": "Grupo heterogéneo de familiares, endeudados, afligidos y descontentos que se reúnen con David en la cueva de Adulam, formando el núcleo de lo que después será su ejército personal.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "juda-hira-adulam",
+      "titulo": "Judá y su amigo Hira el adulamita",
+      "fecha": "c. 1700 a.C. (cronología tradicional, ciclo patriarcal)",
+      "descripcion": "En el ciclo de José, Judá se asocia con Hira, un hombre de Adulam, episodio que enmarca la narrativa de Judá y Tamar y conecta tempranamente el nombre de la ciudad con la genealogía de la tribu de Judá.",
+      "referencias": ["Gén 38:1-2", "Gén 38:12"],
+      "personajes_clave": []
+    },
+    {
+      "id": "david-cueva-adulam",
+      "titulo": "David se refugia en la cueva de Adulam",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Tras escapar de Gat, David se refugia en la cueva de Adulam, donde se le unen sus hermanos y toda la casa de su padre; allí se congregan también todos los que estaban en apuros, endeudados o amargados de espíritu, formando un grupo de cerca de cuatrocientos hombres que David lidera.",
+      "referencias": ["1 Sam 22:1-2"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "valientes-agua-belen-adulam",
+      "titulo": "Los tres valientes traen agua de Belén desde la fortaleza de Adulam",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Mientras David está fortificado cerca de la cueva de Adulam con los filisteos acampados en el valle de Refaim, expresa el deseo de beber agua del pozo de Belén; tres de sus valientes se abren paso a través de las líneas filisteas para llevarle el agua, gesto que David rehúsa beber y derrama como ofrenda a YHWH por respeto al riesgo asumido.",
+      "referencias": ["2 Sam 23:13-17"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "david_adulam",
+      "nombre": "David",
+      "emoji": "🕳️",
+      "rol": "Futuro rey de Israel, fugitivo de Saúl",
+      "periodo": "c. 1015–1010 a.C.",
+      "descripcion": "Reúne en la cueva de Adulam al núcleo de seguidores que constituirá la base de su poder militar y político futuro, momento fundacional de su transición de fugitivo solitario a líder de una fuerza organizada.",
+      "referencias": ["1 Sam 22:1-2", "2 Sam 23:13-17"],
+      "ruta": ["gat", "adullam"]
+    },
+    {
+      "id": "tres_valientes_adulam",
+      "nombre": "Tres de los valientes de David",
+      "emoji": "💧",
+      "rol": "Guerreros de élite del círculo cercano de David",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "Arriesgan sus vidas atravesando las líneas filisteas para satisfacer el deseo expresado por David de beber agua del pozo de Belén, gesto de lealtad extrema que David honra derramando el agua en ofrenda a YHWH en lugar de bebería.",
+      "referencias": ["2 Sam 23:13-17"],
+      "ruta": ["adullam", "belen"]
+    },
+    {
+      "id": "hira_adulamita",
+      "nombre": "Hira el adulamita",
+      "emoji": "🤝",
+      "rol": "Amigo de Judá en el ciclo patriarcal",
+      "periodo": "c. 1700 a.C. (cronología tradicional)",
+      "descripcion": "Compañero y amigo de Judá, hijo de Jacob, mencionado en el episodio que enmarca la narrativa de Judá y Tamar, vínculo genealógico temprano entre la tribu de Judá y la región de Adulam.",
+      "referencias": ["Gén 38:1-20"],
+      "ruta": ["adullam"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "La cueva de Adulam es el lugar fundacional del liderazgo militar y político de David: el grupo heterogéneo de marginados que allí se congrega —deudores, afligidos, descontentos— se transformará en el núcleo de un ejército leal, anticipando la teología bíblica recurrente de que Dios elige y dignifica a los desplazados y rechazados para propósitos mayores. El episodio posterior del agua de Belén refuerza el motivo de la lealtad extrema correspondida con un gesto de devoción que trasciende el deseo personal inmediato.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "cueva-adulam-formacion-liderazgo",
+        "nombre": "La cueva de Adulam como lugar fundacional del liderazgo de David",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 22:1-2",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre Adulam como modelo de liderazgo que reúne y dignifica a los marginados",
+          "descripcion": "La tradición judía valora el episodio de Adulam como ejemplo de cómo David, antes de ser rey, demuestra capacidad de liderazgo precisamente al congregar y organizar a quienes la sociedad había desplazado —endeudados, afligidos, amargados—, transformándolos en una fuerza disciplinada y leal.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio ilustra el principio bíblico de que Dios eleva y da propósito a los marginados, anticipando el carácter del futuro reinado de David.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 22:1-2 (recepción patrística sobre Adulam como figura de la congregación de los necesitados)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que comparan la congregación de Adulam con la comunidad reunida en torno a Cristo",
+          "descripcion": "Algunos padres de la Iglesia leen el episodio de Adulam en paralelo tipológico con la formación de la comunidad de seguidores de Jesús, observando que ambos líderes —David y, en sentido figurado, Cristo— reúnen inicialmente a personas marginadas o en dificultad como núcleo de un movimiento mayor.",
+          "similitudes": "Comparte con la lectura judía la valoración del liderazgo que dignifica a los marginados.",
+          "diferencias": "La lectura cristiana añade una dimensión tipológica explícita que vincula a David con Cristo, ausente en la lectura judía original del pasaje.",
+          "significado_teologico": "El episodio se integra como prefiguración del llamado divino a los humildes y necesitados como base de una comunidad de propósito mayor.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como figura central de la historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

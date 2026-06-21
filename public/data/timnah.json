@@ -1,0 +1,129 @@
+{
+  "id": "timnah",
+  "nombre": "Timnah",
+  "tipo": "ciudad",
+  "lat": 31.784368,
+  "lng": 34.90968,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad fronteriza filistea-danita, ciclo de Sansón" }
+  ],
+  "descripcion_geo": "Ciudad en la Sefelá occidental, en el valle de Sorek, sobre la frontera fluctuante entre el territorio asignado a Dan y la zona de control filisteo. Terreno de colinas bajas con viñedos, punto de fricción constante entre ambas poblaciones durante el período de los Jueces.",
+  "altitud_m": 165,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas; el valle de Sorek favorece el cultivo de la vid.",
+  "recursos": [
+    "Viñedos del valle de Sorek",
+    "Tierras agrícolas de la Sefelá",
+    "Posición fronteriza entre Filistea y el territorio de Dan"
+  ],
+  "importancia_estrategica": "Timnah marcaba la línea de contacto entre los filisteos asentados en la llanura costera y la tribu de Dan en las estribaciones montañosas; su carácter fronterizo y mixto (asignada nominalmente a Dan pero bajo fuerte influencia o control filisteo) la convierte en escenario natural de los conflictos personales de Sansón con los filisteos, que funcionan narrativamente como anticipo de la confrontación nacional posterior entre Israel y Filistea.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos_timnah",
+      "nombre": "Filisteos",
+      "descripcion": "Población dominante en Timnah durante el período de los Jueces; allí reside la mujer filistea que Sansón toma por esposa, y la ciudad funciona como extensión de la presencia filistea en la frontera con Dan.",
+      "religion": "Politeísmo filisteo — culto a Dagón",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "danitas_timnah",
+      "nombre": "Tribu de Dan",
+      "descripcion": "Israelitas asentados en las estribaciones cercanas a Timnah; la familia de Sansón (de Zorá) pertenece a este grupo, en contacto y conflicto constante con la población filistea vecina.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "sanson-leon-timnah",
+      "titulo": "Sansón mata al león camino a Timnah",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Mientras desciende a Timnah para pedir en matrimonio a una mujer filistea, Sansón es atacado por un león joven y lo despedaza con sus manos sin que sus padres lo sepan; tiempo después encuentra un panal de abejas en el cadáver del animal.",
+      "referencias": ["Jue 14:5-9"],
+      "personajes_clave": ["sanson"]
+    },
+    {
+      "id": "boda-enigma-sanson",
+      "titulo": "La boda de Sansón y el enigma del león",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Durante el banquete de bodas en Timnah, Sansón plantea un enigma a treinta compañeros filisteos basado en el episodio del león y la miel; al no poder resolverlo, estos presionan a la esposa de Sansón hasta que ella le saca el secreto y se lo revela, lo que desata la ira de Sansón y el inicio de su enemistad abierta con los filisteos.",
+      "referencias": ["Jue 14:10-20"],
+      "personajes_clave": ["sanson"]
+    },
+    {
+      "id": "viñas-timnah-zorras",
+      "titulo": "Las zorras incendiarias en los campos filisteos",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Tras descubrir que su esposa le fue entregada a otro, Sansón captura trescientas zorras, las ata por pares con antorchas encendidas entre las colas y las suelta en los campos de grano, viñedos y olivares filisteos cercanos a Timnah, iniciando un ciclo de represalias mutuas.",
+      "referencias": ["Jue 15:1-8"],
+      "personajes_clave": ["sanson"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "sanson",
+      "nombre": "Sansón",
+      "emoji": "🦁",
+      "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
+      "periodo": "c. 1100–1070 a.C.",
+      "descripcion": "Juez de la tribu de Dan, consagrado nazareo desde el vientre materno, cuyo conflicto personal con los filisteos —iniciado por su matrimonio en Timnah— se convierte en el motor de veinte años de hostigamiento contra la opresión filistea.",
+      "referencias": ["Jue 13:24-25", "Jue 14:1-20", "Jue 16:1-31"],
+      "ruta": ["zorah", "timnah"]
+    },
+    {
+      "id": "esposa_timnah_sanson",
+      "nombre": "Mujer de Timnah",
+      "emoji": "👰",
+      "rol": "Primera esposa filistea de Sansón",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Mujer filistea de Timnah elegida por Sansón contra el consejo de sus padres; presionada por sus compatriotas, revela el secreto del enigma de la boda, y es entregada posteriormente a otro hombre, lo que desencadena la represalia de Sansón.",
+      "referencias": ["Jue 14:1-20", "Jue 15:6"],
+      "ruta": ["timnah"]
+    },
+    {
+      "id": "padres_sanson",
+      "nombre": "Manoa y su esposa",
+      "emoji": "👪",
+      "rol": "Padres de Sansón",
+      "periodo": "c. 1120–1100 a.C.",
+      "descripcion": "Acompañan a Sansón a Timnah para negociar el matrimonio, expresando inicialmente su desaprobación por la elección de una esposa filistea en lugar de una mujer israelita.",
+      "referencias": ["Jue 14:1-5"],
+      "ruta": ["zorah", "timnah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Timnah es escenario del primer gran conflicto personal-político entre Sansón y los filisteos, presentado por el narrador bíblico como instrumento de un designio divino mayor: la búsqueda de ocasión contra Filistea en un momento de dominio filisteo sobre Israel. La ciudad encarna la tensión religiosa de la frontera —matrimonio mixto entre yahvismo y culto a Dagón— que el relato no resuelve mediante condena explícita sino mediante su instrumentalización narrativa.",
+    "religiones_presentes": [
+      "Yahvismo (familia de Sansón)",
+      "Politeísmo filisteo — culto a Dagón"
+    ],
+    "mitos": [
+      {
+        "id": "enigma-leon-miel",
+        "nombre": "El enigma del león y la miel",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 14:5-18",
+          "fuente_secundaria": "Midrash, Bereshit Rabbah (paralelos sobre fuerza y designio divino en los jueces)",
+          "descripcion": "La tradición rabínica enmarca el episodio del león y el enigma dentro del patrón de los jueces carismáticos cuya fuerza personal es instrumento del plan de liberación de Israel, destacando el motivo de 'de quien come salió comida' como figura de cómo el bien puede surgir de lo impuro.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio ejemplifica cómo Dios usa eventos aparentemente privados y hasta transgresores (contacto con un cadáver de animal, prohibido para un nazareo) para iniciar la liberación de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jue 14:5-18 (recepción patrística de Sansón como figura de fuerza paradójica)",
+          "fuente_secundaria": "Agustín de Hipona, comentarios homiléticos sobre los jueces como prefiguraciones",
+          "descripcion": "Algunos padres de la Iglesia leen a Sansón —incluyendo el episodio del enigma de Timnah— como figura ambigua de fuerza que, pese a sus debilidades morales, es usada providencialmente, anticipando lecturas tipológicas posteriores sobre la fuerza que vence mediante la aparente debilidad.",
+          "similitudes": "Comparte el reconocimiento del designio providencial detrás del episodio.",
+          "diferencias": "La lectura cristiana antigua tiende a moralizar más explícitamente las debilidades de Sansón que la tradición rabínica.",
+          "significado_teologico": "La fuerza de Sansón, surgida de un episodio impuro, se lee como anticipo de cómo el poder divino opera a través de medios inesperados.",
+          "posible_relacion_cultural": "Recepción compartida de los Jueces de Israel como figuras históricas con valor moral y teológico en ambas tradiciones."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

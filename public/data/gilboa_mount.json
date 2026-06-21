@@ -1,0 +1,120 @@
+{
+  "id": "gilboa_mount",
+  "nombre": "Monte Gilboa",
+  "tipo": "territorio",
+  "lat": 32.50984080716704,
+  "lng": 35.40843470396692,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Muerte de Saúl y sus hijos" }
+  ],
+  "descripcion_geo": "Cordillera montañosa en el límite sur de la llanura de Jezreel, escenario de la batalla decisiva donde Israel es derrotado por los filisteos y donde mueren tanto el rey Saúl como tres de sus hijos, incluido Jonatán, marcando el fin trágico del primer reinado de Israel.",
+  "altitud_m": 500,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio del límite sur de la llanura de Jezreel.",
+  "recursos": [
+    "Posición elevada de control sobre la llanura de Jezreel",
+    "Escenario de la batalla decisiva entre Israel y Filistea"
+  ],
+  "importancia_estrategica": "El monte Gilboa es el lugar de la derrota más catastrófica del reinado de Saúl: Israel es vencido decisivamente por los filisteos, mueren Saúl y tres de sus hijos —incluido Jonatán—, y el cadáver del rey es posteriormente expuesto humillantemente en el muro de Bet-seán, marcando el colapso final de la primera monarquía israelita y abriendo el camino a la consolidación del reinado de David.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_gilboa",
+      "nombre": "Ejército de Saúl",
+      "descripcion": "Fuerzas israelitas derrotadas decisivamente por los filisteos en la batalla del monte Gilboa, con numerosas bajas entre el pueblo y la familia real.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1010 a.C."
+    },
+    {
+      "id": "filisteos_gilboa",
+      "nombre": "Ejército filisteo",
+      "descripcion": "Fuerzas que obtienen su victoria más decisiva sobre Israel en toda la narrativa bíblica, derrotando completamente al ejército de Saúl y exponiendo después su cuerpo como trofeo de guerra.",
+      "religion": "Politeísmo filisteo — culto a Dagón",
+      "periodo": "c. 1010 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "muerte-saul-jonatan-gilboa",
+      "titulo": "Saúl y sus hijos mueren en el monte Gilboa",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Los filisteos derrotan decisivamente a Israel en el monte Gilboa, matando a Jonatán, Abinadab y Malquisúa, hijos de Saúl; gravemente herido por los arqueros, Saúl pide a su escudero que lo mate para evitar caer humillado en manos enemigas, y al negarse este, se arroja él mismo sobre su propia espada.",
+      "referencias": ["1 Sam 31:1-6"],
+      "personajes_clave": ["saul", "jonatan"]
+    },
+    {
+      "id": "exposicion-cuerpos-bethsean-gilboa",
+      "titulo": "Los cuerpos son expuestos en el muro de Bet-seán",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Al día siguiente, los filisteos encuentran los cuerpos de Saúl y sus hijos en el monte Gilboa, cortan la cabeza de Saúl, exponen su armadura en el templo de Astarté y clavan los cuerpos en el muro de Bet-seán como trofeo público de su victoria sobre el primer rey de Israel.",
+      "referencias": ["1 Sam 31:8-10"],
+      "personajes_clave": ["saul"]
+    },
+    {
+      "id": "lamento-david-gilboa",
+      "titulo": "El lamento de David: '¡Cómo han caído los valientes!'",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Al recibir la noticia de la muerte de Saúl y Jonatán, David compone una elegía formal conocida como 'el Cántico del Arco', donde maldice el monte Gilboa pidiendo que nunca más caiga sobre él rocío ni lluvia, y lamenta profundamente la pérdida de Jonatán con palabras de amor fraternal excepcional.",
+      "referencias": ["2 Sam 1:17-27"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "saul_gilboa",
+      "nombre": "Saúl",
+      "emoji": "⚔️",
+      "rol": "Primer rey de Israel",
+      "periodo": "Muere c. 1010 a.C.",
+      "descripcion": "Muere por su propia mano en el monte Gilboa tras ser gravemente herido por los arqueros filisteos, cerrando trágicamente su reinado marcado por el progresivo deterioro de su relación con YHWH y con David.",
+      "referencias": ["1 Sam 31:1-6"],
+      "ruta": ["gilboa_mount"]
+    },
+    {
+      "id": "jonatan_gilboa",
+      "nombre": "Jonatán",
+      "emoji": "💔",
+      "rol": "Hijo de Saúl, amigo de David",
+      "periodo": "Muere c. 1010 a.C.",
+      "descripcion": "Muere junto a su padre en el monte Gilboa, pérdida que David lamenta con palabras de profundo afecto fraternal en su elegía, recordando una amistad que trascendió las tensiones dinásticas entre ambas familias.",
+      "referencias": ["1 Sam 31:2", "2 Sam 1:25-26"],
+      "ruta": ["gilboa_mount"]
+    },
+    {
+      "id": "david_gilboa",
+      "nombre": "David",
+      "emoji": "😭",
+      "rol": "Futuro rey de Israel",
+      "periodo": "c. 1010 a.C.",
+      "descripcion": "Compone una de las elegías más conmovedoras de toda la literatura bíblica al recibir la noticia de la muerte de Saúl y Jonatán en el Gilboa, demostrando genuino dolor pese a la persecución previa sufrida por parte de Saúl.",
+      "referencias": ["2 Sam 1:1-27"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El monte Gilboa marca el punto culminante trágico del primer reinado de Israel, presentado por el narrador bíblico como consecuencia directa del progresivo abandono de Saúl por parte de YHWH tras sus repetidos actos de desobediencia; la elegía de David, lejos de celebrar la caída de su perseguidor, expresa un duelo genuino que ilustra el ideal bíblico de honrar incluso al adversario caído cuando este ocupaba el cargo de ungido de YHWH.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo filisteo — culto a Dagón y Astarté"
+    ],
+    "mitos": [
+      {
+        "id": "maldicion-david-gilboa",
+        "nombre": "La maldición de David sobre los montes de Gilboa",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 1:21",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la maldición poética de David como expresión de duelo nacional, no de venganza personal",
+          "descripcion": "La tradición judía interpreta la maldición de David sobre el monte Gilboa —pidiendo que nunca más reciba rocío ni lluvia— no como un acto de venganza contra su antiguo perseguidor, sino como expresión poética del duelo nacional por la pérdida del primer rey ungido de Israel y de su amigo Jonatán, transformando el lugar de la derrota en símbolo permanente de luto colectivo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El lamento de David sobre Gilboa demuestra que el respeto hacia el ungido de YHWH y el duelo genuino por su pérdida trascienden incluso el conflicto personal previo entre perseguidor y perseguido.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "taanach",
+  "nombre": "Taanac",
+  "tipo": "ciudad",
+  "lat": 32.51723975501718,
+  "lng": 35.21632508826309,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad cananea, batalla de Débora, ciudad levítica" }
+  ],
+  "descripcion_geo": "Importante ciudad cananea en la llanura de Jezreel, próxima a Meguido, con la que aparece frecuentemente emparejada en el texto bíblico como referencia geográfica conjunta de la región. Posteriormente designada ciudad levítica dentro del territorio de Manasés, aunque situada geográficamente en Isacar.",
+  "altitud_m": 130,
+  "clima": "Mediterráneo — veranos cálidos y secos, inviernos templados con lluvias, propio de la fértil llanura de Jezreel.",
+  "recursos": [
+    "Tierras fértiles de la llanura de Jezreel",
+    "Posición estratégica junto a Meguido en las rutas comerciales del valle",
+    "Ciudad levítica para Manasés"
+  ],
+  "importancia_estrategica": "Taanac, junto a Meguido, marca la región de la batalla decisiva entre Débora-Barac y Sísara, mencionada explícitamente en el Cántico de Débora como el lugar 'junto a las aguas de Meguido' donde los reyes cananeos lucharon y fueron derrotados; al igual que Meguido, Israel no logra expulsar completamente a su población cananea original durante el período de los Jueces, sometiéndola en cambio a trabajo forzado.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_taanach",
+      "nombre": "Cananeos de Taanac",
+      "descripcion": "Población original de la ciudad, que Manasés no logra expulsar completamente según el registro de Jueces, permaneciendo bajo sometimiento a trabajo forzado en lugar de exterminio total.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C. y persistente después"
+    },
+    {
+      "id": "levitas_taanach",
+      "nombre": "Levitas de la línea de Coat",
+      "descripcion": "Familias levíticas asignadas a Taanac como parte del sistema de ciudades sacerdotales distribuidas en el territorio de Manasés.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "manases-no-expulsa-taanach",
+      "titulo": "Manasés no logra expulsar a los cananeos de Taanac",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "El libro de los Jueces registra que Manasés no pudo expulsar a los habitantes de Taanac y sus aldeas, manteniéndolos en el territorio bajo dominio sometido a trabajo forzado en lugar de la conquista total prescrita.",
+      "referencias": ["Jue 1:27"],
+      "personajes_clave": []
+    },
+    {
+      "id": "taanach-ciudad-levitica-manases",
+      "titulo": "Taanac designada ciudad levítica",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Pese a su persistente población cananea, Taanac es formalmente designada como una de las ciudades levíticas dentro del territorio de Manasés, integrándola al sistema sacerdotal distribuido de Israel.",
+      "referencias": ["Jos 21:25"],
+      "personajes_clave": []
+    },
+    {
+      "id": "cantico-debora-taanach-meguido",
+      "titulo": "Taanac en el Cántico de Débora",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "El extenso Cántico de Débora menciona explícitamente que 'los reyes vinieron y pelearon; entonces pelearon los reyes de Canaán en Taanac, junto a las aguas de Meguido', situando geográficamente la batalla decisiva contra Sísara en esta región de la llanura.",
+      "referencias": ["Jue 5:19"],
+      "personajes_clave": ["debora"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "debora_taanach",
+      "nombre": "Débora",
+      "emoji": "🎵",
+      "rol": "Jueza y profetisa, autora del cántico conmemorativo",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Conmemora la batalla librada cerca de Taanac en su extenso cántico de victoria, fijando poéticamente la geografía exacta del enfrentamiento decisivo contra los reyes cananeos.",
+      "referencias": ["Jue 5:1-19"],
+      "ruta": []
+    },
+    {
+      "id": "cananeos_taanach_personaje",
+      "nombre": "Habitantes cananeos de Taanac",
+      "emoji": "🏘️",
+      "rol": "Población local no expulsada",
+      "periodo": "c. 1200–1000 a.C.",
+      "descripcion": "Permanecen en la ciudad pese a la asignación tribal a Manasés, sometidos a trabajo forzado en lugar de la expulsión completa, ejemplificando el patrón de conquista incompleta del libro de los Jueces.",
+      "referencias": ["Jue 1:27-28"],
+      "ruta": []
+    },
+    {
+      "id": "josue_taanach",
+      "nombre": "Josué",
+      "emoji": "🏛️",
+      "rol": "Organizador del reparto territorial",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Dirige la designación de Taanac como ciudad levítica dentro del territorio de Manasés en el sistema de distribución de ciudades sacerdotales por toda la tierra de Israel.",
+      "referencias": ["Jos 21:25"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Taanac comparte con Meguido el mismo patrón teológico: ambas son ciudades cananeas poderosas que Israel no logra conquistar completamente durante el período de los Jueces pese a la asignación tribal formal, sirviendo de recordatorio constante del fracaso parcial de la generación de la conquista en cumplir plenamente el mandato de posesión total de la tierra, hasta que finalmente son sometidas por la victoria providencial conmemorada en el Cántico de Débora.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (población persistente)"
+    ],
+    "mitos": [
+      {
+        "id": "conquista-incompleta-taanach-meguido",
+        "nombre": "La conquista incompleta de Taanac y Meguido",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 1:27-28; Jue 5:19",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el patrón de conquista incompleta del libro de los Jueces y su relación con la posterior victoria providencial conmemorada en el Cántico de Débora",
+          "descripcion": "La tradición judía conecta la mención de la conquista incompleta de Taanac en Jueces 1 con su posterior aparición como escenario de victoria en el Cántico de Débora, observando que el poder cananeo que Israel no pudo someter inicialmente por la fuerza es finalmente derrotado generaciones después mediante la intervención directa de YHWH, ilustrando que el cumplimiento de las promesas territoriales opera en los tiempos divinos, no necesariamente en el momento inicial esperado por la generación de la conquista.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El contraste entre la conquista fallida inicial y la victoria providencial posterior en el mismo lugar demuestra que el cumplimiento de las promesas divinas puede demorarse pero no se frustra definitivamente.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

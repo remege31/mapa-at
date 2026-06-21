@@ -1,0 +1,120 @@
+{
+  "id": "eglon",
+  "nombre": "Eglón",
+  "tipo": "ciudad",
+  "lat": 31.5,
+  "lng": 34.7667,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, conquista de Josué" }
+  ],
+  "descripcion_geo": "Ciudad-estado cananea en la Sefelá occidental de Judá, próxima a la frontera con Filistea, gobernada en el momento de la conquista por un rey local que se integra en la coalición de cinco reyes amorreos derrotada por Josué.",
+  "altitud_m": 150,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá occidental cercana a la costa.",
+  "recursos": [
+    "Tierras agrícolas de la Sefelá occidental",
+    "Posición en la frontera con el territorio filisteo"
+  ],
+  "importancia_estrategica": "Eglón formaba parte de la coalición de ciudades-estado amorreas del sur de Canaán que, lideradas por el rey de Jerusalén, se enfrentaron a Josué tras la alianza de Gabaón con Israel; su conquista consolidó el control israelita sobre la Sefelá occidental tras la caída sucesiva de Laquis y las demás ciudades coaligadas.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_eglon",
+      "nombre": "Cananeos amorreos",
+      "descripcion": "Población gobernada por el rey Debir de Eglón, integrante de la coalición de cinco reyes amorreos derrotada por Josué en la campaña del sur.",
+      "religion": "Politeísmo cananeo-amorreo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "judaitas_eglon",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Tras la conquista, Eglón queda asignada al territorio de Judá dentro del reparto de la Sefelá occidental.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "rey-eglon-coalicion",
+      "titulo": "El rey de Eglón se une a la coalición contra Gabaón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Debir, rey de Eglón, se une a Adoni-sedec de Jerusalén y a los reyes de Hebrón, Jarmut y Laquis para atacar Gabaón en represalia por su pacto con Israel, integrando la coalición de cinco reyes amorreos que Josué derrotará decisivamente.",
+      "referencias": ["Jos 10:3-5"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "ejecucion-rey-eglon",
+      "titulo": "El rey de Eglón es ejecutado en la cueva de Maquedá",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tras la derrota de la coalición y la huida de los cinco reyes a la cueva de Maquedá, el rey de Eglón es ejecutado junto a los otros cuatro reyes amorreos por orden de Josué, en el episodio que cierra la primera fase de la campaña del sur.",
+      "referencias": ["Jos 10:22-27"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "conquista-eglon-ciudad",
+      "titulo": "Conquista de la ciudad de Eglón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tras la conquista de Laquis, Josué avanza con todo Israel hacia Eglón, acampa contra ella, la conquista el mismo día y pasa a filo de espada a todo lo que tenía vida en la ciudad, repitiendo el patrón de destrucción total aplicado a las demás ciudades de la coalición.",
+      "referencias": ["Jos 10:34-35"],
+      "personajes_clave": ["josue"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "debir_rey_eglon",
+      "nombre": "Debir, rey de Eglón",
+      "emoji": "👑",
+      "rol": "Rey amorreo de Eglón, miembro de la coalición del sur",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Se une a la coalición de cinco reyes amorreos liderada por Adoni-sedec de Jerusalén contra Gabaón; derrotado en batalla, muere ejecutado en la cueva de Maquedá junto a los otros cuatro reyes coaligados.",
+      "referencias": ["Jos 10:3", "Jos 10:23-26"],
+      "ruta": ["eglon", "makkedah"]
+    },
+    {
+      "id": "josue_eglon",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Dirige la conquista sucesiva de las ciudades de la coalición amorrea del sur, incluida Eglón, en una campaña relámpago que consolida el control israelita sobre la Sefelá en un solo movimiento militar continuo.",
+      "referencias": ["Jos 10:34-35"],
+      "ruta": ["laquis", "eglon", "hebron"]
+    },
+    {
+      "id": "habitantes_eglon",
+      "nombre": "Habitantes de Eglón",
+      "emoji": "🏚️",
+      "rol": "Población de la ciudad conquistada",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Toda la población de Eglón es exterminada el mismo día de la conquista, según el patrón de herem (consagración a la destrucción) aplicado por Josué a las ciudades de la coalición del sur.",
+      "referencias": ["Jos 10:35"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Eglón forma parte del relato de conquista del sur de Canaán enmarcado en la teología deuteronomista del herem, presentado como ejecución del juicio divino sobre los pueblos cananeos. La velocidad y exhaustividad con que Josué somete a Eglón —el mismo día de su llegada— se inscribe en el patrón narrativo que enfatiza la asistencia divina directa en la conquista, en continuidad con los episodios previos del sol detenido en Aijalon y el granizo en Bet-horón.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva del relato bíblico)",
+      "Politeísmo cananeo-amorreo (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "campana-relampago-sur",
+        "nombre": "La campaña relámpago del sur de Canaán",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 10:28-43",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la velocidad de la conquista del sur como evidencia de la asistencia divina directa",
+          "descripcion": "La tradición judía observa que la rapidez con que Josué somete sucesivamente a Maquedá, Libna, Laquis, Eglón, Hebrón y Debir 'el mismo día' en cada caso es leída como signo inequívoco de que la victoria no depende de la capacidad militar israelita sino de la intervención continua de YHWH iniciada con los prodigios de Gabaón.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La conquista relámpago del sur refuerza la teología de que la posesión de la tierra es don divino, no logro exclusivamente humano.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

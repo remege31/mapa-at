@@ -1,0 +1,119 @@
+{
+  "id": "kir",
+  "nombre": "Quir de Moab",
+  "tipo": "ciudad",
+  "lat": 31.18132579594509,
+  "lng": 35.70214779044711,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortaleza meridional de Moab, destruida por Babilonia" }
+  ],
+  "descripcion_geo": "Ciudad fortificada en el extremo sur de Moab, posiblemente la misma que Quir-hareset, identificada en algunas tradiciones con la actual Al-Karak. Una de las plazas fuertes principales del reino moabita, mencionada en los oráculos proféticos junto a Ar como las dos ciudades capitales de Moab.",
+  "altitud_m": 950,
+  "clima": "Semiárido de montaña — veranos secos y calurosos, inviernos fríos, propio de las tierras altas del sur de Moab.",
+  "recursos": [
+    "Posición fortificada en terreno elevado",
+    "Capital meridional alternativa de Moab junto a Ar"
+  ],
+  "importancia_estrategica": "Quir es, junto a Ar, una de las dos ciudades principales mencionadas explícitamente al inicio del extenso oráculo de Isaías contra Moab, lo que sugiere su estatus como centro fortificado de primer orden; aparece también como escenario crucial en la rebelión de Mesa contra Israel narrada en 2 Reyes 3, donde el rey moabita realiza el sacrificio de su hijo primogénito en sus murallas durante el asedio.",
+  "otros_habitantes": [
+    {
+      "id": "moabitas_kir",
+      "nombre": "Moabitas",
+      "descripcion": "Población de Quir, una de las fortalezas principales del reino de Moab, sometida a asedio durante la campaña de la coalición israelita-judaíta-edomita narrada en 2 Reyes 3.",
+      "religion": "Politeísmo moabita — culto a Quemos",
+      "periodo": "c. 1000–586 a.C."
+    },
+    {
+      "id": "arqueros_kir",
+      "nombre": "Defensores de Quir-hareset",
+      "descripcion": "Combatientes moabitas que resisten desde las murallas de la ciudad durante el asedio de la coalición de Joram, Josafat y el rey de Edom.",
+      "religion": "Politeísmo moabita",
+      "periodo": "c. 850 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "isaias-oraculo-ar-kir",
+      "titulo": "Isaías inicia su oráculo contra Moab nombrando Ar y Quir",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El extenso oráculo de Isaías contra Moab comienza precisamente anunciando que 'en una noche fue destruida Ar de Moab' y que 'en una noche fue destruida Quir de Moab', estableciendo estas dos ciudades como los puntos de referencia principales del juicio sobre todo el reino.",
+      "referencias": ["Is 15:1"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "asedio-mesa-kir-hareset",
+      "titulo": "El asedio de Quir-hareset y el sacrificio de Mesa",
+      "fecha": "c. 850 a.C.",
+      "descripcion": "Durante la campaña conjunta de Israel, Judá y Edom contra la rebelión de Mesa de Moab, la coalición arrasa el territorio moabita y sitia Quir-hareset; al ver que la batalla se vuelve demasiado dura para él, Mesa toma a su hijo primogénito, heredero del trono, y lo ofrece en holocausto sobre el muro, episodio tras el cual 'hubo gran enojo contra Israel' que obliga a la coalición a retirarse.",
+      "referencias": ["2 Re 3:25-27"],
+      "personajes_clave": []
+    },
+    {
+      "id": "isaias-lamento-kir-hareset",
+      "titulo": "Lamento por los hombres de Quir-hareset",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "Isaías retoma específicamente a Quir-hareset en un pasaje posterior del oráculo, lamentando la destrucción de sus 'tortas de pasas' (posiblemente ofrendas o productos característicos) como parte del extenso catálogo de pérdidas materiales y humanas que afectarán a Moab.",
+      "referencias": ["Is 16:7", "Is 16:11"],
+      "personajes_clave": ["isaias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "isaias_kir",
+      "nombre": "Isaías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Establece a Quir, junto con Ar, como las dos ciudades principales mencionadas al comienzo de su extenso oráculo de juicio contra el reino de Moab.",
+      "referencias": ["Is 15:1", "Is 16:7-11"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "mesa_kir",
+      "nombre": "Mesa, rey de Moab",
+      "emoji": "🔥",
+      "rol": "Rey moabita sitiado en Quir-hareset",
+      "periodo": "c. 850 a.C.",
+      "descripcion": "Resiste el asedio de la coalición israelita-judaíta-edomita en Quir-hareset hasta el punto de sacrificar a su propio hijo primogénito en un acto extremo que provoca la retirada de los sitiadores.",
+      "referencias": ["2 Re 3:26-27"],
+      "ruta": ["dibon", "kir"]
+    },
+    {
+      "id": "joram_josafat_kir",
+      "nombre": "Joram de Israel y Josafat de Judá",
+      "emoji": "⚔️",
+      "rol": "Reyes de la coalición sitiadora",
+      "periodo": "c. 850 a.C.",
+      "descripcion": "Lideran junto al rey de Edom la campaña militar contra la rebelión de Mesa, llegando a sitiar Quir-hareset antes de retirarse tras el sacrificio extremo del rey moabita.",
+      "referencias": ["2 Re 3:6-27"],
+      "ruta": ["kir"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Quir es escenario de uno de los episodios más perturbadores del Antiguo Testamento: el sacrificio del hijo primogénito de Mesa ante la inminente derrota, acto de devoción extrema al dios moabita Quemos que el texto bíblico registra sin explicar completamente su efecto ('hubo gran enojo contra Israel'), generando siglos de debate exegético sobre si el 'enojo' provino de Quemos, de YHWH, o de la consternación moral de los propios soldados israelitas ante semejante acto.",
+    "religiones_presentes": [
+      "Politeísmo moabita — culto a Quemos (incluyendo sacrificio humano en circunstancias extremas)"
+    ],
+    "mitos": [
+      {
+        "id": "sacrificio-mesa-kir",
+        "nombre": "El sacrificio del primogénito de Mesa en Quir-hareset",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 3:26-27",
+          "fuente_secundaria": "Comentario rabínico tradicional y académico moderno sobre la ambigüedad de la expresión 'gran enojo' (qetsef gadol) y sus posibles interpretaciones",
+          "descripcion": "La tradición judía y la exégesis académica posterior debaten extensamente el significado exacto de la frase 'hubo gran enojo contra Israel' tras el sacrificio de Mesa: algunas interpretaciones lo atribuyen al horror moral causado entre las propias tropas israelitas, otras a una manifestación de poder atribuida (desde la perspectiva moabita) al dios Quemos, generando uno de los pasajes más enigmáticos de toda la literatura histórica bíblica respecto a la eficacia percibida de divinidades extranjeras.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio plantea preguntas teológicas complejas sobre la relación entre el relato bíblico y la percepción de eficacia de cultos extranjeros, sin ofrecer una resolución doctrinal explícita en el propio texto.",
+          "posible_relacion_cultural": "Confirmación extrabíblica parcial mediante la Estela de Mesa, que documenta la perspectiva moabita de esta misma rebelión contra Israel."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

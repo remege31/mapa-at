@@ -1,0 +1,120 @@
+{
+  "id": "corner_gate",
+  "nombre": "Puerta del Ángulo",
+  "tipo": "territorio",
+  "lat": 31.777444,
+  "lng": 35.234935,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Coordenadas genéricas de Jerusalén — puerta del muro perimetral de la ciudad, no una ubicación geográfica independiente.",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Puerta del muro noroeste de Jerusalén" }
+  ],
+  "descripcion_geo": "Puerta fortificada situada en uno de los ángulos del perímetro amurallado de Jerusalén, probablemente en el sector noroeste de la ciudad, marcando uno de los extremos de las mediciones de longitud del muro citadas en los relatos de reconstrucción y destrucción.",
+  "altitud_m": "Muro perimetral de Jerusalén, c. 740-760",
+  "clima": "Mediterráneo de montaña — el de Jerusalén.",
+  "recursos": [
+    "Punto fortificado de referencia para medir el perímetro del muro",
+    "Acceso defensivo en el ángulo noroeste de la ciudad"
+  ],
+  "importancia_estrategica": "La Puerta del Ángulo funciona en el texto bíblico principalmente como punto de referencia topográfico para medir distancias del muro de Jerusalén, tanto en el contexto de su reparación por Uzías como en el de su destrucción registrada por los profetas, marcando los límites del área urbana fortificada en distintos momentos de la historia del reino de Judá.",
+  "otros_habitantes": [
+    {
+      "id": "guarnicion_puerta_angulo",
+      "nombre": "Guarnición de la muralla",
+      "descripcion": "Personal militar encargado de la defensa del sector de la Puerta del Ángulo como parte del sistema general de fortificación del perímetro de Jerusalén.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1000–586 a.C."
+    },
+    {
+      "id": "comerciantes_puerta_angulo",
+      "nombre": "Población urbana del sector noroeste",
+      "descripcion": "Habitantes y comerciantes de la zona de la ciudad próxima a la Puerta del Ángulo, área que crece urbanísticamente durante la monarquía tardía.",
+      "religion": "Yahvismo",
+      "periodo": "c. 800–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "uzias-fortifica-puerta-angulo",
+      "titulo": "Uzías fortifica la Puerta del Ángulo",
+      "fecha": "c. 790–740 a.C.",
+      "descripcion": "El rey Uzías de Judá construye torres en Jerusalén junto a la Puerta del Ángulo, la Puerta del Valle y el ángulo del muro, y las fortifica como parte de un programa más amplio de fortalecimiento militar y agrícola de su reinado.",
+      "referencias": ["2 Cr 26:9"],
+      "personajes_clave": ["uzias"]
+    },
+    {
+      "id": "joas-israel-brecha-puerta-angulo",
+      "titulo": "Joás de Israel abre brecha hasta la Puerta del Ángulo",
+      "fecha": "c. 790 a.C.",
+      "descripcion": "Tras derrotar a Amasías de Judá en batalla, Joás, rey de Israel, abre una brecha en el muro de Jerusalén desde la puerta de Efraín hasta la Puerta del Ángulo, de cuatrocientos codos de longitud, como castigo y humillación tras la derrota judaíta.",
+      "referencias": ["2 Re 14:13", "2 Cr 25:23"],
+      "personajes_clave": []
+    },
+    {
+      "id": "jeremias-reconstruccion-futura-puerta-angulo",
+      "titulo": "La Puerta del Ángulo en la promesa de reconstrucción de Jeremías",
+      "fecha": "c. 587 a.C. (oráculo, contexto del exilio)",
+      "descripcion": "El profeta Jeremías anuncia que llegará el día en que Jerusalén será reconstruida para YHWH desde la torre de Hananeel hasta la Puerta del Ángulo, extendiéndose el área consagrada de la ciudad, como signo de esperanza tras la inminente destrucción.",
+      "referencias": ["Jer 31:38"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "uzias_puerta_angulo",
+      "nombre": "Uzías",
+      "emoji": "🏰",
+      "rol": "Rey de Judá, fortificador de Jerusalén",
+      "periodo": "c. 791–740 a.C.",
+      "descripcion": "Construye y fortifica torres junto a la Puerta del Ángulo como parte de su extenso programa de fortalecimiento militar del reino, descrito como uno de los reyes más prósperos de Judá hasta su posterior caída en orgullo.",
+      "referencias": ["2 Cr 26:1-15"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "joas_israel_puerta_angulo",
+      "nombre": "Joás de Israel",
+      "emoji": "⚔️",
+      "rol": "Rey de Israel (reino del norte)",
+      "periodo": "c. 798–782 a.C.",
+      "descripcion": "Derrota a Amasías de Judá y abre una brecha humillante en el muro de Jerusalén que llega hasta la Puerta del Ángulo, saqueando además el Templo y el palacio real.",
+      "referencias": ["2 Re 14:8-14"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "jeremias_puerta_angulo",
+      "nombre": "Jeremías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–586 a.C.",
+      "descripcion": "Pronuncia un oráculo de restauración futura que toma la Puerta del Ángulo como uno de los puntos de referencia geográfica de la Jerusalén reconstruida y consagrada que vendrá tras el exilio.",
+      "referencias": ["Jer 31:38-40"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "La Puerta del Ángulo aparece en el texto bíblico como marcador topográfico que atraviesa tres momentos teológicamente cargados de la historia de Jerusalén: la fortificación bajo un rey próspero (Uzías), la humillación mediante una brecha abierta por un rey rival israelita (Joás), y finalmente la promesa profética de reconstrucción y consagración futura (Jeremías). Esta progresión —fortaleza, destrucción, restauración— refleja en miniatura el ciclo teológico deuteronomista aplicado a la propia capital del reino de Judá.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "promesa-reconstruccion-puerta-angulo",
+        "nombre": "La promesa de reconstrucción de Jerusalén hasta la Puerta del Ángulo",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jer 31:38-40",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre las profecías de consolación de Jeremías 30-33 como anuncio de la restauración post-exílica",
+          "descripcion": "La tradición judía sitúa este oráculo dentro del 'Libro de la Consolación' de Jeremías, leyendo la extensión futura de la ciudad consagrada hasta la Puerta del Ángulo como promesa concreta de restauración física y espiritual de Jerusalén tras el exilio babilónico.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La reconstrucción topográfica anunciada simboliza la renovación integral de la relación de alianza entre YHWH e Israel tras el juicio del exilio.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

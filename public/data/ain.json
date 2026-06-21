@@ -1,0 +1,120 @@
+{
+  "id": "ain",
+  "nombre": "Aín",
+  "tipo": "ciudad",
+  "lat": 31.370835,
+  "lng": 34.860665,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad levítica en el Néguev de Judá" }
+  ],
+  "descripcion_geo": "Pequeña ciudad en el Néguev de Judá, asignada a los levitas dentro del territorio tribal compartido entre Judá y Simeón. Su nombre ('manantial' u 'ojo') sugiere la presencia de una fuente de agua que justificaba el asentamiento en una región de transición semiárida.",
+  "altitud_m": 380,
+  "clima": "Semiárido — veranos muy secos y calurosos, inviernos templados con lluvias escasas, propio del Néguev septentrional.",
+  "recursos": [
+    "Manantial o fuente de agua (origen del nombre)",
+    "Tierras de pastoreo del Néguev",
+    "Posición levítica dentro del reparto tribal"
+  ],
+  "importancia_estrategica": "Aín no tiene relevancia militar ni narrativa destacada; su importancia es exclusivamente administrativo-religiosa, como una de las ciudades del territorio compartido entre Judá y Simeón designada para la residencia de familias levíticas, parte del sistema de cuarenta y ocho ciudades levíticas distribuidas por todo Israel.",
+  "otros_habitantes": [
+    {
+      "id": "levitas_ain",
+      "nombre": "Levitas (línea de Aarón)",
+      "descripcion": "Familias sacerdotales asentadas en Aín como parte del reparto de ciudades levíticas entre los territorios de Judá y Simeón.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    },
+    {
+      "id": "simeonitas_ain",
+      "nombre": "Tribu de Simeón",
+      "descripcion": "Aín se sitúa en territorio originalmente compartido o cercano a las ciudades asignadas a la tribu de Simeón dentro del Néguev de Judá.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "ain-ciudad-levitica-josue",
+      "titulo": "Aín en la lista de ciudades levíticas",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "En el reparto territorial de Josué, Aín se incluye entre las ciudades del Néguev de Judá designadas para residencia de las familias levíticas descendientes de Aarón.",
+      "referencias": ["Jos 21:16"],
+      "personajes_clave": []
+    },
+    {
+      "id": "ain-ciudad-simeon-juda",
+      "titulo": "Aín en la lista de ciudades de Judá y Simeón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "El libro de Josué registra Aín entre las ciudades del extremo sur del territorio de Judá, en la zona que posteriormente se reasigna parcialmente a la tribu de Simeón por estar el territorio original de Judá sobredimensionado.",
+      "referencias": ["Jos 15:32", "Jos 19:7"],
+      "personajes_clave": []
+    },
+    {
+      "id": "ain-registro-cronista",
+      "titulo": "Aín en el registro genealógico cronista",
+      "fecha": "Genealógico, período de la monarquía",
+      "descripcion": "La ciudad reaparece en las listas paralelas de 1 Crónicas que documentan las ciudades de la tribu de Simeón, confirmando su persistencia administrativa a lo largo de varios siglos.",
+      "referencias": ["1 Cr 4:32"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "levitas_aaron_ain",
+      "nombre": "Familias levíticas de la línea de Aarón",
+      "emoji": "🕯️",
+      "rol": "Residentes sacerdotales de Aín",
+      "periodo": "Desde c. 1200 a.C.",
+      "descripcion": "Designadas para habitar Aín dentro del sistema de ciudades levíticas, sin episodios narrativos individuales asociados al lugar.",
+      "referencias": ["Jos 21:16"],
+      "ruta": []
+    },
+    {
+      "id": "josue_ain",
+      "nombre": "Josué",
+      "emoji": "📜",
+      "rol": "Líder de la conquista, organizador del reparto territorial",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Dirige la asignación de Aín como ciudad levítica dentro del reparto general del territorio conquistado entre las doce tribus de Israel.",
+      "referencias": ["Jos 21:1-19"],
+      "ruta": []
+    },
+    {
+      "id": "simeonitas_ain_personaje",
+      "nombre": "Clanes de Simeón",
+      "emoji": "🏘️",
+      "rol": "Población tribal vecina de Aín",
+      "periodo": "c. 1200–1000 a.C.",
+      "descripcion": "Habitantes de la tribu de Simeón en cuyo territorio, compartido con Judá, se ubica Aín según las listas de ciudades del Néguev.",
+      "referencias": ["Jos 19:1-9"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Aín carece de desarrollo narrativo o mítico propio; su valor para el corpus bíblico es puramente administrativo, como parte del sistema de cuarenta y ocho ciudades levíticas que garantizaba la presencia sacerdotal distribuida por todo el territorio de Israel, asegurando que ninguna región quedara sin acceso a instrucción religiosa y mediación cúltica levítica.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "ciudades-leviticas-sistema",
+        "nombre": "El sistema de ciudades levíticas como red de presencia sacerdotal",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 21:1-42; Núm 35:1-8",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la función pedagógica y judicial de los levitas distribuidos en las ciudades del territorio israelita",
+          "descripcion": "La tradición judía interpreta el sistema de cuarenta y ocho ciudades levíticas, incluida Aín, como mecanismo deliberado para asegurar que la instrucción de la Torá y la mediación religiosa estuvieran accesibles a toda la población de Israel, sin concentrar la presencia sacerdotal únicamente en torno al santuario central.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La distribución territorial de los levitas refleja el principio de que la santidad y la instrucción religiosa deben permear toda la vida del pueblo, no limitarse a un centro único.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

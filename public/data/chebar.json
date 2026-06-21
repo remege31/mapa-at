@@ -1,0 +1,129 @@
+{
+  "id": "chebar",
+  "nombre": "Río Quebar",
+  "tipo": "territorio",
+  "lat": 33.159129,
+  "lng": 44.06293,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Exilio y visiones de Ezequiel" }
+  ],
+  "descripcion_geo": "Canal o río en Babilonia, junto al cual se establece la comunidad de exiliados judíos deportados tras la primera caída de Jerusalén, y donde el profeta Ezequiel recibe sus primeras y más elaboradas visiones proféticas.",
+  "altitud_m": 30,
+  "clima": "Desértico de Mesopotamia — veranos extremadamente calurosos y secos, inviernos templados, propio de la llanura aluvial babilónica.",
+  "recursos": [
+    "Canal navegable de la red hidráulica babilónica",
+    "Asentamiento de la comunidad de exiliados judíos",
+    "Escenario de las visiones proféticas de Ezequiel"
+  ],
+  "importancia_estrategica": "El río Quebar no tiene relevancia estratégica militar, pero es de máxima importancia teológica como lugar donde Ezequiel, sacerdote deportado junto con la primera oleada de exiliados, recibe la visión inaugural de su ministerio profético —la visión del carro divino con las criaturas vivientes y las ruedas— estableciendo este lugar como punto de origen de uno de los corpus proféticos más elaborados y visionarios de todo el Antiguo Testamento.",
+  "otros_habitantes": [
+    {
+      "id": "exiliados_judios_chebar",
+      "nombre": "Comunidad de exiliados de Judá",
+      "descripcion": "Población judía deportada por Nabucodonosor que se establece junto al río Quebar, incluyendo al propio profeta Ezequiel, formando una comunidad organizada en territorio babilónico.",
+      "religion": "Yahvismo (en exilio)",
+      "periodo": "c. 597–571 a.C."
+    },
+    {
+      "id": "ancianos_juda_chebar",
+      "nombre": "Ancianos de Judá",
+      "descripcion": "Líderes de la comunidad exiliada que se reúnen en casa de Ezequiel junto al Quebar, recibiendo a través de él diversos oráculos y visiones durante el período del exilio.",
+      "religion": "Yahvismo",
+      "periodo": "c. 593–571 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "vision-inaugural-ezequiel-chebar",
+      "titulo": "La visión inaugural de Ezequiel junto al Quebar",
+      "fecha": "c. 593 a.C.",
+      "descripcion": "Estando entre los deportados junto al río Quebar, Ezequiel ve los cielos abiertos y recibe la elaborada visión del carro divino, con cuatro criaturas vivientes, ruedas dentro de ruedas, y la gloria de YHWH en forma de figura humana sobre un trono, inaugurando formalmente su ministerio profético con una de las teofanías más detalladas y simbólicamente complejas de todo el Antiguo Testamento.",
+      "referencias": ["Ez 1:1-28"],
+      "personajes_clave": ["ezequiel"]
+    },
+    {
+      "id": "llamado-vocacion-ezequiel-chebar",
+      "titulo": "El llamado y la comisión profética de Ezequiel",
+      "fecha": "c. 593 a.C.",
+      "descripcion": "Tras la visión del carro divino, YHWH llama formalmente a Ezequiel como 'hijo de hombre' y lo comisiona para hablar a la 'casa rebelde' de Israel, entregándole un rollo escrito que el profeta debe comer simbólicamente antes de iniciar su ministerio de advertencia.",
+      "referencias": ["Ez 2:1-3:3"],
+      "personajes_clave": ["ezequiel"]
+    },
+    {
+      "id": "visiones-posteriores-chebar",
+      "titulo": "Visiones posteriores recibidas junto al Quebar",
+      "fecha": "c. 592–571 a.C.",
+      "descripcion": "El río Quebar reaparece como escenario en varios momentos posteriores del libro de Ezequiel, incluyendo la visión de las abominaciones del Templo de Jerusalén y la visión final de la restauración del Templo, confirmando este lugar como anclaje geográfico recurrente de todo el ministerio visionario del profeta.",
+      "referencias": ["Ez 3:15", "Ez 10:15-22", "Ez 43:3"],
+      "personajes_clave": ["ezequiel"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "ezequiel_chebar",
+      "nombre": "Ezequiel",
+      "emoji": "👁️",
+      "rol": "Sacerdote y profeta del exilio",
+      "periodo": "Activo c. 593–571 a.C.",
+      "descripcion": "Recibe junto al río Quebar la visión inaugural y varias visiones posteriores que constituyen el núcleo de su extenso y elaborado ministerio profético durante el exilio babilónico.",
+      "referencias": ["Ez 1:1-3", "Ez 3:15", "Ez 10:15"],
+      "ruta": ["jerusalen", "chebar"]
+    },
+    {
+      "id": "ancianos_juda_chebar_personaje",
+      "nombre": "Ancianos de Judá en el exilio",
+      "emoji": "👴",
+      "rol": "Líderes de la comunidad exiliada",
+      "periodo": "c. 593–571 a.C.",
+      "descripcion": "Se reúnen periódicamente en casa de Ezequiel junto al Quebar, recibiendo a través de él diversos oráculos y siendo testigos de algunas de sus visiones y acciones simbólicas más elaboradas.",
+      "referencias": ["Ez 8:1", "Ez 14:1", "Ez 20:1"],
+      "ruta": []
+    },
+    {
+      "id": "comunidad_exilio_chebar",
+      "nombre": "Comunidad de exiliados judíos",
+      "emoji": "🏕️",
+      "rol": "Población deportada establecida junto al Quebar",
+      "periodo": "c. 597–571 a.C.",
+      "descripcion": "Comunidad organizada de judíos deportados que sostiene su identidad religiosa y comunitaria en territorio extranjero, destinataria principal del extenso ministerio profético de Ezequiel.",
+      "referencias": ["Ez 1:1", "Ez 3:15"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El río Quebar es el lugar fundacional del ministerio profético de Ezequiel, sacerdote que, privado del Templo de Jerusalén por el exilio, recibe en territorio extranjero algunas de las visiones teológicamente más elaboradas y simbólicamente complejas de todo el Antiguo Testamento, estableciendo el principio teológico de que la presencia y revelación de YHWH no está limitada geográficamente a la tierra de Israel ni al Templo de Jerusalén, sino que puede manifestarse plenamente incluso en el corazón mismo del territorio del imperio conquistador.",
+    "religiones_presentes": [
+      "Yahvismo (comunidad exiliada)",
+      "Politeísmo babilónico (contexto del exilio)"
+    ],
+    "mitos": [
+      {
+        "id": "vision-carro-divino-chebar",
+        "nombre": "La visión del carro divino (Merkavá) junto al río Quebar",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Ez 1:1-28",
+          "fuente_secundaria": "Tradición mística judía de la Merkavá (literalmente 'carro'), desarrollada extensamente en textos místicos posteriores como fundamento de toda una corriente de misticismo judío centrada en la contemplación del trono divino",
+          "descripcion": "La tradición judía desarrolla a partir de la visión de Ezequiel junto al Quebar toda una corriente mística independiente conocida como 'misticismo de la Merkavá', que durante siglos posteriores elaboraría técnicas contemplativas y especulaciones teológicas extensas sobre el significado de las criaturas vivientes, las ruedas y el trono divino descritos en este capítulo inaugural, convirtiendo el episodio en fundamento textual de toda una tradición esotérica judía.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento de la profundidad simbólica excepcional de esta visión.",
+          "diferencias": null,
+          "significado_teologico": "La visión del Quebar establece que la gloria y presencia de YHWH trasciende completamente las limitaciones geográficas del Templo terrenal, pudiendo manifestarse con plenitud incluso en tierra extranjera durante el exilio.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Ez 1:1-28 (recepción tipológica en la literatura apocalíptica cristiana, especialmente Apocalipsis 4)",
+          "fuente_secundaria": "Comentarios patrísticos que vinculan las cuatro criaturas vivientes de Ezequiel con los cuatro evangelistas en la iconografía cristiana tradicional",
+          "descripcion": "La tradición cristiana retoma directamente la imaginería de las cuatro criaturas vivientes de la visión de Ezequiel —reaparecidas casi idénticamente en el libro del Apocalipsis— y desarrolla además una tradición iconográfica que asocia cada una de las cuatro criaturas con los cuatro evangelistas, convirtiendo la visión del Quebar en fuente directa de simbolismo artístico y teológico cristiano perdurable.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento de la profundidad simbólica única de esta visión inaugural.",
+          "diferencias": "La aplicación cristiana específica de las cuatro criaturas a los cuatro evangelistas es una elaboración iconográfica particular ausente en la tradición judía.",
+          "significado_teologico": "La visión de Ezequiel se convierte en fuente textual directa de la imaginería apocalíptica cristiana sobre el trono celestial, reinterpretada también en clave de simbolismo evangélico.",
+          "posible_relacion_cultural": "Recepción cristiana directa de la imaginería visionaria de Ezequiel, retomada casi literalmente en el libro del Apocalipsis."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

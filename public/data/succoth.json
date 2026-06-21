@@ -1,0 +1,121 @@
+{
+  "id": "succoth",
+  "nombre": "Sucot",
+  "tipo": "ciudad",
+  "lat": 32.19998298531073,
+  "lng": 35.63331303389634,
+  "frecuencia_at": 14,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Negativa a Gedeón, castigo posterior" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fundición de bronce de Salomón" }
+  ],
+  "descripcion_geo": "Ciudad en Galaad, al este del Jordán, cuyo nombre ('cabañas' o 'tiendas') conmemora el lugar donde Jacob construyó refugios temporales para su ganado tras separarse de Esaú. Posteriormente escenario del rechazo de ayuda a Gedeón y, siglos después, zona de fundición de bronce para el Templo de Salomón.",
+  "altitud_m": 350,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las tierras altas de Galaad.",
+  "recursos": [
+    "Pastos para ganado (origen del nombre, asociado a refugios de Jacob)",
+    "Suelo arcilloso adecuado para fundición de bronce",
+    "Posición en territorio de Gad"
+  ],
+  "importancia_estrategica": "Sucot es escenario de uno de los episodios más severamente castigados de falta de solidaridad tribal en todo el período de los Jueces: la negativa de sus jefes a proveer pan al ejército de Gedeón durante la persecución de los reyes madianitas resulta en un castigo ejemplar tras la victoria; siglos después, la ciudad recupera relevancia como centro de fundición metalúrgica para los objetos del Templo de Salomón.",
+  "otros_habitantes": [
+    {
+      "id": "gaditas_succoth",
+      "nombre": "Tribu de Gad",
+      "descripcion": "Población israelita de Sucot, cuyos jefes rechazan proveer alimento a las tropas exhaustas de Gedeón durante su persecución de los reyes madianitas Zeba y Zalmuna.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1150–1130 a.C."
+    },
+    {
+      "id": "fundidores_salomon_succoth",
+      "nombre": "Artesanos de fundición de Salomón",
+      "descripcion": "Trabajadores especializados en metalurgia que utilizan el suelo arcilloso de la región entre Sucot y Saretán para fundir los grandes objetos de bronce del Templo de Salomón.",
+      "religion": "Yahvismo (proyecto) y politeísmo fenicio (técnica)",
+      "periodo": "c. 960 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "jacob-cabanas-succoth",
+      "titulo": "Jacob construye cabañas en Sucot",
+      "fecha": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Tras su reconciliación con Esaú, Jacob viaja a Sucot, donde construye una casa para sí y refugios para su ganado, dando origen al nombre del lugar que conmemora estos primeros asentamientos temporales tras su regreso a Canaán.",
+      "referencias": ["Gén 33:17"],
+      "personajes_clave": ["jacob"]
+    },
+    {
+      "id": "sucot-rechaza-gedeon",
+      "titulo": "Los jefes de Sucot rechazan ayudar a Gedeón",
+      "fecha": "c. 1130 a.C.",
+      "descripcion": "Durante la persecución de los reyes madianitas Zeba y Zalmuna, Gedeón pide pan para sus hombres exhaustos en Sucot, pero los jefes de la ciudad se niegan burlonamente, cuestionando si ya tiene en su poder a los reyes capturados; Gedeón advierte que castigará su negativa cuando regrese victorioso.",
+      "referencias": ["Jue 8:4-7"],
+      "personajes_clave": ["gedeon"]
+    },
+    {
+      "id": "gedeon-castiga-sucot",
+      "titulo": "Gedeón castiga a los hombres de Sucot",
+      "fecha": "c. 1130 a.C.",
+      "descripcion": "Tras capturar a Zeba y Zalmuna, Gedeón regresa a Sucot y cumple su advertencia: castiga a los setenta y siete ancianos de la ciudad con espinos y abrojos del desierto, ejemplo severo de las consecuencias de negar solidaridad a las tropas que luchan por la liberación común de Israel.",
+      "referencias": ["Jue 8:13-16"],
+      "personajes_clave": ["gedeon"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jacob_succoth",
+      "nombre": "Jacob",
+      "emoji": "🏕️",
+      "rol": "Patriarca",
+      "periodo": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Construye los primeros refugios temporales en Sucot tras su reconciliación con Esaú, dando nombre al lugar en el inicio de su asentamiento gradual de regreso en Canaán.",
+      "referencias": ["Gén 33:17"],
+      "ruta": ["peniel", "succoth"]
+    },
+    {
+      "id": "gedeon_succoth",
+      "nombre": "Gedeón",
+      "emoji": "🌵",
+      "rol": "Juez de Israel",
+      "periodo": "c. 1130 a.C.",
+      "descripcion": "Castiga severamente a los jefes de Sucot por negarse a apoyar a sus tropas durante la persecución decisiva de los reyes madianitas, episodio que ilustra las consecuencias de la falta de solidaridad tribal en momentos de necesidad militar común.",
+      "referencias": ["Jue 8:4-7", "Jue 8:13-16"],
+      "ruta": ["succoth"]
+    },
+    {
+      "id": "ancianos_sucot",
+      "nombre": "Setenta y siete ancianos de Sucot",
+      "emoji": "👴",
+      "rol": "Líderes locales castigados por Gedeón",
+      "periodo": "c. 1130 a.C.",
+      "descripcion": "Rechazan inicialmente ayudar a las tropas de Gedeón, decisión que les acarrea un castigo ejemplar tras la victoria del juez sobre los reyes madianitas.",
+      "referencias": ["Jue 8:14-16"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Sucot ilustra el principio teológico de la responsabilidad tribal compartida en la lucha común de Israel: la negativa de sus jefes a proveer apoyo material a las tropas que combatían por la liberación de todo el pueblo se castiga con severidad ejemplar, estableciendo el precedente de que la solidaridad intertribal en la guerra santa no es opcional sino exigible, en contraste con el ideal pacífico anterior de hospitalidad establecido por Jacob en el mismo lugar generaciones antes.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "castigo-falta-solidaridad-sucot",
+        "nombre": "El castigo de Gedeón como advertencia sobre la solidaridad tribal",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 8:4-7; Jue 8:13-16",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la responsabilidad colectiva de Israel ('kol Israel arevim zeh lazeh', todo Israel es responsable unos de otros) aplicada al episodio de Sucot",
+          "descripcion": "La tradición judía conecta el severo castigo de Gedeón a los jefes de Sucot con el principio más amplio de responsabilidad colectiva entre las tribus de Israel, interpretando la negativa de ayuda en un momento de necesidad militar compartida como una falta grave contra la solidaridad fundamental que debe unir a todas las tribus en la defensa común del pueblo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio establece que la negativa a apoyar la causa común de liberación de Israel constituye una falta seria contra el principio de responsabilidad mutua entre las tribus.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

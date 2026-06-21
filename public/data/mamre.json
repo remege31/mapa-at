@@ -1,0 +1,137 @@
+{
+  "id": "mamre",
+  "nombre": "Mamre",
+  "tipo": "ciudad",
+  "lat": 31.54909871686872,
+  "lng": 35.09356062020027,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Residencia patriarcal de Abraham" }
+  ],
+  "descripcion_geo": "Arboleda de encinas o terebintos cerca de Hebrón, en las colinas de Judá, identificada tradicionalmente con un robledal sagrado que sirvió de residencia prolongada a Abraham. Asociada también al campo y la cueva de Macpela, comprados por Abraham como sepultura familiar.",
+  "altitud_m": 930,
+  "clima": "Mediterráneo de montaña — veranos secos, inviernos fríos con lluvias, propio de las tierras altas de Hebrón.",
+  "recursos": [
+    "Arboleda de encinas/terebintos (significado del nombre 'Elones de Mamre')",
+    "Pastoreo de ganado",
+    "Proximidad a manantiales y a la cueva de Macpela"
+  ],
+  "importancia_estrategica": "Mamre carece de relevancia militar o comercial; su importancia es enteramente teológico-narrativa, como uno de los principales lugares de residencia de Abraham en Canaán y escenario de algunas de las teofanías y promesas divinas más significativas del ciclo patriarcal, incluyendo la visita de los tres visitantes y el anuncio del nacimiento de Isaac.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_mamre",
+      "nombre": "Amorreo Mamre y sus hermanos Escol y Aner",
+      "descripcion": "Aliados amorreos locales de Abraham, que dan nombre al lugar; lo acompañan en la persecución de los reyes que habían capturado a Lot.",
+      "religion": "Politeísmo cananeo-amorreo",
+      "periodo": "c. 2100–1900 a.C."
+    },
+    {
+      "id": "heteos_mamre",
+      "nombre": "Hijos de Het (heteos)",
+      "descripcion": "Población local de la que Abraham compra el campo y la cueva de Macpela como sepultura familiar, en una negociación detallada que el texto bíblico describe con extenso protocolo legal.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 2050 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "abraham-asentado-mamre",
+      "titulo": "Abraham se establece en los encinares de Mamre",
+      "fecha": "c. 2090 a.C.",
+      "descripcion": "Tras separarse de Lot, Abraham se traslada y se establece junto a los encinares de Mamre, cerca de Hebrón, donde edifica un altar a YHWH, convirtiendo el lugar en una de sus residencias más estables y prolongadas en Canaán.",
+      "referencias": ["Gén 13:18"],
+      "personajes_clave": ["abraham"]
+    },
+    {
+      "id": "tres-visitantes-mamre",
+      "titulo": "Los tres visitantes y el anuncio del nacimiento de Isaac",
+      "fecha": "c. 2067 a.C.",
+      "descripcion": "YHWH se aparece a Abraham en Mamre en forma de tres visitantes a quienes Abraham y Sara reciben con hospitalidad; durante la visita se anuncia el nacimiento de Isaac, ante lo cual Sara, ya anciana, ríe con incredulidad, y se revela también el juicio inminente sobre Sodoma y Gomorra.",
+      "referencias": ["Gén 18:1-15", "Gén 18:16-33"],
+      "personajes_clave": ["abraham", "sara"]
+    },
+    {
+      "id": "compra-macpela-mamre",
+      "titulo": "Abraham compra el campo y la cueva de Macpela",
+      "fecha": "c. 2050 a.C.",
+      "descripcion": "Tras la muerte de Sara, Abraham negocia formalmente con Efrón el heteo la compra del campo de Macpela, frente a Mamre, incluyendo la cueva, los árboles y los linderos del terreno, como sepultura familiar permanente, en la primera adquisición legal de tierra registrada en el ciclo patriarcal.",
+      "referencias": ["Gén 23:1-20"],
+      "personajes_clave": ["abraham"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "abraham_mamre",
+      "nombre": "Abraham",
+      "emoji": "⛺",
+      "rol": "Patriarca, padre de la fe israelita",
+      "periodo": "c. 2166–1991 a.C. (cronología tradicional)",
+      "descripcion": "Establece en Mamre una de sus residencias más prolongadas, edifica allí un altar a YHWH, recibe la visita de los tres mensajeros divinos y negocia la compra del campo de Macpela como sepultura familiar.",
+      "referencias": ["Gén 13:18", "Gén 18:1-33", "Gén 23:1-20"],
+      "ruta": ["siquem", "bet_el", "mamre", "egipto"]
+    },
+    {
+      "id": "sara_mamre",
+      "nombre": "Sara",
+      "emoji": "😊",
+      "rol": "Esposa de Abraham, matriarca",
+      "periodo": "c. 2156–2029 a.C. (cronología tradicional)",
+      "descripcion": "Presente en la tienda durante la visita de los tres mensajeros en Mamre, ríe internamente al escuchar el anuncio de que tendrá un hijo en su vejez, episodio que da origen al nombre de Isaac ('él ríe').",
+      "referencias": ["Gén 18:9-15"],
+      "ruta": ["mamre"]
+    },
+    {
+      "id": "efron_heteo",
+      "nombre": "Efrón el heteo",
+      "emoji": "🤝",
+      "rol": "Propietario local que vende el campo de Macpela",
+      "periodo": "c. 2050 a.C.",
+      "descripcion": "Negocia ante los hijos de Het la venta del campo y la cueva de Macpela a Abraham, en una transacción descrita con minuciosidad legal que confirma la legitimidad de la posesión patriarcal de la primera porción de tierra en Canaán.",
+      "referencias": ["Gén 23:3-18"],
+      "ruta": ["mamre"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Mamre es uno de los escenarios teológicos más densos del ciclo patriarcal: lugar de altar, de teofanía hospitalaria y de la promesa reafirmada de descendencia a una pareja anciana. La visita de los tres mensajeros se ha convertido en una de las imágenes más reinterpretadas de toda la tradición bíblica, leída en clave de hospitalidad sagrada, manifestación trinitaria o simple teofanía angélica según la tradición receptora.",
+    "religiones_presentes": [
+      "Yahvismo patriarcal (culto de Abraham)",
+      "Politeísmo cananeo-amorreo (población local)"
+    ],
+    "mitos": [
+      {
+        "id": "tres-visitantes-mamre-mito",
+        "nombre": "Los tres visitantes de Mamre",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 18:1-15",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 48-50 (sobre la identidad de los tres visitantes como ángeles con misiones específicas)",
+          "descripcion": "La tradición rabínica identifica a los tres visitantes como ángeles, cada uno con una misión específica —anunciar el nacimiento de Isaac, destruir Sodoma, sanar a Abraham tras la circuncisión— y desarrolla extensamente el episodio como modelo supremo de hospitalidad (hajnasat orejim), virtud considerada mayor incluso que recibir la presencia divina misma.",
+          "similitudes": "Comparte con el islam el reconocimiento de los visitantes como mensajeros angélicos con la misma doble misión (anuncio e inminente destrucción de Sodoma).",
+          "diferencias": null,
+          "significado_teologico": "El episodio establece la hospitalidad hacia el extraño como virtud central de la ética bíblica, modelada directamente en la conducta de Abraham.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Abraham como modelo ético universal en las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Gén 18:1-15 (recepción patrística e iconográfica, notablemente el icono de la Trinidad de Rublev)",
+          "fuente_secundaria": "Padres de la Iglesia oriental (especialmente la tradición que da origen al icono de la 'Hospitalidad de Abraham')",
+          "descripcion": "Una corriente significativa de la tradición cristiana oriental lee los tres visitantes como prefiguración o manifestación velada de la Trinidad, interpretación que da origen a una de las imágenes iconográficas más célebres del arte cristiano oriental, aunque otras lecturas patrísticas los identifican simplemente como ángeles.",
+          "similitudes": "Comparte la base narrativa y el tema de la hospitalidad como virtud ejemplar.",
+          "diferencias": "La lectura trinitaria de los tres visitantes es una innovación específicamente cristiana, ausente tanto en la tradición judía como en la islámica, que los entienden como ángeles sin connotación trinitaria.",
+          "significado_teologico": "El episodio se convierte en figura visual y teológica de la Trinidad para una parte importante de la tradición cristiana, sin perder su sentido original de hospitalidad ejemplar.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Abraham como figura fundacional común a las tres religiones abrahámicas."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 11:69-73; 51:24-30",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre los huéspedes honorables de Ibrahim",
+          "descripcion": "El Corán narra el episodio de los huéspedes (mensajeros angélicos) de Ibrahim de manera muy similar al relato bíblico: reciben hospitalidad, anuncian el nacimiento de un hijo (Isaac) pese a la edad avanzada de Sara, quien también ríe o se sorprende, y revelan la misión de destruir el pueblo de Lot.",
+          "similitudes": "Estructura narrativa prácticamente idéntica al relato bíblico: hospitalidad, anuncio del nacimiento, reacción de la esposa, y revelación de la destrucción inminente de Sodoma.",
+          "diferencias": "El Corán no asocia el lugar específico con el nombre 'Mamre'; el relato se centra en la figura de Ibrahim sin desarrollar la topografía local del encinar.",
+          "significado_teologico": "El episodio confirma en la tradición islámica la veracidad de la promesa divina a Ibrahim y su papel como profeta hospitalario modelo para la comunidad creyente.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Ibrahim/Abraham como figura profética fundacional común a las tres religiones abrahámicas."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio"]
+}

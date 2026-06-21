@@ -1,0 +1,121 @@
+{
+  "id": "medeba",
+  "nombre": "Medeba",
+  "tipo": "ciudad",
+  "lat": 31.72045763248588,
+  "lng": 35.79197231962891,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista amorrea, asignada a Rubén" }
+  ],
+  "descripcion_geo": "Ciudad en el altiplano de Moab, al este del mar Muerto, capturada por Israel al reino amorreo de Sehón antes de la entrada a Canaán. Su posición en una meseta fértil la hacía un punto de disputa territorial recurrente entre Israel, Moab y Amón.",
+  "altitud_m": 760,
+  "clima": "Semiárido de altiplano — veranos secos y calurosos, inviernos fríos, propio de la meseta moabita.",
+  "recursos": [
+    "Tierras agrícolas de la meseta moabita",
+    "Posición disputada en la frontera entre Israel, Moab y Amón"
+  ],
+  "importancia_estrategica": "Medeba marca el límite norte del antiguo reino amorreo de Sehón conquistado por Israel, y aparece posteriormente como escenario de la primera batalla relevante de David contra una coalición de amonitas y sirios, antes de su consolidación como reino plenamente establecido sobre toda la región disputada.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_medeba",
+      "nombre": "Amorreos (reino de Sehón)",
+      "descripcion": "Población original bajo dominio de Sehón, rey amorreo cuyo territorio, incluyendo Medeba, es conquistado por Israel antes del cruce del Jordán.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "rubenitas_medeba",
+      "nombre": "Tribu de Rubén",
+      "descripcion": "Beneficiaria de la asignación territorial de Medeba tras la conquista amorrea, dentro del reparto de la Transjordania.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1400 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "medeba-territorio-ruben",
+      "titulo": "Medeba en el territorio de Rubén",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras la derrota de Sehón, el territorio que incluye la meseta de Medeba es asignado a la tribu de Rubén como parte de la posesión de la Transjordania anterior al cruce del Jordán.",
+      "referencias": ["Núm 21:30", "Jos 13:9", "Jos 13:16"],
+      "personajes_clave": []
+    },
+    {
+      "id": "batalla-amonitas-medeba",
+      "titulo": "Batalla de David contra amonitas y sirios cerca de Medeba",
+      "fecha": "c. 990 a.C.",
+      "descripcion": "Tras la humillación de los embajadores de David por Hanún, rey de los amonitas, estos contratan mercenarios sirios y se preparan para la guerra; Joab y Abisai derrotan a la coalición en una batalla que las crónicas sitúan en las cercanías de Medeba, frustrando la alianza arameo-amonita contra Israel.",
+      "referencias": ["1 Cr 19:6-15"],
+      "personajes_clave": ["david", "joab"]
+    },
+    {
+      "id": "isaias-oraculo-medeba",
+      "titulo": "Medeba en el oráculo de Isaías contra Moab",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El profeta Isaías incluye a Medeba entre las ciudades moabitas que serán afectadas por el juicio divino anunciado contra el reino de Moab, confirmando que para esa época la ciudad había vuelto a quedar bajo control o influencia moabita.",
+      "referencias": ["Is 15:2"],
+      "personajes_clave": ["isaias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "david_medeba",
+      "nombre": "David",
+      "emoji": "⚔️",
+      "rol": "Rey de Israel",
+      "periodo": "c. 990 a.C.",
+      "descripcion": "Envía a Joab y Abisai a enfrentar la coalición de amonitas y mercenarios sirios cerca de Medeba, en una de las campañas que consolidan su control sobre la Transjordania frente a las potencias regionales vecinas.",
+      "referencias": ["1 Cr 19:1-15"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "joab_medeba",
+      "nombre": "Joab",
+      "emoji": "🛡️",
+      "rol": "General del ejército de David",
+      "periodo": "c. 990 a.C.",
+      "descripcion": "Dirige personalmente la batalla contra la coalición de amonitas y sirios cerca de Medeba, dividiendo sus fuerzas estratégicamente entre él mismo y su hermano Abisai para enfrentar el ataque por dos frentes simultáneos.",
+      "referencias": ["1 Cr 19:9-15"],
+      "ruta": ["medeba"]
+    },
+    {
+      "id": "hanun_medeba",
+      "nombre": "Hanún, rey de Amón",
+      "emoji": "👑",
+      "rol": "Rey amonita, instigador del conflicto",
+      "periodo": "c. 990 a.C.",
+      "descripcion": "Humilla a los embajadores de David enviados en gesto de condolencia, desencadenando la guerra que culmina en la batalla cerca de Medeba y la posterior campaña de sometimiento de Amón.",
+      "referencias": ["1 Cr 19:1-6"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Medeba no tiene tradición de culto propia destacada en el texto bíblico; su importancia es geopolítica, marcando los sucesivos cambios de control entre Israel, los amorreos, Amón y Moab a lo largo de varios siglos. Su mención tanto en el contexto de la conquista mosaica como en las campañas davídicas y los oráculos proféticos posteriores la convierte en testigo silencioso de la inestabilidad fronteriza constante de la Transjordania.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo amorreo (sustrato original)",
+      "Politeísmo amonita y moabita (control posterior intermitente)"
+    ],
+    "mitos": [
+      {
+        "id": "frontera-disputada-medeba",
+        "nombre": "Medeba como territorio de frontera disputada",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 21:30; 1 Cr 19:6-15; Is 15:2",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la naturaleza cambiante de las fronteras de la Transjordania como recordatorio de la necesidad de vigilancia continua sobre el territorio asignado",
+          "descripcion": "La tradición judía observa que la mención repetida de Medeba bajo distintos controles políticos a lo largo de los siglos —amorreo, israelita, moabita— refleja la fragilidad de la posesión territorial en las regiones fronterizas y la necesidad constante de fidelidad y vigilancia para mantener lo recibido como herencia.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La inestabilidad territorial de Medeba sirve como recordatorio de que la posesión de la tierra requiere fidelidad continua, no solo conquista inicial.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

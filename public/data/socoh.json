@@ -1,0 +1,138 @@
+{
+  "id": "socoh",
+  "nombre": "Soco",
+  "tipo": "ciudad",
+  "lat": 31.68123465358001,
+  "lng": 34.97639817516712,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento filisteo, batalla de David y Goliat" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Distrito administrativo salomónico" }
+  ],
+  "descripcion_geo": "Ciudad en la Sefelá occidental de Judá, en el valle de Elá, próxima a Azeca, en la posición donde el ejército filisteo acampó frente a las fuerzas israelitas en el episodio del enfrentamiento entre David y Goliat.",
+  "altitud_m": 360,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá occidental.",
+  "recursos": [
+    "Tierras agrícolas del valle de Elá",
+    "Posición estratégica en el valle disputado entre Israel y Filistea",
+    "Integrada al sistema administrativo salomónico"
+  ],
+  "importancia_estrategica": "Soco marca, junto con Azeca, los límites del campamento filisteo en el episodio de David y Goliat, uno de los relatos más célebres del Antiguo Testamento; siglos después, bajo Salomón, la ciudad se integra como parte de un distrito administrativo del reino, reflejando la consolidación territorial posterior de la monarquía unida sobre una zona que en tiempos de Saúl era todavía terreno disputado con los filisteos.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos_socoh",
+      "nombre": "Ejército filisteo",
+      "descripcion": "Fuerzas filisteas que acampan entre Soco y Azeca para enfrentar al ejército israelita en el valle de Elá, incluyendo al campeón Goliat de Gat.",
+      "religion": "Politeísmo filisteo — culto a Dagón",
+      "periodo": "c. 1020 a.C."
+    },
+    {
+      "id": "judaitas_socoh",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Población judaíta de Soco, ciudad integrada posteriormente en el sistema administrativo de distritos de Salomón.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "campamento-filisteo-socoh",
+      "titulo": "El ejército filisteo acampa en Soco",
+      "fecha": "c. 1020 a.C.",
+      "descripcion": "Los filisteos reúnen sus ejércitos para la batalla en Soco, perteneciente a Judá, y acampan entre Soco y Azeca, en Efes-damim, mientras Saúl y los hombres de Israel acampan en el valle de Elá frente a ellos.",
+      "referencias": ["1 Sam 17:1-3"],
+      "personajes_clave": []
+    },
+    {
+      "id": "goliat-desafio-socoh",
+      "titulo": "Goliat lanza su desafío desde el campamento de Soco",
+      "fecha": "c. 1020 a.C.",
+      "descripcion": "Durante cuarenta días, el campeón filisteo Goliat de Gat sale del campamento situado en Soco para desafiar a un combatiente israelita en duelo singular, desafío que ningún soldado de Saúl se atreve a aceptar hasta la llegada de David.",
+      "referencias": ["1 Sam 17:4-11", "1 Sam 17:16"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "socoh-distrito-salomon",
+      "titulo": "Soco en el distrito administrativo de Ben-Heser",
+      "fecha": "c. 970–931 a.C.",
+      "descripcion": "Salomón organiza el reino en doce distritos administrativos; Soco se integra en uno de ellos bajo la responsabilidad de Ben-Heser, encargado del abastecimiento mensual de la corte real.",
+      "referencias": ["1 Re 4:10"],
+      "personajes_clave": ["salomon"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "goliat_socoh",
+      "nombre": "Goliat de Gat",
+      "emoji": "🛡️",
+      "rol": "Campeón del ejército filisteo",
+      "periodo": "c. 1020 a.C.",
+      "descripcion": "Gigante guerrero filisteo que desafía durante cuarenta días al ejército israelita desde el campamento situado entre Soco y Azeca, hasta ser derrotado por David con una honda.",
+      "referencias": ["1 Sam 17:4-51"],
+      "ruta": ["socoh"]
+    },
+    {
+      "id": "david_socoh",
+      "nombre": "David",
+      "emoji": "🪨",
+      "rol": "Joven pastor, futuro rey de Israel",
+      "periodo": "c. 1020 a.C.",
+      "descripcion": "Llega al campamento israelita frente a Soco enviado por su padre Isaí a llevar provisiones a sus hermanos, y allí acepta el desafío de Goliat que nadie más se atrevía a enfrentar.",
+      "referencias": ["1 Sam 17:12-51"],
+      "ruta": ["belen", "socoh"]
+    },
+    {
+      "id": "ben_heser_socoh",
+      "nombre": "Ben-Heser",
+      "emoji": "📋",
+      "rol": "Funcionario administrativo del distrito de Soco",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Responsable del distrito administrativo salomónico que incluía Soco, encargado de organizar el abastecimiento mensual de la corte real.",
+      "referencias": ["1 Re 4:10"],
+      "ruta": ["socoh"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Soco es el escenario de fondo de uno de los relatos más conocidos del Antiguo Testamento, en el que David, antes de ser ungido públicamente como sucesor de Saúl, demuestra que la victoria depende de la confianza en YHWH y no del armamento convencional: enfrenta a Goliat declarando explícitamente que la batalla pertenece a YHWH. El episodio funciona como anticipo narrativo de toda la teología davídica posterior sobre la fuerza que proviene de la fe y no del poder militar bruto.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo filisteo — culto a Dagón"
+    ],
+    "mitos": [
+      {
+        "id": "david-goliat-mito",
+        "nombre": "David y Goliat: la fe frente a la fuerza bruta",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 17:1-58",
+          "fuente_secundaria": "Midrash y comentario rabínico tradicional sobre la declaración de David ('Tú vienes a mí con espada... mas yo vengo a ti en el nombre de YHWH') como fórmula paradigmática de confianza",
+          "descripcion": "La tradición rabínica desarrolla extensamente el episodio como demostración de que la verdadera fuerza de Israel reside en la fidelidad a YHWH y no en el armamento o la estatura física, convirtiendo a David en modelo eterno del 'pequeño' que vence al 'grande' mediante la fe y la astucia puestas al servicio de la confianza divina.",
+          "similitudes": "Comparte con cristianismo e islam el reconocimiento del episodio como demostración del poder divino sobre la fuerza humana.",
+          "diferencias": null,
+          "significado_teologico": "La victoria de David confirma que YHWH salva no con espada ni lanza, sino según su propia voluntad, independientemente de la disparidad de fuerzas.",
+          "posible_relacion_cultural": "Tradición compartida del ciclo de David como figura central de la historia sagrada en las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 17:1-58 (recepción patrística y popular como arquetipo del débil que vence al fuerte mediante la fe)",
+          "fuente_secundaria": "Comentarios patrísticos y tradición iconográfica cristiana que retoman a David como tipo de Cristo venciendo al poder del mal",
+          "descripcion": "La tradición cristiana popular y patrística convierte el episodio en arquetipo universal de la fe que vence a la fuerza bruta, y en algunas lecturas tipológicas ve en David un anticipo de Cristo venciendo al poder del pecado y la muerte representados simbólicamente por Goliat.",
+          "similitudes": "Comparte la lectura central del episodio como triunfo de la fe sobre la fuerza material.",
+          "diferencias": "La lectura tipológica cristológica de David como prefiguración de Cristo es una adición específicamente cristiana ausente en la lectura judía e islámica.",
+          "significado_teologico": "El relato se convierte en figura general de la victoria de la fe y la humildad sobre el poder y la soberbia, aplicable tanto histórica como tipológicamente.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 2:249-251 (relato de Talut/Saúl y Jalut/Goliat)",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre la batalla de Talut contra Jalut y la victoria de Dawud (David)",
+          "descripcion": "El Corán narra una versión paralela del episodio en el contexto del ejército de Talut (identificado con Saúl): tras la prueba del río, un pequeño grupo de fieles enfrenta al ejército de Jalut (Goliat), y es Dawud quien finalmente lo mata, victoria atribuida explícitamente al permiso y voluntad de Dios sobre la cantidad de combatientes.",
+          "similitudes": "Comparte la estructura esencial del relato: un ejército numéricamente inferior pero fiel vence a una fuerza superior gracias a la intervención divina, con Dawud como instrumento de la victoria final.",
+          "diferencias": "El relato coránico enmarca el episodio dentro de la narrativa más amplia de la prueba del río con Talut, ausente en el relato bíblico, y omite la topografía específica de Soco y el valle de Elá.",
+          "significado_teologico": "El Corán usa el episodio para enseñar que la victoria depende del permiso divino y no del número de combatientes, citando explícitamente '¡Cuántas veces, con la voluntad de Dios, una tropa pequeña venció a una grande!'",
+          "posible_relacion_cultural": "Tradición compartida del ciclo de Dawud/David como figura profética y guerrera común a judaísmo, cristianismo e islam."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "dibon",
+  "nombre": "Dibón",
+  "tipo": "ciudad",
+  "lat": 31.49684513710609,
+  "lng": 35.78284105296996,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista a Sehón, asignada a Gad" }
+  ],
+  "descripcion_geo": "Ciudad principal del altiplano moabita, capital posterior del reino de Moab bajo el rey Mesa, situada en una posición elevada que dominaba la meseta entre el río Arnón y el territorio amorreo conquistado por Israel. Una de las ciudades más documentadas arqueológica y epigráficamente de toda la región transjordana.",
+  "altitud_m": 700,
+  "clima": "Semiárido de altiplano — veranos secos y calurosos, inviernos fríos, propio de la meseta moabita.",
+  "recursos": [
+    "Tierras agrícolas de la meseta moabita",
+    "Posición dominante sobre el valle del Arnón",
+    "Capital administrativa y religiosa moabita en su época de apogeo"
+  ],
+  "importancia_estrategica": "Dibón es, junto con Medeba y Baal-meón, una de las ciudades más documentadas del conflicto territorial entre Israel y Moab: conquistada inicialmente a Sehón y asignada a Gad, se convierte siglos después en la capital del rey Mesa de Moab, autor de la célebre Estela de Mesa, hallada precisamente en este lugar en 1868, uno de los testimonios extrabíblicos más importantes de la historia de Israel.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_dibon",
+      "nombre": "Amorreos (reino de Sehón)",
+      "descripcion": "Población original bajo dominio de Sehón antes de la conquista israelita; Dibón aparece en el antiguo cántico citado en Números como una de las ciudades que Sehón había tomado previamente de Moab.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "moabitas_dibon",
+      "nombre": "Moabitas",
+      "descripcion": "Población que recupera Dibón y la convierte en capital del reino bajo el rey Mesa, quien erige allí la estela conmemorativa de su victoria sobre Israel.",
+      "religion": "Politeísmo moabita — culto a Quemos",
+      "periodo": "Desde c. 850 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "dibon-conquista-sehon-gad",
+      "titulo": "Dibón conquistada a Sehón y asignada a Gad",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras derrotar a Sehón, rey amorreo que previamente había tomado Dibón de Moab, Israel ocupa la ciudad y la reconstruye, asignándola posteriormente a la tribu de Gad dentro del reparto de la Transjordania.",
+      "referencias": ["Núm 21:25-30", "Núm 32:34", "Jos 13:9"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "mesa-rebelion-dibon",
+      "titulo": "Mesa de Moab se rebela y erige su estela en Dibón",
+      "fecha": "c. 850–840 a.C.",
+      "descripcion": "Tras la muerte de Acab, Mesa, rey de Moab, se rebela contra el tributo impuesto por Israel; la campaña conjunta de Israel, Judá y Edom contra Moab se narra en 2 Reyes 3, y el propio Mesa conmemora su versión de los hechos —incluyendo la reconstrucción de Dibón como su capital— en la célebre Estela de Mesa, hallada en el sitio en 1868.",
+      "referencias": ["2 Re 3:4-27"],
+      "personajes_clave": []
+    },
+    {
+      "id": "isaias-jeremias-oraculo-dibon",
+      "titulo": "Dibón en los oráculos proféticos de juicio contra Moab",
+      "fecha": "c. 740–600 a.C.",
+      "descripcion": "Tanto Isaías como Jeremías mencionan a Dibón en sus extensos oráculos de juicio contra Moab, describiendo el llanto y la destrucción que sobrevendrán sobre la que para entonces era ya la ciudad más importante del reino moabita.",
+      "referencias": ["Is 15:2", "Jer 48:18-22"],
+      "personajes_clave": ["isaias", "jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_dibon",
+      "nombre": "Moisés",
+      "emoji": "🏗️",
+      "rol": "Líder de Israel, organizador de la conquista de la Transjordania",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Dirige la conquista del territorio de Sehón que incluye Dibón, ciudad posteriormente reconstruida y asignada a la tribu de Gad.",
+      "referencias": ["Núm 21:21-30", "Núm 32:34"],
+      "ruta": ["dibon"]
+    },
+    {
+      "id": "mesa_rey_moab_dibon",
+      "nombre": "Mesa, rey de Moab",
+      "emoji": "🪨",
+      "rol": "Rey moabita, autor de la Estela de Mesa",
+      "periodo": "c. 850–840 a.C.",
+      "descripcion": "Convierte Dibón en capital de su reino tras rebelarse contra el tributo israelita, conmemorando su versión de la victoria en una inscripción monumental que constituye uno de los testimonios extrabíblicos más extensos sobre el conflicto entre Israel y sus vecinos.",
+      "referencias": ["2 Re 3:4-27 (contexto histórico)"],
+      "ruta": ["dibon"]
+    },
+    {
+      "id": "joram_dibon",
+      "nombre": "Joram de Israel",
+      "emoji": "⚔️",
+      "rol": "Rey de Israel, líder de la campaña contra Moab",
+      "periodo": "c. 850 a.C.",
+      "descripcion": "Dirige, junto a Josafat de Judá y el rey de Edom, la campaña militar contra la rebelión de Mesa de Moab, episodio narrado en 2 Reyes 3 que constituye el trasfondo histórico de los eventos conmemorados en la Estela de Mesa hallada en Dibón.",
+      "referencias": ["2 Re 3:6-27"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Dibón representa uno de los puntos de mayor convergencia entre el relato bíblico y la evidencia arqueológica extrabíblica de todo el Antiguo Testamento: la Estela de Mesa, hallada en el propio sitio, ofrece una perspectiva moabita independiente sobre el mismo conflicto narrado en 2 Reyes 3, incluyendo referencias directas a YHWH como divinidad de Israel desde la perspectiva de un enemigo. Esta doble documentación —bíblica y epigráfica moabita— convierte a Dibón en testigo material excepcional de la historicidad del marco geopolítico de la monarquía dividida.",
+    "religiones_presentes": [
+      "Yahvismo (período de control gadita)",
+      "Politeísmo amorreo (sustrato original)",
+      "Politeísmo moabita — culto a Quemos"
+    ],
+    "mitos": [
+      {
+        "id": "estela-mesa-testimonio-dibon",
+        "nombre": "La Estela de Mesa como testimonio moabita independiente",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Re 3:4-27",
+          "fuente_secundaria": "Estela de Mesa (c. 840 a.C., Museo del Louvre), inscripción que menciona explícitamente a YHWH y narra la perspectiva moabita del conflicto con Israel",
+          "descripcion": "La tradición académica judía moderna considera la Estela de Mesa, hallada en Dibón, uno de los hallazgos arqueológicos más significativos para la historia bíblica, al ofrecer una confirmación extrabíblica independiente —desde la perspectiva del enemigo de Israel— tanto de la existencia del conflicto narrado en 2 Reyes 3 como de la mención más antigua conocida fuera de la Biblia del nombre divino YHWH.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El testimonio epigráfico moabita, aunque hostil a Israel, confirma indirectamente la centralidad histórica de YHWH como divinidad reconocida incluso por los enemigos de Israel en el registro extrabíblico.",
+          "posible_relacion_cultural": "Convergencia documentada entre la tradición textual bíblica y el registro epigráfico moabita independiente, incluyendo la mención extrabíblica más temprana conocida del nombre divino YHWH."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

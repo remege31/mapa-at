@@ -1,0 +1,139 @@
+{
+  "id": "most_holy_place",
+  "nombre": "Lugar Santísimo",
+  "tipo": "territorio",
+  "lat": 31.777444,
+  "lng": 35.234935,
+  "frecuencia_at": 11,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Coordenadas genéricas de Jerusalén — espacio interior del Tabernáculo y, después, del Templo, no una ubicación geográfica independiente.",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Cámara interior del Tabernáculo móvil" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Cámara interior del Templo de Salomón" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Cámara interior del Segundo Templo" }
+  ],
+  "descripcion_geo": "Espacio cúbico más interno del Tabernáculo y, posteriormente, del Templo de Jerusalén, separado del resto del santuario por un velo. En el Tabernáculo del desierto y el Templo de Salomón albergaba el Arca de la Alianza entre los querubines; tras la pérdida del Arca en la destrucción babilónica, el Lugar Santísimo del Segundo Templo permaneció vacío, marcado únicamente por una piedra (la 'piedra de fundación').",
+  "altitud_m": "Interior del Templo, Monte Moria, c. 740",
+  "clima": "Mediterráneo de montaña — el de Jerusalén; el espacio interior carecía de ventilación o luz natural, iluminado únicamente de forma indirecta.",
+  "recursos": [
+    "Arca de la Alianza (Tabernáculo y Primer Templo)",
+    "Querubines de oro batido",
+    "Velo de separación del resto del santuario"
+  ],
+  "importancia_estrategica": "El Lugar Santísimo no tiene relevancia militar o económica, pero constituye el centro simbólico absoluto del culto yahvista: el punto de máxima cercanía ritual entre Israel y la presencia de YHWH, accesible solo al sumo sacerdote, solo una vez al año, en el Día de la Expiación. Su existencia estructura todo el sistema sacrificial y de pureza ritual del Antiguo Testamento.",
+  "otros_habitantes": [
+    {
+      "id": "sumo_sacerdote_lugar_santisimo",
+      "nombre": "Sumo sacerdote",
+      "descripcion": "Único ser humano autorizado a entrar al Lugar Santísimo, y solo una vez al año, en Yom Kipur, tras un elaborado proceso de purificación ritual y portando incienso y la sangre del sacrificio expiatorio.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1400 a.C. (Tabernáculo) hasta 70 d.C. (destrucción del Segundo Templo)"
+    },
+    {
+      "id": "levitas_lugar_santisimo",
+      "nombre": "Levitas",
+      "descripcion": "Tribu sacerdotal encargada del cuidado, transporte (durante el período del Tabernáculo) y mantenimiento general del santuario, sin acceso directo al Lugar Santísimo, reservado exclusivamente al sumo sacerdote.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1400 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "instrucciones-tabernaculo-lugar-santisimo",
+      "titulo": "Instrucciones divinas para el Lugar Santísimo del Tabernáculo",
+      "fecha": "c. 1400 a.C. (narrativa del Sinaí)",
+      "descripcion": "YHWH instruye a Moisés en el Sinaí sobre las dimensiones exactas y el mobiliario del Lugar Santísimo del Tabernáculo: un cubo de diez codos por lado, separado por un velo, destinado a albergar el Arca de la Alianza bajo las alas de dos querubines de oro.",
+      "referencias": ["Éx 26:31-34", "Éx 25:10-22"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "dedicacion-templo-salomon-lugar-santisimo",
+      "titulo": "Salomón introduce el Arca en el Lugar Santísimo del Templo",
+      "fecha": "c. 960 a.C.",
+      "descripcion": "En la dedicación del Templo, los sacerdotes introducen el Arca de la Alianza en el Lugar Santísimo bajo las alas de los dos grandes querubines de madera de olivo recubiertos de oro; la gloria de YHWH llena el Templo en forma de nube hasta el punto de que los sacerdotes no pueden permanecer para ministrar.",
+      "referencias": ["1 Re 8:1-11", "2 Cr 5:2-14"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "yom-kipur-lugar-santisimo",
+      "titulo": "El ritual del Día de la Expiación en el Lugar Santísimo",
+      "fecha": "Instituido c. 1400 a.C., observancia anual continua",
+      "descripcion": "Una vez al año, en Yom Kipur, el sumo sacerdote entra al Lugar Santísimo llevando incienso y la sangre del sacrificio expiatorio para rociarla sobre el propiciatorio, en el único acto ritual del calendario israelita que permite el acceso humano directo a ese espacio.",
+      "referencias": ["Lev 16:2-17"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_lugar_santisimo",
+      "nombre": "Moisés",
+      "emoji": "📜",
+      "rol": "Legislador, receptor de las instrucciones del Tabernáculo",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Recibe en el monte Sinaí las instrucciones detalladas de YHWH para la construcción del Tabernáculo, incluyendo las especificaciones exactas del Lugar Santísimo y el Arca de la Alianza.",
+      "referencias": ["Éx 25:1-22", "Éx 26:31-34"],
+      "ruta": ["sinai"]
+    },
+    {
+      "id": "salomon_lugar_santisimo",
+      "nombre": "Salomón",
+      "emoji": "👑",
+      "rol": "Rey de Israel, constructor del Templo",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Dirige la dedicación del Templo y la introducción solemne del Arca de la Alianza en el Lugar Santísimo, momento en que la gloria de YHWH se manifiesta como nube que llena todo el edificio.",
+      "referencias": ["1 Re 8:1-66"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "sumo_sacerdote_yom_kipur",
+      "nombre": "Sumo sacerdote (oficio)",
+      "emoji": "🕯️",
+      "rol": "Único mediador autorizado a entrar al Lugar Santísimo",
+      "periodo": "Institución continua, c. 1400 a.C.–70 d.C.",
+      "descripcion": "Figura sacerdotal cuya función central es representar simbólicamente a todo Israel en el único acceso ritual permitido al espacio de máxima santidad, una vez al año, en el Día de la Expiación.",
+      "referencias": ["Lev 16:2-34"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El Lugar Santísimo es el centro absoluto del sistema teológico y ritual del Antiguo Testamento: el punto donde la trascendencia de YHWH se concentra de manera más intensa y, a la vez, más restringida. Su arquitectura de exclusión progresiva —atrio, lugar santo, lugar santísimo— traduce espacialmente la teología de la santidad divina y la necesidad de mediación sacerdotal. La pérdida del Arca tras la destrucción babilónica deja el Lugar Santísimo del Segundo Templo vacío, transformando el espacio de morada de un objeto sagrado a símbolo puro de presencia sin representación física.",
+    "religiones_presentes": [
+      "Yahvismo (centro absoluto del sistema cúltico y sacrificial)"
+    ],
+    "mitos": [
+      {
+        "id": "arca-alianza-lugar-santisimo",
+        "nombre": "El Arca de la Alianza y la presencia divina en el Lugar Santísimo",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Éx 25:10-22; 1 Re 8:1-11; Lev 16:2-17",
+          "fuente_secundaria": "Mishná, tratado Yoma (descripción detallada del ritual de Yom Kipur); Talmud Babilónico, Yoma 21b (sobre la desaparición del Arca)",
+          "descripcion": "La tradición rabínica desarrolla extensamente el ritual de Yom Kipur y discute el destino del Arca tras la destrucción del Primer Templo, con tradiciones que sugieren que fue escondida por el rey Josías o el profeta Jeremías antes de la conquista babilónica, y que permanecerá oculta hasta una restauración futura.",
+          "similitudes": "Concepción compartida de un espacio sagrado central inaccesible salvo mediación ritual especial.",
+          "diferencias": null,
+          "significado_teologico": "El Lugar Santísimo representa el punto de contacto más cercano entre la santidad trascendente de Dios y la existencia humana, mediado exclusivamente por el oficio sacerdotal.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Heb 9:1-12 (lectura tipológica neotestamentaria del Lugar Santísimo)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la Carta a los Hebreos y el velo rasgado en la crucifixión (Mt 27:51)",
+          "descripcion": "La Carta a los Hebreos relee el Lugar Santísimo terrenal como figura imperfecta de un santuario celestial definitivo, al que Cristo accede de una vez para siempre mediante su propia sangre; el relato sinóptico del velo del Templo rasgándose en el momento de la crucifixión se interpreta como apertura simbólica del acceso directo a la presencia divina.",
+          "similitudes": "Comparte la estructura conceptual de un espacio de máxima santidad accesible solo mediante sacrificio y mediación sacerdotal.",
+          "diferencias": "La lectura cristiana desplaza el cumplimiento del sistema ritual del Lugar Santísimo terrenal hacia una realidad celestial definitiva mediada por Cristo, declarando superado el sistema sacrificial levítico repetido anualmente.",
+          "significado_teologico": "El velo rasgado simboliza el fin de la separación ritual entre Dios y los creyentes, sustituyendo el acceso restringido del sumo sacerdote por un acceso directo mediado por Cristo.",
+          "posible_relacion_cultural": "Tradición compartida del Templo de Jerusalén y su arquitectura sagrada como trasfondo común a judaísmo y cristianismo primitivo."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 17:1 (referencia a 'la Mezquita Lejana', al-Masjid al-Aqsa, identificada tradicionalmente con el monte del Templo)",
+          "fuente_secundaria": "Tafsir Ibn Kathir sobre el viaje nocturno (Isra) y la ascensión (Mi'raj)",
+          "descripcion": "La tradición islámica vincula el monte del Templo —emplazamiento histórico del Lugar Santísimo— con el relato del viaje nocturno del profeta Muhammad, sin desarrollar una doctrina propia sobre el Arca o el Lugar Santísimo en sí, pero reconociendo la santidad histórica del lugar como sitio de profetas anteriores.",
+          "similitudes": "Reconocimiento compartido de la santidad excepcional del emplazamiento del Templo de Jerusalén.",
+          "diferencias": "El islam no desarrolla el concepto específico del Lugar Santísimo ni del Arca de la Alianza como elementos centrales de su propia teología; la referencia coránica se centra en el monte del Templo como destino del viaje nocturno, no en la arquitectura interior del santuario israelita.",
+          "significado_teologico": "El lugar se integra en la cadena de santidad profética reconocida por el islam, vinculando a Jerusalén con la tradición abrahámica común sin adoptar el sistema ritual levítico.",
+          "posible_relacion_cultural": "Reconocimiento compartido de Jerusalén y el monte del Templo como lugar de revelación divina en la tradición abrahámica."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio", "hierro_2", "post_exilio"]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "libya",
+  "nombre": "Libia",
+  "tipo": "territorio",
+  "lat": 32.824979,
+  "lng": 21.858301,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Aliados de Egipto en los oráculos proféticos" }
+  ],
+  "descripcion_geo": "Región del norte de África al oeste de Egipto, mencionada en el texto bíblico bajo el nombre de 'Fut' o 'Put' en algunos pasajes y 'Lubim' (libios) en otros, conocida principalmente como pueblo aliado militarmente de Egipto en distintos episodios bélicos.",
+  "altitud_m": 200,
+  "clima": "Desértico mediterráneo — extremadamente seco y caluroso, propio del norte de África occidental a Egipto.",
+  "recursos": [
+    "Tropas mercenarias y aliadas para Egipto",
+    "Posición estratégica como aliado occidental del poder egipcio"
+  ],
+  "importancia_estrategica": "Libia aparece consistentemente en el texto bíblico como aliado militar de Egipto, proporcionando tropas tanto para la defensa de Tebas mencionada por Nahúm como para las campañas del faraón Sisac contra Roboam de Judá, ilustrando la red de alianzas africanas que sostenían el poder militar egipcio durante buena parte del período de la monarquía israelita.",
+  "otros_habitantes": [
+    {
+      "id": "libios_ejercito_sisac",
+      "nombre": "Tropas libias del ejército de Sisac",
+      "descripcion": "Contingente militar libio integrado en el ejército invasor del faraón Sisac que ataca Jerusalén durante el reinado de Roboam.",
+      "religion": "Religiones politeístas norteafricanas",
+      "periodo": "c. 925 a.C."
+    },
+    {
+      "id": "libios_aliados_tebas",
+      "nombre": "Aliados militares libios de Tebas",
+      "descripcion": "Fuerzas libias mencionadas por Nahúm entre los aliados militares de Tebas que, pese a su fuerza combinada, no lograron evitar la destrucción de la ciudad ante los asirios.",
+      "religion": "Religiones politeístas norteafricanas",
+      "periodo": "c. 663 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "sisac-tropas-libias-jerusalen",
+      "titulo": "Tropas libias en la invasión de Sisac contra Roboam",
+      "fecha": "c. 925 a.C.",
+      "descripcion": "El faraón Sisac invade Judá durante el reinado de Roboam con un ejército masivo que incluye carros, jinetes y un pueblo innumerable de egipcios, libios, suquienos y etíopes, saqueando los tesoros del Templo y del palacio real como castigo por el abandono de la Ley de YHWH.",
+      "referencias": ["2 Cr 12:2-9"],
+      "personajes_clave": ["roboam"]
+    },
+    {
+      "id": "nahum-libios-tebas",
+      "titulo": "Nahúm menciona a los libios como aliados de la destruida Tebas",
+      "fecha": "c. 663–612 a.C.",
+      "descripcion": "El profeta Nahúm, recordando la caída de Tebas como advertencia para Nínive, menciona específicamente a los libios entre los aliados militares de la ciudad egipcia, cuya fuerza combinada con Cus y Put no impidió finalmente su destrucción.",
+      "referencias": ["Nah 3:9"],
+      "personajes_clave": ["nahum"]
+    },
+    {
+      "id": "ezequiel-libia-juicio-egipto",
+      "titulo": "Ezequiel incluye a Libia en el juicio sobre los aliados de Egipto",
+      "fecha": "c. 587 a.C.",
+      "descripcion": "El profeta Ezequiel menciona a Fut (Libia) y Lud entre los pueblos aliados que caerán a espada junto con Egipto en el día del juicio divino anunciado contra esta gran potencia y sus naciones asociadas.",
+      "referencias": ["Ez 30:5"],
+      "personajes_clave": ["ezequiel"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "sisac_libia",
+      "nombre": "Sisac, faraón de Egipto",
+      "emoji": "⚔️",
+      "rol": "Líder de la coalición invasora que incluye tropas libias",
+      "periodo": "c. 925 a.C.",
+      "descripcion": "Dirige una invasión masiva contra Judá que incluye contingentes libios entre sus fuerzas multinacionales, saqueando Jerusalén durante el reinado de Roboam.",
+      "referencias": ["2 Cr 12:2-9"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "nahum_libia",
+      "nombre": "Nahúm",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 663–612 a.C.",
+      "descripcion": "Cita a los aliados libios de Tebas como parte del argumento histórico de que ni siquiera las alianzas militares más extensas pudieron salvar a la ciudad egipcia de su destrucción final.",
+      "referencias": ["Nah 3:8-10"],
+      "ruta": []
+    },
+    {
+      "id": "roboam_libia",
+      "nombre": "Roboam",
+      "emoji": "📉",
+      "rol": "Rey de Judá, víctima de la invasión con tropas libias",
+      "periodo": "c. 931–913 a.C.",
+      "descripcion": "Sufre el saqueo de Jerusalén por el ejército multinacional de Sisac que incluye contingentes libios, episodio presentado como castigo divino por el abandono de la Ley.",
+      "referencias": ["2 Cr 12:1-9"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Libia aparece consistentemente en el corpus bíblico no como protagonista propio sino como elemento de la red de alianzas militares que sostenía el poder egipcio en distintos momentos históricos, desde la invasión de Sisac hasta la defensa fallida de Tebas; su inclusión en los oráculos proféticos de juicio contra Egipto y sus aliados refuerza la idea bíblica de que el juicio divino alcanza no solo a la potencia principal sino también a toda la red de naciones que sustentan su poder militar.",
+    "religiones_presentes": [
+      "Religiones politeístas norteafricanas",
+      "Yahvismo (perspectiva de los oráculos proféticos)"
+    ],
+    "mitos": [
+      {
+        "id": "alianzas-africanas-egipto-libia",
+        "nombre": "Las alianzas militares africanas de Egipto como objeto de juicio conjunto",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Cr 12:2-9; Nah 3:9; Ez 30:5",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la red de alianzas militares de Egipto con pueblos africanos como Libia, Cus y Put como ejemplo de poder humano construido sobre alianzas extensas pero finalmente insuficientes frente al juicio divino",
+          "descripcion": "La tradición judía observa que la mención reiterada de Libia y otros aliados africanos de Egipto en distintos contextos bíblicos —desde la invasión exitosa de Sisac hasta la caída final de Tebas— ilustra cómo el poder humano, por extensas que sean sus alianzas militares, no puede sostenerse indefinidamente frente al designio divino, principio aplicable tanto a las naciones paganas como, implícitamente, como advertencia para Judá sobre la futilidad de depositar confianza última en alianzas militares humanas en lugar de en YHWH.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La red de alianzas militares de Egipto con pueblos como Libia ejemplifica los límites del poder humano organizado frente al juicio soberano de YHWH sobre las naciones.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

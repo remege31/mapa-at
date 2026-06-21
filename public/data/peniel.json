@@ -1,0 +1,127 @@
+{
+  "id": "peniel",
+  "nombre": "Penuel",
+  "tipo": "ciudad",
+  "lat": 32.1843727808126,
+  "lng": 35.70287002746794,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Lugar de la lucha de Jacob, destruida por Gedeón" }
+  ],
+  "descripcion_geo": "Lugar junto al Jaboc, en Galaad, cuyo nombre ('rostro de Dios') conmemora directamente la declaración de Jacob tras su lucha nocturna: 'he visto a Dios cara a cara, y fue librada mi alma'. Posteriormente se convierte en ciudad fortificada con una torre defensiva.",
+  "altitud_m": 250,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de la región de Galaad.",
+  "recursos": [
+    "Lugar conmemorativo de la teofanía de Jacob",
+    "Torre fortificada (mencionada en el episodio de Gedeón)"
+  ],
+  "importancia_estrategica": "Penuel es, ante todo, el lugar donde Jacob recibe directamente la confirmación teofánica de su encuentro nocturno con lo divino; siglos después, su negativa a apoyar a Gedeón durante la persecución de los reyes madianitas —en paralelo exacto con Sucot— resulta en la destrucción de su torre fortificada como castigo ejemplar por la misma falta de solidaridad tribal.",
+  "otros_habitantes": [
+    {
+      "id": "habitantes_peniel_gedeon",
+      "nombre": "Hombres de Penuel",
+      "descripcion": "Población local que, al igual que los de Sucot, rechaza proveer ayuda a las tropas de Gedeón durante su persecución de los reyes madianitas, provocando la destrucción posterior de su torre.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1130 a.C."
+    },
+    {
+      "id": "gaditas_peniel",
+      "nombre": "Tribu de Gad",
+      "descripcion": "Población israelita asentada en la región de Penuel dentro del territorio asignado a Gad en la Transjordania.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "jacob-nombra-peniel",
+      "titulo": "Jacob nombra el lugar Penuel tras ver a Dios cara a cara",
+      "fecha": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Inmediatamente después de su lucha nocturna y de recibir el nombre Israel, Jacob nombra el lugar Penuel, declarando haber visto a Dios cara a cara y haber sobrevivido a la experiencia, mientras el sol se levanta sobre él al cruzar el lugar cojeando por la herida en su muslo.",
+      "referencias": ["Gén 32:30-31"],
+      "personajes_clave": ["jacob"]
+    },
+    {
+      "id": "penuel-rechaza-gedeon",
+      "titulo": "Penuel rechaza ayudar a Gedeón",
+      "fecha": "c. 1130 a.C.",
+      "descripcion": "Al igual que Sucot, los hombres de Penuel se niegan a proveer pan a las tropas exhaustas de Gedeón durante la persecución de Zeba y Zalmuna, respondiendo con la misma actitud despectiva que sus vecinos de Sucot.",
+      "referencias": ["Jue 8:8-9"],
+      "personajes_clave": ["gedeon"]
+    },
+    {
+      "id": "gedeon-destruye-torre-peniel",
+      "titulo": "Gedeón destruye la torre de Penuel",
+      "fecha": "c. 1130 a.C.",
+      "descripcion": "Tras su victoria sobre los reyes madianitas, Gedeón regresa a Penuel y, cumpliendo su advertencia previa, derriba la torre fortificada de la ciudad y mata a los hombres de la población, castigo significativamente más severo que el infligido a Sucot.",
+      "referencias": ["Jue 8:17"],
+      "personajes_clave": ["gedeon"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "jacob_peniel",
+      "nombre": "Jacob",
+      "emoji": "🌅",
+      "rol": "Patriarca",
+      "periodo": "c. 1900 a.C. (narrativa)",
+      "descripcion": "Da nombre a Penuel tras declarar haber visto a Dios cara a cara y sobrevivido, marcando el lugar como sitio de teofanía directa en el ciclo patriarcal.",
+      "referencias": ["Gén 32:30-31"],
+      "ruta": ["jabbok", "peniel", "succoth"]
+    },
+    {
+      "id": "gedeon_peniel",
+      "nombre": "Gedeón",
+      "emoji": "🏰",
+      "rol": "Juez de Israel",
+      "periodo": "c. 1130 a.C.",
+      "descripcion": "Castiga con severidad excepcional a los hombres de Penuel por su negativa a apoyar a sus tropas, destruyendo la torre defensiva de la ciudad y matando a su población, en el episodio paralelo más extremo al castigo aplicado a Sucot.",
+      "referencias": ["Jue 8:8-9", "Jue 8:17"],
+      "ruta": ["succoth", "peniel"]
+    },
+    {
+      "id": "hombres_peniel",
+      "nombre": "Hombres de Penuel",
+      "emoji": "🗼",
+      "rol": "Población local castigada por Gedeón",
+      "periodo": "c. 1130 a.C.",
+      "descripcion": "Rechazan ayudar a Gedeón siguiendo el mismo patrón que Sucot, recibiendo en consecuencia el castigo más severo de destrucción total de su torre fortificada.",
+      "referencias": ["Jue 8:17"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Penuel condensa en un mismo lugar dos episodios de signo teológico radicalmente opuesto: la teofanía transformadora de Jacob, que recibe directamente la visión de lo divino y sobrevive para contarlo, y siglos después, el castigo destructivo sobre una población que falla en la solidaridad básica hacia el pueblo de Dios en lucha, ilustrando que el mismo lugar puede ser sitio tanto de encuentro santificador como de juicio severo según la respuesta humana ante las circunstancias.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "rostro-dios-peniel-mito",
+        "nombre": "Ver el rostro de Dios y sobrevivir en Penuel",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Gén 32:30",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la tensión entre la declaración de Jacob ('he visto a Dios cara a cara') y la afirmación posterior de que 'nadie puede ver a Dios y vivir' (Éx 33:20)",
+          "descripcion": "La tradición judía discute extensamente la aparente tensión entre la declaración de Jacob en Penuel y el principio posterior expresado a Moisés de que ningún ser humano puede ver el rostro de Dios y sobrevivir, proponiendo diversas resoluciones: que Jacob vio una manifestación angélica más que a Dios mismo en plenitud, o que la experiencia de Jacob fue de naturaleza distinta y limitada respecto a la visión plena negada a Moisés.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El nombre Penuel preserva la memoria de un encuentro excepcional con lo divino que, pese a su intensidad, no resultó en la muerte de Jacob, estableciendo un caso límite en la teología bíblica sobre la visibilidad de Dios.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Gén 32:30 (recepción patrística sobre las teofanías del Antiguo Testamento como anticipos de la revelación plena en Cristo)",
+          "fuente_secundaria": "Comentarios patrísticos que conectan las apariciones divinas veterotestamentarias con la doctrina de la encarnación",
+          "descripcion": "La tradición cristiana, particularmente la patrística, lee las teofanías del Antiguo Testamento como Penuel en clave de anticipo parcial y velado de la revelación plena de Dios que se completará en la encarnación de Cristo, donde sí es posible ver verdaderamente 'el rostro de Dios' de manera definitiva.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento de la singularidad excepcional del encuentro de Jacob.",
+          "diferencias": "La lectura cristiana añade una dimensión tipológica que conecta el episodio con la doctrina de la encarnación, ausente en la interpretación judía tradicional.",
+          "significado_teologico": "La teofanía de Penuel se lee como anticipo parcial de la revelación plena y definitiva de Dios manifestada en Cristo.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Jacob como figura fundacional común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

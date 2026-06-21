@@ -1,0 +1,121 @@
+{
+  "id": "netophah",
+  "nombre": "Netofa",
+  "tipo": "ciudad",
+  "lat": 31.735465,
+  "lng": 35.220503,
+  "frecuencia_at": 13,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Asentamiento de guerreros davídicos y levitas" },
+    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Repoblación tras el regreso del exilio" }
+  ],
+  "descripcion_geo": "Pequeña localidad en la zona montañosa de Judá, al sur de Belén, en una región de colinas aptas para el pastoreo y la agricultura de secano. Da nombre al gentilicio 'netofatita', usado para identificar a varios personajes notables a lo largo de distintos períodos del relato bíblico.",
+  "altitud_m": 740,
+  "clima": "Mediterráneo de montaña — veranos secos, inviernos fríos con lluvias, propio de las tierras altas de Judá.",
+  "recursos": [
+    "Pastoreo de ovejas y cabras",
+    "Agricultura de secano en terrazas",
+    "Cantera de músicos y guerreros que sirven en la corte davídica"
+  ],
+  "importancia_estrategica": "Netofa no tiene relevancia militar propia, pero funciona como cantera recurrente de personal cualificado para la corte y el culto: aporta guerreros de élite al círculo de David, cantores levitas al servicio del Templo bajo Asaf, y gobernadores locales en el período post-exílico, evidenciando la persistencia de cierta importancia administrativa de la región a lo largo de varios siglos.",
+  "otros_habitantes": [
+    {
+      "id": "judaitas_netofa",
+      "nombre": "Clanes de Judá",
+      "descripcion": "Familias judaítas asentadas en Netofa, vinculadas genealógicamente en las listas cronistas a la línea de Caleb y a la tribu de Judá en general.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1000–586 a.C."
+    },
+    {
+      "id": "levitas_cantores_netofa",
+      "nombre": "Levitas cantores",
+      "descripcion": "Familias de netofatitas integradas en los gremios de cantores levíticos del Templo organizados bajo Asaf, responsables de la música litúrgica del culto.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1000–586 a.C. y período post-exílico"
+    }
+  ],
+  "historias": [
+    {
+      "id": "valientes-david-netofa",
+      "titulo": "Guerreros netofatitas entre los valientes de David",
+      "fecha": "c. 1010–970 a.C.",
+      "descripcion": "Varios de los 'valientes' (gibborim) de David —entre ellos Maharai y Heled o Heleb— son identificados como netofatitas en las listas de 2 Samuel y 1 Crónicas, integrando a hombres de esta pequeña localidad en el círculo militar más cercano del rey.",
+      "referencias": ["2 Sam 23:28-29", "1 Cr 11:30", "1 Cr 27:13"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "gedalias-netofatitas",
+      "titulo": "Jefes netofatitas se presentan ante Gedalías",
+      "fecha": "c. 586 a.C.",
+      "descripcion": "Tras la caída de Jerusalén y el asesinato del rey, los jefes militares del campo, incluidos los netofatitas Seraías hijo de Tanhumet y los hijos de Efai, se presentan ante Gedalías, gobernador nombrado por Babilonia, episodio que precede al posterior asesinato de Gedalías y la huida a Egipto.",
+      "referencias": ["2 Re 25:23", "Jer 40:8"],
+      "personajes_clave": []
+    },
+    {
+      "id": "netofatitas-retorno-exilio",
+      "titulo": "Repoblación de Netofa tras el exilio",
+      "fecha": "c. 538 a.C.",
+      "descripcion": "Los hombres de Belén y Netofa, junto con otras localidades de la región, aparecen registrados entre los descendientes de los exiliados que regresan de Babilonia, en el censo de la comunidad restaurada bajo Zorobabel.",
+      "referencias": ["Esd 2:21-22", "Neh 7:26"],
+      "personajes_clave": ["zorobabel"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "maharai_netofatita",
+      "nombre": "Maharai el netofatita",
+      "emoji": "⚔️",
+      "rol": "Uno de los valientes de David, comandante de turno mensual",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Guerrero originario de Netofa incluido entre los treinta valientes de David, y posteriormente nombrado responsable de uno de los doce turnos mensuales del ejército organizado por David.",
+      "referencias": ["2 Sam 23:28", "1 Cr 27:13"],
+      "ruta": ["netophah"]
+    },
+    {
+      "id": "heled_netofatita",
+      "nombre": "Heled (Heleb) el netofatita",
+      "emoji": "🗡️",
+      "rol": "Uno de los valientes de David",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Segundo guerrero netofatita mencionado entre los valientes de David, evidenciando la contribución desproporcionada de esta pequeña localidad al círculo militar de élite real.",
+      "referencias": ["2 Sam 23:29", "1 Cr 11:30"],
+      "ruta": ["netophah"]
+    },
+    {
+      "id": "seraias_netofatita",
+      "nombre": "Seraías hijo de Tanhumet, el netofatita",
+      "emoji": "🏛️",
+      "rol": "Jefe militar tras la caída de Jerusalén",
+      "periodo": "c. 586 a.C.",
+      "descripcion": "Uno de los jefes de las tropas que quedaron en el campo tras la destrucción de Jerusalén, que se presenta ante el gobernador Gedalías nombrado por los babilonios, en un episodio que precede al violento final del breve gobierno de Gedalías.",
+      "referencias": ["2 Re 25:23", "Jer 40:8"],
+      "ruta": ["netophah", "mizpa"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Netofa carece de tradición mítica propia; su significado religioso deriva de la persistente aportación de sus habitantes a instituciones centrales de Israel a lo largo de varios siglos: el ejército de David, el culto musical levítico del Templo, y la administración local tras la caída de Jerusalén. Esta continuidad convierte a Netofa en un ejemplo del tejido de localidades menores que sostuvieron, generación tras generación, las instituciones centrales de la fe yahvista.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "netofatitas-continuidad",
+        "nombre": "Los netofatitas como linaje de servicio continuo a Israel",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 23:28-29; 1 Cr 9:16; Esd 2:21-22",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre las genealogías cronistas como registro de la fidelidad continuada de familias y clanes a través de las generaciones",
+          "descripcion": "La tradición judía valora las listas genealógicas que registran la presencia repetida de netofatitas en distintos momentos de la historia de Israel —desde los guerreros de David hasta los repatriados del exilio— como testimonio de la continuidad de ciertas familias en el servicio a la comunidad, más allá de la fama individual de sus miembros.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La persistencia generacional de familias como las de Netofa en el servicio militar, cultual y administrativo se interpreta como expresión concreta de la fidelidad colectiva de Israel a través de las distintas etapas de su historia.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2", "post_exilio"]
+}

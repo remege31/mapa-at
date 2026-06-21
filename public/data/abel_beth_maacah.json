@@ -1,0 +1,120 @@
+{
+  "id": "abel_beth_maacah",
+  "nombre": "Abel-bet-maacá",
+  "tipo": "ciudad",
+  "lat": 33.268526,
+  "lng": 35.578046,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Refugio de Seba, conquistada por Ben-adad" }
+  ],
+  "descripcion_geo": "Ciudad fortificada en el extremo norte de Israel, cerca de la fuente del Jordán, conocida por su sabiduría proverbial citada en el propio texto bíblico como 'madre en Israel', expresión que sugiere su reputación como centro de consejo sabio y resolución pacífica de conflictos.",
+  "altitud_m": 150,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio del extremo norte de Galilea.",
+  "recursos": [
+    "Reputación de sabiduría y consejo (citada como proverbio)",
+    "Posición fronteriza estratégica en el extremo norte",
+    "Tierras fértiles cercanas a las fuentes del Jordán"
+  ],
+  "importancia_estrategica": "Abel-bet-maacá es escenario de la resolución pacífica de la rebelión de Seba contra David gracias a la intervención de una mujer sabia local, y siglos después, como ciudad fronteriza del extremo norte, es una de las primeras en caer ante las invasiones arameas y asirias, ilustrando su vulnerabilidad estratégica pese a su reputación de sabiduría diplomática.",
+  "otros_habitantes": [
+    {
+      "id": "habitantes_abel_beth_maacah",
+      "nombre": "Población de Abel-bet-maacá",
+      "descripcion": "Habitantes de la ciudad reconocida por su sabiduría proverbial, que acoge involuntariamente al rebelde Seba durante su huida de las fuerzas de Joab.",
+      "religion": "Yahvismo",
+      "periodo": "c. 975 a.C."
+    },
+    {
+      "id": "tropas_joab_abel",
+      "nombre": "Ejército de Joab",
+      "descripcion": "Fuerzas de David que sitian Abel-bet-maacá para capturar al rebelde Seba refugiado en sus murallas, antes de la resolución negociada por la mujer sabia de la ciudad.",
+      "religion": "Yahvismo",
+      "periodo": "c. 975 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "seba-refugio-abel",
+      "titulo": "Seba se refugia en Abel-bet-maacá",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Tras liderar una rebelión contra David inmediatamente después de la revuelta de Absalón, Seba hijo de Bicri huye hasta Abel-bet-maacá, donde Joab y sus tropas lo sitian, construyendo una rampa contra la muralla para tomar la ciudad.",
+      "referencias": ["2 Sam 20:14-15"],
+      "personajes_clave": ["joab"]
+    },
+    {
+      "id": "mujer-sabia-abel-negocia",
+      "titulo": "La mujer sabia de Abel-bet-maacá negocia con Joab",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Una mujer sabia de la ciudad llama a Joab desde la muralla, le recuerda la reputación de Abel como ciudad que da consejo fiel y le propone entregar solo la cabeza de Seba a cambio de salvar a toda la población; tras negociar con los habitantes, la cabeza de Seba es arrojada por encima del muro, y Joab se retira sin destruir la ciudad.",
+      "referencias": ["2 Sam 20:16-22"],
+      "personajes_clave": ["joab"]
+    },
+    {
+      "id": "ben-adad-conquista-abel",
+      "titulo": "Ben-adad de Siria conquista Abel-bet-maacá",
+      "fecha": "c. 885 a.C.",
+      "descripcion": "Generaciones después, Ben-adad de Siria, en alianza con Asá de Judá contra Baasa de Israel, ataca y conquista varias ciudades del norte de Israel incluyendo Abel-bet-maacá, episodio que confirma la vulnerabilidad fronteriza recurrente de la ciudad.",
+      "referencias": ["1 Re 15:20"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "mujer_sabia_abel",
+      "nombre": "Mujer sabia de Abel-bet-maacá",
+      "emoji": "🗣️",
+      "rol": "Negociadora que salva la ciudad",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Invoca la reputación proverbial de su ciudad como 'madre en Israel' para negociar con Joab y salvar a toda la población mediante la entrega de un solo hombre, ejemplo destacado de diplomacia femenina efectiva en una situación de asedio militar.",
+      "referencias": ["2 Sam 20:16-22"],
+      "ruta": ["abel_beth_maacah"]
+    },
+    {
+      "id": "joab_abel",
+      "nombre": "Joab",
+      "emoji": "⚔️",
+      "rol": "General del ejército de David",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Dirige el asedio de Abel-bet-maacá para capturar al rebelde Seba, aceptando finalmente la propuesta negociada de la mujer sabia de la ciudad y retirándose sin causar destrucción innecesaria.",
+      "referencias": ["2 Sam 20:14-22"],
+      "ruta": ["abel_beth_maacah"]
+    },
+    {
+      "id": "seba_abel",
+      "nombre": "Seba hijo de Bicri",
+      "emoji": "🏃",
+      "rol": "Líder rebelde benjaminita",
+      "periodo": "c. 975 a.C.",
+      "descripcion": "Lidera una rebelión contra David tras la revuelta de Absalón, refugiándose finalmente en Abel-bet-maacá, donde es entregado y ejecutado para salvar a la población de la ciudad.",
+      "referencias": ["2 Sam 20:1-2", "2 Sam 20:21-22"],
+      "ruta": ["abel_beth_maacah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Abel-bet-maacá es notable como uno de los pocos lugares bíblicos cuya reputación de sabiduría queda registrada explícitamente como dicho proverbial dentro del propio texto sagrado, y el episodio de su salvación mediante la diplomacia negociada de una mujer anónima ofrece un contraste deliberado con los episodios de violencia generalizada característicos de otros asedios bíblicos, ilustrando un modelo alternativo de resolución de conflictos basado en el sacrificio limitado de un culpable individual para preservar a la comunidad entera.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "sabiduria-proverbial-abel",
+        "nombre": "La sabiduría proverbial de Abel-bet-maacá",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 20:16-22",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la mujer sabia de Abel como ejemplo de liderazgo femenino efectivo en momentos de crisis comunitaria",
+          "descripcion": "La tradición judía valora especialmente este episodio como ejemplo de cómo la sabiduría práctica, aplicada con determinación, puede resolver conflictos que de otro modo terminarían en destrucción masiva, destacando el papel decisivo de una mujer anónima cuya intervención salva a toda una ciudad mediante negociación racional en lugar de resistencia militar inútil.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio demuestra que la sabiduría práctica y la negociación pueden ser instrumentos tan legítimos de salvación comunitaria como la intervención militar directa.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

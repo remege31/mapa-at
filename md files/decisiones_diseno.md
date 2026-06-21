@@ -1,192 +1,182 @@
 # DECISIONES DE DISEÑO CONFIRMADAS
-## Mapa Interactivo AT · MVP Fase 1
+## Mapa Interactivo AT · Fase 2
 ### Referencia para programador y diseñador
-### ⚠ Reescrito desde auditoría de código real (`App.tsx`, `App.css`, `MapView.tsx`) — junio 2026
+### ⚠ Actualizado desde auditoría de código real — Junio 2026
 
 ---
 
 ## 1. LAYOUT
 
 - **Desktop:** Mapa flex-1 izquierda · Panel lateral 340px derecha (tablet 60vw, máx 480px)
-- **Topbar:** 38px, fondo `--ink`, título + botón hamburguesa (abre menú)
-- **Timeline:** Barra bajo el topbar, altura dinámica (medida en runtime)
+- **Topbar:** fondo `--ink`, título + campo de búsqueda + botón hamburguesa
+- **Timeline:** barra bajo el topbar con 5 botones de período (Todos + 4 históricos)
 - **Fila de capas:** segunda barra bajo el timeline (`#layers-row`), con los botones Territorios/Rutas
 - **Mobile:** Panel y menú como drawers fijos desde la derecha (`92vw`, máx 360px), `transform: translateX`, animación 0.3s
-- **Overlay:** oscuro en mobile (`rgba(0,0,0,0.38)`); en desktop el menú también usa overlay (`rgba(0,0,0,0.18)`) al abrirse
+- **Overlay:** oscuro en mobile (`rgba(0,0,0,0.38)`); en desktop el menú también usa overlay (`rgba(0,0,0,0.18)`)
 
 ---
 
-## 2. PANEL LATERAL — ESTRUCTURA
+## 2. ESTADO INICIAL
 
-- **5 acordeones**:
-  1. 📍 Lugar
-  2. 📖 Historias
-  3. 👤 Personajes
-  4. ✡ Contexto religioso
-  5. 🌍 Eventos paralelos
-- Cerrados por defecto (`openAcc = -1`), se expanden al click, **solo uno abierto a la vez**
-- Header del drawer con botón ✕ circular — visible en mobile, oculto en desktop
-- Fade inferior (`panel-scroll-fade`) si hay contenido oculto por scroll
-- Footer fijo `#panel-nav`: "Mapa Interactivo AT · MVP v1"
-- **Acordeón Lugar incluye:** Altitud + Tipo (grid 2 col), Clima, Geografía, Importancia estratégica, Recursos (lista), Otros habitantes (lista nombre+descripción, sin click ni resaltado de polígono)
-- **Acordeón Eventos paralelos:** banner con nombre+rango del período activo, luego eventos filtrados desde `EVENTOS_PARALELOS_GLOBAL` por `periodo_at.includes(periodId)` — ✅ implementado con datos reales
-- **Menú lateral (hamburguesa):** drawer separado (`#menu-drawer`) con acceso rápido al "último lugar consultado" (o Jerusalén por defecto) + secciones "El mapa" y "Información" — items actualmente deshabilitados
+- Período activo: **"Todos los períodos"** — todos los pines visibles al abrir
+- Menú lateral: **abierto** en desktop al iniciar
+- Zoom: **9** · Centro: **[31.8, 35.5]** (Israel/Cisjordania)
+- Territorios: **OFF** · Rutas: **OFF**
 
 ---
 
-## 3. MAPA — PINES
+## 3. PANEL LATERAL — ESTRUCTURA
 
-- ❌ Sin jerarquía de tamaño por frecuencia. Pin único, radio base `r=6`, escalado por zoom (0.6×–1.6×)
-- Color: `#3C3C3C`; seleccionado → `#8B4A26` con halo
-- Etiqueta de nombre bajo el pin, siempre visible, con halo blanco
-- Jerusalén: marca ★, pulso animado + tooltip "Toca para explorar" (solo mobile, hasta primer click)
-- **Pines atenuados (opacity 0.25, sin click)** si `periodos_at` del lugar no incluye el período activo
-- Click → abre panel lateral
-- ⚠ Accesibilidad por teclado (tabindex, role="button", aria-label): **no confirmado en `MapView.tsx`** — pendiente
+- **5 acordeones**: 📍 Lugar · 📖 Historias · 👤 Personajes · ✡ Contexto religioso · 🌍 Eventos paralelos
+- Cerrados por defecto, solo uno abierto a la vez
+- Header con botón ✕ circular — visible en mobile, oculto en desktop
+- Fade inferior si hay contenido oculto por scroll
+- Footer fijo: "Mapa Interactivo AT · MVP v1"
+- **Acordeón Eventos paralelos en modo "Todos":** muestra mensaje "Selecciona un período histórico para ver eventos paralelos" — no muestra eventos
+
+---
+
+## 4. BÚSQUEDA
+
+- Visible en topbar, siempre accesible (no detrás de botón)
+- Activa con 2+ caracteres, máximo 6 resultados en dropdown
+- Resultado muestra nombre + tipo de lugar
+- Enter selecciona el primer resultado
+- Al seleccionar → abre panel del lugar
+
+---
+
+## 5. MAPA — PINES
+
+- Pin único radio base `r=6`, escalado por zoom (0.6×–1.6×)
+- Color: `#3C3C3C`; seleccionado → `#8B4A26` con halo 3px
+- Etiqueta de nombre siempre visible (halo blanco)
+- Jerusalén: marca ★, pulso animado + tooltip onboarding (solo mobile, hasta primer click)
+- **Pines atenuados** (opacity 0.25, sin click): si `periodos_at` no incluye el período activo
+- **Modo "Todos"**: ningún pin atenuado — todos activos y clicables
+- **Zoom progresivo:**
+  - `primario`: siempre visible
+  - `secundario`: visible desde zoom ≥ 6
+  - `terciario`: visible desde zoom ≥ 8
+- **z-index**: seleccionado 2000 · primario 1000 · secundario 500 · terciario 100
+- **Collision avoidance**: si dos pines no-primarios están a <52px, la etiqueta del secundario se oculta
+- Accesibilidad: tabindex, role="button", aria-label, Enter/Space activables ✅
 - ❌ Hover scale + drop-shadow: no implementado
 
 ---
 
-## 4. MAPA — CONTROLES
+## 6. MAPA — CONTROLES
 
-❌ Eliminado el concepto de 4 toggles (Ciudades/Territorios/Regiones/Notas). Lo real:
-
-- **Fila de controles** (`#layers-row`), bajo el timeline, alineada a la izquierda
-- Botón **🗺 Territorios**: toggle on/off de la capa de territorios históricos — **OFF por defecto**
-- Botón **🚶 Rutas**: presente pero **deshabilitado** ("Próximamente")
-- No existen capas de "Ciudades", "Regiones" ni "Notas" — los pines siempre visibles, sin toggle
-
----
-
-## 5. TIMELINE / FILTRO DE PERÍODO
-
-- ❌ Eliminado: slider continuo -1500 a -400, step 10
-- ✅ **4 botones fijos** (`#period-btns`), siempre uno activo (`hierro_2` por defecto):
-  - Edad de Bronce Tardía · 1500–1200 a.C.
-  - Edad de Hierro I · 1200–1000 a.C.
-  - Edad de Hierro II · 1000–586 a.C.
-  - Post-Exilio · 586–400 a.C.
-- Botón activo: nombre completo + rango; inactivos: solo nombre
+- **5 botones de período** (Todos + 4 históricos): uno siempre activo, default "Todos"
+- Botón activo: nombre completo (rango visible solo si no es vacío)
 - Mobile: scroll horizontal sin scrollbar visible
-- Animación fade in/out (300ms) de territorios y etiquetas al cambiar período — ✅ implementado
+- **🗺 Territorios**: toggle on/off, default OFF. No aplica en modo "Todos" (sin GeoJSON asociado)
+- **🚶 Rutas**: toggle on/off funcional ✅ — activa rutas de personajes del período activo
 
 ---
 
-## 6. PALETA DE COLORES
+## 7. RUTAS DE PERSONAJES
+
+- Polilíneas discontinuas (`dashArray: '6 4'`), color individual por personaje
+- Etiqueta con nombre del personaje a mitad de la ruta
+- Filtradas por período activo del lugar origen
+- Personajes con color propio: Abraham (#C4872A), Moisés (#4A7A8B), José (#6B7A3A), David (#7A3A2A), Jeremías (#6A4A7A), Daniel (#2A4A7A), Ezequiel (#8A6A2A), Elías (#8A3A2A), Miriam (#8A5A5A), Josué (#3A6A4A), Débora (#8A7A2A), Salomón (#8B4A26)
+- ❌ Botón de ruta por personaje individual: no implementado
+
+---
+
+## 8. TERRITORIOS HISTÓRICOS
+
+- Polígonos desde `aourednik/historical-basemaps` (3 datasets según período)
+- Color y categoría política individuales por territorio (~32 mapeados)
+- Categorías: Imperio, Reino, Región cultural, Zona tribal
+- Nombres traducidos al español con categoría visible desde zoom≥6
+- `fillOpacity: 0.18`, fade in/out 300ms
+- `interactive: false` — clicks pasan a través al mapa ✅
+
+---
+
+## 9. PALETA DE COLORES
 
 ```css
---ocre:   #775C3C   /* títulos, acentos cálidos, fechas de historia */
+--ocre:   #775C3C   /* títulos, acentos cálidos */
 --beige:  #D4C5B0   /* bordes, fondos secundarios */
---terra:  #8B4A26   /* acentos fuertes, pin seleccionado, botones cerrar */
---sand:   #E8DCC8   /* fondos de cards, hover, headers de card */
---olive:  #6B8E23   /* (sin uso detectado en App.css) */
+--terra:  #8B4A26   /* acentos, pin seleccionado, botones cerrar */
+--sand:   #E8DCC8   /* fondos de cards, headers de card */
 --gray:   #6B6054   /* texto secundario */
 --blue:   #2E5F8A   /* referencias bíblicas */
---lblue:  #6BA3D4   /* (sin uso detectado en App.css) */
 --ink:    #3C3C3C   /* texto principal, topbar, pin default */
 --paper:  #F5F0E8   /* fondo general */
---gray-on-dark: #B5AB97  /* (sin uso detectado en App.css) */
 ```
+⚠ `--olive (#6B8E23)`, `--lblue (#6BA3D4)`, `--gray-on-dark (#B5AB97)` definidas sin uso detectado.
 
-**Color de territorios:** cada territorio tiene su propio color individual (no por categoría), definido en `MapView.tsx` (`TERRITORY_COLORS`, ~32 entradas + `default: #8B7355`)
-
----
-
-## 7. TIPOGRAFÍA
-
-- **Serif:** Georgia (títulos de panel/drawer, nombres de historia/personaje/mito, etiquetas de territorio)
-- **Sans-serif:** system-ui / -apple-system / Segoe UI (cuerpo, UI, pines)
-- **Tamaños reales:**
-  - 9px: `.sec-label`, `.menu-section-label` (uppercase, letter-spacing 0.08em)
-  - 10px: `.gl`, `.ml`, `.ref`, `.civ-per`, etiquetas de período/territorio en zoom bajo
-  - 11px: `.desc`, `.gv`, `.resource-list`, cuerpo general
-  - 13px: `.story-title`, `.pname`, `.myth-name`, título de drawer (mobile)
-  - 14px: `.drawer-header-title`
-  - 15px: `#topbar-title`
-  - 18px: `#panel-name` (⚠ definido en CSS pero no usado en `App.tsx` — posible resto legacy)
+**Color de territorios:** color individual por territorio en `TERRITORY_COLORS` (MapView.tsx), no por categoría.
 
 ---
 
-## 8. REFERENCIAS BÍBLICAS
+## 10. TIPOGRAFÍA
 
-- En código actual, `.ref` solo renderiza texto (ej. `2 Sam 5:6-10`) como `<span>`, sin `<a href>`
-- Formato en JSON: `"2 Sam 5:6-10"` ✅
-- ⚠ **Pendiente:** construir URL `https://www.biblegateway.com/passage/?search=` + referencia, abrir en pestaña nueva
-
----
-
-## 9. FECHAS
-
-✅ `"c. 1000 a.C."` (con "c." si es aproximado; sin "c." si la fecha es exacta, ej. `"586 a.C."`)
+- **Serif:** Georgia — títulos de panel/drawer, nombres historia/personaje/mito, etiquetas de territorio
+- **Sans-serif:** system-ui — cuerpo, UI, pines, búsqueda
+- **Tamaños reales:** 9px (sec-label uppercase) · 10px (meta/refs) · 11px (desc/cuerpo) · 13px (títulos card) · 14px (drawer header) · 15px (topbar)
 
 ---
 
-## 10. CIVILIZACIONES EN EVENTOS PARALELOS
+## 11. REFERENCIAS BÍBLICAS
+
+- Renderizan como `<a href>` a Bible Gateway, abren en pestaña nueva ✅
+- URL: `https://www.biblegateway.com/passage/?search={ref encodeURIComponent}&version=RVR1960`
+- Formato en JSON: `"2 Sam 5:6-10"`
+
+---
+
+## 12. FECHAS
+
+✅ `"c. 1000 a.C."` (con "c." si aproximado; sin "c." si exacto, ej. `"586 a.C."`)
+
+---
+
+## 13. CIVILIZACIONES EN EVENTOS PARALELOS
 
 - Datos en `src/data/eventosParalelos.ts`, export `EVENTOS_PARALELOS_GLOBAL`
-- Cada evento: `emoji`, `civilizacion`, `periodo_historico`, `periodo_at: string[]`, `evento`, `descripcion`
-- Filtrado en panel por `periodo_at.includes(periodId)` — un evento puede aparecer en varios períodos
-- Egipto · Asiria · Babilonia · Persia · Grecia · Roma · India · China · América
+- Filtrado por `periodo_at.includes(periodId)` — un evento puede aparecer en varios períodos
+- En modo "Todos": no se filtran ni muestran — se muestra mensaje explicativo
+- 9 civilizaciones: Egipto · Asiria · Babilonia · Persia · Grecia · Roma · India · China · América
 
 ---
 
-## 11. PERSONAJES — FUNCIONALIDADES
+## 14. DATOS — REGLAS DE CONTENIDO
 
-❌ `tiene_ruta` no existe.
-- `ruta: string[]` siempre presente; vacío `[]` si no aplica
-- Botón 🗺 Ruta: **no implementado** en `PersonajeCard`
-- El botón global "🚶 Rutas" en `#layers-row` está deshabilitado — funcionalidad de rutas no existe todavía, ni individual ni global
-
----
-
-## 12. HABITANTES (acordeón Lugar)
-
-❌ `tiene_poligono` no existe, no aplica.
-- `otros_habitantes` es lista de pueblos (nombre + descripción) — sin interactividad, sin click, sin resaltado de polígono
-- Los polígonos de territorios (mapa) son una capa independiente, sin relación con `otros_habitantes`
+- Exactamente 3 historias y 3 personajes por lugar
+- `otros_habitantes`: mín 2, máx 5
+- `mitos`: mín 1, máx 3
+- Campo sin fuente → `null`; contenido incierto → `⚠`
+- `periodos_at` debe reflejar ocupación arqueológica real (pendiente I2 en Fase 3)
+- `jerarquia_pin` es campo intencional — no modificar al completar contenido
+- `lat`/`lng` no se modifican al completar contenido
 
 ---
 
-## 13. CONTEXTO RELIGIOSO — MITOS
+## 15. DECISIONES NO IMPLEMENTADAS (descartadas, no pendientes)
 
-- Checkboxes visuales (`.cb-on`/`.cb-off`) según `aparece_en.{judaismo,cristianismo,islam}` ✅
-- Si la tradición es `null` → bloque visible *"No aplica directamente en esta tradición"* (`.rel-na`) ✅
-- Diferencias/similitudes como tags truncados a 70 caracteres
-
----
-
-## 14. MOBILE
-
-- Drawer desde la derecha, `92vw` máx `360px`, `translateX` + transición 0.3s
-- Header con botón ✕ (`.drawer-close-btn`, circular, terra)
-- Overlay oscuro (`rgba(0,0,0,0.38)`) con `backdrop-filter: blur(1px)`
-- Timeline con scroll horizontal sin scrollbar visible
-- `#layers-row` se ajusta (`width: auto`, sin borde inferior) en mobile
-- ❌ No existe FAB flotante — acceso vía botón hamburguesa en topbar
-- Tablet (769–1024px): panel/menú a `60vw` (máx 480px)
+- Toggles de capas Ciudades/Regiones/Notas
+- Hover scale+shadow en pines
+- Jerarquía visual de pines por tamaño
+- FAB móvil
+- Interactividad de "otros habitantes" con polígonos del mapa
+- Árbol genealógico (herramienta separada, futuro)
 
 ---
 
-## 15. REFERENCIAS TÉCNICAS
+## Resumen de cambios Fase 1 → Fase 2
 
-- Stack: React + TypeScript + Leaflet.js + Vite + Vercel
-- Coordenadas: reales (`lat`/`lng` decimales en JSON)
-- JSON: un archivo por lugar en `/public/data/` + `src/data/eventosParalelos.ts` para eventos globales
-- Tipos TypeScript: `src/types/lugar.ts`
-- Tile base: CartoDB `light_nolabels`
-- Territorios: `aourednik/historical-basemaps` (GeoJSON), recortado a región (lat 20-42, lng 25-55)
-
----
-
-## Resumen de cambios respecto a la versión de mayo 2026
-
-- ❌ Eliminado: toggles de 4 capas → ahora 2 botones (Territorios on/off, Rutas deshabilitado)
-- ❌ Eliminado: slider continuo de timeline → 4 botones fijos
-- ❌ Eliminado: jerarquía de pines por tamaño/frecuencia
-- ❌ Eliminado: `tiene_ruta`, `tiene_poligono`, interactividad de habitantes con polígonos
-- ❌ Eliminado: FAB móvil → botón hamburguesa en topbar
-- ❌ Eliminado: hover scale+shadow en pines
-- ✅ Añadido: acordeones exclusivos, fade de scroll, menú lateral con "último lugar", segunda barra de controles
-- ✅ Confirmado: eventos paralelos implementados con datos reales
-- ⚠ Pendiente: referencias bíblicas como links, accesibilidad teclado
-- ⚠ Hallazgo: `--olive`, `--lblue`, `--gray-on-dark`, `#panel-name`/`#panel-tags`/`.ptag*` sin uso aparente
+- ✅ Búsqueda de lugares en topbar
+- ✅ Botón "Todos los períodos" + estado inicial con todos los pines visibles
+- ✅ Zoom progresivo por jerarquía de pin
+- ✅ Rutas de personajes funcionales (colores + etiquetas)
+- ✅ Referencias bíblicas como links a Bible Gateway
+- ✅ Accesibilidad por teclado en pines
+- ✅ Carga dinámica desde index.json (49 lugares)
+- ✅ Collision avoidance de etiquetas
+- ✅ z-index 2000 en pin seleccionado
+- ✅ Menú inicial abierto en desktop, zoom 9, centro Israel

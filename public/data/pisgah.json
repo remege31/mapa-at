@@ -1,0 +1,137 @@
+{
+  "id": "pisgah",
+  "nombre": "Pisgá",
+  "tipo": "territorio",
+  "lat": 31.76503129703305,
+  "lng": 35.71856575741812,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Comparte coordenadas con Peor — son cumbres vecinas de la misma cordillera de Abarim, en Moab, frente a Jericó.",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Visión final de Moisés, oráculos de Balaam" }
+  ],
+  "descripcion_geo": "Cadena montañosa en Moab, al este del Jordán, frente a Jericó, parte de la cordillera de Abarim. Su cumbre, identificada con el monte Nebo, ofrece una vista panorámica de toda la tierra de Canaán, desde Galaad hasta el mar Mediterráneo y el Néguev.",
+  "altitud_m": 710,
+  "clima": "Semiárido de altiplano — veranos secos y calurosos, inviernos fríos, con vistas despejadas hacia el valle del Jordán y más allá.",
+  "recursos": [
+    "Punto panorámico privilegiado sobre toda la tierra de Canaán",
+    "Posición elevada de valor simbólico y estratégico para la observación"
+  ],
+  "importancia_estrategica": "Pisgá es el lugar desde donde Moisés contempla la tierra prometida que no podrá pisar, cerrando narrativamente todo el ciclo del Éxodo; es también uno de los puntos desde los que Balac lleva a Balaam con la esperanza de que maldiga a Israel, y desde donde, en cambio, Balaam pronuncia bendiciones.",
+  "otros_habitantes": [
+    {
+      "id": "moabitas_pisgah",
+      "nombre": "Población de Moab",
+      "descripcion": "Habitantes del reino de Moab en cuyo territorio se encuentra la cordillera de Pisgá, bajo el gobierno de Balac en el momento de los oráculos de Balaam.",
+      "religion": "Politeísmo moabita — culto a Quemos",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "israelitas_pisgah",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo acampado en las cercanías, observado desde la cumbre de Pisgá por Balaam durante los intentos de Balac de obtener una maldición contra ellos.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "balac-balaam-pisgah",
+      "titulo": "Balac lleva a Balaam a la cima de Pisgá",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras dos intentos fallidos de obtener una maldición contra Israel desde otros lugares, Balac lleva a Balaam a la cumbre de Pisgá, desde donde puede ver parte del campamento israelita, esperando que desde ese ángulo Balaam finalmente pronuncie una maldición.",
+      "referencias": ["Núm 23:14-17"],
+      "personajes_clave": ["balaam"]
+    },
+    {
+      "id": "tercer-oraculo-balaam-pisgah",
+      "titulo": "El tercer oráculo de bendición de Balaam",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Desde Pisgá, en lugar de la maldición esperada por Balac, Balaam pronuncia un nuevo oráculo de bendición sobre Israel, describiendo sus tiendas como hermosas 'como arroyos extendidos, como huertos junto al río', confirmando que no puede revertir la bendición que YHWH ha pronunciado sobre el pueblo.",
+      "referencias": ["Núm 24:1-9"],
+      "personajes_clave": ["balaam"]
+    },
+    {
+      "id": "moises-vision-pisgah",
+      "titulo": "Moisés contempla la tierra prometida desde Pisgá",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Por instrucción de YHWH, Moisés sube a la cumbre de Pisgá (identificada con el Nebo) para contemplar toda la extensión de la tierra prometida que no le será permitido pisar debido a su falta de fe en las aguas de Meribá; allí muere, y es sepultado por YHWH mismo en un lugar que nadie conoce hasta hoy.",
+      "referencias": ["Deut 34:1-7"],
+      "personajes_clave": ["moises"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_pisgah",
+      "nombre": "Moisés",
+      "emoji": "👁️",
+      "rol": "Legislador y libertador de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Contempla desde la cumbre de Pisgá toda la tierra prometida que su pueblo habitará, sin poder él mismo entrar, cerrando así su misión de liberador en el umbral mismo del cumplimiento de la promesa.",
+      "referencias": ["Deut 34:1-7"],
+      "ruta": ["shittim", "pisgah"]
+    },
+    {
+      "id": "balaam_pisgah",
+      "nombre": "Balaam",
+      "emoji": "🔮",
+      "rol": "Vidente contratado por Balac",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Pronuncia desde la cumbre de Pisgá su tercer oráculo de bendición sobre Israel, en lugar de la maldición que Balac esperaba, confirmando la imposibilidad de revertir la bendición divina.",
+      "referencias": ["Núm 23:14-24:9"],
+      "ruta": ["pisgah", "peor"]
+    },
+    {
+      "id": "balac_pisgah",
+      "nombre": "Balac",
+      "emoji": "👑",
+      "rol": "Rey de Moab",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Lleva a Balaam sucesivamente a distintos puntos elevados, incluido Pisgá, con la esperanza de obtener desde algún ángulo una maldición efectiva contra Israel, sin éxito en ninguno de los intentos.",
+      "referencias": ["Núm 23:13-17"],
+      "ruta": ["pisgah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Pisgá funciona como umbral teológico doble: por un lado, el lugar donde la palabra de un vidente extranjero contratado para maldecir a Israel se transforma involuntariamente en bendición, confirmando la inviolabilidad de la elección divina; por otro, el lugar donde el liberador de Israel contempla, sin poder alcanzar físicamente, el cumplimiento de la promesa que ha guiado toda su misión, estableciendo un poderoso motivo bíblico sobre los límites incluso de los más grandes líderes frente al designio divino.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo moabita — culto a Quemos"
+    ],
+    "mitos": [
+      {
+        "id": "vision-moises-pisgah-mito",
+        "nombre": "La visión final de Moisés desde Pisgá",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Deut 34:1-7",
+          "fuente_secundaria": "Talmud Babilónico, Sotah 13b-14a (sobre la muerte de Moisés 'por boca de YHWH' y su sepultura desconocida)",
+          "descripcion": "La tradición rabínica desarrolla extensamente la muerte de Moisés en Pisgá-Nebo como única en su tipo —'por boca de YHWH' (con un beso divino, según la interpretación tradicional)— y discute el significado de que su sepultura permanezca desconocida, evitando así cualquier posible culto al lugar o a la figura de Moisés mismo.",
+          "similitudes": "Comparte con cristianismo e islam el reconocimiento de Moisés como figura profética suprema cuya vida culmina en este monte.",
+          "diferencias": null,
+          "significado_teologico": "La visión sin posesión simboliza que la fidelidad al designio divino no siempre incluye el disfrute personal completo de la promesa, principio aplicado después a otras figuras de fe en la tradición bíblica.",
+          "posible_relacion_cultural": "Tradición compartida de Moisés como profeta fundacional en las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Deut 34:1-7 (recepción tipológica neotestamentaria); Mt 17:1-8 (aparición de Moisés en la Transfiguración)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la limitación de Moisés y la ley frente al cumplimiento pleno en Cristo",
+          "descripcion": "La tradición cristiana lee la imposibilidad de Moisés de entrar a la tierra prometida en clave tipológica como símbolo de los límites de la ley mosaica, que necesita ser 'completada' por una figura posterior (Josué/Jesús, mismo nombre en hebreo), motivo retomado en la aparición de Moisés junto a Elías en la Transfiguración de Jesús.",
+          "similitudes": "Comparte la valoración de Moisés como figura profética suprema del Antiguo Testamento.",
+          "diferencias": "La lectura tipológica cristiana introduce una dimensión tipológica cristológica (la ley vs. la gracia, Moisés vs. Josué/Jesús) ausente en la lectura judía e islámica del episodio.",
+          "significado_teologico": "La visión sin entrada se interpreta como anticipo de la necesidad de un cumplimiento posterior y mayor de la promesa, asociado en la lectura cristiana al ministerio de Cristo.",
+          "posible_relacion_cultural": "Tradición compartida de Moisés como profeta fundacional común a judaísmo y cristianismo."
+        },
+        "islam": {
+          "fuente_primaria": "Tradición islámica extracoránica sobre la muerte de Musa (Moisés) cerca de la tierra santa",
+          "fuente_secundaria": "Hadices que narran el relato de la muerte de Musa y su deseo de ser acercado a la tierra santa",
+          "descripcion": "La tradición islámica conserva relatos sobre la muerte de Musa en las cercanías de la tierra prometida, sin entrar en ella, en líneas generales compatibles con el relato bíblico, aunque sin desarrollar la topografía específica del monte Pisgá-Nebo con el mismo detalle que el texto hebreo.",
+          "similitudes": "Reconocimiento compartido de Musa como profeta principal que no llega a entrar en la tierra prometida.",
+          "diferencias": "La tradición islámica no desarrolla la escena panorámica específica desde Pisgá con el mismo detalle geográfico que el relato bíblico del Deuteronomio.",
+          "significado_teologico": "La figura de Musa se integra en la cadena profética reconocida por el islam, con énfasis en su estatus como uno de los profetas mayores (ulu al-azm).",
+          "posible_relacion_cultural": "Reconocimiento compartido de Musa/Moisés como profeta fundacional en la tradición abrahámica común."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

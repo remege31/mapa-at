@@ -1,0 +1,120 @@
+{
+  "id": "jarmuth",
+  "nombre": "Jarmut",
+  "tipo": "ciudad",
+  "lat": 31.70926894307416,
+  "lng": 34.96995387025439,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, asignada a Judá" }
+  ],
+  "descripcion_geo": "Ciudad-estado cananea en la Sefelá, próxima al valle de Elá y a Azeca, gobernada por un rey local integrante de la coalición de cinco reyes amorreos enfrentada a Josué tras el pacto de Gabaón con Israel.",
+  "altitud_m": 395,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá occidental.",
+  "recursos": [
+    "Tierras agrícolas de la Sefelá",
+    "Posición elevada de control sobre rutas locales"
+  ],
+  "importancia_estrategica": "Jarmut formaba parte de la coalición de ciudades-estado amorreas del sur de Canaán liderada por el rey de Jerusalén; tras su derrota, la ciudad queda asignada al territorio de Judá, integrándose en la red de poblados de la Sefelá occidental bajo control israelita.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_jarmut",
+      "nombre": "Cananeos amorreos",
+      "descripcion": "Población gobernada por Piram, rey de Jarmut, integrante de la coalición de cinco reyes amorreos derrotada por Josué en la campaña del sur.",
+      "religion": "Politeísmo cananeo-amorreo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "judaitas_jarmut",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Tras la conquista, Jarmut queda asignada al territorio de Judá dentro del reparto de la Sefelá occidental.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "rey-jarmut-coalicion",
+      "titulo": "Piram, rey de Jarmut, se une a la coalición contra Gabaón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Piram, rey de Jarmut, se suma a Adoni-sedec de Jerusalén y a los reyes de Hebrón, Laquis y Eglón para atacar Gabaón en represalia por su alianza con Israel, formando parte de la coalición de cinco reyes amorreos que Josué derrotará.",
+      "referencias": ["Jos 10:3-5"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "ejecucion-rey-jarmut",
+      "titulo": "Ejecución del rey de Jarmut en la cueva de Maquedá",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tras la derrota de la coalición, Piram, rey de Jarmut, es ejecutado junto a los otros cuatro reyes amorreos refugiados en la cueva de Maquedá, completando el juicio sobre la coalición que había atacado a Gabaón.",
+      "referencias": ["Jos 10:22-27"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "jarmut-asignacion-juda",
+      "titulo": "Jarmut en la lista de ciudades de Judá",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Jarmut aparece registrada en la lista de ciudades de la Sefelá asignadas al territorio de la tribu de Judá tras la conquista, confirmando su integración definitiva al territorio israelita.",
+      "referencias": ["Jos 15:35"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "piram_rey_jarmut",
+      "nombre": "Piram, rey de Jarmut",
+      "emoji": "👑",
+      "rol": "Rey amorreo de Jarmut, miembro de la coalición del sur",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Se une a la coalición de cinco reyes amorreos contra Gabaón; derrotado en batalla, muere ejecutado en la cueva de Maquedá junto a los otros reyes coaligados.",
+      "referencias": ["Jos 10:3", "Jos 10:23-26"],
+      "ruta": ["jarmuth", "makkedah"]
+    },
+    {
+      "id": "josue_jarmut",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Dirige la derrota de la coalición de cinco reyes que incluía a Jarmut, consolidando el control israelita sobre la Sefelá occidental.",
+      "referencias": ["Jos 10:1-27"],
+      "ruta": ["gabaon", "makkedah"]
+    },
+    {
+      "id": "habitantes_jarmut",
+      "nombre": "Habitantes de Jarmut",
+      "emoji": "🏘️",
+      "rol": "Población de la ciudad-estado cananea",
+      "periodo": "Anterior a c. 1200 a.C.",
+      "descripcion": "Población local integrada posteriormente al territorio de Judá tras la derrota de su rey en la coalición contra Gabaón.",
+      "referencias": ["Jos 15:35"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Jarmut forma parte del mismo episodio teológico que Eglón, Maquedá y las demás ciudades de la coalición de cinco reyes: la narrativa de conquista presentada por la teología deuteronomista como juicio divino directo contra los pueblos cananeos que se oponen al pacto entre Israel y Gabaón, ejecutado mediante la victoria militar israelita asistida por prodigios naturales atribuidos a YHWH.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva del relato bíblico)",
+      "Politeísmo cananeo-amorreo (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "coalicion-cinco-reyes-jarmut",
+        "nombre": "Jarmut en la coalición de los cinco reyes amorreos",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 10:3-27",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la solidaridad cananea contra Gabaón como ejemplo de la oposición unida de los pueblos de la tierra al pacto entre Israel y sus aliados",
+          "descripcion": "La tradición judía observa que la coalición de los cinco reyes, incluido el de Jarmut, ejemplifica cómo la alianza de Gabaón con Israel desencadenó una respuesta unificada de los reinos cananeos vecinos, interpretando la derrota de esta coalición como confirmación de que ningún pacto de protección bajo el amparo de Israel queda sin respaldo divino.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La derrota de la coalición confirma que la protección divina se extiende también a quienes, como los gabaonitas, se acogen al pacto con Israel, incluso por medios cuestionables.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

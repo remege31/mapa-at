@@ -1,0 +1,127 @@
+{
+  "id": "marah",
+  "nombre": "Mara",
+  "tipo": "territorio",
+  "lat": 29.35,
+  "lng": 32.933333,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Las aguas amargas endulzadas" }
+  ],
+  "descripcion_geo": "Lugar en el desierto de Sur, primer punto de acampada de Israel tras cruzar el Mar Rojo, cuyo nombre ('amargura') deriva directamente de la condición de sus aguas, no aptas inicialmente para el consumo humano.",
+  "altitud_m": 10,
+  "clima": "Desértico — extremadamente seco y caluroso, propio de la península del Sinaí cerca de la costa del Mar Rojo.",
+  "recursos": [
+    "Fuente de agua amarga transformada milagrosamente en potable",
+    "Punto de acampada en la ruta del éxodo"
+  ],
+  "importancia_estrategica": "Mara es el primer lugar de prueba para Israel inmediatamente después de la liberación triunfal del Mar Rojo: la imposibilidad inicial de beber sus aguas amargas provoca la primera queja registrada del pueblo en el desierto, resuelta mediante la intervención milagrosa de YHWH que indica a Moisés un árbol específico para endulzar las aguas.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_marah",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo que, tras tres días sin encontrar agua en el desierto, llega a Mara y se queja amargamente al descubrir que sus aguas no son potables.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "moises_aaron_marah",
+      "nombre": "Moisés y Aarón",
+      "descripcion": "Líderes de Israel que reciben directamente la queja del pueblo por las aguas amargas y median ante YHWH para obtener la solución milagrosa.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "queja-aguas-amargas-marah",
+      "titulo": "El pueblo se queja por las aguas amargas de Mara",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras tres días de marcha por el desierto sin encontrar agua después del cruce del Mar Rojo, Israel llega a Mara, pero no puede beber sus aguas por ser amargas, lo que provoca la primera murmuración registrada del pueblo contra Moisés.",
+      "referencias": ["Éx 15:22-24"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "moises-endulza-aguas-marah",
+      "titulo": "Moisés endulza las aguas con un árbol mostrado por YHWH",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Moisés clama a YHWH, quien le muestra un árbol que, al ser arrojado a las aguas, las transforma en potables, episodio inmediatamente seguido del establecimiento de una ordenanza y estatuto donde YHWH prueba la obediencia del pueblo y se revela como 'el que te sana'.",
+      "referencias": ["Éx 15:25-26"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "marah-primer-prueba-desierto",
+      "titulo": "Mara como primera prueba del peregrinaje por el desierto",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "El episodio de Mara establece el patrón recurrente de todo el relato del peregrinaje: necesidad básica insatisfecha, queja del pueblo, intervención providencial de YHWH, y revelación progresiva del carácter divino, patrón que se repetirá con variaciones en Masá-Meribá, Refidim y otros episodios similares.",
+      "referencias": ["Éx 15:22-26"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_marah",
+      "nombre": "Moisés",
+      "emoji": "🌿",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Intercede ante YHWH por el pueblo sediento en Mara, recibiendo la revelación del árbol que transforma milagrosamente las aguas amargas en potables.",
+      "referencias": ["Éx 15:25"],
+      "ruta": ["mar_rojo", "marah"]
+    },
+    {
+      "id": "pueblo_quejoso_marah",
+      "nombre": "Congregación de Israel",
+      "emoji": "😤",
+      "rol": "Pueblo que inicia el patrón de murmuración en el desierto",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Protagoniza la primera queja registrada del peregrinaje por el desierto, estableciendo el patrón que se repetirá en numerosos episodios posteriores del Éxodo y Números.",
+      "referencias": ["Éx 15:24"],
+      "ruta": ["marah"]
+    },
+    {
+      "id": "yhwh_sanador_marah",
+      "nombre": "YHWH (revelación como sanador)",
+      "emoji": "💧",
+      "rol": "Proveedor y revelador de su carácter",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Se revela en Mara con el título 'el que te sana', estableciendo un nuevo aspecto de su carácter en relación directa con la provisión de agua transformada y la salud del pueblo.",
+      "referencias": ["Éx 15:26"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Mara establece el patrón teológico fundamental que estructurará todo el relato del peregrinaje por el desierto: necesidad apremiante, queja humana comprensible, e intervención providencial que no solo resuelve el problema inmediato sino que revela progresivamente un nuevo aspecto del carácter de YHWH —en este caso, su identidad como sanador—, vinculando la provisión material con la revelación teológica progresiva de quién es Dios para su pueblo.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "arbol-endulza-aguas-marah",
+        "nombre": "El árbol que endulza las aguas amargas de Mara",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Éx 15:22-26",
+          "fuente_secundaria": "Midrash y comentario rabínico tradicional sobre la identidad del árbol mostrado a Moisés, frecuentemente vinculado simbólicamente con la Torá misma como fuente que 'endulza' las amarguras de la vida",
+          "descripcion": "La tradición rabínica desarrolla extensamente especulaciones sobre la naturaleza específica del árbol usado para endulzar las aguas, y frecuentemente interpreta el episodio de manera simbólica, vinculando el árbol con la Torá o con la observancia de los mandamientos como fuente espiritual capaz de transformar las amarguras de la existencia humana en algo soportable y hasta beneficioso.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento del valor simbólico del episodio más allá de su sentido literal inmediato.",
+          "diferencias": null,
+          "significado_teologico": "El episodio de Mara establece tempranamente el principio de que YHWH provee no solo para las necesidades materiales inmediatas sino que utiliza estas provisiones para revelar progresivamente su carácter y establecer estatutos formativos para su pueblo.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 15:22-26 (recepción tipológica patrística sobre el árbol/madero como figura de la cruz)",
+          "fuente_secundaria": "Comentarios patrísticos que vinculan el árbol de Mara con el madero de la cruz como instrumento que transforma la amargura en dulzura",
+          "descripcion": "Una corriente de la tradición patrística cristiana lee tipológicamente el árbol de Mara como prefiguración del madero de la cruz, interpretando que así como aquel árbol transformó las aguas amargas en dulces, la cruz de Cristo transforma la amargura del pecado y la muerte en la dulzura de la salvación.",
+          "similitudes": "Comparte con la lectura judía la valoración simbólica del árbol más allá de su función literal inmediata.",
+          "diferencias": "La lectura tipológica cristiana específica (árbol-cruz) es una adición particular ausente en la interpretación judía tradicional, centrada más en la conexión con la Torá.",
+          "significado_teologico": "El árbol de Mara se convierte en figura veterotestamentaria de la cruz de Cristo como instrumento transformador de la amargura humana en dulzura salvífica.",
+          "posible_relacion_cultural": "Recepción cristiana del relato del Éxodo reinterpretado tipológicamente en clave cristológica."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

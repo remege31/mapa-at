@@ -991,3 +991,27 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+
+/* ─── indicador de zoom ───────────────────────────────────────────────────── */
+.leaflet-control-zoom {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.zoom-indicator {
+  background: white;
+  border: 2px solid rgba(0,0,0,0.2);
+  border-top: none;
+  width: 26px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--ink);
+  border-radius: 0 0 4px 4px;
+  pointer-events: none;
+}

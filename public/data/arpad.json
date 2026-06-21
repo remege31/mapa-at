@@ -1,0 +1,121 @@
+{
+  "id": "arpad",
+  "nombre": "Arpad",
+  "tipo": "ciudad",
+  "lat": 35.136204,
+  "lng": 36.749488,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad siria conquistada por Asiria" }
+  ],
+  "descripcion_geo": "Ciudad-estado aramea en el norte de Siria, conquistada por el imperio asirio, mencionada repetidamente en los discursos de propaganda militar asiria como ejemplo de ciudad poderosa cuyos dioses no pudieron salvarla de la conquista, usada como argumento intimidatorio contra Jerusalén durante la invasión de Senaquerib.",
+  "altitud_m": 450,
+  "clima": "Mediterráneo continental — veranos cálidos y secos, inviernos fríos con lluvias, propio del norte de Siria.",
+  "recursos": [
+    "Posición estratégica en el norte de Siria",
+    "Ciudad-estado aramea de cierto prestigio militar previo a su conquista"
+  ],
+  "importancia_estrategica": "Arpad funciona en el texto bíblico exclusivamente como ejemplo retórico utilizado tanto por Isaías como por los propios mensajeros asirios en su propaganda de guerra: una ciudad poderosa y bien defendida, cuyos dioses locales no pudieron evitar su conquista por Asiria, argumento usado para intimidar a Ezequías y al pueblo de Jerusalén sugiriendo que tampoco YHWH podría salvarlos del mismo destino.",
+  "otros_habitantes": [
+    {
+      "id": "arameos_arpad",
+      "nombre": "Población aramea de Arpad",
+      "descripcion": "Habitantes de esta ciudad-estado siria, conquistada por el imperio asirio en su expansión hacia el oeste, usada posteriormente como ejemplo retórico de la inutilidad de la resistencia ante Asiria.",
+      "religion": "Politeísmo arameo",
+      "periodo": "c. 1000–740 a.C."
+    },
+    {
+      "id": "asirios_arpad",
+      "nombre": "Ejército y administración asiria",
+      "descripcion": "Fuerzas conquistadoras que someten Arpad como parte de la expansión imperial asiria, usando posteriormente este precedente en su propaganda de guerra contra otros reinos resistentes.",
+      "religion": "Politeísmo asirio — culto a Asur y otras divinidades",
+      "periodo": "c. 740 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "isaias-oraculo-arpad",
+      "titulo": "Isaías menciona a Arpad en su denuncia de la soberbia asiria",
+      "fecha": "c. 715 a.C.",
+      "descripcion": "El profeta Isaías cita las propias palabras jactanciosas del rey asirio, quien compara la conquista de Calno, Carquemis, Hamat, Arpad, Samaria y Damasco como evidencia de su poder absoluto, denunciando esta soberbia como el verdadero pecado que YHWH castigará en el imperio asirio.",
+      "referencias": ["Is 10:9"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "rabsaces-amenaza-arpad",
+      "titulo": "El Rabsaces cita a Arpad para intimidar a Jerusalén",
+      "fecha": "c. 701 a.C.",
+      "descripcion": "Durante el asedio de Senaquerib contra Jerusalén, su oficial el Rabsaces pronuncia un discurso de propaganda militar dirigido al pueblo, preguntando retóricamente dónde están los dioses de Hamat y de Arpad que no pudieron salvar a estas ciudades, argumento usado para sugerir que YHWH tampoco podría salvar a Jerusalén.",
+      "referencias": ["2 Re 18:34", "Is 36:19"],
+      "personajes_clave": []
+    },
+    {
+      "id": "ezequias-confronta-amenaza-arpad",
+      "titulo": "Ezequías recibe carta repitiendo la amenaza sobre Arpad",
+      "fecha": "c. 701 a.C.",
+      "descripcion": "Senaquerib envía una carta directa a Ezequías repitiendo el mismo argumento sobre la inutilidad de la resistencia, citando nuevamente a Arpad y otras ciudades conquistadas; Ezequías lleva la carta al Templo y ora directamente a YHWH, recibiendo a través de Isaías la promesa de liberación que efectivamente se cumple.",
+      "referencias": ["2 Re 19:9-13", "2 Re 19:35-36"],
+      "personajes_clave": ["ezequias", "isaias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "isaias_arpad",
+      "nombre": "Isaías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Cita la jactancia asiria sobre Arpad y otras ciudades conquistadas como evidencia de la soberbia que YHWH finalmente castigará en el propio imperio asirio.",
+      "referencias": ["Is 10:5-19"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "ezequias_arpad",
+      "nombre": "Ezequías",
+      "emoji": "🙏",
+      "rol": "Rey de Judá",
+      "periodo": "c. 715–686 a.C.",
+      "descripcion": "Enfrenta directamente la amenaza propagandística asiria que cita a Arpad como precedente, respondiendo con oración confiada en el Templo en lugar de capitulación, lo que resulta en la liberación milagrosa de Jerusalén.",
+      "referencias": ["2 Re 19:1-19", "2 Re 19:35-36"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "senaquerib_arpad",
+      "nombre": "Senaquerib",
+      "emoji": "👑",
+      "rol": "Rey de Asiria",
+      "periodo": "c. 705–681 a.C.",
+      "descripcion": "Utiliza el precedente de Arpad y otras ciudades conquistadas como argumento de propaganda militar para intentar intimidar a Jerusalén durante su campaña contra Judá.",
+      "referencias": ["2 Re 18:34", "2 Re 19:9-13"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Arpad funciona en el texto bíblico exclusivamente como argumento retórico en la confrontación teológica entre el poder imperial asirio y la fe en YHWH: utilizada tanto por la propaganda asiria como prueba de la impotencia de los dioses locales frente a su poder militar, como por Isaías en sentido inverso, para denunciar la soberbia idolátrica de un imperio que confunde su éxito militar temporal con superioridad divina absoluta, confusión que precisamente provocará su juicio final.",
+    "religiones_presentes": [
+      "Politeísmo arameo (población original)",
+      "Politeísmo asirio (potencia conquistadora)",
+      "Yahvismo (perspectiva de la confrontación final)"
+    ],
+    "mitos": [
+      {
+        "id": "soberbia-asiria-arpad-juicio",
+        "nombre": "La soberbia asiria ejemplificada en la conquista de Arpad como causa de su propio juicio",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Is 10:5-19; 2 Re 19:9-13, 35-36",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el contraste deliberado entre la jactancia asiria citando ciudades como Arpad y el desenlace final de la liberación milagrosa de Jerusalén",
+          "descripcion": "La tradición judía valora especialmente el contraste narrativo entre la confiada jactancia asiria, que cita el precedente de Arpad y otras ciudades como prueba de invencibilidad, y el desenlace final donde precisamente Jerusalén —la ciudad que según la lógica asiria debería haber caído como las demás— es liberada milagrosamente, demostrando que la lógica de poder puramente militar no determina el resultado final cuando YHWH interviene directamente a favor de su pueblo fiel.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El contraste entre la caída de Arpad y la liberación de Jerusalén demuestra que ningún patrón de conquista militar previa garantiza resultados futuros idénticos cuando el pueblo responde con fe genuina ante la amenaza.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "lo_debar",
+  "nombre": "Lo-debar",
+  "tipo": "ciudad",
+  "lat": 32.662488,
+  "lng": 35.783568,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Refugio de Mefiboset" }
+  ],
+  "descripcion_geo": "Ciudad en Galaad, conocida exclusivamente como lugar de refugio temporal de Mefiboset, hijo de Jonatán y nieto de Saúl, durante el período posterior a la muerte de la familia real saulida.",
+  "altitud_m": 350,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de la región de Galaad.",
+  "recursos": [
+    "Refugio para sobrevivientes de la casa de Saúl",
+    "Casa de Maquir hijo de Amiel, anfitrión local"
+  ],
+  "importancia_estrategica": "Lo-debar no tiene relevancia estratégica, militar ni administrativa; su única función narrativa es identificar el lugar donde Mefiboset, único descendiente superviviente con discapacidad de la casa de Saúl, encuentra refugio en casa de Maquir antes de ser localizado y llevado a la corte de David.",
+  "otros_habitantes": [
+    {
+      "id": "maquir_lo_debar",
+      "nombre": "Maquir, hijo de Amiel",
+      "descripcion": "Habitante de Lo-debar que da refugio a Mefiboset tras la muerte de Saúl y Jonatán, y que reaparece posteriormente apoyando a David durante la rebelión de Absalón.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1010–975 a.C."
+    },
+    {
+      "id": "gaditas_lo_debar",
+      "nombre": "Población local de Galaad",
+      "descripcion": "Habitantes de la región transjordana donde se ubica Lo-debar, que ofrece refugio a fugitivos políticos en momentos de crisis dinástica en Israel.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1010–975 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "mefiboset-refugio-lo-debar",
+      "titulo": "Mefiboset se refugia en Lo-debar tras la muerte de Saúl",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Tras la muerte de Saúl y Jonatán en Gilboa, Mefiboset, hijo de Jonatán de cinco años de edad y discapacitado en ambos pies tras una caída durante la huida de su nodriza, encuentra refugio en casa de Maquir hijo de Amiel en Lo-debar.",
+      "referencias": ["2 Sam 4:4", "2 Sam 9:4"],
+      "personajes_clave": ["mefiboset"]
+    },
+    {
+      "id": "david-busca-mefiboset-lo-debar",
+      "titulo": "David localiza a Mefiboset en Lo-debar",
+      "fecha": "c. 1000 a.C.",
+      "descripcion": "Deseando mostrar misericordia por causa de su pacto con Jonatán, David pregunta si queda algún superviviente de la casa de Saúl, y se le informa que Mefiboset vive en casa de Maquir en Lo-debar; David lo manda traer a Jerusalén, le restituye las tierras de Saúl y lo invita a comer permanentemente a su mesa real.",
+      "referencias": ["2 Sam 9:1-13"],
+      "personajes_clave": ["david", "mefiboset"]
+    },
+    {
+      "id": "maquir-apoya-david-absalon",
+      "titulo": "Maquir de Lo-debar apoya a David durante la rebelión de Absalón",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "El mismo Maquir que había acogido a Mefiboset reaparece años después como uno de los benefactores que proveen provisiones a David durante su huida de Absalón en Majanaim, demostrando lealtad continuada hacia la casa real pese a los cambios de fortuna política.",
+      "referencias": ["2 Sam 17:27-29"],
+      "personajes_clave": ["david"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "mefiboset",
+      "nombre": "Mefiboset",
+      "emoji": "🦽",
+      "rol": "Hijo de Jonatán, nieto de Saúl",
+      "periodo": "c. 1015–970 a.C.",
+      "descripcion": "Encuentra refugio en Lo-debar tras la muerte de su padre y abuelo, hasta ser localizado por David, quien le restituye su honor y posición pese a ser el único descendiente directo superviviente de la dinastía rival.",
+      "referencias": ["2 Sam 4:4", "2 Sam 9:1-13"],
+      "ruta": ["lo_debar", "jerusalen"]
+    },
+    {
+      "id": "maquir_lo_debar_personaje",
+      "nombre": "Maquir, hijo de Amiel",
+      "emoji": "🏠",
+      "rol": "Anfitrión de Mefiboset, benefactor de David",
+      "periodo": "c. 1010–975 a.C.",
+      "descripcion": "Da refugio inicial a Mefiboset y, años después, provee provisiones decisivas a David durante la rebelión de Absalón, demostrando lealtad sostenida tanto hacia la casa de Saúl como hacia David.",
+      "referencias": ["2 Sam 9:4-5", "2 Sam 17:27-29"],
+      "ruta": ["lo_debar"]
+    },
+    {
+      "id": "david_lo_debar",
+      "nombre": "David",
+      "emoji": "🤝",
+      "rol": "Rey de Israel",
+      "periodo": "c. 1000 a.C.",
+      "descripcion": "Busca activamente a un superviviente de la casa de Saúl para cumplir su pacto de lealtad con Jonatán, encontrando a Mefiboset en Lo-debar y restituyéndolo con honor a la corte real.",
+      "referencias": ["2 Sam 9:1-13"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Lo-debar, pese a su irrelevancia geográfica y estratégica, es escenario de uno de los episodios más conmovedores de lealtad y misericordia política de todo el Antiguo Testamento: el cumplimiento del pacto de David con Jonatán, extendido hacia el único descendiente vulnerable de su antiguo rival, contrasta marcadamente con el patrón habitual de eliminación sistemática de rivales dinásticos en la antigüedad del Cercano Oriente.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "misericordia-pacto-mefiboset-lo-debar",
+        "nombre": "La misericordia de David hacia Mefiboset como cumplimiento del pacto con Jonatán",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Sam 9:1-13",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el cumplimiento del pacto (berit) entre David y Jonatán como modelo de fidelidad a los compromisos asumidos incluso después de la muerte de quien los hizo",
+          "descripcion": "La tradición judía valora el episodio de Lo-debar como ejemplo paradigmático del cumplimiento de un pacto (berit) personal incluso cuando ya no queda quien pueda exigir su ejecución, destacando que David, en el momento de máximo poder político, elige activamente buscar y honrar a un descendiente vulnerable de su antiguo rival en lugar de simplemente olvidarlo o, como sería habitual en la época, eliminarlo como amenaza potencial.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento del valor ejemplar de la misericordia mostrada por David hacia Mefiboset.",
+          "diferencias": null,
+          "significado_teologico": "El episodio demuestra que la fidelidad a un pacto personal trasciende la conveniencia política y la lógica habitual de eliminación de rivales dinásticos.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "2 Sam 9:1-13 (recepción homilética cristiana sobre la gracia inmerecida hacia el discapacitado y vulnerable)",
+          "fuente_secundaria": "Comentarios homiléticos que usan el episodio de Mefiboset como ilustración de la gracia divina hacia los pecadores",
+          "descripcion": "La tradición cristiana retoma frecuentemente el episodio de Mefiboset como ilustración popular de la gracia inmerecida: un hombre discapacitado, descendiente de la casa enemiga, que no tiene nada que ofrecer ni mérito propio que reclamar, es elevado por pura bondad del rey a la posición de comensal permanente en su propia mesa, paralelo frecuentemente usado para ilustrar la gracia divina hacia el pecador.",
+          "similitudes": "Comparte con la lectura judía la valoración positiva de la misericordia mostrada por David más allá de cualquier obligación estricta.",
+          "diferencias": "La lectura cristiana popular tiende a generalizar el episodio como ilustración de la gracia salvífica inmerecida, dimensión teológica ausente en la lectura judía centrada en el cumplimiento del pacto específico.",
+          "significado_teologico": "El episodio se convierte en ilustración popular cristiana de la gracia que eleva al indigno y vulnerable a una posición de honor inmerecido.",
+          "posible_relacion_cultural": "Recepción cristiana del ciclo de David reinterpretado como ilustración de principios teológicos de gracia y misericordia."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "gedor",
+  "nombre": "Gedor",
+  "tipo": "ciudad",
+  "lat": 31.63333,
+  "lng": 35.083333,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Localidad genealógica de Judá y Benjamín" }
+  ],
+  "descripcion_geo": "Pequeña localidad en la región montañosa de Judá, mencionada principalmente en contextos genealógicos. Su nombre ('muro' o 'cercado') sugiere un asentamiento originalmente fortificado o cercado, típico de poblaciones agrícolas y pastoriles de la zona montañosa central.",
+  "altitud_m": 700,
+  "clima": "Mediterráneo de montaña — veranos secos, inviernos fríos con lluvias, propio de las tierras altas de Judá.",
+  "recursos": [
+    "Tierras agrícolas y de pastoreo de las montañas de Judá",
+    "Asentamiento fortificado o cercado original"
+  ],
+  "importancia_estrategica": "Gedor no tiene relevancia militar, económica ni narrativa destacada por sí misma; su mención es exclusivamente genealógica, sirviendo como punto de referencia para registrar la descendencia y distribución territorial de clanes de Judá, y en el caso de los hijos de Sasac, también de una rama benjaminita asociada a la región.",
+  "otros_habitantes": [
+    {
+      "id": "judaitas_gedor",
+      "nombre": "Clan de Judá (línea de Caleb)",
+      "descripcion": "Familia descendiente de Penuel, identificada en las genealogías cronistas como 'padre de Gedor', es decir, fundador o antepasado epónimo asociado al asentamiento.",
+      "religion": "Yahvismo",
+      "periodo": "Período de los Jueces hasta la monarquía"
+    },
+    {
+      "id": "benjaminitas_gedor",
+      "nombre": "Clan de Benjamín (línea de Sasac)",
+      "descripcion": "Familia benjaminita registrada en las listas genealógicas de 1 Crónicas con vínculo a Gedor entre sus descendientes.",
+      "religion": "Yahvismo",
+      "periodo": "Período de la monarquía"
+    }
+  ],
+  "historias": [
+    {
+      "id": "penuel-padre-gedor",
+      "titulo": "Penuel, 'padre de Gedor', en la genealogía de Judá",
+      "fecha": "Genealógico, contexto pre-monárquico a monárquico",
+      "descripcion": "Las listas genealógicas de 1 Crónicas identifican a Penuel, de la línea de Caleb, como 'padre' (fundador o antepasado epónimo) de Gedor, integrando la localidad en el extenso entramado de clanes que poblaron la región montañosa de Judá.",
+      "referencias": ["1 Cr 4:4"],
+      "personajes_clave": []
+    },
+    {
+      "id": "jered-padre-gedor-alt",
+      "titulo": "Jered, también vinculado a Gedor",
+      "fecha": "Genealógico",
+      "descripcion": "En una lista genealógica paralela, también Jered aparece mencionado como 'padre de Gedor', reflejando la naturaleza compleja y a veces superpuesta de las tradiciones genealógicas cronistas sobre el origen de distintos asentamientos.",
+      "referencias": ["1 Cr 4:18"],
+      "personajes_clave": []
+    },
+    {
+      "id": "sasac-gedor-benjamin",
+      "titulo": "La línea benjaminita de Sasac vinculada a Gedor",
+      "fecha": "Genealógico, período de la monarquía",
+      "descripcion": "Entre los descendientes de Sasac, de la tribu de Benjamín, las genealogías cronistas mencionan también una conexión con Gedor, mostrando que la pequeña localidad aparece referenciada desde más de una línea tribal en los registros genealógicos.",
+      "referencias": ["1 Cr 8:31", "1 Cr 9:37"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "penuel_gedor",
+      "nombre": "Penuel",
+      "emoji": "📜",
+      "rol": "Antepasado epónimo de Gedor en la línea de Caleb",
+      "periodo": "Genealógico, anterior a la monarquía",
+      "descripcion": "Figura genealógica de la tribu de Judá identificada como 'padre' de Gedor en las listas cronistas, sin episodios narrativos asociados más allá de su mención genealógica.",
+      "referencias": ["1 Cr 4:4"],
+      "ruta": []
+    },
+    {
+      "id": "jered_gedor",
+      "nombre": "Jered",
+      "emoji": "📜",
+      "rol": "Antepasado epónimo alternativo de Gedor",
+      "periodo": "Genealógico",
+      "descripcion": "Figura genealógica mencionada en una lista paralela como 'padre de Gedor', ilustrando la complejidad de las tradiciones genealógicas cronistas sobre asentamientos menores de Judá.",
+      "referencias": ["1 Cr 4:18"],
+      "ruta": []
+    },
+    {
+      "id": "sasac_gedor",
+      "nombre": "Sasac",
+      "emoji": "📜",
+      "rol": "Antepasado de una línea benjaminita vinculada a Gedor",
+      "periodo": "Genealógico, período de la monarquía",
+      "descripcion": "Figura de la tribu de Benjamín cuya descendencia aparece registrada con vínculo a Gedor en las listas genealógicas de Crónicas, evidenciando la presencia de más de un linaje tribal asociado al lugar.",
+      "referencias": ["1 Cr 8:31", "1 Cr 9:37"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Gedor carece de desarrollo narrativo, mítico o cúltico propio; su presencia en el texto bíblico es puramente genealógica, como parte del extenso sistema de listas tribales que documentan la distribución y continuidad de los clanes de Israel a través de las generaciones. Su valor para el AT es testimonial: confirma la densidad de la trama genealógica que sostenía la identidad tribal israelita más allá de los grandes relatos narrativos.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "genealogias-gedor-continuidad",
+        "nombre": "Las genealogías de Gedor como tejido de continuidad tribal",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Cr 4:4; 1 Cr 4:18; 1 Cr 8:31",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el valor teológico de las listas genealógicas cronistas como afirmación de la continuidad del pueblo de Israel",
+          "descripcion": "La tradición judía valora las extensas genealogías de Crónicas, incluidas referencias menores como las de Gedor, como afirmación teológica de que cada familia y clan de Israel, por pequeño que sea su protagonismo narrativo, forma parte integral de la historia continua del pueblo elegido.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La inclusión de localidades y linajes menores en el registro genealógico refleja la convicción de que la elección divina de Israel abarca a la totalidad del pueblo, no solo a sus figuras más prominentes.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

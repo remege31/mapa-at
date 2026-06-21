@@ -1,0 +1,121 @@
+{
+  "id": "ashtaroth",
+  "nombre": "Astarot",
+  "tipo": "ciudad",
+  "lat": 32.8333333333,
+  "lng": 36.0166666667,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Capital de Og, ciudad levítica" }
+  ],
+  "descripcion_geo": "Una de las capitales del reino de Og en Basán, cuyo nombre deriva directamente de la diosa cananea Astarté, sugiriendo que la ciudad era centro de culto a esta divinidad antes de su conquista por Israel.",
+  "altitud_m": 600,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de la región de Basán.",
+  "recursos": [
+    "Capital administrativa del reino de Og",
+    "Centro de culto cananeo a Astarté (origen del nombre)",
+    "Ciudad levítica posterior dentro del territorio de Manasés transjordano"
+  ],
+  "importancia_estrategica": "Astarot, junto a Edrei, es una de las dos capitales del reino de Og derrotado por Israel; tras la conquista, se convierte en ciudad levítica dentro del territorio de la media tribu de Manasés en la Transjordania, transformando un antiguo centro de culto pagano en sede de presencia sacerdotal yahvista.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_astarot",
+      "nombre": "Amorreos del reino de Og",
+      "descripcion": "Población de una de las dos capitales del reino de Og, dedicada al culto de Astarté según sugiere el propio nombre de la ciudad, derrotada en la conquista de Basán.",
+      "religion": "Politeísmo amorreo — culto a Astarté",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "levitas_astarot",
+      "nombre": "Levitas de la línea de Gersón",
+      "descripcion": "Familias sacerdotales asentadas en Astarot tras su designación como ciudad levítica dentro del territorio de la media tribu de Manasés.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "og-rey-astarot",
+      "titulo": "Og, rey de Astarot y Edrei",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "El texto bíblico identifica a Og como rey que reinaba en Astarot y Edrei, las dos capitales de su extenso dominio en Basán, antes de ser derrotado completamente por Israel bajo Moisés.",
+      "referencias": ["Deut 1:4", "Jos 9:10"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "astarot-asignada-manases",
+      "titulo": "Astarot asignada a la media tribu de Manasés",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras la derrota de Og, el territorio que incluye Astarot se asigna a la media tribu de Manasés que se establece en la Transjordania junto a Rubén y Gad.",
+      "referencias": ["Jos 13:31"],
+      "personajes_clave": []
+    },
+    {
+      "id": "astarot-ciudad-levitica",
+      "titulo": "Astarot designada ciudad levítica",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Astarot se incluye entre las ciudades levíticas asignadas a la línea de Gersón dentro del territorio de la media tribu de Manasés en la Transjordania, transformando el antiguo centro de culto cananeo en sede sacerdotal yahvista.",
+      "referencias": ["1 Cr 6:71"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "og_astarot",
+      "nombre": "Og, rey de Basán",
+      "emoji": "👑",
+      "rol": "Último rey de los refaítas",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Gobierna su extenso reino de Basán desde sus dos capitales, Astarot y Edrei, antes de ser completamente derrotado por Israel bajo Moisés.",
+      "referencias": ["Deut 1:4", "Jos 9:10"],
+      "ruta": ["ashtaroth", "edrei"]
+    },
+    {
+      "id": "moises_astarot",
+      "nombre": "Moisés",
+      "emoji": "⚔️",
+      "rol": "Líder de Israel en la conquista de la Transjordania",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Dirige la conquista del reino de Og que incluye Astarot, completando la posesión israelita de toda la Transjordania septentrional.",
+      "referencias": ["Deut 3:1-11"],
+      "ruta": []
+    },
+    {
+      "id": "levitas_gerson_astarot",
+      "nombre": "Levitas de la línea de Gersón",
+      "emoji": "🕯️",
+      "rol": "Residentes sacerdotales de Astarot",
+      "periodo": "Desde c. 1200 a.C.",
+      "descripcion": "Asignados a residir en Astarot, transformando el antiguo centro de culto a Astarté en sede de presencia sacerdotal yahvista dentro del territorio manasita transjordano.",
+      "referencias": ["1 Cr 6:71"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Astarot conmemora en su propio nombre el culto cananeo a la diosa Astarté, divinidad de fertilidad y guerra ampliamente venerada en todo el Levante antiguo; su transformación posterior en ciudad levítica representa simbólicamente la sustitución del antiguo culto politeísta por la presencia institucional del yahvismo, patrón recurrente en la geografía bíblica donde lugares de culto cananeo se convierten en sedes de la administración religiosa israelita tras la conquista.",
+    "religiones_presentes": [
+      "Yahvismo (período posterior a la conquista)",
+      "Politeísmo amorreo — culto a Astarté (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "transformacion-culto-astarot",
+        "nombre": "La transformación de un centro de culto a Astarté en ciudad levítica",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Deut 1:4; 1 Cr 6:71",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la práctica de convertir antiguos centros de culto pagano en sedes de presencia yahvista como signo de la victoria del monoteísmo sobre la idolatría cananea",
+          "descripcion": "La tradición judía observa con interés que Astarot, ciudad cuyo nombre mismo conmemora a una diosa cananea, se convierte tras la conquista en residencia de familias levíticas dedicadas exclusivamente al servicio de YHWH, interpretando esta transformación como ejemplo elocuente de cómo la presencia israelita reorienta espacios previamente dedicados a la idolatría hacia el culto exclusivo al Dios verdadero.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La conversión de Astarot en ciudad levítica simboliza la sustitución del culto idolátrico cananeo por la presencia institucional del yahvismo en el territorio conquistado.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "thebes",
+  "nombre": "Tebas (No-Amón)",
+  "tipo": "ciudad",
+  "lat": 25.700025,
+  "lng": 32.639441,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital del Alto Egipto, destrucción profetizada" }
+  ],
+  "descripcion_geo": "Antigua y prestigiosa capital del Alto Egipto, conocida en hebreo como 'No' o 'No-Amón' (por su gran templo dedicado al dios Amón), una de las ciudades más ricas y poderosas del mundo antiguo, mencionada en los oráculos proféticos como ejemplo de destrucción ya consumada de una gran potencia.",
+  "altitud_m": 80,
+  "clima": "Desértico subtropical — extremadamente caluroso y seco durante todo el año, propio del Alto Egipto a lo largo del Nilo.",
+  "recursos": [
+    "Gran templo dedicado al dios Amón",
+    "Capital de gran prestigio religioso y político del Alto Egipto",
+    "Riqueza legendaria como una de las ciudades más prósperas del mundo antiguo"
+  ],
+  "importancia_estrategica": "Tebas funciona en el texto bíblico, especialmente en el oráculo de Nahúm contra Nínive, como ejemplo histórico ya consumado de destrucción de una gran capital aparentemente invencible: su caída real ante los asirios (663 a.C.) se usa retóricamente como advertencia de que el mismo destino aguarda a Nínive pese a su poder actual, demostrando que ninguna ciudad, por prestigiosa o fortificada que sea, escapa al juicio divino.",
+  "otros_habitantes": [
+    {
+      "id": "egipcios_tebas",
+      "nombre": "Población egipcia de Tebas",
+      "descripcion": "Habitantes de una de las ciudades más prestigiosas y antiguas de Egipto, cuya destrucción histórica por los asirios se cita como precedente de advertencia en los oráculos proféticos bíblicos.",
+      "religion": "Politeísmo egipcio — culto a Amón",
+      "periodo": "c. 1000–663 a.C."
+    },
+    {
+      "id": "aliados_tebas",
+      "nombre": "Aliados de Tebas (Cus, Put, Lubim)",
+      "descripcion": "Pueblos aliados mencionados por Nahúm como apoyo militar de Tebas que, pese a su fuerza combinada, no impidieron su destrucción final ante los asirios.",
+      "religion": "Religiones politeístas africanas diversas",
+      "periodo": "c. 663 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "nahum-recuerda-destruccion-tebas",
+      "titulo": "Nahúm recuerda la destrucción de Tebas como advertencia para Nínive",
+      "fecha": "c. 663–612 a.C.",
+      "descripcion": "El profeta Nahúm, en su oráculo contra Nínive, recuerda explícitamente la destrucción ya consumada de Tebas (No-Amón) pese a contar con el río como defensa natural y con aliados militares poderosos como Cus, Egipto, Put y los libios, usando este precedente histórico como advertencia de que Nínive sufrirá un destino similar a pesar de su poder aparente.",
+      "referencias": ["Nah 3:8-10"],
+      "personajes_clave": ["nahum"]
+    },
+    {
+      "id": "ezequiel-oraculo-tebas",
+      "titulo": "Ezequiel incluye a Tebas en su oráculo contra Egipto",
+      "fecha": "c. 587 a.C.",
+      "descripcion": "El profeta Ezequiel menciona explícitamente a No (Tebas) en su extenso oráculo de juicio contra Egipto, anunciando que esta ciudad será destruida junto con Sin, Menfis y otras ciudades del territorio egipcio.",
+      "referencias": ["Ez 30:14-16"],
+      "personajes_clave": ["ezequiel"]
+    },
+    {
+      "id": "jeremias-mencion-no-tebas",
+      "titulo": "Jeremías incluye a No entre las ciudades de juicio egipcio",
+      "fecha": "c. 587 a.C.",
+      "descripcion": "Jeremías menciona también a No dentro de su catálogo de ciudades egipcias sometidas a juicio, citando a Amón de No, divinidad principal de la ciudad, como objeto específico del castigo divino junto con Faraón.",
+      "referencias": ["Jer 46:25"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "nahum_tebas",
+      "nombre": "Nahúm",
+      "emoji": "🌊",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 663–612 a.C.",
+      "descripcion": "Utiliza el precedente histórico de la destrucción de Tebas como argumento retórico central de su oráculo de juicio contra Nínive, demostrando que ninguna capital, por defendida y aliada que esté, escapa al juicio divino.",
+      "referencias": ["Nah 3:8-19"],
+      "ruta": []
+    },
+    {
+      "id": "ezequiel_tebas",
+      "nombre": "Ezequiel",
+      "emoji": "📜",
+      "rol": "Profeta del exilio",
+      "periodo": "Activo c. 593–571 a.C.",
+      "descripcion": "Incluye a Tebas entre las ciudades egipcias destinadas a la destrucción en su extenso oráculo de juicio contra todo el territorio del Nilo.",
+      "referencias": ["Ez 30:14-16"],
+      "ruta": []
+    },
+    {
+      "id": "amon_dios_tebas",
+      "nombre": "Amón de No (deidad)",
+      "emoji": "⚱️",
+      "rol": "Divinidad principal de Tebas, objeto del juicio",
+      "periodo": "c. 1000–587 a.C.",
+      "descripcion": "Dios egipcio cuyo gran templo daba nombre hebreo a la ciudad ('No-Amón'), mencionado explícitamente por Jeremías como objeto directo del castigo divino junto con el poder político de Faraón.",
+      "referencias": ["Jer 46:25"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Tebas funciona en el corpus profético como caso de estudio histórico verificable sobre la inevitabilidad del juicio divino contra el poder humano más establecido: su destrucción real por los asirios en 663 a.C. —evento históricamente documentado fuera del registro bíblico— se convierte en argumento retórico de máxima fuerza persuasiva para Nahúm, quien la usa precisamente porque su audiencia conocía el hecho histórico consumado, no como profecía futura sino como precedente ya cumplido que garantiza la veracidad del juicio anunciado contra Nínive.",
+    "religiones_presentes": [
+      "Politeísmo egipcio — culto a Amón",
+      "Yahvismo (perspectiva de los oráculos proféticos)"
+    ],
+    "mitos": [
+      {
+        "id": "precedente-historico-tebas-ninive",
+        "nombre": "Tebas como precedente histórico verificable para el juicio de Nínive",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Nah 3:8-10",
+          "fuente_secundaria": "Comentario académico y rabínico tradicional sobre el valor retórico excepcional de Nahúm al citar un evento históricamente verificable (la destrucción de Tebas, confirmada por registros asirios extrabíblicos) como argumento para un juicio futuro",
+          "descripcion": "La tradición judía y la exégesis académica posterior valoran especialmente la estrategia retórica de Nahúm al fundamentar su anuncio de juicio futuro contra Nínive en un hecho histórico ya consumado y verificable por su propia audiencia, técnica que confiere especial fuerza persuasiva al oráculo al apelar a evidencia tangible reciente en lugar de afirmaciones puramente proféticas sin respaldo verificable.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El uso de un precedente histórico verificable refuerza la credibilidad del juicio profético, demostrando que el mismo patrón de destrucción que cayó sobre Tebas, gran capital con aliados poderosos, alcanzará inevitablemente también a Nínive.",
+          "posible_relacion_cultural": "Convergencia documentada entre el texto profético bíblico y los registros históricos extrabíblicos sobre la destrucción asiria de Tebas en 663 a.C."
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

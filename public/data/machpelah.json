@@ -1,0 +1,136 @@
+{
+  "id": "machpelah",
+  "nombre": "Macpela",
+  "tipo": "territorio",
+  "lat": 31.52464794555393,
+  "lng": 35.11073465087356,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1500, "hasta": -1200, "nombre": "Edad de Bronce Tardía — Sepultura patriarcal continuada" }
+  ],
+  "descripcion_geo": "Cueva doble ('macpela' significa 'doble' o 'duplicada') situada en un campo frente a Mamre, cerca de Hebrón, comprada por Abraham a Efrón el heteo como sepultura familiar. Se convirtió en panteón funerario de tres generaciones de patriarcas y matriarcas de Israel.",
+  "altitud_m": 930,
+  "clima": "Mediterráneo de montaña — el de la región de Hebrón.",
+  "recursos": [
+    "Cueva natural en terreno calizo",
+    "Campo con árboles, adquirido junto con la cueva"
+  ],
+  "importancia_estrategica": "Macpela no tiene relevancia estratégica en sentido militar o económico; su importancia es genealógico-teológica como primera porción de tierra adquirida legalmente por los patriarcas en Canaán y como panteón funerario que vincula físicamente a las tres generaciones fundacionales —Abraham y Sara, Isaac y Rebeca, Jacob y Lea— con la tierra prometida, sirviendo de argumento implícito de la legitimidad de la posesión israelita posterior.",
+  "otros_habitantes": [
+    {
+      "id": "heteos_macpela",
+      "nombre": "Hijos de Het (heteos)",
+      "descripcion": "Población local de Hebrón ante quienes Abraham negocia y formaliza la compra del campo y la cueva de Macpela, testigos del acuerdo legal.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 2050 a.C."
+    },
+    {
+      "id": "efron_macpela",
+      "nombre": "Efrón el heteo y su descendencia",
+      "descripcion": "Propietario original del campo y la cueva, vendedor formal del terreno a Abraham por cuatrocientos siclos de plata.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 2050 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "sepultura-sara-macpela",
+      "titulo": "Sepultura de Sara en Macpela",
+      "fecha": "c. 2029 a.C.",
+      "descripcion": "Tras la muerte de Sara en Hebrón, Abraham compra formalmente el campo y la cueva de Macpela a Efrón el heteo y la sepulta allí, marcando el primer enterramiento patriarcal en la tierra prometida y la primera posesión legal de tierra por parte de Abraham en Canaán.",
+      "referencias": ["Gén 23:1-20"],
+      "personajes_clave": ["abraham"]
+    },
+    {
+      "id": "sepultura-abraham-isaac-macpela",
+      "titulo": "Sepultura de Abraham, Isaac, Rebeca, Lea y Jacob",
+      "fecha": "c. 1991–1859 a.C. (Abraham e Isaac, cronología tradicional)",
+      "descripcion": "Tras Sara, son sepultados sucesivamente en Macpela Abraham (por Isaac e Ismael), después Isaac y Rebeca, y finalmente Lea, convirtiendo la cueva en el panteón funerario común de las tres generaciones patriarcales fundacionales.",
+      "referencias": ["Gén 25:9-10", "Gén 49:31"],
+      "personajes_clave": ["abraham"]
+    },
+    {
+      "id": "jacob-pide-sepultura-macpela",
+      "titulo": "Jacob pide ser sepultado en Macpela",
+      "fecha": "c. 1859 a.C. (cronología tradicional)",
+      "descripcion": "Desde Egipto, Jacob agonizante encarga explícitamente a sus hijos que lleven su cuerpo de vuelta a Canaán para ser sepultado en la cueva de Macpela, junto a sus padres y abuelos, recordando con detalle la compra original del terreno por Abraham.",
+      "referencias": ["Gén 49:29-32", "Gén 50:12-13"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "abraham_macpela",
+      "nombre": "Abraham",
+      "emoji": "⚰️",
+      "rol": "Patriarca, comprador y primer sepultado en Macpela",
+      "periodo": "c. 2166–1991 a.C. (cronología tradicional)",
+      "descripcion": "Compra formalmente el campo y la cueva de Macpela para sepultar a Sara, estableciendo así la primera posesión legal y permanente de los patriarcas en la tierra de Canaán.",
+      "referencias": ["Gén 23:1-20", "Gén 25:9-10"],
+      "ruta": ["mamre", "machpelah"]
+    },
+    {
+      "id": "isaac_macpela",
+      "nombre": "Isaac",
+      "emoji": "⚰️",
+      "rol": "Patriarca, segundo sepultado en Macpela",
+      "periodo": "c. 2066–1886 a.C. (cronología tradicional)",
+      "descripcion": "Hijo de Abraham, sepultado en Macpela por sus hijos Esaú y Jacob, continuando la línea de panteón familiar patriarcal en el mismo lugar adquirido por su padre.",
+      "referencias": ["Gén 35:27-29"],
+      "ruta": ["machpelah"]
+    },
+    {
+      "id": "jacob_macpela",
+      "nombre": "Jacob",
+      "emoji": "⚰️",
+      "rol": "Patriarca, último sepultado en Macpela",
+      "periodo": "c. 2006–1859 a.C. (cronología tradicional)",
+      "descripcion": "Pide expresamente desde Egipto ser sepultado en Macpela junto a sus padres y abuelos; sus hijos cumplen la petición trasladando su cuerpo embalsamado de regreso a Canaán en un cortejo fúnebre solemne.",
+      "referencias": ["Gén 49:29-33", "Gén 50:1-14"],
+      "ruta": ["egipto", "machpelah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Macpela es el ancla física más concreta del ciclo patriarcal en la tierra de Canaán: mientras las promesas divinas son verbales y futuras, la posesión de esta tumba es presente, legal y tangible. Su función como panteón común de tres generaciones convierte al lugar en símbolo de continuidad familiar y de arraigo territorial, sirviendo como argumento implícito —y central en las tres tradiciones abrahámicas— de la legitimidad histórica de la presencia del pueblo de Abraham en la tierra.",
+    "religiones_presentes": [
+      "Yahvismo patriarcal",
+      "Politeísmo cananeo (heteos, vendedores originales)"
+    ],
+    "mitos": [
+      {
+        "id": "panteon-patriarcal-macpela",
+        "nombre": "Macpela como panteón fundacional de los patriarcas",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "judaismo": {
+          "fuente_primaria": "Gén 23:1-20; Gén 25:9-10; Gén 49:29-33; Gén 50:12-13",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 58; tradición sobre la Cueva de los Patriarcas (Mearat HaMajpela) como segundo lugar más sagrado del judaísmo después del Monte del Templo",
+          "descripcion": "La tradición judía considera Macpela el segundo lugar más sagrado del judaísmo, desarrollando tradiciones midráshicas extensas sobre el origen de la cueva —algunas la vinculan incluso con la sepultura de Adán y Eva— y sobre el significado de su nombre como 'doble' referido a las parejas allí enterradas.",
+          "similitudes": "Comparte con cristianismo e islam el reconocimiento de Abraham y los patriarcas como figuras fundacionales sepultadas en el mismo lugar venerado.",
+          "diferencias": null,
+          "significado_teologico": "La cueva representa la promesa de la tierra hecha tangible y heredable, fundamento de la identidad y continuidad del pueblo de Israel a través de generaciones.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Abraham y su descendencia como figura fundacional común a las tres religiones abrahámicas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Hch 7:15-16 (referencia retrospectiva en el discurso de Esteban); Heb 11:8-9 (fe de Abraham como peregrino en la tierra prometida)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la fe de los patriarcas como modelo de esperanza en promesas no vistas",
+          "descripcion": "La tradición cristiana retoma la compra de Macpela como ejemplo paradigmático, citado en la Carta a los Hebreos, de la fe de los patriarcas que poseen solo una porción mínima de la tierra prometida (una tumba) mientras esperan el cumplimiento pleno de una promesa mayor, leída en clave escatológica.",
+          "similitudes": "Comparte el reconocimiento de la importancia fundacional de la compra de Macpela por Abraham.",
+          "diferencias": "La lectura cristiana tiende a subordinar el valor territorial concreto de Macpela a su función como símbolo de fe en promesas trascendentes aún no cumplidas plenamente.",
+          "significado_teologico": "La posesión mínima y simbólica de la tumba se interpreta como anticipo de una herencia mayor y definitiva prometida a los creyentes.",
+          "posible_relacion_cultural": "Tradición compartida del patriarca Abraham como modelo de fe común a judaísmo y cristianismo."
+        },
+        "islam": {
+          "fuente_primaria": "Tradición islámica extracoránica sobre Ibrahim como Jalil Allah ('amigo de Dios') y su sepultura en Hebrón (al-Khalil)",
+          "fuente_secundaria": "Tradiciones hadiz y exégesis posterior que identifican Hebrón (al-Khalil, 'el amigo', epíteto de Ibrahim) con el lugar de su sepultura",
+          "descripcion": "La tradición islámica, aunque el Corán no detalla el episodio de la compra de Macpela, reconoce la sepultura de Ibrahim en Hebrón —ciudad que en árabe se llama precisamente al-Khalil en su honor— y venera el lugar (el Haram al-Ibrahimi) como sitio sagrado compartido vinculado al patriarca común.",
+          "similitudes": "Reconocimiento compartido de Ibrahim/Abraham como figura sepultada en el mismo lugar venerado por las tres tradiciones.",
+          "diferencias": "La tradición islámica no desarrolla el relato detallado de la compra legal del terreno a Efrón presente en el Génesis; el énfasis recae en la santidad de Ibrahim como 'amigo de Dios' más que en la narrativa de adquisición de la tierra.",
+          "significado_teologico": "El lugar se integra en la cadena de santidad profética reconocida por el islam, vinculando a Hebrón con la tradición abrahámica común.",
+          "posible_relacion_cultural": "Reconocimiento compartido de Hebrón/Macpela como lugar sagrado de la tradición abrahámica común a las tres religiones."
+        }
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio"]
+}

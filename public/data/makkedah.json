@@ -1,0 +1,129 @@
+{
+  "id": "makkedah",
+  "nombre": "Makkedah",
+  "tipo": "ciudad",
+  "lat": 31.935117,
+  "lng": 34.781326,
+  "frecuencia_at": 9,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista y asignación a Judá" }
+  ],
+  "descripcion_geo": "Ciudad cananea en la Sefelá (tierras bajas de Judá), próxima a una cueva natural en piedra caliza que sirvió de refugio y, después, de prisión improvisada en el relato de la conquista. Terreno de colinas bajas y suaves típico de la transición entre la llanura costera y las montañas centrales.",
+  "altitud_m": 250,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, más templado que la costa por la altitud de la Sefelá.",
+  "recursos": [
+    "Cuevas naturales de piedra caliza",
+    "Tierras agrícolas de la Sefelá",
+    "Posición en rutas entre la costa filistea y las montañas de Judá"
+  ],
+  "importancia_estrategica": "Makkedah fue escenario de uno de los episodios más citados de la campaña de Josué en el sur de Canaán: la derrota de la coalición de cinco reyes amorreos y su refugio final en una cueva cercana a la ciudad. Su control consolidaba la presencia israelita en la Sefelá tras la caída de las grandes ciudades-estado cananeas de la región.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_makkedah",
+      "nombre": "Cananeos amorreos",
+      "descripcion": "Población original gobernada por un rey local, integrante de la coalición de cinco reyes amorreos derrotada por Josué tras el episodio de Gabaón.",
+      "religion": "Politeísmo cananeo-amorreo — culto a Baal y divinidades locales",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "israelitas_makkedah",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Tras la conquista, Makkedah queda asignada al territorio de Judá dentro del reparto de la Sefelá.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "cinco-reyes-cueva",
+      "titulo": "Los cinco reyes amorreos refugiados en la cueva de Makkedah",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Tras ser derrotados por Josué en defensa de Gabaón, los reyes de Jerusalén, Hebrón, Jarmut, Laquis y Eglón huyen y se esconden en una cueva cerca de Makkedah; Josué ordena sellar la entrada con piedras hasta concluir la batalla.",
+      "referencias": ["Jos 10:16-21"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "ejecucion-cinco-reyes",
+      "titulo": "Ejecución de los cinco reyes",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Una vez asegurada la victoria, Josué hace sacar a los cinco reyes de la cueva, los humilla públicamente ante los jefes israelitas, los ejecuta y ordena colgar sus cuerpos hasta el atardecer, sepultándolos después en la misma cueva que les había servido de refugio.",
+      "referencias": ["Jos 10:22-27"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "conquista-makkedah",
+      "titulo": "Toma de la ciudad de Makkedah",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "El mismo día de la ejecución de los reyes, Josué conquista la ciudad de Makkedah, pasa a su rey y a sus habitantes a filo de espada y no deja sobreviviente, repitiendo el patrón de las campañas del sur.",
+      "referencias": ["Jos 10:28"],
+      "personajes_clave": ["josue"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Sucesor de Moisés que dirige la campaña militar del sur de Canaán; en Makkedah protagoniza tanto el episodio de la cueva de los cinco reyes como la conquista de la ciudad misma.",
+      "referencias": ["Jos 10:16-28"],
+      "ruta": ["gilgal", "makkedah", "laquis"]
+    },
+    {
+      "id": "rey_jerusalen_adonisedec",
+      "nombre": "Adoni-sedec",
+      "emoji": "👑",
+      "rol": "Rey amorreo de Jerusalén, líder de la coalición de cinco reyes",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Organiza la coalición de cinco reyes amorreos contra Gabaón por haber pactado con Israel; derrotado por Josué, muere ejecutado tras ser hallado en la cueva de Makkedah.",
+      "referencias": ["Jos 10:1-27"],
+      "ruta": ["jerusalen", "makkedah"]
+    },
+    {
+      "id": "rey_hebron_makkedah",
+      "nombre": "Reyes coaligados de Hebrón, Jarmut, Laquis y Eglón",
+      "emoji": "🏛️",
+      "rol": "Reyes amorreos de la coalición del sur",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Junto al rey de Jerusalén, forman la coalición de cinco reyes derrotada en la batalla de Gabaón; los cinco comparten el mismo destino en la cueva de Makkedah.",
+      "referencias": ["Jos 10:3-5", "Jos 10:23"],
+      "ruta": ["makkedah"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Makkedah no tiene culto propio; su peso religioso es enteramente narrativo, como escenario del juicio divino ejecutado a través de Josué sobre los reyes cananeos. El episodio se inscribe en la teología deuteronomista del herem (consagración a la destrucción) que caracteriza el relato de la conquista, presentando la derrota y ejecución de los reyes como manifestación del juicio de YHWH sobre los pueblos de Canaán.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva del relato bíblico)",
+      "Politeísmo cananeo-amorreo (población original)"
+    ],
+    "mitos": [
+      {
+        "id": "cueva-cinco-reyes",
+        "nombre": "La cueva de los cinco reyes",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 10:16-27",
+          "fuente_secundaria": "Talmud Babilónico, Sotah 10a-b (discusión sobre los reyes derrotados por Josué)",
+          "descripcion": "La tradición rabínica detalla el episodio como ejemplo del control divino de los fenómenos naturales en favor de Israel (el sol detenido) y como cumplimiento del juicio anunciado contra los pueblos cananeos.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La ejecución pública de los reyes simboliza la victoria de YHWH sobre los poderes políticos y religiosos opuestos a Israel; el gesto de pisar el cuello de los reyes representa sumisión total.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jos 10:16-27 (recepción patrística como tipología de victoria sobre el mal)",
+          "fuente_secundaria": "Orígenes, Homilías sobre el libro de Josué, Homilía XI",
+          "descripcion": "Orígenes interpreta alegóricamente a los cinco reyes como representación de los cinco sentidos sometidos al dominio del 'Josué espiritual' (tipo de Cristo), leyendo el episodio en clave moral más que histórico-militar.",
+          "similitudes": "Comparte la base narrativa del texto de Josué.",
+          "diferencias": "La lectura patrística desplaza el sentido militar-histórico hacia una alegoría espiritual sobre el dominio de las pasiones.",
+          "significado_teologico": "La victoria sobre los cinco reyes prefigura la victoria de Cristo sobre las potencias del mal.",
+          "posible_relacion_cultural": "Recepción cristiana del ciclo de conquista de Josué como tipología cristológica, común en la patrística antigua."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

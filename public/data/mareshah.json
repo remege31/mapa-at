@@ -1,0 +1,128 @@
+{
+  "id": "mareshah",
+  "nombre": "Maresá",
+  "tipo": "ciudad",
+  "lat": 31.60393321295081,
+  "lng": 34.90237777777779,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad fortificada de Roboam, batalla contra los etíopes" }
+  ],
+  "descripcion_geo": "Ciudad en la Sefelá meridional de Judá, fortificada por Roboam como parte del sistema defensivo del reino tras la división del reino unido. Próxima a las llanuras del sur por donde transitaban las rutas de invasión desde Egipto y el desierto.",
+  "altitud_m": 370,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá meridional.",
+  "recursos": [
+    "Posición fortificable en la Sefelá meridional",
+    "Control de rutas de acceso desde el sur y suroeste"
+  ],
+  "importancia_estrategica": "Maresá fue una de las quince ciudades fortificadas por Roboam para la defensa del reino de Judá recién dividido, y posteriormente escenario de la gran batalla del valle de Sefata cerca de Maresá, donde el rey Asá enfrenta y derrota a un masivo ejército invasor etíope (cusita), episodio presentado como ejemplo paradigmático de victoria mediante la confianza en YHWH frente a una fuerza numéricamente abrumadora.",
+  "otros_habitantes": [
+    {
+      "id": "judaitas_maresa",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Población judaíta de Maresá, ciudad incluida en el sistema de fortificaciones organizado por Roboam tras la secesión del reino del norte.",
+      "religion": "Yahvismo",
+      "periodo": "c. 925–586 a.C."
+    },
+    {
+      "id": "ejercito_zera_maresa",
+      "nombre": "Ejército etíope (cusita) de Zera",
+      "descripcion": "Fuerza invasora masiva procedente de Etiopía/Cus que avanza hasta Maresá y es derrotada decisivamente por el ejército de Asá en el valle de Sefata.",
+      "religion": "Religión cusita (politeísmo africano antiguo)",
+      "periodo": "c. 897 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "roboam-fortifica-maresa",
+      "titulo": "Roboam fortifica Maresá",
+      "fecha": "c. 925–913 a.C.",
+      "descripcion": "Maresá se incluye entre las quince ciudades que Roboam fortifica en Judá tras la división del reino unido, formando parte del cinturón defensivo del sur del reino.",
+      "referencias": ["2 Cr 11:8"],
+      "personajes_clave": ["roboam"]
+    },
+    {
+      "id": "asa-derrota-zera-maresa",
+      "titulo": "Asá derrota al ejército etíope de Zera en el valle de Sefata",
+      "fecha": "c. 897 a.C.",
+      "descripcion": "Ante la invasión de un millón de hombres y trescientos carros bajo el mando de Zera el etíope, el rey Asá clama a YHWH antes de la batalla, declarando confiar únicamente en él frente a la multitud invasora; Israel derrota decisivamente al ejército cusita en el valle de Sefata, cerca de Maresá, y lo persigue hasta Gerar, tomando un enorme botín.",
+      "referencias": ["2 Cr 14:9-15"],
+      "personajes_clave": ["asa"]
+    },
+    {
+      "id": "azarias-profecia-maresa",
+      "titulo": "El profeta Azarías recibe a Asá tras la victoria",
+      "fecha": "c. 897 a.C.",
+      "descripcion": "Tras la victoria sobre Zera, el profeta Azarías hijo de Oded sale al encuentro de Asá con un oráculo que lo anima a perseverar en la reforma religiosa, advirtiéndole también sobre los peligros de la apostasía, episodio que impulsa una purificación adicional del culto en Judá.",
+      "referencias": ["2 Cr 15:1-8"],
+      "personajes_clave": ["asa"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "asa_maresa",
+      "nombre": "Asá",
+      "emoji": "🛡️",
+      "rol": "Rey de Judá",
+      "periodo": "c. 911–870 a.C.",
+      "descripcion": "Dirige la defensa de Judá ante la masiva invasión etíope de Zera, derrotándola decisivamente en el valle de Sefata cerca de Maresá tras invocar la ayuda de YHWH, episodio que el texto cronista presenta como modelo de confianza religiosa ante una amenaza militar abrumadora.",
+      "referencias": ["2 Cr 14:9-15"],
+      "ruta": ["jerusalen", "mareshah"]
+    },
+    {
+      "id": "zera_etiope",
+      "nombre": "Zera el etíope",
+      "emoji": "⚔️",
+      "rol": "Comandante del ejército invasor cusita",
+      "periodo": "c. 897 a.C.",
+      "descripcion": "Lidera una fuerza invasora masiva de un millón de hombres y trescientos carros contra Judá, derrotada decisivamente por Asá en el valle de Sefata, episodio recordado como una de las mayores victorias defensivas del reino de Judá.",
+      "referencias": ["2 Cr 14:9-13"],
+      "ruta": ["mareshah"]
+    },
+    {
+      "id": "azarias_oded",
+      "nombre": "Azarías hijo de Oded",
+      "emoji": "📯",
+      "rol": "Profeta que recibe a Asá tras la victoria",
+      "periodo": "c. 897 a.C.",
+      "descripcion": "Pronuncia un oráculo de aliento y advertencia a Asá tras la victoria sobre Zera, impulsando una nueva fase de reforma religiosa en el reino de Judá.",
+      "referencias": ["2 Cr 15:1-7"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Maresá es escenario de una de las narrativas bélicas más teológicamente cargadas del cronista: la victoria de Asá sobre un ejército enormemente superior numéricamente se presenta explícitamente como resultado de la confianza declarada en YHWH antes de la batalla, no de la superioridad militar israelita. El episodio se enmarca en el patrón cronista de causalidad directa entre fidelidad religiosa real y éxito militar, reforzado después por la intervención profética de Azarías.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Religión cusita (ejército invasor)"
+    ],
+    "mitos": [
+      {
+        "id": "victoria-confianza-yhwh-maresa",
+        "nombre": "La victoria de Asá como modelo de confianza ante la fuerza abrumadora",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "2 Cr 14:9-15",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la oración de Asá como modelo de plegaria en momentos de amenaza existencial nacional",
+          "descripcion": "La tradición judía valora la oración de Asá antes de la batalla —'no hay diferencia para ti entre ayudar al poderoso o al que no tiene fuerzas'— como fórmula paradigmática de confianza en la providencia divina frente a una amenaza desproporcionada, citada en contextos litúrgicos posteriores de súplica nacional.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La victoria sobre un enemigo numéricamente abrumador demuestra que el resultado de la guerra depende de YHWH y no de la magnitud de las fuerzas enfrentadas.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "2 Cr 14:9-15 (recepción patrística como ejemplo de oración confiada ante la adversidad)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos sobre la oración de Asá como modelo de fe aplicable a toda situación de debilidad humana frente a fuerzas superiores",
+          "descripcion": "La tradición cristiana retoma el episodio como ilustración general del principio de que la fuerza divina se manifiesta plenamente en la debilidad humana reconocida, generalizando la lección más allá del contexto militar específico de Judá.",
+          "similitudes": "Comparte con la lectura judía el valor de la oración de Asá como modelo de confianza ante la adversidad.",
+          "diferencias": "La lectura cristiana tiende a universalizar el principio aplicándolo a cualquier forma de debilidad o adversidad, no solo a contextos bélicos nacionales.",
+          "significado_teologico": "El episodio se integra como precedente veterotestamentario del principio de que el poder divino se perfecciona en el reconocimiento humano de la propia debilidad.",
+          "posible_relacion_cultural": "Recepción compartida de los relatos de los reyes de Judá como historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

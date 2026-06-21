@@ -1,0 +1,128 @@
+{
+  "id": "zarethan",
+  "nombre": "Saretán",
+  "tipo": "ciudad",
+  "lat": 32.267821,
+  "lng": 35.576613,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Cruce del Jordán, fundición de Salomón" }
+  ],
+  "descripcion_geo": "Localidad junto al río Jordán, en la región donde las aguas se detuvieron milagrosamente durante el cruce de Israel hacia la tierra prometida, y siglos después, sitio identificado con la zona de fundición de los objetos de bronce del Templo de Salomón debido a la arcilla compacta de su terreno.",
+  "altitud_m": -250,
+  "clima": "Mediterráneo de valle del Jordán — veranos muy calurosos y secos, inviernos templados, propio del valle central del Jordán.",
+  "recursos": [
+    "Suelo arcilloso adecuado para fundición de metales",
+    "Posición junto al Jordán, punto de referencia del cruce milagroso"
+  ],
+  "importancia_estrategica": "Saretán marca el punto donde las aguas del Jordán se detienen durante el cruce milagroso de Israel bajo Josué, y siglos después se convierte en el centro industrial donde Salomón funde los grandes objetos de bronce del Templo, aprovechando las características específicas del suelo arcilloso de la región para los moldes de fundición.",
+  "otros_habitantes": [
+    {
+      "id": "israelitas_zarethan",
+      "nombre": "Israel del éxodo",
+      "descripcion": "Pueblo que cruza el Jordán cerca de Saretán mientras las aguas se detienen milagrosamente, permitiendo el paso en seco hacia la tierra prometida.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200 a.C. (narrativa)"
+    },
+    {
+      "id": "fundidores_salomon_zarethan",
+      "nombre": "Artesanos de Hiram de Tiro",
+      "descripcion": "Trabajadores especializados en fundición de bronce, dirigidos por Hiram el artesano (homónimo del rey de Tiro), que utilizan el suelo arcilloso de Saretán para fundir los grandes objetos de bronce del Templo de Salomón.",
+      "religion": "Politeísmo fenicio (artesano) y Yahvismo (proyecto)",
+      "periodo": "c. 960 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "cruce-jordan-zarethan",
+      "titulo": "Las aguas del Jordán se detienen junto a Saretán",
+      "fecha": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Cuando los sacerdotes que portan el Arca de la Alianza tocan las aguas del Jordán, estas se detienen y se amontonan 'muy lejos, en Adam, ciudad que está al lado de Saretán', permitiendo a todo Israel cruzar en seco hacia Jericó y la tierra prometida.",
+      "referencias": ["Jos 3:14-17"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "fundicion-bronce-salomon-zarethan",
+      "titulo": "Salomón funde los objetos de bronce del Templo en Saretán",
+      "fecha": "c. 960 a.C.",
+      "descripcion": "Hiram, artesano de bronce enviado por el rey de Tiro, funde las columnas Jaquín y Boaz, el mar de bronce y otros grandes objetos del Templo en la llanura del Jordán, en tierra arcillosa entre Sucot y Saretán, aprovechando las características específicas del terreno para los moldes de fundición a gran escala.",
+      "referencias": ["1 Re 7:45-46"],
+      "personajes_clave": ["salomon"]
+    },
+    {
+      "id": "elias-jordan-zarethan-contexto",
+      "titulo": "Saretán como referencia geográfica del valle del Jordán",
+      "fecha": "Diversos períodos",
+      "descripcion": "Saretán funciona repetidamente en el texto bíblico como punto de referencia geográfico estable para ubicar otros eventos y lugares a lo largo del curso del río Jordán, confirmando su persistencia como localidad reconocida durante varios siglos.",
+      "referencias": ["Jue 7:22"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_zarethan",
+      "nombre": "Josué",
+      "emoji": "🌊",
+      "rol": "Líder de la conquista de Canaán",
+      "periodo": "c. 1200 a.C. (narrativa)",
+      "descripcion": "Dirige el cruce milagroso del Jordán cerca de Saretán, marcando el inicio formal de la entrada de Israel a la tierra prometida.",
+      "referencias": ["Jos 3:1-17"],
+      "ruta": ["shittim", "zarethan", "jerico"]
+    },
+    {
+      "id": "salomon_zarethan",
+      "nombre": "Salomón",
+      "emoji": "🔥",
+      "rol": "Rey de Israel, constructor del Templo",
+      "periodo": "c. 970–960 a.C.",
+      "descripcion": "Ordena la fundición de los grandes objetos de bronce del Templo en la región de Saretán, aprovechando las propiedades específicas del suelo arcilloso local para esta obra de ingeniería metalúrgica a gran escala.",
+      "referencias": ["1 Re 7:45-47"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "hiram_artesano_zarethan",
+      "nombre": "Hiram, artesano de bronce",
+      "emoji": "🛠️",
+      "rol": "Maestro fundidor enviado por Tiro",
+      "periodo": "c. 960 a.C.",
+      "descripcion": "Dirige técnicamente la fundición de los objetos de bronce del Templo en la región de Saretán, aplicando su experiencia fenicia en metalurgia al servicio del proyecto constructivo de Salomón.",
+      "referencias": ["1 Re 7:13-14", "1 Re 7:45-46"],
+      "ruta": ["zarethan"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Saretán conecta dos momentos fundacionales separados por siglos en la historia religiosa de Israel: el cruce milagroso del Jordán que marca el inicio de la posesión de la tierra prometida bajo Josué, y la fundición de los elementos centrales del culto del Templo bajo Salomón, sugiriendo una continuidad simbólica entre el momento de entrada a la tierra y el momento de consagración plena del culto centralizado en Jerusalén.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo fenicio (artesanos especializados)"
+    ],
+    "mitos": [
+      {
+        "id": "aguas-detenidas-zarethan",
+        "nombre": "Las aguas del Jordán detenidas junto a Saretán",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jos 3:14-17",
+          "fuente_secundaria": "Comentario rabínico tradicional que compara el cruce del Jordán con el cruce del Mar Rojo como segundo gran milagro acuático fundacional de la historia de Israel",
+          "descripcion": "La tradición judía conecta explícitamente el milagro del cruce del Jordán cerca de Saretán con el precedente del cruce del Mar Rojo en el éxodo, interpretando ambos eventos como manifestaciones paralelas del poder de YHWH para abrir camino a su pueblo en los momentos de transición más decisivos de su historia: la salida de la esclavitud y la entrada a la tierra prometida.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento del paralelismo tipológico entre ambos cruces acuáticos.",
+          "diferencias": null,
+          "significado_teologico": "El cruce del Jordán confirma que el mismo poder divino que liberó a Israel de Egipto lo introduce ahora en la posesión definitiva de la tierra prometida.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Jos 3:14-17 (recepción tipológica patrística sobre el cruce del Jordán como figura bautismal)",
+          "fuente_secundaria": "Comentarios patrísticos que vinculan el cruce del Jordán con el bautismo cristiano como paso simbólico hacia una nueva existencia",
+          "descripcion": "La tradición cristiana lee tipológicamente el cruce del Jordán como prefiguración del bautismo cristiano, interpretando el paso de las aguas como símbolo del tránsito desde la antigua existencia (el desierto) hacia la nueva vida en la herencia prometida, paralelo reforzado por el hecho de que Jesús mismo es bautizado en el mismo río.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento del cruce del Jordán como momento de transición fundacional.",
+          "diferencias": "La lectura cristiana añade una dimensión tipológica sacramental (el bautismo) ausente en la interpretación judía tradicional del episodio.",
+          "significado_teologico": "El cruce del Jordán se convierte en figura veterotestamentaria del bautismo cristiano como paso hacia una nueva existencia espiritual.",
+          "posible_relacion_cultural": "Recepción cristiana del relato del Éxodo y la conquista reinterpretado tipológicamente en clave sacramental."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

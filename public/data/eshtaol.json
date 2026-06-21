@@ -1,0 +1,120 @@
+{
+  "id": "eshtaol",
+  "nombre": "Eshtaol",
+  "tipo": "ciudad",
+  "lat": 31.782429,
+  "lng": 35.009012,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Asentamiento danita, punto de partida de la migración a Lais" }
+  ],
+  "descripcion_geo": "Ciudad de la Sefelá, asignada conjuntamente a Judá y Dan, ubicada muy cerca de Zorah, con la que aparece sistemáticamente emparejada en el texto bíblico. Terreno de colinas bajas en la transición entre la llanura costera y las montañas centrales.",
+  "altitud_m": 305,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, ligeramente más fresco que Zorah por mayor altitud.",
+  "recursos": [
+    "Tierras agrícolas de la Sefelá",
+    "Posición elevada de observación",
+    "Proximidad a Zorah, formando un núcleo danita conjunto"
+  ],
+  "importancia_estrategica": "Eshtaol y Zorah funcionan en el texto bíblico casi como una unidad geográfica: ambas marcan los límites del territorio originalmente asignado a Dan y, ante la presión filistea, son el punto de partida de los espías y después de los seiscientos guerreros danitas que emigran hacia el norte en busca de territorio propio.",
+  "otros_habitantes": [
+    {
+      "id": "danitas_eshtaol",
+      "nombre": "Tribu de Dan",
+      "descripcion": "Población principal de Eshtaol; desde aquí parten los cinco espías enviados a explorar territorio en el norte, y posteriormente la expedición armada de seiscientos hombres que conquista Lais.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "judaitas_eshtaol",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Eshtaol comparte asignación tribal con Judá según las listas de ciudades de Josué, reflejando la naturaleza fronteriza compartida de la zona entre ambas tribus.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "espiritu-sanson-eshtaol",
+      "titulo": "El Espíritu de YHWH se mueve sobre Sansón entre Zorah y Eshtaol",
+      "fecha": "c. 1105 a.C.",
+      "descripcion": "El texto bíblico ubica explícitamente entre Zorah y Eshtaol el momento en que el Espíritu de YHWH comienza a manifestarse sobre el joven Sansón, marcando el inicio de su vocación de juez-libertador.",
+      "referencias": ["Jue 13:25"],
+      "personajes_clave": ["sanson"]
+    },
+    {
+      "id": "espias-danitas-eshtaol",
+      "titulo": "Los cinco espías danitas parten de Eshtaol",
+      "fecha": "c. 1150–1100 a.C.",
+      "descripcion": "Ante la falta de territorio propio asignado, la tribu de Dan envía desde Zorah y Eshtaol a cinco hombres valientes para explorar y reconocer tierra donde establecerse, quienes llegan hasta la región de Lais en el extremo norte.",
+      "referencias": ["Jue 18:2"],
+      "personajes_clave": []
+    },
+    {
+      "id": "expedicion-seiscientos-danitas",
+      "titulo": "Los seiscientos guerreros danitas parten hacia Lais",
+      "fecha": "c. 1150–1100 a.C.",
+      "descripcion": "Tras el informe favorable de los espías, seiscientos hombres armados de la tribu de Dan parten de Zorah y Eshtaol hacia el norte, conquistan Lais, la incendian y la reconstruyen bajo el nuevo nombre de Dan, completando la migración tribal motivada por la falta de territorio meridional.",
+      "referencias": ["Jue 18:11-29"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "sanson_eshtaol",
+      "nombre": "Sansón",
+      "emoji": "🌬️",
+      "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
+      "periodo": "c. 1105–1070 a.C.",
+      "descripcion": "El texto ubica entre Zorah y Eshtaol el inicio de su vocación, cuando el Espíritu de YHWH comienza a manifestarse sobre él durante la juventud, antes de los episodios de Timnah y Lehi.",
+      "referencias": ["Jue 13:25"],
+      "ruta": ["zorah", "eshtaol"]
+    },
+    {
+      "id": "espias_dan",
+      "nombre": "Cinco espías de Dan",
+      "emoji": "🔍",
+      "rol": "Exploradores enviados por la tribu de Dan",
+      "periodo": "c. 1150–1100 a.C.",
+      "descripcion": "Hombres valientes enviados desde Eshtaol y Zorah a explorar territorio hacia el norte ante la presión filistea sobre el territorio danita original; su informe favorable sobre Lais desencadena la migración tribal.",
+      "referencias": ["Jue 18:2-10"],
+      "ruta": ["eshtaol", "efraim"]
+    },
+    {
+      "id": "guerreros_dan_seiscientos",
+      "nombre": "Seiscientos hombres armados de Dan",
+      "emoji": "🛡️",
+      "rol": "Expedición militar danita",
+      "periodo": "c. 1150–1100 a.C.",
+      "descripcion": "Contingente armado que parte de Zorah y Eshtaol para conquistar Lais en el extremo norte, completando el reasentamiento de la tribu de Dan fuera de su territorio original en la Sefelá.",
+      "referencias": ["Jue 18:11-29"],
+      "ruta": ["eshtaol", "lais"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Eshtaol, junto con Zorah, representa el territorio original —y finalmente insuficiente o insostenible— de la tribu de Dan en la Sefelá, expuesto a presión filistea constante. Su doble función narrativa (origen de la vocación de Sansón y punto de partida de la migración tribal hacia Lais) ilustra dos respuestas distintas de Israel ante la opresión filistea: la resistencia carismática individual de un juez y la solución colectiva de reasentamiento territorial.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "migracion-dan-eshtaol",
+        "nombre": "El origen de la migración danita en Eshtaol",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 18:1-29",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la pérdida de la herencia tribal y la búsqueda de territorio (relacionado con discusiones en Bava Batra sobre límites tribales)",
+          "descripcion": "La tradición judía enmarca el episodio de los espías y la migración danita partiendo de Eshtaol como ejemplo de las consecuencias del período de los Jueces, cuando 'no había rey en Israel y cada uno hacía lo que bien le parecía', incluyendo la apropiación cuestionable de objetos de culto por parte de los danitas durante su trayecto hacia Lais.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio ilustra la fragmentación tribal y la ausencia de liderazgo centralizado característica del período anterior a la monarquía.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "zoan",
+  "nombre": "Zoán (Tanis)",
+  "tipo": "ciudad",
+  "lat": 30.97461982407924,
+  "lng": 31.88417306768534,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Posible capital egipcia del éxodo, prodigios de Moisés" }
+  ],
+  "descripcion_geo": "Antigua ciudad egipcia en el delta del Nilo, identificada por la mayoría de los estudiosos con la posterior Tanis, posible capital o residencia real egipcia durante el período del éxodo, mencionada explícitamente en los Salmos como escenario de los prodigios realizados por Moisés ante Faraón.",
+  "altitud_m": 5,
+  "clima": "Desértico subtropical — extremadamente caluroso y seco, propio del delta nororiental del Nilo en Egipto.",
+  "recursos": [
+    "Posible capital o residencia real egipcia",
+    "Escenario poético de los prodigios del éxodo"
+  ],
+  "importancia_estrategica": "Zoán se menciona explícitamente en la poesía salmódica como el 'campo de Zoán' donde YHWH realizó sus prodigios ante los ojos de los padres de Israel durante el éxodo, sirviendo de marcador geográfico específico para la tradición litúrgica que conmemora la liberación de Egipto; posteriormente aparece también en los oráculos proféticos de juicio contra el poder egipcio.",
+  "otros_habitantes": [
+    {
+      "id": "egipcios_zoan",
+      "nombre": "Población egipcia de Zoán",
+      "descripcion": "Habitantes de la posible capital egipcia donde, según la tradición poética bíblica, Moisés realizó sus prodigios ante Faraón antes de la liberación de Israel.",
+      "religion": "Politeísmo egipcio",
+      "periodo": "c. 1400 a.C. (narrativa) y posteriormente"
+    },
+    {
+      "id": "consejeros_faraon_zoan",
+      "nombre": "Príncipes y consejeros de Faraón",
+      "descripcion": "Funcionarios de la corte egipcia en Zoán, mencionados específicamente en el oráculo de Isaías como portadores de consejo necio ante la crisis anunciada.",
+      "religion": "Politeísmo egipcio",
+      "periodo": "c. 740–700 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "salmo-prodigios-zoan",
+      "titulo": "El Salmo 78 conmemora los prodigios en el campo de Zoán",
+      "fecha": "Composición litúrgica, posterior al éxodo",
+      "descripcion": "El Salmo 78, extenso poema histórico-didáctico, recuerda explícitamente que YHWH hizo prodigios ante los ojos de los padres de Israel 'en el campo de Zoán', vinculando geográficamente las plagas y maravillas del éxodo con esta ciudad egipcia específica en la memoria litúrgica posterior de Israel.",
+      "referencias": ["Sal 78:12", "Sal 78:43"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "isaias-consejo-necio-zoan",
+      "titulo": "Isaías denuncia el consejo necio de los príncipes de Zoán",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El profeta Isaías, en su oráculo contra Egipto, denuncia específicamente que los príncipes de Zoán se han vuelto necios y dan consejo desatinado a Faraón, contribuyendo al colapso de la sabiduría tradicionalmente atribuida a la corte egipcia.",
+      "referencias": ["Is 19:11", "Is 19:13"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "ezequiel-juicio-zoan",
+      "titulo": "Ezequiel incluye a Zoán en su oráculo contra Egipto",
+      "fecha": "c. 587 a.C.",
+      "descripcion": "El profeta Ezequiel menciona a Zoán dentro de su extenso catálogo de ciudades egipcias que sufrirán el juicio divino, situándola entre los centros urbanos que experimentarán angustia el día del castigo sobre Egipto.",
+      "referencias": ["Ez 30:14"],
+      "personajes_clave": ["ezequiel"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_zoan",
+      "nombre": "Moisés",
+      "emoji": "⚡",
+      "rol": "Líder de Israel, realizador de los prodigios",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Realiza, según la tradición poética conservada en el Salmo 78, sus prodigios y señales en el campo de Zoán ante Faraón y los egipcios, antes de la liberación final de Israel.",
+      "referencias": ["Sal 78:12", "Sal 78:43"],
+      "ruta": ["zoan"]
+    },
+    {
+      "id": "principes_zoan",
+      "nombre": "Príncipes de Zoán",
+      "emoji": "🤦",
+      "rol": "Consejeros necios de Faraón",
+      "periodo": "c. 740–700 a.C.",
+      "descripcion": "Denunciados por Isaías como dando consejo desatinado a Faraón, contribuyendo al colapso de la legendaria sabiduría egipcia ante la crisis política anunciada.",
+      "referencias": ["Is 19:11"],
+      "ruta": ["zoan"]
+    },
+    {
+      "id": "isaias_zoan",
+      "nombre": "Isaías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Denuncia la necedad de los consejeros de Zoán dentro de su extenso oráculo de juicio contra el poder egipcio.",
+      "referencias": ["Is 19:1-15"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Zoán cumple una función litúrgica distintiva en el corpus bíblico: a diferencia de otras ciudades egipcias mencionadas principalmente en contextos de juicio profético tardío, Zoán aparece primero en la poesía salmódica como escenario conmemorativo positivo de la liberación de Israel, vinculando geográficamente los prodigios fundacionales del éxodo con un lugar específico que la memoria litúrgica posterior conserva como testimonio histórico de la intervención divina decisiva en favor de su pueblo.",
+    "religiones_presentes": [
+      "Yahvismo (perspectiva conmemorativa)",
+      "Politeísmo egipcio"
+    ],
+    "mitos": [
+      {
+        "id": "campo-zoan-memoria-liturgica",
+        "nombre": "El campo de Zoán como anclaje geográfico de la memoria litúrgica del éxodo",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Sal 78:12, 43",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la función didáctica del Salmo 78 como transmisión generacional de la historia sagrada de Israel a través de la poesía litúrgica",
+          "descripcion": "La tradición judía valora la mención específica de Zoán en el Salmo 78 como ejemplo de cómo la poesía litúrgica israelita ancla los grandes eventos fundacionales de la fe —en este caso los prodigios del éxodo— en geografías concretas y verificables, reforzando la naturaleza histórica, no meramente mítica, de la liberación de Egipto que la comunidad debe transmitir fielmente a las generaciones futuras.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El anclaje geográfico específico de los prodigios del éxodo en Zoán refuerza la naturaleza histórica concreta de la liberación divina, fundamento de la identidad religiosa transmitida generacionalmente a través de la memoria litúrgica.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

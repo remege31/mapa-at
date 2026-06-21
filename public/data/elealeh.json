@@ -1,0 +1,120 @@
+{
+  "id": "elealeh",
+  "nombre": "Elalé",
+  "tipo": "ciudad",
+  "lat": 31.813796,
+  "lng": 35.824275,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad reconstruida por Rubén" }
+  ],
+  "descripcion_geo": "Ciudad en el altiplano de Moab, muy próxima a Hesbón, con la que aparece frecuentemente vinculada en el texto bíblico como par geográfico. Reconstruida por los rubenitas tras la conquista del territorio amorreo, fue posteriormente recuperada por Moab.",
+  "altitud_m": 880,
+  "clima": "Semiárido de altiplano — veranos secos y calurosos, inviernos fríos, propio de la meseta moabita septentrional.",
+  "recursos": [
+    "Tierras agrícolas de la meseta moabita",
+    "Posición vinculada estrechamente a Hesbón"
+  ],
+  "importancia_estrategica": "Elalé sigue el mismo patrón que las demás ciudades de esta franja fronteriza: conquistada y reconstruida por Israel tras la derrota de Sehón, queda asignada formalmente a Rubén, pero los oráculos proféticos posteriores confirman que para los siglos VIII-VI a.C. había vuelto a ser parte del territorio bajo control o disputa moabita, formando con Hesbón un par de ciudades mencionado reiteradamente en los cánticos de lamento profético.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_elealeh",
+      "nombre": "Amorreos (reino de Sehón)",
+      "descripcion": "Población original bajo dominio de Sehón antes de la conquista israelita del territorio.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "moabitas_elealeh",
+      "nombre": "Moabitas",
+      "descripcion": "Población que recupera Elalé en períodos posteriores, motivo de los oráculos proféticos de lamento que la vinculan estrechamente con Hesbón.",
+      "religion": "Politeísmo moabita — culto a Quemos",
+      "periodo": "Desde c. 850 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "elealeh-reconstruida-ruben",
+      "titulo": "Rubén reconstruye Elalé",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras la conquista del territorio de Sehón, los rubenitas reconstruyen Elalé junto con Hesbón y otras ciudades cercanas, estableciendo allí su presencia dentro del reparto territorial de la Transjordania.",
+      "referencias": ["Núm 32:3", "Núm 32:37"],
+      "personajes_clave": []
+    },
+    {
+      "id": "isaias-lamento-elealeh",
+      "titulo": "Isaías describe el clamor conjunto de Hesbón y Elalé",
+      "fecha": "c. 740–700 a.C.",
+      "descripcion": "El profeta Isaías, en su extenso oráculo contra Moab, describe el clamor unido de Hesbón y Elalé, cuya voz se oye hasta Jahas, en una imagen de lamento colectivo que recorre toda la geografía del reino moabita en juicio.",
+      "referencias": ["Is 15:4"],
+      "personajes_clave": ["isaias"]
+    },
+    {
+      "id": "jeremias-llanto-elealeh",
+      "titulo": "Jeremías profetiza el llanto sobre los campos de Elalé",
+      "fecha": "c. 600 a.C.",
+      "descripcion": "Jeremías retoma y amplía el oráculo de Isaías, describiendo cómo el grito de los hombres de Hesbón y Elalé llega hasta Jahas, y cómo el gozo de la cosecha desaparecerá de los campos fértiles que antes producían abundancia para Moab.",
+      "referencias": ["Jer 48:34"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "rubenitas_elealeh",
+      "nombre": "Clanes de Rubén",
+      "emoji": "🏗️",
+      "rol": "Reconstructores de Elalé tras la conquista",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tribu responsable de reconstruir Elalé junto con Hesbón como parte de su asentamiento en la Transjordania tras la derrota de Sehón.",
+      "referencias": ["Núm 32:3", "Núm 32:37"],
+      "ruta": []
+    },
+    {
+      "id": "isaias_elealeh",
+      "nombre": "Isaías",
+      "emoji": "📯",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 740–700 a.C.",
+      "descripcion": "Describe el lamento conjunto de Hesbón y Elalé en su oráculo de juicio contra Moab, imagen retomada posteriormente con mayor extensión por Jeremías.",
+      "referencias": ["Is 15:1-9"],
+      "ruta": ["jerusalen"]
+    },
+    {
+      "id": "jeremias_elealeh",
+      "nombre": "Jeremías",
+      "emoji": "🌾",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–586 a.C.",
+      "descripcion": "Amplía el oráculo de Isaías sobre Elalé, añadiendo la imagen específica de la pérdida del gozo de la cosecha en los antes fértiles campos moabitas.",
+      "referencias": ["Jer 48:32-34"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Elalé aparece en el texto bíblico siempre en pareja inseparable con Hesbón, formando una unidad geográfica y poética que los profetas utilizan para representar el clamor colectivo de toda la región moabita septentrional ante el juicio anunciado. La pérdida del 'gozo de la cosecha' en sus campos fértiles, mencionada por Jeremías, contrasta con la prosperidad agrícola que el nombre mismo de la región sugería, reforzando el contraste teológico entre abundancia material y juicio divino inminente.",
+    "religiones_presentes": [
+      "Yahvismo (período de control rubenita)",
+      "Politeísmo moabita — culto a Quemos"
+    ],
+    "mitos": [
+      {
+        "id": "lamento-hesbon-elealeh",
+        "nombre": "El lamento conjunto de Hesbón y Elalé en los oráculos proféticos",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Is 15:4; Jer 48:34",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el uso poético de pares geográficos en los oráculos de juicio profético contra las naciones",
+          "descripcion": "La tradición judía observa el patrón retórico recurrente de los oráculos proféticos que vinculan ciudades geográficamente próximas como Hesbón y Elalé en un lamento conjunto, técnica literaria que intensifica el efecto del juicio anunciado al abarcar simultáneamente toda una región mediante la mención de sus principales centros poblacionales.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El lamento conjunto de ciudades vecinas refuerza la totalidad e inevitabilidad del juicio divino sobre toda la región, no solo sobre centros aislados.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

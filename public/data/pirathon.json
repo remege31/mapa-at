@@ -1,0 +1,119 @@
+{
+  "id": "pirathon",
+  "nombre": "Piratón",
+  "tipo": "ciudad",
+  "lat": 32.286022,
+  "lng": 35.022944,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Hogar del juez Abdón y de Benaía" }
+  ],
+  "descripcion_geo": "Ciudad en el territorio de Efraín, en la región montañosa amalecita según el texto bíblico, conocida principalmente como lugar de origen de dos figuras de cierta relevancia: el juez Abdón y, generaciones después, uno de los guerreros de élite de David.",
+  "altitud_m": 500,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las colinas de Efraín.",
+  "recursos": [
+    "Tierras agrícolas de la región montañosa de Efraín",
+    "Cantera de líderes y guerreros notables"
+  ],
+  "importancia_estrategica": "Piratón no tiene relevancia estratégica destacada; su importancia narrativa proviene de ser hogar de Abdón, uno de los jueces 'menores' de Israel cuya numerosa descendencia se describe brevemente, y de Benaía, padre del célebre guerrero homónimo de David, ilustrando el patrón de localidades menores que aportan líderes significativos a distintos períodos de la historia de Israel.",
+  "otros_habitantes": [
+    {
+      "id": "efrainitas_piraton",
+      "nombre": "Tribu de Efraín",
+      "descripcion": "Población de Piratón, descrita específicamente como residente en 'la región montañosa de los amalecitas', detalle geográfico inusual que sugiere presencia amalecita previa o cercana en la zona.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "familia_abdon_piraton",
+      "nombre": "Familia de Abdón",
+      "descripcion": "Numerosa descendencia del juez Abdón, descrita como cuarenta hijos y treinta nietos que montaban en setenta asnos, indicador de prosperidad y estatus social.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1080 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "abdon-juez-piraton",
+      "titulo": "Abdón, juez de Israel originario de Piratón",
+      "fecha": "c. 1080 a.C.",
+      "descripcion": "Abdón hijo de Hilel el piratonita juzga a Israel durante ocho años, descrito brevemente por su numerosa y próspera descendencia de cuarenta hijos y treinta nietos, todos montados en asnos, antes de morir y ser sepultado en su ciudad natal.",
+      "referencias": ["Jue 12:13-15"],
+      "personajes_clave": []
+    },
+    {
+      "id": "benaia-padre-piraton",
+      "titulo": "Benaía el piratonita entre los valientes de David",
+      "fecha": "c. 1010–970 a.C.",
+      "descripcion": "Benaía hijo de Pirhatón (distinto de Benaía hijo de Joiada, comandante principal) figura entre los treinta valientes de David, originario de la región de Efraín en territorio amalecita, integrado al círculo militar de élite del rey.",
+      "referencias": ["2 Sam 23:30", "1 Cr 11:31"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "piraton-turno-mensual-cronicas",
+      "titulo": "Piratón en la organización de los turnos militares de David",
+      "fecha": "c. 1000 a.C.",
+      "descripcion": "El cronista incluye a un comandante originario de Piratón entre los responsables de los doce turnos mensuales del ejército organizado por David, confirmando la integración continuada de esta localidad menor en la estructura militar del reino unido.",
+      "referencias": ["1 Cr 27:14"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "abdon_piraton",
+      "nombre": "Abdón",
+      "emoji": "🐴",
+      "rol": "Juez de Israel",
+      "periodo": "Activo c. 1088–1080 a.C.",
+      "descripcion": "Uno de los jueces 'menores' de Israel, conocido principalmente por su numerosa y próspera descendencia, sin episodios narrativos extensos asociados a su período de liderazgo.",
+      "referencias": ["Jue 12:13-15"],
+      "ruta": ["pirathon"]
+    },
+    {
+      "id": "benaia_piratonita",
+      "nombre": "Benaía el piratonita",
+      "emoji": "🗡️",
+      "rol": "Uno de los treinta valientes de David",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Guerrero originario de Piratón integrado al círculo militar de élite de David, distinto del más célebre Benaía hijo de Joiada que comandaba la guardia real.",
+      "referencias": ["2 Sam 23:30", "1 Cr 11:31"],
+      "ruta": ["pirathon"]
+    },
+    {
+      "id": "hilel_piraton",
+      "nombre": "Hilel el piratonita",
+      "emoji": "👴",
+      "rol": "Padre del juez Abdón",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Identificado únicamente como padre de Abdón, proporcionando el patronímico que confirma el origen familiar del juez en Piratón.",
+      "referencias": ["Jue 12:13", "Jue 12:15"],
+      "ruta": []
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Piratón carece de desarrollo mítico o cúltico propio; su relevancia bíblica es exclusivamente genealógica y biográfica, como lugar de origen de figuras de servicio público —un juez y un guerrero de élite— en distintos momentos de la historia de Israel, ejemplificando el patrón recurrente de localidades menores que, sin protagonismo narrativo propio, contribuyen consistentemente con líderes capacitados a las instituciones centrales del pueblo.",
+    "religiones_presentes": [
+      "Yahvismo"
+    ],
+    "mitos": [
+      {
+        "id": "jueces-menores-piraton",
+        "nombre": "Los 'jueces menores' como Abdón en la estructura del libro de los Jueces",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 12:13-15",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la función de los llamados 'jueces menores' (que reciben mención breve sin relato de liberación militar extenso) dentro de la estructura general del libro de los Jueces",
+          "descripcion": "La tradición judía observa que figuras como Abdón, mencionadas brevemente sin el desarrollo narrativo extenso de los grandes jueces-libertadores como Gedeón o Sansón, cumplían igualmente una función legítima de liderazgo y administración de justicia para Israel, recordando que no todo liderazgo válido requiere de gestas militares espectaculares para ser reconocido como genuino servicio al pueblo.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La inclusión de jueces 'menores' como Abdón en el registro bíblico afirma que el liderazgo fiel y constante, aunque no espectacular, tiene valor genuino ante Dios y merece ser recordado en la historia sagrada de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

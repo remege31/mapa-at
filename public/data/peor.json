@@ -1,0 +1,129 @@
+{
+  "id": "peor",
+  "nombre": "Peor",
+  "tipo": "territorio",
+  "lat": 31.76503129703305,
+  "lng": 35.71856575741812,
+  "frecuencia_at": 5,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Comparte coordenadas con Pisgá — son cumbres vecinas de la misma cordillera de Abarim, en Moab, frente a Jericó.",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Monte de idolatría asociado a Baal-peor" }
+  ],
+  "descripcion_geo": "Monte en la cordillera de Abarim, en Moab, que da nombre a la deidad local Baal-peor, cuyo culto contaminaría gravemente al campamento israelita en Sitim. Es también uno de los puntos elevados desde los que Balac lleva a Balaam con la esperanza de obtener una maldición contra Israel.",
+  "altitud_m": 700,
+  "clima": "Semiárido de altiplano — veranos secos y calurosos, inviernos fríos, propio de la cordillera de Abarim en Moab.",
+  "recursos": [
+    "Punto elevado de culto local a Baal-peor",
+    "Posición panorámica utilizada para los oráculos de Balaam"
+  ],
+  "importancia_estrategica": "El monte Peor da nombre al episodio de idolatría más grave del peregrinaje por el desierto (Baal-peor en Sitim) y es también el último de los tres puntos desde los que Balac intenta, sin éxito, que Balaam maldiga a Israel, cerrando el ciclo de los oráculos de Balaam con la bendición más extensa y mesiánicamente cargada de las tres.",
+  "otros_habitantes": [
+    {
+      "id": "moabitas_peor",
+      "nombre": "Población de Moab",
+      "descripcion": "Adoradores locales de Baal-peor, deidad que da nombre al monte y cuyo culto se convierte en fuente de la apostasía israelita en Sitim.",
+      "religion": "Politeísmo moabita — culto a Baal-peor",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    },
+    {
+      "id": "balac_seguito_peor",
+      "nombre": "Balac y su séquito",
+      "descripcion": "Rey de Moab y sus príncipes que acompañan a Balaam a la cumbre de Peor en el tercer y último intento de obtener una maldición contra Israel.",
+      "religion": "Politeísmo moabita",
+      "periodo": "c. 1400 a.C. (narrativa)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "balac-balaam-peor",
+      "titulo": "Balac lleva a Balaam a la cumbre de Peor",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras el fracaso de los intentos anteriores desde Bamot-baal y Pisgá, Balac lleva a Balaam a la cumbre de Peor, que domina el desierto, esperando que un tercer ángulo de visión sobre el campamento israelita produzca finalmente la maldición deseada.",
+      "referencias": ["Núm 23:28"],
+      "personajes_clave": ["balaam", "balac"]
+    },
+    {
+      "id": "cuarto-oraculo-balaam-peor",
+      "titulo": "Los oráculos finales de Balaam desde Peor",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Desde Peor, Balaam, ya sin recurrir a presagios, mirando directamente hacia el desierto donde acampa Israel, pronuncia bajo el Espíritu de Dios el oráculo más extenso y mesiánicamente cargado de toda la secuencia, incluyendo la célebre profecía de 'una estrella saldrá de Jacob', además de oráculos adicionales contra Moab, Edom, Amalec y otros pueblos.",
+      "referencias": ["Núm 24:10-24"],
+      "personajes_clave": ["balaam"]
+    },
+    {
+      "id": "nombre-baal-peor-origen",
+      "titulo": "El monte da nombre a la deidad de la apostasía en Sitim",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "El nombre del monte Peor se asocia directamente con la deidad local 'Baal-peor', cuyo culto, practicado en Sitim, desencadena la grave apostasía israelita y la consiguiente plaga detenida por la intervención de Finees.",
+      "referencias": ["Núm 25:1-3", "Deut 4:3"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "balaam_peor",
+      "nombre": "Balaam",
+      "emoji": "⭐",
+      "rol": "Vidente contratado por Balac",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Pronuncia desde Peor su oráculo final y más extenso, incluyendo la profecía mesiánica de la estrella de Jacob, confirmando definitivamente ante Balac la imposibilidad de maldecir a quien YHWH ha bendecido.",
+      "referencias": ["Núm 24:10-24"],
+      "ruta": ["pisgah", "peor"]
+    },
+    {
+      "id": "balac_peor",
+      "nombre": "Balac",
+      "emoji": "😡",
+      "rol": "Rey de Moab",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Tras el fracaso definitivo del tercer intento de maldición desde Peor, se encoleriza contra Balaam y lo despide, viendo frustrado todo su plan contra Israel.",
+      "referencias": ["Núm 24:10-11", "Núm 24:25"],
+      "ruta": ["peor"]
+    },
+    {
+      "id": "finees_peor",
+      "nombre": "Finees",
+      "emoji": "🗡️",
+      "rol": "Sacerdote que detiene la apostasía vinculada a Baal-peor",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Aunque actúa en Sitim, su intervención responde directamente a la apostasía asociada al culto de Baal-peor, deteniendo la plaga y recibiendo el pacto sacerdotal perpetuo.",
+      "referencias": ["Núm 25:6-13"],
+      "ruta": ["shittim"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El monte Peor encarna una doble cara teológica: como escenario del oráculo más extenso y mesiánicamente significativo de Balaam, confirma de manera definitiva la inviolabilidad de la bendición divina sobre Israel; como origen del nombre de la deidad cuyo culto contamina a Israel en Sitim, representa también el peligro constante de la asimilación idolátrica en los márgenes de la tierra prometida. Ambos episodios —bendición confirmada y apostasía advertida— ocurren en la misma región geográfica, subrayando la tensión entre la elección divina inquebrantable y la responsabilidad humana de mantener la fidelidad.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo moabita — culto a Baal-peor"
+    ],
+    "mitos": [
+      {
+        "id": "estrella-jacob-peor",
+        "nombre": "La profecía de la estrella de Jacob",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 24:17",
+          "fuente_secundaria": "Comentario rabínico tradicional que vincula la profecía con figuras mesiánicas o líderes militares posteriores (incluida la aplicación histórica a Bar Kojba en la revuelta del siglo II d.C.)",
+          "descripcion": "La tradición judía interpreta la 'estrella que saldrá de Jacob' como referencia a un futuro libertador o rey mesiánico de Israel, interpretación que en algunos períodos históricos se aplicó incluso a líderes militares concretos que buscaban legitimar su liderazgo apelando a esta profecía pronunciada paradójicamente por un vidente extranjero.",
+          "similitudes": "Comparte con el cristianismo la lectura mesiánica general de la profecía, aunque con identificaciones históricas distintas.",
+          "diferencias": null,
+          "significado_teologico": "La profecía confirma que incluso un vidente pagano, bajo el Espíritu de YHWH, debe proclamar la grandeza futura de Israel y su liderazgo ungido.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Núm 24:17 (recepción tipológica neotestamentaria, vinculada tradicionalmente con la estrella de Belén en Mt 2:1-12)",
+          "fuente_secundaria": "Comentarios patrísticos que conectan la profecía de Balaam con el relato de los magos guiados por una estrella",
+          "descripcion": "La tradición cristiana lee la profecía de la 'estrella de Jacob' como anuncio profético del nacimiento de Jesús, estableciendo una conexión tipológica tradicional con el relato evangélico de la estrella que guía a los magos hasta Belén.",
+          "similitudes": "Comparte con la lectura judía la naturaleza mesiánica de la profecía de Balaam.",
+          "diferencias": "La identificación específica con el nacimiento de Jesús y la estrella de Belén es una lectura exclusivamente cristiana, ausente en la interpretación judía tradicional.",
+          "significado_teologico": "La profecía pronunciada por un vidente pagano se convierte en testimonio externo involuntario de la venida del Mesías, reforzando la universalidad del anuncio mesiánico.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de Balaam como testimonio profético reconocido en ambas tradiciones, aunque con identificaciones mesiánicas distintas."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

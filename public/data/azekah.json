@@ -1,0 +1,122 @@
+{
+  "id": "azekah",
+  "nombre": "Azeca",
+  "tipo": "ciudad",
+  "lat": 31.70063856043753,
+  "lng": 34.93618589974822,
+  "frecuencia_at": 7,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Persecución tras Gabaón, valle de Elá" },
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de Roboam, última resistencia ante Babilonia" }
+  ],
+  "descripcion_geo": "Ciudad fortificada en la Sefelá, en el extremo norte del valle de Elá, dominando una posición elevada que controla el acceso desde la llanura filistea hacia las montañas de Judá. Su localización estratégica la convirtió en punto de referencia recurrente en episodios bélicos a lo largo de varios siglos.",
+  "altitud_m": 330,
+  "clima": "Mediterráneo de transición — veranos secos, inviernos con lluvias moderadas, propio de la Sefelá occidental.",
+  "recursos": [
+    "Posición fortificada dominante sobre el valle de Elá",
+    "Control de rutas entre la llanura filistea y las montañas de Judá"
+  ],
+  "importancia_estrategica": "Azeca aparece en tres momentos bélicos decisivos separados por siglos: la persecución de los ejércitos amorreos tras la batalla de Gabaón, la batalla de David contra Goliat en el valle de Elá adyacente, y como una de las últimas ciudades fortificadas de Judá en resistir el avance babilónico, mencionada explícitamente en las cartas de Laquis como punto de comunicación de señales de fuego que aún funcionaba momentos antes de la caída final del reino.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_azeca",
+      "nombre": "Cananeos amorreos",
+      "descripcion": "Población original de la región del valle de Elá, por cuyo territorio huyen los ejércitos derrotados de la coalición de cinco reyes tras la batalla de Gabaón.",
+      "religion": "Politeísmo cananeo-amorreo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "judaitas_azeca",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Población judaíta de Azeca, ciudad fortificada por Roboam y una de las últimas en resistir el asedio babilónico final del reino de Judá.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1200–586 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "persecucion-azeca-gabaon",
+      "titulo": "La persecución hasta Azeca tras la batalla de Gabaón",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "El relato del granizo divino y el sol detenido durante la persecución de Josué tras la victoria de Gabaón ubica el alcance de la huida amorrea hasta Azeca y Maquedá, marcando el límite geográfico de la primera gran campaña del sur.",
+      "referencias": ["Jos 10:10-11"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "david-goliat-valle-ela-azeca",
+      "titulo": "El campamento filisteo entre Soco y Azeca",
+      "fecha": "c. 1020 a.C.",
+      "descripcion": "El ejército filisteo se reúne para la batalla en la que David enfrentará a Goliat acampando entre Soco y Azeca, en el valle de Elá, mientras el ejército israelita se posiciona en el lado opuesto del valle.",
+      "referencias": ["1 Sam 17:1"],
+      "personajes_clave": ["david"]
+    },
+    {
+      "id": "azeca-cartas-laquis-resistencia-final",
+      "titulo": "Azeca en las cartas de Laquis durante la caída de Judá",
+      "fecha": "c. 588–586 a.C.",
+      "descripcion": "El profeta Jeremías menciona que, durante el asedio final de Nabucodonosor, Laquis y Azeca eran las únicas ciudades fortificadas de Judá que aún resistían junto a Jerusalén, dato confirmado por hallazgos arqueológicos (las cartas de Laquis) que documentan la pérdida de visibilidad de las señales de fuego de Azeca poco antes de la caída definitiva.",
+      "referencias": ["Jer 34:6-7"],
+      "personajes_clave": ["jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_azeca",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Persigue a los ejércitos amorreos en retirada hasta Azeca tras la victoria de Gabaón, extendiendo el alcance de la campaña militar del sur.",
+      "referencias": ["Jos 10:10-11"],
+      "ruta": ["gabaon", "beth_horon_lower", "azekah", "makkedah"]
+    },
+    {
+      "id": "david_azeca",
+      "nombre": "David",
+      "emoji": "🪨",
+      "rol": "Joven pastor, futuro rey de Israel",
+      "periodo": "c. 1020 a.C.",
+      "descripcion": "Se enfrenta a Goliat en el valle de Elá, junto a Azeca, en el episodio que marca su primera aparición pública como liberador de Israel frente a la amenaza filistea.",
+      "referencias": ["1 Sam 17:1-54"],
+      "ruta": ["belen", "azekah"]
+    },
+    {
+      "id": "jeremias_azeca",
+      "nombre": "Jeremías",
+      "emoji": "🔥",
+      "rol": "Profeta de Judá",
+      "periodo": "Activo c. 627–586 a.C.",
+      "descripcion": "Testigo de los últimos días del reino de Judá, registra que Azeca y Laquis eran las últimas plazas fortificadas en resistir junto a Jerusalén antes de la caída final ante Babilonia.",
+      "referencias": ["Jer 34:6-7"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Azeca enmarca tres momentos sucesivos de la relación entre Israel y el poder militar extranjero: la victoria providencial sobre los amorreos, el triunfo carismático individual de David sobre Goliat como anticipo de su futura realeza, y finalmente la resistencia final y la derrota ante Babilonia que culmina el exilio. Esta progresión —victoria providencial, victoria carismática, derrota final— traza en un mismo lugar el arco completo de la teología deuteronomista sobre la fidelidad y el juicio de Israel.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo-amorreo (sustrato original)",
+      "Politeísmo filisteo (ejército acampado en el valle de Elá)"
+    ],
+    "mitos": [
+      {
+        "id": "ultimas-luces-azeca",
+        "nombre": "Las últimas señales de fuego de Azeca antes de la caída de Judá",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jer 34:6-7",
+          "fuente_secundaria": "Hallazgo arqueológico de las Cartas de Laquis (Ostraca de Laquis, carta IV), que menciona explícitamente la pérdida de visibilidad de las señales de Azeca",
+          "descripcion": "La tradición judía, reforzada por el hallazgo arqueológico de las cartas de Laquis que confirman casi literalmente el testimonio de Jeremías, considera el episodio de Azeca como uno de los puntos de mayor convergencia entre el registro bíblico y la evidencia material extrabíblica, subrayando la veracidad histórica del relato profético del colapso final de Judá.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "La caída de las últimas plazas fortificadas, anunciada y atestiguada por Jeremías, confirma el cumplimiento del juicio profético sobre la infidelidad persistente del reino de Judá.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1", "hierro_2"]
+}

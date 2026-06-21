@@ -1,0 +1,130 @@
+{
+  "id": "engedi",
+  "nombre": "Engadi",
+  "tipo": "ciudad",
+  "lat": 31.46152536164766,
+  "lng": 35.39241108242345,
+  "frecuencia_at": 8,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Victoria de Quedorlaomer" },
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Refugio de David, oasis del desierto de Judá" }
+  ],
+  "descripcion_geo": "Oasis fértil en la costa occidental del Mar Salado, alimentado por manantiales de agua dulce que descienden de los acantilados del desierto de Judá, creando un contraste vívido entre la aridez circundante y la exuberante vegetación tropical del oasis mismo, incluyendo cuevas naturales en los riscos cercanos.",
+  "altitud_m": -200,
+  "clima": "Desértico con oasis — extremadamente caluroso y árido en el entorno general, pero con microclima húmedo y vegetación densa en el área irrigada por los manantiales.",
+  "recursos": [
+    "Manantiales de agua dulce permanentes",
+    "Vegetación tropical y subtropical (palmeras, plantas balsámicas)",
+    "Cuevas naturales de refugio en los acantilados cercanos"
+  ],
+  "importancia_estrategica": "Engadi es uno de los refugios más significativos de David durante su huida de Saúl gracias a su combinación única de agua abundante, vegetación que permite ocultamiento y un sistema de cuevas defendibles en terreno desértico extremo; siglos antes, también aparece como punto de la campaña militar de Quedorlaomer en el ciclo de Abraham.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_engadi",
+      "nombre": "Amorreos (habitantes de Hazezon-tamar)",
+      "descripcion": "Población amorrea de la región identificada con el nombre antiguo de Engadi ('Hazezon-tamar'), derrotada por la coalición de Quedorlaomer en el ciclo de Abraham.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "c. 2050 a.C. (narrativa, época de Abraham)"
+    },
+    {
+      "id": "judaitas_engadi",
+      "nombre": "Tribu de Judá",
+      "descripcion": "Población judaíta de la región del desierto cercana a Engadi, territorio que David recorre durante su período de fugitivo.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "quedorlaomer-hazezon-tamar",
+      "titulo": "Quedorlaomer derrota a los amorreos en Hazezon-tamar",
+      "fecha": "c. 2050 a.C. (narrativa, época de Abraham)",
+      "descripcion": "En su campaña por la Transjordania y el sur de Canaán, la coalición de cuatro reyes orientales liderada por Quedorlaomer derrota a los amorreos de Hazezon-tamar, identificado por la tradición bíblica con Engadi, episodio previo a la captura de Lot en Sodoma.",
+      "referencias": ["Gén 14:7"],
+      "personajes_clave": []
+    },
+    {
+      "id": "david-cueva-engadi-saul",
+      "titulo": "David perdona a Saúl en una cueva de Engadi",
+      "fecha": "c. 1014 a.C.",
+      "descripcion": "Mientras Saúl persigue a David por los riscos de las cabras monteses cerca de Engadi, entra solo a descansar precisamente en la cueva más profunda donde David y sus hombres se escondían; David corta sigilosamente el borde del manto de Saúl pero rehúsa atentar contra su vida, mostrándole después la prueba de que pudo haberlo matado sin hacerlo.",
+      "referencias": ["1 Sam 24:1-22"],
+      "personajes_clave": ["david", "saul"]
+    },
+    {
+      "id": "cantar-cantares-engadi",
+      "titulo": "Engadi en el Cantar de los Cantares",
+      "fecha": "Atribución salomónica tradicional",
+      "descripcion": "La amada del Cantar de los Cantares compara a su amado con 'un racimo de flores de alheña en las viñas de Engadi', usando la fertilidad excepcional del oasis como metáfora de belleza y deseo en uno de los pasajes poéticos más célebres de la literatura sapiencial bíblica.",
+      "referencias": ["Cant 1:14"],
+      "personajes_clave": []
+    }
+  ],
+  "personajes": [
+    {
+      "id": "david_engadi",
+      "nombre": "David",
+      "emoji": "🗡️",
+      "rol": "Futuro rey de Israel, fugitivo de Saúl",
+      "periodo": "c. 1014 a.C.",
+      "descripcion": "Tiene en una cueva de Engadi la oportunidad más cercana de eliminar a Saúl durante toda su persecución, y en su lugar opta por un gesto simbólico de respeto que provoca un reconocimiento momentáneo de su rectitud por parte del propio rey.",
+      "referencias": ["1 Sam 24:1-22"],
+      "ruta": ["maon", "engedi"]
+    },
+    {
+      "id": "saul_engadi",
+      "nombre": "Saúl",
+      "emoji": "👑",
+      "rol": "Primer rey de Israel, perseguidor de David",
+      "periodo": "c. 1014 a.C.",
+      "descripcion": "Entra desprevenido a la cueva donde David se esconde en Engadi; al descubrir después el gesto de clemencia de David, llora y reconoce públicamente que David es más justo que él y que reinará sobre Israel.",
+      "referencias": ["1 Sam 24:8-22"],
+      "ruta": ["engedi"]
+    },
+    {
+      "id": "quedorlaomer_engadi",
+      "nombre": "Quedorlaomer",
+      "emoji": "⚔️",
+      "rol": "Rey de Elam, líder de la coalición oriental",
+      "periodo": "c. 2050 a.C. (narrativa)",
+      "descripcion": "Derrota a los amorreos de Hazezon-tamar (Engadi) en su campaña militar previa a la captura de Lot, episodio temprano que documenta la antigüedad de la presencia humana organizada en la región.",
+      "referencias": ["Gén 14:7"],
+      "ruta": ["engedi"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Engadi condensa en un mismo espacio el contraste teológico entre juicio y gracia: escenario de conquista militar antigua en el ciclo de Abraham, refugio providencial para el ungido perseguido en el ciclo de David, y finalmente metáfora de fertilidad y belleza en la literatura sapiencial del Cantar de los Cantares. El oasis funciona como símbolo recurrente de la provisión inesperada de vida y protección en medio del desierto más árido, reflejando un motivo central de la teología bíblica sobre la gracia que sostiene en los lugares más hostiles.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo amorreo (sustrato original)"
+    ],
+    "mitos": [
+      {
+        "id": "clemencia-david-cueva-engadi",
+        "nombre": "La clemencia de David en la cueva de Engadi",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 24:1-22",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre el reconocimiento de Saúl ('tú eres más justo que yo') como momento de lucidez profética sobre el destino real de David",
+          "descripcion": "La tradición judía valora el episodio de Engadi como ejemplo supremo de autocontrol moral ante la oportunidad de venganza legítima, destacando que incluso Saúl, en su momento de mayor claridad, reconoce explícitamente la justicia de David y la inevitabilidad de su futuro reinado, anticipando proféticamente lo que el propio Saúl se niega a aceptar en otros momentos.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio confirma que la legitimidad del futuro rey de Israel se fundamenta en la rectitud moral demostrada incluso ante la tentación más fuerte de venganza personal.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 24:1-22 (recepción patrística sobre el perdón y la paciencia ante la persecución injusta)",
+          "fuente_secundaria": "Comentarios homiléticos antiguos que vinculan la conducta de David en Engadi con la enseñanza neotestamentaria sobre amar a los enemigos",
+          "descripcion": "La tradición cristiana retoma el episodio de Engadi, junto con el paralelo posterior de Zif, como antecedente veterotestamentario del principio de no devolver mal por mal, presentando a David como modelo de mansedumbre activa frente a la persecución injusta.",
+          "similitudes": "Comparte con la lectura judía el valor ejemplar de la contención moral ante la oportunidad de venganza.",
+          "diferencias": "La lectura cristiana tiende a generalizar el principio como antecedente de la ética universal del perdón enseñada por Jesús.",
+          "significado_teologico": "El episodio se integra como prefiguración veterotestamentaria de la ética cristiana de no represalia y perdón activo hacia el perseguidor.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como figura central de la historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["bronce_tardio", "hierro_1"]
+}

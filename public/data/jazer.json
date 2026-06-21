@@ -1,0 +1,122 @@
+{
+  "id": "jazer",
+  "nombre": "Jazer",
+  "tipo": "ciudad",
+  "lat": 31.94352951689796,
+  "lng": 35.72776961157128,
+  "frecuencia_at": 12,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquistada a los amorreos, asignada a Gad" }
+  ],
+  "descripcion_geo": "Ciudad en Galaad, en territorio amorreo conquistado por Israel, asignada posteriormente a la tribu de Gad y designada también ciudad levítica, conocida en el texto bíblico por la fertilidad de su región circundante, especialmente apta para el pastoreo y la viticultura.",
+  "altitud_m": 750,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio de las tierras altas de Galaad.",
+  "recursos": [
+    "Tierras de pastoreo extenso (motivo de la solicitud de Rubén y Gad)",
+    "Viñedos (mencionados en los oráculos proféticos contra Moab)",
+    "Ciudad levítica dentro del territorio de Gad"
+  ],
+  "importancia_estrategica": "Jazer es una de las ciudades cuya fertilidad para el pastoreo motiva específicamente la solicitud de las tribus de Rubén y Gad de establecerse en la Transjordania en lugar de cruzar a Canaán propiamente dicha; siglos después, su prosperidad agrícola, especialmente vitivinícola, se convierte en tema de lamento en los oráculos proféticos de juicio contra Moab, que recupera la región en períodos posteriores.",
+  "otros_habitantes": [
+    {
+      "id": "amorreos_jazer",
+      "nombre": "Amorreos",
+      "descripcion": "Población original de Jazer bajo el reino de Sehón, conquistada por los exploradores israelitas antes de la batalla decisiva contra el resto del reino amorreo.",
+      "religion": "Politeísmo amorreo",
+      "periodo": "Anterior a c. 1400 a.C."
+    },
+    {
+      "id": "gaditas_jazer",
+      "nombre": "Tribu de Gad",
+      "descripcion": "Beneficiaria de la asignación territorial de Jazer, solicitada específicamente por su idoneidad para el pastoreo de los extensos rebaños de la tribu.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1400 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "exploradores-toman-jazer",
+      "titulo": "Israel toma Jazer antes de la batalla contra Sehón",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Israel envía exploradores que toman Jazer y sus aldeas, expulsando a los amorreos que allí habitaban, episodio que precede a la batalla decisiva de Yahas contra el grueso del ejército de Sehón.",
+      "referencias": ["Núm 21:32"],
+      "personajes_clave": []
+    },
+    {
+      "id": "ruben-gad-solicitan-jazer",
+      "titulo": "Rubén y Gad solicitan Jazer por sus pastos",
+      "fecha": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Al ver que la tierra de Jazer y Galaad era apta para el ganado, las tribus de Rubén y Gad, que poseían numeroso ganado, solicitan a Moisés establecerse en esta región de la Transjordania en lugar de recibir herencia al otro lado del Jordán, petición que Moisés finalmente concede bajo la condición de que sus guerreros crucen primero a luchar junto a las demás tribus.",
+      "referencias": ["Núm 32:1-5", "Núm 32:34-36"],
+      "personajes_clave": ["moises"]
+    },
+    {
+      "id": "isaias-jeremias-vinedos-jazer",
+      "titulo": "Los viñedos de Jazer en los oráculos proféticos contra Moab",
+      "fecha": "c. 740–600 a.C.",
+      "descripcion": "Tanto Isaías como Jeremías mencionan los viñedos de Jazer en sus respectivos oráculos de lamento contra Moab, vinculando la fertilidad histórica de la región —ahora bajo control o influencia moabita— con la pérdida anunciada de su prosperidad agrícola.",
+      "referencias": ["Is 16:8-9", "Jer 48:32"],
+      "personajes_clave": ["isaias", "jeremias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_jazer",
+      "nombre": "Moisés",
+      "emoji": "🐑",
+      "rol": "Líder de Israel",
+      "periodo": "c. 1400 a.C. (narrativa)",
+      "descripcion": "Concede la petición de Rubén y Gad de establecerse en la región de Jazer y Galaad por su idoneidad pastoril, bajo la condición de que sus guerreros participen primero en la conquista de Canaán junto a las demás tribus.",
+      "referencias": ["Núm 32:1-33"],
+      "ruta": []
+    },
+    {
+      "id": "gaditas_jazer_personaje",
+      "nombre": "Tribu de Gad",
+      "emoji": "🍇",
+      "rol": "Poseedores de la región fértil de Jazer",
+      "periodo": "Desde c. 1400 a.C.",
+      "descripcion": "Solicitan y reciben Jazer como parte de su herencia territorial en la Transjordania, aprovechando la fertilidad de sus tierras de pastoreo y, posteriormente, sus viñedos.",
+      "referencias": ["Núm 32:1-5", "Núm 32:34-36"],
+      "ruta": []
+    },
+    {
+      "id": "isaias_jeremias_jazer",
+      "nombre": "Isaías y Jeremías",
+      "emoji": "😢",
+      "rol": "Profetas de Judá",
+      "periodo": "c. 740–600 a.C.",
+      "descripcion": "Lamentan en sus respectivos oráculos la pérdida de la prosperidad vitivinícola de Jazer como parte del juicio anunciado contra el territorio moabita que había recuperado la región.",
+      "referencias": ["Is 16:8-9", "Jer 48:32"],
+      "ruta": ["jerusalen"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Jazer ilustra el patrón territorial completo de la Transjordania a lo largo de la historia bíblica: solicitada y obtenida por su fertilidad pastoril en tiempos de Moisés, prospera bajo control israelita gadita, y finalmente se convierte en motivo de lamento profético cuando su productiva región vitivinícola pasa a manos moabitas, repitiendo el mismo ciclo de posesión, pérdida y juicio que caracteriza a tantas otras localidades de esta franja fronteriza disputada.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo amorreo (sustrato original)",
+      "Politeísmo moabita (control posterior intermitente)"
+    ],
+    "mitos": [
+      {
+        "id": "peticion-tierra-pastoril-jazer",
+        "nombre": "La petición de tierra pastoril de Rubén y Gad como precedente de negociación territorial",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 32:1-33",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la negociación entre Moisés y las tribus de Rubén y Gad como modelo de diálogo entre necesidades particulares y responsabilidad colectiva",
+          "descripcion": "La tradición judía valora el episodio de la petición de Jazer y Galaad por Rubén y Gad como ejemplo de negociación legítima entre intereses tribales particulares (la idoneidad pastoril de la tierra) y la responsabilidad colectiva hacia el resto de Israel (la participación obligatoria en la conquista de Canaán), estableciendo un modelo equilibrado donde el interés propio no excluye el compromiso con la comunidad mayor.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio enseña que las necesidades y preferencias particulares de un grupo dentro de Israel pueden ser legítimamente atendidas siempre que no comprometan la responsabilidad compartida hacia el conjunto del pueblo.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

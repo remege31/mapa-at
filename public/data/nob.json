@@ -1,0 +1,128 @@
+{
+  "id": "nob",
+  "nombre": "Nob",
+  "tipo": "ciudad",
+  "lat": 31.799605,
+  "lng": 35.23298,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad sacerdotal, masacre de Saúl" }
+  ],
+  "descripcion_geo": "Ciudad sacerdotal situada en una elevación próxima a Jerusalén, lo bastante cerca como para ser visible desde la ciudad (mencionada por el profeta Isaías como punto de visión hacia Jerusalén). Sede temporal del tabernáculo y de una numerosa comunidad de sacerdotes tras la destrucción de Silo.",
+  "altitud_m": 770,
+  "clima": "Mediterráneo de montaña — veranos secos y templados, inviernos fríos con lluvias, propio de la meseta de Benjamín cercana a Jerusalén.",
+  "recursos": [
+    "Tabernáculo y pan de la proposición",
+    "Comunidad sacerdotal numerosa",
+    "Posición elevada con vista hacia Jerusalén"
+  ],
+  "importancia_estrategica": "Nob funciona como centro de culto provisional para Israel en el período inmediatamente anterior a la consolidación del Templo en Jerusalén, alojando el tabernáculo tras la pérdida de Silo. Su destrucción por orden de Saúl representa uno de los actos de violencia más extremos atribuidos al rey y un punto de quiebre decisivo en su legitimidad religiosa.",
+  "otros_habitantes": [
+    {
+      "id": "sacerdotes_nob",
+      "nombre": "Sacerdotes de la casa de Elí (linaje de Itamar)",
+      "descripcion": "Comunidad de ochenta y cinco sacerdotes que portaban el efod de lino, residentes en Nob bajo el liderazgo de Ahimelec, descendientes de la línea sacerdotal de Elí.",
+      "religion": "Yahvismo",
+      "periodo": "c. 1015 a.C."
+    },
+    {
+      "id": "edomitas_nob",
+      "nombre": "Servidores edomitas de Saúl",
+      "descripcion": "Doae el edomita, jefe de los pastores de Saúl, presente en Nob el día de la visita de David; será quien ejecute personalmente la masacre de los sacerdotes por orden real.",
+      "religion": "Religión edomita (probablemente cultos relacionados con Qos)",
+      "periodo": "c. 1015 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "david-ahimelec-nob",
+      "titulo": "David recibe pan consagrado y la espada de Goliat en Nob",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Huyendo de Saúl, David llega a Nob, engaña al sacerdote Ahimelec haciéndole creer que cumple una misión real secreta, recibe el pan de la proposición —reservado normalmente solo a los sacerdotes— y la espada de Goliat, guardada allí como reliquia.",
+      "referencias": ["1 Sam 21:1-9"],
+      "personajes_clave": ["david", "ahimelec"]
+    },
+    {
+      "id": "doeg-testigo-nob",
+      "titulo": "Doeg el edomita presencia el encuentro",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Doeg, jefe de los pastores de Saúl, se encuentra retenido aquel día ante YHWH en Nob y es testigo del encuentro entre David y Ahimelec, información que después comunicará a Saúl con consecuencias fatales para los sacerdotes.",
+      "referencias": ["1 Sam 21:7", "1 Sam 22:9-10"],
+      "personajes_clave": ["ahimelec"]
+    },
+    {
+      "id": "masacre-sacerdotes-nob",
+      "titulo": "La masacre de los sacerdotes de Nob",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Saúl, informado por Doeg, ordena ejecutar a Ahimelec y a toda su familia sacerdotal por haber ayudado a David; cuando sus propios guardias se niegan a alzar la mano contra los sacerdotes de YHWH, Doeg el edomita ejecuta personalmente a ochenta y cinco hombres con efod de lino y pasa a espada a toda la ciudad de Nob, incluyendo mujeres, niños y ganado.",
+      "referencias": ["1 Sam 22:11-19"],
+      "personajes_clave": ["saul", "ahimelec"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "ahimelec",
+      "nombre": "Ahimelec",
+      "emoji": "🍞",
+      "rol": "Sumo sacerdote de Nob",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Sacerdote de la línea de Elí que entrega a David el pan consagrado y la espada de Goliat sin sospechar que ayuda a un fugitivo de Saúl; pagará esta ayuda con su vida y la de toda su comunidad sacerdotal.",
+      "referencias": ["1 Sam 21:1-9", "1 Sam 22:9-19"],
+      "ruta": ["nob"]
+    },
+    {
+      "id": "david_nob",
+      "nombre": "David",
+      "emoji": "🗡️",
+      "rol": "Futuro rey de Israel, fugitivo de Saúl",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Llega solo y desarmado a Nob durante su huida, obtiene provisión y un arma simbólicamente cargada de significado (la espada del gigante que él mismo derrotó), sin prever que su paso por la ciudad desencadenará la masacre de sus habitantes.",
+      "referencias": ["1 Sam 21:1-9", "1 Sam 22:20-23"],
+      "ruta": ["naioth", "nob", "gat"]
+    },
+    {
+      "id": "doeg_edomita",
+      "nombre": "Doeg el edomita",
+      "emoji": "⚔️",
+      "rol": "Jefe de los pastores de Saúl, ejecutor de la masacre",
+      "periodo": "c. 1015 a.C.",
+      "descripcion": "Servidor extranjero de Saúl que delata a Ahimelec y posteriormente ejecuta personalmente a los sacerdotes de Nob cuando los propios guardias israelitas del rey se niegan a hacerlo, episodio recordado en el Salmo 52 como ejemplo de traición violenta.",
+      "referencias": ["1 Sam 21:7", "1 Sam 22:9-19", "Sal 52:1-9"],
+      "ruta": ["nob"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Nob es, en el momento de los hechos narrados, el centro sacerdotal y cúltico más importante de Israel tras la caída de Silo, sede del tabernáculo y de una numerosa comunidad de sacerdotes legítimos. Su destrucción por orden de Saúl —ejecutada por un extranjero edomita cuando los propios israelitas se niegan a derramar sangre sacerdotal— constituye uno de los actos más graves de profanación religiosa atribuidos a un rey de Israel en todo el relato bíblico, y marca un punto de no retorno en el deterioro moral y espiritual del reinado de Saúl.",
+    "religiones_presentes": [
+      "Yahvismo (centro sacerdotal del tabernáculo)"
+    ],
+    "mitos": [
+      {
+        "id": "masacre-sacerdotes-nob-mito",
+        "nombre": "La masacre de los sacerdotes de Nob como juicio sobre la casa de Elí",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "1 Sam 22:6-19",
+          "fuente_secundaria": "Talmud Babilónico, Yoma 22b (discusión sobre la culpa de Saúl y Doeg en la masacre)",
+          "descripcion": "La tradición rabínica vincula la masacre de Nob con el oráculo previo contra la casa de Elí (1 Sam 2:27-36), leyendo la destrucción de la ciudad sacerdotal como cumplimiento de un juicio divino anunciado generaciones antes, sin que ello exima a Saúl ni a Doeg de responsabilidad moral por el acto.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El episodio ilustra cómo el juicio divino puede cumplirse a través de instrumentos humanos moralmente culpables, sin que esto disminuya la responsabilidad de quienes lo ejecutan.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "1 Sam 22:6-19; Mc 2:25-26 (referencia de Jesús al episodio del pan consagrado en Nob)",
+          "fuente_secundaria": "Comentarios patrísticos sobre la cita de Jesús al caso de David y el pan de la proposición",
+          "descripcion": "El Nuevo Testamento retoma explícitamente el episodio de David recibiendo el pan en Nob como precedente que Jesús cita para justificar la flexibilidad de la ley ritual ante la necesidad humana, dando al lugar una segunda capa de significado teológico más allá de la masacre.",
+          "similitudes": "Comparte la centralidad del episodio del pan consagrado como antecedente legal citado posteriormente.",
+          "diferencias": "El uso cristiano del episodio se centra en el precedente legal del pan, no en la masacre posterior, que recibe menor desarrollo teológico explícito en el NT.",
+          "significado_teologico": "El episodio se convierte en fundamento bíblico para argumentar que la necesidad humana puede primar sobre la letra estricta de la ley ritual.",
+          "posible_relacion_cultural": "Recepción compartida del ciclo de David como figura central de la historia sagrada común a judaísmo y cristianismo."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_2"]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "kedesh",
+  "nombre": "Cedes",
+  "tipo": "ciudad",
+  "lat": 33.11298357486105,
+  "lng": 35.53361334150225,
+  "frecuencia_at": 10,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de refugio en Neftalí, hogar de Barac" }
+  ],
+  "descripcion_geo": "Ciudad cananea conquistada en el norte de Canaán, posteriormente designada como una de las seis ciudades de refugio establecidas en todo Israel, y también ciudad levítica dentro del territorio de Neftalí. Su doble función legal y sacerdotal la distingue de otras ciudades del norte.",
+  "altitud_m": 480,
+  "clima": "Mediterráneo de montaña — veranos secos y calurosos, inviernos fríos con lluvias, propio del norte de Galilea.",
+  "recursos": [
+    "Estatus legal de ciudad de refugio (asilo para homicidas involuntarios)",
+    "Ciudad levítica dentro del territorio de Neftalí",
+    "Tierras agrícolas del norte de Galilea"
+  ],
+  "importancia_estrategica": "Cedes cumple una función jurídico-religiosa única en el sistema legal israelita como una de las seis ciudades de refugio (junto a Siquem, Hebrón, Béser, Ramot de Galaad y Gólan), donde una persona que hubiera matado a otra de forma involuntaria podía huir para evitar la venganza de sangre inmediata hasta ser juzgada formalmente; es también el hogar de Barac, el general que junto a Débora lidera la liberación de Israel del segundo Jabín de Hazor.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos_kedesh",
+      "nombre": "Cananeos del norte",
+      "descripcion": "Población original de Cedes, una de las ciudades reales cananeas conquistadas por Josué en la campaña del norte, mencionada explícitamente en la lista de reyes derrotados.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "levitas_kedesh",
+      "nombre": "Levitas de la línea de Gersón",
+      "descripcion": "Familias levíticas asentadas en Cedes como una de las ciudades sacerdotales asignadas dentro del territorio de Neftalí.",
+      "religion": "Yahvismo",
+      "periodo": "Desde c. 1200 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "josue-conquista-rey-kedesh",
+      "titulo": "Josué derrota al rey de Cedes",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Cedes aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus como ciudad-estado real independiente antes de la ocupación israelita.",
+      "referencias": ["Jos 12:22"],
+      "personajes_clave": ["josue"]
+    },
+    {
+      "id": "kedesh-ciudad-refugio-levitica",
+      "titulo": "Cedes designada ciudad de refugio y ciudad levítica",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "En el reparto territorial, Cedes recibe la doble designación de ciudad de refugio para homicidas involuntarios y ciudad levítica para las familias sacerdotales de la línea de Gersón, combinando función legal de asilo con presencia sacerdotal permanente.",
+      "referencias": ["Jos 20:7", "Jos 21:32"],
+      "personajes_clave": []
+    },
+    {
+      "id": "barac-debora-kedesh",
+      "titulo": "Barac, originario de Cedes, lidera la liberación de Israel",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Débora convoca específicamente a Barac, identificado como 'de Cedes de Neftalí', para liderar la fuerza israelita de diez mil hombres contra Sísara, general del segundo Jabín de Hazor, victoria que se conmemora extensamente en el Cántico de Débora.",
+      "referencias": ["Jue 4:6", "Jue 4:10"],
+      "personajes_clave": ["debora", "barac"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "josue_kedesh",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Líder militar de la conquista de Canaán",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Derrota al rey cananeo de Cedes en su extensa campaña de conquista del norte de Canaán, integrando la ciudad al territorio israelita.",
+      "referencias": ["Jos 12:22"],
+      "ruta": ["kedesh"]
+    },
+    {
+      "id": "barac",
+      "nombre": "Barac",
+      "emoji": "🛡️",
+      "rol": "General israelita, originario de Cedes",
+      "periodo": "Activo c. 1150 a.C.",
+      "descripcion": "Convocado por la jueza-profetisa Débora desde su ciudad natal de Cedes para liderar el ejército israelita contra Sísara, general de Jabín de Hazor, en una de las victorias más celebradas del período de los Jueces.",
+      "referencias": ["Jue 4:6-16", "Jue 5:1"],
+      "ruta": ["kedesh", "tabor_mount"]
+    },
+    {
+      "id": "homicidas_kedesh",
+      "nombre": "Beneficiarios del refugio de Cedes",
+      "emoji": "🏃",
+      "rol": "Homicidas involuntarios protegidos por la ley de asilo",
+      "periodo": "Desde c. 1200 a.C.",
+      "descripcion": "Israelitas y extranjeros residentes que, tras matar a alguien de forma accidental, podían huir a Cedes y otras ciudades de refugio para evitar la venganza inmediata del 'vengador de sangre' hasta recibir juicio formal.",
+      "referencias": ["Jos 20:1-9"],
+      "ruta": ["kedesh"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Cedes encarna la institución bíblica del refugio legal como expresión del equilibrio entre justicia y misericordia en el sistema legal israelita: la combinación de su función como ciudad de asilo y como ciudad levítica sugiere que la administración de este sistema de protección legal estaba directamente vinculada a la presencia sacerdotal, integrando lo jurídico y lo religioso en un mismo espacio dedicado a evitar el derramamiento de sangre inocente por venganza precipitada.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (sustrato original)"
+    ],
+    "mitos": [
+      {
+        "id": "ciudades-refugio-sistema-kedesh",
+        "nombre": "El sistema de ciudades de refugio como institución de misericordia legal",
+        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Núm 35:9-34; Jos 20:1-9",
+          "fuente_secundaria": "Mishná, tratado Makot (regulaciones detalladas sobre el funcionamiento de las ciudades de refugio); comentario rabínico sobre la distinción entre homicidio intencional y accidental",
+          "descripcion": "La tradición judía desarrolla extensamente las regulaciones específicas del sistema de ciudades de refugio en la Mishná, incluyendo detalles sobre el mantenimiento de caminos despejados hacia estas ciudades y la responsabilidad comunitaria de facilitar el acceso, interpretando el sistema completo como expresión institucional concreta de la justicia compasiva que distingue cuidadosamente entre intención y accidente.",
+          "similitudes": "Comparte con el cristianismo el reconocimiento del valor teológico del sistema de refugio como expresión de misericordia institucionalizada.",
+          "diferencias": null,
+          "significado_teologico": "El sistema de ciudades de refugio, incluida Cedes, demuestra que la ley mosaica incorpora mecanismos deliberados de misericordia y debido proceso, no solo retribución automática.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": {
+          "fuente_primaria": "Núm 35:9-34; Jos 20:1-9 (recepción tipológica patrística sobre el refugio como figura de Cristo)",
+          "fuente_secundaria": "Comentarios patrísticos que interpretan las ciudades de refugio como prefiguración de Cristo como refugio espiritual definitivo",
+          "descripcion": "La tradición patrística cristiana lee tipológicamente el sistema de ciudades de refugio, incluida Cedes, como anticipo veterotestamentario de Cristo mismo como refugio espiritual para el pecador que busca escapar de la condenación, estableciendo un paralelo entre la protección legal física del sistema mosaico y la protección espiritual ofrecida en el Nuevo Testamento.",
+          "similitudes": "Comparte con la lectura judía el reconocimiento del valor del sistema como institución de misericordia.",
+          "diferencias": "La lectura cristiana añade una dimensión tipológica explícita que conecta el sistema legal con la figura de Cristo, ausente en la interpretación judía centrada en la aplicación legal concreta.",
+          "significado_teologico": "Las ciudades de refugio se convierten en figura veterotestamentaria de la protección espiritual ofrecida en Cristo a quien busca escapar del juicio merecido.",
+          "posible_relacion_cultural": "Recepción cristiana del sistema legal mosaico reinterpretado tipológicamente en clave cristológica."
+        },
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

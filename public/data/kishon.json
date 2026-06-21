@@ -1,0 +1,120 @@
+{
+  "id": "kishon",
+  "nombre": "Cisón",
+  "tipo": "territorio",
+  "lat": 32.761948,
+  "lng": 35.064096,
+  "frecuencia_at": 6,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Río de la derrota de Sísara" }
+  ],
+  "descripcion_geo": "Río que atraviesa la llanura de Jezreel desde sus fuentes cerca del monte Tabor hasta desembocar en el Mediterráneo junto al monte Carmelo, de caudal estacional pero capaz de crecidas repentinas que jugaron un papel decisivo en la derrota del ejército de Sísara.",
+  "altitud_m": 50,
+  "clima": "Mediterráneo — veranos cálidos y secos con cauce reducido, inviernos con lluvias que pueden producir crecidas repentinas significativas.",
+  "recursos": [
+    "Curso fluvial estacional que atraviesa la llanura de Jezreel",
+    "Factor decisivo en la inmovilización de los carros de Sísara"
+  ],
+  "importancia_estrategica": "El río Cisón es el elemento geográfico decisivo en la victoria de Débora y Barac sobre Sísara: una crecida repentina, posiblemente provocada por una tormenta, convierte el terreno en lodazal que inmoviliza los temibles carros de hierro filisteos, neutralizando la principal ventaja militar del ejército cananeo y permitiendo la victoria israelita; siglos después, es también el lugar donde Elías ejecuta a los profetas de Baal tras la confrontación del Carmelo.",
+  "otros_habitantes": [
+    {
+      "id": "ejercito_sisara_kishon",
+      "nombre": "Ejército de Sísara",
+      "descripcion": "Fuerzas cananeas con novecientos carros de hierro, neutralizadas por la crecida del Cisón que convierte el terreno en un lodazal impracticable para sus vehículos.",
+      "religion": "Politeísmo cananeo",
+      "periodo": "c. 1150 a.C."
+    },
+    {
+      "id": "profetas_baal_kishon",
+      "nombre": "Profetas de Baal ejecutados",
+      "descripcion": "Sacerdotes baalistas derrotados en la confrontación del Carmelo, ejecutados por orden de Elías junto al torrente de Cisón.",
+      "religion": "Politeísmo cananeo — culto a Baal",
+      "periodo": "c. 860 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "cantico-debora-cisón",
+      "titulo": "El Cántico de Débora celebra el río Cisón",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "El extenso poema conmemorativo de Débora dedica versos específicos a celebrar cómo 'el torrente Cisón los arrastró, el antiguo torrente, el torrente Cisón', atribuyendo a la crecida del río un papel casi personificado en la derrota providencial del ejército de Sísara.",
+      "referencias": ["Jue 5:21"],
+      "personajes_clave": ["debora"]
+    },
+    {
+      "id": "derrota-sisara-cisón",
+      "titulo": "El Cisón inmoviliza los carros de Sísara",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Durante la batalla decisiva contra el ejército de Sísara, una crecida repentina del Cisón convierte el campo en lodazal que inutiliza los novecientos carros de hierro filisteos, neutralizando la ventaja militar decisiva del ejército cananeo y permitiendo que Israel, en inferioridad de armamento, obtenga la victoria.",
+      "referencias": ["Jue 4:15", "Jue 5:21"],
+      "personajes_clave": ["barac"]
+    },
+    {
+      "id": "elias-ejecuta-profetas-kishon",
+      "titulo": "Elías ejecuta a los profetas de Baal en el Cisón",
+      "fecha": "c. 860 a.C.",
+      "descripcion": "Tras la demostración pública del poder de YHWH en el monte Carmelo, Elías ordena capturar a los cuatrocientos cincuenta profetas de Baal y los hace ejecutar personalmente junto al torrente de Cisón, completando el juicio sobre el culto idolátrico institucionalizado por Jezabel.",
+      "referencias": ["1 Re 18:40"],
+      "personajes_clave": ["elias"]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "debora_kishon",
+      "nombre": "Débora",
+      "emoji": "🎵",
+      "rol": "Jueza y profetisa, autora del cántico conmemorativo",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Atribuye al río Cisón un papel casi personificado y providencial en la victoria sobre Sísara dentro de su extenso poema conmemorativo de la batalla.",
+      "referencias": ["Jue 5:21"],
+      "ruta": []
+    },
+    {
+      "id": "sisara_kishon",
+      "nombre": "Sísara",
+      "emoji": "🌊",
+      "rol": "General del ejército cananeo de Jabín",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Ve neutralizada su principal ventaja militar —los carros de hierro— por la crecida repentina del Cisón, factor decisivo que precipita su derrota total y posterior huida hasta su muerte a manos de Jael.",
+      "referencias": ["Jue 4:15-16"],
+      "ruta": ["kishon"]
+    },
+    {
+      "id": "elias_kishon",
+      "nombre": "Elías",
+      "emoji": "⚔️",
+      "rol": "Profeta de Israel",
+      "periodo": "c. 860 a.C.",
+      "descripcion": "Ejecuta a los profetas de Baal derrotados junto al Cisón tras la confrontación del Carmelo, completando el juicio sobre el culto idolátrico patrocinado por la corte de Acab.",
+      "referencias": ["1 Re 18:40"],
+      "ruta": ["carmel_mount", "kishon"]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "El río Cisón es escenario de dos victorias providenciales sobre el culto cananeo separadas por varios siglos: primero como instrumento natural de la derrota militar de Sísara, presentado poéticamente en el Cántico de Débora casi como agente activo del juicio divino, y después como lugar de ejecución de los profetas de Baal tras la confrontación del Carmelo, conectando ambos episodios en una misma geografía de victoria yahvista sobre el poder cananeo organizado.",
+    "religiones_presentes": [
+      "Yahvismo",
+      "Politeísmo cananeo (fuerzas derrotadas en ambos episodios)"
+    ],
+    "mitos": [
+      {
+        "id": "torrente-providencial-kishon",
+        "nombre": "El torrente Cisón como instrumento providencial de victoria",
+        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "judaismo": {
+          "fuente_primaria": "Jue 5:21; 1 Re 18:40",
+          "fuente_secundaria": "Comentario rabínico tradicional sobre la personificación poética del Cisón en el Cántico de Débora como ejemplo de cómo los elementos naturales pueden convertirse en instrumentos activos del designio providencial de YHWH",
+          "descripcion": "La tradición judía valora especialmente la personificación poética del Cisón en el Cántico de Débora —'el torrente los arrastró'— como ejemplo elocuente de cómo la naturaleza misma puede convertirse en agente del juicio divino, interpretación reforzada siglos después cuando el mismo río vuelve a aparecer como escenario del juicio final sobre los profetas de Baal en tiempos de Elías.",
+          "similitudes": null,
+          "diferencias": null,
+          "significado_teologico": "El río Cisón ejemplifica cómo elementos naturales aparentemente neutrales pueden convertirse en instrumentos activos del designio providencial divino contra los enemigos de Israel.",
+          "posible_relacion_cultural": null
+        },
+        "cristianismo": null,
+        "islam": null
+      }
+    ]
+  },
+  "periodos_at": ["hierro_1"]
+}

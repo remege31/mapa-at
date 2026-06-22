@@ -108,7 +108,7 @@ const TERRITORY_TYPE: Record<string, string> = {
 const TERRITORY_NAMES_ES: Record<string, string> = {
   'Egypt':                   'Egipto',
   'Assyria':                 'Asiria',
-  'Babylonia':               'Babilonia',
+  'Babylonia':               'Mesopotamia',
   'Hittites':                'Hititas',
   'Elam':                    'Elam',
   'Israel':                  'Israel',
@@ -139,6 +139,21 @@ const TERRITORY_NAMES_ES: Record<string, string> = {
   'Urnfield cultures':                     'Cultura de los campos de urnas',
   'Dravidians':                            'Drávidas',
   'Phrygians':                             'Frigios',
+
+  'Berbers':                'Bereberes',
+  'Saba':                   'Saba',
+  'Ethiopian highland farmers': 'Agricultores etíopes',
+  'Celtiberians':           'Celtíberos',
+  'Carthaginian Empire':    'Imperio cartaginés',
+  'Etrurians':              'Etruscos',
+  'Rome':                   'Roma',
+  'Sabini':                 'Sabinos',
+  'Samnites':               'Samnitas',
+  'Boii':                   'Boyos',
+  'Gandhāra':               'Gandhara',
+  'Hindu kingdoms':         'Reinos hindúes',
+  'Zhou states':            'Estados Zhou',
+  'Saharan Pastoral Nomads': 'Pastores nómadas del Sahara',
 }
 
 function getTerritoryColor(name: string): string {
@@ -364,7 +379,7 @@ export function MapView({
           )
         )
       )
-      .then(results => setLugares(results.filter(Boolean) as Lugar[]))
+      .then(results => setLugares(results.filter(Boolean).filter((l: any) => !['mesopotamia', 'egipto'].includes(l.id)) as Lugar[]))
       .catch(console.error)
   }, [])
 
@@ -375,7 +390,7 @@ export function MapView({
       center: [31.8, 35.5],
       zoom: 9,
       minZoom: 4,
-      maxZoom: 10,
+      maxZoom: 14,
       zoomControl: false,
     })
 

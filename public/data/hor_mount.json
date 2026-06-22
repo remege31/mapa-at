@@ -5,9 +5,13 @@
   "lat": 30.317396,
   "lng": 35.407152,
   "frecuencia_at": 10,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Muerte y sepultura de Aarón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Muerte y sepultura de Aarón"
+    }
   ],
   "descripcion_geo": "Montaña en la frontera de Edom, cerca de Cades, donde Israel acampa durante su peregrinaje por el desierto poco antes de la muerte de Aarón. Su identificación tradicional la sitúa en las cercanías de la región que después sería Sela/Petra.",
   "altitud_m": 1350,
@@ -39,23 +43,37 @@
       "titulo": "YHWH anuncia la muerte de Aarón en el monte Hor",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "YHWH instruye a Moisés que suba con Aarón y Eleazar al monte Hor, donde Aarón morirá y será 'reunido a su pueblo' por no haber podido entrar a la tierra prometida, igual que Moisés, debido al episodio de desobediencia en las aguas de Meribá.",
-      "referencias": ["Núm 20:23-26"],
-      "personajes_clave": ["aaron", "moises", "eleazar"]
+      "referencias": [
+        "Núm 20:23-26"
+      ],
+      "personajes_clave": [
+        "aaron",
+        "moises",
+        "eleazar"
+      ]
     },
     {
       "id": "transferencia-sacerdocio-hor",
       "titulo": "Eleazar recibe las vestiduras sacerdotales en la cumbre",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "En la cumbre del monte, Moisés despoja a Aarón de sus vestiduras sacerdotales y se las pone a Eleazar, su hijo, formalizando la transferencia del sumo sacerdocio antes de que Aarón muera allí mismo, estableciendo el patrón de sucesión hereditaria del oficio.",
-      "referencias": ["Núm 20:27-28"],
-      "personajes_clave": ["aaron", "eleazar", "moises"]
+      "referencias": [
+        "Núm 20:27-28"
+      ],
+      "personajes_clave": [
+        "aaron",
+        "eleazar",
+        "moises"
+      ]
     },
     {
       "id": "duelo-aaron-hor",
       "titulo": "Treinta días de duelo por Aarón",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Toda la congregación de Israel llora a Aarón durante treinta días al ver que ha muerto, observancia de duelo que establece un precedente de luto comunal prolongado por la pérdida de un líder religioso central del pueblo.",
-      "referencias": ["Núm 20:29"],
+      "referencias": [
+        "Núm 20:29"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,8 +85,14 @@
       "rol": "Primer sumo sacerdote de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Hermano de Moisés y primer sumo sacerdote de Israel, muere en la cumbre del monte Hor a la edad de ciento veintitrés años, sin poder entrar a la tierra prometida por su participación en la desobediencia de Meribá.",
-      "referencias": ["Núm 20:23-29", "Núm 33:38-39"],
-      "ruta": ["meribah", "hor_mount"]
+      "referencias": [
+        "Núm 20:23-29",
+        "Núm 33:38-39"
+      ],
+      "ruta": [
+        "meribah",
+        "hor_mount"
+      ]
     },
     {
       "id": "eleazar_hor",
@@ -77,8 +101,12 @@
       "rol": "Hijo de Aarón, sucesor en el sumo sacerdocio",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Recibe en la cumbre del monte Hor las vestiduras sacerdotales de su padre Aarón, asumiendo formalmente el oficio de sumo sacerdote de Israel en un acto que garantiza la continuidad institucional del sacerdocio.",
-      "referencias": ["Núm 20:25-28"],
-      "ruta": ["hor_mount"]
+      "referencias": [
+        "Núm 20:25-28"
+      ],
+      "ruta": [
+        "hor_mount"
+      ]
     },
     {
       "id": "moises_hor",
@@ -87,8 +115,13 @@
       "rol": "Líder de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Sube al monte Hor junto a Aarón y Eleazar por instrucción divina, presidiendo personalmente tanto la transferencia del sacerdocio como la muerte de su hermano.",
-      "referencias": ["Núm 20:25-28"],
-      "ruta": ["meribah", "hor_mount"]
+      "referencias": [
+        "Núm 20:25-28"
+      ],
+      "ruta": [
+        "meribah",
+        "hor_mount"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -100,7 +133,11 @@
       {
         "id": "continuidad-sacerdocio-hor",
         "nombre": "La continuidad del sumo sacerdocio establecida en el monte Hor",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 20:22-29",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el luto especial por Aarón ('toda la casa de Israel') en contraste con el duelo posterior por Moisés ('los hijos de Israel'), interpretado como reflejo de la popularidad excepcional de Aarón como pacificador",
@@ -123,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

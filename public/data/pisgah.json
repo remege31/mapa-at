@@ -2,13 +2,17 @@
   "id": "pisgah",
   "nombre": "Pisgá",
   "tipo": "territorio",
-  "lat": 31.76503129703305,
+  "lat": 31.762831,
   "lng": 35.71856575741812,
   "frecuencia_at": 8,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "nota_coordenadas": "Comparte coordenadas con Peor — son cumbres vecinas de la misma cordillera de Abarim, en Moab, frente a Jericó.",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Visión final de Moisés, oráculos de Balaam" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Visión final de Moisés, oráculos de Balaam"
+    }
   ],
   "descripcion_geo": "Cadena montañosa en Moab, al este del Jordán, frente a Jericó, parte de la cordillera de Abarim. Su cumbre, identificada con el monte Nebo, ofrece una vista panorámica de toda la tierra de Canaán, desde Galaad hasta el mar Mediterráneo y el Néguev.",
   "altitud_m": 710,
@@ -40,24 +44,36 @@
       "titulo": "Balac lleva a Balaam a la cima de Pisgá",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras dos intentos fallidos de obtener una maldición contra Israel desde otros lugares, Balac lleva a Balaam a la cumbre de Pisgá, desde donde puede ver parte del campamento israelita, esperando que desde ese ángulo Balaam finalmente pronuncie una maldición.",
-      "referencias": ["Núm 23:14-17"],
-      "personajes_clave": ["balaam"]
+      "referencias": [
+        "Núm 23:14-17"
+      ],
+      "personajes_clave": [
+        "balaam"
+      ]
     },
     {
       "id": "tercer-oraculo-balaam-pisgah",
       "titulo": "El tercer oráculo de bendición de Balaam",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Desde Pisgá, en lugar de la maldición esperada por Balac, Balaam pronuncia un nuevo oráculo de bendición sobre Israel, describiendo sus tiendas como hermosas 'como arroyos extendidos, como huertos junto al río', confirmando que no puede revertir la bendición que YHWH ha pronunciado sobre el pueblo.",
-      "referencias": ["Núm 24:1-9"],
-      "personajes_clave": ["balaam"]
+      "referencias": [
+        "Núm 24:1-9"
+      ],
+      "personajes_clave": [
+        "balaam"
+      ]
     },
     {
       "id": "moises-vision-pisgah",
       "titulo": "Moisés contempla la tierra prometida desde Pisgá",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Por instrucción de YHWH, Moisés sube a la cumbre de Pisgá (identificada con el Nebo) para contemplar toda la extensión de la tierra prometida que no le será permitido pisar debido a su falta de fe en las aguas de Meribá; allí muere, y es sepultado por YHWH mismo en un lugar que nadie conoce hasta hoy.",
-      "referencias": ["Deut 34:1-7"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Deut 34:1-7"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +84,13 @@
       "rol": "Legislador y libertador de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Contempla desde la cumbre de Pisgá toda la tierra prometida que su pueblo habitará, sin poder él mismo entrar, cerrando así su misión de liberador en el umbral mismo del cumplimiento de la promesa.",
-      "referencias": ["Deut 34:1-7"],
-      "ruta": ["shittim", "pisgah"]
+      "referencias": [
+        "Deut 34:1-7"
+      ],
+      "ruta": [
+        "shittim",
+        "pisgah"
+      ]
     },
     {
       "id": "balaam_pisgah",
@@ -78,8 +99,13 @@
       "rol": "Vidente contratado por Balac",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Pronuncia desde la cumbre de Pisgá su tercer oráculo de bendición sobre Israel, en lugar de la maldición que Balac esperaba, confirmando la imposibilidad de revertir la bendición divina.",
-      "referencias": ["Núm 23:14-24:9"],
-      "ruta": ["pisgah", "peor"]
+      "referencias": [
+        "Núm 23:14-24:9"
+      ],
+      "ruta": [
+        "pisgah",
+        "peor"
+      ]
     },
     {
       "id": "balac_pisgah",
@@ -88,8 +114,12 @@
       "rol": "Rey de Moab",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Lleva a Balaam sucesivamente a distintos puntos elevados, incluido Pisgá, con la esperanza de obtener desde algún ángulo una maldición efectiva contra Israel, sin éxito en ninguno de los intentos.",
-      "referencias": ["Núm 23:13-17"],
-      "ruta": ["pisgah"]
+      "referencias": [
+        "Núm 23:13-17"
+      ],
+      "ruta": [
+        "pisgah"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +132,11 @@
       {
         "id": "vision-moises-pisgah-mito",
         "nombre": "La visión final de Moisés desde Pisgá",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Deut 34:1-7",
           "fuente_secundaria": "Talmud Babilónico, Sotah 13b-14a (sobre la muerte de Moisés 'por boca de YHWH' y su sepultura desconocida)",
@@ -133,5 +167,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ],
+  "subtipo_geo": "Meseta"
 }

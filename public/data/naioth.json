@@ -2,8 +2,8 @@
   "id": "naioth",
   "nombre": "Naioth",
   "tipo": "ciudad",
-  "lat": 31.8336,
-  "lng": 35.1808,
+  "lat": 31.8354,
+  "lng": 35.1829,
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [

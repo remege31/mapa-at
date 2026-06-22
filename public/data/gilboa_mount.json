@@ -5,9 +5,13 @@
   "lat": 32.50984080716704,
   "lng": 35.40843470396692,
   "frecuencia_at": 6,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Muerte de Saúl y sus hijos" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Muerte de Saúl y sus hijos"
+    }
   ],
   "descripcion_geo": "Cordillera montañosa en el límite sur de la llanura de Jezreel, escenario de la batalla decisiva donde Israel es derrotado por los filisteos y donde mueren tanto el rey Saúl como tres de sus hijos, incluido Jonatán, marcando el fin trágico del primer reinado de Israel.",
   "altitud_m": 500,
@@ -39,24 +43,37 @@
       "titulo": "Saúl y sus hijos mueren en el monte Gilboa",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Los filisteos derrotan decisivamente a Israel en el monte Gilboa, matando a Jonatán, Abinadab y Malquisúa, hijos de Saúl; gravemente herido por los arqueros, Saúl pide a su escudero que lo mate para evitar caer humillado en manos enemigas, y al negarse este, se arroja él mismo sobre su propia espada.",
-      "referencias": ["1 Sam 31:1-6"],
-      "personajes_clave": ["saul", "jonatan"]
+      "referencias": [
+        "1 Sam 31:1-6"
+      ],
+      "personajes_clave": [
+        "saul",
+        "jonatan"
+      ]
     },
     {
       "id": "exposicion-cuerpos-bethsean-gilboa",
       "titulo": "Los cuerpos son expuestos en el muro de Bet-seán",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Al día siguiente, los filisteos encuentran los cuerpos de Saúl y sus hijos en el monte Gilboa, cortan la cabeza de Saúl, exponen su armadura en el templo de Astarté y clavan los cuerpos en el muro de Bet-seán como trofeo público de su victoria sobre el primer rey de Israel.",
-      "referencias": ["1 Sam 31:8-10"],
-      "personajes_clave": ["saul"]
+      "referencias": [
+        "1 Sam 31:8-10"
+      ],
+      "personajes_clave": [
+        "saul"
+      ]
     },
     {
       "id": "lamento-david-gilboa",
       "titulo": "El lamento de David: '¡Cómo han caído los valientes!'",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Al recibir la noticia de la muerte de Saúl y Jonatán, David compone una elegía formal conocida como 'el Cántico del Arco', donde maldice el monte Gilboa pidiendo que nunca más caiga sobre él rocío ni lluvia, y lamenta profundamente la pérdida de Jonatán con palabras de amor fraternal excepcional.",
-      "referencias": ["2 Sam 1:17-27"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "2 Sam 1:17-27"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     }
   ],
   "personajes": [
@@ -67,8 +84,12 @@
       "rol": "Primer rey de Israel",
       "periodo": "Muere c. 1010 a.C.",
       "descripcion": "Muere por su propia mano en el monte Gilboa tras ser gravemente herido por los arqueros filisteos, cerrando trágicamente su reinado marcado por el progresivo deterioro de su relación con YHWH y con David.",
-      "referencias": ["1 Sam 31:1-6"],
-      "ruta": ["gilboa_mount"]
+      "referencias": [
+        "1 Sam 31:1-6"
+      ],
+      "ruta": [
+        "gilboa_mount"
+      ]
     },
     {
       "id": "jonatan_gilboa",
@@ -77,8 +98,13 @@
       "rol": "Hijo de Saúl, amigo de David",
       "periodo": "Muere c. 1010 a.C.",
       "descripcion": "Muere junto a su padre en el monte Gilboa, pérdida que David lamenta con palabras de profundo afecto fraternal en su elegía, recordando una amistad que trascendió las tensiones dinásticas entre ambas familias.",
-      "referencias": ["1 Sam 31:2", "2 Sam 1:25-26"],
-      "ruta": ["gilboa_mount"]
+      "referencias": [
+        "1 Sam 31:2",
+        "2 Sam 1:25-26"
+      ],
+      "ruta": [
+        "gilboa_mount"
+      ]
     },
     {
       "id": "david_gilboa",
@@ -87,7 +113,9 @@
       "rol": "Futuro rey de Israel",
       "periodo": "c. 1010 a.C.",
       "descripcion": "Compone una de las elegías más conmovedoras de toda la literatura bíblica al recibir la noticia de la muerte de Saúl y Jonatán en el Gilboa, demostrando genuino dolor pese a la persecución previa sufrida por parte de Saúl.",
-      "referencias": ["2 Sam 1:1-27"],
+      "referencias": [
+        "2 Sam 1:1-27"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +129,11 @@
       {
         "id": "maldicion-david-gilboa",
         "nombre": "La maldición de David sobre los montes de Gilboa",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Sam 1:21",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la maldición poética de David como expresión de duelo nacional, no de venganza personal",
@@ -116,5 +148,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

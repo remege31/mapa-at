@@ -2,13 +2,17 @@
   "id": "peor",
   "nombre": "Peor",
   "tipo": "territorio",
-  "lat": 31.76503129703305,
+  "lat": 31.767231,
   "lng": 35.71856575741812,
   "frecuencia_at": 5,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "nota_coordenadas": "Comparte coordenadas con Pisgá — son cumbres vecinas de la misma cordillera de Abarim, en Moab, frente a Jericó.",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Monte de idolatría asociado a Baal-peor" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Monte de idolatría asociado a Baal-peor"
+    }
   ],
   "descripcion_geo": "Monte en la cordillera de Abarim, en Moab, que da nombre a la deidad local Baal-peor, cuyo culto contaminaría gravemente al campamento israelita en Sitim. Es también uno de los puntos elevados desde los que Balac lleva a Balaam con la esperanza de obtener una maldición contra Israel.",
   "altitud_m": 700,
@@ -40,23 +44,35 @@
       "titulo": "Balac lleva a Balaam a la cumbre de Peor",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras el fracaso de los intentos anteriores desde Bamot-baal y Pisgá, Balac lleva a Balaam a la cumbre de Peor, que domina el desierto, esperando que un tercer ángulo de visión sobre el campamento israelita produzca finalmente la maldición deseada.",
-      "referencias": ["Núm 23:28"],
-      "personajes_clave": ["balaam", "balac"]
+      "referencias": [
+        "Núm 23:28"
+      ],
+      "personajes_clave": [
+        "balaam",
+        "balac"
+      ]
     },
     {
       "id": "cuarto-oraculo-balaam-peor",
       "titulo": "Los oráculos finales de Balaam desde Peor",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Desde Peor, Balaam, ya sin recurrir a presagios, mirando directamente hacia el desierto donde acampa Israel, pronuncia bajo el Espíritu de Dios el oráculo más extenso y mesiánicamente cargado de toda la secuencia, incluyendo la célebre profecía de 'una estrella saldrá de Jacob', además de oráculos adicionales contra Moab, Edom, Amalec y otros pueblos.",
-      "referencias": ["Núm 24:10-24"],
-      "personajes_clave": ["balaam"]
+      "referencias": [
+        "Núm 24:10-24"
+      ],
+      "personajes_clave": [
+        "balaam"
+      ]
     },
     {
       "id": "nombre-baal-peor-origen",
       "titulo": "El monte da nombre a la deidad de la apostasía en Sitim",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "El nombre del monte Peor se asocia directamente con la deidad local 'Baal-peor', cuyo culto, practicado en Sitim, desencadena la grave apostasía israelita y la consiguiente plaga detenida por la intervención de Finees.",
-      "referencias": ["Núm 25:1-3", "Deut 4:3"],
+      "referencias": [
+        "Núm 25:1-3",
+        "Deut 4:3"
+      ],
       "personajes_clave": []
     }
   ],
@@ -68,8 +84,13 @@
       "rol": "Vidente contratado por Balac",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Pronuncia desde Peor su oráculo final y más extenso, incluyendo la profecía mesiánica de la estrella de Jacob, confirmando definitivamente ante Balac la imposibilidad de maldecir a quien YHWH ha bendecido.",
-      "referencias": ["Núm 24:10-24"],
-      "ruta": ["pisgah", "peor"]
+      "referencias": [
+        "Núm 24:10-24"
+      ],
+      "ruta": [
+        "pisgah",
+        "peor"
+      ]
     },
     {
       "id": "balac_peor",
@@ -78,8 +99,13 @@
       "rol": "Rey de Moab",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras el fracaso definitivo del tercer intento de maldición desde Peor, se encoleriza contra Balaam y lo despide, viendo frustrado todo su plan contra Israel.",
-      "referencias": ["Núm 24:10-11", "Núm 24:25"],
-      "ruta": ["peor"]
+      "referencias": [
+        "Núm 24:10-11",
+        "Núm 24:25"
+      ],
+      "ruta": [
+        "peor"
+      ]
     },
     {
       "id": "finees_peor",
@@ -88,8 +114,12 @@
       "rol": "Sacerdote que detiene la apostasía vinculada a Baal-peor",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Aunque actúa en Sitim, su intervención responde directamente a la apostasía asociada al culto de Baal-peor, deteniendo la plaga y recibiendo el pacto sacerdotal perpetuo.",
-      "referencias": ["Núm 25:6-13"],
-      "ruta": ["shittim"]
+      "referencias": [
+        "Núm 25:6-13"
+      ],
+      "ruta": [
+        "shittim"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +132,11 @@
       {
         "id": "estrella-jacob-peor",
         "nombre": "La profecía de la estrella de Jacob",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 24:17",
           "fuente_secundaria": "Comentario rabínico tradicional que vincula la profecía con figuras mesiánicas o líderes militares posteriores (incluida la aplicación histórica a Bar Kojba en la revuelta del siglo II d.C.)",
@@ -125,5 +159,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ],
+  "subtipo_geo": "Montaña"
 }

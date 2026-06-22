@@ -5,9 +5,13 @@
   "lat": 31.767775,
   "lng": 35.234408,
   "frecuencia_at": 5,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "agua_menor",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Manantial al sur de Jerusalén, proclamación frustrada de Adonías" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Manantial al sur de Jerusalén, proclamación frustrada de Adonías"
+    }
   ],
   "descripcion_geo": "Manantial situado en la confluencia de los valles del Cedrón y de Hinom, justo al sur de la Ciudad de David, fuera del perímetro amurallado original. Su ubicación periférica respecto al centro de poder de la ciudad lo convierte en punto discreto para reuniones y mensajes que requerían cierta distancia del control directo de la corte.",
   "altitud_m": "Confluencia Cedrón-Hinom, al sur de la Ciudad de David, c. 600-620",
@@ -40,7 +44,9 @@
       "titulo": "Jonatán y Ahimaas esperan en En-rogel durante la rebelión de Absalón",
       "fecha": "c. 975 a.C.",
       "descripcion": "Durante la huida de David de Jerusalén tras la rebelión de su hijo Absalón, los hijos de los sacerdotes Sadoc y Abiatar se apostan en En-rogel, fuera de la vista de la ciudad, para recibir información secreta y transmitirla rápidamente a David sobre los movimientos de Absalón.",
-      "referencias": ["2 Sam 17:17"],
+      "referencias": [
+        "2 Sam 17:17"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,16 +54,24 @@
       "titulo": "Adonías se proclama rey en En-rogel",
       "fecha": "c. 970 a.C.",
       "descripcion": "Aprovechando la vejez de David, Adonías organiza un sacrificio festivo en la piedra de Zohélet, junto a En-rogel, e invita a sus hermanos y a hombres influyentes de Judá para proclamarse rey, excluyendo deliberadamente a Salomón, Natán, Sadoc, Benaía y la guardia de élite real.",
-      "referencias": ["1 Re 1:5-10"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 1:5-10"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "noticia-uncion-salomon-enrogel",
       "titulo": "La noticia de la unción de Salomón llega al banquete de En-rogel",
       "fecha": "c. 970 a.C.",
       "descripcion": "Mientras el banquete de Adonías concluye en En-rogel, Jonatán hijo de Abiatar llega con la noticia de que Salomón ya ha sido ungido rey en Guijón por orden de David, provocando la dispersión aterrorizada de los invitados de Adonías y el fin abrupto de su intento de usurpación.",
-      "referencias": ["1 Re 1:41-49"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 1:41-49"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +82,14 @@
       "rol": "Hijo de David, aspirante frustrado al trono",
       "periodo": "c. 970 a.C.",
       "descripcion": "Organiza en En-rogel un banquete de autoproclamación real que se desmorona al llegar la noticia de la unción ya consumada de Salomón en Guijón, episodio que marca el fracaso definitivo de sus aspiraciones al trono.",
-      "referencias": ["1 Re 1:5-10", "1 Re 1:41-53"],
-      "ruta": ["en_rogel", "jerusalen"]
+      "referencias": [
+        "1 Re 1:5-10",
+        "1 Re 1:41-53"
+      ],
+      "ruta": [
+        "en_rogel",
+        "jerusalen"
+      ]
     },
     {
       "id": "jonatan_hijo_abiatar",
@@ -78,8 +98,14 @@
       "rol": "Mensajero sacerdotal",
       "periodo": "c. 975–970 a.C.",
       "descripcion": "Actúa como mensajero clave en dos episodios sucesivos centrados en En-rogel: primero transmitiendo información a David durante la rebelión de Absalón, después llevando al banquete de Adonías la noticia decisiva de la unción de Salomón.",
-      "referencias": ["2 Sam 17:17-21", "1 Re 1:41-49"],
-      "ruta": ["en_rogel", "jerusalen"]
+      "referencias": [
+        "2 Sam 17:17-21",
+        "1 Re 1:41-49"
+      ],
+      "ruta": [
+        "en_rogel",
+        "jerusalen"
+      ]
     },
     {
       "id": "joab_enrogel",
@@ -88,8 +114,13 @@
       "rol": "General del ejército, partidario de Adonías",
       "periodo": "c. 970 a.C.",
       "descripcion": "Veterano comandante militar de David que respalda la proclamación de Adonías en En-rogel, decisión que tendrá consecuencias fatales para él una vez Salomón consolide el trono.",
-      "referencias": ["1 Re 1:7", "1 Re 2:28-34"],
-      "ruta": ["en_rogel"]
+      "referencias": [
+        "1 Re 1:7",
+        "1 Re 2:28-34"
+      ],
+      "ruta": [
+        "en_rogel"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +132,11 @@
       {
         "id": "proclamacion-fallida-adonias",
         "nombre": "La proclamación fallida de Adonías en En-rogel",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 1:5-53",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la legitimidad dinástica y el papel de la unción profética y sacerdotal frente a la autoproclamación",
@@ -116,5 +151,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ],
+  "subtipo_geo": "Manantial"
 }

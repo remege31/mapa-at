@@ -5,9 +5,13 @@
   "lat": 32.193237,
   "lng": 35.676305,
   "frecuencia_at": 7,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "agua_mayor",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Frontera tribal, río de la lucha de Jacob" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Frontera tribal, río de la lucha de Jacob"
+    }
   ],
   "descripcion_geo": "Río afluente del Jordán que nace en Galaad y desciende en un curso sinuoso hasta desembocar en el Jordán, marcando una frontera natural significativa en la Transjordania, tanto en el ciclo patriarcal como en el reparto tribal posterior entre Gad y los amorreos.",
   "altitud_m": 200,
@@ -40,23 +44,35 @@
       "titulo": "Jacob envía a su familia a cruzar el Jaboc",
       "fecha": "c. 1900 a.C. (narrativa)",
       "descripcion": "La noche antes de su reencuentro con Esaú, Jacob hace pasar a sus esposas, siervas, once hijos y todas sus posesiones a través del vado del Jaboc, quedándose él solo en la orilla, momento de soledad que precede inmediatamente al episodio de la lucha nocturna.",
-      "referencias": ["Gén 32:22-23"],
-      "personajes_clave": ["jacob"]
+      "referencias": [
+        "Gén 32:22-23"
+      ],
+      "personajes_clave": [
+        "jacob"
+      ]
     },
     {
       "id": "lucha-jacob-jaboc",
       "titulo": "Jacob lucha con un hombre junto al Jaboc",
       "fecha": "c. 1900 a.C. (narrativa)",
       "descripcion": "Quedándose solo en la orilla del Jaboc, Jacob lucha toda la noche con un hombre que resulta ser una manifestación divina; al amanecer, recibe una bendición y el nuevo nombre 'Israel' ('el que lucha con Dios'), quedando además cojo por una herida en el muslo, episodio que da origen también a una prohibición dietética israelita.",
-      "referencias": ["Gén 32:24-32"],
-      "personajes_clave": ["jacob"]
+      "referencias": [
+        "Gén 32:24-32"
+      ],
+      "personajes_clave": [
+        "jacob"
+      ]
     },
     {
       "id": "jaboc-frontera-sehon",
       "titulo": "El Jaboc como frontera del territorio conquistado a Sehón",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "El texto bíblico establece repetidamente al Jaboc como límite norte del territorio amorreo de Sehón conquistado por Israel, frontera natural que después separa el territorio de Gad del de los amonitas.",
-      "referencias": ["Núm 21:24", "Deut 2:37", "Jos 12:2"],
+      "referencias": [
+        "Núm 21:24",
+        "Deut 2:37",
+        "Jos 12:2"
+      ],
       "personajes_clave": []
     }
   ],
@@ -68,8 +84,14 @@
       "rol": "Patriarca",
       "periodo": "c. 1900 a.C. (narrativa)",
       "descripcion": "Protagoniza junto al río Jaboc uno de los episodios más enigmáticos y teológicamente cargados de todo el ciclo patriarcal: su lucha nocturna con un ser divino que le otorga el nombre de Israel.",
-      "referencias": ["Gén 32:22-32"],
-      "ruta": ["mahanaim", "jabbok", "peniel"]
+      "referencias": [
+        "Gén 32:22-32"
+      ],
+      "ruta": [
+        "mahanaim",
+        "jabbok",
+        "peniel"
+      ]
     },
     {
       "id": "ser_divino_jaboc",
@@ -78,8 +100,12 @@
       "rol": "Manifestación divina",
       "periodo": "c. 1900 a.C. (narrativa)",
       "descripcion": "Figura cuya identidad exacta —ángel, manifestación de YHWH, o representación simbólica— ha sido objeto de extenso debate interpretativo a lo largo de la historia de la exégesis bíblica, central en el episodio fundacional del nuevo nombre de Jacob.",
-      "referencias": ["Gén 32:24-30"],
-      "ruta": ["jabbok"]
+      "referencias": [
+        "Gén 32:24-30"
+      ],
+      "ruta": [
+        "jabbok"
+      ]
     },
     {
       "id": "moises_jaboc",
@@ -88,7 +114,10 @@
       "rol": "Líder de Israel en la conquista de la Transjordania",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Establece el Jaboc como frontera norte del territorio conquistado de Sehón, marcando los límites de la posesión israelita en esta región de la Transjordania.",
-      "referencias": ["Núm 21:21-24", "Deut 2:36-37"],
+      "referencias": [
+        "Núm 21:21-24",
+        "Deut 2:36-37"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +130,11 @@
       {
         "id": "lucha-jacob-nombre-israel",
         "nombre": "La lucha de Jacob junto al Jaboc y el origen del nombre Israel",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Gén 32:22-32",
           "fuente_secundaria": "Talmud Babilónico, Julin 91a (discusión sobre la identidad del 'hombre' y el origen de la prohibición del nervio ciático); Midrash Bereshit Rabbah 77-78",
@@ -124,5 +157,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ],
+  "subtipo_geo": "Río"
 }

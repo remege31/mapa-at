@@ -5,7 +5,7 @@
   "lat": 29.5,
   "lng": 33.8,
   "frecuencia_at": 70,
-  "jerarquia_pin": "secundario",
+  "jerarquia_pin": "monte",
   "nota_coordenadas": "Centro geográfico de la Península del Sinaí — entre el Golfo de Suez (oeste) y el Golfo de Aqaba (este)",
   "periodos": [
     {
@@ -235,5 +235,6 @@
     "bronce_tardio",
     "hierro_1",
     "hierro_2"
-  ]
+  ],
+  "subtipo_geo": "Montaña"
 }

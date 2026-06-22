@@ -197,7 +197,7 @@ function Panel({ lugar, periodId, onClose }: {
         <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
           <div className="grid2">
             <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
-            <div><div className="gl">Tipo</div><div className="gv">{tipoLabel}</div></div>
+            <div><div className="gl">Tipo</div><div className="gv">{(lugar as any).subtipo_geo ?? tipoLabel}</div></div>
           </div>
           <div className="sec-label" style={{ marginTop: 0 }}>Clima</div>
           <p className="desc">{lugar.clima}</p>
@@ -222,6 +222,9 @@ function Panel({ lugar, periodId, onClose }: {
           </>)}
           {(lugar as any).jerarquia_pin === 'sublugar' && (
             <p style={{ fontSize: '11px', color: 'var(--gray)', marginTop: '12px', fontStyle: 'italic' }}>* La ubicación del pin es aproximada. Este lugar se encontraba dentro de la ciudad de Jerusalén.</p>
+          )}
+          {(lugar as any).id === 'rephidim' && (
+            <p style={{ fontSize: '11px', color: 'var(--gray)', marginTop: '12px', fontStyle: 'italic' }}>* Refidim es también conocido como Masá y Meribá (Éx 17:7), nombres dados al lugar tras la queja del pueblo por falta de agua.</p>
           )}
         </Acc>
         <Acc icon="📖" title="Historias" open={openAcc === 1} onToggle={() => toggle(1)}>

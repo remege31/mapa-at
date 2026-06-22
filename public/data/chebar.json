@@ -5,9 +5,13 @@
   "lat": 33.159129,
   "lng": 44.06293,
   "frecuencia_at": 8,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "agua_mayor",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Exilio y visiones de Ezequiel" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Exilio y visiones de Ezequiel"
+    }
   ],
   "descripcion_geo": "Canal o río en Babilonia, junto al cual se establece la comunidad de exiliados judíos deportados tras la primera caída de Jerusalén, y donde el profeta Ezequiel recibe sus primeras y más elaboradas visiones proféticas.",
   "altitud_m": 30,
@@ -40,24 +44,38 @@
       "titulo": "La visión inaugural de Ezequiel junto al Quebar",
       "fecha": "c. 593 a.C.",
       "descripcion": "Estando entre los deportados junto al río Quebar, Ezequiel ve los cielos abiertos y recibe la elaborada visión del carro divino, con cuatro criaturas vivientes, ruedas dentro de ruedas, y la gloria de YHWH en forma de figura humana sobre un trono, inaugurando formalmente su ministerio profético con una de las teofanías más detalladas y simbólicamente complejas de todo el Antiguo Testamento.",
-      "referencias": ["Ez 1:1-28"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 1:1-28"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     },
     {
       "id": "llamado-vocacion-ezequiel-chebar",
       "titulo": "El llamado y la comisión profética de Ezequiel",
       "fecha": "c. 593 a.C.",
       "descripcion": "Tras la visión del carro divino, YHWH llama formalmente a Ezequiel como 'hijo de hombre' y lo comisiona para hablar a la 'casa rebelde' de Israel, entregándole un rollo escrito que el profeta debe comer simbólicamente antes de iniciar su ministerio de advertencia.",
-      "referencias": ["Ez 2:1-3:3"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 2:1-3:3"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     },
     {
       "id": "visiones-posteriores-chebar",
       "titulo": "Visiones posteriores recibidas junto al Quebar",
       "fecha": "c. 592–571 a.C.",
       "descripcion": "El río Quebar reaparece como escenario en varios momentos posteriores del libro de Ezequiel, incluyendo la visión de las abominaciones del Templo de Jerusalén y la visión final de la restauración del Templo, confirmando este lugar como anclaje geográfico recurrente de todo el ministerio visionario del profeta.",
-      "referencias": ["Ez 3:15", "Ez 10:15-22", "Ez 43:3"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 3:15",
+        "Ez 10:15-22",
+        "Ez 43:3"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +86,15 @@
       "rol": "Sacerdote y profeta del exilio",
       "periodo": "Activo c. 593–571 a.C.",
       "descripcion": "Recibe junto al río Quebar la visión inaugural y varias visiones posteriores que constituyen el núcleo de su extenso y elaborado ministerio profético durante el exilio babilónico.",
-      "referencias": ["Ez 1:1-3", "Ez 3:15", "Ez 10:15"],
-      "ruta": ["jerusalen", "chebar"]
+      "referencias": [
+        "Ez 1:1-3",
+        "Ez 3:15",
+        "Ez 10:15"
+      ],
+      "ruta": [
+        "jerusalen",
+        "chebar"
+      ]
     },
     {
       "id": "ancianos_juda_chebar_personaje",
@@ -78,7 +103,11 @@
       "rol": "Líderes de la comunidad exiliada",
       "periodo": "c. 593–571 a.C.",
       "descripcion": "Se reúnen periódicamente en casa de Ezequiel junto al Quebar, recibiendo a través de él diversos oráculos y siendo testigos de algunas de sus visiones y acciones simbólicas más elaboradas.",
-      "referencias": ["Ez 8:1", "Ez 14:1", "Ez 20:1"],
+      "referencias": [
+        "Ez 8:1",
+        "Ez 14:1",
+        "Ez 20:1"
+      ],
       "ruta": []
     },
     {
@@ -88,7 +117,10 @@
       "rol": "Población deportada establecida junto al Quebar",
       "periodo": "c. 597–571 a.C.",
       "descripcion": "Comunidad organizada de judíos deportados que sostiene su identidad religiosa y comunitaria en territorio extranjero, destinataria principal del extenso ministerio profético de Ezequiel.",
-      "referencias": ["Ez 1:1", "Ez 3:15"],
+      "referencias": [
+        "Ez 1:1",
+        "Ez 3:15"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +134,11 @@
       {
         "id": "vision-carro-divino-chebar",
         "nombre": "La visión del carro divino (Merkavá) junto al río Quebar",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Ez 1:1-28",
           "fuente_secundaria": "Tradición mística judía de la Merkavá (literalmente 'carro'), desarrollada extensamente en textos místicos posteriores como fundamento de toda una corriente de misticismo judío centrada en la contemplación del trono divino",
@@ -125,5 +161,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

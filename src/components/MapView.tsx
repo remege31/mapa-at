@@ -6,7 +6,7 @@ import type { Lugar } from '../types/lugar'
 // IDs cargados dinámicamente desde /data/index.json
 
 // Radio base por jerarquía visual (7 / 5 / 3 px antes de aplicar zoomScale)
-const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3, sublugar: 3 }
+const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3, sublugar: 3, monte: 4, agua_mayor: 5, agua_menor: 3 }
 const PIN = { fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
 
 // Waypoints para rutas — lugares sin JSON propio en scope actual
@@ -256,12 +256,18 @@ function makeIcon(
   const labelSize = Math.max(7, Math.round(PIN.labelSize * zoomScale))
   const d = r * 2
 
-  const fill = selected ? '#8B4A26' : PIN.fill
-  const labelColor = selected ? '#8B4A26' : PIN.fill
+  const isAgua = jerarquiaLugar === 'agua_mayor' || jerarquiaLugar === 'agua_menor'
+  const isMonte = jerarquiaLugar === 'monte'
+  const fillBase = isAgua ? '#2E5F8A' : isMonte ? '#4A7C4E' : PIN.fill
+  const fillSelected = isAgua ? '#1a3f5c' : isMonte ? '#2d5c32' : '#8B4A26'
+  const fill = selected ? fillSelected : fillBase
+  const labelColor = selected ? fillSelected : fillBase
   const shadow = selected
-    ? 'box-shadow:0 0 0 3px #8B4A26,0 2px 6px rgba(0,0,0,.35);'
+    ? `box-shadow:0 0 0 3px ${fillSelected},0 2px 6px rgba(0,0,0,.35);`
     : 'box-shadow:0 1px 4px rgba(0,0,0,.25);'
-  const label = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
+  const subtipoGeo = (lugar as any).subtipo_geo ?? null
+  const labelBase = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
+  const label = subtipoGeo ? `${subtipoGeo} ${labelBase}` : labelBase
   const hideLabel = dimmed || hideLabelOverride
   const opacity = dimmed ? '0.25' : '1'
 
@@ -318,7 +324,7 @@ function makeIcon(
         ${pulseHtml}
         <div style="
           width:${d}px;height:${d}px;
-          ${jerarquiaLugar === 'sublugar' ? 'border-radius:2px;' : 'border-radius:50%;'}
+          ${jerarquiaLugar === 'sublugar' ? 'border-radius:2px;' : jerarquiaLugar === 'monte' ? 'border-radius:2px;clip-path:polygon(50% 0%, 0% 100%, 100% 100%);border:none;' : 'border-radius:50%;'}
           background:${fill};
           border:2px solid ${PIN.stroke};
           ${shadow}
@@ -379,7 +385,7 @@ export function MapView({
           )
         )
       )
-      .then(results => setLugares(results.filter(Boolean).filter((l: any) => !['mesopotamia', 'egipto'].includes(l.id)) as Lugar[]))
+      .then(results => setLugares(results.filter(Boolean).filter((l: any) => !['mesopotamia', 'egipto', 'massah'].includes(l.id)) as Lugar[]))
       .catch(console.error)
   }, [])
 
@@ -390,7 +396,7 @@ export function MapView({
       center: [31.8, 35.5],
       zoom: 9,
       minZoom: 4,
-      maxZoom: 14,
+      maxZoom: 19,
       zoomControl: false,
     })
 
@@ -611,7 +617,7 @@ export function MapView({
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       const dimmed = periodId !== 'todos' && !periodosAt.includes(periodId)
       const jerarquia = (lugar as any).jerarquia_pin ?? 'primario'
-      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8) || (jerarquia === 'sublugar' && zoom < 10)
+      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8) || (jerarquia === 'sublugar' && zoom < 10) || (jerarquia === 'monte' && zoom < 8) || (jerarquia === 'agua_mayor' && zoom < 7) || (jerarquia === 'agua_menor' && zoom < 9)
 
       if (hiddenByZoom) {
         const existing = markersRef.current.get(lugar.id)

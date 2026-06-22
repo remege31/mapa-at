@@ -5,9 +5,13 @@
   "lat": 31.773116,
   "lng": 35.237186,
   "frecuencia_at": 6,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "agua_menor",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Manantial de la Ciudad de David, unción de Salomón" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Manantial de la Ciudad de David, unción de Salomón"
+    }
   ],
   "descripcion_geo": "Manantial intermitente en la ladera oriental de la Ciudad de David, junto al valle del Cedrón, principal y prácticamente única fuente natural de agua dulce de Jerusalén en la antigüedad. Su nombre ('el que brota' o 'el que mana') describe su comportamiento característico de surgir en pulsos irregulares varias veces al día.",
   "altitud_m": "Ladera oriental de la Ciudad de David, c. 630-640",
@@ -40,24 +44,38 @@
       "titulo": "El 'canal' como vía de conquista de la fortaleza jebusea",
       "fecha": "c. 1000 a.C.",
       "descripcion": "En la narración de la conquista de la fortaleza de Sion por David, se menciona un 'tsinnor' (canal o conducto) por el cual los hombres de Joab logran penetrar la defensa jebusea, identificado por buena parte de la arqueología moderna con el sistema de pozo vertical que daba acceso al manantial de Guijón desde el interior de la ciudad.",
-      "referencias": ["2 Sam 5:6-8"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "2 Sam 5:6-8"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "uncion-salomon-gihon",
       "titulo": "Unción de Salomón en Guijón",
       "fecha": "c. 970 a.C.",
       "descripcion": "Ante el intento de Adonías de proclamarse rey, David ordena a Sadoc, Natán y Benaía llevar a Salomón al manantial de Guijón, ungirlo allí como rey de Israel y hacerlo subir después a la ciudad entre el sonido de trompetas y la aclamación pública, asegurando una sucesión rápida e inequívoca.",
-      "referencias": ["1 Re 1:32-40"],
-      "personajes_clave": ["salomon", "david"]
+      "referencias": [
+        "1 Re 1:32-40"
+      ],
+      "personajes_clave": [
+        "salomon",
+        "david"
+      ]
     },
     {
       "id": "ezequias-tapona-gihon",
       "titulo": "Ezequías tapona las aguas externas de Guijón",
       "fecha": "c. 701 a.C.",
       "descripcion": "Ante la amenaza asiria, Ezequías ordena obstruir las aguas de los manantiales que estaban fuera de la ciudad, incluido Guijón, y desviar su curso mediante el túnel hacia el interior amurallado, privando al ejército invasor de una fuente de agua accesible.",
-      "referencias": ["2 Cr 32:2-4", "2 Cr 32:30"],
-      "personajes_clave": ["ezequias"]
+      "referencias": [
+        "2 Cr 32:2-4",
+        "2 Cr 32:30"
+      ],
+      "personajes_clave": [
+        "ezequias"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +86,13 @@
       "rol": "Rey de Israel, ungido en Guijón",
       "periodo": "c. 970 a.C. (unción)",
       "descripcion": "Es ungido rey de Israel en el manantial de Guijón por orden de su padre David, en una ceremonia organizada con urgencia para frustrar el intento de usurpación de Adonías.",
-      "referencias": ["1 Re 1:32-40"],
-      "ruta": ["gihon", "jerusalen"]
+      "referencias": [
+        "1 Re 1:32-40"
+      ],
+      "ruta": [
+        "gihon",
+        "jerusalen"
+      ]
     },
     {
       "id": "natan_profeta_gihon",
@@ -78,8 +101,13 @@
       "rol": "Profeta de la corte davídica",
       "periodo": "Activo c. 1000–970 a.C.",
       "descripcion": "Junto con el sacerdote Sadoc, dirige la ceremonia de unción de Salomón en Guijón, asegurando la legitimidad religiosa de la sucesión frente a la maniobra de Adonías.",
-      "referencias": ["1 Re 1:32-45"],
-      "ruta": ["gihon", "jerusalen"]
+      "referencias": [
+        "1 Re 1:32-45"
+      ],
+      "ruta": [
+        "gihon",
+        "jerusalen"
+      ]
     },
     {
       "id": "ezequias_gihon",
@@ -88,8 +116,13 @@
       "rol": "Rey de Judá, constructor del túnel hidráulico",
       "periodo": "c. 715–686 a.C.",
       "descripcion": "Ordena tapar las salidas externas del manantial de Guijón y canalizar su agua hacia el interior de la ciudad mediante un túnel subterráneo, asegurando el abastecimiento durante el asedio asirio.",
-      "referencias": ["2 Cr 32:2-4", "2 Re 20:20"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Cr 32:2-4",
+        "2 Re 20:20"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +135,11 @@
       {
         "id": "uncion-real-gihon-mito",
         "nombre": "Guijón como lugar de la unción real legítima",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 1:32-40",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la unción real junto a una fuente de agua viva como símbolo de continuidad dinástica",
@@ -117,5 +154,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ],
+  "subtipo_geo": "Manantial"
 }

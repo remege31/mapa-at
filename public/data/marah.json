@@ -5,9 +5,13 @@
   "lat": 29.35,
   "lng": 32.933333,
   "frecuencia_at": 5,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "agua_menor",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Las aguas amargas endulzadas" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Las aguas amargas endulzadas"
+    }
   ],
   "descripcion_geo": "Lugar en el desierto de Sur, primer punto de acampada de Israel tras cruzar el Mar Rojo, cuyo nombre ('amargura') deriva directamente de la condición de sus aguas, no aptas inicialmente para el consumo humano.",
   "altitud_m": 10,
@@ -39,23 +43,33 @@
       "titulo": "El pueblo se queja por las aguas amargas de Mara",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras tres días de marcha por el desierto sin encontrar agua después del cruce del Mar Rojo, Israel llega a Mara, pero no puede beber sus aguas por ser amargas, lo que provoca la primera murmuración registrada del pueblo contra Moisés.",
-      "referencias": ["Éx 15:22-24"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 15:22-24"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "moises-endulza-aguas-marah",
       "titulo": "Moisés endulza las aguas con un árbol mostrado por YHWH",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Moisés clama a YHWH, quien le muestra un árbol que, al ser arrojado a las aguas, las transforma en potables, episodio inmediatamente seguido del establecimiento de una ordenanza y estatuto donde YHWH prueba la obediencia del pueblo y se revela como 'el que te sana'.",
-      "referencias": ["Éx 15:25-26"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 15:25-26"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "marah-primer-prueba-desierto",
       "titulo": "Mara como primera prueba del peregrinaje por el desierto",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "El episodio de Mara establece el patrón recurrente de todo el relato del peregrinaje: necesidad básica insatisfecha, queja del pueblo, intervención providencial de YHWH, y revelación progresiva del carácter divino, patrón que se repetirá con variaciones en Masá-Meribá, Refidim y otros episodios similares.",
-      "referencias": ["Éx 15:22-26"],
+      "referencias": [
+        "Éx 15:22-26"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,8 +81,13 @@
       "rol": "Líder de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Intercede ante YHWH por el pueblo sediento en Mara, recibiendo la revelación del árbol que transforma milagrosamente las aguas amargas en potables.",
-      "referencias": ["Éx 15:25"],
-      "ruta": ["mar_rojo", "marah"]
+      "referencias": [
+        "Éx 15:25"
+      ],
+      "ruta": [
+        "mar_rojo",
+        "marah"
+      ]
     },
     {
       "id": "pueblo_quejoso_marah",
@@ -77,8 +96,12 @@
       "rol": "Pueblo que inicia el patrón de murmuración en el desierto",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Protagoniza la primera queja registrada del peregrinaje por el desierto, estableciendo el patrón que se repetirá en numerosos episodios posteriores del Éxodo y Números.",
-      "referencias": ["Éx 15:24"],
-      "ruta": ["marah"]
+      "referencias": [
+        "Éx 15:24"
+      ],
+      "ruta": [
+        "marah"
+      ]
     },
     {
       "id": "yhwh_sanador_marah",
@@ -87,7 +110,9 @@
       "rol": "Proveedor y revelador de su carácter",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Se revela en Mara con el título 'el que te sana', estableciendo un nuevo aspecto de su carácter en relación directa con la provisión de agua transformada y la salud del pueblo.",
-      "referencias": ["Éx 15:26"],
+      "referencias": [
+        "Éx 15:26"
+      ],
       "ruta": []
     }
   ],
@@ -100,7 +125,11 @@
       {
         "id": "arbol-endulza-aguas-marah",
         "nombre": "El árbol que endulza las aguas amargas de Mara",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Éx 15:22-26",
           "fuente_secundaria": "Midrash y comentario rabínico tradicional sobre la identidad del árbol mostrado a Moisés, frecuentemente vinculado simbólicamente con la Torá misma como fuente que 'endulza' las amarguras de la vida",
@@ -123,5 +152,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ],
+  "subtipo_geo": "Manantial"
 }

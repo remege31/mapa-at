@@ -5,9 +5,13 @@
   "lat": 32.23293813761263,
   "lng": 35.27304180036391,
   "frecuencia_at": 8,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ceremonia de bendiciones y maldiciones" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ceremonia de bendiciones y maldiciones"
+    }
   ],
   "descripcion_geo": "Montaña en el centro de Canaán, frente al monte Gerizim, separados por el valle donde se asienta Siquem, escenario de la ceremonia ritual de bendiciones y maldiciones prescrita por Moisés para ser ejecutada inmediatamente después de la entrada de Israel a la tierra prometida.",
   "altitud_m": 940,
@@ -39,24 +43,36 @@
       "titulo": "Moisés instruye la ceremonia de Ebal y Gerizim",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Antes de su muerte, Moisés instruye detalladamente que, al cruzar el Jordán, Israel debe dividirse en dos grupos de seis tribus cada uno, situándose sobre el Gerizim para las bendiciones y sobre el Ebal para las maldiciones, especificando además la construcción de un altar de piedras sin labrar en este último monte.",
-      "referencias": ["Deut 27:1-13"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Deut 27:1-13"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "josue-construye-altar-ebal",
       "titulo": "Josué construye un altar en el monte Ebal",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Cumpliendo la instrucción mosaica, Josué construye un altar a YHWH en el monte Ebal con piedras enteras sobre las que no se había alzado herramienta de hierro, ofreciendo holocaustos y sacrificios de paz, y escribe allí una copia de la Ley de Moisés sobre las piedras.",
-      "referencias": ["Jos 8:30-32"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 8:30-32"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "lectura-publica-bendiciones-maldiciones-ebal",
       "titulo": "Lectura pública de toda la Ley entre Ebal y Gerizim",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Josué lee públicamente toda la Ley —bendiciones y maldiciones— ante toda la asamblea de Israel, incluyendo mujeres, niños y extranjeros residentes, situados entre ambos montes en cumplimiento exacto de las instrucciones dadas por Moisés generaciones antes.",
-      "referencias": ["Jos 8:33-35"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 8:33-35"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     }
   ],
   "personajes": [
@@ -67,7 +83,9 @@
       "rol": "Legislador, instructor de la ceremonia",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Establece detalladamente las instrucciones para la ceremonia de renovación de la alianza que se ejecutará en los montes Ebal y Gerizim inmediatamente después de la entrada a la tierra prometida.",
-      "referencias": ["Deut 27:1-26"],
+      "referencias": [
+        "Deut 27:1-26"
+      ],
       "ruta": []
     },
     {
@@ -77,8 +95,12 @@
       "rol": "Líder de Israel, ejecutor de la ceremonia",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Cumple exactamente las instrucciones mosaicas construyendo el altar, escribiendo la Ley sobre las piedras y dirigiendo la lectura pública de bendiciones y maldiciones ante toda la congregación de Israel.",
-      "referencias": ["Jos 8:30-35"],
-      "ruta": ["ebal_mount"]
+      "referencias": [
+        "Jos 8:30-35"
+      ],
+      "ruta": [
+        "ebal_mount"
+      ]
     },
     {
       "id": "levitas_ebal_personaje",
@@ -87,7 +109,9 @@
       "rol": "Ejecutores rituales de la ceremonia",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Portan el Arca de la Alianza y proclaman formalmente cada bendición y maldición específica ante toda la asamblea reunida entre los dos montes.",
-      "referencias": ["Deut 27:14-26"],
+      "referencias": [
+        "Deut 27:14-26"
+      ],
       "ruta": []
     }
   ],
@@ -100,7 +124,11 @@
       {
         "id": "altar-piedras-no-labradas-ebal",
         "nombre": "El altar de piedras sin labrar en el monte Ebal",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Deut 27:5-6; Jos 8:30-31",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el simbolismo de las piedras sin labrar como rechazo del orgullo humano en la construcción de altares dedicados a YHWH",
@@ -115,5 +143,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

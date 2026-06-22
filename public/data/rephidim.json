@@ -1,6 +1,6 @@
 {
   "id": "rephidim",
-  "nombre": "Refidim",
+  "nombre": "Refidim / Masá",
   "tipo": "territorio",
   "lat": 28.73106102564323,
   "lng": 33.84169995726504,
@@ -8,7 +8,11 @@
   "jerarquia_pin": "terciario",
   "nota_coordenadas": "Comparte coordenadas con Masá — son el mismo lugar geográfico bajo distintos nombres conmemorativos (Éx 17:1-7).",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Agua de la roca, victoria sobre Amalec" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Agua de la roca, victoria sobre Amalec"
+    }
   ],
   "descripcion_geo": "Campamento del éxodo en el desierto del Sinaí, escenario tanto de la falta de agua resuelta mediante el milagro de la roca de Horeb como, en el mismo lugar, de la primera batalla campal de Israel contra un enemigo externo: los amalecitas.",
   "altitud_m": 600,
@@ -40,24 +44,37 @@
       "titulo": "El agua brota de la roca de Horeb en Refidim",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Ante la falta de agua en Refidim, Moisés golpea la roca de Horeb por instrucción divina, de la que brota agua suficiente para todo el pueblo, episodio que da origen a los nombres conmemorativos Masá y Meribá para el lugar.",
-      "referencias": ["Éx 17:1-7"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 17:1-7"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "batalla-amalec-refidim",
       "titulo": "Israel derrota a Amalec en Refidim",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Amalec ataca a Israel en Refidim; Moisés ordena a Josué seleccionar hombres para combatir, mientras él mismo sube a una colina con Aarón y Hur, sosteniendo en alto la vara de Dios; mientras Moisés mantiene las manos alzadas, Israel prevalece, pero cuando las baja por cansancio, Amalec gana terreno, hasta que Aarón y Hur sostienen sus manos hasta la puesta del sol, asegurando la victoria definitiva.",
-      "referencias": ["Éx 17:8-13"],
-      "personajes_clave": ["moises", "josue"]
+      "referencias": [
+        "Éx 17:8-13"
+      ],
+      "personajes_clave": [
+        "moises",
+        "josue"
+      ]
     },
     {
       "id": "altar-yhwh-nisi-refidim",
       "titulo": "Moisés construye un altar llamado 'YHWH es mi estandarte'",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la victoria sobre Amalec, YHWH ordena escribir el evento como memorial e instruye que se declare guerra perpetua contra Amalec; Moisés edifica un altar que llama 'YHWH-nisi' ('YHWH es mi estandarte'), conmemorando la primera victoria militar de Israel como pueblo organizado.",
-      "referencias": ["Éx 17:14-16"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 17:14-16"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +85,12 @@
       "rol": "Líder de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Resuelve la crisis de agua y dirige simbólicamente la batalla contra Amalec desde la colina, sosteniendo en alto la vara de Dios como signo de la dependencia de la victoria respecto al poder divino más que a la fuerza militar humana.",
-      "referencias": ["Éx 17:1-16"],
-      "ruta": ["rephidim"]
+      "referencias": [
+        "Éx 17:1-16"
+      ],
+      "ruta": [
+        "rephidim"
+      ]
     },
     {
       "id": "josue_rephidim",
@@ -78,8 +99,13 @@
       "rol": "Comandante militar, futuro sucesor de Moisés",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Recibe su primera mención bíblica precisamente en Refidim, donde Moisés lo designa para seleccionar y comandar a los hombres de Israel en la batalla contra Amalec, primera aparición del futuro líder de la conquista de Canaán.",
-      "referencias": ["Éx 17:9-10", "Éx 17:13"],
-      "ruta": ["rephidim"]
+      "referencias": [
+        "Éx 17:9-10",
+        "Éx 17:13"
+      ],
+      "ruta": [
+        "rephidim"
+      ]
     },
     {
       "id": "aaron_hur_rephidim",
@@ -88,8 +114,12 @@
       "rol": "Sostenedores de las manos de Moisés",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Sostienen físicamente las manos cansadas de Moisés durante la prolongada batalla contra Amalec, asegurando que se mantengan alzadas hasta la victoria final al ponerse el sol, ejemplo de apoyo colaborativo decisivo en un momento crítico.",
-      "referencias": ["Éx 17:12"],
-      "ruta": ["rephidim"]
+      "referencias": [
+        "Éx 17:12"
+      ],
+      "ruta": [
+        "rephidim"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +132,11 @@
       {
         "id": "manos-alzadas-moises-amalec",
         "nombre": "Las manos alzadas de Moisés y la victoria sobre Amalec",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Éx 17:8-16",
           "fuente_secundaria": "Mishná, tratado Rosh Hashaná 3:8 (discusión sobre el significado de las manos alzadas de Moisés, aclarando que no era la posición física en sí la causa de la victoria sino la orientación del corazón del pueblo hacia el cielo)",
@@ -125,5 +159,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

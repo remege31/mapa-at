@@ -5,9 +5,13 @@
   "lat": 32.729350157734,
   "lng": 35.04978957235391,
   "frecuencia_at": 5,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "monte",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Confrontación de Elías con los profetas de Baal" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Confrontación de Elías con los profetas de Baal"
+    }
   ],
   "descripcion_geo": "Cordillera montañosa boscosa que se extiende hacia el Mediterráneo en el norte de Israel, conocida por su fertilidad y belleza paisajística citadas reiteradamente en la literatura poética bíblica, y escenario de una de las confrontaciones religiosas más dramáticas de todo el Antiguo Testamento.",
   "altitud_m": 530,
@@ -40,24 +44,36 @@
       "titulo": "Elías convoca a Israel y a los profetas de Baal al Carmelo",
       "fecha": "c. 860 a.C.",
       "descripcion": "Elías reta directamente al pueblo a decidirse entre YHWH y Baal, proponiendo una prueba pública en el monte Carmelo: cada bando preparará un sacrificio sin fuego, y el dios que responda enviando fuego del cielo será reconocido como el verdadero Dios.",
-      "referencias": ["1 Re 18:19-24"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 18:19-24"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     },
     {
       "id": "fracaso-profetas-baal-carmel",
       "titulo": "Los profetas de Baal claman en vano durante horas",
       "fecha": "c. 860 a.C.",
       "descripcion": "Desde la mañana hasta el mediodía, los profetas de Baal claman, danzan y se laceran ritualmente ante su altar sin obtener respuesta alguna, mientras Elías se burla irónicamente sugiriendo que tal vez su dios esté meditando, ocupado, de viaje, o dormido.",
-      "referencias": ["1 Re 18:25-29"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 18:25-29"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     },
     {
       "id": "fuego-yhwh-carmel",
       "titulo": "El fuego de YHWH consume el sacrificio de Elías",
       "fecha": "c. 860 a.C.",
       "descripcion": "Elías repara el altar derribado de YHWH, prepara el sacrificio, lo empapa deliberadamente de agua tres veces para descartar cualquier truco, y ora brevemente; el fuego de YHWH desciende inmediatamente y consume el holocausto, la leña, las piedras y hasta el agua del foso, provocando que todo el pueblo se postre exclamando '¡YHWH es el Dios! ¡YHWH es el Dios!', tras lo cual Elías ordena ejecutar a los profetas de Baal en el torrente de Cisón.",
-      "referencias": ["1 Re 18:30-40"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 18:30-40"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +84,14 @@
       "rol": "Profeta de Israel",
       "periodo": "Activo c. 870–850 a.C.",
       "descripcion": "Protagoniza en el Carmelo la confrontación religiosa más decisiva de todo su ministerio, demostrando públicamente mediante el fuego descendido del cielo la exclusividad de YHWH frente al culto institucionalizado a Baal.",
-      "referencias": ["1 Re 18:17-40"],
-      "ruta": ["querit", "sarepta", "carmel_mount"]
+      "referencias": [
+        "1 Re 18:17-40"
+      ],
+      "ruta": [
+        "querit",
+        "sarepta",
+        "carmel_mount"
+      ]
     },
     {
       "id": "acab_carmel",
@@ -78,8 +100,13 @@
       "rol": "Rey de Israel, testigo de la confrontación",
       "periodo": "c. 874–853 a.C.",
       "descripcion": "Presencia la confrontación entre Elías y los profetas de Baal, presionado por la sequía de tres años anunciada previamente por el propio profeta como castigo por la apostasía promovida por su esposa Jezabel.",
-      "referencias": ["1 Re 18:17-19", "1 Re 18:41-46"],
-      "ruta": ["carmel_mount"]
+      "referencias": [
+        "1 Re 18:17-19",
+        "1 Re 18:41-46"
+      ],
+      "ruta": [
+        "carmel_mount"
+      ]
     },
     {
       "id": "profetas_baal_carmel_personaje",
@@ -88,8 +115,13 @@
       "rol": "Sacerdotes derrotados y ejecutados",
       "periodo": "c. 860 a.C.",
       "descripcion": "Tras el fracaso público de su intercesión ante Baal y la manifestación inequívoca del poder de YHWH, son capturados y ejecutados por orden de Elías en el torrente de Cisón.",
-      "referencias": ["1 Re 18:40"],
-      "ruta": ["carmel_mount", "kishon"]
+      "referencias": [
+        "1 Re 18:40"
+      ],
+      "ruta": [
+        "carmel_mount",
+        "kishon"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +134,11 @@
       {
         "id": "fuego-celestial-carmel-mito",
         "nombre": "El fuego celestial del Carmelo como demostración del Dios verdadero",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 18:17-40",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la confrontación del Carmelo como momento culminante de la lucha de Elías contra la idolatría institucionalizada, y discusiones sobre la excepcionalidad del sacrificio ofrecido fuera de Jerusalén",
@@ -133,5 +169,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

@@ -13,6 +13,7 @@ import './App.css'
 
 const PERIODS = [
   { id: 'todos',         name: 'Todos los períodos',    range: '' },
+  { id: 'bronce_medio',  name: 'Edad de Bronce Media',  range: '2100–1550 a.C.' },
   { id: 'bronce_tardio', name: 'Edad de Bronce Tardía', range: '1500–1200 a.C.' },
   { id: 'hierro_1',      name: 'Edad de Hierro I',      range: '1200–1000 a.C.' },
   { id: 'hierro_2',      name: 'Edad de Hierro II',     range: '1000–586 a.C.'  },

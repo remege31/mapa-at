@@ -7,8 +7,16 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Victoria de Quedorlaomer" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Refugio de David, oasis del desierto de Judá" }
+    {
+      "desde": -2100,
+      "hasta": -1500,
+      "nombre": "Edad de Bronce Media — Victoria de Quedorlaomer"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Refugio de David, oasis del desierto de Judá"
+    }
   ],
   "descripcion_geo": "Oasis fértil en la costa occidental del Mar Salado, alimentado por manantiales de agua dulce que descienden de los acantilados del desierto de Judá, creando un contraste vívido entre la aridez circundante y la exuberante vegetación tropical del oasis mismo, incluyendo cuevas naturales en los riscos cercanos.",
   "altitud_m": -200,
@@ -41,7 +49,9 @@
       "titulo": "Quedorlaomer derrota a los amorreos en Hazezon-tamar",
       "fecha": "c. 2050 a.C. (narrativa, época de Abraham)",
       "descripcion": "En su campaña por la Transjordania y el sur de Canaán, la coalición de cuatro reyes orientales liderada por Quedorlaomer derrota a los amorreos de Hazezon-tamar, identificado por la tradición bíblica con Engadi, episodio previo a la captura de Lot en Sodoma.",
-      "referencias": ["Gén 14:7"],
+      "referencias": [
+        "Gén 14:7"
+      ],
       "personajes_clave": []
     },
     {
@@ -49,15 +59,22 @@
       "titulo": "David perdona a Saúl en una cueva de Engadi",
       "fecha": "c. 1014 a.C.",
       "descripcion": "Mientras Saúl persigue a David por los riscos de las cabras monteses cerca de Engadi, entra solo a descansar precisamente en la cueva más profunda donde David y sus hombres se escondían; David corta sigilosamente el borde del manto de Saúl pero rehúsa atentar contra su vida, mostrándole después la prueba de que pudo haberlo matado sin hacerlo.",
-      "referencias": ["1 Sam 24:1-22"],
-      "personajes_clave": ["david", "saul"]
+      "referencias": [
+        "1 Sam 24:1-22"
+      ],
+      "personajes_clave": [
+        "david",
+        "saul"
+      ]
     },
     {
       "id": "cantar-cantares-engadi",
       "titulo": "Engadi en el Cantar de los Cantares",
       "fecha": "Atribución salomónica tradicional",
       "descripcion": "La amada del Cantar de los Cantares compara a su amado con 'un racimo de flores de alheña en las viñas de Engadi', usando la fertilidad excepcional del oasis como metáfora de belleza y deseo en uno de los pasajes poéticos más célebres de la literatura sapiencial bíblica.",
-      "referencias": ["Cant 1:14"],
+      "referencias": [
+        "Cant 1:14"
+      ],
       "personajes_clave": []
     }
   ],
@@ -69,8 +86,13 @@
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
       "periodo": "c. 1014 a.C.",
       "descripcion": "Tiene en una cueva de Engadi la oportunidad más cercana de eliminar a Saúl durante toda su persecución, y en su lugar opta por un gesto simbólico de respeto que provoca un reconocimiento momentáneo de su rectitud por parte del propio rey.",
-      "referencias": ["1 Sam 24:1-22"],
-      "ruta": ["maon", "engedi"]
+      "referencias": [
+        "1 Sam 24:1-22"
+      ],
+      "ruta": [
+        "maon",
+        "engedi"
+      ]
     },
     {
       "id": "saul_engadi",
@@ -79,8 +101,12 @@
       "rol": "Primer rey de Israel, perseguidor de David",
       "periodo": "c. 1014 a.C.",
       "descripcion": "Entra desprevenido a la cueva donde David se esconde en Engadi; al descubrir después el gesto de clemencia de David, llora y reconoce públicamente que David es más justo que él y que reinará sobre Israel.",
-      "referencias": ["1 Sam 24:8-22"],
-      "ruta": ["engedi"]
+      "referencias": [
+        "1 Sam 24:8-22"
+      ],
+      "ruta": [
+        "engedi"
+      ]
     },
     {
       "id": "quedorlaomer_engadi",
@@ -89,8 +115,12 @@
       "rol": "Rey de Elam, líder de la coalición oriental",
       "periodo": "c. 2050 a.C. (narrativa)",
       "descripcion": "Derrota a los amorreos de Hazezon-tamar (Engadi) en su campaña militar previa a la captura de Lot, episodio temprano que documenta la antigüedad de la presencia humana organizada en la región.",
-      "referencias": ["Gén 14:7"],
-      "ruta": ["engedi"]
+      "referencias": [
+        "Gén 14:7"
+      ],
+      "ruta": [
+        "engedi"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +133,11 @@
       {
         "id": "clemencia-david-cueva-engadi",
         "nombre": "La clemencia de David en la cueva de Engadi",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 24:1-22",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el reconocimiento de Saúl ('tú eres más justo que yo') como momento de lucidez profética sobre el destino real de David",
@@ -126,5 +160,8 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio", "hierro_1"]
+  "periodos_at": [
+    "bronce_medio",
+    "hierro_1"
+  ]
 }

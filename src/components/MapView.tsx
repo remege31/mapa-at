@@ -184,6 +184,7 @@ function getTerritoryNameES(name: string): string {
 }
 
 const GEOJSON_BY_PERIOD: Record<string, string> = {
+  bronce_medio:  'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc2000.geojson',
   bronce_tardio: 'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1500.geojson',
   hierro_1:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
   hierro_2:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',

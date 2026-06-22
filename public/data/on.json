@@ -7,7 +7,11 @@
   "frecuencia_at": 11,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Edad de Bronce Tardía — Ciudad del suegro de José" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Ciudad del suegro de José"
+    }
   ],
   "descripcion_geo": "Antigua ciudad egipcia, conocida por los griegos como Heliópolis ('ciudad del sol'), centro religioso principal del culto solar egipcio dedicado a Ra, situada cerca del delta del Nilo, célebre por su templo y su clase sacerdotal de alto estatus social.",
   "altitud_m": 30,
@@ -40,24 +44,36 @@
       "titulo": "Faraón da a José por esposa a Asenat de On",
       "fecha": "c. 1885 a.C. (cronología tradicional)",
       "descripcion": "Tras interpretar exitosamente los sueños del faraón y ser elevado a segundo gobernante de Egipto, José recibe por esposa a Asenat, hija de Potifera, sacerdote de On, matrimonio que integra formalmente a José en la elite social y religiosa egipcia.",
-      "referencias": ["Gén 41:45"],
-      "personajes_clave": ["jose"]
+      "referencias": [
+        "Gén 41:45"
+      ],
+      "personajes_clave": [
+        "jose"
+      ]
     },
     {
       "id": "nacimiento-manases-efrain-on",
       "titulo": "Nacen Manasés y Efraín, hijos de José y Asenat",
       "fecha": "c. 1884–1880 a.C. (cronología tradicional)",
       "descripcion": "Antes de que llegaran los años de hambre, Asenat da a luz a Manasés y Efraín, cuyos nombres José elige en hebreo para conmemorar su olvido de los trabajos pasados y su fecundidad en la tierra de su aflicción, hijos que después se convertirán en cabezas de dos tribus de Israel.",
-      "referencias": ["Gén 41:50-52"],
-      "personajes_clave": ["jose"]
+      "referencias": [
+        "Gén 41:50-52"
+      ],
+      "personajes_clave": [
+        "jose"
+      ]
     },
     {
       "id": "ezequiel-mencion-on",
       "titulo": "Ezequiel menciona el juicio sobre On en su oráculo contra Egipto",
       "fecha": "c. 587 a.C.",
       "descripcion": "El profeta Ezequiel incluye a On entre las ciudades egipcias que sufrirán el juicio divino en su extenso oráculo contra Egipto, anunciando la destrucción de los ídolos y la cesación de las imágenes en este antiguo centro de culto solar.",
-      "referencias": ["Ez 30:17"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 30:17"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +84,13 @@
       "rol": "Gobernador de Egipto, hijo de Jacob",
       "periodo": "c. 1885–1805 a.C. (cronología tradicional)",
       "descripcion": "Se integra a través de su matrimonio con Asenat de On en la elite religiosa egipcia, vínculo que da origen a las tribus de Efraín y Manasés.",
-      "referencias": ["Gén 41:45-52"],
-      "ruta": ["egipto", "on"]
+      "referencias": [
+        "Gén 41:45-52"
+      ],
+      "ruta": [
+        "egipto",
+        "on"
+      ]
     },
     {
       "id": "potifera_on",
@@ -78,8 +99,13 @@
       "rol": "Sacerdote de On, suegro de José",
       "periodo": "c. 1885 a.C. (cronología tradicional)",
       "descripcion": "Sacerdote principal del culto solar de On cuya hija Asenat se convierte en esposa de José por designación directa del faraón.",
-      "referencias": ["Gén 41:45", "Gén 41:50"],
-      "ruta": ["on"]
+      "referencias": [
+        "Gén 41:45",
+        "Gén 41:50"
+      ],
+      "ruta": [
+        "on"
+      ]
     },
     {
       "id": "asenat_on",
@@ -88,8 +114,13 @@
       "rol": "Esposa egipcia de José, madre de Efraín y Manasés",
       "periodo": "c. 1885–1880 a.C. (cronología tradicional)",
       "descripcion": "Hija del sacerdote Potifera de On, se convierte en esposa de José y madre de los antepasados epónimos de dos importantes tribus de Israel.",
-      "referencias": ["Gén 41:45", "Gén 41:50-52"],
-      "ruta": ["on"]
+      "referencias": [
+        "Gén 41:45",
+        "Gén 41:50-52"
+      ],
+      "ruta": [
+        "on"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +133,11 @@
       {
         "id": "integracion-jose-elite-egipcia-on",
         "nombre": "La integración de José en la elite religiosa egipcia de On",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Gén 41:45-52",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la providencia divina manifestada en el matrimonio de José con Asenat, incluyendo tradiciones midráshicas posteriores que elaboran sobre la conversión espiritual de Asenat",
@@ -117,5 +152,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

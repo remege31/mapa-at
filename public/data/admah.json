@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Una de las Ciudades de la Llanura destruidas" }
+    {
+      "desde": -2100,
+      "hasta": -1500,
+      "nombre": "Edad de Bronce Media — Una de las Ciudades de la Llanura destruidas"
+    }
   ],
   "descripcion_geo": "Una de las cinco 'Ciudades de la Llanura' (junto con Sodoma, Gomorra, Zeboim y Zoar) situadas en la región del valle del Jordán meridional o en la cuenca del Mar Salado, destruidas junto con Sodoma y Gomorra según el relato del Génesis.",
   "altitud_m": -350,
@@ -38,7 +42,10 @@
       "titulo": "Sinab, rey de Adma, en la guerra de los cinco reyes",
       "fecha": "c. 2050 a.C. (narrativa, época de Abraham)",
       "descripcion": "Sinab, rey de Adma, forma parte de la coalición de cinco reyes de las Ciudades de la Llanura que se rebela contra Quedorlaomer y es derrotada en el valle de Sidim, episodio que precede a la captura de Lot, residente en Sodoma.",
-      "referencias": ["Gén 14:2", "Gén 14:8-11"],
+      "referencias": [
+        "Gén 14:2",
+        "Gén 14:8-11"
+      ],
       "personajes_clave": []
     },
     {
@@ -46,7 +53,9 @@
       "titulo": "Adma destruida junto con Sodoma y Gomorra",
       "fecha": "c. 2067 a.C. (narrativa)",
       "descripcion": "Adma es mencionada junto con Sodoma, Gomorra y Zeboim como ciudades destruidas por el fuego y azufre divino, en contraste con Zoar, que es perdonada a petición de Lot para servir de refugio inmediato.",
-      "referencias": ["Deut 29:23"],
+      "referencias": [
+        "Deut 29:23"
+      ],
       "personajes_clave": []
     },
     {
@@ -54,7 +63,9 @@
       "titulo": "Oseas invoca el recuerdo de Adma como advertencia y promesa",
       "fecha": "c. 750 a.C.",
       "descripcion": "El profeta Oseas utiliza el recuerdo de la destrucción de Adma y Zeboim en un oráculo donde YHWH expresa su compasión hacia Israel, prometiendo que su corazón se conmueve y no tratará a Efraín como trató a esas ciudades, pese a la justicia que tal castigo merecería.",
-      "referencias": ["Os 11:8"],
+      "referencias": [
+        "Os 11:8"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,8 +77,12 @@
       "rol": "Rey de Adma, miembro de la coalición de las Ciudades de la Llanura",
       "periodo": "c. 2050 a.C. (narrativa)",
       "descripcion": "Gobernante de Adma derrotado junto a sus aliados por Quedorlaomer, episodio que antecede a la destrucción definitiva de su ciudad junto con Sodoma y Gomorra.",
-      "referencias": ["Gén 14:2-11"],
-      "ruta": ["admah"]
+      "referencias": [
+        "Gén 14:2-11"
+      ],
+      "ruta": [
+        "admah"
+      ]
     },
     {
       "id": "lot_admah_contexto",
@@ -76,7 +91,9 @@
       "rol": "Residente de la región de las Ciudades de la Llanura",
       "periodo": "c. 2067 a.C. (narrativa)",
       "descripcion": "Aunque reside específicamente en Sodoma, su elección de establecerse en la fértil llanura del Jordán lo vincula directamente con la suerte de las ciudades vecinas, incluida Adma, en el momento de la destrucción.",
-      "referencias": ["Gén 13:10-12"],
+      "referencias": [
+        "Gén 13:10-12"
+      ],
       "ruta": []
     },
     {
@@ -86,7 +103,9 @@
       "rol": "Profeta del reino del norte",
       "periodo": "Activo c. 750–722 a.C.",
       "descripcion": "Invoca el recuerdo de Adma como contraste compasivo: a diferencia de esa ciudad irrevocablemente destruida, YHWH expresa su deseo de no tratar a Israel de la misma manera definitiva pese a su infidelidad.",
-      "referencias": ["Os 11:8"],
+      "referencias": [
+        "Os 11:8"
+      ],
       "ruta": []
     }
   ],
@@ -99,7 +118,11 @@
       {
         "id": "adma-zeboim-referencia-comparativa",
         "nombre": "Adma y Zeboim como referencia comparativa del juicio divino",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Deut 29:23; Os 11:8",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el uso de Adma y Zeboim como medida estándar de comparación para el juicio divino más severo en oráculos posteriores",
@@ -114,5 +137,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Residencia patriarcal de Abraham" }
+    {
+      "desde": -2100,
+      "hasta": -1500,
+      "nombre": "Edad de Bronce Media — Residencia patriarcal de Abraham"
+    }
   ],
   "descripcion_geo": "Arboleda de encinas o terebintos cerca de Hebrón, en las colinas de Judá, identificada tradicionalmente con un robledal sagrado que sirvió de residencia prolongada a Abraham. Asociada también al campo y la cueva de Macpela, comprados por Abraham como sepultura familiar.",
   "altitud_m": 930,
@@ -40,24 +44,38 @@
       "titulo": "Abraham se establece en los encinares de Mamre",
       "fecha": "c. 2090 a.C.",
       "descripcion": "Tras separarse de Lot, Abraham se traslada y se establece junto a los encinares de Mamre, cerca de Hebrón, donde edifica un altar a YHWH, convirtiendo el lugar en una de sus residencias más estables y prolongadas en Canaán.",
-      "referencias": ["Gén 13:18"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 13:18"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "tres-visitantes-mamre",
       "titulo": "Los tres visitantes y el anuncio del nacimiento de Isaac",
       "fecha": "c. 2067 a.C.",
       "descripcion": "YHWH se aparece a Abraham en Mamre en forma de tres visitantes a quienes Abraham y Sara reciben con hospitalidad; durante la visita se anuncia el nacimiento de Isaac, ante lo cual Sara, ya anciana, ríe con incredulidad, y se revela también el juicio inminente sobre Sodoma y Gomorra.",
-      "referencias": ["Gén 18:1-15", "Gén 18:16-33"],
-      "personajes_clave": ["abraham", "sara"]
+      "referencias": [
+        "Gén 18:1-15",
+        "Gén 18:16-33"
+      ],
+      "personajes_clave": [
+        "abraham",
+        "sara"
+      ]
     },
     {
       "id": "compra-macpela-mamre",
       "titulo": "Abraham compra el campo y la cueva de Macpela",
       "fecha": "c. 2050 a.C.",
       "descripcion": "Tras la muerte de Sara, Abraham negocia formalmente con Efrón el heteo la compra del campo de Macpela, frente a Mamre, incluyendo la cueva, los árboles y los linderos del terreno, como sepultura familiar permanente, en la primera adquisición legal de tierra registrada en el ciclo patriarcal.",
-      "referencias": ["Gén 23:1-20"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 23:1-20"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +86,17 @@
       "rol": "Patriarca, padre de la fe israelita",
       "periodo": "c. 2166–1991 a.C. (cronología tradicional)",
       "descripcion": "Establece en Mamre una de sus residencias más prolongadas, edifica allí un altar a YHWH, recibe la visita de los tres mensajeros divinos y negocia la compra del campo de Macpela como sepultura familiar.",
-      "referencias": ["Gén 13:18", "Gén 18:1-33", "Gén 23:1-20"],
-      "ruta": ["siquem", "bet_el", "mamre", "egipto"]
+      "referencias": [
+        "Gén 13:18",
+        "Gén 18:1-33",
+        "Gén 23:1-20"
+      ],
+      "ruta": [
+        "siquem",
+        "bet_el",
+        "mamre",
+        "egipto"
+      ]
     },
     {
       "id": "sara_mamre",
@@ -78,8 +105,12 @@
       "rol": "Esposa de Abraham, matriarca",
       "periodo": "c. 2156–2029 a.C. (cronología tradicional)",
       "descripcion": "Presente en la tienda durante la visita de los tres mensajeros en Mamre, ríe internamente al escuchar el anuncio de que tendrá un hijo en su vejez, episodio que da origen al nombre de Isaac ('él ríe').",
-      "referencias": ["Gén 18:9-15"],
-      "ruta": ["mamre"]
+      "referencias": [
+        "Gén 18:9-15"
+      ],
+      "ruta": [
+        "mamre"
+      ]
     },
     {
       "id": "efron_heteo",
@@ -88,8 +119,12 @@
       "rol": "Propietario local que vende el campo de Macpela",
       "periodo": "c. 2050 a.C.",
       "descripcion": "Negocia ante los hijos de Het la venta del campo y la cueva de Macpela a Abraham, en una transacción descrita con minuciosidad legal que confirma la legitimidad de la posesión patriarcal de la primera porción de tierra en Canaán.",
-      "referencias": ["Gén 23:3-18"],
-      "ruta": ["mamre"]
+      "referencias": [
+        "Gén 23:3-18"
+      ],
+      "ruta": [
+        "mamre"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +137,11 @@
       {
         "id": "tres-visitantes-mamre-mito",
         "nombre": "Los tres visitantes de Mamre",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 18:1-15",
           "fuente_secundaria": "Midrash Bereshit Rabbah 48-50 (sobre la identidad de los tres visitantes como ángeles con misiones específicas)",
@@ -133,5 +172,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

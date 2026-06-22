@@ -8,11 +8,28 @@
   "frecuencia_at": 36,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -2000, "hasta": -1500, "nombre": "Bronce Medio-Tardío — Era patriarcal" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Tribu de Simeón y Judá" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza del reino de Judá" }
+    {
+      "desde": -2000,
+      "hasta": -1500,
+      "nombre": "Bronce Medio-Tardío — Era patriarcal"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Tribu de Simeón y Judá"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad fronteriza del reino de Judá"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_medio",
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Beersheba (hebreo: בְּאֵר שֶׁבַע, 'pozo del juramento' o 'pozo de los siete') es la ciudad más meridional del territorio bíblico de Israel, en el extremo norte del Neguev. Situada en la confluencia del nahal Beersheba y el nahal Hebron, controla la única ruta viable hacia el Sinaí y Arabia por el interior. La expresión 'desde Dan hasta Beersheba' (Jue 20:1; 1 Sam 3:20) era el equivalente bíblico de 'de norte a sur' — los extremos del territorio israelita. El tell arqueológico (Tel Be'er Sheva) es Patrimonio de la Humanidad UNESCO y reveló una ciudad con sistema de agua subterráneo, graneros reales y puerta de seis cámaras del período del Hierro II.",
   "altitud_m": 280,
   "clima": "Semiárido de transición — precipitaciones de apenas 200 mm anuales, concentradas en invierno. Veranos muy calurosos (hasta 40°C), inviernos frescos con noches frías. La supervivencia depende de pozos y cisternas. El ecosistema de estepa seca da paso al desierto del Neguev pocos kilómetros al sur.",
@@ -46,24 +63,42 @@
       "titulo": "El pacto del pozo: Abraham y Abimelec en Beersheba",
       "fecha": "c. 1900 a.C. (tradición patriarcal)",
       "descripcion": "Abraham y Abimelec, rey de Gerar, llegaron a un acuerdo sobre un pozo de agua que los siervos de Abimelec habían usurpado. Abraham separó siete corderas como testimonio de que él había cavado el pozo. El acuerdo recibió el nombre de Beersheba: 'pozo del juramento' (shevuá) o 'pozo de las siete' (sheva). Abraham plantó allí un tamarisco y proclamó el nombre de Yahvé 'El eterno'. El relato establece el doble significado del topónimo y presenta la ciudad como lugar donde el pacto entre pueblo elegido y pueblos vecinos tiene su fundamento en la fidelidad al único Dios. Una versión paralela sitúa el mismo pacto con Isaac (Gén 26:26-33).",
-      "referencias": ["Gén 21:25-33", "Gén 26:26-33", "Gén 21:14-21"],
-      "personajes_clave": ["abraham", "isaac"]
+      "referencias": [
+        "Gén 21:25-33",
+        "Gén 26:26-33",
+        "Gén 21:14-21"
+      ],
+      "personajes_clave": [
+        "abraham",
+        "isaac"
+      ]
     },
     {
       "id": "vision-isaac-beersheba",
       "titulo": "La visión de Isaac y el altar de Beersheba",
       "fecha": "c. 1800 a.C. (tradición patriarcal)",
       "descripcion": "Cuando Isaac estaba en Beersheba, Yahvé se le apareció en la noche y le confirmó la promesa patriarcal: 'Yo soy el Dios de tu padre Abraham. No temas, porque yo estoy contigo y te bendeciré.' Isaac construyó un altar, invocó el nombre de Yahvé y plantó su tienda allí. El pozo que sus siervos cavaron produjo agua en abundancia. Beersheba quedó así sancionada como lugar teofánico —sitio donde Dios se manifiesta— y como santuario legítimo de la tradición patriarcal, incluso cuando los profetas posteriores criticarían la peregrinación a ella (Am 5:5; 8:14) por el sincretismo que se había instalado.",
-      "referencias": ["Gén 26:23-25", "Am 5:5", "Am 8:14"],
-      "personajes_clave": ["isaac"]
+      "referencias": [
+        "Gén 26:23-25",
+        "Am 5:5",
+        "Am 8:14"
+      ],
+      "personajes_clave": [
+        "isaac"
+      ]
     },
     {
       "id": "elias-beersheba",
       "titulo": "Elías en Beersheba: el profeta al límite",
       "fecha": "c. 850 a.C.",
       "descripcion": "Tras su victoria sobre los profetas de Baal en el monte Carmelo, Elías huyó hacia el sur ante la amenaza de muerte de Jezabel. Llegó a Beersheba —el límite sur de Israel— y dejó allí a su criado. Luego se internó un día de camino en el desierto, se sentó bajo una retama y pidió la muerte: 'Basta ya, Yahvé; toma mi vida.' Agotado y desesperado, se quedó dormido. Un ángel lo despertó dos veces con pan cocido sobre piedras calientes y un jarro de agua: 'Levántate y come, que el camino es demasiado largo para ti.' Fortalecido por aquella comida, Elías caminó cuarenta días y cuarenta noches hasta el Horeb, el monte de Dios, repitiendo el itinerario del Éxodo en sentido inverso. Beersheba marca el punto de quiebre y el inicio de la renovación profética.",
-      "referencias": ["1 Re 19:1-8", "1 Re 19:9-18"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 19:1-8",
+        "1 Re 19:9-18"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     }
   ],
   "personajes": [
@@ -74,8 +109,18 @@
       "rol": "Patriarca fundador, padre de las tres tradiciones monoteístas",
       "periodo": "c. 2000–1825 a.C. (tradición patriarcal)",
       "descripcion": "Abraham (originalmente Abram de Ur de los caldeos) es el padre fundador del monoteísmo bíblico. Su llegada a Beersheba para pactar con Abimelec y plantar el tamarisco en nombre de 'El Eterno' fija esta ciudad en la memoria patriarcal como lugar de alianza y culto. En Beersheba también transcurre el episodio del destierro de Agar e Ismael al desierto (Gén 21:14), que para la tradición islámica es el fundamento de La Meca. La figura de Abraham es única en la historia de las religiones por ser simultáneamente padre fundador del judaísmo, prefiguración cristiana de la fe, y primer profeta (hanif) del Islam.",
-      "referencias": ["Gén 21:14-33", "Gén 12:1-9", "Gén 22:1-19"],
-      "ruta": ["mesopotamia", "canaan", "egipto", "beersheba", "hebron"]
+      "referencias": [
+        "Gén 21:14-33",
+        "Gén 12:1-9",
+        "Gén 22:1-19"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "canaan",
+        "egipto",
+        "beersheba",
+        "hebron"
+      ]
     },
     {
       "id": "isaac",
@@ -84,8 +129,15 @@
       "rol": "Segundo patriarca, hijo del pacto y del milagro",
       "periodo": "c. 1900–1700 a.C. (tradición patriarcal)",
       "descripcion": "Isaac es el patriarca cuya vida está más enteramente definida por Beersheba. Nacido del milagro (padre centenario, madre nonagenaria), casi sacrificado en el monte Moria, su vida adulta transcurrió principalmente en el Neguev entre Gerar y Beersheba. Renovó el pacto de su padre con los filisteos, cavó de nuevo los pozos que Abraham había abierto, recibió la visión divina de confirmación y murió en Hebrón. Su figura, menos dinámica que la de Abraham o Jacob, representa la continuidad fiel de la promesa en la tierra misma, sin grandes desplazamientos.",
-      "referencias": ["Gén 26:1-33", "Gén 22:1-19", "Gén 35:27-29"],
-      "ruta": ["beersheba", "hebron"]
+      "referencias": [
+        "Gén 26:1-33",
+        "Gén 22:1-19",
+        "Gén 35:27-29"
+      ],
+      "ruta": [
+        "beersheba",
+        "hebron"
+      ]
     },
     {
       "id": "elias",
@@ -94,8 +146,15 @@
       "rol": "Profeta del fuego, defensor del yahvismo contra el baalismo",
       "periodo": "c. 875–850 a.C.",
       "descripcion": "Elías el Tisbita es la figura profética más dramática del período de la monarquía dividida. Su ministerio se desarrolló en el reino del norte bajo los reinados de Ajab y Ocozías, en permanente conflicto con el culto a Baal fomentado por la reina Jezabel. El episodio de Beersheba —donde llega al límite humano de su resistencia— es el punto de inflexión de su ministerio: de allí parte al Horeb para recibir la llamada a ungir a Hazael, Jehú y Eliseo, sus sucesores. Elías es el único personaje del AT (junto a Moisés) que aparece con Jesús en la Transfiguración (Mt 17:3).",
-      "referencias": ["1 Re 17:1", "1 Re 18:20-40", "1 Re 19:1-21"],
-      "ruta": ["carmel", "beersheba"]
+      "referencias": [
+        "1 Re 17:1",
+        "1 Re 18:20-40",
+        "1 Re 19:1-21"
+      ],
+      "ruta": [
+        "carmel",
+        "beersheba"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -109,7 +168,11 @@
       {
         "id": "agar-ismael-beersheba",
         "nombre": "Agar e Ismael en el desierto de Beersheba",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 21:8-21",
           "fuente_secundaria": "Midrash Rabbah, Génesis 53:13-15",

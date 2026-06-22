@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Edad de Bronce Tardía — Residencia patriarcal de Abraham e Isaac" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Residencia patriarcal de Abraham e Isaac"
+    }
   ],
   "descripcion_geo": "Ciudad-estado filistea en el extremo sur de la llanura costera, frontera entre Canaán y Egipto, gobernada en tiempos patriarcales por un rey de título 'Abimélec'. Escenario de dos episodios casi paralelos en los ciclos de Abraham e Isaac respectivamente.",
   "altitud_m": 100,
@@ -40,24 +44,36 @@
       "titulo": "Abraham presenta a Sara como su hermana ante Abimélec",
       "fecha": "c. 2050 a.C. (narrativa)",
       "descripcion": "Al residir temporalmente en Gerar, Abraham, temiendo ser asesinado por causa de la belleza de Sara, la presenta como su hermana; Abimélec la toma para sí, pero Dios le advierte en sueños de la verdad, y el rey, tras reprochar a Abraham, le devuelve a Sara junto con regalos y le permite establecerse en su tierra.",
-      "referencias": ["Gén 20:1-18"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 20:1-18"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "isaac-rebeca-abimelec-gerar",
       "titulo": "Isaac repite el patrón con Rebeca en Gerar",
       "fecha": "c. 1900 a.C. (narrativa)",
       "descripcion": "Generaciones después, Isaac se establece en Gerar durante una hambruna y presenta también a Rebeca como su hermana; Abimélec descubre la verdad al observarlos y reprende a Isaac, pero ordena a su pueblo no tocarlos bajo pena de muerte, repitiendo casi exactamente el patrón narrativo del episodio de Abraham.",
-      "referencias": ["Gén 26:1-11"],
-      "personajes_clave": ["isaac"]
+      "referencias": [
+        "Gén 26:1-11"
+      ],
+      "personajes_clave": [
+        "isaac"
+      ]
     },
     {
       "id": "pacto-pozos-beerseba-gerar",
       "titulo": "Conflicto y pacto por los pozos entre Isaac y Gerar",
       "fecha": "c. 1900 a.C. (narrativa)",
       "descripcion": "Los pastores de Gerar disputan repetidamente con los de Isaac por los pozos que este reabre y excava, hasta que finalmente, en Beerseba, Abimélec busca a Isaac para establecer un pacto formal de paz, reconociendo que YHWH está con él, en un episodio que cierra el ciclo de tensión con un acuerdo estable.",
-      "referencias": ["Gén 26:12-33"],
-      "personajes_clave": ["isaac"]
+      "referencias": [
+        "Gén 26:12-33"
+      ],
+      "personajes_clave": [
+        "isaac"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +84,13 @@
       "rol": "Patriarca",
       "periodo": "c. 2050 a.C. (narrativa)",
       "descripcion": "Reside temporalmente en Gerar, donde presenta a Sara como su hermana por temor, episodio que se resuelve con la intervención divina y un pacto de convivencia pacífica con Abimélec.",
-      "referencias": ["Gén 20:1-18"],
-      "ruta": ["mamre", "gerar"]
+      "referencias": [
+        "Gén 20:1-18"
+      ],
+      "ruta": [
+        "mamre",
+        "gerar"
+      ]
     },
     {
       "id": "isaac_gerar",
@@ -78,8 +99,13 @@
       "rol": "Patriarca, hijo de Abraham",
       "periodo": "c. 1900 a.C. (narrativa)",
       "descripcion": "Repite en Gerar el patrón de su padre con Rebeca, y protagoniza además el extenso ciclo de disputa y pacto por los pozos de agua que culmina en un acuerdo formal de paz con Abimélec en Beerseba.",
-      "referencias": ["Gén 26:1-33"],
-      "ruta": ["gerar", "beersheba"]
+      "referencias": [
+        "Gén 26:1-33"
+      ],
+      "ruta": [
+        "gerar",
+        "beersheba"
+      ]
     },
     {
       "id": "abimelec_gerar",
@@ -88,8 +114,13 @@
       "rol": "Rey filisteo de Gerar",
       "periodo": "c. 2050–1900 a.C. (cronología tradicional, posiblemente título dinástico)",
       "descripcion": "Protagonista de los pactos formales con ambos patriarcas, presentado en ambos episodios como figura íntegra que actúa correctamente al descubrir la verdad sobre las esposas presentadas como hermanas, y que busca activamente la paz duradera con los descendientes de Abraham.",
-      "referencias": ["Gén 20:1-18", "Gén 26:1-33"],
-      "ruta": ["gerar"]
+      "referencias": [
+        "Gén 20:1-18",
+        "Gén 26:1-33"
+      ],
+      "ruta": [
+        "gerar"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +133,11 @@
       {
         "id": "esposa-hermana-gerar-mito",
         "nombre": "El patrón narrativo de la esposa presentada como hermana",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Gén 20:1-18; Gén 26:1-11",
           "fuente_secundaria": "Midrash Bereshit Rabbah 52, 64 (comparación entre los episodios de Abraham/Sara y Egipto, y de Isaac/Rebeca en Gerar)",
@@ -125,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

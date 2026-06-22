@@ -7,7 +7,11 @@
   "frecuencia_at": 13,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Ciudad perdonada en la destrucción de Sodoma" }
+    {
+      "desde": -2100,
+      "hasta": -1500,
+      "nombre": "Edad de Bronce Media — Ciudad perdonada en la destrucción de Sodoma"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo sur del Mar Salado, originalmente llamada Bela, una de las cinco Ciudades de la Llanura pero la única que escapa a la destrucción de Sodoma y Gomorra a petición explícita de Lot, quien la encuentra demasiado pequeña ('zoar' significa 'pequeñez') para merecer destrucción junto a las demás.",
   "altitud_m": -400,
@@ -39,24 +43,38 @@
       "titulo": "Lot intercede por Zoar como refugio",
       "fecha": "c. 2067 a.C. (narrativa)",
       "descripcion": "Al ser instado por los ángeles a huir a las montañas antes de la destrucción de Sodoma, Lot pide en cambio refugiarse en la cercana y pequeña ciudad de Bela, alegando no poder llegar a tiempo a las montañas; el ángel accede a su petición y perdona la ciudad por amor a Lot, cambiándole el nombre a Zoar ('pequeñez').",
-      "referencias": ["Gén 19:18-22"],
-      "personajes_clave": ["lot"]
+      "referencias": [
+        "Gén 19:18-22"
+      ],
+      "personajes_clave": [
+        "lot"
+      ]
     },
     {
       "id": "moises-vision-zoar",
       "titulo": "Zoar como límite sur de la visión de Moisés",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "En la descripción de la visión panorámica que Moisés contempla desde la cumbre de Pisgá, Zoar marca el límite meridional de la tierra prometida que se le muestra, abarcando así toda la extensión desde Galaad hasta el extremo sur.",
-      "referencias": ["Deut 34:3"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Deut 34:3"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "isaias-jeremias-huida-zoar",
       "titulo": "Zoar como destino de huida en los oráculos contra Moab",
       "fecha": "c. 740–600 a.C.",
       "descripcion": "Tanto Isaías como Jeremías mencionan a Zoar como destino de huida de los fugitivos moabitas que escapan del juicio anunciado contra su reino, retomando irónicamente la función histórica de la ciudad como lugar de refugio establecida ya en el relato de Lot.",
-      "referencias": ["Is 15:5", "Jer 48:34"],
-      "personajes_clave": ["isaias", "jeremias"]
+      "referencias": [
+        "Is 15:5",
+        "Jer 48:34"
+      ],
+      "personajes_clave": [
+        "isaias",
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -67,8 +85,13 @@
       "rol": "Sobrino de Abraham, intercesor por Zoar",
       "periodo": "c. 2067 a.C. (narrativa)",
       "descripcion": "Pide y obtiene la preservación de Zoar como refugio inmediato durante su huida de Sodoma, único caso en el relato de la destrucción donde la intercesión humana logra salvar explícitamente una ciudad entera del juicio anunciado.",
-      "referencias": ["Gén 19:18-23"],
-      "ruta": ["sodoma", "zoar"]
+      "referencias": [
+        "Gén 19:18-23"
+      ],
+      "ruta": [
+        "sodoma",
+        "zoar"
+      ]
     },
     {
       "id": "moises_zoar",
@@ -77,8 +100,12 @@
       "rol": "Legislador, visionario de la tierra prometida",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Contempla Zoar como límite sur de la extensa visión panorámica de la tierra prometida que recibe desde la cumbre de Pisgá poco antes de su muerte.",
-      "referencias": ["Deut 34:1-4"],
-      "ruta": ["pisgah"]
+      "referencias": [
+        "Deut 34:1-4"
+      ],
+      "ruta": [
+        "pisgah"
+      ]
     },
     {
       "id": "isaias_jeremias_zoar",
@@ -87,8 +114,13 @@
       "rol": "Profetas de Judá",
       "periodo": "c. 740–600 a.C.",
       "descripcion": "Mencionan a Zoar como destino de huida de los fugitivos moabitas en sus respectivos oráculos de juicio, dando a la antigua ciudad refugio de Lot una nueva función narrativa siglos después.",
-      "referencias": ["Is 15:5", "Jer 48:34"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 15:5",
+        "Jer 48:34"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +133,11 @@
       {
         "id": "zoar-unica-ciudad-perdonada",
         "nombre": "Zoar, la única Ciudad de la Llanura perdonada",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 19:18-23",
           "fuente_secundaria": "Midrash Bereshit Rabbah 50 (sobre el mérito de la intercesión de Lot por Zoar)",
@@ -132,5 +168,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

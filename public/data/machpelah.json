@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Edad de Bronce Tardía — Sepultura patriarcal continuada" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Sepultura patriarcal continuada"
+    }
   ],
   "descripcion_geo": "Cueva doble ('macpela' significa 'doble' o 'duplicada') situada en un campo frente a Mamre, cerca de Hebrón, comprada por Abraham a Efrón el heteo como sepultura familiar. Se convirtió en panteón funerario de tres generaciones de patriarcas y matriarcas de Israel.",
   "altitud_m": 930,
@@ -39,23 +43,35 @@
       "titulo": "Sepultura de Sara en Macpela",
       "fecha": "c. 2029 a.C.",
       "descripcion": "Tras la muerte de Sara en Hebrón, Abraham compra formalmente el campo y la cueva de Macpela a Efrón el heteo y la sepulta allí, marcando el primer enterramiento patriarcal en la tierra prometida y la primera posesión legal de tierra por parte de Abraham en Canaán.",
-      "referencias": ["Gén 23:1-20"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 23:1-20"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "sepultura-abraham-isaac-macpela",
       "titulo": "Sepultura de Abraham, Isaac, Rebeca, Lea y Jacob",
       "fecha": "c. 1991–1859 a.C. (Abraham e Isaac, cronología tradicional)",
       "descripcion": "Tras Sara, son sepultados sucesivamente en Macpela Abraham (por Isaac e Ismael), después Isaac y Rebeca, y finalmente Lea, convirtiendo la cueva en el panteón funerario común de las tres generaciones patriarcales fundacionales.",
-      "referencias": ["Gén 25:9-10", "Gén 49:31"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 25:9-10",
+        "Gén 49:31"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "jacob-pide-sepultura-macpela",
       "titulo": "Jacob pide ser sepultado en Macpela",
       "fecha": "c. 1859 a.C. (cronología tradicional)",
       "descripcion": "Desde Egipto, Jacob agonizante encarga explícitamente a sus hijos que lleven su cuerpo de vuelta a Canaán para ser sepultado en la cueva de Macpela, junto a sus padres y abuelos, recordando con detalle la compra original del terreno por Abraham.",
-      "referencias": ["Gén 49:29-32", "Gén 50:12-13"],
+      "referencias": [
+        "Gén 49:29-32",
+        "Gén 50:12-13"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,8 +83,14 @@
       "rol": "Patriarca, comprador y primer sepultado en Macpela",
       "periodo": "c. 2166–1991 a.C. (cronología tradicional)",
       "descripcion": "Compra formalmente el campo y la cueva de Macpela para sepultar a Sara, estableciendo así la primera posesión legal y permanente de los patriarcas en la tierra de Canaán.",
-      "referencias": ["Gén 23:1-20", "Gén 25:9-10"],
-      "ruta": ["mamre", "machpelah"]
+      "referencias": [
+        "Gén 23:1-20",
+        "Gén 25:9-10"
+      ],
+      "ruta": [
+        "mamre",
+        "machpelah"
+      ]
     },
     {
       "id": "isaac_macpela",
@@ -77,8 +99,12 @@
       "rol": "Patriarca, segundo sepultado en Macpela",
       "periodo": "c. 2066–1886 a.C. (cronología tradicional)",
       "descripcion": "Hijo de Abraham, sepultado en Macpela por sus hijos Esaú y Jacob, continuando la línea de panteón familiar patriarcal en el mismo lugar adquirido por su padre.",
-      "referencias": ["Gén 35:27-29"],
-      "ruta": ["machpelah"]
+      "referencias": [
+        "Gén 35:27-29"
+      ],
+      "ruta": [
+        "machpelah"
+      ]
     },
     {
       "id": "jacob_macpela",
@@ -87,8 +113,14 @@
       "rol": "Patriarca, último sepultado en Macpela",
       "periodo": "c. 2006–1859 a.C. (cronología tradicional)",
       "descripcion": "Pide expresamente desde Egipto ser sepultado en Macpela junto a sus padres y abuelos; sus hijos cumplen la petición trasladando su cuerpo embalsamado de regreso a Canaán en un cortejo fúnebre solemne.",
-      "referencias": ["Gén 49:29-33", "Gén 50:1-14"],
-      "ruta": ["egipto", "machpelah"]
+      "referencias": [
+        "Gén 49:29-33",
+        "Gén 50:1-14"
+      ],
+      "ruta": [
+        "egipto",
+        "machpelah"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +133,11 @@
       {
         "id": "panteon-patriarcal-macpela",
         "nombre": "Macpela como panteón fundacional de los patriarcas",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 23:1-20; Gén 25:9-10; Gén 49:29-33; Gén 50:12-13",
           "fuente_secundaria": "Midrash Bereshit Rabbah 58; tradición sobre la Cueva de los Patriarcas (Mearat HaMajpela) como segundo lugar más sagrado del judaísmo después del Monte del Templo",
@@ -132,5 +168,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

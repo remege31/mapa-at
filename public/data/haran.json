@@ -7,7 +7,11 @@
   "frecuencia_at": 12,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -2100, "hasta": -1500, "nombre": "Edad de Bronce Media — Residencia de Taré, Jacob y Labán" }
+    {
+      "desde": -2100,
+      "hasta": -1500,
+      "nombre": "Edad de Bronce Media — Residencia de Taré, Jacob y Labán"
+    }
   ],
   "descripcion_geo": "Importante ciudad comercial en Mesopotamia superior (la actual región fronteriza entre Turquía y Siria), en la ruta comercial entre Asiria y el Mediterráneo, residencia de la familia de Abraham tras salir de Ur y, generaciones después, lugar de exilio de Jacob durante veinte años en casa de su tío Labán.",
   "altitud_m": 350,
@@ -40,24 +44,37 @@
       "titulo": "Taré se establece en Harán con su familia",
       "fecha": "c. 2150 a.C. (cronología tradicional)",
       "descripcion": "Taré toma a su hijo Abram, a su nieto Lot y a su nuera Sarai y sale de Ur de los Caldeos para ir a Canaán, pero se detiene y se establece en Harán, donde finalmente muere, marcando el punto medio de la migración familiar hacia la tierra prometida.",
-      "referencias": ["Gén 11:31-32"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 11:31-32"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "abraham-llamado-deja-haran",
       "titulo": "Abraham recibe el llamado y deja Harán",
       "fecha": "c. 2091 a.C. (cronología tradicional)",
       "descripcion": "YHWH llama a Abraham a salir de su tierra, de su parentela y de la casa de su padre hacia la tierra que le mostraría; Abraham obedece y sale de Harán a la edad de setenta y cinco años, acompañado de Sara y Lot, iniciando formalmente el ciclo patriarcal en Canaán.",
-      "referencias": ["Gén 12:1-5"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 12:1-5"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "jacob-veinte-anos-haran",
       "titulo": "Jacob pasa veinte años en Harán con Labán",
       "fecha": "c. 1900–1880 a.C. (cronología tradicional)",
       "descripcion": "Huyendo de la ira de Esaú, Jacob llega a Harán, donde sirve a su tío Labán durante veinte años, casándose con Lea y Raquel, formando la mayoría de sus doce hijos, y desarrollando una relación cada vez más tensa con Labán por el manejo de los rebaños, hasta finalmente partir de regreso a Canaán.",
-      "referencias": ["Gén 29:1-30", "Gén 31:38-42"],
-      "personajes_clave": ["jacob"]
+      "referencias": [
+        "Gén 29:1-30",
+        "Gén 31:38-42"
+      ],
+      "personajes_clave": [
+        "jacob"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +85,13 @@
       "rol": "Padre de Abraham",
       "periodo": "c. 2150 a.C. (cronología tradicional)",
       "descripcion": "Establece a su familia en Harán durante la migración desde Ur hacia Canaán, muriendo en esta ciudad sin completar el viaje hasta la tierra prometida.",
-      "referencias": ["Gén 11:31-32"],
-      "ruta": ["ur", "haran"]
+      "referencias": [
+        "Gén 11:31-32"
+      ],
+      "ruta": [
+        "ur",
+        "haran"
+      ]
     },
     {
       "id": "abraham_haran",
@@ -78,8 +100,13 @@
       "rol": "Patriarca",
       "periodo": "c. 2091 a.C. (cronología tradicional)",
       "descripcion": "Recibe en Harán el llamado divino que lo convierte en patriarca fundacional de Israel, dejando la ciudad para iniciar su peregrinaje hacia Canaán.",
-      "referencias": ["Gén 12:1-5"],
-      "ruta": ["haran", "siquem"]
+      "referencias": [
+        "Gén 12:1-5"
+      ],
+      "ruta": [
+        "haran",
+        "siquem"
+      ]
     },
     {
       "id": "jacob_haran",
@@ -88,8 +115,15 @@
       "rol": "Patriarca, nieto de Abraham",
       "periodo": "c. 1900–1880 a.C. (cronología tradicional)",
       "descripcion": "Pasa veinte años formativos en Harán, donde se casa con sus dos esposas principales y nace la mayoría de sus hijos, fundamento directo de las futuras tribus de Israel.",
-      "referencias": ["Gén 29:1-30:24", "Gén 31:38-42"],
-      "ruta": ["beerseba", "haran", "mahanaim"]
+      "referencias": [
+        "Gén 29:1-30:24",
+        "Gén 31:38-42"
+      ],
+      "ruta": [
+        "beerseba",
+        "haran",
+        "mahanaim"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +136,11 @@
       {
         "id": "llamado-abraham-haran-mito",
         "nombre": "El llamado de Abraham a salir de Harán",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 12:1-5",
           "fuente_secundaria": "Midrash Bereshit Rabbah 39 (sobre el significado de 'lej lejá', vete por ti mismo, y la prueba de fe que representa abandonar la seguridad familiar conocida)",
@@ -133,5 +171,7 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio"]
+  "periodos_at": [
+    "bronce_medio"
+  ]
 }

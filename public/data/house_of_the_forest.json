@@ -2,13 +2,17 @@
   "id": "house_of_the_forest",
   "nombre": "Casa del Bosque del Líbano",
   "tipo": "territorio",
-  "lat": 31.777444,
-  "lng": 35.234935,
+  "lat": 31.779694,
+  "lng": 35.230435,
   "frecuencia_at": 7,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "sublugar",
   "nota_coordenadas": "Coordenadas genéricas de Jerusalén — edificio del complejo palaciego de Salomón, no una ubicación geográfica independiente.",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Edificio del complejo palaciego de Salomón" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Edificio del complejo palaciego de Salomón"
+    }
   ],
   "descripcion_geo": "Gran salón construido por Salomón como parte de su complejo palaciego en Jerusalén, llamado así por sus hileras de columnas de cedro del Líbano que evocaban un bosque. Medía cien codos de largo, cincuenta de ancho y treinta de alto, sostenido por cuarenta y cinco columnas de cedro dispuestas en tres filas.",
   "altitud_m": "Integrada en el complejo palaciego, Jerusalén, c. 740-760",
@@ -41,23 +45,35 @@
       "titulo": "Salomón construye la Casa del Bosque del Líbano",
       "fecha": "c. 970–960 a.C.",
       "descripcion": "Como parte de su programa constructivo posterior al Templo, Salomón edifica su propio palacio, que incluye la Casa del Bosque del Líbano, un gran salón columnado de cedro que tarda trece años en completarse junto con el resto del complejo real.",
-      "referencias": ["1 Re 7:1-12"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 7:1-12"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "escudos-oro-casa-bosque",
       "titulo": "Los escudos de oro depositados en la Casa del Bosque",
       "fecha": "c. 960–950 a.C.",
       "descripcion": "Salomón manda hacer doscientos escudos grandes y trescientos escudos pequeños de oro batido y los deposita en la Casa del Bosque del Líbano como muestra de la riqueza acumulada del reino durante su apogeo.",
-      "referencias": ["1 Re 10:16-17", "2 Cr 9:15-16"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 10:16-17",
+        "2 Cr 9:15-16"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "saqueo-sisac-casa-bosque",
       "titulo": "Sisac de Egipto saquea los escudos de oro",
       "fecha": "c. 925 a.C.",
       "descripcion": "Durante el reinado de Roboam, el faraón egipcio Sisac invade Judá y se lleva los tesoros del Templo y del palacio, incluidos los escudos de oro de la Casa del Bosque, que Roboam sustituye después por escudos de bronce, episodio leído como signo del declive tras el esplendor salomónico.",
-      "referencias": ["1 Re 14:25-28", "2 Cr 12:9-10"],
+      "referencias": [
+        "1 Re 14:25-28",
+        "2 Cr 12:9-10"
+      ],
       "personajes_clave": []
     }
   ],
@@ -69,8 +85,13 @@
       "rol": "Rey de Israel, constructor del complejo palaciego",
       "periodo": "c. 970–931 a.C.",
       "descripcion": "Ordena la construcción de la Casa del Bosque del Líbano como parte de su palacio y deposita allí los célebres escudos de oro, símbolo material del esplendor económico de su reinado.",
-      "referencias": ["1 Re 7:1-12", "1 Re 10:16-17"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 7:1-12",
+        "1 Re 10:16-17"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "hiram_tiro_casa_bosque",
@@ -79,8 +100,12 @@
       "rol": "Rey de Tiro, proveedor de madera y artesanos",
       "periodo": "c. 980–947 a.C.",
       "descripcion": "Suministra a Salomón la madera de cedro del Líbano y los artesanos especializados necesarios para la construcción de la Casa del Bosque y el resto del complejo palaciego, en el marco de la alianza comercial entre ambos reinos.",
-      "referencias": ["1 Re 5:1-12"],
-      "ruta": ["joppa"]
+      "referencias": [
+        "1 Re 5:1-12"
+      ],
+      "ruta": [
+        "joppa"
+      ]
     },
     {
       "id": "roboam_casa_bosque",
@@ -89,8 +114,12 @@
       "rol": "Rey de Judá, sucesor de Salomón",
       "periodo": "c. 931–913 a.C.",
       "descripcion": "Tras el saqueo egipcio de Sisac que despoja la Casa del Bosque de sus escudos de oro, Roboam manda fabricar escudos de bronce como sustituto, gesto que el texto bíblico presenta como símbolo elocuente del declive desde el esplendor salomónico.",
-      "referencias": ["1 Re 14:25-28"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 14:25-28"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +132,11 @@
       {
         "id": "esplendor-declive-casa-bosque",
         "nombre": "Del oro al bronce: el esplendor y declive salomónico",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 10:16-17; 1 Re 14:25-28",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la riqueza de Salomón como cumplimiento y, después, advertencia del peligro de la abundancia material",
@@ -118,5 +151,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

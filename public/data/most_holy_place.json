@@ -2,15 +2,27 @@
   "id": "most_holy_place",
   "nombre": "Lugar Santísimo",
   "tipo": "territorio",
-  "lat": 31.777444,
-  "lng": 35.234935,
+  "lat": 31.779694,
+  "lng": 35.239435,
   "frecuencia_at": 11,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "sublugar",
   "nota_coordenadas": "Coordenadas genéricas de Jerusalén — espacio interior del Tabernáculo y, después, del Templo, no una ubicación geográfica independiente.",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Cámara interior del Tabernáculo móvil" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Cámara interior del Templo de Salomón" },
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Cámara interior del Segundo Templo" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Cámara interior del Tabernáculo móvil"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Cámara interior del Templo de Salomón"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Cámara interior del Segundo Templo"
+    }
   ],
   "descripcion_geo": "Espacio cúbico más interno del Tabernáculo y, posteriormente, del Templo de Jerusalén, separado del resto del santuario por un velo. En el Tabernáculo del desierto y el Templo de Salomón albergaba el Arca de la Alianza entre los querubines; tras la pérdida del Arca en la destrucción babilónica, el Lugar Santísimo del Segundo Templo permaneció vacío, marcado únicamente por una piedra (la 'piedra de fundación').",
   "altitud_m": "Interior del Templo, Monte Moria, c. 740",
@@ -43,23 +55,35 @@
       "titulo": "Instrucciones divinas para el Lugar Santísimo del Tabernáculo",
       "fecha": "c. 1400 a.C. (narrativa del Sinaí)",
       "descripcion": "YHWH instruye a Moisés en el Sinaí sobre las dimensiones exactas y el mobiliario del Lugar Santísimo del Tabernáculo: un cubo de diez codos por lado, separado por un velo, destinado a albergar el Arca de la Alianza bajo las alas de dos querubines de oro.",
-      "referencias": ["Éx 26:31-34", "Éx 25:10-22"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 26:31-34",
+        "Éx 25:10-22"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "dedicacion-templo-salomon-lugar-santisimo",
       "titulo": "Salomón introduce el Arca en el Lugar Santísimo del Templo",
       "fecha": "c. 960 a.C.",
       "descripcion": "En la dedicación del Templo, los sacerdotes introducen el Arca de la Alianza en el Lugar Santísimo bajo las alas de los dos grandes querubines de madera de olivo recubiertos de oro; la gloria de YHWH llena el Templo en forma de nube hasta el punto de que los sacerdotes no pueden permanecer para ministrar.",
-      "referencias": ["1 Re 8:1-11", "2 Cr 5:2-14"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 8:1-11",
+        "2 Cr 5:2-14"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "yom-kipur-lugar-santisimo",
       "titulo": "El ritual del Día de la Expiación en el Lugar Santísimo",
       "fecha": "Instituido c. 1400 a.C., observancia anual continua",
       "descripcion": "Una vez al año, en Yom Kipur, el sumo sacerdote entra al Lugar Santísimo llevando incienso y la sangre del sacrificio expiatorio para rociarla sobre el propiciatorio, en el único acto ritual del calendario israelita que permite el acceso humano directo a ese espacio.",
-      "referencias": ["Lev 16:2-17"],
+      "referencias": [
+        "Lev 16:2-17"
+      ],
       "personajes_clave": []
     }
   ],
@@ -71,8 +95,13 @@
       "rol": "Legislador, receptor de las instrucciones del Tabernáculo",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Recibe en el monte Sinaí las instrucciones detalladas de YHWH para la construcción del Tabernáculo, incluyendo las especificaciones exactas del Lugar Santísimo y el Arca de la Alianza.",
-      "referencias": ["Éx 25:1-22", "Éx 26:31-34"],
-      "ruta": ["sinai"]
+      "referencias": [
+        "Éx 25:1-22",
+        "Éx 26:31-34"
+      ],
+      "ruta": [
+        "sinai"
+      ]
     },
     {
       "id": "salomon_lugar_santisimo",
@@ -81,8 +110,12 @@
       "rol": "Rey de Israel, constructor del Templo",
       "periodo": "c. 970–931 a.C.",
       "descripcion": "Dirige la dedicación del Templo y la introducción solemne del Arca de la Alianza en el Lugar Santísimo, momento en que la gloria de YHWH se manifiesta como nube que llena todo el edificio.",
-      "referencias": ["1 Re 8:1-66"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 8:1-66"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "sumo_sacerdote_yom_kipur",
@@ -91,7 +124,9 @@
       "rol": "Único mediador autorizado a entrar al Lugar Santísimo",
       "periodo": "Institución continua, c. 1400 a.C.–70 d.C.",
       "descripcion": "Figura sacerdotal cuya función central es representar simbólicamente a todo Israel en el único acceso ritual permitido al espacio de máxima santidad, una vez al año, en el Día de la Expiación.",
-      "referencias": ["Lev 16:2-34"],
+      "referencias": [
+        "Lev 16:2-34"
+      ],
       "ruta": []
     }
   ],
@@ -104,7 +139,11 @@
       {
         "id": "arca-alianza-lugar-santisimo",
         "nombre": "El Arca de la Alianza y la presencia divina en el Lugar Santísimo",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Éx 25:10-22; 1 Re 8:1-11; Lev 16:2-17",
           "fuente_secundaria": "Mishná, tratado Yoma (descripción detallada del ritual de Yom Kipur); Talmud Babilónico, Yoma 21b (sobre la desaparición del Arca)",
@@ -135,5 +174,9 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio", "hierro_2", "post_exilio"]
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_2",
+    "post_exilio"
+  ]
 }

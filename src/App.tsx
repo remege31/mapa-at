@@ -220,6 +220,9 @@ function Panel({ lugar, periodId, onClose }: {
               ))}
             </div>
           </>)}
+          {(lugar as any).jerarquia_pin === 'sublugar' && (
+            <p style={{ fontSize: '11px', color: 'var(--gray)', marginTop: '12px', fontStyle: 'italic' }}>* La ubicación del pin es aproximada. Este lugar se encontraba dentro de la ciudad de Jerusalén.</p>
+          )}
         </Acc>
         <Acc icon="📖" title="Historias" open={openAcc === 1} onToggle={() => toggle(1)}>
           {lugar.historias.length > 0 ? lugar.historias.map(h => <HistoriaCard key={h.id} h={h} />) : <p className="desc" style={{ opacity: 0.5 }}>Sin historias registradas.</p>}

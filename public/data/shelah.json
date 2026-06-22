@@ -2,13 +2,17 @@
   "id": "shelah",
   "nombre": "Estanque de Siloé (Shelah)",
   "tipo": "territorio",
-  "lat": 31.777444,
-  "lng": 35.234935,
+  "lat": 31.775194,
+  "lng": 35.230435,
   "frecuencia_at": 6,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "sublugar",
   "nota_coordenadas": "Coordenadas genéricas de Jerusalén — estanque y túnel en el extremo sur de la Ciudad de David, no una ubicación geográfica independiente.",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Sistema hidráulico de la Ciudad de David, túnel de Ezequías" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Sistema hidráulico de la Ciudad de David, túnel de Ezequías"
+    }
   ],
   "descripcion_geo": "Estanque situado en el extremo sur de la Ciudad de David, punto de recepción de las aguas del manantial de Guijón canalizadas a través de un túnel excavado en la roca caliza. El nombre 'Shelah' ('enviado' o 'canal') se relaciona con la función del lugar como destino del agua conducida artificialmente hacia el interior amurallado de la ciudad.",
   "altitud_m": "Extremo sur de la Ciudad de David, c. 630-640",
@@ -41,24 +45,38 @@
       "titulo": "Ezequías excava el túnel hacia el estanque de Shelah",
       "fecha": "c. 701 a.C.",
       "descripcion": "Ante la amenaza inminente de invasión asiria bajo Senaquerib, el rey Ezequías ordena taponar las fuentes externas de agua y excavar un túnel subterráneo de más de 500 metros que conduce el agua del manantial de Guijón hasta el estanque de Shelah, dentro de las murallas de la ciudad.",
-      "referencias": ["2 Re 20:20", "2 Cr 32:2-4", "2 Cr 32:30"],
-      "personajes_clave": ["ezequias"]
+      "referencias": [
+        "2 Re 20:20",
+        "2 Cr 32:2-4",
+        "2 Cr 32:30"
+      ],
+      "personajes_clave": [
+        "ezequias"
+      ]
     },
     {
       "id": "isaias-aguas-siloe",
       "titulo": "Isaías y las 'aguas de Siloé que corren mansamente'",
       "fecha": "c. 734 a.C.",
       "descripcion": "El profeta Isaías usa la imagen de las aguas mansas de Siloé como contraste con la confianza del pueblo en alianzas militares extranjeras (Rezín y el hijo de Remalías), advirtiendo que el rechazo a la provisión confiable de YHWH traerá las aguas turbulentas del río Éufrates como juicio.",
-      "referencias": ["Is 8:6-7"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 8:6-7"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "nehemias-shelah-reconstruccion",
       "titulo": "El estanque en la reconstrucción de los muros de Nehemías",
       "fecha": "c. 445 a.C.",
       "descripcion": "En la lista de constructores de la muralla de Jerusalén bajo Nehemías, se menciona el muro del estanque de Shelah, junto al jardín del rey, como uno de los tramos asignados a reparación, confirmando que el sistema hidráulico seguía en uso siglos después de Ezequías.",
-      "referencias": ["Neh 3:15"],
-      "personajes_clave": ["nehemias"]
+      "referencias": [
+        "Neh 3:15"
+      ],
+      "personajes_clave": [
+        "nehemias"
+      ]
     }
   ],
   "personajes": [
@@ -69,8 +87,13 @@
       "rol": "Rey de Judá, constructor del túnel hidráulico",
       "periodo": "c. 715–686 a.C.",
       "descripcion": "Ordena la excavación del túnel que lleva su nombre para asegurar el abastecimiento de agua de Jerusalén ante el inminente asedio asirio, una de las obras de ingeniería más citadas del reino de Judá.",
-      "referencias": ["2 Re 20:20", "2 Cr 32:2-4"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Re 20:20",
+        "2 Cr 32:2-4"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "isaias_shelah",
@@ -79,8 +102,12 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Utiliza las aguas de Siloé como imagen profética de la confianza serena en YHWH frente a la tentación de alianzas políticas y militares extranjeras.",
-      "referencias": ["Is 8:5-8"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 8:5-8"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "nehemias_shelah",
@@ -89,8 +116,12 @@
       "rol": "Gobernador de Judá, reconstructor de los muros",
       "periodo": "Activo c. 445–433 a.C.",
       "descripcion": "Incluye el área del estanque de Shelah en la organización de la reconstrucción de las murallas de Jerusalén tras el regreso del exilio.",
-      "referencias": ["Neh 3:15"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Neh 3:15"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +133,11 @@
       {
         "id": "aguas-mansas-siloe",
         "nombre": "Las aguas mansas de Siloé como figura de la confianza en YHWH",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 8:6-7; 2 Re 20:20",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la inscripción de Siloé y la obra de Ezequías como modelo de previsión piadosa",
@@ -125,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

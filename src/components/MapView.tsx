@@ -6,7 +6,7 @@ import type { Lugar } from '../types/lugar'
 // IDs cargados dinámicamente desde /data/index.json
 
 // Radio base por jerarquía visual (7 / 5 / 3 px antes de aplicar zoomScale)
-const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3 }
+const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3, sublugar: 3 }
 const PIN = { fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
 
 // Waypoints para rutas — lugares sin JSON propio en scope actual
@@ -318,7 +318,7 @@ function makeIcon(
         ${pulseHtml}
         <div style="
           width:${d}px;height:${d}px;
-          border-radius:50%;
+          ${jerarquiaLugar === 'sublugar' ? 'border-radius:2px;' : 'border-radius:50%;'}
           background:${fill};
           border:2px solid ${PIN.stroke};
           ${shadow}
@@ -611,7 +611,7 @@ export function MapView({
       const periodosAt: string[] = (lugar as any).periodos_at ?? []
       const dimmed = periodId !== 'todos' && !periodosAt.includes(periodId)
       const jerarquia = (lugar as any).jerarquia_pin ?? 'primario'
-      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8)
+      const hiddenByZoom = (jerarquia === 'secundario' && zoom < 6) || (jerarquia === 'terciario' && zoom < 8) || (jerarquia === 'sublugar' && zoom < 10)
 
       if (hiddenByZoom) {
         const existing = markersRef.current.get(lugar.id)

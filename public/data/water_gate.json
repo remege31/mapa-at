@@ -2,13 +2,17 @@
   "id": "water_gate",
   "nombre": "Puerta de las Aguas",
   "tipo": "territorio",
-  "lat": 31.777444,
+  "lat": 31.772944,
   "lng": 35.234935,
   "frecuencia_at": 5,
-  "jerarquia_pin": "terciario",
+  "jerarquia_pin": "sublugar",
   "nota_coordenadas": "Coordenadas genéricas de Jerusalén — puerta del muro de la Ciudad de David, no una ubicación geográfica independiente.",
   "periodos": [
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Reconstrucción del muro, lectura pública de la Torá" }
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Reconstrucción del muro, lectura pública de la Torá"
+    }
   ],
   "descripcion_geo": "Puerta situada en el sector oriental del muro de la Ciudad de David, próxima al manantial de Guijón, que daba acceso al sistema de abastecimiento de agua de Jerusalén. Su plaza interior, lo bastante amplia para reunir a una multitud, se convirtió en el escenario de uno de los actos públicos más significativos de la restauración post-exílica.",
   "altitud_m": "Sector oriental de la Ciudad de David, c. 630-650",
@@ -40,24 +44,38 @@
       "titulo": "Reparación del muro junto a la Puerta de las Aguas",
       "fecha": "c. 445 a.C.",
       "descripcion": "En la lista de constructores de la muralla bajo Nehemías, el tramo cercano a la Puerta de las Aguas es reparado por los habitantes de Tecoa, en el extenso proyecto colectivo que completa el muro de Jerusalén en cincuenta y dos días.",
-      "referencias": ["Neh 3:26"],
-      "personajes_clave": ["nehemias"]
+      "referencias": [
+        "Neh 3:26"
+      ],
+      "personajes_clave": [
+        "nehemias"
+      ]
     },
     {
       "id": "esdras-lectura-ley-puerta-aguas",
       "titulo": "Esdras lee públicamente la Ley en la Puerta de las Aguas",
       "fecha": "c. 445 a.C.",
       "descripcion": "Todo el pueblo se reúne como un solo hombre en la plaza frente a la Puerta de las Aguas y pide a Esdras que traiga el libro de la Ley de Moisés; Esdras lee desde el amanecer hasta el mediodía ante hombres, mujeres y todos los que podían entender, mientras los levitas ayudan a explicar el sentido del texto.",
-      "referencias": ["Neh 8:1-8"],
-      "personajes_clave": ["esdras", "nehemias"]
+      "referencias": [
+        "Neh 8:1-8"
+      ],
+      "personajes_clave": [
+        "esdras",
+        "nehemias"
+      ]
     },
     {
       "id": "fiesta-tabernaculos-puerta-aguas",
       "titulo": "Llanto, alegría y la Fiesta de los Tabernáculos",
       "fecha": "c. 445 a.C.",
       "descripcion": "Al escuchar la Ley, el pueblo llora, pero Nehemías, Esdras y los levitas los instan a no entristecerse sino a celebrar, pues 'el gozo de YHWH es vuestra fortaleza'; pocos días después la asamblea celebra la Fiesta de los Tabernáculos con una alegría que el texto describe como no vista desde los días de Josué.",
-      "referencias": ["Neh 8:9-18"],
-      "personajes_clave": ["esdras", "nehemias"]
+      "referencias": [
+        "Neh 8:9-18"
+      ],
+      "personajes_clave": [
+        "esdras",
+        "nehemias"
+      ]
     }
   ],
   "personajes": [
@@ -68,8 +86,13 @@
       "rol": "Escriba y sacerdote, restaurador de la Ley",
       "periodo": "Activo c. 458–440 a.C.",
       "descripcion": "Lee públicamente la Torá ante toda la comunidad reunida en la plaza de la Puerta de las Aguas, episodio considerado fundacional para la centralidad posterior de la lectura pública de la Ley en la vida religiosa judía.",
-      "referencias": ["Neh 8:1-12"],
-      "ruta": ["mesopotamia", "jerusalen"]
+      "referencias": [
+        "Neh 8:1-12"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "jerusalen"
+      ]
     },
     {
       "id": "nehemias_puerta_aguas",
@@ -78,8 +101,12 @@
       "rol": "Gobernador de Judá, reconstructor de los muros",
       "periodo": "Activo c. 445–433 a.C.",
       "descripcion": "Junto a Esdras, dirige la asamblea de la Puerta de las Aguas, animando al pueblo a transformar el llanto inicial por el contenido de la Ley en celebración gozosa.",
-      "referencias": ["Neh 8:9-12"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Neh 8:9-12"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "levitas_interpretes_puerta_aguas",
@@ -88,8 +115,12 @@
       "rol": "Asistentes en la explicación pública del texto",
       "periodo": "c. 445 a.C.",
       "descripcion": "Grupo de levitas mencionados por nombre que ayudan al pueblo a entender el sentido de la Ley leída por Esdras, antecedente de la práctica posterior de explicación e interpretación pública del texto sagrado.",
-      "referencias": ["Neh 8:7-8"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Neh 8:7-8"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +132,11 @@
       {
         "id": "lectura-publica-ley-puerta-aguas",
         "nombre": "El origen de la lectura pública de la Torá",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Neh 8:1-18",
           "fuente_secundaria": "Talmud Babilónico, Meguilá 30a-31a (sobre el origen de la lectura pública de la Torá atribuido a Esdras)",
@@ -116,5 +151,7 @@
       }
     ]
   },
-  "periodos_at": ["post_exilio"]
+  "periodos_at": [
+    "post_exilio"
+  ]
 }

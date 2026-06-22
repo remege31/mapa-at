@@ -423,7 +423,7 @@ export default function App() {
             rutasActive={rutasActive}
           />
         </div>
-        <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={drawerStyle}>
+        <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={isMobile ? drawerStyle : {}}>
           {selected ? (
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (

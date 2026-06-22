@@ -150,6 +150,7 @@
   border-left: 1px solid var(--beige);
   background: var(--paper);
   overflow: hidden;
+  align-self: stretch;
 }
 
 #panel-head {

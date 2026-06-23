@@ -253,12 +253,13 @@ function makeIcon(
   const zoomScale = Math.max(0.6, Math.min(1.6, (zoom - 3) / 4))
   const jerarquiaLugar = (lugar as any).jerarquia_pin ?? 'primario'
   const baseRadius = PIN_RADIUS[jerarquiaLugar] ?? PIN_RADIUS.primario
-  const r = Math.round(baseRadius * zoomScale)
-  const labelSize = Math.max(7, Math.round(PIN.labelSize * zoomScale))
-  const d = r * 2
-
   const isAgua = jerarquiaLugar === 'agua_mayor' || jerarquiaLugar === 'agua_menor'
   const isMonte = jerarquiaLugar === 'monte'
+  const rawR = Math.round(baseRadius * zoomScale)
+  const minR = (isMonte || isAgua) ? 4 : 2
+  const r = Math.max(rawR, minR)
+  const labelSize = Math.max(7, Math.round(PIN.labelSize * zoomScale))
+  const d = r * 2
   const fillBase = isAgua ? '#2E5F8A' : isMonte ? '#4A7C4E' : PIN.fill
   const fillSelected = isAgua ? '#1a3f5c' : isMonte ? '#2d5c32' : '#8B4A26'
   const fill = selected ? fillSelected : fillBase
@@ -344,6 +345,7 @@ function makeIcon(
 }
 
 interface MapViewProps {
+  flyToTarget?: {lat: number, lng: number} | null
   onSelectLugar: (lugar: Lugar) => void
   selectedId?: string
   periodId?: string
@@ -352,6 +354,7 @@ interface MapViewProps {
 }
 
 export function MapView({
+  flyToTarget,
   onSelectLugar,
   selectedId,
   periodId = 'hierro_2',
@@ -373,6 +376,12 @@ export function MapView({
   const [showHint, setShowHint] = useState(() => window.innerWidth < 769)
 
   useEffect(() => { cbRef.current = onSelectLugar }, [onSelectLugar])
+
+  useEffect(() => {
+    if (!flyToTarget || !mapRef.current) return
+    const targetZoom = Math.max(mapRef.current.getZoom(), 10)
+    mapRef.current.flyTo([flyToTarget.lat, flyToTarget.lng], targetZoom, { animate: true, duration: 0.8 })
+  }, [flyToTarget])
 
   useEffect(() => {
     fetch('/data/index.json')

@@ -65,7 +65,9 @@
 /* ─── timeline ────────────────────────────────────────────────────────────── */
 
 #timeline-bar {
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   background: var(--paper);
   border-bottom: 1px solid var(--beige);
   padding: 6px 16px;

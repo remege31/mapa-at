@@ -308,7 +308,7 @@ export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
-  const [menuOpen, setMenuOpen] = useState(() => window.innerWidth >= 769)
+  const [menuOpen, setMenuOpen] = useState(false)
   const [territoriosActive, setTerritoriosActive] = useState(false)
   const [rutasActive, setRutasActive] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
@@ -338,6 +338,7 @@ export default function App() {
   }, [])
 
   const handleSelect = useCallback((l: Lugar) => {
+    if (l.lat && l.lng) setFlyToTarget({ lat: l.lat, lng: l.lng })
     setSelected(l)
     setMenuOpen(false)
     setDrawerOpen(true)
@@ -359,7 +360,9 @@ export default function App() {
     }
   }
   const isMobile = window.innerWidth < 769
+  const [flyToTarget, setFlyToTarget] = useState<{lat: number, lng: number} | null>(null)
   const anyOpen = menuOpen || (drawerOpen && isMobile)
+  const showOverlay = menuOpen || (drawerOpen && isMobile && !window.matchMedia('(min-width: 769px)').matches)
   const drawerStyle = { top: `${drawerTop}px` }
 
   return (
@@ -418,6 +421,7 @@ export default function App() {
         <div id="map-wrap">
           <MapView
             onSelectLugar={handleSelect}
+            flyToTarget={flyToTarget}
             selectedId={selected?.id}
             periodId={periodId}
             territoriosActive={territoriosActive}
@@ -442,7 +446,7 @@ export default function App() {
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
           <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
         </div>
-        {anyOpen && <div id="drawer-overlay" className={window.innerWidth >= 769 ? 'desktop-active' : ''} onClick={closeAll} />}
+        {showOverlay && <div id="drawer-overlay" className={window.innerWidth >= 769 ? 'desktop-active' : ''} onClick={closeAll} />}
       </div>
     </div>
   )

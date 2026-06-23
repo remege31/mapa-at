@@ -321,7 +321,7 @@ function makeIcon(
         aria-label="${dimmed ? '' : 'Explorar ' + lugar.nombre}"
         aria-disabled="${dimmed ? 'true' : 'false'}"
         onkeydown="if(!${dimmed}&&(event.key==='Enter'||event.key===' ')){event.preventDefault();this.click();}"
-        style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:${dimmed?'default':'pointer'};opacity:${opacity};">
+        style="position:relative;display:flex;flex-direction:column;align-items:center;cursor:${dimmed?'default':'pointer'};opacity:${opacity};overflow:visible;">
         ${tooltipHtml}
         ${pulseHtml}
         <div style="

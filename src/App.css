@@ -831,7 +831,11 @@
   background: var(--paper);
   border-bottom: 1px solid var(--beige);
   flex-shrink: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
 }
+#layers-row::-webkit-scrollbar { display: none; }
 
 .layer-btn {
   font-size: 11px;

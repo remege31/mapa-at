@@ -271,7 +271,7 @@ function makeIcon(
   const labelBase = lugar.id === 'jerusalen' ? `${lugar.nombre} ★` : lugar.nombre
   const label = subtipoGeo ? `${subtipoGeo} ${labelBase}` : labelBase
   const hideLabel = dimmed || hideLabelOverride
-  const opacity = dimmed ? '0.25' : '1'
+  const opacity = dimmed ? '0.45' : '1'
 
   const pulseHtml = showPulse ? `
     <div style="

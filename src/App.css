@@ -34,7 +34,7 @@
   justify-content: space-between;
   flex-shrink: 0;
   position: relative;
-  z-index: 100;
+  z-index: 1100;
   overflow: visible;
 }
 

@@ -10,7 +10,35 @@ import type {
   RutaSeleccionada,
 } from './types/lugar'
 import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
+import { PERSONAJE_COLORS, DEFAULT_COLOR } from './data/rutaColors'
 import './App.css'
+
+type SearchResult =
+  | { kind: 'lugar'; data: Lugar }
+  | { kind: 'ruta'; data: RutaSeleccionada }
+  | { kind: 'territorio'; nombreES: string; nombreEN: string }
+
+const TERRITORY_SEARCH_LIST: { nombreEN: string; nombreES: string }[] = [
+  { nombreEN: 'Egypt',                          nombreES: 'Egipto' },
+  { nombreEN: 'Assyria',                        nombreES: 'Asiria' },
+  { nombreEN: 'Babylonia',                      nombreES: 'Mesopotamia / Babilonia' },
+  { nombreEN: 'Hittites',                       nombreES: 'Hititas' },
+  { nombreEN: 'Elam',                           nombreES: 'Elam' },
+  { nombreEN: 'Israel',                         nombreES: 'Israel (reino)' },
+  { nombreEN: 'Judah',                          nombreES: 'Judá (reino)' },
+  { nombreEN: 'Canaan',                         nombreES: 'Canaán' },
+  { nombreEN: 'Arameans',                       nombreES: 'Arameos' },
+  { nombreEN: 'Philistines',                    nombreES: 'Filisteos' },
+  { nombreEN: 'Phoenicia',                      nombreES: 'Fenicia' },
+  { nombreEN: 'Persia',                         nombreES: 'Persia' },
+  { nombreEN: 'Media',                          nombreES: 'Media' },
+  { nombreEN: 'Urartu',                         nombreES: 'Urartu' },
+  { nombreEN: 'Arabian pastoral nomads',        nombreES: 'Pastores nómadas árabes' },
+  { nombreEN: 'Greek city-states',              nombreES: 'Ciudades-estado griegas' },
+  { nombreEN: 'Achaemenid Empire',              nombreES: 'Imperio aqueménida' },
+  { nombreEN: 'Kingdom of David and Solomon',   nombreES: 'Reino unido de Israel' },
+  { nombreEN: 'Kush',                           nombreES: 'Reino de Kush' },
+]
 
 const PERIODS = [
   { id: 'todos',         name: 'Todos los períodos',    range: '' },
@@ -528,7 +556,70 @@ export default function App() {
   }, [])
 
   const closeAll = () => { setDrawerOpen(false); setMenuOpen(false); setSelectedRuta(null); setActiveViajeIdx(0) }
-  const searchResults = searchQuery.length >= 2 ? lugares.filter(l => l.nombre.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 6) : []
+
+  // Índice de rutas: personajes únicos con ruta o viajes
+  const buildRutasIndex = (): RutaSeleccionada[] => {
+    if (searchQuery.length < 2) return []
+    const seen = new Set<string>()
+    const result: RutaSeleccionada[] = []
+    lugares.forEach(lugar => {
+      ;(lugar.personajes ?? []).forEach(p => {
+        const tieneRuta = (p.ruta?.length ?? 0) > 0 || (p.viajes?.length ?? 0) > 0
+        if (!tieneRuta || seen.has(p.nombre)) return
+        seen.add(p.nombre)
+        const color = PERSONAJE_COLORS[p.nombre] ?? DEFAULT_COLOR
+        const viajes = p.viajes?.length ? p.viajes : undefined
+        result.push({
+          nombre: p.nombre,
+          emoji: p.emoji || '🚶',
+          rol: p.rol,
+          periodo: p.periodo,
+          descripcion: p.descripcion,
+          referencias: viajes ? (viajes[0].referencias ?? p.referencias) : p.referencias,
+          ruta: viajes ? viajes[0].ruta : p.ruta,
+          color,
+          personajeId: p.nombre,
+          viajeIdx: 0,
+          viajeNombre: viajes?.[0]?.nombre,
+          viajes,
+        })
+      })
+    })
+    return result
+  }
+
+  const q = searchQuery.toLowerCase()
+  const searchResults: SearchResult[] = searchQuery.length >= 2 ? [
+    ...lugares
+      .filter(l => l.nombre.toLowerCase().includes(q))
+      .slice(0, 4)
+      .map(l => ({ kind: 'lugar' as const, data: l })),
+    ...buildRutasIndex()
+      .filter(r => r.nombre.toLowerCase().includes(q))
+      .slice(0, 3)
+      .map(r => ({ kind: 'ruta' as const, data: r })),
+    ...TERRITORY_SEARCH_LIST
+      .filter(t => t.nombreES.toLowerCase().includes(q) || t.nombreEN.toLowerCase().includes(q))
+      .slice(0, 2)
+      .map(t => ({ kind: 'territorio' as const, nombreES: t.nombreES, nombreEN: t.nombreEN })),
+  ].slice(0, 8) : []
+
+  const handleSearchSelectRuta = useCallback((ruta: RutaSeleccionada) => {
+    setRutasActive(true)
+    if (ruta.periodo && ruta.periodo !== 'todos') setPeriodId(ruta.periodo)
+    setSelectedRuta(ruta)
+    setActiveViajeIdx(ruta.viajeIdx ?? 0)
+    setSelected(null)
+    setMenuOpen(false)
+    setDrawerOpen(true)
+    setPanelCollapsed(false)
+  }, [])
+
+  const handleSearchSelectTerritorio = useCallback(() => {
+    setTerritoriosActive(true)
+    setPeriodId(prev => prev === 'todos' ? 'hierro_2' : prev)
+  }, [])
+
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
   const goToLastPlace = async () => {
     if (selected) {
@@ -557,20 +648,42 @@ export default function App() {
             <input
               id="topbar-search-input"
               type="text"
-              placeholder="Buscar lugar..."
+              placeholder="Buscar lugar, personaje o territorio..."
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
-              onKeyDown={e => { if (e.key === "Enter" && searchResults.length > 0) { handleSelect(searchResults[0]); setSearchQuery(""); } }}
-              aria-label="Buscar lugar"
+              onKeyDown={e => {
+                if (e.key === "Enter" && searchResults.length > 0) {
+                  const first = searchResults[0]
+                  if (first.kind === 'lugar') { handleSelect(first.data); setSearchQuery("") }
+                  else if (first.kind === 'ruta') { handleSearchSelectRuta(first.data); setSearchQuery("") }
+                  else if (first.kind === 'territorio') { handleSearchSelectTerritorio(); setSearchQuery("") }
+                }
+              }}
+              aria-label="Buscar lugar, personaje o territorio"
             />
             {searchResults.length > 0 && (
               <div id="search-dropdown">
-                {searchResults.map(l => (
-                  <button key={l.id} className="search-result" onClick={() => { handleSelect(l); setSearchQuery(""); }}>
-                    <span className="search-result-name">{l.nombre}</span>
-                    <span className="search-result-tipo">{l.tipo === "ciudad" ? "Ciudad" : l.tipo === "territorio" ? "Territorio" : "Región natural"}</span>
-                  </button>
-                ))}
+                {searchResults.map((r, i) => {
+                  if (r.kind === 'lugar') return (
+                    <button key={r.data.id} className="search-result" onClick={() => { handleSelect(r.data); setSearchQuery("") }}>
+                      <span className="search-result-name">{r.data.nombre}</span>
+                      <span className="search-result-tipo">{r.data.tipo === "ciudad" ? "Ciudad" : r.data.tipo === "territorio" ? "Territorio" : "Región natural"}</span>
+                    </button>
+                  )
+                  if (r.kind === 'ruta') return (
+                    <button key={'ruta-' + r.data.nombre + i} className="search-result" onClick={() => { handleSearchSelectRuta(r.data); setSearchQuery("") }}>
+                      <span className="search-result-name">{r.data.emoji} {r.data.nombre}</span>
+                      <span className="search-result-tipo">Ruta · {getPeriodName(r.data.periodo)}</span>
+                    </button>
+                  )
+                  if (r.kind === 'territorio') return (
+                    <button key={'ter-' + r.nombreEN} className="search-result" onClick={() => { handleSearchSelectTerritorio(); setSearchQuery("") }}>
+                      <span className="search-result-name">{r.nombreES}</span>
+                      <span className="search-result-tipo">Territorio histórico</span>
+                    </button>
+                  )
+                  return null
+                })}
               </div>
             )}
           </div>

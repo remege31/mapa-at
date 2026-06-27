@@ -9,6 +9,7 @@
   --blue: #2E5F8A;
   --ink: #3C3C3C;
   --paper: #F5F0E8;
+  --panel-w: 340px; /* H-10: ancho del panel (usado por toggle btn) */
 }
 
 /* ─── layout ──────────────────────────────────────────────────────────────── */
@@ -145,14 +146,30 @@
 /* ─── panel ───────────────────────────────────────────────────────────────── */
 
 #panel {
-  width: 340px;
-  flex-shrink: 0;
+  width: var(--panel-w);
   display: flex;
   flex-direction: column;
   border-left: 1px solid var(--beige);
   background: var(--paper);
   overflow: hidden;
-  align-self: stretch;
+  /* H-10: overlay fijo estilo Google Maps */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 500;
+  transform: translateX(0);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -4px 0 16px rgba(0,0,0,0.12);
+}
+
+/* H-10: estado colapsado en desktop */
+#panel.panel-collapsed {
+  transform: translateX(100%);
+}
+
+/* H-10: botón toggle — oculto en mobile por defecto */
+#panel-toggle {
+  display: none;
 }
 
 #panel-head {
@@ -752,15 +769,35 @@
   .tl-label { flex-shrink: 0; }
   #period-btns { flex-wrap: nowrap; flex-shrink: 0; }
   .period-btn { font-size: 10px; padding: 3px 8px; flex-shrink: 0; }
+
+  /* M-21: topbar mobile — elementos fuera del viewport */
+  #topbar {
+    padding: 0 8px;
+    gap: 6px;
+  }
+  #topbar-title {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    flex: 1 1 0;
+  }
+  #topbar-right {
+    gap: 4px;
+  }
+  #topbar-search-wrap {
+    width: 120px;
+  }
 }
 
 /* ─── tablet ──────────────────────────────────────────────────────────────── */
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  :root { --panel-w: min(60vw, 480px); }
   #panel,
   #menu-drawer {
-    width: 60vw;
-    max-width: 480px;
+    width: var(--panel-w);
   }
 }
 
@@ -782,6 +819,32 @@
     overflow: hidden;
   }
   #menu-drawer.drawer-open { transform: translateX(0); }
+  /* H-10: botón toggle del panel en desktop */
+  #panel-toggle {
+    display: flex;
+    position: fixed;
+    right: var(--panel-w);
+    top: 50vh;
+    transform: translateY(-50%);
+    z-index: 501;
+    width: 20px;
+    height: 48px;
+    background: var(--paper);
+    border: 1px solid var(--beige);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+    font-size: 10px;
+    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -2px 0 6px rgba(0,0,0,0.1);
+    padding: 0;
+  }
+  #panel-toggle.collapsed {
+    right: 0;
+  }
   #drawer-overlay.desktop-active {
     display: block !important;
     position: fixed;

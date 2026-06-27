@@ -308,6 +308,7 @@ export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const [panelCollapsed, setPanelCollapsed] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [territoriosActive, setTerritoriosActive] = useState(false)
   const [rutasActive, setRutasActive] = useState(false)
@@ -342,6 +343,7 @@ export default function App() {
     setSelected(l)
     setMenuOpen(false)
     setDrawerOpen(true)
+    setPanelCollapsed(false)
   }, [])
 
   const closeAll = () => { setDrawerOpen(false); setMenuOpen(false) }
@@ -428,7 +430,7 @@ export default function App() {
             rutasActive={rutasActive}
           />
         </div>
-        <div id="panel" className={drawerOpen ? 'drawer-open' : ''} style={isMobile ? drawerStyle : {}}>
+        <div id="panel" className={[drawerOpen ? 'drawer-open' : '', (!isMobile && panelCollapsed) ? 'panel-collapsed' : ''].filter(Boolean).join(' ')} style={drawerStyle}>
           {selected ? (
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (
@@ -443,6 +445,9 @@ export default function App() {
             </>
           )}
         </div>
+        <button id="panel-toggle" className={panelCollapsed ? 'collapsed' : ''} onClick={() => setPanelCollapsed(c => !c)} aria-label={panelCollapsed ? 'Abrir panel' : 'Cerrar panel'}>
+          {panelCollapsed ? '◀' : '▶'}
+        </button>
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
           <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
         </div>

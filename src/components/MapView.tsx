@@ -372,7 +372,7 @@ export function MapView({
   const requestIdRef = useRef(0)
   const cbRef = useRef(onSelectLugar)
   const [lugares, setLugares] = useState<Lugar[]>([])
-  const [zoom, setZoom] = useState(5)
+  const [zoom, setZoom] = useState(9) /* M-14: coincidir con zoom inicial del mapa */
   const [showHint, setShowHint] = useState(() => window.innerWidth < 769)
 
   useEffect(() => { cbRef.current = onSelectLugar }, [onSelectLugar])
@@ -402,9 +402,11 @@ export function MapView({
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
+    /* M-15: en mobile usar zoom más alejado y centro más al norte para ver Galilea */
+    const isMobileInit = window.innerWidth < 769
     const map = L.map(containerRef.current, {
-      center: [31.8, 35.5],
-      zoom: 9,
+      center: isMobileInit ? [32.3, 35.3] : [31.8, 35.5],
+      zoom: isMobileInit ? 8 : 9,
       minZoom: 4,
       maxZoom: 19,
       zoomControl: false,
@@ -433,6 +435,7 @@ export function MapView({
     ).addTo(map)
 
     map.on('zoomend', () => setZoom(map.getZoom()))
+    setZoom(map.getZoom()) /* M-14: sincronizar estado con zoom real del mapa */
     mapRef.current = map
 
     return () => {

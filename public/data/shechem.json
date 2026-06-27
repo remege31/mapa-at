@@ -1,154 +1,190 @@
 {
   "id": "shechem",
-  "nombre": "Shechem",
+  "nombre": "Siquem",
   "tipo": "ciudad",
-  "lat": 32.2137,
-  "lng": 35.2818,
-  "frecuencia_at": 53,
+  "lat": 32.2072,
+  "lng": 35.2786,
+  "frecuencia_at": 65,
   "jerarquia_pin": "primario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — City in Canaan, later allotted to Ephraim",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -2100,
+      "hasta": -1550,
+      "nombre": "Edad de Bronce Media — Período Patriarcal"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Ciudad-estado cananea"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Centro tribal de Israel"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Capital efímera del Reino del Norte"
+    }
+  ],
+  "descripcion_geo": "Siquem se sitúa en el corazón geográfico de Canaán, en el paso entre el Monte Ebal (940 m) y el Monte Guerizim (881 m), los dos picos más prominentes de la cordillera central de Samaria. Esta posición entre dos montañas —escenario de las bendiciones y maldiciones del pacto— la convirtió en el cruce natural de las rutas norte-sur y este-oeste de toda la tierra. Hoy corresponde aproximadamente a la ciudad de Nablus.",
+  "altitud_m": 500,
+  "clima": "Mediterráneo de montaña — más húmedo que Judea. Precipitaciones de 600-700 mm anuales. El paso entre Ebal y Guerizim canaliza los vientos del Mediterráneo, generando microclimas favorables para la agricultura.",
+  "recursos": [
+    "Agua (manantiales del paso entre Ebal y Guerizim)",
+    "El Pozo de Jacob (el más famoso de la región)",
+    "Tierras agrícolas fértiles en el valle",
+    "Olivares y viñas",
+    "Ruta comercial estratégica"
+  ],
+  "importancia_estrategica": "Nudo de comunicaciones del centro de Canaán. La ciudad que controlaba Siquem controlaba el acceso entre norte y sur, y entre el Mediterráneo y el Jordán. Su posición como primer lugar donde Abraham plantó un altar, primer lugar de asamblea tribal y primera capital del reino del norte refleja su centralidad política y religiosa.",
+  "otros_habitantes": [
+    {
+      "id": "hivitas-siquem",
+      "nombre": "Hivitas de Siquem",
+      "descripcion": "Los hivitas gobernaban Siquem cuando Jacob llegó con su familia. El príncipe Hamor y su hijo Siquem propusieron la integración mediante matrimonios mixtos tras el episodio de Dina. Simeón y Leví los masacraron aprovechando que todos los hombres se habían circuncidado, provocando la ira de Jacob.",
+      "religion": "Politeísmo cananeo — culto a Baal-Berit (Señor del Pacto), dios titular del templo de Siquem",
+      "periodo": "c. 1800–1200 a.C."
+    },
+    {
+      "id": "efraim-manase",
+      "nombre": "Tribus de Efraín y Manasés",
+      "descripcion": "Siquem quedó en el territorio de Efraín y fue asignada como ciudad de refugio (Jos 20:7; 21:21). Los huesos de José, traídos de Egipto, fueron enterrados en el campo de Hamor cerca de Siquem (Jos 24:32), completando el círculo narrativo de los patriarcas.",
+      "religion": "Yahvismo tribal — asamblea del pacto en Siquem (Jos 24)",
+      "periodo": "c. 1200–930 a.C."
+    },
+    {
+      "id": "samaritanos-guerizim",
+      "nombre": "Samaritanos",
+      "descripcion": "Tras la caída de Samaria (722 a.C.), la población mixta desarrolló un yahvismo propio centrado en el Monte Guerizim. Los samaritanos construyeron un templo en Guerizim destruido por Juan Hircano (128 a.C.). La mujer samaritana del Evangelio de Juan alude directamente a esta controversia.",
+      "religion": "Yahvismo samaritano — templo en el Monte Guerizim, Pentateuco como única Escritura",
+      "periodo": "c. 722 a.C. en adelante"
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "abraham-primer-altar",
+      "titulo": "El primer altar de Abraham en Canaán",
+      "fecha": "c. 1850 a.C.",
+      "descripcion": "Siquem fue el primer lugar donde Abraham se detuvo al llegar a Canaán, junto al encinar de Moré. Allí YHWH se le apareció y le dijo: A tu descendencia daré esta tierra. Abraham construyó un altar —el primero mencionado en Canaán— antes de continuar hacia Betel. La encina de Moré, probablemente un árbol oráculo cananeo, fue apropiada por la narrativa yahvista como primer lugar de revelación en la tierra prometida.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 12:6-7"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "abraham"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "asamblea-jos24",
+      "titulo": "La gran asamblea del pacto: Yo y mi casa serviremos al SEÑOR",
+      "fecha": "c. 1180 a.C.",
+      "descripcion": "Al final de su vida, Josué convocó a todas las tribus de Israel en Siquem para renovar el pacto con YHWH. Repasó la historia de la salvación desde Abraham hasta la conquista y puso ante el pueblo una elección: servir a los dioses de los padres o a YHWH. La respuesta del pueblo fue sellada con una piedra levantada como testigo bajo el encinar del santuario.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 24:1-28"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "abimelec-rey",
+      "titulo": "Abimelec: el primer rey de Israel y la fábula de los árboles",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Abimelec, hijo de Gedeón, mató a setenta hermanos sobre una misma piedra y fue proclamado rey junto al encinar de Siquem. Su hermano Jotam pronunció desde el Monte Guerizim la primera fábula política de la Biblia: los árboles eligieron rey al espino porque los buenos árboles —olivo, higuera, vid— prefirieron su propia vocación. Siquem destruyó finalmente a Abimelec, quien murió cuando una mujer le arrojó una piedra de molino.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 9:1-57"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jacob-siquem",
+      "nombre": "Jacob",
+      "emoji": "🏕️",
+      "rol": "Patriarca, propietario del campo donde se enterró a José",
+      "periodo": "c. 1750 a.C.",
+      "descripcion": "Jacob compró el campo cerca de Siquem a los hijos de Hamor por cien monedas de plata. Allí plantó su tienda y erigió un altar que llamó El-Elohe-Israel (Dios, el Dios de Israel). El campo de Jacob en Siquem es donde los huesos de José encontraron su reposo final, cerrando el ciclo de la saga patriarcal.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 33:18-20",
+        "Gn 34:1-31",
+        "Jos 24:32"
       ],
-      "ruta": []
+      "ruta": [
+        "haran",
+        "shechem",
+        "bethel",
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "josue-siquem",
+      "nombre": "Josué",
+      "emoji": "📜",
+      "rol": "Conductor de la asamblea del pacto",
+      "periodo": "c. 1180 a.C.",
+      "descripcion": "Al final de su vida, Josué eligió Siquem para la gran asamblea de renovación del pacto. Esta elección confirma el peso simbólico de la ciudad: primer altar de Abraham, campo de Jacob, cruce de las montañas de bendición y maldición. La piedra levantada por Josué como testigo del pacto es uno de los últimos actos de la conquista.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 24:1-28"
       ],
-      "ruta": []
+      "ruta": [
+        "jericho",
+        "shechem",
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "roboam-siquem",
+      "nombre": "Roboam",
+      "emoji": "👑",
+      "rol": "Último rey del reino unido, primero de Judá",
+      "periodo": "c. 931–913 a.C.",
+      "descripcion": "Roboam fue a Siquem porque todo Israel había ido a hacerle rey. Cuando rechazó aliviar las cargas impuestas por Salomón, las diez tribus del norte se separaron bajo Jeroboam. La escisión del reino unido se produjo precisamente en Siquem, el lugar donde Josué había renovado el pacto de unidad.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 12:1-19"
       ],
-      "ruta": []
+      "ruta": [
+        "shechem",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Siquem es el centro geográfico y teológico de la promesa territorial. Es el primer lugar donde YHWH se revela en Canaán (a Abraham), el lugar de la gran asamblea del pacto (con Josué) y el escenario de la ruptura política del pueblo (con Roboam). El par de montañas Ebal-Guerizim enmarcan físicamente la condición del pacto: la tierra es don y exigencia simultáneamente. En el Nuevo Testamento, el Pozo de Jacob es el lugar del diálogo de Jesús con la mujer samaritana.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo (culto a Baal-Berit en el templo de Siquem)",
+      "Yahvismo patriarcal y de la conquista",
+      "Yahvismo samaritano (centrado en el Monte Guerizim)",
+      "Judaísmo del Segundo Templo"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "guerizim-ebal",
+        "nombre": "Bendiciones en Guerizim, maldiciones en Ebal",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Deuteronomio 11:29-30; 27:11-26; Josué 8:30-35",
+          "fuente_secundaria": "Mishná, Sotá 7:5; Talmud Bavli, Sotá 32a-37b",
+          "descripcion": "Moisés ordenó que al entrar en Canaán, seis tribus se pusieran en el Monte Guerizim para pronunciar las bendiciones y seis en el Monte Ebal para las maldiciones. Josué cumplió el mandato: construyó un altar en el Ebal, ofreció sacrificios y leyó toda la Torá ante el pueblo.",
+          "similitudes": "Las ceremonias de bendición y maldición en montañas tienen paralelos en rituales hetitas de renovación de alianzas.",
+          "diferencias": "La tradición samaritana coloca el altar en el Guerizim, no en el Ebal; la diferencia entre los Pentateucos masorético y samaritano en este punto es una de las más significativas.",
+          "significado_teologico": "La tierra prometida no es incondicional: su posesión depende de la fidelidad al pacto. El paisaje mismo proclama esta condición.",
+          "posible_relacion_cultural": "Los tratados de vasallaje hetitas del Bronce Tardío incluyen listas de bendiciones y maldiciones comparables en estructura y función."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]
   },
   "periodos_at": [
+    "bronce_medio",
     "bronce_tardio",
     "hierro_1",
     "hierro_2"

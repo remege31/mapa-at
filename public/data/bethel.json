@@ -1,6 +1,6 @@
 {
   "id": "bethel",
-  "nombre": "Bethel",
+  "nombre": "Betel",
   "tipo": "ciudad",
   "lat": 31.9305,
   "lng": 35.221,
@@ -8,143 +8,204 @@
   "jerarquia_pin": "primario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Important city in Israel, associated with Abraham and Jacob.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -2100,
+      "hasta": -1550,
+      "nombre": "Edad de Bronce Media — Período Patriarcal"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Canaán preconquista"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Asentamiento tribal"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Reino dividido"
+    }
+  ],
+  "descripcion_geo": "Betel se encuentra en las tierras altas de Benjamín, a unos 18 km al norte de Jerusalén, a 880 metros sobre el nivel del mar. Situada en el cruce de dos rutas principales —la ruta de la montaña norte-sur y el camino que desciende hacia Jericó— controlaba el acceso al corazón de Canaán. Su posición elevada le daba dominio visual sobre valles fértiles y permitía comunicación con ciudades vecinas como Hai y Mizpah.",
+  "altitud_m": 880,
+  "clima": "Mediterráneo de montaña — veranos secos y cálidos, inviernos fríos con precipitaciones frecuentes. Las lluvias anuales alcanzan los 550-650 mm, suficientes para la agricultura de secano.",
+  "recursos": [
+    "Agua (manantiales locales y cisternas talladas en roca)",
+    "Piedra caliza (construcción)",
+    "Tierras de cultivo en terrazas",
+    "Pastos para ganado"
+  ],
+  "importancia_estrategica": "Controlaba el nudo de caminos entre Jerusalén y Siquem, y el acceso desde la llanura costera hacia el interior montañoso. Su altura la convertía en posición defensiva natural. Como centro religioso preisraelita y luego santuario real del norte, concentraba poder político y sacerdotal simultáneamente.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-bethel",
+      "nombre": "Cananeos de Luz",
+      "descripcion": "El nombre original de Betel era Luz, ciudad cananea de considerable tamaño. Sus habitantes practicaban cultos de fertilidad en lugares altos. Cuando la casa de José la capturó (Jue 1:22-26), un habitante les mostró la entrada a cambio de su vida.",
+      "religion": "Politeísmo cananeo — culto a Baal y Asera en bamot (altares en lugares altos)",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "bethel-sacerdotes",
+      "nombre": "Sacerdotes del santuario real",
+      "descripcion": "Tras la división del reino (c. 930 a.C.), Jeroboam I instaló en Betel un clero no levítico para servir al becerro de oro. El sacerdote Amasías, jefe del santuario, confrontó al profeta Amós y lo expulsó de la ciudad (Am 7:10-17).",
+      "religion": "Culto yahvista sincretista — adoración de YHWH bajo forma de becerro de oro",
+      "periodo": "c. 930–722 a.C. (período del Reino del Norte)"
+    },
+    {
+      "id": "bethel-asirios",
+      "nombre": "Colonos asirios y samaritanos",
+      "descripcion": "Tras la caída de Samaria (722 a.C.), los asirios repoblaron la región con pueblos de otras provincias. Un sacerdote israelita fue enviado de regreso a Betel para enseñar a los nuevos habitantes la religión del dios de esa tierra (2 Re 17:27-28).",
+      "religion": "Sincretismo — mezcla de culto yahvista con tradiciones religiosas mesopotámicas",
+      "periodo": "c. 722–539 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jacob-escalera",
+      "titulo": "La escalera de Jacob: el umbral del cielo",
+      "fecha": "c. 1800 a.C.",
+      "descripcion": "Huyendo de su hermano Esaú, Jacob acampó en Luz y durmió con una piedra por almohada. En sueños vio una escalera que unía la tierra con el cielo, por la que subían y bajaban ángeles. YHWH le renovó las promesas hechas a Abraham. Al despertar, Jacob ungió la piedra con aceite, la declaró casa de Dios y prometió diezmos si regresaba sano. El lugar recibió el nombre de Betel. Más tarde, al volver de Padán-Aram, Dios le ordenó regresar a Betel, donde Jacob enterró los ídolos de su familia, recibió el nombre de Israel y construyó un altar.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 28:10-22",
+        "Gn 35:1-15"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "jacob"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jeroboam-becerro",
+      "titulo": "El becerro de oro: el santuario del reino dividido",
+      "fecha": "c. 930 a.C.",
+      "descripcion": "Tras la muerte de Salomón y la secesión de las diez tribus del norte, Jeroboam I estableció dos becerros de oro —uno en Betel y otro en Dan— para evitar que el pueblo peregrinara a Jerusalén. El profeta anónimo de Judá que llegó a denunciar el altar fue devorado por un león. Amós y Oseas profetizaron contra el santuario, llamándolo Bet-Avén (casa de la maldad).",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 12:26-33",
+        "1 Re 13:1-32",
+        "Am 7:10-17",
+        "Os 10:5-8"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "jeroboam",
+        "amos"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "elias-eliseo-bethel",
+      "titulo": "Eliseo y los hijos de los profetas",
+      "fecha": "c. 850 a.C.",
+      "descripcion": "Betel albergaba una comunidad de hijos de los profetas, discípulos organizados bajo la dirección de Elías y luego Eliseo. Cuando Eliseo subía el camino desde Jericó a Betel, un grupo de muchachos lo insultó. La comunidad profética de Betel servía como contrapeso espiritual al culto oficial del santuario real.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 2:1-3",
+        "2 Re 2:23-25",
+        "2 Re 4:38-41"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "eliseo"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jacob",
+      "nombre": "Jacob / Israel",
+      "emoji": "🪨",
+      "rol": "Patriarca, fundador epónimo del pueblo de Israel",
+      "periodo": "c. 1800–1700 a.C.",
+      "descripcion": "Nieto de Abraham e hijo de Isaac, Jacob es el patriarca que recibe en Betel la visión que marca el inicio de su vocación. Su nombre cambia a Israel tras luchar con el ángel en el Jaboc. En Betel enterró los ídolos domésticos de su familia, señal de una purificación religiosa antes de renovar el pacto.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 28:10-22",
+        "Gn 32:22-32",
+        "Gn 35:1-15"
       ],
-      "ruta": []
+      "ruta": [
+        "haran",
+        "shechem",
+        "bethel",
+        "hebron",
+        "bethlehem"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jeroboam",
+      "nombre": "Jeroboam I",
+      "emoji": "👑",
+      "rol": "Primer rey del Reino del Norte (Israel)",
+      "periodo": "c. 931–910 a.C.",
+      "descripcion": "Antiguo funcionario de Salomón que encabezó la secesión de las diez tribus del norte. Su decisión de instalar el becerro de oro en Betel y Dan fue condenada por los profetas como el pecado de Jeroboam, fórmula que los libros de Reyes repiten para cada uno de sus sucesores.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 11:26-40",
+        "1 Re 12:20-33",
+        "1 Re 13:33-34"
       ],
-      "ruta": []
+      "ruta": [
+        "shechem",
+        "bethel",
+        "dan"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "amos",
+      "nombre": "Amós",
+      "emoji": "📯",
+      "rol": "Profeta de Judá enviado al reino del norte",
+      "periodo": "c. 760–750 a.C.",
+      "descripcion": "Pastor y cuidador de sicómoros de Tecoa (Judá), Amós fue llamado a profetizar en Betel durante el reinado de Jeroboam II. Sus oráculos contra la injusticia social y el culto vacío provocaron la expulsión ordenada por el sacerdote Amasías. Su libro es el más antiguo de los profetas escritores.",
       "referencias": [
-        "// PENDIENTE"
+        "Am 1:1",
+        "Am 7:10-17",
+        "Am 8:1-14"
       ],
-      "ruta": []
+      "ruta": [
+        "bethel"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Betel es uno de los lugares más cargados religiosamente del Antiguo Testamento. Antes de Israel, era ya un lugar de culto cananeo en Luz. La visión de Jacob lo convierte en el primer santuario fundado por un patriarca con nombre teofórico explícito. Esta sacralidad fue apropiada por el reino del norte para legitimar un culto alternativo a Jerusalén, generando la tensión que atraviesa toda la historia del lugar. Los profetas Amós y Oseas llamaron al santuario Bet-Avén (casa de la maldad), invirtiendo su nombre para señalar la idolatría oficial. El rey Josías destruyó el santuario y profanó el altar (2 Re 23:15-20), cumpliendo la profecía anónima del siglo anterior.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo patriarcal (Abraham, Jacob)",
+      "Politeísmo cananeo (período preisraelita)",
+      "Yahvismo sincretista (culto al becerro de oro, reino del norte)",
+      "Profetismo yahvista (comunidades de hijos de los profetas)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "escalera-cielo",
+        "nombre": "La escalera de Jacob (Sulam Yaakov)",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
-          "islam": false
+          "islam": true
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Génesis 28:10-22",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 68-69; Zohar I, 149b",
+          "descripcion": "La escalera conecta tierra y cielo; los ángeles que suben y bajan son interpretados en el Midrash como los ángeles guardianes de las naciones. La piedra ungida por Jacob es identificada con la piedra fundacional sobre la que se construyó el Templo de Jerusalén.",
+          "similitudes": "La piedra sagrada y la unción con aceite conectan con tradiciones de piedras betilas en todo el Cercano Oriente antiguo.",
+          "diferencias": "A diferencia de otros cultos de piedra, la tradición judía desplaza la sacralidad de Betel hacia Jerusalén, subordinando el santuario norteño al Templo.",
+          "significado_teologico": "Betel como puerta del cielo establece que la presencia divina no está limitada a un lugar, sino que se revela donde YHWH elige manifestarse.",
+          "posible_relacion_cultural": "Los templos zigurat mesopotámicos, escaleras que unían tierra y cielo, son el paralelo cultural más cercano."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Juan 1:51",
+          "fuente_secundaria": "Orígenes, Homilías sobre el Génesis; Agustín, Ciudad de Dios XVI",
+          "descripcion": "Jesús reinterpreta la visión de Jacob refiriéndola a sí mismo: Veréis el cielo abierto y a los ángeles de Dios subir y bajar sobre el Hijo del Hombre. La escalera es figura de Cristo como mediador entre Dios y la humanidad.",
+          "similitudes": "La estructura de mediación cielo-tierra es compartida: tanto Jacob como Jesús son el punto de contacto entre lo divino y lo humano.",
+          "diferencias": "En la tradición cristiana, la escalera no apunta a un lugar geográfico sino a una persona. Betel pierde centralidad geográfica en favor de la cristología.",
+          "significado_teologico": "Cristo como nueva escalera o puerta del cielo cumple y supera el simbolismo del santuario de Betel.",
           "posible_relacion_cultural": null
         },
-        "islam": null
+        "islam": {
+          "fuente_primaria": "Corán — no menciona Betel explícitamente",
+          "fuente_secundaria": "Tafsir de Ibn Kathir sobre Yusuf; tradiciones sobre Yaqub",
+          "descripcion": "La tradición islámica reconoce a Yaqub como profeta y patriarca, pero la visión de la escalera no aparece en el Corán. Las tradiciones exegéticas conocen la historia a través de fuentes judías y cristianas.",
+          "similitudes": "El reconocimiento de Jacob como profeta y la importancia de Canaán como tierra prometida son compartidos.",
+          "diferencias": "El Corán no tematiza Betel ni la escalera; la revelación a Yaqub se describe de modo genérico sin detalles topográficos.",
+          "significado_teologico": "Betel no tiene relevancia especial en la teología islámica; la tierra santa por excelencia es La Meca y Jerusalén.",
+          "posible_relacion_cultural": null
+        }
       }
     ]
   },

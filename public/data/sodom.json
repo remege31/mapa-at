@@ -1,154 +1,200 @@
 {
   "id": "sodom",
-  "nombre": "Sodom",
+  "nombre": "Sodoma",
   "tipo": "ciudad",
-  "lat": 31.1966,
-  "lng": 35.3965,
-  "frecuencia_at": 49,
-  "jerarquia_pin": "primario",
+  "lat": 31.1,
+  "lng": 35.48,
+  "frecuencia_at": 48,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
+      "desde": -2100,
+      "hasta": -1550,
+      "nombre": "Edad de Bronce Media — Ciudad de la Pentápolis del Mar Salado"
     }
   ],
-  "descripcion_geo": "// PENDIENTE — Wicked city destroyed by God for its sins",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
+  "descripcion_geo": "La ubicación exacta de Sodoma es uno de los debates arqueológicos más activos del estudio bíblico. La tradición más extendida la sitúa en el extremo sur del Mar Muerto, en la llanura de Sidim, posiblemente bajo las aguas actuales o en la zona de Bab edh-Dhra (Jordania). Era parte de la Pentápolis, confederación de cinco ciudades (Sodoma, Gomorra, Admá, Zeboím y Bela/Zoar) que controlaban la fértil llanura regada por el Jordán antes de la catástrofe.",
+  "altitud_m": -400,
+  "clima": "Árido extremo — el extremo sur del Mar Muerto es una de las regiones más cálidas y secas de la tierra. Antes de la catástrofe, el texto bíblico describe la llanura como un jardín bien regado, como el jardín de YHWH o como la tierra de Egipto (Gn 13:10).",
   "recursos": [
-    "// PENDIENTE"
+    "Agua (el Jordán irrigaba la llanura antes de la catástrofe)",
+    "Betún natural (la llanura de Sidim tenía pozos de betún, Gn 14:10)",
+    "Sal y minerales del Mar Muerto",
+    "Tierras agrícolas fértiles (antes de la destrucción)"
   ],
-  "importancia_estrategica": "// PENDIENTE",
+  "importancia_estrategica": "Controla la ruta sur del Jordán y el acceso al Mar Muerto y sus recursos minerales. Como centro de la Pentápolis, era la ciudad más importante de la confederación de las llanuras. Su destrucción convirtió una región fértil en el desierto salino del extremo sur del Mar Muerto.",
   "otros_habitantes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "id": "cananeos-sodoma",
+      "nombre": "Cananeos de la Pentápolis",
+      "descripcion": "Las cinco ciudades de la llanura eran ciudades-estado cananeas con una confederación política y militar propia. Tributaban al rey Quedorlaomer de Elam durante doce años antes de rebelarse (Gn 14:4). Sus habitantes son descritos por el texto bíblico como muy malvados y pecadores contra YHWH (Gn 13:13), aunque la naturaleza exacta de ese pecado ha sido objeto de debate exegético.",
+      "religion": "Politeísmo cananeo — culto a divinidades locales de las llanuras",
+      "periodo": "c. 2100–1900 a.C. (Bronce Medio)"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "id": "lot-familia",
+      "nombre": "Familia de Lot",
+      "descripcion": "Lot, sobrino de Abraham, eligió asentarse en la llanura del Jordán y eventualmente en la ciudad de Sodoma, atraído por su fertilidad. Su presencia en la ciudad cuando llegaron los dos ángeles hace que su familia sea la única salvada. La esposa de Lot, que miró atrás, se convirtió en estatua de sal. Los dos hijos que Lot engendró con sus hijas en la cueva tras la destrucción —Moab y Ben-Amí— son los antepasados epónimos de moabitas y amonitas.",
+      "religion": "Yahvismo de la tradición patriarcal",
+      "periodo": "c. 1800 a.C."
+    },
+    {
+      "id": "reyes-sodoma",
+      "nombre": "Los cinco reyes de la Pentápolis",
+      "descripcion": "El capítulo 14 del Génesis describe la primera guerra narrada en la Biblia: cuatro reyes orientales contra los cinco reyes de la Pentápolis. Quedorlaomer de Elam y sus aliados derrotaron a los cinco reyes en el valle de Sidim. Abraham intervino con 318 guerreros entrenados para liberar a Lot capturado. El rey de Sodoma ofreció el botín a Abraham, quien lo rechazó para no deber su riqueza a ningún hombre.",
+      "religion": "Politeísmo de las ciudades-estado cananeas",
+      "periodo": "c. 1900–1800 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "abraham-intercesion",
+      "titulo": "Abraham intercede por Sodoma: ¿destruirás al justo con el impío?",
+      "fecha": "c. 1800 a.C.",
+      "descripcion": "Cuando YHWH reveló a Abraham su intención de destruir Sodoma, Abraham inició una de las negociaciones más audaces de la literatura religiosa: ¿Destruirás al justo con el impío? ¿No hará justicia el juez de toda la tierra? Progresivamente bajó el umbral de los justos necesarios para salvar la ciudad: de cincuenta a cuarenta y cinco, a cuarenta, a treinta, a veinte, a diez. YHWH aceptó cada condición. La ciudad fue destruida porque no había ni siquiera diez justos. La intercesión de Abraham es el primer texto bíblico sobre la oración de petición en favor de otros y sobre la justicia divina.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 18:16-33"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "abraham",
+        "lot"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "destruccion-sodoma",
+      "titulo": "La destrucción de Sodoma: lluvia de fuego y azufre",
+      "fecha": "c. 1800 a.C.",
+      "descripcion": "Los dos ángeles que llegaron a Sodoma fueron reconocidos por Lot como mensajeros divinos. Ante la hostilidad de los sodomitas, cegaron a los atacantes y ordenaron a Lot huir con su familia sin mirar atrás. Al amanecer, YHWH hizo llover sobre Sodoma y Gomorra azufre y fuego desde el cielo. La mujer de Lot miró atrás y se convirtió en estatua de sal. Abraham vio desde Mamré cómo subía humo de la tierra como el humo de un horno. La destrucción de Sodoma se convirtió en el paradigma bíblico del juicio divino sobre la maldad colectiva.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 19:1-29"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "lot",
+        "abraham"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "profecias-sodoma",
+      "titulo": "Sodoma como paradigma profético: el pecado que dura para siempre",
+      "fecha": "c. 760–580 a.C.",
+      "descripcion": "Los profetas usaron Sodoma como la medida máxima de la maldad y el juicio. Isaías compara la corrupción de Jerusalén con Sodoma (Is 1:10). Amós menciona a Sodoma y Gomorra como ejemplo de destrucción divina (Am 4:11). Jeremías afirma que el pecado de Judá supera al de Sodoma (Jr 23:14). Ezequiel identifica el pecado de Sodoma no con la violencia sexual sino con el orgullo, la saciedad y la indiferencia ante el pobre (Ez 16:49-50). Esta última caracterización ha influido profundamente en la teología social contemporánea.",
       "referencias": [
-        "// PENDIENTE"
+        "Is 1:9-10",
+        "Am 4:11",
+        "Jr 23:14",
+        "Ez 16:49-50",
+        "Mt 10:15"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "lot"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "lot",
+      "nombre": "Lot",
+      "emoji": "🧂",
+      "rol": "Sobrino de Abraham, único justo salvado de Sodoma",
+      "periodo": "c. 1800 a.C.",
+      "descripcion": "Lot emigró con Abraham desde Ur y se separó de él en Canaán, eligiendo la fértil llanura del Jordán. Su gradual compromiso con Sodoma —primero tiende sus tiendas hacia la ciudad, luego habita en ella, finalmente se sienta en la puerta como magistrado— es leído por los comentaristas como una progresiva asimilación al mundo que le rodea. Su ambivalencia ante el mal (ofrece a sus hijas a la turba) y su embriaguez posterior cuestionan su estatura moral. No obstante, el NT lo llama justo (2 Pe 2:7-8).",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 13:1-13",
+        "Gn 14:1-16",
+        "Gn 19:1-38"
       ],
-      "ruta": []
+      "ruta": [
+        "haran",
+        "shechem",
+        "bethel",
+        "hebron",
+        "sodom",
+        "zoar"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "abraham-sodoma",
+      "nombre": "Abraham",
+      "emoji": "⛺",
+      "rol": "Intercesor por los justos de Sodoma",
+      "periodo": "c. 1800 a.C.",
+      "descripcion": "La intercesión de Abraham por Sodoma revela una dimensión del personaje que va más allá del obediente ejecutor de mandatos divinos: es un negociador que apela a la justicia intrínseca de Dios. Su argumento —que destruir al justo con el impío sería contrario a la propia naturaleza divina— establece el fundamento de la teología profética de la justicia. La escena es uno de los diálogos más intimistas entre Dios y un ser humano en todo el AT.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 18:16-33",
+        "Gn 19:27-29"
       ],
-      "ruta": []
+      "ruta": [
+        "haran",
+        "shechem",
+        "bethel",
+        "hebron",
+        "beersheba"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "angeles-sodoma",
+      "nombre": "Los dos ángeles (mensajeros)",
+      "emoji": "👼",
+      "rol": "Ejecutores del juicio divino sobre Sodoma",
+      "periodo": "c. 1800 a.C.",
+      "descripcion": "Los dos mensajeros divinos que visitaron a Abraham en Mamré llegaron a Sodoma al atardecer. Su encuentro con Lot en la puerta de la ciudad, la hospitalidad ofrecida, el asedio de la turba, la ceguera de los atacantes y la orden de fuga constituyen el relato más dramático del ciclo de Abraham. La identidad de estos seres —ángeles, manifestaciones divinas, hombres con poderes especiales— ha generado siglos de debate teológico.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 18:1-3",
+        "Gn 19:1-22"
       ],
-      "ruta": []
+      "ruta": [
+        "hebron",
+        "sodom"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Sodoma es el símbolo bíblico por antonomasia de la ciudad condenada. Su destrucción por fuego y azufre —posiblemente relacionada con actividad sísmica o volcánica en la falla del Mar Muerto— se convirtió en el paradigma del juicio divino sobre la maldad colectiva. Pero el debate sobre cuál era exactamente el pecado de Sodoma ha generado lecturas muy diferentes: la tradición más literal enfatiza la violencia sexual, mientras que Ezequiel la reinterpreta como orgullo, saciedad e indiferencia ante el pobre —una lectura que tiene enorme relevancia para la teología social contemporánea. En el Islam, la ciudad de Lut (Lot) es destruida como castigo divino a quienes rechazaron al profeta.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo (período predestrucción)",
+      "Yahvismo patriarcal (presencia de Lot)",
+      "Tradición profética (Sodoma como paradigma del juicio)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "destruccion-paradigma",
+        "nombre": "La destrucción de Sodoma: paradigma del juicio divino",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
-          "islam": false
+          "islam": true
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Génesis 18-19; Ezequiel 16:49-50; Amós 4:11",
+          "fuente_secundaria": "Mishná, Sanhedrin 10:3; Talmud Bavli, Sanhedrin 109a; Yalkut Shimoni",
+          "descripcion": "El Talmud debate extensamente el pecado de Sodoma: los sodomitas negaban la hospitalidad, no permitían que los pobres mendigaran y tenían un sistema legal perverso que formalmente legal encubría la injusticia. La cama de Sodoma (middat Sedom) se convirtió en proverbio: la tendencia a hacer las cosas formalmente correctas pero substancialmente injustas.",
+          "similitudes": "El juicio divino sobre la ciudad corrupta tiene paralelos en el diluvio y en la destrucción de Jericó.",
+          "diferencias": "A diferencia del diluvio (toda la humanidad) y Jericó (guerra santa), Sodoma es destruida por su maldad moral intrínseca sin mediación militar.",
+          "significado_teologico": "La hospitalidad al extranjero (hakhnasat orejim) es un valor cardinal en el judaísmo, definido por contraste con el anti-modelo de Sodoma.",
+          "posible_relacion_cultural": "Los relatos de ciudades destruidas por la divinidad son comunes en la literatura del Bronce Medio: el lamento sumerio por la destrucción de Ur tiene estructura similar."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Mateo 10:15; 2 Pedro 2:6-8; Judas 7; Apocalipsis 11:8",
+          "fuente_secundaria": "Agustín, Ciudad de Dios XVI; Tertuliano; Orígenes",
+          "descripcion": "Jesús usa Sodoma como medida del juicio que vendrá sobre las ciudades que rechacen a sus discípulos: será más soportable el castigo de Sodoma que el de esas ciudades (Mt 10:15). El Apocalipsis llama a Jerusalén Sodoma y Egipto metafóricamente (Ap 11:8). La carta de Judas interpreta el pecado de Sodoma como inmoralidad sexual.",
+          "similitudes": "Sodoma como paradigma del juicio divino es compartido por las tres tradiciones.",
+          "diferencias": "El NT enfatiza la dimensión de rechazo al mensajero divino más que el pecado específico de Sodoma.",
+          "significado_teologico": "El rechazo del mensajero divino (el misionero, el Hijo) es más grave que los pecados de Sodoma.",
           "posible_relacion_cultural": null
         },
-        "islam": null
+        "islam": {
+          "fuente_primaria": "Corán, Sura 7:80-84 (Al-A'raf); Sura 11:77-83 (Hud); Sura 26:160-175 (Ash-Shu'ara)",
+          "fuente_secundaria": "Ibn Kathir, Qisas al-Anbiya — Historia de Lut",
+          "descripcion": "En el Corán, Lut (Lot) es un profeta enviado a su pueblo para advertirle de sus pecados. El pueblo rechazó la advertencia y los ángeles que visitaron a Lut. Allah destruyó la ciudad con una lluvia de piedras de barro cocido (hijara min sijjil), convirtiendo la tierra al revés. La esposa de Lut, que se quedó atrás, fue destruida con los demás.",
+          "similitudes": "La estructura del relato —profeta, advertencia rechazada, destrucción, salvación del creyente— es idéntica en las tres tradiciones.",
+          "diferencias": "En el Islam, Lut es un profeta con misión explícita; en el AT, Lot es un justo pero no un profeta. El Corán enfatiza el rechazo al profeta más que el pecado específico.",
+          "significado_teologico": "La destrucción de la ciudad de Lut es prueba de que Allah castiga a quienes rechazan a sus profetas y de que ningún poder humano puede resistir el juicio divino.",
+          "posible_relacion_cultural": null
+        }
       }
     ]
   },
   "periodos_at": [
-    "bronce_tardio"
+    "bronce_medio"
   ]
 }

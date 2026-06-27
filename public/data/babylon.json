@@ -1,155 +1,215 @@
 {
   "id": "babylon",
-  "nombre": "Babylon",
+  "nombre": "Babilonia",
   "tipo": "ciudad",
-  "lat": 32.5365,
-  "lng": 44.4209,
-  "frecuencia_at": 306,
-  "jerarquia_pin": "primario",
+  "lat": 32.5364,
+  "lng": 44.4208,
+  "frecuencia_at": 287,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Ancient Mesopotamian city, capital of Babylonian Empire, site of the Tower of Babel.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Ciudad casita"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ascenso del Imperio Neobabilónico"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Capital del exilio israelita"
+    }
+  ],
+  "descripcion_geo": "Babilonia se extendía a ambas orillas del río Éufrates, en la llanura aluvial de Mesopotamia (actual Irak), a unos 85 km al sur de Bagdad. En su apogeo bajo Nabucodonosor II (605-562 a.C.), era probablemente la ciudad más grande del mundo, con murallas dobles que rodeaban una superficie de unos 10 km², jardines colgantes y el zigurat Etemenanki —el modelo más probable de la Torre de Babel bíblica.",
+  "altitud_m": 32,
+  "clima": "Árido continental — veranos extremadamente calurosos (hasta 50°C), inviernos templados. Escasas precipitaciones (150 mm anuales). La agricultura dependía completamente del sistema de irrigación del Éufrates, uno de los más sofisticados del mundo antiguo.",
+  "recursos": [
+    "Agua (canales de irrigación del Éufrates)",
+    "Arcilla (materia prima de la arquitectura y escritura cuneiforme)",
+    "Cereales (trigo y cebada en la llanura irrigada)",
+    "Comercio (nodo de las rutas entre Persia, Arabia y el Mediterráneo)",
+    "Betún natural (impermeabilización y construcción)"
+  ],
+  "importancia_estrategica": "Capital del Imperio Neobabilónico y metrópoli más grande del mundo antiguo en el siglo VI a.C. Su destrucción del Templo de Jerusalén (586 a.C.) y la deportación de la élite judía determinaron la forma definitiva del judaísmo: fue en el exilio babilónico donde se compilaron y editaron gran parte de los textos del AT.",
+  "otros_habitantes": [
+    {
+      "id": "babilonios-caldeos",
+      "nombre": "Caldeos (babilonios)",
+      "descripcion": "Los caldeos, pueblo semítico que dominó Babilonia desde el siglo VII a.C., crearon el Imperio Neobabilónico bajo Nabopolasar y su hijo Nabucodonosor II. Su cultura combinaba la herencia sumeria y acadia con innovaciones propias en astronomía, matemáticas y literatura. La élite judía deportada convivió con esta civilización durante setenta años.",
+      "religion": "Politeísmo mesopotámico — culto a Marduk (dios principal), Ishtar, Nabu y el panteón babilónico",
+      "periodo": "c. 626–539 a.C."
+    },
+    {
+      "id": "judios-exilio",
+      "nombre": "Comunidad judía del exilio",
+      "descripcion": "La deportación de 597 y 586 a.C. llevó a Babilonia la élite intelectual, sacerdotal y política de Judá. Estas comunidades se establecieron en lugares como Tel-Aviv (Ez 3:15) y junto al río Quebar. Lejos del Templo, desarrollaron nuevas formas de culto (sinagogas, estudio de la Torá) que transformaron el judaísmo para siempre. Figuras como Ezequiel, Daniel y los autores del Deutero-Isaías produjeron en Babilonia textos fundamentales.",
+      "religion": "Yahvismo en transformación — liturgia sin templo, compilación de la Torá, apocalíptica naciente",
+      "periodo": "c. 597–538 a.C."
+    },
+    {
+      "id": "persas-babilonia",
+      "nombre": "Imperio Persa (conquistadores)",
+      "descripcion": "Ciro II de Persia conquistó Babilonia en 539 a.C. sin combate significativo, presentándose como liberador. Su decreto de repatriación (Esd 1:1-4) permitió el regreso de los judíos a Judá y la reconstrucción del Templo. La Biblia presenta a Ciro como el ungido de YHWH (Is 45:1), el único gobernante no israelita al que se aplica este título.",
+      "religion": "Zoroastrismo (mazdeísmo) — culto a Ahura Mazda, dualismo bien-mal",
+      "periodo": "c. 539–332 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "nabucodonosor-destruccion",
+      "titulo": "Nabucodonosor destruye Jerusalén: el trauma fundador",
+      "fecha": "586 a.C.",
+      "descripcion": "Tras dos deportaciones previas (605 y 597 a.C.), Nabucodonosor II sitió Jerusalén durante 18 meses. El 9 de Av del año 586 a.C. —fecha que el judaísmo sigue conmemorando con ayuno— el Templo de Salomón fue incendiado, las murallas demolidas y la mayoría de la población deportada. El rey Sedecías vio morir a sus hijos antes de ser cegado y llevado encadenado a Babilonia. El libro de las Lamentaciones expresa el duelo por esta catástrofe con una intensidad poética sin parangón.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 25:1-21",
+        "Jr 39:1-10",
+        "Lm 1:1-22",
+        "2 Cr 36:15-21"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "nabucodonosor",
+        "jeremias"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "exilio-babilonia",
+      "titulo": "Junto a los ríos de Babilonia: el exilio que forjó el judaísmo",
+      "fecha": "597–538 a.C.",
+      "descripcion": "Las comunidades judías deportadas a Babilonia se establecieron en colonias agrícolas a lo largo de los canales del Éufrates. Lejos del Templo, desarrollaron la sinagoga como lugar de reunión y estudio, compilaron y editaron las tradiciones escritas, y produjeron textos proféticos y legales que dieron forma al judaísmo rabínico posterior. El Salmo 137 —Junto a los ríos de Babilonia, allí nos sentamos y lloramos— es el documento poético más intenso de este período.",
       "referencias": [
-        "// PENDIENTE"
+        "Sal 137:1-9",
+        "Ez 1:1-3",
+        "Ez 3:15",
+        "Is 40:1-11"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "ezequiel",
+        "daniel"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "ciro-decreto",
+      "titulo": "El decreto de Ciro: el fin del exilio",
+      "fecha": "538 a.C.",
+      "descripcion": "En el primer año de su reinado sobre Babilonia, Ciro II de Persia emitió un decreto permitiendo a los judíos regresar a Judá y reconstruir el Templo. La Biblia interpreta esta acción como cumplimiento de la profecía de Jeremías (70 años de exilio, Jr 29:10) y el Deutero-Isaías llama a Ciro ungido de YHWH. No todos los judíos regresaron: muchos habían prosperado en Babilonia y prefirieron quedarse, formando la diáspora babilónica que persistiría durante siglos.",
       "referencias": [
-        "// PENDIENTE"
+        "Esd 1:1-4",
+        "Is 44:28",
+        "Is 45:1-7",
+        "Jr 29:10"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "ciro"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "nabucodonosor",
+      "nombre": "Nabucodonosor II",
+      "emoji": "⚔️",
+      "rol": "Rey de Babilonia, destructor del Templo de Jerusalén",
+      "periodo": "605–562 a.C.",
+      "descripcion": "El mayor monarca del Imperio Neobabilónico, constructor de los Jardines Colgantes y del Etemenanki. Para Israel, es el instrumento del juicio divino sobre el pueblo infiel. El libro de Daniel lo describe sufriendo una locura temporal que lo convierte paradójicamente en creyente en el Dios de Israel. Sus inscripciones confirman las tres campañas contra Judá descritas en los libros de Reyes y Jeremías.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 24:1-17",
+        "Jr 27:6",
+        "Dn 1:1-2",
+        "Dn 4:1-37"
       ],
-      "ruta": []
+      "ruta": [
+        "babylon",
+        "jerusalen"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "daniel",
+      "nombre": "Daniel",
+      "emoji": "🦁",
+      "rol": "Sabio judío en la corte babilónica",
+      "periodo": "c. 605–530 a.C.",
+      "descripcion": "Joven deportado de la familia real de Judá, Daniel fue educado en la corte babilónica y llegó a ser alto funcionario bajo Nabucodonosor, Belsasar y Ciro. Su fidelidad a las leyes judías (dieta, oración) en medio de la corte pagana lo convierte en modelo de vida judía en la diáspora. Sus visiones apocalípticas —los cuatro reinos, el hijo del hombre— influyeron profundamente en la escatología judía y cristiana.",
       "referencias": [
-        "// PENDIENTE"
+        "Dn 1:1-21",
+        "Dn 2:1-49",
+        "Dn 6:1-28",
+        "Dn 7:1-28"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "babylon"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "ezequiel",
+      "nombre": "Ezequiel ben Buzi",
+      "emoji": "👁️",
+      "rol": "Profeta del exilio, sacerdote visionario",
+      "periodo": "c. 593–571 a.C.",
+      "descripcion": "Sacerdote deportado en 597 a.C., Ezequiel profetizó entre los exiliados junto al canal Quebar. Sus visiones —el carro de Dios (merkabá), el valle de los huesos secos, el nuevo Templo— son las más complejas y enigmáticas de toda la profecía bíblica. Introdujo la responsabilidad individual (cada uno muere por su propio pecado) en contraste con la solidaridad colectiva anterior, y su visión del Templo futuro inspiró siglos de mesianismo.",
       "referencias": [
-        "// PENDIENTE"
+        "Ez 1:1-28",
+        "Ez 3:15",
+        "Ez 37:1-14",
+        "Ez 40:1-4"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "babylon"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Babilonia es el horizonte ominoso del Antiguo Testamento —la fuerza que destruye lo que Israel más amaba. Pero es también el crisol donde el judaísmo tomó su forma definitiva. Lejos del Templo, los exiliados desarrollaron una religión sin sacrificio, centrada en la Palabra escrita, la oración y la comunidad. El exilio babilónico produjo la edición final del Pentateuco, los grandes profetas del consolación (Deutero-Isaías), la literatura apocalíptica (Daniel, Ezequiel) y el salterio en su forma actual. En el Nuevo Testamento, Babilonia se convierte en código para Roma (Ap 14:8; 1 Pe 5:13), símbolo de todo poder imperial opresor.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo mesopotámico (culto a Marduk, Ishtar, Nabu)",
+      "Yahvismo en exilio — sinagoga, Torá, oración sin templo",
+      "Zoroastrismo persa (influencia en dualismo y angelología judía)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "torre-babel",
+        "nombre": "La Torre de Babel / Etemenanki",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
-          "islam": false
+          "islam": true
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Génesis 11:1-9",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 38; Josefo, Antigüedades I.4",
+          "descripcion": "La Torre de Babel es interpretada como el paradigma del orgullo humano que desafía a Dios. El Midrash identifica a Nimrod como el instigador y desarrolla la historia con detalles sobre la escala de la torre y los castigos individuales. La confusión de lenguas explica la diversidad lingüística de la humanidad.",
+          "similitudes": "El zigurat mesopotámico Etemenanki de Babilonia (90 m de altura, dedicado a Marduk) es el modelo arquitectónico más probable del relato bíblico.",
+          "diferencias": "El texto bíblico invierte el propósito del zigurat: mientras el zigurat es la casa donde el dios desciende al mundo, la torre bíblica es el intento humano de ascender al cielo.",
+          "significado_teologico": "La dispersión de los pueblos no es un accidente histórico sino la respuesta divina al centralismo idolátrico. La diversidad de lenguas es simultáneamente castigo y don.",
+          "posible_relacion_cultural": "El Enuma Elish babilónico y los himnos a Marduk describen Babilonia como el centro del cosmos y el umbilicus mundi; el texto bíblico es una polémica contra esta pretensión."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Génesis 11:1-9; Hechos 2:1-11; Apocalipsis 17-18",
+          "fuente_secundaria": "Agustín, Ciudad de Dios XVI.4; Orígenes, Contra Celso V.30",
+          "descripcion": "La confusión de Babel es revertida en Pentecostés (Hch 2): el Espíritu Santo permite que todos escuchen en su propia lengua, reunificando lo que Babel dispersó. El Apocalipsis usa Babilonia como símbolo de Roma y todo poder imperial opresor, anunciando su caída definitiva.",
+          "similitudes": "Babel como símbolo del orgullo humano contrario a Dios es compartido por ambas tradiciones.",
+          "diferencias": "El Nuevo Testamento añade la dimensión escatológica: la nueva Babilonia (Roma) caerá como cayó la antigua.",
+          "significado_teologico": "Pentecostés como anti-Babel: donde el orgullo dividió, el Espíritu une. La Iglesia universal es la respuesta de Dios a la dispersión de Babel.",
           "posible_relacion_cultural": null
         },
-        "islam": null
+        "islam": {
+          "fuente_primaria": "Corán, Sura 2:102 (mención de Harut y Marut en Babilonia)",
+          "fuente_secundaria": "Tafsir de Ibn Kathir sobre la Sura 2:102; Qisas al-Anbiya",
+          "descripcion": "El Corán menciona Babilonia en relación a dos ángeles, Harut y Marut, enviados para enseñar magia a los hombres como prueba. La tradición exegética islámica desarrolla la historia de la Torre con elementos similares a los judíos y asocia Nemrod (Nimrod) con la persecución de Ibrahim.",
+          "similitudes": "Babilonia como lugar de prueba espiritual y Nimrod como tirano impío son compartidos.",
+          "diferencias": "El Corán no desarrolla la confusión de lenguas; el énfasis cae en la magia y la desobediencia.",
+          "significado_teologico": "Babilonia en el Islam es símbolo del mundo corrompido por la magia y el alejamiento de Dios.",
+          "posible_relacion_cultural": null
+        }
       }
     ]
   },
   "periodos_at": [
-    "hierro_1",
+    "bronce_tardio",
     "hierro_2",
     "post_exilio"
   ]

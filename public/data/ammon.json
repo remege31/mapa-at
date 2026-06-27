@@ -1,147 +1,184 @@
 {
   "id": "ammon",
-  "nombre": "Ammon",
+  "nombre": "Ammón",
   "tipo": "ciudad",
-  "lat": 31.9502,
-  "lng": 35.9241,
-  "frecuencia_at": 143,
-  "jerarquia_pin": "primario",
+  "lat": 31.9539,
+  "lng": 35.9106,
+  "frecuencia_at": 42,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — An ancient nation and its capital city, enemies of Israel.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Reino amonita establecido"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Reino rival de Israel y Judá"
+    }
+  ],
+  "descripcion_geo": "Ammón (hoy Amán, capital de Jordania) se asentaba en las tierras altas de Transjordania, al este del río Jordán, en las cabeceras del río Jaboc. La ciudad de Rabbá (Rabbat-Ammón, la gran ciudad de Ammón) era la capital del reino amonita. Situada a unos 800 metros de altitud en la meseta transjordana, controlaba las rutas caravaneras entre Arabia y el norte de Siria.",
+  "altitud_m": 800,
+  "clima": "Mediterráneo continental — más seco que Cisjordania. Precipitaciones de 300-400 mm anuales, inviernos fríos, veranos calurosos y secos. La meseta es fértil en las zonas irrigadas por los afluentes del Jaboc.",
+  "recursos": [
+    "Tierras agrícolas en la meseta (cereales, olivos)",
+    "Pastos para ganado",
+    "Rutas caravaneras (comercio entre Arabia y Siria)",
+    "Hierro (recursos minerales en la región transjordana)"
+  ],
+  "importancia_estrategica": "Capital del reino amonita, uno de los estados transjordanos más persistentes en su resistencia a Israel. Rabbá de los amonitas es la ciudad que Joab sitió mientras David permanecía en Jerusalén —el contexto del pecado de David con Betsabé. Su posición en las rutas caravaneras le daba importancia comercial independiente.",
+  "otros_habitantes": [
+    {
+      "id": "amonitas",
+      "nombre": "Amonitas",
+      "descripcion": "Los amonitas son presentados en el AT como descendientes de Ben-Amí, hijo de Lot y su hija menor (Gn 19:38), lo que los convierte en parientes lejanos de Israel. Como los moabitas, estaban excluidos de la asamblea de YHWH hasta la décima generación (Dt 23:3). Sin embargo, la figura de Naamá la amonita —madre de Roboam— y la presencia de amonitas en la corte de Salomón complican esta exclusión teórica.",
+      "religion": "Politeísmo amonita — culto a Moloc (o Milcom), dios nacional al que se atribuían sacrificios de niños",
+      "periodo": "c. 1200–586 a.C."
+    },
+    {
+      "id": "naama-salomon",
+      "nombre": "Naamá la amonita y esposas extranjeras de Salomón",
+      "descripcion": "Salomón tuvo esposas de los pueblos vecinos, incluidas las amonitas. Naamá la amonita fue la madre de Roboam, el sucesor de Salomón (1 Re 14:21). Su presencia en el linaje real de Judá —al igual que Rut la moabita en el de David— demuestra que la exclusión teórica de los amonitas no era absoluta en la práctica. Salomón construyó un santuario para Milcom (dios amonita) en el Monte de los Olivos (1 Re 11:7), que Josías destruyó (2 Re 23:13).",
+      "religion": "Sincretismo salomónico — culto a Milcom en Jerusalén junto a los dioses de otras esposas extranjeras",
+      "periodo": "c. 970–930 a.C."
+    },
+    {
+      "id": "tobias-ammonita",
+      "nombre": "Tobías el amonita",
+      "descripcion": "Tobías el siervo amonita fue uno de los principales oponentes de Nehemías en la reconstrucción del muro de Jerusalén. Junto a Sanbalat y Gesem, conspiró contra Nehemías, intentó intimidarlo y minó el proyecto con burlas e intrigas. La presencia de un amonita con influencia en Jerusalén en el período post-exílico refleja la complejidad de las relaciones interétnicas en la región.",
+      "religion": "Sincretismo post-exílico — conexiones con el templo de Jerusalén a pesar de la hostilidad política",
+      "periodo": "c. 445 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jefte-ammonitas",
+      "titulo": "Jefté y el voto trágico: la victoria sobre Ammón y su precio",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Cuando los amonitas oprimieron a Israel en Transjordania, los ancianos de Galaad convocaron a Jefté, hijo de ramera expulsado por sus hermanos, para que los liderara. Jefté negoció su rehabilitación y marchó contra los amonitas. Antes de la batalla, hizo un voto a YHWH: lo primero que saliera de su casa al volver victorioso sería para YHWH. Venció a los amonitas con una derrota devastadora. Al regresar, su hija única salió a recibirlo con panderos y danzas. Jefté cumplió su voto. La tradición no precisa exactamente lo que esto significó pero la lectura más natural es el sacrificio de la joven. Su hija pidió dos meses para llorar su virginidad con sus amigas en los montes.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 11:1-40"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "jefte"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-rabbah",
+      "titulo": "El sitio de Rabbá y el pecado de David: Betsabé y Urías",
+      "fecha": "c. 990 a.C.",
+      "descripcion": "En la primavera, cuando los reyes salen a campaña, David envió a Joab a sitiar Rabbá de los amonitas mientras él permaneció en Jerusalén. Desde su terraza vio bañarse a Betsabé, esposa de Urías el heteo, uno de sus mejores guerreros en el frente. La llamó, se acostó con ella y cuando quedó embarazada, intentó disimularlo convocando a Urías del frente. Urías se negó a dormir en casa mientras sus compañeros estaban en campaña. David lo envió de regreso con una carta para Joab: Poned a Urías en lo más recio de la batalla y retiraos de él para que sea herido y muera. Urías murió. El profeta Natán confrontó a David con la parábola de la ovejita: Tú eres ese hombre. El episodio es el más moralmente perturbador de la narrativa davídica.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 11:1-27",
+        "2 Sam 12:1-25"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david",
+        "natan"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "naamah-nehemias",
+      "titulo": "Nehemías frente a los amonitas: la reconstrucción del muro",
+      "fecha": "c. 445 a.C.",
+      "descripcion": "Cuando Nehemías regresó a Jerusalén para reconstruir el muro, encontró la oposición coordinada de Sanbalat el horonita, Tobías el siervo amonita y Gesem el árabe. Las tácticas incluyeron el ridículo —¿Resucitarán las piedras de los montones de escombros?—, la amenaza de ataque militar, la convocatoria a negociaciones trampa y el soborno de profetas para intimidar a Nehemías. Este respondió con pragmatismo: los constructores trabajaban con una mano y con la otra sostenían una lanza. El muro fue terminado en 52 días.",
       "referencias": [
-        "// PENDIENTE"
+        "Neh 2:19-20",
+        "Neh 4:1-23",
+        "Neh 6:1-19"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "nehemias"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jefte",
+      "nombre": "Jefté el galaadita",
+      "emoji": "⚔️",
+      "rol": "Juez-guerrero, vencedor de Ammón",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Hijo de un hombre llamado Galaad y de una prostituta, Jefté fue expulsado de la herencia familiar por sus hermanos. Vivió como jefe de banda de marginados. Cuando los amonitas amenazaron a Israel, sus hermanos lo convocaron como comandante militar. Jefté negoció una rehabilitación formal antes de aceptar. Su victoria sobre los amonitas fue decisiva, pero su voto precipitado lo convirtió en una de las figuras más trágicas del libro de los Jueces. La ambigüedad moral de su historia —¿era el voto obligatorio? ¿lo cumplió literalmente?— ha generado siglos de debate.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 11:1-40",
+        "Jue 12:1-7",
+        "Heb 11:32"
       ],
-      "ruta": []
+      "ruta": [
+        "ammon"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-ammon",
+      "nombre": "David",
+      "emoji": "👑",
+      "rol": "Rey que sitió Rabbá mientras caía en pecado",
+      "periodo": "c. 1000–970 a.C.",
+      "descripcion": "La campaña contra Ammón fue el contexto del pecado más grave de David: el adulterio con Betsabé y el asesinato indirecto de Urías. La ironía es cargada: mientras Joab asediaba la capital amonita en nombre del rey, el rey usaba su poder para destruir a uno de sus mejores guerreros. El episodio marca el inicio del declive dinástico: espada, incesto, rebelión. El profeta Natán lo confrontó con una parábola que David mismo condenó antes de reconocer que era sobre él.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 10:1-19",
+        "2 Sam 11:1-27",
+        "2 Sam 12:1-31"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "hebron",
+        "ammon"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "nehemias",
+      "nombre": "Nehemías ben Hakalyá",
+      "emoji": "🧱",
+      "rol": "Copero del rey persa, reconstructor del muro de Jerusalén",
+      "periodo": "c. 445–430 a.C.",
+      "descripcion": "Copero del rey persa Artajerjes I, Nehemías obtuvo permiso para reconstruir el muro de Jerusalén tras enterarse de su estado ruinoso. Organizó la reconstrucción por secciones familiares, coordinó la defensa ante amenazas externas y reformó las prácticas sociales internas (usura, matrimonios mixtos). Su oponente Tobías el amonita representaba exactamente lo que Nehemías quería evitar: la infiltración extranjera en la comunidad reconstituida.",
       "referencias": [
-        "// PENDIENTE"
+        "Neh 1:1-11",
+        "Neh 2:1-20",
+        "Neh 4:1-23",
+        "Neh 13:1-31"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "ammon"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Ammón es el vecino transjordano que encarna la ambivalencia de las relaciones de Israel con los pueblos hermanos. Pariente de Israel según la genealogía de Lot, rival permanente en el campo de batalla, excluido de la asamblea por la ley deuteronomista pero presente en el linaje real a través de Naamá, madre de Roboam. El dios amonita Milcom, al que se atribuían sacrificios infantiles, recibió un santuario en Jerusalén de manos de Salomón —el máximo pecado de sincretismo real. La oposición de Tobías el amonita a Nehemías es el último capítulo de esta relación ambivalente.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo amonita — culto a Milcom (Moloc)",
+      "Yahvismo de Israel (en permanente tensión con el culto amonita)",
+      "Sincretismo salomónico (templo de Milcom en Jerusalén)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "moloc-sacrificio",
+        "nombre": "Milcom / Moloc: el dios al que se ofrecían niños",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Levítico 18:21; 20:2-5; 1 Reyes 11:7; 2 Reyes 23:10",
+          "fuente_secundaria": "Talmud Bavli, Sanhedrin 64a; Midrash Vayikra Rabbah 20",
+          "descripcion": "La prohibición de hacer pasar a los hijos por el fuego para Moloc es una de las más enfáticas de la Torá. El Talmud debate la naturaleza exacta del rito: ¿era un sacrificio real o una purificación por fuego sin muerte? El Tofet en el Valle de Hinom (Gehenna) era el lugar donde se realizaban estos ritos en Judá. Josías profanó el Tofet para hacerlo impracticable.",
+          "similitudes": "El sacrificio de niños como ofrenda suprema tiene paralelos en culturas fenicias (tophet de Cartago) confirmados arqueológicamente.",
+          "diferencias": "El debate académico moderno cuestiona si los restos infantiles en los tophet cartagineses son sacrificios o cementerios de niños muertos por causas naturales.",
+          "significado_teologico": "La prohibición de Moloc define la frontera entre el yahvismo y el paganismo circundante: YHWH nunca exige la vida de los hijos, sino su consagración en vida.",
+          "posible_relacion_cultural": "El tophet de Cartago, colonia fenicia, es el paralelo arqueológico más cercano; las inscripciones fenicias de mlk como término sacrificial apoyan la identificación Moloc-Milcom."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Levítico 18:21; Hechos 7:43 (cita de Amós 5:26)",
+          "fuente_secundaria": "Agustín, Ciudad de Dios VII.19; Tertuliano, Apologético 9",
+          "descripcion": "El Nuevo Testamento cita a Amós 5:26 sobre Moloc en el discurso de Esteban (Hch 7:43). Los Padres de la Iglesia usaron el culto a Moloc como ejemplo extremo de la degradación pagana, contrastándolo con el Dios que proveyó un cordero sustituto para Abraham (Gn 22). El valle de Hinom (Gehenna) se convirtió en el nombre del infierno en la tradición cristiana.",
+          "similitudes": "El sacrificio de niños como paradigma del mal máximo es compartido.",
+          "diferencias": "El énfasis cristiano cae en la contraposición con la providencia divina (el cordero en lugar de Isaac), no en la legislación cultual.",
+          "significado_teologico": "Gehenna, el lugar del fuego de Moloc en el valle de Hinom, se convierte en la imagen del castigo eterno.",
           "posible_relacion_cultural": null
         },
         "islam": null
@@ -150,7 +187,6 @@
   },
   "periodos_at": [
     "hierro_1",
-    "hierro_2",
-    "post_exilio"
+    "hierro_2"
   ]
 }

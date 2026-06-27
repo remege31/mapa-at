@@ -1,155 +1,197 @@
 {
   "id": "gath",
-  "nombre": "Gath",
+  "nombre": "Gat",
   "tipo": "ciudad",
-  "lat": 31.6935,
-  "lng": 34.8439,
-  "frecuencia_at": 45,
-  "jerarquia_pin": "primario",
+  "lat": 31.6093,
+  "lng": 34.8572,
+  "frecuencia_at": 34,
+  "jerarquia_pin": "terciario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Philistine city; home of Goliath; refuge for David",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Una de las cinco ciudades filisteas"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad filistea en conflicto con Israel"
+    }
+  ],
+  "descripcion_geo": "Gat (identificada con Tell es-Safi / Tel Zafit, Israel) se situaba en la llanura filistea, en la zona de transición entre la llanura costera y la Shephelá (tierras bajas de Judá). Era la más oriental de las cinco ciudades filisteas, la más cercana al territorio israelita de Judá, y por ello la ciudad de contacto y conflicto más frecuente entre filisteos e israelitas.",
+  "altitud_m": 105,
+  "clima": "Mediterráneo — más seco que las tierras altas de Judá pero con precipitaciones suficientes (400-500 mm anuales). Veranos calurosos y secos, inviernos templados.",
+  "recursos": [
+    "Tierras agrícolas fértiles en la Shephelá",
+    "Hierro (los filisteos controlaban el trabajo del hierro en la región, monopolio estratégico)",
+    "Ruta comercial entre la llanura costera y las tierras altas de Judá"
+  ],
+  "importancia_estrategica": "La más poderosa de las cinco ciudades filisteas según el contexto de algunos relatos. Su posición fronteriza con Judá la convertía en el punto de mayor fricción entre filisteos e israelitas. Gat era también el lugar de origen de los anaquitas sobrevivientes expulsados por Caleb (Jos 11:22) —de donde venían los gigantes como Goliat.",
+  "otros_habitantes": [
+    {
+      "id": "filisteos-gat",
+      "nombre": "Filisteos de Gat",
+      "descripcion": "Los filisteos eran pueblos del mar de origen egeo (posiblemente micénico o cretense) que se asentaron en la costa cananea en el siglo XII a.C. Los de Gat eran conocidos por sus guerreros de gran estatura —los anaquitas refugiados absorbidos por la población filistea. Goliat y sus hermanos, todos de Gat, son el ejemplo más famoso de este tipo de guerrero filisteo.",
+      "religion": "Politeísmo de los Pueblos del Mar — culto a Dagón, Baal-Zebub y divinidades de origen egeo-cananeo",
+      "periodo": "c. 1200–800 a.C."
+    },
+    {
+      "id": "anaquitas-gat",
+      "nombre": "Anaquitas refugiados",
+      "descripcion": "Cuando Caleb expulsó a los anaquitas de Hebrón (Jos 14:12-15), los sobrevivientes huyeron a Gaza, Gat y Asdod (Jos 11:22). Esta presencia de anaquitas en Gat explica la tradición de los gigantes de Gat: Goliat y sus cuatro hermanos, todos de gran estatura, son los últimos herederos de la tradición de los refaítas-anaquitas que habitaban Canaán antes de Israel.",
+      "religion": "Politeísmo cananeo de los Refaítas, fusionado con el culto filisteo",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "david-gat",
+      "nombre": "David y sus seguidores en Gat",
+      "descripcion": "Perseguido por Saúl, David se refugió en Gat con 600 hombres, bajo la protección del rey filisteo Aquis. Fue asignado a Siclag como feudo. Esta estancia como vasallo filisteo es el episodio más políticamente comprometido de la carrera de David: sirvió a un rey filisteo mientras realizaba incursiones en el Néguev que ocultaba a Aquis. Ittai el geteo (de Gat), uno de sus leales en este período, le acompañó incluso durante la rebelión de Absalón.",
+      "religion": "Yahvismo davídico en contexto filisteo",
+      "periodo": "c. 1013–1010 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-goliat",
+      "titulo": "David y Goliat: el pastor contra el campeón de Gat",
+      "fecha": "c. 1025 a.C.",
+      "descripcion": "Goliat de Gat, guerrero de seis codos y un palmo (casi 3 metros), desafió al ejército israelita durante cuarenta días en el valle de Elá. Cuando nadie se atrevía a enfrentarlo, David —el más joven de los hijos de Isaí, que llevaba provisiones a sus hermanos— aceptó el desafío. Rechazó la armadura de Saúl y salió con su honda y cinco piedras lisas del arroyo. La primera piedra hundió en la frente de Goliat. David lo decapitó con su propia espada. El episodio es el más narrado de toda la Biblia en la cultura occidental.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 17:1-58"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david",
+        "goliat"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-refugio-gat",
+      "titulo": "David en Gat: el futuro rey como vasallo filisteo",
+      "fecha": "c. 1013 a.C.",
+      "descripcion": "Perseguido por Saúl y con 600 hombres, David se presentó ante Aquis, rey de Gat, solicitando refugio. Aquis lo recibió y le asignó Siclag como feudo. David realizaba incursiones contra pueblos del Néguev, pero informaba a Aquis de atacar a Israel y Judá, ocultando sus verdaderas acciones. Cuando Aquis convocó a los filisteos para batallar contra Israel (la batalla del Gilboa donde moriría Saúl), los príncipes filisteos desconfiaron de David y lo enviaron de regreso a Siclag. La ambigüedad de este período davídico ha generado debates sobre la ética política del futuro rey.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 21:10-15",
+        "1 Sam 27:1-12",
+        "1 Sam 29:1-11"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "hazael-gat",
+      "titulo": "Hazael conquista Gat: el declive filisteo",
+      "fecha": "c. 830 a.C.",
+      "descripcion": "El rey Hazael de Damasco, el mismo ungido por Eliseo, conquistó Gat durante su expansión hacia el sur. Esta conquista fue tan impactante que el rey Joás de Judá pagó tributo a Hazael con los tesoros del Templo para evitar el ataque a Jerusalén. La caída de Gat ante Aram señala el inicio del declive de las ciudades filisteas como potencia regional. Amós (6:2) menciona Gat como ejemplo de ciudad grande caída, advirtiendo a Israel que el mismo destino le espera.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 12:17-18",
+        "Am 6:2"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "amos"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "goliat",
+      "nombre": "Goliat de Gat",
+      "emoji": "🗡️",
+      "rol": "Campeón filisteo vencido por David",
+      "periodo": "c. 1025 a.C.",
+      "descripcion": "Goliat es el arquetipo bíblico del poder aplastante derrotado por la fe y la habilidad inesperada. Su descripción física —altura, armadura, lanza como rodillo de tejedor— es la más detallada de cualquier guerrero en el AT. Su desafío de cuarenta días sin respuesta convierte su derrota en el contraste más dramático posible. Goliat de Gat ha dado nombre en todos los idiomas al gigante derrotado por el débil.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 17:1-58",
+        "2 Sam 21:19"
       ],
-      "ruta": []
+      "ruta": [
+        "gath"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-gat-personaje",
+      "nombre": "David",
+      "emoji": "🪨",
+      "rol": "Vencedor de Goliat, fugitivo en Gat",
+      "periodo": "c. 1025–1010 a.C.",
+      "descripcion": "La relación de David con Gat es doble: venció a su campeón de joven y se refugió en ella de adulto. Esta dualidad resume la complejidad de David: el héroe nacional que necesita el amparo del enemigo para sobrevivir. Ittai el geteo, mercenario de Gat que se unió a David, simboliza cómo incluso en el territorio del enemigo David construyó lealtades personales que superaban las fronteras étnicas.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 17:1-58",
+        "1 Sam 27:1-12",
+        "2 Sam 15:18-22"
       ],
-      "ruta": []
+      "ruta": [
+        "belen",
+        "gibeah",
+        "gath",
+        "hebron",
+        "jerusalen"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "ittai-geteo",
+      "nombre": "Ittai el geteo",
+      "emoji": "🛡️",
+      "rol": "Mercenario de Gat, leal a David hasta el fin",
+      "periodo": "c. 1000–975 a.C.",
+      "descripcion": "Ittai de Gat era un mercenario filisteo que se unió a David. Cuando Absalón se rebeló y David huyó de Jerusalén, ofreció a Ittai la oportunidad de quedarse con el nuevo rey —era extranjero y exiliado. Ittai respondió con palabras que recuerdan las de Rut: Vivo YHWH, y vivo mi señor el rey, que donde esté mi señor el rey, allí estará también su siervo, ya sea en la muerte o en la vida. Comandó un tercio del ejército davídico en la batalla contra Absalón. Su lealtad trasciende todas las fronteras étnicas y políticas.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 15:18-22",
+        "2 Sam 18:2-5"
       ],
-      "ruta": []
+      "ruta": [
+        "gath",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Gat es el símbolo bíblico de la fuerza bruta filistea y de la ironía de la providencia: el gigante cae ante el pastor con la honda, el campeón del enemigo es vencido por el más joven de los hermanos. La presencia de David en Gat como vasallo filisteo es el momento de mayor ambigüedad moral de su carrera y el que más ha desafiado a los apologistas. La lealtad de Ittai el geteo a David durante la rebelión de Absalón ofrece el contrapunto: incluso en Gat, la ciudad del gigante enemigo, nacen lealtades que superan las categorías de amigo y enemigo.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo filisteo (culto a Dagón y Baal-Zebub)",
+      "Yahvismo davídico (presencia de David y sus hombres en Gat)",
+      "Sincretismo de los Pueblos del Mar (mezcla de tradiciones egeas y cananeas)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "david-goliat-mito",
+        "nombre": "David y Goliat: el pequeño que vence al gigante",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
-          "islam": false
+          "islam": true
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "1 Samuel 17:1-58",
+          "fuente_secundaria": "Talmud Bavli, Sotá 42b; Midrash Shmuel 20; Yalkut Shimoni, Shmuel 130",
+          "descripcion": "El Talmud explora el mérito que permitió a David vencer: es la recompensa por la modestia y la fe. El Midrash desarrolla el diálogo entre David y Goliat con elementos dramáticos. La identificación del nombre de Dios con el que David lanzó la piedra —la piedra llevaba el Nombre grabado— convirtió el episodio en paradigma de victoria por fe.",
+          "similitudes": "El combate singular que decide la batalla es un recurso literario y militar común en las tradiciones épicas del antiguo Oriente.",
+          "diferencias": "A diferencia de los paralelos épicos (Aquiles, Enkidu), David no es un guerrero nato sino un pastor-músico: la inversión de expectativas es el núcleo del relato.",
+          "significado_teologico": "La victoria de David sobre Goliat demuestra que la batalla pertenece a YHWH, no a los recursos militares. El débil confía; el fuerte se jacta: por eso pierde el fuerte.",
+          "posible_relacion_cultural": "El combate entre campeones para evitar la batalla general era práctica documentada en el Bronce Tardío (tratado de Qadesh entre Ramsés II y los hititas contempla arbitraje similar)."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "1 Samuel 17; Hebreos 11:32-34",
+          "fuente_secundaria": "Orígenes, Homilías sobre los Reyes; Agustín, Ciudad de Dios XVII; arte paleocristiano",
+          "descripcion": "La exégesis cristiana interpretó a David como figura de Cristo y a Goliat como figura del diablo o de la muerte. Así como David venció al gigante con cinco piedras (los cinco libros de Moisés, según algunos Padres), Cristo venció al enemigo con los recursos más humildes. El arte paleocristiano y medieval usó la imagen de David y Goliat como representación de la victoria de la Iglesia sobre el mal.",
+          "similitudes": "El vencedor inesperado usando recursos humildes es la estructura narrativa compartida.",
+          "diferencias": "La tipología cristiana transpone el combate histórico a un drama cósmico; el judaísmo mantiene el énfasis en la virtud histórica de David.",
+          "significado_teologico": "Cristo como el verdadero David que vence al gigante del pecado y la muerte con las armas de la humildad y la cruz.",
           "posible_relacion_cultural": null
         },
-        "islam": null
+        "islam": {
+          "fuente_primaria": "Corán, Sura 2:246-251 (Al-Baqara)",
+          "fuente_secundaria": "Ibn Kathir, Qisas al-Anbiya — Historia de Dawud",
+          "descripcion": "El Corán narra la historia de Talut (Saúl) y el ejército de los creyentes que enfrentaron a Jalut (Goliat). Dawud (David) mató a Jalut, y Allah le dio el reino y la sabiduría. El episodio es usado para ilustrar que la victoria en la batalla no depende del número sino de la paciencia y la fe.",
+          "similitudes": "La estructura de la victoria del creyente fiel sobre el poderoso incrédulo es idéntica en las tres tradiciones.",
+          "diferencias": "El Corán enfatiza el contexto de la prueba de Talut (solo los que no bebieron del río podían continuar) más que el duelo personal entre David y Goliat.",
+          "significado_teologico": "La victoria de Dawud sobre Jalut demuestra que cuántas veces una pequeña tropa venció a una grande, con el permiso de Allah. La fe supera el número.",
+          "posible_relacion_cultural": null
+        }
       }
     ]
   },
   "periodos_at": [
-    "bronce_tardio",
     "hierro_1",
     "hierro_2"
   ]

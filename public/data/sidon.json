@@ -1,156 +1,196 @@
 {
   "id": "sidon",
-  "nombre": "Sidon",
+  "nombre": "Sidón",
   "tipo": "ciudad",
-  "lat": 33.5632,
-  "lng": 35.3663,
-  "frecuencia_at": 48,
-  "jerarquia_pin": "primario",
+  "lat": 33.5635,
+  "lng": 35.3706,
+  "frecuencia_at": 39,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Phoenician city; home of Jezebel",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Metrópoli fenicia"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Primera ciudad de Fenicia"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Dominio babilónico y persa"
+    }
+  ],
+  "descripcion_geo": "Sidón (hoy Saida, Líbano) se asienta en la costa mediterránea de Fenicia, a unos 40 km al norte de Tiro. Posee uno de los mejores puertos naturales del Levante, con dos bahías protegidas por una isla que servía de base naval. La ciudad controlaba el acceso al Líbano y sus famosos cedros, materia prima exportada por toda la cuenca mediterránea.",
+  "altitud_m": 5,
+  "clima": "Mediterráneo costero — inviernos templados y húmedos, veranos cálidos y secos. Precipitaciones de 700-900 mm anuales. La costa fértil permitía agricultura intensiva de olivos, vid y frutales.",
+  "recursos": [
+    "Puerto natural (comercio mediterráneo)",
+    "Cedros del Líbano (madera preciada en toda la región)",
+    "Púrpura de murex (tinte más caro de la antigüedad, extraído de caracoles marinos)",
+    "Artesanía de vidrio (los fenicios son considerados inventores del vidrio soplado)",
+    "Marfil trabajado y objetos de lujo"
+  ],
+  "importancia_estrategica": "Primera metrópoli de Fenicia y madre de colonias por todo el Mediterráneo. Su dominio del comercio marítimo la convirtió en puente cultural entre Egipto, Mesopotamia, Grecia y la Península Ibérica. La alianza de Omri con Etbaal de Sidón (padre de Jezabel) introdujo el culto fenicio en Israel con consecuencias religiosas catastróficas.",
+  "otros_habitantes": [
+    {
+      "id": "fenicios-sidon",
+      "nombre": "Fenicios sidonios",
+      "descripcion": "Los fenicios de Sidón eran semitas cananeos que desarrollaron la primera civilización comercial del Mediterráneo. Inventaron el alfabeto consonántico (abyad) del que derivan todos los alfabetos occidentales. Su púrpura tiria era tan valiosa que el color se convirtió en símbolo de realeza en todo el mundo antiguo. La Biblia los llama sidonios con frecuencia para referirse a todos los fenicios.",
+      "religion": "Politeísmo fenicio — culto a Baal de Sidón, Asera (Astarté), Melqart (dios de Tiro)",
+      "periodo": "c. 1200 a.C. en adelante"
+    },
+    {
+      "id": "jezabel-familia",
+      "nombre": "Familia real de Etbaal",
+      "descripcion": "Etbaal (Ittobaal), rey de Sidón y sumo sacerdote de Asera, fue el padre de Jezabel. La alianza matrimonial con Omri de Israel introdujo el culto fenicio oficial en la corte de Samaria. Jezabel importó 450 profetas de Baal y 400 de Asera, desafiando directamente al profeta Elías. La persecución de Elías por Jezabel es la crisis religiosa más dramática del Reino del Norte.",
+      "religion": "Politeísmo fenicio — Baal de Sidón y Asera como dioses patronos de la corte israelita",
+      "periodo": "c. 885–843 a.C."
+    },
+    {
+      "id": "viuda-sarepta",
+      "nombre": "Habitantes de Sarepta",
+      "descripcion": "Sarepta (entre Sidón y Tiro) fue el lugar de refugio de Elías durante la sequía que él mismo había anunciado. Una viuda de Sarepta compartió su última harina y aceite con el profeta y fue recompensada con la multiplicación de sus provisiones y la resurrección de su hijo. Jesús cita este episodio para ilustrar que los profetas son rechazados en su patria (Lc 4:26).",
+      "religion": "Politeísmo fenicio local, con apertura a la acción de YHWH a través del profeta",
+      "periodo": "c. 875–850 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "elias-sarepta",
+      "titulo": "Elías en Sarepta: el profeta refugiado entre los fenicios",
+      "fecha": "c. 870 a.C.",
+      "descripcion": "Cuando la sequía anunciada por Elías diezmó la tierra de Israel, YHWH ordenó al profeta refugiarse en Sarepta de Sidón, en pleno territorio fenicio. Una viuda, a punto de consumir sus últimas provisiones con su hijo antes de morir de hambre, compartió su harina y su aceite con el extranjero. La jarra de harina no se vació ni la vasija de aceite se agotó durante toda la sequía. Cuando el hijo de la viuda murió de enfermedad, Elías lo resucitó. El episodio subraya que la providencia de YHWH alcanza más allá de las fronteras de Israel, incluso en el corazón del territorio fenicio.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 17:8-24",
+        "Lc 4:25-26"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "elias"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jezabel-israel",
+      "titulo": "Jezabel de Sidón: la reina que importó los dioses fenicios",
+      "fecha": "c. 874 a.C.",
+      "descripcion": "Jezabel, hija del rey fenicio Etbaal de Sidón, se casó con Acab de Israel en el marco de la alianza política de Omri con Fenicia. Su influencia transformó la corte de Samaria: construyó un templo a Baal de Sidón, mantuvo 850 profetas paganos a expensas del estado, persiguió a los profetas de YHWH y ordenó la muerte de Nabot para apoderarse de su viña. Jezabel se convirtió en el símbolo bíblico de la seducción idolátrica del poder extranjero. Murió arrojada desde una ventana por sus eunucos y su cuerpo fue devorado por los perros, cumpliendo la profecía de Elías.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 16:31",
+        "1 Re 18:4",
+        "1 Re 21:1-25",
+        "2 Re 9:30-37"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "elias",
+        "jezabel"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "hiram-templo",
+      "titulo": "Hiram de Sidón y la construcción del Templo",
+      "fecha": "c. 970 a.C.",
+      "descripcion": "Salomón negoció con Hiram I de Tiro (identificado también con Sidón en la tradición) el suministro de cedros del Líbano y artesanos especializados para la construcción del Templo de Jerusalén. Los cedros fueron talados en el Líbano, transportados en balsas por el Mediterráneo hasta Jope y llevados a Jerusalén. El Templo combinó así la fe yahvista con la maestría artesanal fenicia. Hiram-Abif, maestro artesano enviado por el rey de Tiro, fundió el mar de bronce y los pilares Jaquín y Boaz.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 5:1-18",
+        "1 Re 7:13-47",
+        "2 Cr 2:1-16"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "salomon"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "elias-fenicio",
+      "nombre": "Elías el Tisbita",
+      "emoji": "🔥",
+      "rol": "Profeta refugiado en Fenicia durante la sequía",
+      "periodo": "c. 875–850 a.C.",
+      "descripcion": "Elías pasó parte de su ministerio en territorio fenicio, en Sarepta de Sidón, donde YHWH lo envió para ser alimentado por una viuda. Esta experiencia, en el corazón del territorio de donde venía Jezabel y los dioses que Elías combatía, subraya la paradoja de la fe: la providencia actúa precisamente donde menos se espera.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 17:8-24",
+        "1 Re 18:1-19",
+        "2 Re 2:1-12"
       ],
-      "ruta": []
+      "ruta": [
+        "samaria",
+        "carmel_mount",
+        "sidon",
+        "beersheba",
+        "sinai"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jezabel",
+      "nombre": "Jezabel",
+      "emoji": "👸",
+      "rol": "Reina de Israel, hija del rey de Sidón",
+      "periodo": "c. 874–843 a.C.",
+      "descripcion": "Hija de Etbaal de Sidón, esposa de Acab rey de Israel, Jezabel es la figura femenina más poderosa y más condenada del AT. Introdujo el culto oficial a Baal de Sidón, persiguió a los profetas de YHWH, asesinó a Nabot para apoderarse de su viña y gobernó de facto tras la muerte de Acab. Su muerte violenta —arrojada desde una ventana, pisoteada y devorada por perros— se convirtió en el castigo ejemplar de la idolatría y el abuso del poder.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 16:31",
+        "1 Re 19:1-2",
+        "1 Re 21:1-25",
+        "2 Re 9:30-37"
       ],
-      "ruta": []
+      "ruta": [
+        "sidon",
+        "samaria"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "salomon-sidon",
+      "nombre": "Salomón",
+      "emoji": "📐",
+      "rol": "Rey constructor del Templo, aliado de Fenicia",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "Salomón heredó de su padre David la alianza con el rey fenicio de Tiro-Sidón y la aprovechó para obtener cedros del Líbano y artesanos especializados para el Templo. Pero también construyó altares para los dioses de sus esposas extranjeras, incluyendo Astarté de los sidonios (1 Re 11:5), por lo que los autores bíblicos juzgan su reinado como inicio del declive religioso que culminaría con el exilio.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 3:1-15",
+        "1 Re 5:1-18",
+        "1 Re 11:1-13"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "sidon"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Sidón representa la cultura fenicia que sedujo y amenazó a Israel de manera persistente. Su influencia no fue solo militar o comercial sino profundamente religiosa: el culto a Baal de Sidón, introducido por Jezabel, desencadenó la crisis profética de Elías y Eliseo. Paradójicamente, fue también en territorio sidonios donde Elías encontró refugio y donde YHWH demostró su soberanía más allá de las fronteras de Israel. El comercio fenicio del cedro y la artesanía permitió construir el Templo, y el alfabeto fenicio —adaptado por Israel— fue el vehículo de la revelación escrita.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo fenicio (Baal de Sidón, Astarté/Asera, Melqart)",
+      "Yahvismo profético (presencia de Elías en Sarepta)",
+      "Sincretismo salomónico (altares fenicios en Jerusalén)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "baal-sidon",
+        "nombre": "Baal de Sidón vs. YHWH en el Carmelo",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "1 Reyes 18:20-40",
+          "fuente_secundaria": "Midrash Tanjuma, Ki Tisa; comentario de Rashi a 1 Re 18",
+          "descripcion": "El combate en el Monte Carmelo entre Elías y los 450 profetas de Baal es el texto programático del monoteísmo yahvista. El Dios que responde con fuego es el verdadero Dios. La ironía de Elías —Gritad más fuerte, quizá está durmiendo— es la primera sátira religiosa de la literatura occidental.",
+          "similitudes": "El combate entre dioses tiene paralelos en la literatura ugarítica (ciclo de Baal), donde Baal también pelea contra el caos y la muerte.",
+          "diferencias": "En Ugarit, Baal es el héroe; en 1 Reyes, Baal es el impostor derrotado. La inversión es polémica deliberada.",
+          "significado_teologico": "YHWH no es un dios entre otros sino el único que actúa en la historia. El fuego que consume el sacrificio mojado es la demostración definitiva de la soberanía divina.",
+          "posible_relacion_cultural": "Los textos de Ugarit (siglo XIV a.C.) describen a Baal Hadad como señor de la lluvia y la tormenta —exactamente el papel que Elías niega a Baal al anunciar la sequía."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]
   },
   "periodos_at": [
     "bronce_tardio",
-    "hierro_1",
     "hierro_2",
     "post_exilio"
   ]

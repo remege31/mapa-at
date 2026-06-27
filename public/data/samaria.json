@@ -2,146 +2,184 @@
   "id": "samaria",
   "nombre": "Samaria",
   "tipo": "ciudad",
-  "lat": 32.2802,
-  "lng": 35.1979,
-  "frecuencia_at": 134,
+  "lat": 32.2784,
+  "lng": 35.1964,
+  "frecuencia_at": 109,
   "jerarquia_pin": "primario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Capital city of the northern kingdom of Israel; Samaritan inhabitants",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -880,
+      "hasta": -722,
+      "nombre": "Edad de Hierro II — Capital del Reino del Norte"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -722,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II tardío — Provincia asiria"
+    }
+  ],
+  "descripcion_geo": "Samaria se levantó sobre una colina aislada de forma ovalada en el corazón de las tierras altas de Efraín, a unos 65 km al norte de Jerusalén. La colina, de 430 metros de altitud, domina con claridad los valles circundantes en todas las direcciones. Omri la eligió precisamente por ser una posición virgen —sin linaje tribal anterior— que le permitiera fundar una capital neutral, semejante a lo que David había hecho con Jerusalén.",
+  "altitud_m": 430,
+  "clima": "Mediterráneo — más seco que la costa pero con precipitaciones suficientes (400-500 mm anuales) para agricultura de secano. La posición elevada mitiga el calor del verano.",
+  "recursos": [
+    "Agua (cisternas talladas en roca y manantiales próximos)",
+    "Olivares y viñas en las laderas",
+    "Piedra caliza de alta calidad (la construcción del palacio de marfil fue renombrada)",
+    "Ruta comercial con Fenicia"
+  ],
+  "importancia_estrategica": "Capital política del reino más extenso y poderoso de Israel. Samaria controlaba el corredor entre la costa fenicia y el Jordán, y era punto de contacto con las rutas caravaneras de Siria y Mesopotamia. Su alianza con Fenicia bajo Omri y Acab trajo prosperidad comercial y los conflictos religiosos del ciclo de Elías.",
+  "otros_habitantes": [
+    {
+      "id": "fenicios-samaria",
+      "nombre": "Influencia fenicia (sidonia)",
+      "descripcion": "El matrimonio de Acab con Jezabel, hija del rey fenicio Etbaal de Sidón, introdujo en Samaria el culto oficial a Baal de Sidón. Jezabel mantuvo 450 profetas de Baal y 400 de Asera alimentados a su mesa, y persiguió a los profetas de YHWH. La construcción de un templo de Baal en Samaria simbolizó la penetración del culto fenicio.",
+      "religion": "Culto a Baal de Sidón y Asera — politeísmo fenicio en el corazón del Reino del Norte",
+      "periodo": "c. 874–852 a.C. (reinado de Acab)"
+    },
+    {
+      "id": "asirios-samaria",
+      "nombre": "Colonos asirios y deportados",
+      "descripcion": "Tras la conquista de Sargón II (722 a.C.), Samaria fue repoblada con pueblos de Babilonia, Cuta, Avá, Hamat y Sefarvaim. Estos colonos mezclaron el culto yahvista con sus propias tradiciones religiosas, generando el sincretismo descrito en 2 Reyes 17:24-41.",
+      "religion": "Sincretismo — yahvismo mezclado con cultos mesopotámicos y sirios",
+      "periodo": "c. 722–539 a.C."
+    },
+    {
+      "id": "profetas-samaria",
+      "nombre": "Comunidades proféticas del Norte",
+      "descripcion": "Elías, Eliseo y los hijos de los profetas operaron principalmente en el territorio del Reino del Norte. La tensión entre el profetismo yahvista y la corte de Acab y Jezabel generó las narraciones más dramáticas del ciclo profético bíblico.",
+      "religion": "Yahvismo profético — oposición al sincretismo oficial de la corte",
+      "periodo": "c. 870–722 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "omri-funda-samaria",
+      "titulo": "Omri funda la capital: la colina comprada por dos talentos",
+      "fecha": "c. 880 a.C.",
+      "descripcion": "Omri, general que accedió al trono tras una guerra civil, compró la colina de Semer a su propietario por dos talentos de plata y fundó una ciudad nueva llamada Samaria. Al fundar la capital sobre terreno comprado y sin historia tribal, Omri evitó las disputas de lealtad que habrían surgido en cualquier ciudad existente. La arqueología confirma una ciudad del Hierro II construida sobre roca virgen.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 16:23-28"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "omri"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "acab-jezabel-elias",
+      "titulo": "Elías contra Acab: la viña de Nabot y el juicio de Dios",
+      "fecha": "c. 860 a.C.",
+      "descripcion": "Nabot el jezreelita se negó a vender su viña al rey Acab porque era heredad familiar. Jezabel organizó un proceso fraudulento que resultó en la lapidación de Nabot. Cuando Acab fue a tomar posesión de la viña, Elías lo confrontó: En el lugar donde los perros lamieron la sangre de Nabot, los perros lamerán también tu sangre. El episodio es el caso paradigmático de la defensa profética del derecho de propiedad.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 21:1-29",
+        "1 Re 22:38"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "elias",
+        "acab"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "caida-samaria",
+      "titulo": "El asedio de Sargón II: el fin del Reino del Norte",
+      "fecha": "722 a.C.",
+      "descripcion": "Tras un asedio de tres años iniciado por Salmanasar V, Samaria cayó ante Sargón II de Asiria. Las inscripciones asirias registran la deportación de 27.290 israelitas a Mesopotamia —el exilio de las diez tribus perdidas. Sargón repobló la región con colonos de otras provincias. El reino que había durado 200 años desapareció en un solo año.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 17:1-23",
+        "2 Re 18:9-12"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "oseas-rey"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "omri",
+      "nombre": "Omri",
+      "emoji": "🏗️",
+      "rol": "Fundador de la dinastía omrida y de la ciudad de Samaria",
+      "periodo": "c. 885–874 a.C.",
+      "descripcion": "General del ejército israelita que accedió al trono tras una guerra civil y fundó la más estable de las dinastías del norte (cuatro generaciones). Las inscripciones asirias posteriores siguieron llamando al Reino del Norte casa de Omri (Bit-Humri) incluso después de su extinción. La Biblia lo juzga negativamente por su sincretismo religioso.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 16:16-28"
       ],
-      "ruta": []
+      "ruta": [
+        "samaria"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "elias",
+      "nombre": "Elías el Tisbita",
+      "emoji": "🔥",
+      "rol": "Profeta de YHWH, adversario de Acab y Jezabel",
+      "periodo": "c. 875–850 a.C.",
+      "descripcion": "Profeta de Galaad de origen misterioso que irrumpió en la historia de Israel como una fuerza de la naturaleza. Su ministerio fue una confrontación permanente con la corte de Samaria. La tradición judía lo convierte en precursor del Mesías (Mal 4:5-6); el Nuevo Testamento lo identifica con Juan el Bautista.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 17:1",
+        "1 Re 18:1-46",
+        "1 Re 19:1-18",
+        "2 Re 2:1-12"
       ],
-      "ruta": []
+      "ruta": [
+        "samaria",
+        "carmel_mount",
+        "beersheba",
+        "sinai"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "amos-profeta",
+      "nombre": "Amós de Tecoa",
+      "emoji": "📯",
+      "rol": "Profeta de justicia social, primer profeta escritor",
+      "periodo": "c. 760–750 a.C.",
+      "descripcion": "Pastor y cuidador de sicómoros de Tecoa (Judá), enviado a profetizar en el reino del norte durante la prosperidad de Jeroboam II. Sus oráculos contra Samaria denunciaban que la prosperidad económica de la élite se construía sobre la explotación de los pobres. Amós fue el primero en articular la justicia social como exigencia religiosa de primer orden.",
       "referencias": [
-        "// PENDIENTE"
+        "Am 1:1",
+        "Am 3:9-15",
+        "Am 6:1-7",
+        "Am 7:10-17"
       ],
-      "ruta": []
+      "ruta": [
+        "samaria",
+        "bethel"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Samaria concentra las tensiones religiosas más explosivas del AT. Ciudad fundada ex nihilo por Omri, alcanzó su esplendor bajo Acab y Jezabel, cuando el culto a Baal de Sidón compitió abiertamente con el yahvismo. El ciclo de Elías y Eliseo nació de esta confrontación. Los profetas escritores —Amós, Oseas, Miqueas— dirigieron sus oráculos más duros contra la corte y el pueblo de Samaria. La caída ante Asiria (722 a.C.) generó el misterio de las diez tribus perdidas.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo oficial (reino del norte, sincretista)",
+      "Culto a Baal de Sidón (introducido por Jezabel)",
+      "Culto a Asera",
+      "Yahvismo profético (Elías, Eliseo, Amós, Oseas)",
+      "Sincretismo asirio-yahvista (tras 722 a.C.)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "diez-tribus-perdidas",
+        "nombre": "Las diez tribus perdidas de Israel",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "2 Reyes 17:1-23",
+          "fuente_secundaria": "Talmud Bavli, Sanhedrin 110b; Midrash Bereshit Rabbah 73; Eldad ha-Dani (siglo IX)",
+          "descripcion": "El debate talmúdico gira en torno a si las diez tribus regresarán en la era mesiánica. Algunas fuentes afirman que ya regresaron y se asimilaron; otras sostienen que están más allá del río Sambatión. Comunidades de todo el mundo reivindican descendencia de las tribus deportadas.",
+          "similitudes": "La idea de un pueblo disperso que mantiene su identidad es compartida por diversas tradiciones.",
+          "diferencias": "El judaísmo rabínico es ambivalente sobre la realidad física del regreso; la mayoría de las comunidades reclamantes han sido examinadas con escepticismo.",
+          "significado_teologico": "Las tribus perdidas son símbolo de la promesa incumplida —o aplazada— de la restauración total de Israel. Su regreso es condición de la era mesiánica plena.",
+          "posible_relacion_cultural": "Las deportaciones masivas asirias están documentadas en inscripciones de Sargón II y son históricamente verificables."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Santiago 1:1; Mateo 19:28",
+          "fuente_secundaria": "Ireneo de Lyon, Adversus Haereses",
+          "descripcion": "La carta de Santiago se dirige a las doce tribus dispersas, usando el esquema de las doce tribus para la comunidad cristiana universal. Jesús promete a sus discípulos que juzgarán a las doce tribus de Israel en la renovación.",
+          "similitudes": "La restauración de las doce tribus es signo escatológico en ambas tradiciones.",
+          "diferencias": "El cristianismo tiende a espiritualizar las tribus como figura de la Iglesia universal.",
+          "significado_teologico": "Las doce tribus son figura de la plenitud del pueblo de Dios, cumplida en la comunidad cristiana que trasciende etnias.",
           "posible_relacion_cultural": null
         },
         "islam": null
@@ -149,7 +187,6 @@
     ]
   },
   "periodos_at": [
-    "hierro_2",
-    "post_exilio"
+    "hierro_2"
   ]
 }

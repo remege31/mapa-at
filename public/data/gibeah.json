@@ -1,149 +1,171 @@
 {
   "id": "gibeah",
-  "nombre": "Gibeah",
+  "nombre": "Guibeá",
   "tipo": "ciudad",
-  "lat": 31.8238,
-  "lng": 35.231,
-  "frecuencia_at": 46,
-  "jerarquia_pin": "primario",
+  "lat": 31.8517,
+  "lng": 35.1995,
+  "frecuencia_at": 35,
+  "jerarquia_pin": "terciario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — A city of Benjamin, associated with Saul and atrocities.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Capital tribal de Benjamín, ciudad de Saúl"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad de la tribu de Benjamín"
+    }
+  ],
+  "descripcion_geo": "Guibeá (hoy Jaba o Tell el-Ful, al norte de Jerusalén) se asienta en la tribu de Benjamín, a unos 5 km al norte de Jerusalén. Era la ciudad natal y capital de Saúl, primer rey de Israel. Las excavaciones arqueológicas de Tell el-Ful descubrieron una fortaleza del Hierro I que podría corresponder al palacio-fortaleza de Saúl.",
+  "altitud_m": 843,
+  "clima": "Mediterráneo de montaña — similar a Jerusalén. Precipitaciones de 500-600 mm anuales, inviernos frescos, veranos secos.",
+  "recursos": [
+    "Tierras agrícolas en terrazas",
+    "Agua (cisternas)",
+    "Posición defensiva elevada con visibilidad sobre las rutas principales"
+  ],
+  "importancia_estrategica": "Ciudad natal de Saúl y primera capital del reino de Israel. Guibeá controlaba las rutas entre Jerusalén y el norte de Benjamín. Su historia más oscura —el crimen de la concubina del levita— fue el detonante de la casi extinción de la tribu de Benjamín y el modelo del juicio colectivo sobre el mal intracomunitario.",
+  "otros_habitantes": [
+    {
+      "id": "benjaminitas-gibeah",
+      "nombre": "Benjaminitas de Guibeá",
+      "descripcion": "Los habitantes de Guibeá son descritos en Jueces 19-20 como hijos de Belial (hombres perversos) que cometieron el crimen que desencadenó la guerra civil entre Israel y Benjamín. El paralelo con el relato de Sodoma (Gn 19) es explícito: la turba que rodea la casa, la demanda de entregar al visitante, la entrega de la concubina. La tribu de Benjamín casi fue exterminada por negarse a entregar a los culpables.",
+      "religion": "Yahvismo tribal de Benjamín, con graves desviaciones morales según el texto",
+      "periodo": "c. 1150–1100 a.C."
+    },
+    {
+      "id": "guardia-saul",
+      "nombre": "Guardia y corte de Saúl",
+      "descripcion": "Como ciudad natal y residencia de Saúl, Guibeá albergó la primera corte real de Israel. El palacio-fortaleza de Saúl —identificado tentativamentecón la fortaleza excavada en Tell el-Ful— fue la sede del poder real. David tocaba el arpa para Saúl en Guibeá antes de convertirse en su rival. Los hijos de Saúl y su general Abner también tenían su base allí.",
+      "religion": "Yahvismo real — culto oficial bajo la primera monarquía israelita",
+      "periodo": "c. 1025–1000 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "crimen-gibeah",
+      "titulo": "El crimen de Guibeá: la concubina del levita",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "Un levita que viajaba con su concubina pernoctó en Guibeá, ciudad benjaminita. Los hombres de la ciudad rodearon la casa exigiendo al huésped. El levita entregó a su concubina, quien fue abusada toda la noche y encontrada muerta al amanecer. El levita descuartizó su cuerpo en doce partes y las envió a las doce tribus de Israel como convocatoria de juicio. El crimen desencadenó la guerra civil más devastadora del período de los jueces: la casi extinción de la tribu de Benjamín. El episodio es el más oscuro del libro de Jueces y cierra el libro con la frase: En aquellos días no había rey en Israel; cada uno hacía lo que le parecía.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 19:1-30",
+        "Jue 20:1-48",
+        "Jue 21:1-25"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "saul"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "saul-gibeah",
+      "titulo": "Saúl en Guibeá: el rey campesino",
+      "fecha": "c. 1025 a.C.",
+      "descripcion": "Saúl, ungido rey por Samuel, regresó a su casa en Guibeá como si nada hubiera pasado, acompañado solo de unos pocos hombres valientes. Cuando los amonitas amenazaron Jabes de Galaad y los mensajeros llegaron a Guibeá, Saúl estaba arando sus campos. El Espíritu de YHWH se posesionó de él: descuartizó sus bueyes, los envió a las tribus como convocatoria militar y reunió un ejército de 330.000 hombres. La imagen del rey campesino que abandona el arado para convertirse en guerrero es un arquetipo de liderazgo carismático.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 10:26-11:15"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "saul"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-saul-gibeah",
+      "titulo": "David en la corte de Saúl: el arpista que se convirtió en rival",
+      "fecha": "c. 1015 a.C.",
+      "descripcion": "Cuando el espíritu malo atormentaba a Saúl, sus siervos le recomendaron buscar a un hombre que supiera tocar el arpa para calmarle. Uno de ellos conocía a David, hijo de Isaí de Belén, que era valiente, guerrero, elocuente, de buen parecer y YHWH estaba con él. David fue llevado a Guibeá, tocó el arpa para Saúl y los ataques del espíritu malo cesaban. Saúl lo amó mucho y lo hizo su escudero. La amistad inicial entre Saúl y David en Guibeá se convertiría en una rivalidad trágica que duraría décadas.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 16:14-23"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david",
+        "saul"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "saul",
+      "nombre": "Saúl ben Quis",
+      "emoji": "👑",
+      "rol": "Primer rey de Israel, natural de Guibeá",
+      "periodo": "c. 1025–1000 a.C.",
+      "descripcion": "Benjaminita de familia humilde, Saúl fue ungido primer rey de Israel por Samuel en respuesta al clamor del pueblo. Alto, apuesto y carismático, comenzó con victorias militares brillantes pero su reinado se deterioró por la desobediencia a los mandatos divinos transmitidos por Samuel. Su envidia hacia David, sus episodios de violencia irracional y su consulta de la médium de Endor pintan un retrato de hombre elegido que pierde la elección, trágico en el sentido clásico.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 9:1-10:27",
+        "1 Sam 13:1-14",
+        "1 Sam 28:1-25",
+        "1 Sam 31:1-13"
       ],
-      "ruta": []
+      "ruta": [
+        "gibeah",
+        "hebron",
+        "gilboa_mount"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-gibeah",
+      "nombre": "David",
+      "emoji": "🎸",
+      "rol": "Arpista en la corte de Saúl, futuro rey",
+      "periodo": "c. 1015–1010 a.C.",
+      "descripcion": "La primera presencia de David en Guibeá fue como músico terapéutico de Saúl. La imagen del pastor-poeta que calma con su arpa al rey atormentado es uno de los cuadros más bellos de la historia davídica. Esta fase inicial de favor pronto se transformó en rivalidad cuando David comenzó a destacar militarmente. La amistad con Jonatán, hijo de Saúl, fue el único vínculo que sobrevivió a la ruptura.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 16:14-23",
+        "1 Sam 18:1-16",
+        "1 Sam 20:1-42"
       ],
-      "ruta": []
+      "ruta": [
+        "belen",
+        "gibeah",
+        "hebron",
+        "jerusalen"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jonatan",
+      "nombre": "Jonatán ben Saúl",
+      "emoji": "🏹",
+      "rol": "Príncipe guerrero, amigo fiel de David",
+      "periodo": "c. 1025–1000 a.C.",
+      "descripcion": "Jonatán, el hijo mayor de Saúl y heredero natural al trono, eligió la amistad con David sobre sus propios intereses dinásticos. Su pacto con David —el alma de Jonatán quedó unida al alma de David, y lo amó como a sí mismo— es el modelo bíblico de amistad leal. Murió junto a su padre en el monte Gilboa luchando contra los filisteos. El lamento de David por Saúl y Jonatán es la elegía más hermosa del AT.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 18:1-4",
+        "1 Sam 20:1-42",
+        "2 Sam 1:17-27"
       ],
-      "ruta": []
+      "ruta": [
+        "gibeah",
+        "gilboa_mount"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Guibeá es la ciudad del primer rey y del crimen que casi extinguió una tribu. Su historia encarna las dos caras del libro de Jueces: el caos moral cuando no hay rey y la ambigüedad del primer experimento monárquico. Saúl, el rey benjaminita de Guibeá, es la figura trágica por excelencia del AT: elegido, carismático, victorioso, luego abandonado por el Espíritu que lo había investido. Su fracaso prepara el terreno para el éxito de David, y su historia es la más psicológicamente compleja de toda la literatura bíblica anterior a los profetas.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo tribal de Benjamín (período de los jueces)",
+      "Yahvismo real — primera monarquía israelita bajo Saúl"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "saul-espiritu",
+        "nombre": "El espíritu de YHWH sobre Saúl: el rey carismático y su sombra",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "1 Samuel 10:9-11; 16:14; 18:10-11",
+          "fuente_secundaria": "Talmud Bavli, Yoma 22b; Midrash Shmuel 15; Maimónides, Hilkhot Teshuvá 6:3",
+          "descripcion": "El debate talmúdico sobre Saúl gira en torno a si perdió su elección divina por pecado real o por decreto inevitable. Maimónides lo usa como ejemplo de la tensión entre libre albedrío y providencia. La fórmula el espíritu de YHWH se apartó de Saúl y un espíritu malo lo atormentaba generó debates sobre la naturaleza del mal psicológico y la responsabilidad divina.",
+          "similitudes": "El rey carismático caído tiene paralelos en tradiciones de otros pueblos del antiguo Oriente.",
+          "diferencias": "A diferencia de los reyes divinos del antiguo Oriente, Saúl es un hombre elegido que puede ser rechazado. Su caída no es inevitable sino consecuencia de sus decisiones.",
+          "significado_teologico": "El espíritu divino no garantiza permanencia: la elección puede retirarse. El rey no es sagrado en sí mismo sino en cuanto fiel al mandato divino.",
+          "posible_relacion_cultural": "El concepto de espíritu que posesiona temporalmente al líder carismático (shofet, rey) es paralelo al concepto de melammu (aura real) asiria y al ka egipcio."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]

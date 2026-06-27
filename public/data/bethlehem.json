@@ -1,147 +1,187 @@
 {
   "id": "bethlehem",
-  "nombre": "Bethlehem",
+  "nombre": "Belén",
   "tipo": "ciudad",
   "lat": 31.7054,
-  "lng": 35.2103,
-  "frecuencia_at": 60,
-  "jerarquia_pin": "primario",
+  "lng": 35.2024,
+  "frecuencia_at": 44,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — City of David's birth and Jesus' birth.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Asentamiento tribal de Judá"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad natal de David"
+    }
+  ],
+  "descripcion_geo": "Belén se sitúa en las tierras altas de Judá, a unos 8 km al sur de Jerusalén, a 765 metros de altitud. Su nombre significa probablemente Casa del Pan o Casa de la Carne, referencias a su fertilidad agrícola. Ubicada en la ruta principal que va de Jerusalén a Hebrón, en el filo de la divisoria de aguas entre el Mediterráneo y el Mar Muerto, Belén domina una región de terrazas agrícolas productivas.",
+  "altitud_m": 765,
+  "clima": "Mediterráneo de montaña — inviernos frescos con precipitaciones moderadas (500-600 mm anuales), veranos secos y cálidos. Las terrazas de sus colinas son ideales para el cultivo de olivos, vid y cereales.",
+  "recursos": [
+    "Tierras agrícolas en terrazas (cereales, olivos, vid)",
+    "Pastos para ganado (contexto del pastor David)",
+    "Agua (manantiales locales)",
+    "Piedra caliza (construcción)"
+  ],
+  "importancia_estrategica": "Ciudad pequeña pero de enorme peso simbólico como ciudad natal de David, el rey modelo de Israel. Su posición en la ruta Jerusalén-Hebrón le daba cierta importancia comercial. La profecía de Miqueas la convirtió en lugar de espera mesiánica: de Belén saldrá el que ha de gobernar a Israel.",
+  "otros_habitantes": [
+    {
+      "id": "efrateos",
+      "nombre": "Efrateos de Belén",
+      "descripcion": "Belén era conocida también como Efrata o Belén de Efrata (Miq 5:2), distinguiéndola de otra Belén en Zabulón. Los efrateos eran el clan dominante de la ciudad. La familia de Elimélec —padre de Ruth— y la de Isaí —padre de David— pertenecían a este linaje. La identificación Belén-Efrata aparece ya en el relato de la muerte de Raquel (Gn 35:19).",
+      "religion": "Yahvismo de la tribu de Judá",
+      "periodo": "c. 1200–1000 a.C."
+    },
+    {
+      "id": "moabitas-rut",
+      "nombre": "Rut la moabita",
+      "descripcion": "Rut, nuera de Noemí, era moabita —de un pueblo considerado extranjero y ritualmente problemático para Israel (Dt 23:3). Su adhesión a Israel y a YHWH —Donde tú vayas, yo iré— y su integración en Belén a través del matrimonio con Booz son el tema del libro de Rut. Se convierte en bisabuela de David y en ancestro del linaje mesiánico.",
+      "religion": "Conversión al yahvismo — del politeísmo moabita al Dios de Israel",
+      "periodo": "c. 1100–1050 a.C."
+    },
+    {
+      "id": "filisteos-belen",
+      "nombre": "Guarnición filistea",
+      "descripcion": "Durante el reinado de Saúl y el inicio del de David, Belén estuvo bajo control filisteo intermitente. El célebre episodio de los tres valientes que rompieron las líneas filisteas para traer a David agua del pozo de Belén (2 Sam 23:13-17) refleja que en ese momento Belén tenía guarnición filistea. David rechazó el agua, considerándola sangre de quienes arriesgaron su vida.",
+      "religion": "Politeísmo filisteo — culto a Dagón y divinidades egeas",
+      "periodo": "c. 1050–1000 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "rut-belen",
+      "titulo": "Rut en Belén: la extranjera que fundó el linaje de David",
+      "fecha": "c. 1100 a.C.",
+      "descripcion": "Rut la moabita llegó a Belén con su suegra Noemí tras la muerte de sus maridos en Moab. En los campos de cebada de Belén, durante la cosecha, Rut espigó los restos que los segadores dejaban para los pobres. El propietario Booz, pariente de Noemí, reconoció su lealtad y la protegió. Siguiendo la institución del go'el (redentor de familia), Booz se casó con Rut, redimiendo el nombre y la heredad de la familia de Elimélec. Su hijo Obed fue el padre de Jesé y abuelo de David. El libro de Rut es el relato de lealtad (hesed) más bello del AT.",
       "referencias": [
-        "// PENDIENTE"
+        "Rt 1:1-22",
+        "Rt 2:1-23",
+        "Rt 3:1-18",
+        "Rt 4:1-22"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "rut",
+        "david"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "samuel-unge-david",
+      "titulo": "Samuel unge a David en Belén: el pastor que será rey",
+      "fecha": "c. 1025 a.C.",
+      "descripcion": "Después de rechazar a Saúl, YHWH envió al profeta Samuel a Belén, a casa de Isaí, para ungir al nuevo rey. Samuel examinó a los siete hijos mayores de Isaí, impresionado por su apariencia. YHWH le dijo: Los hombres se fijan en las apariencias, pero yo me fijo en el corazón. El octavo hijo, el más joven, estaba cuidando el rebaño. Cuando lo trajeron, YHWH dijo: Levántate y úngelco; es este. Samuel tomó el cuerno de aceite y ungió a David en presencia de sus hermanos. El Espíritu de YHWH se posesionó de David desde aquel día en adelante.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 16:1-13"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david",
+        "samuel"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "miqueas-mesias",
+      "titulo": "La profecía de Miqueas: de Belén saldrá el gobernante",
+      "fecha": "c. 700 a.C.",
+      "descripcion": "El profeta Miqueas de Moreset, contemporáneo de Isaías, pronunció el oráculo que convirtió a Belén en ciudad mesiánica para siempre: Y tú, Belén Efrata, aunque eres la más pequeña entre los clanes de Judá, de ti saldrá el que ha de gobernar a Israel; sus orígenes se remontan a tiempos antiguos, a días eternos (Miq 5:2). El contraste entre la pequeñez de Belén y la grandeza del que nacerá de ella es el núcleo teológico del oráculo. Los escribas citaron este texto ante Herodes cuando los magos preguntaron por el lugar de nacimiento del rey de los judíos (Mt 2:5-6).",
       "referencias": [
-        "// PENDIENTE"
+        "Miq 5:2-5",
+        "Mt 2:1-6",
+        "Jn 7:42"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "rut",
+      "nombre": "Rut",
+      "emoji": "🌾",
+      "rol": "Moabita, bisabuela de David, modelo de lealtad",
+      "periodo": "c. 1100 a.C.",
+      "descripcion": "Rut es el paradigma bíblico del converso fiel y del extranjero integrado. Su declaración de lealtad a Noemí —Donde tú vayas, yo iré; tu pueblo será mi pueblo y tu Dios será mi Dios— es uno de los textos más citados de la literatura religiosa universal. Como bisabuela de David y antepasada del linaje mesiánico, su presencia en la genealogía de Jesús (Mt 1:5) subraya que la promesa trasciende las fronteras étnicas.",
       "referencias": [
-        "// PENDIENTE"
+        "Rt 1:1-22",
+        "Rt 2:1-23",
+        "Rt 4:13-22",
+        "Mt 1:5"
       ],
-      "ruta": []
+      "ruta": [
+        "bethlehem"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-belen",
+      "nombre": "David ben Isaí",
+      "emoji": "🎸",
+      "rol": "Pastor ungido rey en Belén",
+      "periodo": "c. 1025–970 a.C.",
+      "descripcion": "El más joven de los ocho hijos de Isaí, David pasó su infancia y juventud en los campos de Belén como pastor. Fue allí donde desarrolló las habilidades —la honda, la lira, el coraje ante el oso y el león— que luego manifestaría como guerrero y rey. La unción de Samuel en Belén marcó el inicio de un camino que llevaría al pastor a convertirse en el rey más recordado de Israel y en el modelo del Mesías esperado.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 16:1-13",
+        "1 Sam 17:12-15",
+        "2 Sam 5:1-5"
       ],
-      "ruta": []
+      "ruta": [
+        "bethlehem",
+        "hebron",
+        "jerusalen"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "samuel-belen",
+      "nombre": "Samuel",
+      "emoji": "🏺",
+      "rol": "Último juez, primer rey-hacedor de Israel",
+      "periodo": "c. 1070–1010 a.C.",
+      "descripcion": "Nazareo desde el vientre materno, Samuel fue la figura de transición entre la época de los jueces y la monarquía. Ungió a Saúl como primer rey y, tras su rechazo por YHWH, fue enviado a Belén a ungir a David. Su viaje a Belén fue secreto —temía que Saúl lo matara al saber que había ungido a un sucesor. La escena de la unción de David es el clímax de su ministerio profético y el gesto que da forma al futuro de Israel.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 1:1-28",
+        "1 Sam 3:1-21",
+        "1 Sam 16:1-13",
+        "1 Sam 25:1"
       ],
-      "ruta": []
+      "ruta": [
+        "bethlehem",
+        "hebron"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Belén es la ciudad de David y, por extensión, la ciudad de la esperanza mesiánica. Pequeña y periférica en términos políticos, fue elegida como lugar de origen del rey ideal precisamente por su humildad: YHWH no elige según los criterios humanos de grandeza. El libro de Rut sitúa en los campos de Belén el encuentro entre lo judío y lo extranjero que producirá el linaje davídico —un mensaje universalista en el corazón de la tradición particular. La profecía de Miqueas convirtió a Belén en lugar de espera activa: de esta pequeña ciudad saldrá el gobernante cuyo origen es eterno.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo de Judá (tribu de Judá, linaje de Efrata)",
+      "Contacto con el yahvismo desde el paganismo (conversión de Rut)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "belen-mesias",
+        "nombre": "Belén como cuna del Mesías",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Miqueas 5:2; 1 Samuel 16:1-13",
+          "fuente_secundaria": "Talmud Bavli, Sanhedrin 98b; Midrash Eija Rabbati; Zohar III, 272a",
+          "descripcion": "La tradición talmúdica vincula la profecía de Miqueas con la expectativa del Mesías hijo de David. El Zohar desarrolla la idea de que el Mesías nació en Belén el mismo día de la destrucción del Templo. Algunos textos mencionan a un Mesías que espera en las puertas de Roma entre los pobres y leprosos.",
+          "similitudes": "Belén como origen del rey ungido es compartida por las tradiciones judía y cristiana.",
+          "diferencias": "El judaísmo espera al Mesías aún por venir; el cristianismo afirma que ya vino en la persona de Jesús de Nazaret nacido en Belén.",
+          "significado_teologico": "La pequeñez de Belén contra la grandeza del Mesías: YHWH invierte los valores humanos, eligiendo lo pequeño para manifestar lo grande.",
           "posible_relacion_cultural": null
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Mateo 2:1-12; Lucas 2:1-20; Miqueas 5:2",
+          "fuente_secundaria": "Justino Mártir, Diálogo con Trifón 78; Orígenes, Contra Celso I.51",
+          "descripcion": "El Evangelio de Mateo presenta el nacimiento de Jesús en Belén como cumplimiento explícito de Miqueas 5:2. Lucas sitúa el nacimiento en un pesebre durante el censo de Quirino. Los pastores de los campos cercanos y los magos de Oriente son los primeros adoradores. Belén se convirtió en lugar de peregrinación desde el siglo II; la Basílica de la Natividad, construida por Constantino (330 d.C.), es uno de los edificios religiosos continuamente en uso más antiguos del mundo.",
+          "similitudes": "El nacimiento en Belén como cumplimiento de la profecía de Miqueas es el punto central de la narrativa de la infancia de Jesús.",
+          "diferencias": "Mateo y Lucas tienen narrativas de la infancia diferentes; la tradición cristiana las armonizó pero los detalles divergen.",
+          "significado_teologico": "El Hijo de Dios nace en el lugar más humilde —un pesebre en la ciudad más pequeña— como inversión total de los valores del poder.",
           "posible_relacion_cultural": null
         },
         "islam": null
@@ -149,9 +189,7 @@
     ]
   },
   "periodos_at": [
-    "bronce_tardio",
     "hierro_1",
-    "hierro_2",
-    "post_exilio"
+    "hierro_2"
   ]
 }

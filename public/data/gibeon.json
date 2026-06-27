@@ -1,147 +1,180 @@
 {
   "id": "gibeon",
-  "nombre": "Gibeon",
+  "nombre": "Gabaón",
   "tipo": "ciudad",
-  "lat": 31.8468,
-  "lng": 35.1849,
-  "frecuencia_at": 48,
-  "jerarquia_pin": "primario",
+  "lat": 31.8394,
+  "lng": 35.1786,
+  "frecuencia_at": 36,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Hivite city that tricked Joshua into a peace treaty.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad hevea, aliada de Israel"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Santuario real de Salomón"
+    }
+  ],
+  "descripcion_geo": "Gabaón (hoy el-Jib, Cisjordania) se asienta en las tierras altas de Benjamín, a unos 9 km al noroeste de Jerusalén. El tell arqueológico ha preservado extraordinariamente bien la gran cisterna circular (Pool of Gibeon) mencionada en 2 Samuel 2:13, con una escalera en espiral tallada en la roca que desciende 12 metros hasta el nivel freático. La ciudad controlaba el acceso a la ruta que descendía desde las tierras altas hacia la llanura costera.",
+  "altitud_m": 783,
+  "clima": "Mediterráneo de montaña — similar a Jerusalén, con precipitaciones de 500-600 mm anuales y veranos secos. La elevación garantizaba agua almacenada en las grandes cisternas talladas en la roca.",
+  "recursos": [
+    "Agua (gran cisterna circular tallada en roca, sistema de túneles al nivel freático)",
+    "Tierras agrícolas en terrazas",
+    "Posición estratégica (control del acceso a Jerusalén desde el oeste)",
+    "Viñedos (ánforas con inscripciones lmlk de Gabaón encontradas en excavaciones)"
+  ],
+  "importancia_estrategica": "Controlaba el acceso a Jerusalén desde la dirección de la llanura costera, el camino de Bet-Horón. Ciudad grande como una ciudad real (Jos 10:2), con guerreros propios. El santuario de Gabaón fue el lugar de culto más importante de Israel antes de la construcción del Templo, donde Salomón ofreció 1.000 holocaustos y recibió la sabiduría en sueños.",
+  "otros_habitantes": [
+    {
+      "id": "heveos-gabaon",
+      "nombre": "Heveos de la Tetrápolis gabaonita",
+      "descripcion": "Los gabaonitas eran heveos (una de las naciones cananeas pre-israelitas) que formaban una confederación de cuatro ciudades: Gabaón, Quefira, Beerot y Quiriat-Jearim. Engañaron a Josué haciéndose pasar por viajeros de tierra lejana para obtener un pacto de paz. Descubiertos, fueron condenados a ser leñadores y aguadores para la comunidad y el altar de YHWH, convirtiéndose en sirvientes del santuario.",
+      "religion": "Politeísmo cananeo-heveo, luego integración en el servicio del santuario yahvista",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "gabaonitas-david",
+      "nombre": "Gabaonitas en la época de David",
+      "descripcion": "Una hambruna de tres años durante el reinado de David fue atribuida a la violación del pacto con los gabaonitas que Saúl había cometido al intentar exterminarlos. David entregó a siete descendientes de Saúl a los gabaonitas, quienes los ejecutaron. Rizpa, concubina de Saúl y madre de dos de los ejecutados, veló sus cadáveres hasta que David los enterró con honores. El episodio refleja la sacralidad de los pactos en la tradición israelita.",
+      "religion": "Yahvismo con memoria de los pactos sagrados",
+      "periodo": "c. 1000 a.C."
+    },
+    {
+      "id": "levitas-gabaon",
+      "nombre": "Comunidad levítica",
+      "descripcion": "Gabaón fue asignada como ciudad levítica de la tribu de Benjamín (Jos 21:17; 1 Cr 6:60). El tabernáculo de Moisés —la tienda original del desierto— fue instalado en Gabaón, convirtiendo la ciudad en el principal santuario de Israel hasta la construcción del Templo de Salomón. La presencia levítica garantizaba la continuidad del culto yahvista.",
+      "religion": "Yahvismo sacerdotal levítico — tabernáculo del desierto en Gabaón",
+      "periodo": "c. 1200–950 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "engano-gabaonitas",
+      "titulo": "El engaño de los gabaonitas: alianza por astucia",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Cuando Israel conquistaba Canaán, los habitantes de Gabaón temieron ser exterminados. Enviaron embajadores con ropa desgastada, sandalias rotas y pan reseco, haciéndose pasar por viajeros de tierra lejana que pedían un pacto de paz. Josué y los príncipes de Israel hicieron el pacto sin consultar a YHWH. Al descubrir el engaño tres días después, no pudieron romper el juramento sagrado. Condenaron a los gabaonitas a ser leñadores y aguadores para el santuario —una integración forzada pero permanente.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 9:1-27"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "sol-detenido",
+      "titulo": "El sol se detiene sobre Gabaón: la batalla más larga de Israel",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Cuando los cinco reyes amorreos atacaron a los gabaonitas por haber pactado con Israel, Josué acudió en su socorro. Dios arrojó piedras grandes desde el cielo contra el enemigo. Entonces Josué pronunció el oráculo más audaz del libro: Sol, detente en Gabaón; y tú, luna, en el valle de Ajalón. Y el sol se detuvo hasta que Israel tomó venganza de sus enemigos. El texto añade: No hubo día como ese antes ni después, en que YHWH obedeciera la voz de un hombre.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 10:1-15"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "salomon-gabaon",
+      "titulo": "Salomón en Gabaón: el sueño que dio la sabiduría",
+      "fecha": "c. 960 a.C.",
+      "descripcion": "Al inicio de su reinado, Salomón fue a Gabaón —el mayor santuario, donde estaba el tabernáculo del desierto— y ofreció 1.000 holocaustos sobre el altar. Aquella noche YHWH se le apareció en sueños y le dijo: Pídeme lo que quieras que te dé. Salomón pidió un corazón que escucha para gobernar al pueblo y distinguir el bien del mal. Dios, complacido porque no pidió riqueza, honor o larga vida, le concedió la sabiduría y también lo que no había pedido. El sueño de Gabaón es el texto fundacional de la tradición de sabiduría en Israel.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 3:4-15",
+        "2 Cr 1:1-13"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "salomon"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "josue-gabaon",
+      "nombre": "Josué",
+      "emoji": "☀️",
+      "rol": "Comandante que detuvo el sol sobre Gabaón",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "En Gabaón, Josué protagonizó dos de los episodios más notables de su carrera: la alianza con los gabaonitas por engaño —que enseñó a Israel la sacralidad irrompible de los pactos— y la batalla en que detuvo el sol, el prodigio militar más extraordinario del libro que lleva su nombre. La orden al sol es el gesto más audaz de toda la Biblia: un hombre que ordena a los astros.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 9:1-27",
+        "Jos 10:1-15",
+        "Jos 24:1-28"
       ],
-      "ruta": []
+      "ruta": [
+        "jericho",
+        "gibeon",
+        "shechem",
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "salomon-gabaon",
+      "nombre": "Salomón",
+      "emoji": "💡",
+      "rol": "Rey que recibió la sabiduría en sueños en Gabaón",
+      "periodo": "c. 970–931 a.C.",
+      "descripcion": "El sueño de Gabaón al inicio del reinado de Salomón es el momento de mayor claridad espiritual de su vida. La elección de la sabiduría sobre la riqueza, el honor y la larga vida define el ideal del rey justo en la tradición bíblica. Toda la tradición sapiencial de Israel —Proverbios, Eclesiastés, el Cantar— está atribuida a la figura de Salomón, cuya sabiduría comenzó en ese sueño de Gabaón.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 3:4-15",
+        "1 Re 4:29-34",
+        "1 Re 10:1-13"
       ],
-      "ruta": []
+      "ruta": [
+        "belen",
+        "jerusalen",
+        "gibeon"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "rizpa",
+      "nombre": "Rizpa bat Aya",
+      "emoji": "🧎",
+      "rol": "Concubina de Saúl, guardiana de los muertos",
+      "periodo": "c. 1000 a.C.",
+      "descripcion": "Rizpa es uno de los personajes más trágicos y más silenciosos del AT. Cuando David entregó a siete descendientes de Saúl a los gabaonitas para expiar la violación del pacto, Rizpa —madre de dos de ellos— extendió un saco sobre la roca y veló los cadáveres desde el inicio de la cosecha hasta que llovió, ahuyentando a las aves de día y a las fieras de noche. Cuando David supo de ella, recogió los huesos de Saúl y sus hijos y los enterró con honores. El gesto de Rizpa es el más puro de amor materno y el más elocuente silencio de la Biblia.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 21:1-14"
       ],
-      "ruta": []
+      "ruta": [
+        "gibeon"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Gabaón es el gran santuario pre-templo de Israel. El tabernáculo del desierto —la morada portátil de YHWH durante el éxodo— fue instalado en Gabaón, convirtiendo a esta ciudad hevea, integrada forzadamente en Israel por un engaño, en el lugar más sagrado del pueblo hasta la construcción del Templo. La paradoja es teológicamente elocuente: el lugar donde YHWH habitaba era una ciudad de cananeos convertidos en servidores del santuario. El sueño de Salomón en Gabaón es el texto fundacional de la teología de la sabiduría en Israel.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo del tabernáculo (santuario del desierto en Gabaón)",
+      "Politeísmo cananeo-heveo (período preisraelita)",
+      "Yahvismo levítico (ciudad asignada a los levitas)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "sol-detente",
+        "nombre": "El sol detenido sobre Gabaón",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Josué 10:12-14",
+          "fuente_secundaria": "Talmud Bavli, Avoda Zara 25a; Midrash Bereshit Rabbah 6; Ben Sira 46:4",
+          "descripcion": "El Talmud registra que el libro de Yashar (mencionado en Jos 10:13) es el libro del Génesis, donde las naciones son bendecidas a través de Abraham: el mérito de los patriarcas detuvo el sol. Ben Sira 46:4 alaba a Josué: ¿No ocurrió que en sus días el sol retrocedió, y un solo día se convirtió en dos? La tradición judía interpreta el milagro como la mayor demostración de la atención divina a la oración humana.",
+          "similitudes": "El prodigio solar tiene paralelos en textos de omen astronómico babilónico y en la retirada solar para el rey Ezequías (Is 38:8).",
+          "diferencias": "El prodigio de Josué es en favor de la batalla; el de Ezequías es señal de sanación. En Josué, es el hombre quien habla; en Ezequías, es YHWH quien ofrece la señal.",
+          "significado_teologico": "YHWH obedece la voz de un hombre: la más extraordinaria afirmación de la eficacia de la petición humana en todo el AT.",
+          "posible_relacion_cultural": "Los textos de batalla del antiguo Oriente frecuentemente mencionan prodigios astronómicos como señales de apoyo divino."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Josué 10:12-14; Ben Sira 46:4",
+          "fuente_secundaria": "Agustín, Ciudad de Dios X.8; comentarios medievales",
+          "descripcion": "La tradición patrística interpretó el sol detenido sobre Gabaón como tipo (figura) de la victoria de Cristo sobre la muerte. Así como el sol se detuvo para completar la victoria de Josué, la resurrección de Cristo interrumpe el curso ordinario del tiempo para dar la victoria definitiva. La identificación del nombre Josué = Jesús (mismo nombre en hebreo) alimenta esta lectura tipológica.",
+          "similitudes": "La victoria militar que trasciende los límites naturales del tiempo es compartida por ambas tradiciones.",
+          "diferencias": "La exégesis cristiana transpone el prodigio histórico a un símbolo de la victoria escatológica.",
+          "significado_teologico": "Josué como figura de Jesús; la batalla de Gabaón como figura de la victoria pascual.",
           "posible_relacion_cultural": null
         },
         "islam": null
@@ -149,7 +182,6 @@
     ]
   },
   "periodos_at": [
-    "bronce_tardio",
     "hierro_1",
     "hierro_2"
   ]

@@ -1,147 +1,194 @@
 {
   "id": "jericho",
-  "nombre": "Jericho",
+  "nombre": "Jericó",
   "tipo": "ciudad",
-  "lat": 31.8706,
-  "lng": 35.4439,
-  "frecuencia_at": 175,
+  "lat": 31.8667,
+  "lng": 35.4447,
+  "frecuencia_at": 57,
   "jerarquia_pin": "primario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — An ancient city in Canaan, famously conquered by Israel",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Ciudad cananea"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista y abandono"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Reconstrucción y ocupación"
+    }
+  ],
+  "descripcion_geo": "Jericó se asienta en el valle del Jordán, a unos 10 km al norte del Mar Muerto y 258 metros bajo el nivel del mar, siendo una de las ciudades habitadas más bajas del planeta. El manantial de Elisha (Ein es-Sultan) ha alimentado un oasis permanente desde el Neolítico, convirtiendo a Jericó en uno de los asentamientos humanos continuos más antiguos del mundo. La feracidad del oasis contrasta dramáticamente con el desierto de Judea que la rodea.",
+  "altitud_m": -258,
+  "clima": "Desértico tropical — inviernos suaves y secos, veranos extremadamente calurosos (hasta 45°C). Las precipitaciones no superan los 150 mm anuales. El oasis de Ein es-Sultan permite agricultura intensiva por irrigación.",
+  "recursos": [
+    "Agua (manantial permanente de Ein es-Sultan)",
+    "Palmeras datileras (el AT la llama ciudad de las palmeras)",
+    "Bálsamo de Jericó (árbol resinoso de alto valor comercial)",
+    "Cultivos de irrigación (trigo, cebada, higos)",
+    "Sal del Mar Muerto"
+  ],
+  "importancia_estrategica": "Puerta oriental de entrada a Canaán desde el desierto transjordano. Quien controlaba Jericó controlaba el paso del Jordán y el acceso a las tierras altas de Judá y Benjamín. Su posición en la ruta comercial del Mar Muerto la hacía nodo de intercambio de sal, bálsamo y productos del oasis.",
+  "otros_habitantes": [
+    {
+      "id": "cananeos-jerico",
+      "nombre": "Cananeos de Jericó",
+      "descripcion": "La ciudad amurallada que encontró Israel era una ciudad-estado cananea gobernada por un rey local. Rahab, la prostituta que ocultó a los espías israelitas, pertenecía a esta población. La tradición bíblica la presenta como la única habitante que reconoció el poder de YHWH. Su familia fue la única preservada cuando la ciudad fue destruida.",
+      "religion": "Politeísmo cananeo — culto a Baal, Asera y divinidades locales",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "reconstruccion-hiel",
+      "nombre": "Habitantes del período de hierro",
+      "descripcion": "Tras el anatema impuesto por Josué, Hiel de Betel reconstruyó Jericó en tiempos de Acab, pagando el precio anunciado: sus hijos primero y último murieron durante la construcción (1 Re 16:34), cumpliendo la maldición de Josué (Jos 6:26). La ciudad reconstruida albergó una comunidad de hijos de los profetas discípulos de Eliseo.",
+      "religion": "Yahvismo — comunidades proféticas bajo Eliseo",
+      "periodo": "c. 870–800 a.C."
+    },
+    {
+      "id": "jerico-exilio",
+      "nombre": "Comunidad post-exílica",
+      "descripcion": "El libro de Nehemías registra que 345 hombres de Jericó regresaron del exilio babilónico (Esd 2:34; Neh 7:36) y que los hombres de Jericó participaron en la reconstrucción del muro de Jerusalén (Neh 3:2).",
+      "religion": "Yahvismo post-exílico — observancia de la Torá tras el retorno de Babilonia",
+      "periodo": "c. 538–400 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "caida-murallas",
+      "titulo": "La caída de las murallas: la primera batalla de Canaán",
+      "fecha": "c. 1200 a.C.",
+      "descripcion": "Josué envió dos espías a Jericó que se refugiaron en casa de Rahab, quien los ocultó a cambio de protección para su familia. El SEÑOR ordenó a Israel rodear la ciudad en silencio durante seis días. Al séptimo día, rodearon la ciudad siete veces; al sonar las trompetas, el pueblo gritó y las murallas se derrumbaron. Toda la ciudad fue consagrada al anatema (herem), excepto Rahab y su familia.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 2:1-24",
+        "Jos 6:1-27"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue",
+        "rahab"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "eliseo-manantial",
+      "titulo": "Eliseo sana las aguas de Jericó",
+      "fecha": "c. 850 a.C.",
+      "descripcion": "Cuando Eliseo llegó a Jericó, los habitantes le dijeron que las aguas eran malas y la tierra estéril. Eliseo pidió una vasija nueva con sal, la echó en el manantial y declaró: Así dice el SEÑOR: Sané estas aguas; no habrá más muerte ni esterilidad. Desde entonces el manantial —hoy llamado Ein es-Sultan o Fuente de Elisha— dio agua pura.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 2:19-22"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "eliseo"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "zaqueo-jerico",
+      "titulo": "Zaqueo y el paso de Jesús: la ciudad como umbral de transformación",
+      "fecha": "c. 29 d.C.",
+      "descripcion": "El Evangelio de Lucas sitúa en Jericó el encuentro de Jesús con Zaqueo, jefe de los publicanos que trepó a un sicómoro para verlo pasar. Jesús lo llamó por su nombre y anunció que se hospedería en su casa. La conversión de Zaqueo —que prometió restituir cuadruplicado lo robado y dar la mitad de sus bienes a los pobres— se convirtió en símbolo de la misericordia que alcanza a los excluidos.",
       "referencias": [
-        "// PENDIENTE"
+        "Lc 19:1-10",
+        "Mc 10:46-52",
+        "Lc 18:35-43"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "eliseo"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "josue",
+      "nombre": "Josué",
+      "emoji": "⚔️",
+      "rol": "Sucesor de Moisés, conductor de la conquista de Canaán",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Originario de la tribu de Efraín, Josué fue el asistente personal de Moisés durante el desierto y uno de los dos espías que confiaron en la conquista de Canaán. Lideró la entrada de Israel al cruzar el Jordán y dirigió la campaña que comenzó con la toma de Jericó. La caída de la ciudad sin batalla convencional estableció el patrón teológico: la victoria pertenece a YHWH.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 1:1-9",
+        "Jos 3:1-17",
+        "Jos 6:1-27",
+        "Jos 24:1-28"
       ],
-      "ruta": []
+      "ruta": [
+        "jericho",
+        "shechem",
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "rahab",
+      "nombre": "Rahab",
+      "emoji": "🪢",
+      "rol": "Prostituta de Jericó, protectora de los espías israelitas",
+      "periodo": "c. 1200 a.C.",
+      "descripcion": "Rahab es uno de los personajes más sorprendentes del AT: una mujer cananea, prostituta, que reconoció el poder de YHWH antes que muchos israelitas. Su confesión de fe es teológicamente comparable a las grandes profesiones de fe del AT. Un cordón escarlata atado a su ventana la identificó como sobreviviente. Su mención en la genealogía de Jesús la convierte en símbolo de inclusión.",
       "referencias": [
-        "// PENDIENTE"
+        "Jos 2:1-24",
+        "Jos 6:22-25",
+        "Heb 11:31",
+        "Mt 1:5"
       ],
-      "ruta": []
+      "ruta": [
+        "jericho"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "eliseo",
+      "nombre": "Eliseo ben Safat",
+      "emoji": "💧",
+      "rol": "Profeta sucesor de Elías",
+      "periodo": "c. 850–800 a.C.",
+      "descripcion": "Agricultor de Abel-Mehola llamado por Elías mientras araba con doce yuntas de bueyes. Recibió una doble porción del espíritu de Elías al presenciar su ascensión en el carro de fuego. En Jericó sana el manantial con sal —convirtiendo el símbolo del anatema en símbolo de vida— y forma discípulos en la comunidad de hijos de los profetas.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 19:19-21",
+        "2 Re 2:1-22",
+        "2 Re 4:1-44",
+        "2 Re 6:1-7"
       ],
-      "ruta": []
+      "ruta": [
+        "jericho",
+        "samaria",
+        "carmel_mount"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Jericó es el umbral de la Tierra Prometida —el primer lugar conquistado, el primer anatema pronunciado, el primer milagro de Eliseo. La conquista no comienza con estrategia militar sino con obediencia litúrgica (siete sacerdotes, siete trompetas, siete días). La maldición de Josué y su posterior levantamiento por Eliseo crean un arco narrativo que convierte a Jericó en espacio de muerte y vida. En el Nuevo Testamento, es la última ciudad antes de Jerusalén, escenario de la conversión de Zaqueo y la curación del ciego.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo cananeo (período preconquista)",
+      "Yahvismo (período de la conquista y posteriores)",
+      "Profetismo yahvista (comunidades de Eliseo)",
+      "Judaísmo del Segundo Templo (comunidad post-exílica)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "murallas-jerico",
+        "nombre": "La caída de las murallas de Jericó",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Josué 6:1-27",
+          "fuente_secundaria": "Talmud Bavli, Sanhedrin 44a; Midrash Tanjuma, Kedoshim",
+          "descripcion": "La caída de Jericó es el paradigma de la guerra santa (herem) en la literatura rabínica. El mantenimiento del herem señala que la tierra pertenece a Dios y que la conquista no es un derecho sino una misión.",
+          "similitudes": "La idea de una ciudad destruida por intervención divina directa tiene paralelos en textos de anatema del Bronce Medio.",
+          "diferencias": "A diferencia de otras guerras santas del antiguo Oriente, en Jericó no hay botín: la totalidad es consagrada a Dios.",
+          "significado_teologico": "La conquista sin espada propia establece que YHWH es el verdadero guerrero de Israel; la obediencia litúrgica precede a la victoria militar.",
+          "posible_relacion_cultural": "La práctica del herem tiene paralelos en inscripciones moabitas (Estela de Mesha, c. 840 a.C.)."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Hebreos 11:30",
+          "fuente_secundaria": "Orígenes, Homilías sobre Josué; Agustín, Cuestiones sobre el Heptateuco",
+          "descripcion": "La Carta a los Hebreos cita la caída de Jericó como ejemplo de fe. Orígenes interpretó alegóricamente la conquista: Jericó es el mundo, Josué (Yeshua = Jesús) es el que lo conquista, y el cordón escarlata de Rahab prefigura la sangre de Cristo.",
+          "similitudes": "Fe y obediencia como condiciones de la victoria son compartidas por ambas tradiciones.",
+          "diferencias": "La exégesis cristiana tiende a alegorizar la conquista; la tradición judía la interpreta más literalmente como historia sagrada.",
+          "significado_teologico": "Josué como figura tipológica de Jesús que conquista el mundo espiritual con la espada de la Palabra.",
           "posible_relacion_cultural": null
         },
         "islam": null
@@ -151,7 +198,6 @@
   "periodos_at": [
     "bronce_tardio",
     "hierro_1",
-    "hierro_2",
-    "post_exilio"
+    "hierro_2"
   ]
 }

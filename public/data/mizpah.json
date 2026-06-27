@@ -1,149 +1,182 @@
 {
   "id": "mizpah",
-  "nombre": "Mizpah",
+  "nombre": "Mizpá",
   "tipo": "ciudad",
   "lat": 31.8327,
   "lng": 35.1802,
-  "frecuencia_at": 56,
-  "jerarquia_pin": "primario",
+  "frecuencia_at": 47,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — A city in Benjamin; a place of gathering and judgment",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Centro tribal de Benjamín"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortaleza del reino de Judá"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Capital de la provincia de Judá tras la destrucción de Jerusalén"
+    }
+  ],
+  "descripcion_geo": "Mizpá de Benjamín (identificada con Tell en-Nasbeh, a unos 12 km al norte de Jerusalén) era una ciudad-atalaya en la tribu de Benjamín. Su nombre significa atalaya o lugar de vigía. Situada en un punto elevado con visibilidad sobre las rutas principales hacia Jerusalén desde el norte, la ciudad tenía importancia estratégica permanente. Tras la destrucción de Jerusalén en 586 a.C., fue la única ciudad benjaminita importante que sobrevivió relativamente intacta.",
+  "altitud_m": 895,
+  "clima": "Mediterráneo de montaña — similar a Jerusalén, con precipitaciones de 500-600 mm anuales. Posición elevada con buena visibilidad estratégica en todas las direcciones.",
+  "recursos": [
+    "Agua (cisternas)",
+    "Tierras agrícolas en terrazas",
+    "Posición estratégica (atalaya sobre las rutas principales)",
+    "Piedra caliza (construcción)"
+  ],
+  "importancia_estrategica": "Centro tribal de reunión antes de la monarquía, fortaleza fronteriza entre Israel y Judá durante el reino dividido, y única capital administrativa funcional después de la destrucción de Jerusalén en 586 a.C. Fue en Mizpá donde Gedalías, gobernador nombrado por Babilonia, intentó reconstitucionar la comunidad judía antes de ser asesinado.",
+  "otros_habitantes": [
+    {
+      "id": "benjaminitas-mizpa",
+      "nombre": "Benjaminitas de Mizpá",
+      "descripcion": "Mizpá era una ciudad benjaminita de importancia tribal. Fue el lugar de la gran asamblea israelita que decidió la guerra contra Benjamín por el crimen de Guibeá (Jue 20:1), el lugar donde Samuel convocó al pueblo para la renovación del pacto y la unción de Saúl (1 Sam 10:17-24), y el lugar donde el rey Asa de Judá construyó una fortaleza para marcar la frontera con Israel.",
+      "religion": "Yahvismo tribal de Benjamín — lugar de asamblea sagrada",
+      "periodo": "c. 1150–900 a.C."
+    },
+    {
+      "id": "gedalias-comunidad",
+      "nombre": "Comunidad de Gedalías",
+      "descripcion": "Tras la destrucción de Jerusalén en 586 a.C., Nabucodonosor nombró a Gedalías ben Ahikam gobernador de los supervivientes en Mizpá. A él se unieron soldados israelitas dispersos, el profeta Jeremías (forzado a quedarse), agricultores que no habían sido deportados y refugiados de Moab, Ammón y Edom que regresaron. Gedalías prometió normalizar la vida si obedecían a Babilonia. Fue asesinado por Ismael ben Netanías, de linaje real, quien luego huyó a Ammón. El ayuno de Gedalías (3 de Tishrí) es aún observado por el judaísmo.",
+      "religion": "Yahvismo post-destrucción — comunidad reorganizando la vida religiosa sin Templo",
+      "periodo": "c. 586–582 a.C."
+    },
+    {
+      "id": "pueblo-tierra-mizpa",
+      "nombre": "Pueblo de la tierra (que quedó)",
+      "descripcion": "Los babilonios dejaron en la tierra a los más pobres, los que no tenían nada, y les dieron viñas y campos (2 Re 25:12; Jr 39:10). Estos am-ha-aretz (pueblo de la tierra) que continuaron en Judá durante el exilio mantuvieron la vida agrícola y religiosa con recursos limitados. Mizpá, que no fue destruida, se convirtió en su centro administrativo y posiblemente en lugar de lamentación ritual.",
+      "religion": "Yahvismo del pueblo llano — posiblemente lamentación ritual en el lugar del Templo destruido",
+      "periodo": "c. 586–538 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "samuel-mizpa",
+      "titulo": "Samuel en Mizpá: la renovación del pacto y la unción de Saúl",
+      "fecha": "c. 1025 a.C.",
+      "descripcion": "Samuel convocó a todo Israel en Mizpá para una ceremonia de renovación del pacto: el pueblo confesó haber servido a los Baales y las Astartes. Samuel los juzgó allí. Cuando los filisteos oyeron que Israel se había reunido en Mizpá, subieron a atacar. El clamor al SEÑOR durante el sacrificio fue respondido con truenos que confundieron a los filisteos. Israel los persiguió y los derrotó. Samuel erigió una piedra entre Mizpá y Sen y la llamó Eben-Ezer (piedra del socorro). Más tarde, cuando el pueblo pidió un rey, Samuel los volvió a convocar en Mizpá y fue allí donde Saúl, encontrado escondido entre el equipaje, fue presentado al pueblo como primer rey de Israel.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 7:5-17",
+        "1 Sam 10:17-27"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "samuel",
+        "saul"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "asa-fortaleza",
+      "titulo": "Asa fortifica Mizpá: la frontera del reino dividido",
+      "fecha": "c. 895 a.C.",
+      "descripcion": "Cuando el rey Baasá de Israel comenzó a construir Ramá para bloquear los accesos a Judá, el rey Asa de Judá usó la plata y el oro del Templo para contratar al rey arameo Ben-Adad de Damasco, quien atacó las ciudades del norte de Israel. Con el peligro de Baasá conjurado, Asa desmanteló las obras de Ramá y usó el material para construir Gueba y Mizpá como ciudades fortaleza en la frontera norte de Judá. Mizpá se convirtió así en la posición defensiva más avanzada del reino de Judá hacia el norte.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 15:16-22",
+        "2 Cr 16:1-6"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "samuel"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "gedalias-asesinato",
+      "titulo": "El asesinato de Gedalías: el fin de la comunidad post-destrucción",
+      "fecha": "c. 582 a.C.",
+      "descripcion": "Gedalías ben Ahikam, gobernador babilónico de Judá con sede en Mizpá, fue advertido de que Ismael ben Netanías planeaba asesinarlo por encargo del rey de Ammón. Gedalías no creyó el aviso. Ismael llegó a Mizpá con diez hombres, fue invitado a comer y asesinó a Gedalías y a los judíos y babilonios presentes. Al día siguiente, ochenta peregrinos que venían de Siquem, Silo y Samaria con ofrendas para el Templo fueron masacrados en el pozo por Ismael, que escapó a Ammón. El resto de la comunidad, temiendo la represalia babilónica, huyó a Egipto llevando consigo al profeta Jeremías en contra de su voluntad.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 25:22-26",
+        "Jr 40:1-41:18"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "jeremias"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "samuel-mizpa",
+      "nombre": "Samuel",
+      "emoji": "🏺",
+      "rol": "Juez-profeta que convocó Israel en Mizpá",
+      "periodo": "c. 1070–1010 a.C.",
+      "descripcion": "Samuel usó Mizpá como su tribunal itinerante y como lugar de las grandes asambleas nacionales. La renovación del pacto, la victoria sobre los filisteos y la presentación de Saúl como primer rey tienen todas como escenario a Mizpá. Para Samuel, Mizpá representaba el Israel ideal: un pueblo reunido ante YHWH sin rey humano, dirigido solo por la palabra profética.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Sam 7:5-17",
+        "1 Sam 10:17-27"
       ],
-      "ruta": []
+      "ruta": [
+        "mizpah",
+        "gibeah",
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "gedalias",
+      "nombre": "Gedalías ben Ahikam",
+      "emoji": "🏛️",
+      "rol": "Último gobernador de Judá, asesinado en Mizpá",
+      "periodo": "c. 586–582 a.C.",
+      "descripcion": "Nombrado gobernador por Nabucodonosor, Gedalías pertenecía a una familia pro-babilónica que había intentado evitar la resistencia inútil contra Babilonia (su padre Ahikam protegió a Jeremías, Jr 26:24). Su proyecto de reconstrucción de la comunidad judía en Mizpá fue el más esperanzador de los intentos post-destrucción. Su asesinato fue una catástrofe de consecuencias irreversibles: dispersó la última comunidad organizada en la tierra. El ayuno en su memoria (3 de Tishrí) reconoce que su muerte fue el verdadero fin del período del primer Templo.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 25:22-26",
+        "Jr 40:1-41:18",
+        "Jr 41:1-18"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "mizpah"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jeremias-mizpa",
+      "nombre": "Jeremías",
+      "emoji": "📜",
+      "rol": "Profeta que permaneció en Judá, testigo del colapso final",
+      "periodo": "c. 627–580 a.C.",
+      "descripcion": "Jeremías, que había aconsejado la rendición a Babilonia como voluntad de YHWH, fue liberado por los babilonios y pudo elegir entre ir a Babilonia o quedarse en Judá. Eligió quedarse con Gedalías en Mizpá, convencido de que aún era posible reconstruir la comunidad. Tras el asesinato de Gedalías, fue llevado a la fuerza a Egipto por los refugiados que huían de la represalia babilónica, contra su protesta explícita (Jr 42-44). Su presencia en Mizpá es el último capítulo de su ministerio en la tierra de Israel.",
       "referencias": [
-        "// PENDIENTE"
+        "Jr 38:1-28",
+        "Jr 40:1-6",
+        "Jr 42:1-43:7"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "mizpah"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Mizpá es la ciudad que sobrevivió cuando todo lo demás cayó. Centro tribal antes de la monarquía, frontera fortficada durante el reino dividido, capital de la provincia de Judá tras la destrucción de Jerusalén —Mizpá es el lugar de los comienzos y de los finales. El asesinato de Gedalías en Mizpá cerró el último capítulo de la comunidad organizada en la tierra antes del exilio total. El ayuno de Gedalías, observado hasta hoy, es el único ayuno judío conmemorativo de la muerte de un individuo —reconocimiento de que en él murió más que un hombre.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo tribal pre-monárquico (lugar de asamblea nacional)",
+      "Yahvismo institucional (fortaleza fronteriza de Judá)",
+      "Yahvismo post-destrucción (comunidad de Gedalías sin Templo)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "mizpa-eben-ezer",
+        "nombre": "Eben-Ezer: la piedra del socorro en Mizpá",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "1 Samuel 7:5-17",
+          "fuente_secundaria": "Midrash Shmuel 14; Talmud Bavli, Rosh HaShaná 25a",
+          "descripcion": "La piedra Eben-Ezer (piedra del socorro) erigida por Samuel entre Mizpá y Sen conmemoraba la victoria sobre los filisteos obtenida mediante la oración y el sacrificio, no la batalla. Es un monumento a la eficacia de la intercesión profética. La misma expresión Eben-Ezer aparece antes como el lugar de una derrota israelita (1 Sam 4:1), convirtiendo la nueva piedra en una reversión simbólica de ese fracaso.",
+          "similitudes": "Las piedras conmemorativas erigidas tras victorias tienen paralelos en toda la tradición del antiguo Oriente (estelas de victoria).",
+          "diferencias": "A diferencia de las estelas de victoria reales que glorifican al guerrero-rey, la piedra de Samuel glorifica a YHWH como único agente de la victoria.",
+          "significado_teologico": "Hasta aquí nos ayudó el SEÑOR: la historia de Israel es la historia del socorro divino, no del heroísmo humano.",
+          "posible_relacion_cultural": "Las massebot (piedras erguidas) como monumentos de pacto o de acontecimiento sagrado son ubicuas en el Levante del Bronce y del Hierro."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]

@@ -2,154 +2,179 @@
   "id": "dan",
   "nombre": "Dan",
   "tipo": "ciudad",
-  "lat": 33.2487,
-  "lng": 35.6525,
-  "frecuencia_at": 76,
-  "jerarquia_pin": "primario",
+  "lat": 33.2468,
+  "lng": 35.6516,
+  "frecuencia_at": 51,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Israelite tribe; city in northern Israel; originally called Laish/Leshem.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Asentamiento de la tribu de Dan"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Santuario real del reino del norte"
+    }
+  ],
+  "descripcion_geo": "Dan (Tel Dan, norte de Israel) se asienta en el extremo norte de la tierra de Israel, en la confluencia de varios afluentes del río Jordán, al pie del Monte Hermón. La expresión bíblica desde Dan hasta Beerseba define los límites norte-sur del territorio israelita. El tell arqueológico de Dan (Tel el-Qadi) es uno de los más ricos de Israel, con ocupación desde el Neolítico.",
+  "altitud_m": 220,
+  "clima": "Mediterráneo con influencia montañosa — más húmedo que el resto de Israel (800-1000 mm anuales). Las fuentes del Jordán crean un microclima fresco y fértil, con abundante vegetación.",
+  "recursos": [
+    "Agua (fuentes del Jordán, las más abundantes de la región)",
+    "Tierras agrícolas fértiles (regadas por los afluentes del Hermón)",
+    "Bosques de roble y otros árboles",
+    "Rutas comerciales hacia el norte (Siria, Fenicia)"
+  ],
+  "importancia_estrategica": "Punto más septentrional de Israel, con valor estratégico como puerta norte frente a Siria y Fenicia. El santuario de Dan, establecido por Jeroboam I con un becerro de oro, convirtió la ciudad en centro religioso alternativo a Jerusalén para el reino del norte. La inscripción aramea hallada en Tel Dan (siglo IX a.C.) es la primera mención extrabiblica de la Casa de David.",
+  "otros_habitantes": [
+    {
+      "id": "layis-cananeos",
+      "nombre": "Habitantes de Layis",
+      "descripcion": "Antes de la conquista danita, la ciudad se llamaba Layis. Sus habitantes son descritos como tranquilos y confiados, viviendo según la costumbre de los sidonios y sin relación con los arameos. Los espías danitas los encontraron desprevenidos y vulnerables. La ciudad fue conquistada, incendiada y reconstruida como Dan.",
+      "religion": "Politeísmo cananeo-fenicio — influencia sidonia",
+      "periodo": "Anterior a c. 1150 a.C."
+    },
+    {
+      "id": "tribu-dan",
+      "nombre": "Tribu de Dan",
+      "descripcion": "La tribu de Dan, incapaz de conquistar su territorio asignado en la llanura costera (frente a los filisteos), envió espías al norte, encontró Layis desprotegida y la conquistó con 600 guerreros. Establecieron allí su santuario con un ídolo de fundición y un sacerdote mercenario de la familia de Moisés. Dan se convirtió en el santuario tribal más antiguo del norte.",
+      "religion": "Yahvismo sincretista — imagen de fundición en santuario tribal",
+      "periodo": "c. 1150–930 a.C."
+    },
+    {
+      "id": "sacerdotes-jeroboam",
+      "nombre": "Sacerdotes del becerro de oro de Dan",
+      "descripcion": "Jeroboam I instaló en Dan uno de los dos becerros de oro (el otro en Betel) y estableció un clero no levítico para servirlos. Dan y Betel se convirtieron en los dos santuarios oficiales del Reino del Norte, compitiendo con el Templo de Jerusalén. Los profetas del sur condenaron ambos santuarios, pero Dan mantuvo su rol hasta la caída de Samaria (722 a.C.).",
+      "religion": "Yahvismo sincretista oficial — becerro de oro como representación de YHWH",
+      "periodo": "c. 930–722 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "conquista-dan",
+      "titulo": "La conquista de Layis: la tribu sin tierra busca hogar",
+      "fecha": "c. 1150 a.C.",
+      "descripcion": "La tribu de Dan, presionada por los filisteos en su territorio costero, envió cinco espías al norte. En su viaje pasaron por la casa de Micá en Efraín, donde había un sacerdote mercenario y un ídolo de fundición. Los espías llegaron a Layis, ciudad desprotegida sin alianzas militares. De regreso, convencieron a la tribu de emigrar: 600 guerreros con sus familias partieron hacia el norte. En el camino robaron el ídolo de Micá y convencieron a su sacerdote de que les acompañara. Conquistaron Layis, la incendiaron, construyeron su ciudad y establecieron su santuario.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 17:1-13",
+        "Jue 18:1-31"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "josue"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jeroboam-dan",
+      "titulo": "El becerro de oro de Dan: el segundo santuario del reino del norte",
+      "fecha": "c. 930 a.C.",
+      "descripcion": "Jeroboam I, para consolidar el Reino del Norte independiente de Jerusalén, estableció dos centros de culto: uno en Betel (sur del reino) y otro en Dan (norte). En cada uno instaló un becerro de oro con las palabras: Aquí están tus dioses, Israel, los que te sacaron de Egipto. Dan, más alejada de Jerusalén, tenía además la legitimidad del antiguo santuario tribal. Los profetas del sur condenaron ambos centros como apostasía, pero para el reino del norte eran símbolos de identidad nacional y religiosa independiente.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 12:26-33",
+        "Am 8:14"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "jeroboam"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "inscripcion-dan",
+      "titulo": "La estela de Dan: la primera mención de la Casa de David",
+      "fecha": "c. 840 a.C.",
+      "descripcion": "En 1993-94, arqueólogos israelíes encontraron en Tel Dan fragmentos de una inscripción aramea del siglo IX a.C. que menciona a la Casa de David (en arameo: Beit David). Es la primera mención extrabiblica de David fuera de la Biblia. La inscripción la mandó grabar probablemente Hazael de Damasco para conmemorar una victoria sobre Israel y Judá. El hallazgo confirmó la historicidad de la dinastía davídica y generó considerable debate académico.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 8:7-15",
+        "2 Re 10:32-33"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "elias"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "jeroboam-dan",
+      "nombre": "Jeroboam I",
+      "emoji": "👑",
+      "rol": "Fundador del santuario real de Dan",
+      "periodo": "c. 931–910 a.C.",
+      "descripcion": "Al dividir el reino tras la muerte de Salomón, Jeroboam I necesitaba centros de culto que compitieran con el Templo de Jerusalén para evitar que su pueblo peregrinara al sur. Dan y Betel fueron sus elecciones: Dan por su antigüedad como santuario tribal, Betel por su centralidad geográfica. Su decisión fue condenada por todos los historiadores bíblicos pero fue coherente desde el punto de vista político.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 11:26-40",
+        "1 Re 12:20-33"
       ],
-      "ruta": []
+      "ruta": [
+        "shechem",
+        "bethel",
+        "dan"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "espias-dan",
+      "nombre": "Los cinco espías de Dan",
+      "emoji": "🗺️",
+      "rol": "Exploradores que encontraron el nuevo territorio de Dan",
+      "periodo": "c. 1150 a.C.",
+      "descripcion": "Los cinco espías de la tribu de Dan representan la iniciativa tribal independiente en el período de los jueces, cuando no había rey en Israel y cada uno hacía lo que le parecía bien. Su descubrimiento de Layis y su informe positivo —la tierra es excelente— llevó a la emigración tribal masiva. En su camino robaron ídolos y un sacerdote, estableciendo el patrón del santuario danita antes de la monarquía.",
       "referencias": [
-        "// PENDIENTE"
+        "Jue 18:1-20"
       ],
-      "ruta": []
+      "ruta": [
+        "dan"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "hazael-dan",
+      "nombre": "Hazael de Damasco",
+      "emoji": "⚔️",
+      "rol": "Rey arameo que atacó Dan e Israel",
+      "periodo": "c. 842–800 a.C.",
+      "descripcion": "Ungido rey de Damasco por Eliseo (2 Re 8:13), Hazael fue el enemigo más devastador que Israel conoció en el siglo IX a.C. Conquistó territorios transjordanos, atacó Gat y amenazó Jerusalén. La inscripción de Dan habría sido erigida por él o por su sucesor para conmemorar victorias sobre Israel y Judá. Cuando Eliseo lo ungió, lloró anticipando el mal que causaría.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 19:15",
+        "2 Re 8:7-15",
+        "2 Re 10:32-33",
+        "2 Re 12:17-18"
       ],
-      "ruta": []
+      "ruta": [
+        "damascus",
+        "dan",
+        "samaria"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Dan marca el límite norte del mundo bíblico israelita. Su santuario, establecido primero por la tribu de Dan con un ídolo robado y luego por Jeroboam con el becerro de oro, es el símbolo del culto no autorizado, paralelo y en tensión con el Templo de Jerusalén. El hallazgo de la inscripción de la Casa de David en Tel Dan transformó la arqueología bíblica: por primera vez, un texto epigráfico no bíblico confirmaba la existencia de la dinastía davídica en el siglo IX a.C.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo sincretista tribal (santuario de Micá, luego tribu de Dan)",
+      "Yahvismo sincretista oficial (becerro de oro de Jeroboam)",
+      "Politeísmo cananeo-fenicio (Layis preconquista)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "becerro-norte",
+        "nombre": "El becerro de oro como símbolo del cisma",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "1 Reyes 12:28-30; Éxodo 32:1-6",
+          "fuente_secundaria": "Talmud Bavli, Sanhedrin 102a; Midrash Shemot Rabbah 42",
+          "descripcion": "El Talmud vincula el becerro de oro del desierto (Éx 32) con los becerros de Jeroboam, sugiriendo que Jeroboam copió deliberadamente el pecado del Sinaí. La fórmula de presentación es idéntica: Este es tu Dios que te sacó de Egipto. Los comentaristas medievales debatieron si el becerro era una representación de YHWH o de otro dios.",
+          "similitudes": "El becerro como representación plástica de la divinidad tiene paralelos en el toro sagrado de El en Ugarit y en el Apis egipcio.",
+          "diferencias": "La condena profética del becerro de Dan es más insistente que la del becerro de Betel, quizás porque Dan estaba más influenciado por la cultura fenicia.",
+          "significado_teologico": "La prohibición de imágenes (Ex 20:4) no es solo teológica sino política: el culto centralizado en Jerusalén era el mecanismo de cohesión del estado. La imagen es siempre también un factor político.",
+          "posible_relacion_cultural": "El toro sagrado (Apis) del Bajo Egipto y el toro de El en la mitología ugarítica son los paralelos iconográficos directos del becerro de oro bíblico."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]
   },
   "periodos_at": [
-    "bronce_tardio",
     "hierro_1",
     "hierro_2"
   ]

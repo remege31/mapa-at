@@ -1,150 +1,218 @@
 {
   "id": "hebron",
-  "nombre": "Hebron",
+  "nombre": "Hebrón",
   "tipo": "ciudad",
-  "lat": 31.5358,
-  "lng": 35.0941,
-  "frecuencia_at": 70,
+  "lat": 31.5326,
+  "lng": 35.0998,
+  "frecuencia_at": 71,
   "jerarquia_pin": "primario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — An important city in Judah; burial place of patriarchs.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -2100,
+      "hasta": -1550,
+      "nombre": "Edad de Bronce Media — Período Patriarcal"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1550,
+      "hasta": -1200,
+      "nombre": "Edad de Bronce Tardía — Ciudad cananea"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista y asentamiento"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad davídica"
+    }
+  ],
+  "descripcion_geo": "Hebrón se sitúa en el corazón de las tierras altas de Judá, a unos 30 km al sur de Jerusalén, a 930 metros de altitud —la ciudad más alta de toda la región. El nombre antiguo, Quiriat-Arba (ciudad de los cuatro), sugiere una confederación de cuatro aldeas o la presencia de los gigantes anaquitas. Rodeada de valles fértiles como el Valle de Escol, famoso por sus viñas y granados, Hebrón fue siempre un centro agrícola y ganadero de primer orden.",
+  "altitud_m": 930,
+  "clima": "Mediterráneo de montaña — uno de los climas más frescos de la región. Inviernos fríos con posibilidad de nieve ocasional, veranos templados. Precipitaciones de 500-600 mm anuales, superiores al promedio de la región.",
+  "recursos": [
+    "Agua (manantiales permanentes y pozos profundos)",
+    "Viñas y olivares (el Valle de Escol era renombrado por sus uvas)",
+    "Granados y frutales",
+    "Pastos para ganado mayor",
+    "Piedra caliza de alta calidad (construcción)"
+  ],
+  "importancia_estrategica": "Posición dominante en la ruta norte-sur de las tierras altas de Judá. Su altura y recursos hídricos la convertían en ciudad refugio natural. Como primera capital de David antes de Jerusalén, concentró poder militar, político y religioso durante siete años cruciales para la formación de la monarquía unida.",
+  "otros_habitantes": [
+    {
+      "id": "anaquitas-hebron",
+      "nombre": "Anaquitas",
+      "descripcion": "Pueblo de estatura extraordinaria que habitaba Hebrón y sus alrededores. Los espías enviados por Moisés regresaron aterrados de su encuentro con los anaquitas, describiéndose a sí mismos como langostas en comparación (Nm 13:33). Caleb los expulsó durante la conquista, recibiendo la ciudad como heredad (Jos 14:12-15).",
+      "religion": "Politeísmo cananeo — culto a divinidades locales de los Refaítas",
+      "periodo": "Anterior a c. 1200 a.C."
+    },
+    {
+      "id": "hititas-hebron",
+      "nombre": "Hititas de Canaán",
+      "descripcion": "Abraham compró la cueva de Macpela a Efrón el hitita, en una transacción detallada en Gn 23 que sigue los formatos legales del Bronce Medio. La negociación en la puerta de la ciudad y la fijación del precio en plata corriente entre mercaderes refleja prácticas comerciales del período.",
+      "religion": "Politeísmo cananeo con elementos hititas — culto a divinidades de la fertilidad y ancestros",
+      "periodo": "c. 1800–1600 a.C. (Bronce Medio)"
+    },
+    {
+      "id": "calebitas-hebron",
+      "nombre": "Calebitas",
+      "descripcion": "La tribu de Caleb, de origen kenizeo (Nm 32:12), recibió Hebrón como heredad permanente por la fidelidad de su antepasado durante el espionaje de Canaán. Los calebitas se integraron plenamente en la tribu de Judá y mantuvieron el control de Hebrón durante el período davídico.",
+      "religion": "Yahvismo — integración en el culto de Israel",
+      "periodo": "c. 1200–1000 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "machpela-compra",
+      "titulo": "La cueva de Macpela: el primer suelo de la promesa",
+      "fecha": "c. 1750 a.C.",
+      "descripcion": "Tras la muerte de Sara, Abraham negoció con los hititas la compra de la cueva de Macpela pagando 400 siclos de plata a Efrón. Esta transacción es el único territorio que los patriarcas poseyeron en vida en la tierra prometida. La cueva se convirtió en sepulcro familiar: allí fueron enterrados Abraham y Sara, Isaac y Rebeca, Jacob y Lea.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 23:1-20",
+        "Gn 25:9-10",
+        "Gn 49:29-32",
+        "Gn 50:13"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "abraham"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-rey-hebron",
+      "titulo": "David ungido rey en Hebrón",
+      "fecha": "c. 1010 a.C.",
+      "descripcion": "Tras la muerte de Saúl, David subió a Hebrón por orden divina. Los ancianos de Judá lo ungieron rey, donde reinó siete años y seis meses antes de trasladar la capital a Jerusalén. En Hebrón nacieron seis de sus hijos, entre ellos Amnón y Absalón. También allí el general Joab asesinó a Abner, complicando la unificación del reino.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 2:1-4",
+        "2 Sam 2:11",
+        "2 Sam 3:2-5",
+        "2 Sam 3:27-30",
+        "2 Sam 5:1-5"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "absalon-rebelion",
+      "titulo": "La rebelión de Absalón: la traición desde Hebrón",
+      "fecha": "c. 975 a.C.",
+      "descripcion": "Absalón eligió Hebrón como base para proclamarse rey y lanzar su rebelión contra su padre David. La ciudad tenía peso simbólico: era la primera capital de David. La rebelión fracasó cuando Absalón fue muerto por Joab contra las órdenes de David. El lamento del rey —¡Absalón, hijo mío, hijo mío!— es uno de los pasajes más emotivos del libro de Samuel.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 15:7-12",
+        "2 Sam 15:13-14",
+        "2 Sam 18:1-18",
+        "2 Sam 18:33"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "abraham",
+      "nombre": "Abraham",
+      "emoji": "⛺",
+      "rol": "Patriarca fundador, primer monoteísta del relato bíblico",
+      "periodo": "c. 1800 a.C.",
+      "descripcion": "Originario de Ur de los Caldeos, Abraham recibió la llamada de migrar a Canaán con la promesa de tierra, descendencia y bendición universal. Estableció su campamento principal junto al encinar de Mamré, cerca de Hebrón, donde recibió la visita de los tres ángeles que anunciaron el nacimiento de Isaac.",
       "referencias": [
-        "// PENDIENTE"
+        "Gn 12:1-9",
+        "Gn 13:14-18",
+        "Gn 18:1-15",
+        "Gn 23:1-20"
       ],
-      "ruta": []
+      "ruta": [
+        "haran",
+        "shechem",
+        "bethel",
+        "hebron",
+        "beersheba"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "caleb",
+      "nombre": "Caleb ben Jefone",
+      "emoji": "🗡️",
+      "rol": "Espía fiel, conquistador de Hebrón",
+      "periodo": "c. 1250–1200 a.C.",
+      "descripcion": "Único espía junto a Josué que confió en la conquista de Canaán. Cuarenta y cinco años después, a los 85 años de edad, reclamó Hebrón como heredad prometida por Moisés y expulsó a los anaquitas. Su vigor en la vejez se convirtió en símbolo de fidelidad recompensada.",
       "referencias": [
-        "// PENDIENTE"
+        "Nm 13:6",
+        "Nm 14:24",
+        "Jos 14:6-15",
+        "Jos 15:13-14"
       ],
-      "ruta": []
+      "ruta": [
+        "hebron"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david",
+      "nombre": "David",
+      "emoji": "👑",
+      "rol": "Rey de Judá e Israel, elegido de YHWH",
+      "periodo": "c. 1010–970 a.C.",
+      "descripcion": "Pastor de Belén ungido en secreto por Samuel, David hizo de Hebrón su primera capital durante siete años y medio. En Hebrón nacieron sus primeros hijos y se consolidó su poder sobre Judá. También fue escenario de la rebelión de Absalón, que ensombreció el final de su reinado.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 2:1-11",
+        "2 Sam 5:1-5",
+        "2 Sam 15:7-12",
+        "2 Sam 18:33"
       ],
-      "ruta": []
+      "ruta": [
+        "belen",
+        "hebron",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Hebrón es la ciudad de los patriarcas por excelencia. La cueva de Macpela, donde descansan Abraham y Sara, Isaac y Rebeca, Jacob y Lea, la convierte en el primer lugar sagrado del judaísmo vinculado a la promesa territorial. Esta sacralidad patriarcal precede al Templo de Jerusalén y sobrevive a todas las vicisitudes políticas. Para el Islam, el patriarca Ibrahim es el fundador de la Ka'ba y el primer musulmán; la tumba de Hebrón es el cuarto lugar más sagrado del Islam.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Yahvismo patriarcal (Abraham, Isaac, Jacob)",
+      "Politeísmo cananeo (anaquitas, hititas preconquista)",
+      "Yahvismo institucional (período davídico y monárquico)",
+      "Islam (tumba de Ibrahim — Mezquita de Ibrahim / Cueva de Macpela)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "macpela-tumba",
+        "nombre": "La cueva de Macpela: tumba de los patriarcas",
         "aparece_en": {
           "judaismo": true,
           "cristianismo": true,
-          "islam": false
+          "islam": true
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Génesis 23; 25:9-10; 49:29-32; 50:13",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 58; Sefer HaYashar",
+          "descripcion": "La cueva es identificada como el lugar donde descansan los seis patriarcas y matriarcas. Según el Midrash, Adán y Eva también están enterrados allí, convirtiendo la cueva en la tumba de la humanidad originaria.",
+          "similitudes": "Las tres tradiciones reconocen a Abraham/Ibrahim como padre fundador enterrado en Hebrón.",
+          "diferencias": "El judaísmo identifica seis tumbas patriarcales; el Islam enfatiza la tumba de Ibrahim; el Cristianismo centra la significación en Abraham como padre de la fe, no en el lugar físico.",
+          "significado_teologico": "La posesión legal de Macpela es el primer cumplimiento tangible de la promesa territorial. La tierra prometida comenzó siendo una cueva para los muertos.",
+          "posible_relacion_cultural": "El culto a los ancestros enterrados en cuevas sagradas es documentado en todo el Levante del Bronce Medio."
         },
         "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
+          "fuente_primaria": "Hechos 7:16; Hebreos 11:8-16",
+          "fuente_secundaria": "Eusebio de Cesarea, Onomasticon; peregrinaciones medievales",
+          "descripcion": "La Carta a los Hebreos alaba a Abraham por haber vivido como extranjero en la tierra prometida, buscando una patria mejor, la celestial. Hebrón como lugar físico tiene menor relevancia teológica que Abraham como modelo de fe.",
+          "similitudes": "Abraham como paradigma de fe obediente es central tanto en Pablo como en el Génesis.",
+          "diferencias": "El Nuevo Testamento espiritualiza la promesa territorial: la tierra ya no es Canaán sino el Reino de Dios.",
+          "significado_teologico": "Hebrón representa el inicio de la fe como peregrinaje; el cristiano es también extranjero en busca de una patria celestial.",
           "posible_relacion_cultural": null
         },
-        "islam": null
+        "islam": {
+          "fuente_primaria": "Corán, Sura 2 (Al-Baqara); Sura 4:125",
+          "fuente_secundaria": "Ibn Kathir, Qisas al-Anbiya; Ibn Battuta, visita a Al-Khalil",
+          "descripcion": "Hebrón es conocida en árabe como Al-Khalil (el amigo), en referencia al título de Ibrahim Khalilullah (amigo de Dios). La Mezquita de Ibrahim, construida sobre la cueva de Macpela, es considerada el cuarto lugar más sagrado del Islam.",
+          "similitudes": "Ibrahim como primer monoteísta y padre de la fe es compartido por las tres tradiciones.",
+          "diferencias": "El Islam enfatiza que Ibrahim era musulmán antes del judaísmo y el cristianismo; la tumba es lugar de peregrinación activa.",
+          "significado_teologico": "Al-Khalil es testimonio de que el Islam es la religión original de Ibrahim, anterior a la Torá y el Evangelio.",
+          "posible_relacion_cultural": null
+        }
       }
     ]
   },
@@ -152,7 +220,6 @@
     "bronce_medio",
     "bronce_tardio",
     "hierro_1",
-    "hierro_2",
-    "post_exilio"
+    "hierro_2"
   ]
 }

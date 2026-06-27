@@ -1,156 +1,185 @@
 {
   "id": "damascus",
-  "nombre": "Damascus",
+  "nombre": "Damasco",
   "tipo": "ciudad",
-  "lat": 33.5193,
-  "lng": 36.3134,
-  "frecuencia_at": 61,
-  "jerarquia_pin": "primario",
+  "lat": 33.5138,
+  "lng": 36.2765,
+  "frecuencia_at": 59,
+  "jerarquia_pin": "secundario",
   "periodos": [
     {
-      "desde": "// PENDIENTE",
-      "hasta": "// PENDIENTE",
-      "nombre": "// PENDIENTE — verificar ocupación arqueológica"
-    }
-  ],
-  "descripcion_geo": "// PENDIENTE — Ancient city, capital of Syria, important in biblical history.",
-  "altitud_m": "// PENDIENTE",
-  "clima": "// PENDIENTE",
-  "recursos": [
-    "// PENDIENTE"
-  ],
-  "importancia_estrategica": "// PENDIENTE",
-  "otros_habitantes": [
-    {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Reino Arameo de Damasco"
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
-      "religion": "// PENDIENTE",
-      "periodo": "// PENDIENTE"
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Dominio babilónico y persa"
+    }
+  ],
+  "descripcion_geo": "Damasco se asienta en el oasis de Guta, al pie del Monte Qasiyún, en el extremo suroeste de la llanura siria interior. Irrigada por el río Abana (Barada) y el Farfar, la ciudad ha sido habitada de forma continua durante al menos 11.000 años, siendo posiblemente la ciudad más antigua del mundo en funcionamiento ininterrumpido. Su posición entre el desierto sirio y el Mediterráneo la convirtió en nodo comercial insustituible.",
+  "altitud_m": 690,
+  "clima": "Mediterráneo continental — veranos secos y calurosos, inviernos fríos con precipitaciones (250 mm anuales). El oasis de Guta, alimentado por el río Barada, crea un microclima más húmedo y fértil que el desierto circundante.",
+  "recursos": [
+    "Agua (ríos Abana y Farfar, mencionados en 2 Re 5:12)",
+    "Oasis agrícola (frutales, viñas, cereales)",
+    "Ruta comercial (nodo entre Mesopotamia, Egipto y el Mediterráneo)",
+    "Hierro (comercio con las ciudades filisteas)",
+    "Tejidos y perfumes (artesanías renombradas)"
+  ],
+  "importancia_estrategica": "Capital del reino arameo más poderoso del Hierro II, rival permanente de Israel y Judá. Damasco controlaba las rutas comerciales entre Mesopotamia y el Mediterráneo, y la fuerza militar aramea fue suficiente para desafiar a Asiria durante décadas. La alianza o el conflicto con Damasco determinó la política exterior de Israel durante dos siglos.",
+  "otros_habitantes": [
+    {
+      "id": "arameos-damasco",
+      "nombre": "Arameos de Damasco",
+      "descripcion": "El reino arameo de Damasco (Aram-Damasco) fue el estado más poderoso de Siria durante el Hierro II. Sus reyes —Rezón, Ben-Adad I, II y III, Hazael— mantuvieron una relación de permanente rivalidad y ocasional alianza con Israel. La lengua aramea, que era la de esta corte, se convirtió paradójicamente en la lingua franca del Oriente Medio y eventualmente en el idioma cotidiano de Jesús.",
+      "religion": "Politeísmo arameo — culto a Hadad (dios de la tormenta, equivalente a Baal), Rimón y el panteón sirio",
+      "periodo": "c. 1000–732 a.C."
+    },
+    {
+      "id": "asirios-damasco",
+      "nombre": "Dominio asirio",
+      "descripcion": "Tiglat-Pileser III conquistó Damasco en 732 a.C., convirtiendo el reino arameo en provincia asiria. La alianza entre Peka de Israel y Rezín de Damasco contra Judá y Asiria (crisis sirio-efraimita, Is 7) fue el detonante de esta conquista. El profeta Isaías anunció la desolación de Damasco (Is 17:1-3), que se cumplió en 732 a.C.",
+      "religion": "Politeísmo asirio — culto a Asur, Ishtar y el panteón imperial",
+      "periodo": "732–612 a.C."
+    },
+    {
+      "id": "naaman-damasco",
+      "nombre": "Sirios en contacto con Israel",
+      "descripcion": "El relato de Naamán (2 Re 5) refleja la presencia de israelitas en la corte de Damasco —una joven cautiva que informa a Naamán sobre el profeta Eliseo— y la apertura del yahvismo hacia los extranjeros. Naamán, curado de su lepra en el Jordán, declara: No hay Dios en toda la tierra sino en Israel, y pide tierra de Israel para construir un altar en Damasco.",
+      "religion": "Politeísmo arameo con apertura al yahvismo (caso Naamán)",
+      "periodo": "c. 850 a.C."
     }
   ],
   "historias": [
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "david-damasco",
+      "titulo": "David y el dominio sobre Damasco",
+      "fecha": "c. 990 a.C.",
+      "descripcion": "Tras derrotar a Hadad-Ezer de Sobá, David derrotó también a los arameos de Damasco que habían acudido en su auxilio, instalando guarniciones en el territorio. Damasco quedó bajo tributación davídica. Sin embargo, Rezón ben Eliada, fugitivo de Hadad-Ezer, reunió una banda y se apoderó de Damasco durante el reinado de Salomón, iniciando el reino arameo independiente que rivaliza con Israel durante siglos.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Sam 8:5-6",
+        "1 Re 11:23-25"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "david"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "naaman-sanacion",
+      "titulo": "Naamán el sirio: la curación que cruzó fronteras",
+      "fecha": "c. 850 a.C.",
+      "descripcion": "Naamán, general del ejército arameo y hombre de gran valía ante el rey de Damasco, tenía lepra. Una joven israelita cautiva le habló del profeta Eliseo. Naamán viajó a Israel con carta del rey de Aram y grandes riquezas. Eliseo le ordenó bañarse siete veces en el Jordán. Naamán, indignado al principio —¿no son mejores los ríos de Damasco que todos los ríos de Israel?—, obedeció y fue curado. Su conversión al yahvismo es el primer caso documentado de un extranjero que abraza la fe de Israel sin convertirse.",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 5:1-27"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "eliseo",
+        "naaman"
       ]
     },
     {
-      "id": "// PENDIENTE",
-      "titulo": "// PENDIENTE",
-      "fecha": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "crisis-siroefaimita",
+      "titulo": "La crisis sirio-efraimita: Isaías y el signo de Emanuel",
+      "fecha": "734 a.C.",
+      "descripcion": "Rezín de Damasco y Peka de Israel formaron una alianza para forzar a Judá a unirse a su coalición anti-asiria. Amenazaron con destronar al rey Acaz y poner en su lugar a un títere. Acaz, aterrorizado, pidió ayuda a Tiglat-Pileser III de Asiria. Isaías confrontó a Acaz con el famoso oráculo: La joven concebirá y dará a luz un hijo, y lo llamará Emanuel. Antes de que ese niño sepa rechazar lo malo y elegir lo bueno, la tierra de los dos reyes que tú temes quedará abandonada. La alianza sírio-efraimita fue destruida: Asiria conquistó Damasco en 732 a.C.",
       "referencias": [
-        "// PENDIENTE"
+        "Is 7:1-17",
+        "2 Re 16:5-9",
+        "Is 17:1-3"
       ],
       "personajes_clave": [
-        "// PENDIENTE"
+        "isaias"
       ]
     }
   ],
   "personajes": [
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "naaman",
+      "nombre": "Naamán",
+      "emoji": "🫧",
+      "rol": "General arameo curado de lepra por Eliseo",
+      "periodo": "c. 850 a.C.",
+      "descripcion": "Comandante del ejército de Damasco, hombre de gran prestigio militar, Naamán representa al extranjero noble que reconoce el poder de YHWH. Su resistencia inicial a bañarse en el Jordán —comparado desfavorablemente con los ríos de Damasco— y su conversión final forman uno de los relatos más universalistas del AT. Jesús lo cita como ejemplo de que la gracia divina no reconoce fronteras étnicas (Lc 4:27).",
       "referencias": [
-        "// PENDIENTE"
+        "2 Re 5:1-27",
+        "Lc 4:27"
       ],
-      "ruta": []
+      "ruta": [
+        "damascus",
+        "jericho"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "eliseo-damasco",
+      "nombre": "Eliseo",
+      "emoji": "💧",
+      "rol": "Profeta que unge reyes y sana extranjeros",
+      "periodo": "c. 850–800 a.C.",
+      "descripcion": "Eliseo interactuó con la corte de Damasco en dos ocasiones: la curación de Naamán y la unción de Hazael como rey de Aram (2 Re 8:7-15), cumpliendo el mandato original dado a Elías en el Horeb (1 Re 19:15). Hazael resultó ser un rey brutal que oprimió a Israel. El llanto de Eliseo al ungirlo —porque sé el mal que harás a Israel— es uno de los momentos más dolorosos de la literatura profética.",
       "referencias": [
-        "// PENDIENTE"
+        "1 Re 19:15",
+        "2 Re 5:1-27",
+        "2 Re 8:7-15"
       ],
-      "ruta": []
+      "ruta": [
+        "damascus",
+        "jericho",
+        "samaria",
+        "carmel_mount"
+      ]
     },
     {
-      "id": "// PENDIENTE",
-      "nombre": "// PENDIENTE",
-      "emoji": "// PENDIENTE",
-      "rol": "// PENDIENTE",
-      "periodo": "// PENDIENTE",
-      "descripcion": "// PENDIENTE",
+      "id": "isaias-damasco",
+      "nombre": "Isaías ben Amós",
+      "emoji": "✍️",
+      "rol": "Profeta de Jerusalén, consejero de reyes",
+      "periodo": "c. 740–700 a.C.",
+      "descripcion": "El mayor de los profetas escritores, Isaías profetizó durante los reinados de Uzías, Jotam, Acaz y Ezequías. Su intervención durante la crisis sirio-efraimita —cuando Damasco y Samaria amenazaban Jerusalén— produjo el oráculo de Emanuel (Is 7:14), el más citado del AT en el Nuevo Testamento. Sus visiones de paz universal (Is 2:4, espadas convertidas en arados) y del Siervo sufriente (Is 52-53) definen la imaginación mesiánica de Occidente.",
       "referencias": [
-        "// PENDIENTE"
+        "Is 1:1",
+        "Is 6:1-13",
+        "Is 7:1-17",
+        "Is 53:1-12"
       ],
-      "ruta": []
+      "ruta": [
+        "jerusalen",
+        "damascus"
+      ]
     }
   ],
   "contexto_religioso": {
-    "contexto_lugar": "// PENDIENTE",
+    "contexto_lugar": "Damasco representa el mundo extranjero poderoso con el que Israel convive, lucha y a veces se convierte en canal de bendición. El relato de Naamán es el texto más universalista del ciclo profético del AT: un general pagano curado en el Jordán declara la unicidad de YHWH y pide tierra de Israel para construir un altar en Damasco. La lengua aramea de Damasco acabó siendo el idioma del pueblo judío tras el exilio y el idioma de Jesús, una ironía histórica que el AT no podía prever.",
     "religiones_presentes": [
-      "// PENDIENTE"
+      "Politeísmo arameo (culto a Hadad-Rimón)",
+      "Yahvismo de contacto (caso Naamán, esclavos israelitas en Damasco)",
+      "Politeísmo asirio (tras 732 a.C.)"
     ],
     "mitos": [
       {
-        "id": "// PENDIENTE",
-        "nombre": "// PENDIENTE",
+        "id": "hadad-rimmon",
+        "nombre": "El duelo por Hadad-Rimón en el valle de Meguido",
         "aparece_en": {
           "judaismo": true,
-          "cristianismo": true,
+          "cristianismo": false,
           "islam": false
         },
         "judaismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
+          "fuente_primaria": "Zacarías 12:11",
+          "fuente_secundaria": "Talmud Bavli, Moed Katan 28b; comentarios medievales sobre Zac 12:11",
+          "descripcion": "Zacarías 12:11 compara el llanto escatológico sobre Jerusalén con el duelo por Hadad-Rimón en el valle de Meguido, refiriéndose probablemente al lamento por la muerte del rey Josías en Meguido (2 Cr 35:22-25) o a un ritual cúltico arameo de llanto por la divinidad. Hadad-Rimón era el nombre compuesto del dios de la tormenta en Damasco.",
+          "similitudes": "El llanto ritual por la divinidad tiene paralelos en el culto a Tammuz/Adonis en toda la región.",
+          "diferencias": "La tradición judía reinterpreta el duelo pagano por la divinidad como figura del lamento mesiánico por Jerusalén.",
+          "significado_teologico": "El duelo más intenso de la historia —el llanto escatológico por Jerusalén— supera incluso el llanto por el dios que muere.",
+          "posible_relacion_cultural": "El ciclo de muerte y resurrección de Baal/Hadad documentado en los textos de Ugarit es el trasfondo religioso de toda la región."
         },
-        "cristianismo": {
-          "fuente_primaria": "// PENDIENTE",
-          "fuente_secundaria": "// PENDIENTE",
-          "descripcion": "// PENDIENTE",
-          "similitudes": null,
-          "diferencias": null,
-          "significado_teologico": "// PENDIENTE",
-          "posible_relacion_cultural": null
-        },
+        "cristianismo": null,
         "islam": null
       }
     ]
   },
   "periodos_at": [
-    "bronce_tardio",
-    "hierro_1",
     "hierro_2",
     "post_exilio"
   ]

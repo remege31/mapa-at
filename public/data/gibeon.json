@@ -96,7 +96,7 @@
       "nombre": "Josué",
       "emoji": "☀️",
       "rol": "Comandante que detuvo el sol sobre Gabaón",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "En Gabaón, Josué protagonizó dos de los episodios más notables de su carrera: la alianza con los gabaonitas por engaño —que enseñó a Israel la sacralidad irrompible de los pactos— y la batalla en que detuvo el sol, el prodigio militar más extraordinario del libro que lleva su nombre. La orden al sol es el gesto más audaz de toda la Biblia: un hombre que ordena a los astros.",
       "referencias": [
         "Jos 9:1-27",
@@ -115,7 +115,7 @@
       "nombre": "Salomón",
       "emoji": "💡",
       "rol": "Rey que recibió la sabiduría en sueños en Gabaón",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "El sueño de Gabaón al inicio del reinado de Salomón es el momento de mayor claridad espiritual de su vida. La elección de la sabiduría sobre la riqueza, el honor y la larga vida define el ideal del rey justo en la tradición bíblica. Toda la tradición sapiencial de Israel —Proverbios, Eclesiastés, el Cantar— está atribuida a la figura de Salomón, cuya sabiduría comenzó en ese sueño de Gabaón.",
       "referencias": [
         "1 Re 3:4-15",
@@ -123,7 +123,7 @@
         "1 Re 10:1-13"
       ],
       "ruta": [
-        "belen",
+        "bethlehem",
         "jerusalen",
         "gibeon"
       ]

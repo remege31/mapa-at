@@ -90,7 +90,7 @@
       "nombre": "Saúl ben Quis",
       "emoji": "👑",
       "rol": "Primer rey de Israel, natural de Guibeá",
-      "periodo": "c. 1025–1000 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Benjaminita de familia humilde, Saúl fue ungido primer rey de Israel por Samuel en respuesta al clamor del pueblo. Alto, apuesto y carismático, comenzó con victorias militares brillantes pero su reinado se deterioró por la desobediencia a los mandatos divinos transmitidos por Samuel. Su envidia hacia David, sus episodios de violencia irracional y su consulta de la médium de Endor pintan un retrato de hombre elegido que pierde la elección, trágico en el sentido clásico.",
       "referencias": [
         "1 Sam 9:1-10:27",
@@ -109,7 +109,7 @@
       "nombre": "David",
       "emoji": "🎸",
       "rol": "Arpista en la corte de Saúl, futuro rey",
-      "periodo": "c. 1015–1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "La primera presencia de David en Guibeá fue como músico terapéutico de Saúl. La imagen del pastor-poeta que calma con su arpa al rey atormentado es uno de los cuadros más bellos de la historia davídica. Esta fase inicial de favor pronto se transformó en rivalidad cuando David comenzó a destacar militarmente. La amistad con Jonatán, hijo de Saúl, fue el único vínculo que sobrevivió a la ruptura.",
       "referencias": [
         "1 Sam 16:14-23",
@@ -117,7 +117,7 @@
         "1 Sam 20:1-42"
       ],
       "ruta": [
-        "belen",
+        "bethlehem",
         "gibeah",
         "hebron",
         "jerusalen"
@@ -128,7 +128,7 @@
       "nombre": "Jonatán ben Saúl",
       "emoji": "🏹",
       "rol": "Príncipe guerrero, amigo fiel de David",
-      "periodo": "c. 1025–1000 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Jonatán, el hijo mayor de Saúl y heredero natural al trono, eligió la amistad con David sobre sus propios intereses dinásticos. Su pacto con David —el alma de Jonatán quedó unida al alma de David, y lo amó como a sí mismo— es el modelo bíblico de amistad leal. Murió junto a su padre en el monte Gilboa luchando contra los filisteos. El lamento de David por Saúl y Jonatán es la elegía más hermosa del AT.",
       "referencias": [
         "1 Sam 18:1-4",

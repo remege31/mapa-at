@@ -264,7 +264,7 @@ function Panel({ lugar, periodId, onClose }: {
       </div>
       {showFade && <div className="panel-scroll-fade" />}
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
     </>
   )
 }
@@ -299,7 +299,7 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT · MVP v1</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
     </>
   )
 }

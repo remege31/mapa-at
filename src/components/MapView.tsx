@@ -620,7 +620,7 @@ export function MapView({
 
     // Pins ya procesados con su posición en pantalla
     const placedPins: Array<{ x: number; y: number }> = []
-    const MIN_DIST = 52 // píxeles mínimos entre pins para mostrar label
+    const MIN_DIST = 64 // H-01/03: píxeles mínimos entre pins para mostrar label
 
     sorted.forEach(lugar => {
       const isJerusalen = lugar.id === 'jerusalen'
@@ -673,6 +673,13 @@ export function MapView({
       }
 
       marker.addTo(map)
+      if (!dimmed) {
+        marker.bindTooltip(lugar.nombre, {
+          direction: "top",
+          offset: [0, -12],
+          className: "pin-tooltip",
+        })
+      }
       markersRef.current.set(lugar.id, marker)
     })
   }, [lugares, selectedId, zoom, showHint, periodId])

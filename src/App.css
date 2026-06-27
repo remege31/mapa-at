@@ -753,21 +753,38 @@
     backdrop-filter: blur(1px);
   }
 
+  /* M-19/20: dos filas — períodos scrollable arriba, capas siempre visibles abajo */
   #timeline-bar {
-    gap: 8px;
-    padding: 5px 10px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    gap: 0;
+    padding: 0;
+    align-items: stretch;
+  }
+  .tl-label { display: none; }
+  #period-btns {
+    width: 100%;
     flex-wrap: nowrap;
+    flex-shrink: 0;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;       /* Firefox */
-    -ms-overflow-style: none;    /* IE/Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 5px 10px;
+    /* M-18: scroll shadows — indica que hay más contenido a la derecha */
+    background-image:
+      linear-gradient(to right,  var(--paper) 0%, transparent 100%),
+      linear-gradient(to left,   var(--paper) 0%, transparent 100%),
+      linear-gradient(to right,  rgba(0,0,0,0.08) 0%, transparent 100%),
+      linear-gradient(to left,   rgba(0,0,0,0.08) 0%, transparent 100%);
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-color: var(--paper);
+    background-size: 16px 100%, 16px 100%, 10px 100%, 10px 100%;
+    background-attachment: local, local, scroll, scroll;
   }
-  #timeline-bar::-webkit-scrollbar {
-    display: none;               /* Chrome/Safari */
-  }
-  .tl-label { flex-shrink: 0; }
-  #period-btns { flex-wrap: nowrap; flex-shrink: 0; }
+  #period-btns::-webkit-scrollbar { display: none; }
   .period-btn { font-size: 10px; padding: 3px 8px; flex-shrink: 0; }
 
   /* M-21: topbar mobile — elementos fuera del viewport */
@@ -963,10 +980,11 @@
 
 @media (max-width: 768px) {
   #layers-row {
-    width: auto;
+    width: 100%;          /* M-19/20: segunda fila, siempre visible */
     flex-shrink: 0;
     padding: 4px 10px 5px;
     border-bottom: none;
+    border-top: 1px solid var(--beige);
   }
   .layer-btn {
     font-size: 10px;

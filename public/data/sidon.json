@@ -108,7 +108,7 @@
       "nombre": "Elías el Tisbita",
       "emoji": "🔥",
       "rol": "Profeta refugiado en Fenicia durante la sequía",
-      "periodo": "c. 875–850 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Elías pasó parte de su ministerio en territorio fenicio, en Sarepta de Sidón, donde YHWH lo envió para ser alimentado por una viuda. Esta experiencia, en el corazón del territorio de donde venía Jezabel y los dioses que Elías combatía, subraya la paradoja de la fe: la providencia actúa precisamente donde menos se espera.",
       "referencias": [
         "1 Re 17:8-24",
@@ -121,6 +121,32 @@
         "sidon",
         "beersheba",
         "sinai"
+      ],
+      "viajes": [
+        {
+          "nombre": "El ministerio profético",
+          "ruta": [
+            "samaria",
+            "sidon",
+            "carmel_mount"
+          ],
+          "referencias": [
+            "1 Re 17:1",
+            "1 Re 17:9-24",
+            "1 Re 18:20-40"
+          ]
+        },
+        {
+          "nombre": "La huida al Horeb",
+          "ruta": [
+            "carmel_mount",
+            "beersheba",
+            "sinai"
+          ],
+          "referencias": [
+            "1 Re 19:1-18"
+          ]
+        }
       ]
     },
     {
@@ -128,7 +154,7 @@
       "nombre": "Jezabel",
       "emoji": "👸",
       "rol": "Reina de Israel, hija del rey de Sidón",
-      "periodo": "c. 874–843 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Hija de Etbaal de Sidón, esposa de Acab rey de Israel, Jezabel es la figura femenina más poderosa y más condenada del AT. Introdujo el culto oficial a Baal de Sidón, persiguió a los profetas de YHWH, asesinó a Nabot para apoderarse de su viña y gobernó de facto tras la muerte de Acab. Su muerte violenta —arrojada desde una ventana, pisoteada y devorada por perros— se convirtió en el castigo ejemplar de la idolatría y el abuso del poder.",
       "referencias": [
         "1 Re 16:31",
@@ -146,7 +172,7 @@
       "nombre": "Salomón",
       "emoji": "📐",
       "rol": "Rey constructor del Templo, aliado de Fenicia",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Salomón heredó de su padre David la alianza con el rey fenicio de Tiro-Sidón y la aprovechó para obtener cedros del Líbano y artesanos especializados para el Templo. Pero también construyó altares para los dioses de sus esposas extranjeras, incluyendo Astarté de los sidonios (1 Re 11:5), por lo que los autores bíblicos juzgan su reinado como inicio del declive religioso que culminaría con el exilio.",
       "referencias": [
         "1 Re 3:1-15",

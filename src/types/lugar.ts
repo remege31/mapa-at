@@ -24,6 +24,12 @@ export interface Historia {
   personajes_clave: string[]
 }
 
+export interface Viaje {
+  nombre: string
+  ruta: string[]
+  referencias?: string[]
+}
+
 export interface Personaje {
   id: string
   nombre: string
@@ -33,6 +39,7 @@ export interface Personaje {
   descripcion: string
   referencias: string[]
   ruta: string[]
+  viajes?: Viaje[]
 }
 
 export interface MitoTradicion {
@@ -71,6 +78,21 @@ export interface EventoParalelo {
   periodo_at: string[]
   evento: string
   descripcion: string
+}
+
+export interface RutaSeleccionada {
+  nombre: string
+  emoji: string
+  rol: string
+  periodo: string
+  descripcion: string
+  referencias: string[]
+  ruta: string[]
+  color: string
+  personajeId: string
+  viajeIdx: number
+  viajeNombre?: string
+  viajes?: Viaje[]
 }
 
 export interface Lugar {

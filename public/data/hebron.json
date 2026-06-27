@@ -116,7 +116,7 @@
       "nombre": "Abraham",
       "emoji": "⛺",
       "rol": "Patriarca fundador, primer monoteísta del relato bíblico",
-      "periodo": "c. 1800 a.C.",
+      "periodo": "bronce_medio",
       "descripcion": "Originario de Ur de los Caldeos, Abraham recibió la llamada de migrar a Canaán con la promesa de tierra, descendencia y bendición universal. Estableció su campamento principal junto al encinar de Mamré, cerca de Hebrón, donde recibió la visita de los tres ángeles que anunciaron el nacimiento de Isaac.",
       "referencias": [
         "Gn 12:1-9",
@@ -130,6 +130,66 @@
         "bethel",
         "hebron",
         "beersheba"
+      ],
+      "viajes": [
+        {
+          "nombre": "La migración familiar",
+          "ruta": [
+            "ur",
+            "haran"
+          ],
+          "referencias": [
+            "Gn 11:31-32"
+          ]
+        },
+        {
+          "nombre": "El llamado a Canaán",
+          "ruta": [
+            "haran",
+            "shechem",
+            "bethel",
+            "mamre"
+          ],
+          "referencias": [
+            "Gn 12:1-9",
+            "Gn 13:14-18"
+          ]
+        },
+        {
+          "nombre": "Bajada a Egipto",
+          "ruta": [
+            "mamre",
+            "egipto",
+            "mamre"
+          ],
+          "referencias": [
+            "Gn 12:10-20"
+          ]
+        },
+        {
+          "nombre": "El rescate de Lot",
+          "ruta": [
+            "mamre",
+            "dan",
+            "mamre"
+          ],
+          "referencias": [
+            "Gn 14:1-16",
+            "Gn 14:17-20"
+          ]
+        },
+        {
+          "nombre": "El pacto en Gerar",
+          "ruta": [
+            "mamre",
+            "gerar",
+            "beersheba"
+          ],
+          "referencias": [
+            "Gn 20:1-18",
+            "Gn 21:22-34"
+          ]
+        }
       ]
     },
     {
@@ -154,7 +214,7 @@
       "nombre": "David",
       "emoji": "👑",
       "rol": "Rey de Judá e Israel, elegido de YHWH",
-      "periodo": "c. 1010–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Pastor de Belén ungido en secreto por Samuel, David hizo de Hebrón su primera capital durante siete años y medio. En Hebrón nacieron sus primeros hijos y se consolidó su poder sobre Judá. También fue escenario de la rebelión de Absalón, que ensombreció el final de su reinado.",
       "referencias": [
         "2 Sam 2:1-11",
@@ -163,7 +223,7 @@
         "2 Sam 18:33"
       ],
       "ruta": [
-        "belen",
+        "bethlehem",
         "hebron",
         "jerusalen"
       ]

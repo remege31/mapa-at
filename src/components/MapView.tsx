@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import type { Lugar } from '../types/lugar'
+import type { Lugar, RutaSeleccionada } from '../types/lugar'
 
 // IDs cargados dinámicamente desde /data/index.json
 
@@ -9,7 +9,7 @@ import type { Lugar } from '../types/lugar'
 const PIN_RADIUS: Record<string, number> = { primario: 6, secundario: 5, terciario: 3, sublugar: 3, monte: 4, agua_mayor: 5, agua_menor: 3 }
 const PIN = { fill: '#3C3C3C', stroke: '#fff', labelSize: 9 }
 
-// Waypoints para rutas — lugares sin JSON propio en scope actual
+// Waypoints para rutas — lugares sin JSON propio o excluidos del render
 const WAYPOINTS: Record<string, [number, number]> = {
   'ur':           [30.9628, 46.1027],
   'haran':        [36.8631, 39.0275],
@@ -24,6 +24,9 @@ const WAYPOINTS: Record<string, [number, number]> = {
   'tabor':        [32.6860, 35.3920],
   'meguido':      [32.5840, 35.1840],
   'monte-carmelo':[32.7500, 35.0500],
+  // Excluidos del render de pins pero usados en rutas
+  'egipto':       [29.8000, 31.2000],
+  'mesopotamia':  [32.5000, 44.5000],
 }
 
 // Paleta aprobada por diseñadora
@@ -347,24 +350,32 @@ function makeIcon(
 interface MapViewProps {
   flyToTarget?: {lat: number, lng: number} | null
   onSelectLugar: (lugar: Lugar) => void
+  onSelectRuta?: (ruta: RutaSeleccionada) => void
   selectedId?: string
   periodId?: string
   territoriosActive?: boolean
   rutasActive?: boolean
+  selectedPersonaje?: string
+  selectedViajeIdx?: number
 }
 
 export function MapView({
   flyToTarget,
   onSelectLugar,
+  onSelectRuta,
   selectedId,
   periodId = 'hierro_2',
   territoriosActive = false,
   rutasActive = false,
+  selectedPersonaje,
+  selectedViajeIdx,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef(new Map<string, L.Marker>())
   const territoriosLayerRef = useRef<L.GeoJSON | null>(null)
+  const onSelectRutaRef = useRef(onSelectRuta)
+  useEffect(() => { onSelectRutaRef.current = onSelectRuta }, [onSelectRuta])
   const labelMarkersRef = useRef<L.Marker[]>([])
   const fadeOutTimeoutRef = useRef<number | null>(null)
   const fadeInTimeoutRef = useRef<number | null>(null)
@@ -691,7 +702,6 @@ export function MapView({
     const map = mapRef.current
     if (!map) return
 
-    // Limpiar rutas anteriores
     if (rutasLayerRef.current) {
       map.removeLayer(rutasLayerRef.current)
       rutasLayerRef.current = null
@@ -701,64 +711,205 @@ export function MapView({
     const coordMap: Record<string, [number, number]> = { ...WAYPOINTS }
     lugares.forEach(l => { coordMap[l.id] = [l.lat, l.lng] })
 
-    const PERSONAJE_COLORS = {
-  'Abraham': "#C4872A",
-  'Moisés': "#4A7A8B",
-  'José': "#6B7A3A",
-  'David': "#7A3A2A",
-  'Jeremías': "#6A4A7A",
-  'Daniel': "#2A4A7A",
-  'Ezequiel': "#8A6A2A",
-  'Elías': "#8A3A2A",
-  'Miriam': "#8A5A5A",
-  'Josué': "#3A6A4A",
-  'Débora': "#8A7A2A",
-  'Salomón': "#8B4A26"
-}
-    const DEFAULT_COLOR = '#8B4A26'
+    const PERSONAJE_COLORS: Record<string, string> = {
+      // bronce_medio — terracota / púrpura
+      'Abraham': '#C4621A', 'Isaac': '#C4621A', 'Lot': '#C4621A', 'Taré': '#C4621A',
+      'Los dos ángeles (mensajeros)': '#C4621A',
+      'Jacob': '#8B4A9C', 'Jacob / Israel': '#8B4A9C', 'José': '#8B4A9C',
+      // bronce_tardio — azul profundo / verde selva
+      'Moisés': '#1A6B8A', 'Aarón': '#1A6B8A', 'Miriam': '#1A6B8A', 'Balaam': '#1A6B8A',
+      'Josué': '#2A7A3A', 'Caleb': '#2A7A3A', 'Otoniel': '#2A7A3A',
+      'Adoni-sedec': '#2A7A3A', 'Debir, rey de Eglón': '#2A7A3A', 'Piram, rey de Jarmut': '#2A7A3A',
+      'Embajadores de la liga hivita': '#2A7A3A', 'Og, rey de Basán': '#2A7A3A',
+      // hierro_1 — dorado / rosa
+      'Débora': '#B5921A', 'Barac': '#B5921A', 'Gedeón': '#B5921A',
+      'Sansón': '#C2566B', 'Manoa y su esposa': '#C2566B',
+      'Samuel': '#C2566B', 'Saúl': '#C2566B', 'Saúl ben Quis': '#C2566B',
+      'Jonatán': '#C2566B', 'Jonatán ben Saúl': '#C2566B', 'David ben Isaí': '#C2566B',
+      'Recab y Baaná': '#C2566B', 'Hombres valientes de Jabés de Galaad': '#C2566B',
+      'Cinco espías de Dan': '#B5921A', 'Seiscientos hombres armados de Dan': '#B5921A',
+      // hierro_2 — rojo / teal / púrpura / azul navy
+      'David': '#8B1A1A', 'Salomón': '#8B1A1A', 'Natán': '#8B1A1A',
+      'Abiatar': '#8B1A1A', 'Abigail': '#8B1A1A', 'Adonías': '#8B1A1A',
+      'Amnón': '#8B1A1A', 'Ittai el geteo': '#8B1A1A', 'Mefiboset': '#8B1A1A',
+      'Jonatán hijo de Abiatar': '#8B1A1A', 'Jonatán y Ahimaas': '#8B1A1A',
+      'Tres de los valientes de David': '#8B1A1A', 'Mujer sabia de Tecoa': '#8B1A1A',
+      'Ahinoam de Jezreel': '#8B1A1A',
+      'Elías': '#2A6B7A', 'Elías el Tisbita': '#2A6B7A',
+      'Eliseo': '#2A6B7A', 'Eliseo ben Safat': '#2A6B7A',
+      'Jezabel': '#2A6B7A', 'Jehú': '#2A6B7A', 'Naamán': '#2A6B7A',
+      'Hazael de Damasco': '#2A6B7A', 'Elías (Profetas de Baal)': '#2A6B7A',
+      'Profetas de Baal': '#2A6B7A',
+      'Jeremías': '#6B4299', 'Baruc': '#6B4299', 'Sedequías': '#6B4299',
+      'Ezequiel': '#6B4299', 'Ezequiel ben Buzi': '#6B4299',
+      'Gedalías ben Ahikam': '#6B4299', 'Johanán hijo de Carea': '#6B4299',
+      'Seraías hijo de Tanhumet, el netofatita': '#6B4299',
+      'Daniel': '#1A4B8C', 'Nabucodonosor II': '#1A4B8C',
+      'Jeroboam I': '#8B1A1A', 'Roboam': '#8B1A1A', 'Omri': '#8B1A1A',
+      'Josafat': '#8B1A1A', 'Asá': '#8B1A1A', 'Amasías': '#8B1A1A',
+      'Ocozías de Judá': '#8B1A1A', 'Uzías': '#8B1A1A', 'Ezequías': '#8B1A1A',
+      'Amós': '#6B4299', 'Amós de Tecoa': '#6B4299', 'Isaías ben Amós': '#6B4299',
+      'Hiram I de Tiro': '#8B1A1A', 'Mesa, rey de Moab': '#2A6B7A',
+      'Urías de Kiriath-jearim': '#6B4299',
+      // post_exilio — verde esmeralda
+      'Zorobabel': '#3A7A5A', 'Esdras': '#3A7A5A',
+      'Nehemías': '#3A7A5A', 'Nehemías ben Hakalyá': '#3A7A5A',
+    }
+    const DEFAULT_COLOR = '#7A6B5A'
+
+    // Helper: punto geográfico medio de una polilínea
+    function midpoint(pts: [number, number][]): [number, number] {
+      let totalLen = 0
+      for (let j = 1; j < pts.length; j++) {
+        const dlat = pts[j][0] - pts[j-1][0], dlng = pts[j][1] - pts[j-1][1]
+        totalLen += Math.sqrt(dlat*dlat + dlng*dlng)
+      }
+      let remaining = totalLen / 2
+      let mid: [number, number] = pts[0]
+      for (let j = 1; j < pts.length; j++) {
+        const dlat = pts[j][0] - pts[j-1][0], dlng = pts[j][1] - pts[j-1][1]
+        const segLen = Math.sqrt(dlat*dlat + dlng*dlng)
+        if (remaining <= segLen) {
+          const t = remaining / segLen
+          mid = [pts[j-1][0] + t * dlat, pts[j-1][1] + t * dlng]
+          break
+        }
+        remaining -= segLen
+      }
+      return mid
+    }
+
+    // Helper: crear icono de label
+    function makeLabelIcon(text: string, color: string) {
+      return L.divIcon({
+        className: '',
+        iconSize: [100, 20],
+        iconAnchor: [50, 10],
+        html: `<div style="font-family:system-ui,sans-serif;font-size:9px;font-weight:600;color:${color};background:rgba(245,240,232,0.9);border:1px solid ${color};border-radius:4px;padding:2px 8px;white-space:nowrap;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.15);cursor:pointer;">${text}</div>`,
+      })
+    }
+
     const group = L.layerGroup()
-    const seen = new Set()
 
+    // Construir mapa de personajes deduplicado por nombre
+    // Preferir entradas con viajes sobre entradas con ruta plana
+    type PData = { p: any; color: string }
+    const personajeData = new Map<string, PData>()
     lugares.forEach(lugar => {
-      const periodosAt: string[] = (lugar as any).periodos_at ?? []
-      if (!periodosAt.includes(periodId)) return
       ;(lugar.personajes ?? []).forEach(p => {
-        const key = p.nombre + ':' + (p.ruta ?? []).join(',')
-        if (seen.has(key)) return
-        seen.add(key)
+        if ((p as any).periodo !== periodId) return
+        const existing = personajeData.get(p.nombre)
+        const tieneViajes = !!(p as any).viajes && (p as any).viajes.length > 0
+        if (!existing || (tieneViajes && !(existing.p as any).viajes)) {
+          personajeData.set(p.nombre, {
+            p,
+            color: (PERSONAJE_COLORS as any)[p.nombre] ?? DEFAULT_COLOR,
+          })
+        }
+      })
+    })
 
+    // Hay alguna ruta seleccionada?
+    const haySeleccion = !!selectedPersonaje
+
+    personajeData.forEach(({ p, color }, nombre) => {
+      const isMismoPersonaje = haySeleccion && selectedPersonaje === nombre
+      const viajes: any[] | undefined = (p as any).viajes
+      const hasViajes = viajes && viajes.length > 0
+
+      if (hasViajes) {
+        // ── Personaje con múltiples viajes ──────────────────────────────
+        viajes.forEach((viaje: any, viajeIdx: number) => {
+          const pts = (viaje.ruta as string[])
+            .filter(id => coordMap[id])
+            .map(id => coordMap[id] as [number, number])
+          if (pts.length < 2) return
+
+          const isActiveViaje = isMismoPersonaje && selectedViajeIdx === viajeIdx
+          const opacity = haySeleccion
+            ? (isActiveViaje ? 0.9 : isMismoPersonaje ? 0.5 : 0.2)
+            : 0.8
+
+          const rutaPayload: RutaSeleccionada = {
+            nombre: p.nombre,
+            emoji: p.emoji ?? '🚶',
+            rol: p.rol ?? '',
+            periodo: (p as any).periodo ?? '',
+            descripcion: p.descripcion ?? '',
+            referencias: viaje.referencias ?? p.referencias ?? [],
+            ruta: viaje.ruta,
+            color,
+            personajeId: nombre,
+            viajeIdx,
+            viajeNombre: viaje.nombre,
+            viajes,
+          }
+
+          L.polyline(pts, { color, weight: 20, opacity: 0 })
+            .on('click', () => onSelectRutaRef.current?.(rutaPayload))
+            .addTo(group)
+
+          L.polyline(pts, { color, weight: 2, opacity, dashArray: '6 4', interactive: false })
+            .addTo(group)
+        })
+
+        // UN solo label por personaje — en midpoint del primer viaje con pts válidos
+        if (zoom >= 7) {
+          const firstViajePts = viajes
+            .map((v: any) => (v.ruta as string[]).filter(id => coordMap[id]).map(id => coordMap[id] as [number, number]))
+            .find((pts: [number,number][]) => pts.length >= 2)
+          if (firstViajePts) {
+            const mid = midpoint(firstViajePts)
+            const labelText = `${p.nombre} · ${viajes.length}`
+            const payload0: RutaSeleccionada = {
+              nombre: p.nombre, emoji: p.emoji ?? '🚶', rol: p.rol ?? '',
+              periodo: (p as any).periodo ?? '', descripcion: p.descripcion ?? '',
+              referencias: viajes[0].referencias ?? p.referencias ?? [],
+              ruta: viajes[0].ruta, color,
+              personajeId: nombre, viajeIdx: 0,
+              viajeNombre: viajes[0].nombre, viajes,
+            }
+            L.marker(mid, { icon: makeLabelIcon(labelText, color), interactive: true, zIndexOffset: 500 })
+              .on('click', () => onSelectRutaRef.current?.(payload0))
+              .addTo(group)
+          }
+        }
+
+      } else {
+        // ── Personaje con ruta plana (sin viajes) ───────────────────────
         const pts = (p.ruta ?? [])
           .filter((id: string) => coordMap[id])
           .map((id: string) => coordMap[id] as [number, number])
         if (pts.length < 2) return
 
-        const color = (PERSONAJE_COLORS as any)[p.nombre] ?? DEFAULT_COLOR
+        const opacity = haySeleccion ? (isMismoPersonaje ? 0.9 : 0.2) : 0.8
 
-        L.polyline(pts, {
-          color,
-          weight: 2,
-          opacity: 0.8,
-          dashArray: '6 4',
-        }).addTo(group)
+        const rutaPayload: RutaSeleccionada = {
+          nombre: p.nombre, emoji: p.emoji ?? '🚶', rol: p.rol ?? '',
+          periodo: (p as any).periodo ?? '', descripcion: p.descripcion ?? '',
+          referencias: p.referencias ?? [], ruta: p.ruta ?? [], color,
+          personajeId: nombre, viajeIdx: 0, viajes: undefined,
+        }
 
-        const mid = Math.floor(pts.length / 2)
-        const midPt: [number,number] = pts.length % 2 === 0
-          ? [(pts[mid-1][0] + pts[mid][0]) / 2, (pts[mid-1][1] + pts[mid][1]) / 2]
-          : pts[mid]
+        L.polyline(pts, { color, weight: 20, opacity: 0 })
+          .on('click', () => onSelectRutaRef.current?.(rutaPayload))
+          .addTo(group)
 
-        const labelIcon = L.divIcon({
-          className: '',
-          iconSize: [90, 20],
-          iconAnchor: [45, 10],
-          html: '<div style="font-family:system-ui,sans-serif;font-size:9px;font-weight:600;color:' + color + ';background:rgba(245,240,232,0.88);border:1px solid ' + color + ';border-radius:4px;padding:1px 5px;white-space:nowrap;pointer-events:none;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.15);">' + p.nombre + '</div>',
-        })
-        L.marker(midPt, { icon: labelIcon, interactive: false, zIndexOffset: 500 }).addTo(group)
-      })
+        L.polyline(pts, { color, weight: 2, opacity, dashArray: '6 4', interactive: false })
+          .addTo(group)
+
+        if (zoom >= 7) {
+          const mid = midpoint(pts)
+          L.marker(mid, { icon: makeLabelIcon(p.nombre, color), interactive: true, zIndexOffset: 500 })
+            .on('click', () => onSelectRutaRef.current?.(rutaPayload))
+            .addTo(group)
+        }
+      }
     })
 
     group.addTo(map)
     rutasLayerRef.current = group
-  }, [rutasActive, lugares, periodId])
+  }, [rutasActive, lugares, periodId, zoom, selectedPersonaje, selectedViajeIdx])
 
   return (
     <div

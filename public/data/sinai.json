@@ -108,7 +108,7 @@
       "nombre": "Moisés",
       "emoji": "🔥",
       "rol": "Receptor de la Torá — mediador de la Alianza en el Sinaí",
-      "periodo": "c. 1300–1200 a.C. (trad.)",
+      "periodo": "bronce_tardio",
       "descripcion": "Su vida tiene tres actos geográficos: Egipto (nacimiento y formación), Sinaí/Madián (refugio y vocación), Éxodo/Sinaí (revelación y legislación). El Sinaí es el espacio de su mayor proximidad a Dios — 'cara a cara, como habla un hombre con su amigo' (Éx 33:11).",
       "referencias": [
         "Éx 3:1-4:17",
@@ -121,6 +121,48 @@
         "madian",
         "sinai",
         "canaan"
+      ],
+      "viajes": [
+        {
+          "nombre": "La huida a Madián",
+          "ruta": [
+            "egipto",
+            "madian"
+          ],
+          "referencias": [
+            "Éx 2:11-15"
+          ]
+        },
+        {
+          "nombre": "El Éxodo",
+          "ruta": [
+            "egipto",
+            "migdol",
+            "marah",
+            "rephidim",
+            "sinai"
+          ],
+          "referencias": [
+            "Éx 12:29-42",
+            "Éx 13:17-22",
+            "Éx 14:1-31",
+            "Éx 19:1-25"
+          ]
+        },
+        {
+          "nombre": "El camino a Canaán",
+          "ruta": [
+            "sinai",
+            "edrei",
+            "heshbon",
+            "nebo"
+          ],
+          "referencias": [
+            "Nm 21:21-35",
+            "Nm 32:1-42",
+            "Dt 34:1-8"
+          ]
+        }
       ]
     },
     {
@@ -128,14 +170,14 @@
       "nombre": "Elías",
       "emoji": "⚡",
       "rol": "Profeta — peregrinación al Horeb",
-      "periodo": "c. 875 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Siglos después del Éxodo, Elías huye al Monte Horeb (Sinaí) en busca de Yahvé tras su victoria contra los profetas de Baal y la amenaza de Jezabel. Yahvé no se manifiesta en el viento, el terremoto ni el fuego — sino en 'la voz del silencio delgado'. El Sinaí como lugar de renovación profética.",
       "referencias": [
         "1 Re 19:1-21"
       ],
       "ruta": [
-        "monte-carmelo",
-        "berseba",
+        "carmel_mount",
+        "beersheba",
         "sinai"
       ]
     },
@@ -144,7 +186,7 @@
       "nombre": "Miriam",
       "emoji": "🥁",
       "rol": "Profetisa — hermana de Moisés",
-      "periodo": "c. 1250 a.C. (trad.)",
+      "periodo": "bronce_tardio",
       "descripcion": "Hermana mayor de Moisés y Aarón. Lidera el cántico de triunfo tras el cruce del mar (Éx 15:20-21). Primera mujer llamada 'profetisa' en el AT. Muere y es sepultada en Cades (Nm 20:1) — en el desierto del Sinaí.",
       "referencias": [
         "Éx 15:20-21",

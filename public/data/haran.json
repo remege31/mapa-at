@@ -83,7 +83,7 @@
       "nombre": "Taré",
       "emoji": "🏕️",
       "rol": "Padre de Abraham",
-      "periodo": "c. 2150 a.C. (cronología tradicional)",
+      "periodo": "bronce_medio",
       "descripcion": "Establece a su familia en Harán durante la migración desde Ur hacia Canaán, muriendo en esta ciudad sin completar el viaje hasta la tierra prometida.",
       "referencias": [
         "Gén 11:31-32"
@@ -98,14 +98,14 @@
       "nombre": "Abraham",
       "emoji": "🚶",
       "rol": "Patriarca",
-      "periodo": "c. 2091 a.C. (cronología tradicional)",
+      "periodo": "bronce_medio",
       "descripcion": "Recibe en Harán el llamado divino que lo convierte en patriarca fundacional de Israel, dejando la ciudad para iniciar su peregrinaje hacia Canaán.",
       "referencias": [
         "Gén 12:1-5"
       ],
       "ruta": [
         "haran",
-        "siquem"
+        "shechem"
       ]
     },
     {
@@ -113,16 +113,60 @@
       "nombre": "Jacob",
       "emoji": "👨‍👩‍👧‍👦",
       "rol": "Patriarca, nieto de Abraham",
-      "periodo": "c. 1900–1880 a.C. (cronología tradicional)",
+      "periodo": "bronce_medio",
       "descripcion": "Pasa veinte años formativos en Harán, donde se casa con sus dos esposas principales y nace la mayoría de sus hijos, fundamento directo de las futuras tribus de Israel.",
       "referencias": [
         "Gén 29:1-30:24",
         "Gén 31:38-42"
       ],
       "ruta": [
-        "beerseba",
+        "beersheba",
         "haran",
         "mahanaim"
+      ],
+      "viajes": [
+        {
+          "nombre": "La huida a Harán",
+          "ruta": [
+            "beersheba",
+            "bethel",
+            "haran"
+          ],
+          "referencias": [
+            "Gn 27:41-46",
+            "Gn 28:1-22"
+          ]
+        },
+        {
+          "nombre": "El regreso a Canaán",
+          "ruta": [
+            "haran",
+            "mahanaim",
+            "peniel",
+            "succoth",
+            "shechem",
+            "bethel",
+            "hebron"
+          ],
+          "referencias": [
+            "Gn 31:17-21",
+            "Gn 32:1-32",
+            "Gn 33:1-20",
+            "Gn 35:1-29"
+          ]
+        },
+        {
+          "nombre": "El descenso a Egipto",
+          "ruta": [
+            "hebron",
+            "beersheba",
+            "egipto"
+          ],
+          "referencias": [
+            "Gn 46:1-7",
+            "Gn 47:1-12"
+          ]
+        }
       ]
     }
   ],

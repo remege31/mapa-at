@@ -7,6 +7,7 @@ import type {
   Personaje,
   Mito,
   EventoParalelo,
+  RutaSeleccionada,
 } from './types/lugar'
 import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
 import './App.css'
@@ -304,8 +305,178 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
   )
 }
 
+function PanelRuta({ ruta, lugares, onClose, onSelectLugar, activeViajeIdx, onNavigateViaje }: {
+  ruta: RutaSeleccionada
+  lugares: Lugar[]
+  onClose: () => void
+  onSelectLugar: (l: Lugar) => void
+  activeViajeIdx: number
+  onNavigateViaje: (idx: number) => void
+}) {
+  const lugarMap = new Map(lugares.map(l => [l.id, l]))
+  const viajes = ruta.viajes
+  const hasViajes = viajes && viajes.length > 1
+  const viajeActual = hasViajes ? viajes[activeViajeIdx] : null
+  const rutaActual = viajeActual ? viajeActual.ruta : ruta.ruta
+  const refsActuales = viajeActual?.referencias?.length ? viajeActual.referencias : ruta.referencias
+
+  return (
+    <>
+      <DrawerHeader title={`Ruta de ${ruta.nombre}`} onClose={onClose} />
+      <div style={{ height: 3, background: ruta.color, flexShrink: 0 }} />
+      <div id="panel-body" className="panel-body-scroll">
+
+        {/* Header personaje */}
+        <div className="person-head" style={{ paddingBottom: 12, borderBottom: '1px solid var(--divider, #e8e2d8)', marginBottom: 0 }}>
+          <div className="avatar">{ruta.emoji || '🚶'}</div>
+          <div>
+            <div className="pname">{ruta.nombre}</div>
+            <div className="prole" style={{ color: ruta.color }}>{ruta.rol}{ruta.rol && ruta.periodo ? ' · ' : ''}{getPeriodName(ruta.periodo)}</div>
+            {getPeriodRange(ruta.periodo) && <div style={{ fontSize: 10, color: 'var(--gray)', marginTop: 2 }}>{getPeriodRange(ruta.periodo)}</div>}
+          </div>
+        </div>
+
+        {/* Navegador de viajes */}
+        {hasViajes && (
+          <div style={{
+            padding: '10px 14px', borderBottom: '1px solid var(--divider, #e8e2d8)',
+            background: 'var(--surface-1, #F0EBE2)',
+          }}>
+            <div style={{ fontSize: 9, fontWeight: 600, color: 'var(--gray)', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>
+              VIAJE {activeViajeIdx + 1} DE {viajes.length}
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
+              <div style={{ fontSize: 13, fontWeight: 500, color: 'var(--ink)', flex: 1 }}>
+                {viajeActual?.nombre}
+              </div>
+              <div style={{ display: 'flex', gap: 4, flexShrink: 0 }}>
+                <button
+                  onClick={() => onNavigateViaje(Math.max(0, activeViajeIdx - 1))}
+                  disabled={activeViajeIdx === 0}
+                  style={{
+                    width: 26, height: 26, borderRadius: 6,
+                    border: '1px solid var(--divider, #e8e2d8)',
+                    background: 'var(--surface-2, #FAF5EE)',
+                    cursor: activeViajeIdx === 0 ? 'default' : 'pointer',
+                    fontSize: 12, color: 'var(--ink)', opacity: activeViajeIdx === 0 ? 0.3 : 1,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  }}
+                >←</button>
+                <button
+                  onClick={() => onNavigateViaje(Math.min(viajes.length - 1, activeViajeIdx + 1))}
+                  disabled={activeViajeIdx === viajes.length - 1}
+                  style={{
+                    width: 26, height: 26, borderRadius: 6,
+                    border: '1px solid var(--divider, #e8e2d8)',
+                    background: 'var(--surface-2, #FAF5EE)',
+                    cursor: activeViajeIdx === viajes.length - 1 ? 'default' : 'pointer',
+                    fontSize: 12, color: 'var(--ink)', opacity: activeViajeIdx === viajes.length - 1 ? 0.3 : 1,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  }}
+                >→</button>
+              </div>
+            </div>
+            {/* Dots de progreso */}
+            <div style={{ display: 'flex', gap: 4, justifyContent: 'center', marginTop: 7 }}>
+              {viajes.map((_v, i) => (
+                <button
+                  key={i}
+                  onClick={() => onNavigateViaje(i)}
+                  style={{
+                    width: i === activeViajeIdx ? 14 : 5,
+                    height: 5, borderRadius: 3,
+                    background: i === activeViajeIdx ? ruta.color : 'var(--divider, #e8e2d8)',
+                    border: 'none', padding: 0, cursor: 'pointer',
+                    transition: 'width 0.2s, background 0.2s',
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {ruta.descripcion && !hasViajes && <p className="desc" style={{ marginBottom: 14, marginTop: 12 }}>{ruta.descripcion}</p>}
+
+        {/* Timeline de paradas */}
+        <div className="sec-label" style={{ marginTop: 14 }}>Paradas</div>
+        <div style={{ position: 'relative', paddingLeft: 28, marginTop: 10 }}>
+          <div style={{
+            position: 'absolute', left: 7, top: 10, bottom: 10,
+            width: 2, background: `linear-gradient(to bottom, ${ruta.color}, ${ruta.color}30)`,
+            borderRadius: 1,
+          }} />
+
+          {rutaActual.map((id, i) => {
+            const lugar = lugarMap.get(id)
+            const isLast = i === rutaActual.length - 1
+            const tipoLabel = lugar?.tipo === 'ciudad' ? 'Ciudad' : lugar?.tipo === 'territorio' ? 'Territorio' : 'Región natural'
+            const tipoDisplay = (lugar as any)?.subtipo_geo ?? tipoLabel
+            const importancia = lugar?.importancia_estrategica
+            const snippet = importancia && importancia.length > 80 ? importancia.slice(0, 80) + '…' : importancia
+            const truncated = importancia ? importancia.length > 80 : false
+
+            return (
+              <div key={id + i} style={{ position: 'relative', paddingBottom: isLast ? 4 : 16 }}>
+                <div style={{
+                  position: 'absolute', left: -21, top: 3,
+                  width: 14, height: 14, borderRadius: '50%',
+                  background: ruta.color, border: `2px solid ${ruta.color}`,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                }}>
+                  <span style={{ fontSize: 8, fontWeight: 700, color: '#fff', lineHeight: 1 }}>{i + 1}</span>
+                </div>
+
+                {lugar ? (
+                  <button onClick={() => onSelectLugar(lugar)} style={{
+                    background: 'none', border: 'none', padding: 0, cursor: 'pointer',
+                    fontSize: 13, fontWeight: 600, color: ruta.color,
+                    textDecoration: 'underline', textDecorationColor: `${ruta.color}44`,
+                    textUnderlineOffset: '2px', textAlign: 'left', fontFamily: 'inherit',
+                  }}>
+                    {lugar.nombre}
+                  </button>
+                ) : (
+                  <div style={{ fontSize: 13, fontWeight: 600, color: 'var(--ink)' }}>{id}</div>
+                )}
+
+                {lugar && <div style={{ fontSize: 10, color: 'var(--gray)', marginTop: 1 }}>{tipoDisplay}</div>}
+                {snippet && <div style={{ fontSize: 11, color: 'var(--text-secondary, #6B6560)', marginTop: 3, lineHeight: 1.45 }}>{snippet}</div>}
+                {lugar && (
+                  <button onClick={() => onSelectLugar(lugar)} style={{
+                    background: 'none', border: 'none', padding: 0, cursor: 'pointer',
+                    fontSize: 11, color: ruta.color, fontFamily: 'inherit',
+                    marginTop: 4, display: 'flex', alignItems: 'center', gap: 3,
+                    opacity: truncated ? 1 : 0.7,
+                  }}>
+                    {truncated ? 'Leer más →' : 'Ver lugar →'}
+                  </button>
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        {/* Referencias */}
+        {refsActuales.length > 0 && (
+          <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid var(--divider, #e8e2d8)' }}>
+            <div className="sec-label">Referencias</div>
+            <div className="meta" style={{ paddingBottom: 12 }}>
+              {refsActuales.map(r => (
+                <a key={r} className="ref" href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(r)}&version=RVR1960`} target="_blank" rel="noopener noreferrer">{r}</a>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+    </>
+  )
+}
+
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
+  const [selectedRuta, setSelectedRuta] = useState<RutaSeleccionada | null>(null)
+  const [activeViajeIdx, setActiveViajeIdx] = useState(0)
   const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [panelCollapsed, setPanelCollapsed] = useState(false)
@@ -341,12 +512,22 @@ export default function App() {
   const handleSelect = useCallback((l: Lugar) => {
     if (l.lat && l.lng) setFlyToTarget({ lat: l.lat, lng: l.lng })
     setSelected(l)
+    setSelectedRuta(null)
     setMenuOpen(false)
     setDrawerOpen(true)
     setPanelCollapsed(false)
   }, [])
 
-  const closeAll = () => { setDrawerOpen(false); setMenuOpen(false) }
+  const handleSelectRuta = useCallback((ruta: RutaSeleccionada) => {
+    setSelectedRuta(ruta)
+    setActiveViajeIdx(ruta.viajeIdx ?? 0)
+    setSelected(null)
+    setMenuOpen(false)
+    setDrawerOpen(true)
+    setPanelCollapsed(false)
+  }, [])
+
+  const closeAll = () => { setDrawerOpen(false); setMenuOpen(false); setSelectedRuta(null); setActiveViajeIdx(0) }
   const searchResults = searchQuery.length >= 2 ? lugares.filter(l => l.nombre.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 6) : []
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
   const goToLastPlace = async () => {
@@ -363,7 +544,6 @@ export default function App() {
   }
   const isMobile = window.innerWidth < 769
   const [flyToTarget, setFlyToTarget] = useState<{lat: number, lng: number} | null>(null)
-  const anyOpen = menuOpen || (drawerOpen && isMobile)
   const showOverlay = menuOpen || (drawerOpen && isMobile && !window.matchMedia('(min-width: 769px)').matches)
   const drawerStyle = { top: `${drawerTop}px` }
 
@@ -423,15 +603,20 @@ export default function App() {
         <div id="map-wrap">
           <MapView
             onSelectLugar={handleSelect}
+            onSelectRuta={handleSelectRuta}
             flyToTarget={flyToTarget}
             selectedId={selected?.id}
             periodId={periodId}
             territoriosActive={territoriosActive}
             rutasActive={rutasActive}
+            selectedPersonaje={selectedRuta?.personajeId}
+            selectedViajeIdx={activeViajeIdx}
           />
         </div>
         <div id="panel" className={[drawerOpen ? 'drawer-open' : '', (!isMobile && panelCollapsed) ? 'panel-collapsed' : ''].filter(Boolean).join(' ')} style={drawerStyle}>
-          {selected ? (
+          {selectedRuta ? (
+            <PanelRuta ruta={selectedRuta} lugares={lugares} onClose={closeAll} onSelectLugar={handleSelect} activeViajeIdx={activeViajeIdx} onNavigateViaje={setActiveViajeIdx} />
+          ) : selected ? (
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (
             <>

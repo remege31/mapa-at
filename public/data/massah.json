@@ -8,7 +8,11 @@
   "jerarquia_pin": "terciario",
   "nota_coordenadas": "Comparte coordenadas con Refidim — Masá y Meribá son los dos nombres dados al mismo lugar y episodio según Éx 17:7, conmemorando tanto la prueba (Masá) como la contienda (Meribá) del pueblo contra Moisés y YHWH.",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Prueba a YHWH en Refidim" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Prueba a YHWH en Refidim"
+    }
   ],
   "descripcion_geo": "Nombre dado al lugar de Refidim para conmemorar específicamente el aspecto de 'prueba' del episodio de la falta de agua, distinguido del nombre 'Meribá' que conmemora el aspecto de 'contienda' del mismo evento, ambos nombres aplicados retrospectivamente al mismo sitio geográfico en el desierto del Sinaí.",
   "altitud_m": 600,
@@ -40,23 +44,34 @@
       "titulo": "El pueblo pone a prueba a YHWH cuestionando su presencia",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Ante la falta de agua en Refidim, el pueblo contiende con Moisés preguntando explícitamente '¿está YHWH entre nosotros, o no?', desafío directo que da origen al doble nombre del lugar: Masá ('prueba') por cuestionar a YHWH, y Meribá ('contienda') por la disputa con Moisés.",
-      "referencias": ["Éx 17:1-7"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 17:1-7"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "moises-roca-horeb-massah",
       "titulo": "Moisés golpea la roca de Horeb ante los ancianos",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Por instrucción de YHWH, Moisés golpea con su vara la roca de Horeb ante los ojos de los ancianos de Israel, de la que brota agua suficiente para todo el pueblo, resolviendo la crisis pero dejando registrado el nombre del lugar como recordatorio permanente de la prueba del pueblo.",
-      "referencias": ["Éx 17:5-6"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Éx 17:5-6"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "deuteronomio-recuerdo-massah",
       "titulo": "El Deuteronomio recuerda Masá como advertencia",
       "fecha": "c. 1400 a.C. (referencia retrospectiva)",
       "descripcion": "El Deuteronomio cita explícitamente el nombre 'Masá' en una serie de advertencias contra poner a prueba a YHWH como se hizo allí, estableciendo el episodio como precedente normativo negativo citado posteriormente en contextos legales y litúrgicos.",
-      "referencias": ["Deut 6:16", "Deut 9:22"],
+      "referencias": [
+        "Deut 6:16",
+        "Deut 9:22"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,10 +81,15 @@
       "nombre": "Moisés",
       "emoji": "🪨",
       "rol": "Líder de Israel",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Resuelve la crisis de agua golpeando la roca de Horeb ante los ancianos de Israel, mientras enfrenta el cuestionamiento directo del pueblo sobre la presencia activa de YHWH entre ellos.",
-      "referencias": ["Éx 17:1-7"],
-      "ruta": ["rephidim", "massah"]
+      "referencias": [
+        "Éx 17:1-7"
+      ],
+      "ruta": [
+        "rephidim",
+        "massah"
+      ]
     },
     {
       "id": "pueblo_prueba_massah",
@@ -78,8 +98,13 @@
       "rol": "Pueblo que pone a prueba a YHWH",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Cuestiona directamente la presencia de YHWH entre ellos, episodio que se convierte en referencia bíblica negativa recurrente sobre el peligro de la incredulidad ante la provisión divina ya demostrada.",
-      "referencias": ["Éx 17:2-3", "Éx 17:7"],
-      "ruta": ["massah"]
+      "referencias": [
+        "Éx 17:2-3",
+        "Éx 17:7"
+      ],
+      "ruta": [
+        "massah"
+      ]
     },
     {
       "id": "ancianos_massah_personaje",
@@ -88,7 +113,9 @@
       "rol": "Testigos del milagro del agua",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Acompañan a Moisés como testigos oficiales del milagro de la roca, validando públicamente ante el pueblo la veracidad del evento providencial.",
-      "referencias": ["Éx 17:5-6"],
+      "referencias": [
+        "Éx 17:5-6"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +128,11 @@
       {
         "id": "no-tentaras-yhwh-massah",
         "nombre": "'No tentarás a YHWH tu Dios' como principio derivado de Masá",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Éx 17:1-7; Deut 6:16",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el principio de no poner a prueba a Dios derivado directamente del nombre y episodio de Masá, citado en la Mishná y discusiones halájicas posteriores",
@@ -124,5 +155,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

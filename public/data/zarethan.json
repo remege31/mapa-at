@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Cruce del Jordán, fundición de Salomón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Cruce del Jordán, fundición de Salomón"
+    }
   ],
   "descripcion_geo": "Localidad junto al río Jordán, en la región donde las aguas se detuvieron milagrosamente durante el cruce de Israel hacia la tierra prometida, y siglos después, sitio identificado con la zona de fundición de los objetos de bronce del Templo de Salomón debido a la arcilla compacta de su terreno.",
   "altitud_m": -250,
@@ -39,23 +43,33 @@
       "titulo": "Las aguas del Jordán se detienen junto a Saretán",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "Cuando los sacerdotes que portan el Arca de la Alianza tocan las aguas del Jordán, estas se detienen y se amontonan 'muy lejos, en Adam, ciudad que está al lado de Saretán', permitiendo a todo Israel cruzar en seco hacia Jericó y la tierra prometida.",
-      "referencias": ["Jos 3:14-17"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 3:14-17"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "fundicion-bronce-salomon-zarethan",
       "titulo": "Salomón funde los objetos de bronce del Templo en Saretán",
       "fecha": "c. 960 a.C.",
       "descripcion": "Hiram, artesano de bronce enviado por el rey de Tiro, funde las columnas Jaquín y Boaz, el mar de bronce y otros grandes objetos del Templo en la llanura del Jordán, en tierra arcillosa entre Sucot y Saretán, aprovechando las características específicas del terreno para los moldes de fundición a gran escala.",
-      "referencias": ["1 Re 7:45-46"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 7:45-46"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "elias-jordan-zarethan-contexto",
       "titulo": "Saretán como referencia geográfica del valle del Jordán",
       "fecha": "Diversos períodos",
       "descripcion": "Saretán funciona repetidamente en el texto bíblico como punto de referencia geográfico estable para ubicar otros eventos y lugares a lo largo del curso del río Jordán, confirmando su persistencia como localidad reconocida durante varios siglos.",
-      "referencias": ["Jue 7:22"],
+      "referencias": [
+        "Jue 7:22"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,20 +79,30 @@
       "nombre": "Josué",
       "emoji": "🌊",
       "rol": "Líder de la conquista de Canaán",
-      "periodo": "c. 1200 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige el cruce milagroso del Jordán cerca de Saretán, marcando el inicio formal de la entrada de Israel a la tierra prometida.",
-      "referencias": ["Jos 3:1-17"],
-      "ruta": ["shittim", "zarethan", "jerico"]
+      "referencias": [
+        "Jos 3:1-17"
+      ],
+      "ruta": [
+        "shittim",
+        "zarethan",
+        "jericho"
+      ]
     },
     {
       "id": "salomon_zarethan",
       "nombre": "Salomón",
       "emoji": "🔥",
       "rol": "Rey de Israel, constructor del Templo",
-      "periodo": "c. 970–960 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena la fundición de los grandes objetos de bronce del Templo en la región de Saretán, aprovechando las propiedades específicas del suelo arcilloso local para esta obra de ingeniería metalúrgica a gran escala.",
-      "referencias": ["1 Re 7:45-47"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 7:45-47"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "hiram_artesano_zarethan",
@@ -87,8 +111,13 @@
       "rol": "Maestro fundidor enviado por Tiro",
       "periodo": "c. 960 a.C.",
       "descripcion": "Dirige técnicamente la fundición de los objetos de bronce del Templo en la región de Saretán, aplicando su experiencia fenicia en metalurgia al servicio del proyecto constructivo de Salomón.",
-      "referencias": ["1 Re 7:13-14", "1 Re 7:45-46"],
-      "ruta": ["zarethan"]
+      "referencias": [
+        "1 Re 7:13-14",
+        "1 Re 7:45-46"
+      ],
+      "ruta": [
+        "zarethan"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +130,11 @@
       {
         "id": "aguas-detenidas-zarethan",
         "nombre": "Las aguas del Jordán detenidas junto a Saretán",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 3:14-17",
           "fuente_secundaria": "Comentario rabínico tradicional que compara el cruce del Jordán con el cruce del Mar Rojo como segundo gran milagro acuático fundacional de la historia de Israel",
@@ -124,5 +157,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

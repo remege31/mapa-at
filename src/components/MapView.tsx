@@ -3,6 +3,14 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import type { Lugar, RutaSeleccionada } from '../types/lugar'
 import { PERSONAJE_COLORS, DEFAULT_COLOR } from '../data/rutaColors'
+import {
+  TERRITORY_COLORS,
+  TERRITORY_TYPE,
+  getTerritoryColor,
+  getTerritoryType,
+  getTerritoryNameES,
+} from '../data/territorios'
+import type { TerritorioSeleccionado } from '../types/lugar'
 
 // IDs cargados dinámicamente desde /data/index.json
 
@@ -30,162 +38,6 @@ const WAYPOINTS: Record<string, [number, number]> = {
   'mesopotamia':  [32.5000, 44.5000],
 }
 
-// Paleta aprobada por diseñadora
-const TERRITORY_COLORS: Record<string, string> = {
-  'Egypt':                   '#C9A84C',
-  'Assyria':                 '#8B3A3A',
-  'Babylonia':               '#C0522A',
-  'Hittites':                '#8B6914',
-  'Elam':                    '#7A4A6A',
-  'Israel':                  '#8B6A26',
-  'Judah':                   '#B8963E',
-  'Canaan':                  '#6B8E23',
-  'Arameans':                '#8A7B6F',
-  'Philistines':             '#8B7355',
-  'Phoenicia':               '#4A7A8B',
-  'Persia':                  '#A0522D',
-  'Media':                   '#7A4A2E',
-  'Urartu':                  '#6B4A8B',
-  'Arabian pastoral nomads': '#6B6054',
-  'Greek city-states':       '#3B6B8B',
-
-  // Nombres adicionales detectados en world_bc1500 / world_bc1000 / world_bc500
-  'Achaemenid Empire':                     '#A0522D',
-  'Kingdom of David and Solomon':          '#8B6A26',
-  'state societies and Aramaean kingdoms': '#8B6914',
-  'Cimerians':                             '#6B6054',
-  'Iranian pastoralists':                  '#8A7B6F',
-  'Saharan pastoral nomads':               '#6B6054',
-  'Illyrians':                             '#8A7B6F',
-  'Blemmyes':                              '#6B6054',
-  'Thrace':                                '#6B4A8B',
-  'Kush':                                  '#7A4A6A',
-  'Meroe':                                 '#7A4A6A',
-  'Bell-shaped burials culture':           '#3B6B8B',
-  'Karasuk culture':                       '#4A7A8B',
-  'Urnfield cultures':                     '#3B6B8B',
-  'Dravidians':                            '#4A7A8B',
-  'Phrygians':                             '#8A7B6F',
-
-  'default':                 '#8B7355',
-}
-
-// Categoría política por territorio
-const TERRITORY_TYPE: Record<string, string> = {
-  'Egypt':                   'Imperio',
-  'Assyria':                 'Imperio',
-  'Babylonia':               'Imperio',
-  'Persia':                  'Imperio',
-  'Hittites':                'Imperio',
-  'Media':                   'Imperio',
-  'Israel':                  'Reino',
-  'Judah':                   'Reino',
-  'Elam':                    'Reino',
-  'Urartu':                  'Reino',
-  'Canaan':                  'Región cultural',
-  'Philistines':             'Región cultural',
-  'Phoenicia':               'Región cultural',
-  'Greek city-states':       'Región cultural',
-  'Arameans':                'Zona tribal',
-  'Arabian pastoral nomads': 'Zona tribal',
-
-  // Nombres adicionales detectados en world_bc1500 / world_bc1000 / world_bc500
-  'Achaemenid Empire':                     'Imperio',
-  'Kingdom of David and Solomon':          'Reino',
-  'state societies and Aramaean kingdoms': 'Reino',
-  'Cimerians':                             'Zona tribal',
-  'Iranian pastoralists':                  'Zona tribal',
-  'Saharan pastoral nomads':               'Zona tribal',
-  'Illyrians':                             'Zona tribal',
-  'Blemmyes':                              'Zona tribal',
-  'Thrace':                                'Región cultural',
-  'Kush':                                  'Reino',
-  'Meroe':                                 'Reino',
-  'Bell-shaped burials culture':           'Región cultural',
-  'Karasuk culture':                       'Región cultural',
-  'Urnfield cultures':                     'Región cultural',
-  'Dravidians':                            'Región cultural',
-  'Phrygians':                             'Zona tribal',
-}
-
-// Traducción al español de los nombres de territorios (cobertura completa)
-const TERRITORY_NAMES_ES: Record<string, string> = {
-  'Egypt':                   'Egipto',
-  'Assyria':                 'Asiria',
-  'Babylonia':               'Mesopotamia',
-  'Hittites':                'Hititas',
-  'Elam':                    'Elam',
-  'Israel':                  'Israel',
-  'Judah':                   'Judá',
-  'Canaan':                  'Canaán',
-  'Arameans':                'Arameos',
-  'Philistines':             'Filisteos',
-  'Phoenicia':               'Fenicia',
-  'Persia':                  'Persia',
-  'Media':                   'Media',
-  'Urartu':                  'Urartu',
-  'Arabian pastoral nomads': 'Pastores nómadas árabes',
-  'Greek city-states':       'Ciudades-estado griegas',
-
-  'Achaemenid Empire':                     'Imperio aqueménida',
-  'Kingdom of David and Solomon':          'Reino unido de Israel',
-  'state societies and Aramaean kingdoms': 'Reinos arameos',
-  'Cimerians':                             'Cimerios',
-  'Iranian pastoralists':                  'Pastores nómadas iranios',
-  'Saharan pastoral nomads':               'Pastores nómadas del Sahara',
-  'Illyrians':                             'Ilirios',
-  'Blemmyes':                              'Blemios',
-  'Thrace':                                'Tracia',
-  'Kush':                                  'Reino de Kush',
-  'Meroe':                                 'Reino de Meroë',
-  'Bell-shaped burials culture':           'Cultura del vaso campaniforme',
-  'Karasuk culture':                       'Cultura de Karasuk',
-  'Urnfield cultures':                     'Cultura de los campos de urnas',
-  'Dravidians':                            'Drávidas',
-  'Phrygians':                             'Frigios',
-
-  'Berbers':                'Bereberes',
-  'Saba':                   'Saba',
-  'Ethiopian highland farmers': 'Agricultores etíopes',
-  'Celtiberians':           'Celtíberos',
-  'Carthaginian Empire':    'Imperio cartaginés',
-  'Etrurians':              'Etruscos',
-  'Rome':                   'Roma',
-  'Sabini':                 'Sabinos',
-  'Samnites':               'Samnitas',
-  'Boii':                   'Boyos',
-  'Gandhāra':               'Gandhara',
-  'Hindu kingdoms':         'Reinos hindúes',
-  'Zhou states':            'Estados Zhou',
-  'Saharan Pastoral Nomads': 'Pastores nómadas del Sahara',
-}
-
-function getTerritoryColor(name: string): string {
-  for (const key of Object.keys(TERRITORY_COLORS)) {
-    if (name.toLowerCase().includes(key.toLowerCase())) {
-      return TERRITORY_COLORS[key]
-    }
-  }
-  return TERRITORY_COLORS['default']
-}
-
-function getTerritoryType(name: string): string {
-  for (const key of Object.keys(TERRITORY_TYPE)) {
-    if (name.toLowerCase().includes(key.toLowerCase())) {
-      return TERRITORY_TYPE[key]
-    }
-  }
-  return ''
-}
-
-function getTerritoryNameES(name: string): string {
-  for (const key of Object.keys(TERRITORY_NAMES_ES)) {
-    if (name.toLowerCase().includes(key.toLowerCase())) {
-      return TERRITORY_NAMES_ES[key]
-    }
-  }
-  return name
-}
 
 const GEOJSON_BY_PERIOD: Record<string, string> = {
   bronce_medio:  'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc2000.geojson',
@@ -349,27 +201,33 @@ function makeIcon(
 }
 
 interface MapViewProps {
-  flyToTarget?: {lat: number, lng: number} | null
+  flyToTarget?: {lat: number, lng: number, zoom?: number} | null
   onSelectLugar: (lugar: Lugar) => void
   onSelectRuta?: (ruta: RutaSeleccionada) => void
+  onSelectTerritorio?: (t: TerritorioSeleccionado) => void
+  onMapReady?: (map: L.Map) => void
   selectedId?: string
   periodId?: string
   territoriosActive?: boolean
   rutasActive?: boolean
   selectedPersonaje?: string
   selectedViajeIdx?: number
+  selectedTerritorio?: TerritorioSeleccionado | null
 }
 
 export function MapView({
   flyToTarget,
   onSelectLugar,
   onSelectRuta,
+  onSelectTerritorio,
+  onMapReady,
   selectedId,
   periodId = 'hierro_2',
   territoriosActive = false,
   rutasActive = false,
   selectedPersonaje,
   selectedViajeIdx,
+  selectedTerritorio,
 }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
@@ -377,6 +235,26 @@ export function MapView({
   const territoriosLayerRef = useRef<L.GeoJSON | null>(null)
   const onSelectRutaRef = useRef(onSelectRuta)
   useEffect(() => { onSelectRutaRef.current = onSelectRuta }, [onSelectRuta])
+  const onSelectTerritorioRef = useRef(onSelectTerritorio)
+  useEffect(() => { onSelectTerritorioRef.current = onSelectTerritorio }, [onSelectTerritorio])
+  const selectedTerritorioRef = useRef(selectedTerritorio)
+  useEffect(() => { selectedTerritorioRef.current = selectedTerritorio }, [selectedTerritorio])
+
+  // Restylea polígonos cuando cambia la selección (sin re-fetch del GeoJSON)
+  useEffect(() => {
+    const layer = territoriosLayerRef.current
+    if (!layer) return
+    layer.eachLayer((fl: any) => {
+      const name: string = fl.feature?.properties?.NAME ?? ''
+      const isSelected = name === selectedTerritorio?.nombreEN
+      fl.setStyle({
+        fillOpacity: isSelected ? 0.38 : 0.18,
+        weight: isSelected ? 3 : 2,
+        opacity: 0.85,
+      })
+    })
+  }, [selectedTerritorio])
+
   const labelMarkersRef = useRef<L.Marker[]>([])
   const fadeOutTimeoutRef = useRef<number | null>(null)
   const fadeInTimeoutRef = useRef<number | null>(null)
@@ -391,8 +269,10 @@ export function MapView({
 
   useEffect(() => {
     if (!flyToTarget || !mapRef.current) return
-    const targetZoom = Math.max(mapRef.current.getZoom(), 10)
-    mapRef.current.flyTo([flyToTarget.lat, flyToTarget.lng], targetZoom, { animate: true, duration: 0.8 })
+    const targetZoom = flyToTarget.zoom !== undefined
+      ? flyToTarget.zoom
+      : Math.max(mapRef.current.getZoom(), 10)
+    mapRef.current.flyTo([flyToTarget.lat, flyToTarget.lng], targetZoom, { animate: true, duration: 1.2 })
   }, [flyToTarget])
 
   useEffect(() => {
@@ -424,7 +304,7 @@ export function MapView({
       zoomControl: false,
     })
 
-    L.control.zoom({ position: 'bottomright' }).addTo(map)
+    L.control.zoom({ position: 'bottomleft' }).addTo(map)
 
     const ZoomIndicator = L.Control.extend({
       onAdd(m: L.Map) {
@@ -435,7 +315,7 @@ export function MapView({
         return div
       }
     })
-    new ZoomIndicator({ position: 'bottomright' }).addTo(map)
+    new ZoomIndicator({ position: 'bottomleft' }).addTo(map)
 
     L.tileLayer(
       'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
@@ -449,6 +329,7 @@ export function MapView({
     map.on('zoomend', () => setZoom(map.getZoom()))
     setZoom(map.getZoom()) /* M-14: sincronizar estado con zoom real del mapa */
     mapRef.current = map
+    onMapReady?.(map)
 
     return () => {
       map.remove()
@@ -521,7 +402,7 @@ export function MapView({
         }
 
         const layer = L.geoJSON(filtered, {
-          interactive: false,
+          interactive: true,
           style: (feature) => {
             const name: string = feature?.properties?.NAME ?? ''
             const color = getTerritoryColor(name)
@@ -532,11 +413,23 @@ export function MapView({
               color: color,
               weight: 2,
               opacity: 0,
+              cursor: 'pointer',
             }
           },
-          onEachFeature: (feature, _layer) => {
+          onEachFeature: (feature, featureLayer) => {
             const name: string = feature.properties?.NAME ?? ''
             if (!name) return
+
+            // Click en el polígono → panel de territorio
+            featureLayer.on('click', () => {
+              onSelectTerritorioRef.current?.({
+                nombreEN: name,
+                nombreES: getTerritoryNameES(name),
+                tipo: getTerritoryType(name),
+                color: getTerritoryColor(name),
+                periodo: periodId,
+              })
+            })
 
             const center = getPolygonCenter(feature)
             if (!center) return
@@ -581,8 +474,18 @@ export function MapView({
 
             const labelMarker = L.marker(center, {
               icon: labelIcon,
-              interactive: false,
+              interactive: true,
               zIndexOffset: 200,
+            })
+
+            labelMarker.on('click', () => {
+              onSelectTerritorioRef.current?.({
+                nombreEN: name,
+                nombreES: nameES,
+                tipo,
+                color,
+                periodo: periodId,
+              })
             })
 
             labelMarker.addTo(mapRef.current!)
@@ -602,6 +505,16 @@ export function MapView({
         // Fade-in: tras un breve respiro, subir a la opacidad final
         fadeInTimeoutRef.current = window.setTimeout(() => {
           layer.setStyle({ fillOpacity: 0.18, opacity: 0.85 })
+          // Restylea el territorio seleccionado si ya hay uno
+          const sel = selectedTerritorioRef.current
+          if (sel) {
+            layer.eachLayer((fl: any) => {
+              const name: string = fl.feature?.properties?.NAME ?? ''
+              if (name === sel.nombreEN) {
+                fl.setStyle({ fillOpacity: 0.38, weight: 3, opacity: 0.85 })
+              }
+            })
+          }
           labelMarkersRef.current.forEach(m => {
             const el = m.getElement()
             if (el) el.style.opacity = '1'
@@ -804,7 +717,7 @@ export function MapView({
             .on('click', () => onSelectRutaRef.current?.(rutaPayload))
             .addTo(group)
 
-          L.polyline(pts, { color, weight: 2, opacity, dashArray: '6 4', interactive: false })
+          L.polyline(pts, { color, weight: isActiveViaje ? 3.5 : 2, opacity, dashArray: '6 4', interactive: false })
             .addTo(group)
         })
 
@@ -850,7 +763,7 @@ export function MapView({
           .on('click', () => onSelectRutaRef.current?.(rutaPayload))
           .addTo(group)
 
-        L.polyline(pts, { color, weight: 2, opacity, dashArray: '6 4', interactive: false })
+        L.polyline(pts, { color, weight: isMismoPersonaje ? 3.5 : 2, opacity, dashArray: '6 4', interactive: false })
           .addTo(group)
 
         if (zoom >= 7) {

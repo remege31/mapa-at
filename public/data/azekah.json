@@ -7,8 +7,16 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Persecución tras Gabaón, valle de Elá" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de Roboam, última resistencia ante Babilonia" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Persecución tras Gabaón, valle de Elá"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortificación de Roboam, última resistencia ante Babilonia"
+    }
   ],
   "descripcion_geo": "Ciudad fortificada en la Sefelá, en el extremo norte del valle de Elá, dominando una posición elevada que controla el acceso desde la llanura filistea hacia las montañas de Judá. Su localización estratégica la convirtió en punto de referencia recurrente en episodios bélicos a lo largo de varios siglos.",
   "altitud_m": 330,
@@ -40,24 +48,36 @@
       "titulo": "La persecución hasta Azeca tras la batalla de Gabaón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "El relato del granizo divino y el sol detenido durante la persecución de Josué tras la victoria de Gabaón ubica el alcance de la huida amorrea hasta Azeca y Maquedá, marcando el límite geográfico de la primera gran campaña del sur.",
-      "referencias": ["Jos 10:10-11"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:10-11"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "david-goliat-valle-ela-azeca",
       "titulo": "El campamento filisteo entre Soco y Azeca",
       "fecha": "c. 1020 a.C.",
       "descripcion": "El ejército filisteo se reúne para la batalla en la que David enfrentará a Goliat acampando entre Soco y Azeca, en el valle de Elá, mientras el ejército israelita se posiciona en el lado opuesto del valle.",
-      "referencias": ["1 Sam 17:1"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 17:1"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "azeca-cartas-laquis-resistencia-final",
       "titulo": "Azeca en las cartas de Laquis durante la caída de Judá",
       "fecha": "c. 588–586 a.C.",
       "descripcion": "El profeta Jeremías menciona que, durante el asedio final de Nabucodonosor, Laquis y Azeca eran las únicas ciudades fortificadas de Judá que aún resistían junto a Jerusalén, dato confirmado por hallazgos arqueológicos (las cartas de Laquis) que documentan la pérdida de visibilidad de las señales de fuego de Azeca poco antes de la caída definitiva.",
-      "referencias": ["Jer 34:6-7"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 34:6-7"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -66,30 +86,46 @@
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Persigue a los ejércitos amorreos en retirada hasta Azeca tras la victoria de Gabaón, extendiendo el alcance de la campaña militar del sur.",
-      "referencias": ["Jos 10:10-11"],
-      "ruta": ["gabaon", "beth_horon_lower", "azekah", "makkedah"]
+      "referencias": [
+        "Jos 10:10-11"
+      ],
+      "ruta": [
+        "gibeon",
+        "beth_horon_lower",
+        "azekah",
+        "makkedah"
+      ]
     },
     {
       "id": "david_azeca",
       "nombre": "David",
       "emoji": "🪨",
       "rol": "Joven pastor, futuro rey de Israel",
-      "periodo": "c. 1020 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Se enfrenta a Goliat en el valle de Elá, junto a Azeca, en el episodio que marca su primera aparición pública como liberador de Israel frente a la amenaza filistea.",
-      "referencias": ["1 Sam 17:1-54"],
-      "ruta": ["belen", "azekah"]
+      "referencias": [
+        "1 Sam 17:1-54"
+      ],
+      "ruta": [
+        "bethlehem",
+        "azekah"
+      ]
     },
     {
       "id": "jeremias_azeca",
       "nombre": "Jeremías",
       "emoji": "🔥",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Testigo de los últimos días del reino de Judá, registra que Azeca y Laquis eran las últimas plazas fortificadas en resistir junto a Jerusalén antes de la caída final ante Babilonia.",
-      "referencias": ["Jer 34:6-7"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 34:6-7"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +139,11 @@
       {
         "id": "ultimas-luces-azeca",
         "nombre": "Las últimas señales de fuego de Azeca antes de la caída de Judá",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jer 34:6-7",
           "fuente_secundaria": "Hallazgo arqueológico de las Cartas de Laquis (Ostraca de Laquis, carta IV), que menciona explícitamente la pérdida de visibilidad de las señales de Azeca",
@@ -118,5 +158,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

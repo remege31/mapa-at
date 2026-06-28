@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital egipcia, oráculos de juicio" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Capital egipcia, oráculos de juicio"
+    }
   ],
   "descripcion_geo": "Una de las ciudades más importantes y antiguas de Egipto, capital tradicional del Bajo Egipto, mencionada en el texto bíblico bajo su nombre hebreo 'Nof' en los oráculos proféticos de juicio contra Egipto pronunciados durante el período final del reino de Judá.",
   "altitud_m": 20,
@@ -40,24 +44,37 @@
       "titulo": "Isaías profetiza la consternación de los príncipes de Menfis",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías incluye a Menfis (Nof) en su oráculo de juicio contra Egipto, anunciando que sus príncipes serán engañados y llevados al error, parte de un extenso pasaje que cuestiona la sabiduría tradicional egipcia.",
-      "referencias": ["Is 19:13"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 19:13"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "jeremias-juicio-menfis",
       "titulo": "Jeremías anuncia la desolación de Menfis",
       "fecha": "c. 600–580 a.C.",
       "descripcion": "Jeremías profetiza que Menfis quedará asolada, desierta y sin habitantes, en el contexto de sus oráculos contra Egipto pronunciados especialmente tras la huida de los refugiados judíos hacia ese país.",
-      "referencias": ["Jer 46:14", "Jer 46:19"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 46:14",
+        "Jer 46:19"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     },
     {
       "id": "ezequiel-imagenes-menfis",
       "titulo": "Ezequiel anuncia el fin de los ídolos de Menfis",
       "fecha": "c. 587 a.C.",
       "descripcion": "El profeta Ezequiel, en su extenso oráculo contra Egipto, anuncia específicamente que destruirá las imágenes y hará cesar los ídolos de Menfis, dirigiéndose contra el corazón mismo del sistema religioso egipcio en una de sus ciudades de mayor prestigio cúltico.",
-      "referencias": ["Ez 30:13"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 30:13"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     }
   ],
   "personajes": [
@@ -68,27 +85,38 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Cuestiona la sabiduría tradicional de los consejeros de Menfis en su extenso oráculo de juicio contra el poder egipcio.",
-      "referencias": ["Is 19:1-15"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 19:1-15"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "jeremias_menfis",
       "nombre": "Jeremías",
       "emoji": "🏚️",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–580 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Profetiza la desolación de Menfis en el contexto más amplio de sus oráculos contra Egipto, pronunciados en parte durante su propio exilio forzado hacia ese país tras la caída de Jerusalén.",
-      "referencias": ["Jer 46:1-26"],
-      "ruta": ["tahpanhes", "memphis"]
+      "referencias": [
+        "Jer 46:1-26"
+      ],
+      "ruta": [
+        "tahpanhes",
+        "memphis"
+      ]
     },
     {
       "id": "ezequiel_menfis",
       "nombre": "Ezequiel",
       "emoji": "⚱️",
       "rol": "Profeta del exilio",
-      "periodo": "Activo c. 593–571 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Anuncia el fin de los ídolos y el sistema cúltico de Menfis en su extenso oráculo de juicio contra Egipto.",
-      "referencias": ["Ez 30:1-19"],
+      "referencias": [
+        "Ez 30:1-19"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +130,11 @@
       {
         "id": "juicio-convergente-tres-profetas-menfis",
         "nombre": "El juicio convergente de tres profetas sobre Menfis",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 19:13; Jer 46:14-19; Ez 30:13",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la convergencia de tres profetas distintos —Isaías, Jeremías y Ezequiel, en períodos separados por más de un siglo— en su anuncio de juicio contra la misma ciudad egipcia",
@@ -117,5 +149,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

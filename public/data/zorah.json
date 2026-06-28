@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad natal de Sansón, asentamiento danita" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad natal de Sansón, asentamiento danita"
+    }
   ],
   "descripcion_geo": "Ciudad asentada en una colina de la Sefelá, en el límite entre el territorio de Dan y Judá, próxima al valle de Sorek. Posición elevada con vistas hacia la llanura filistea, lo que la convertía en punto de observación natural sobre el territorio enemigo.",
   "altitud_m": 245,
@@ -40,24 +44,38 @@
       "titulo": "Anuncio del nacimiento de Sansón",
       "fecha": "c. 1120 a.C.",
       "descripcion": "El ángel de YHWH se aparece en Zorah a la esposa estéril de Manoa y anuncia el nacimiento de un hijo que será nazareo desde el vientre y comenzará a liberar a Israel de mano de los filisteos; Manoa ofrece posteriormente un sacrificio y el ángel asciende en la llama del altar.",
-      "referencias": ["Jue 13:2-23"],
-      "personajes_clave": ["manoa", "sanson"]
+      "referencias": [
+        "Jue 13:2-23"
+      ],
+      "personajes_clave": [
+        "manoa",
+        "sanson"
+      ]
     },
     {
       "id": "espiritu-sanson-zorah",
       "titulo": "El Espíritu de YHWH comienza a moverse sobre Sansón",
       "fecha": "c. 1105 a.C.",
       "descripcion": "El texto bíblico señala que entre Zorah y Estaol, el Espíritu de YHWH comenzó a manifestarse sobre Sansón durante su juventud, marcando el inicio de su vocación como juez-libertador.",
-      "referencias": ["Jue 13:24-25"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 13:24-25"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "sepultura-sanson-zorah",
       "titulo": "Sepultura de Sansón entre Zorah y Estaol",
       "fecha": "c. 1070 a.C.",
       "descripcion": "Tras su muerte en Gaza al derribar el templo de Dagón, los hermanos y la familia de Sansón recuperan su cuerpo y lo sepultan en la tumba de su padre Manoa, entre Zorah y Estaol, cerrando el ciclo narrativo en el lugar de su origen.",
-      "referencias": ["Jue 16:31"],
-      "personajes_clave": ["sanson", "manoa"]
+      "referencias": [
+        "Jue 16:31"
+      ],
+      "personajes_clave": [
+        "sanson",
+        "manoa"
+      ]
     }
   ],
   "personajes": [
@@ -66,10 +84,17 @@
       "nombre": "Sansón",
       "emoji": "💪",
       "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
-      "periodo": "c. 1100–1070 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Nacido en Zorah tras el anuncio angélico a su madre, Sansón es consagrado nazareo desde antes de nacer; su ciclo vital completo —nacimiento, vocación, y sepultura final— se cierra en esta misma ciudad y sus alrededores.",
-      "referencias": ["Jue 13:24-25", "Jue 16:31"],
-      "ruta": ["zorah", "timnah", "gaza"]
+      "referencias": [
+        "Jue 13:24-25",
+        "Jue 16:31"
+      ],
+      "ruta": [
+        "zorah",
+        "timnah",
+        "gaza"
+      ]
     },
     {
       "id": "manoa",
@@ -78,8 +103,12 @@
       "rol": "Padre de Sansón, danita de Zorah",
       "periodo": "c. 1120 a.C.",
       "descripcion": "Recibe junto a su esposa el anuncio angélico del nacimiento de Sansón; tras un sacrificio en el que el ángel asciende en la llama, teme haber visto a Dios y morir, pero su esposa lo tranquiliza con un argumento de sentido práctico.",
-      "referencias": ["Jue 13:2-23"],
-      "ruta": ["zorah"]
+      "referencias": [
+        "Jue 13:2-23"
+      ],
+      "ruta": [
+        "zorah"
+      ]
     },
     {
       "id": "esposa_manoa",
@@ -88,8 +117,12 @@
       "rol": "Madre de Sansón",
       "periodo": "c. 1120 a.C.",
       "descripcion": "Mujer estéril de Zorah a quien se le aparece el ángel de YHWH con las instrucciones nazareas para el hijo por nacer; figura de fe y discernimiento que tranquiliza a Manoa tras la teofanía.",
-      "referencias": ["Jue 13:2-23"],
-      "ruta": ["zorah"]
+      "referencias": [
+        "Jue 13:2-23"
+      ],
+      "ruta": [
+        "zorah"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +134,11 @@
       {
         "id": "anuncio-angelico-zorah",
         "nombre": "El anuncio angélico del nazareo en Zorah",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 13:2-23",
           "fuente_secundaria": "Talmud Babilónico, Berajot 6b (sobre la identidad del 'ángel de YHWH')",
@@ -124,5 +161,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

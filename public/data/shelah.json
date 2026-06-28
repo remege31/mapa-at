@@ -85,7 +85,7 @@
       "nombre": "Ezequías",
       "emoji": "⛏️",
       "rol": "Rey de Judá, constructor del túnel hidráulico",
-      "periodo": "c. 715–686 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena la excavación del túnel que lleva su nombre para asegurar el abastecimiento de agua de Jerusalén ante el inminente asedio asirio, una de las obras de ingeniería más citadas del reino de Judá.",
       "referencias": [
         "2 Re 20:20",
@@ -114,7 +114,7 @@
       "nombre": "Nehemías",
       "emoji": "🧱",
       "rol": "Gobernador de Judá, reconstructor de los muros",
-      "periodo": "Activo c. 445–433 a.C.",
+      "periodo": "post_exilio",
       "descripcion": "Incluye el área del estanque de Shelah en la organización de la reconstrucción de las murallas de Jerusalén tras el regreso del exilio.",
       "referencias": [
         "Neh 3:15"

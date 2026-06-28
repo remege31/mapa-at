@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortaleza edomita conquistada por Amasías" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortaleza edomita conquistada por Amasías"
+    }
   ],
   "descripcion_geo": "Fortaleza edomita excavada en roca ('sela' significa literalmente 'roca' o 'peña' en hebreo), en terreno montañoso de difícil acceso al sur del Mar Salado, identificada por buena parte de la tradición con la región donde posteriormente se desarrollaría la ciudad nabatea de Petra.",
   "altitud_m": 950,
@@ -39,24 +43,36 @@
       "titulo": "Amasías conquista Sela y la renombra Jocteel",
       "fecha": "c. 800 a.C.",
       "descripcion": "Tras derrotar a diez mil edomitas en el valle de la Sal, Amasías de Judá marcha contra Sela, la captura y le da el nombre de Jocteel, que conserva hasta el momento del relato bíblico, consolidando una de las pocas victorias militares significativas de Judá registradas durante este período.",
-      "referencias": ["2 Re 14:7"],
-      "personajes_clave": ["amasias"]
+      "referencias": [
+        "2 Re 14:7"
+      ],
+      "personajes_clave": [
+        "amasias"
+      ]
     },
     {
       "id": "ejecucion-prisioneros-sela",
       "titulo": "Diez mil prisioneros edomitas son arrojados desde la roca",
       "fecha": "c. 800 a.C.",
       "descripcion": "Según el relato cronista, además de los diez mil muertos en batalla, Amasías captura a otros diez mil edomitas vivos, los lleva a la cima de la peña de Sela y los despeña desde allí, todos muriendo destrozados, episodio de extrema brutalidad que el texto registra sin condena explícita pero que contrasta con la posterior caída moral de Amasías por idolatrar a los dioses edomitas capturados.",
-      "referencias": ["2 Cr 25:11-12"],
-      "personajes_clave": ["amasias"]
+      "referencias": [
+        "2 Cr 25:11-12"
+      ],
+      "personajes_clave": [
+        "amasias"
+      ]
     },
     {
       "id": "isaias-oraculo-sela",
       "titulo": "Mensajeros enviados desde Sela en el oráculo de Isaías",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías hace referencia a mensajeros enviados 'de Sela hacia el desierto' en relación con un oráculo de protección para los fugitivos de Moab, vinculando la fortaleza edomita con la geografía de los movimientos políticos y proféticos de la región.",
-      "referencias": ["Is 16:1"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 16:1"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +81,16 @@
       "nombre": "Amasías",
       "emoji": "⚔️",
       "rol": "Rey de Judá",
-      "periodo": "c. 796–767 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Conquista la fortaleza edomita de Sela tras una victoria militar previa contra Edom, episodio que representa el punto culminante de su reinado militarmente exitoso, antes de su posterior caída en idolatría que llevaría al deterioro de su reinado.",
-      "referencias": ["2 Re 14:7", "2 Cr 25:11-16"],
-      "ruta": ["jerusalen", "sela"]
+      "referencias": [
+        "2 Re 14:7",
+        "2 Cr 25:11-16"
+      ],
+      "ruta": [
+        "jerusalen",
+        "sela"
+      ]
     },
     {
       "id": "edomitas_sela_personaje",
@@ -77,7 +99,9 @@
       "rol": "Víctimas de la ejecución masiva de Amasías",
       "periodo": "c. 800 a.C.",
       "descripcion": "Diez mil hombres capturados con vida tras la conquista de Sela, ejecutados mediante despeñamiento desde la roca, episodio de violencia extrema que marca el conflicto entre Judá y Edom durante este período.",
-      "referencias": ["2 Cr 25:12"],
+      "referencias": [
+        "2 Cr 25:12"
+      ],
       "ruta": []
     },
     {
@@ -87,8 +111,12 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Menciona Sela como punto geográfico de referencia en su oráculo sobre Moab, conectando la fortaleza edomita con los movimientos de fugitivos y mensajeros de la región.",
-      "referencias": ["Is 16:1-2"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 16:1-2"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +129,11 @@
       {
         "id": "victoria-apostasia-amasias-sela",
         "nombre": "La victoria de Sela y la posterior apostasía de Amasías",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Cr 25:11-16",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la conexión entre el éxito militar de Amasías en Sela y su posterior idolatría con los dioses edomitas capturados",
@@ -116,5 +148,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

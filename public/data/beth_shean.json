@@ -7,7 +7,11 @@
   "frecuencia_at": 9,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad cananea no conquistada, exposición del cuerpo de Saúl" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad cananea no conquistada, exposición del cuerpo de Saúl"
+    }
   ],
   "descripcion_geo": "Importante ciudad cananea estratégicamente situada en la confluencia del valle del Jordán y el valle de Jezreel, con un extenso tell que confirma arqueológicamente su importancia continua desde el Bronce Tardío hasta períodos posteriores, asignada formalmente a Manasés pero nunca conquistada militarmente durante el período de los Jueces.",
   "altitud_m": -120,
@@ -40,7 +44,9 @@
       "titulo": "Manasés no logra expulsar a los cananeos de Bet-seán",
       "fecha": "c. 1150 a.C.",
       "descripcion": "El libro de los Jueces registra explícitamente que Manasés no pudo desposeer a los habitantes de Bet-seán y sus aldeas, sometiéndolos en cambio a trabajo forzado en lugar de la conquista total prevista.",
-      "referencias": ["Jue 1:27"],
+      "referencias": [
+        "Jue 1:27"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,15 +54,21 @@
       "titulo": "El cuerpo de Saúl es expuesto en el muro de Bet-seán",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Tras la batalla del monte Gilboa, los filisteos clavan los cuerpos sin cabeza de Saúl y sus hijos en el muro de Bet-seán, exponiéndolos públicamente como trofeo de guerra, mientras la cabeza y la armadura del rey son enviadas como ofrenda a los templos de sus dioses en otras ciudades filisteas.",
-      "referencias": ["1 Sam 31:8-10"],
-      "personajes_clave": ["saul"]
+      "referencias": [
+        "1 Sam 31:8-10"
+      ],
+      "personajes_clave": [
+        "saul"
+      ]
     },
     {
       "id": "rescate-jabes-galaad-bethshean",
       "titulo": "Los hombres de Jabés de Galaad rescatan los cuerpos",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Al enterarse de la humillación pública infligida a Saúl, los hombres valientes de Jabés de Galaad —ciudad que Saúl había rescatado al inicio de su reinado— marchan toda la noche, retiran los cuerpos del muro de Bet-seán, los queman y sepultan sus huesos bajo un tamarisco, ayunando siete días en señal de duelo y honor hacia su antiguo libertador.",
-      "referencias": ["1 Sam 31:11-13"],
+      "referencias": [
+        "1 Sam 31:11-13"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,20 +78,31 @@
       "nombre": "Saúl",
       "emoji": "💀",
       "rol": "Primer rey de Israel (cuerpo expuesto póstumamente)",
-      "periodo": "Muere c. 1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Su cuerpo decapitado es expuesto públicamente en el muro de Bet-seán por los filisteos como trofeo de guerra, en el episodio de mayor humillación póstuma sufrida por un rey de Israel en todo el relato bíblico.",
-      "referencias": ["1 Sam 31:8-10"],
-      "ruta": ["gilboa_mount", "beth_shean"]
+      "referencias": [
+        "1 Sam 31:8-10"
+      ],
+      "ruta": [
+        "gilboa_mount",
+        "beth_shean"
+      ]
     },
     {
       "id": "hombres_jabes_bethshean",
       "nombre": "Hombres valientes de Jabés de Galaad",
       "emoji": "🕯️",
       "rol": "Rescatadores leales del cuerpo de Saúl",
-      "periodo": "c. 1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Demuestran lealtad excepcional hacia Saúl al arriesgar sus vidas para rescatar su cuerpo humillado de Bet-seán, en gratitud por haber sido liberados por él de la amenaza de Nahas amonita al inicio de su reinado.",
-      "referencias": ["1 Sam 31:11-13", "1 Sam 11:1-11"],
-      "ruta": ["jabes_galaad", "beth_shean"]
+      "referencias": [
+        "1 Sam 31:11-13",
+        "1 Sam 11:1-11"
+      ],
+      "ruta": [
+        "jabesh",
+        "beth_shean"
+      ]
     },
     {
       "id": "filisteos_bethshean_personaje",
@@ -88,8 +111,12 @@
       "rol": "Ejecutores de la humillación pública de Saúl",
       "periodo": "c. 1010 a.C.",
       "descripcion": "Organizan la exposición pública del cuerpo de Saúl en Bet-seán como demostración de su victoria decisiva sobre Israel en la batalla del monte Gilboa.",
-      "referencias": ["1 Sam 31:9-10"],
-      "ruta": ["beth_shean"]
+      "referencias": [
+        "1 Sam 31:9-10"
+      ],
+      "ruta": [
+        "beth_shean"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +129,11 @@
       {
         "id": "rescate-honor-saul-bethshean",
         "nombre": "El rescate del honor de Saúl por los hombres de Jabés",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 31:11-13",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la lealtad excepcional de Jabés de Galaad como ejemplo de gratitud duradera y honor hacia el rey ungido incluso después de su muerte vergonzosa",
@@ -117,5 +148,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

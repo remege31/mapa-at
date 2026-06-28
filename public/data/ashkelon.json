@@ -7,8 +7,16 @@
   "frecuencia_at": 13,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Una de las cinco ciudades filisteas, enigma de Sansón" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Blanco de oráculos proféticos de juicio" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Una de las cinco ciudades filisteas, enigma de Sansón"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Blanco de oráculos proféticos de juicio"
+    }
   ],
   "descripcion_geo": "Importante ciudad portuaria filistea en la llanura costera meridional, una de las cinco principales ciudades-estado de la Pentápolis filistea (junto con Gaza, Asdod, Gat y Ecrón), con puerto natural que la convertía en centro comercial y militar de primer orden.",
   "altitud_m": 20,
@@ -41,24 +49,37 @@
       "titulo": "Sansón mata a treinta hombres de Ascalón",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Tras perder la apuesta del enigma del león y la miel en su boda de Timnah, Sansón desciende a Ascalón, mata a treinta hombres, toma sus despojos y entrega sus vestidos a quienes habían resuelto el enigma, episodio violento que ilustra el alcance territorial de su conflicto personal con los filisteos.",
-      "referencias": ["Jue 14:19"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 14:19"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "amos-oraculo-ascalon",
       "titulo": "Amós profetiza fuego sobre Ascalón",
       "fecha": "c. 760–750 a.C.",
       "descripcion": "El profeta Amós incluye a Ascalón en su serie de oráculos contra las naciones vecinas, anunciando que enviará fuego que consumirá sus palacios como castigo por las prácticas de deportación esclavista de poblaciones enteras practicadas por los filisteos.",
-      "referencias": ["Am 1:6-8"],
-      "personajes_clave": ["amos"]
+      "referencias": [
+        "Am 1:6-8"
+      ],
+      "personajes_clave": [
+        "amos"
+      ]
     },
     {
       "id": "sofonias-jeremias-ascalon-destruccion",
       "titulo": "Sofonías y Jeremías anuncian la destrucción final de Ascalón",
       "fecha": "c. 630–600 a.C.",
       "descripcion": "Tanto Sofonías como Jeremías profetizan la destrucción definitiva de Ascalón, con Sofonías anunciando que quedará asolada y Jeremías describiendo el clamor y la calvicie de duelo entre sus habitantes ante la inminente devastación, oráculos que se cumplirían históricamente con la conquista babilónica de la ciudad en 604 a.C.",
-      "referencias": ["Sof 2:4-7", "Jer 47:5-7"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Sof 2:4-7",
+        "Jer 47:5-7"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -67,30 +88,43 @@
       "nombre": "Sansón",
       "emoji": "⚔️",
       "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
-      "periodo": "c. 1100 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Extiende su conflicto personal con los filisteos hasta Ascalón, matando a treinta hombres para cumplir su deuda del enigma de la boda de Timnah.",
-      "referencias": ["Jue 14:19"],
-      "ruta": ["timnah", "ashkelon"]
+      "referencias": [
+        "Jue 14:19"
+      ],
+      "ruta": [
+        "timnah",
+        "ashkelon"
+      ]
     },
     {
       "id": "amos_ascalon",
       "nombre": "Amós",
       "emoji": "🔥",
       "rol": "Profeta de Judá enviado a las naciones vecinas",
-      "periodo": "Activo c. 760–750 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Denuncia a Ascalón y las demás ciudades filisteas por sus prácticas de comercio esclavista, anunciando juicio divino mediante fuego sobre sus palacios.",
-      "referencias": ["Am 1:6-8"],
-      "ruta": ["tekoa"]
+      "referencias": [
+        "Am 1:6-8"
+      ],
+      "ruta": [
+        "tekoa"
+      ]
     },
     {
       "id": "jeremias_ascalon",
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Profetiza la destrucción de Ascalón en el contexto de la invasión babilónica, oráculo que se cumple históricamente con la conquista de la ciudad por Nabucodonosor en 604 a.C.",
-      "referencias": ["Jer 47:1-7"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 47:1-7"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +137,11 @@
       {
         "id": "cumplimiento-profecia-ascalon",
         "nombre": "El cumplimiento histórico de la profecía contra Ascalón",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Sof 2:4-7; Jer 47:1-7",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la confirmación histórica de los oráculos proféticos mediante la destrucción babilónica documentada de Ascalón en 604 a.C.",
@@ -118,5 +156,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

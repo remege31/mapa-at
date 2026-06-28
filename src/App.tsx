@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
 import type { ReactNode } from 'react'
+import type L from 'leaflet'
 import { MapView } from './components/MapView'
 import type {
   Lugar,
@@ -8,9 +9,17 @@ import type {
   Mito,
   EventoParalelo,
   RutaSeleccionada,
+  TerritorioSeleccionado,
 } from './types/lugar'
 import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
 import { PERSONAJE_COLORS, DEFAULT_COLOR } from './data/rutaColors'
+import {
+  TERRITORY_SEARCH_LIST,
+  getTerritoryColor,
+  getTerritoryType,
+  getTerritoryNameES,
+} from './data/territorios'
+import { TERRITORY_INFO } from './data/territorioInfo'
 import './App.css'
 
 type SearchResult =
@@ -18,27 +27,247 @@ type SearchResult =
   | { kind: 'ruta'; data: RutaSeleccionada }
   | { kind: 'territorio'; nombreES: string; nombreEN: string }
 
-const TERRITORY_SEARCH_LIST: { nombreEN: string; nombreES: string }[] = [
-  { nombreEN: 'Egypt',                          nombreES: 'Egipto' },
-  { nombreEN: 'Assyria',                        nombreES: 'Asiria' },
-  { nombreEN: 'Babylonia',                      nombreES: 'Mesopotamia / Babilonia' },
-  { nombreEN: 'Hittites',                       nombreES: 'Hititas' },
-  { nombreEN: 'Elam',                           nombreES: 'Elam' },
-  { nombreEN: 'Israel',                         nombreES: 'Israel (reino)' },
-  { nombreEN: 'Judah',                          nombreES: 'Judá (reino)' },
-  { nombreEN: 'Canaan',                         nombreES: 'Canaán' },
-  { nombreEN: 'Arameans',                       nombreES: 'Arameos' },
-  { nombreEN: 'Philistines',                    nombreES: 'Filisteos' },
-  { nombreEN: 'Phoenicia',                      nombreES: 'Fenicia' },
-  { nombreEN: 'Persia',                         nombreES: 'Persia' },
-  { nombreEN: 'Media',                          nombreES: 'Media' },
-  { nombreEN: 'Urartu',                         nombreES: 'Urartu' },
-  { nombreEN: 'Arabian pastoral nomads',        nombreES: 'Pastores nómadas árabes' },
-  { nombreEN: 'Greek city-states',              nombreES: 'Ciudades-estado griegas' },
-  { nombreEN: 'Achaemenid Empire',              nombreES: 'Imperio aqueménida' },
-  { nombreEN: 'Kingdom of David and Solomon',   nombreES: 'Reino unido de Israel' },
-  { nombreEN: 'Kush',                           nombreES: 'Reino de Kush' },
+// ─── Guided Tour ──────────────────────────────────────────────────────────────
+
+const TOUR_STEPS: Array<{
+  label: string; title: string; text: string
+  target: 'map' | 'button' | 'coords' | 'element'
+  spotR: number
+  lat?: number; lng?: number
+  elementId?: string
+}> = [
+  {
+    label: 'Paso 1 de 5',
+    title: 'Jerusalén',
+    text: 'Centro espiritual del AT. Toca cualquier pin para explorar — el panel lateral muestra historia, personajes y contexto religioso.',
+    target: 'map',
+    spotR: 38,
+  },
+  {
+    label: 'Paso 2 de 5',
+    title: 'Territorios · Egipto',
+    text: 'Activamos la capa de Territorios — ve los imperios históricos sobre el mapa. Toca cualquier polígono para explorar en el panel.',
+    target: 'coords',
+    lat: 27, lng: 30.5,
+    spotR: 190,
+  },
+  {
+    label: 'Paso 3 de 5',
+    title: 'Rutas · Moisés',
+    text: 'Activamos la capa de Rutas — sigue los viajes de Moisés, Abraham y otros personajes trazados sobre el mapa.',
+    target: 'button',
+    spotR: 0,
+  },
+  {
+    label: 'Paso 4 de 5',
+    title: 'Período Post-Exilio',
+    text: 'Filtra por era histórica para ver el mapa durante el retorno de los exiliados desde Babilonia (586–400 a.C.).',
+    target: 'button',
+    spotR: 0,
+  },
+  {
+    label: 'Paso 5 de 5',
+    title: 'Búsqueda',
+    text: 'Busca cualquier lugar, ruta o territorio por nombre. Los resultados te llevan directo al mapa y al panel lateral.',
+    target: 'element',
+    elementId: 'topbar-search-wrap',
+    spotR: 0,
+  },
 ]
+
+function TourOverlay({ step, onNext, onEnd, onGoTo, mapWrapRef, btnRefs, leafletMapRef }: {
+  step: number
+  onNext: () => void
+  onEnd: () => void
+  onGoTo: (s: number) => void
+  mapWrapRef: React.RefObject<HTMLDivElement | null>
+  btnRefs: (React.RefObject<HTMLButtonElement | null>)[]
+  leafletMapRef: React.RefObject<L.Map | null>
+}) {
+  const [pos, setPos] = useState<{ cx: number; cy: number; r: number } | null>(null)
+
+  useEffect(() => {
+    // s definido en el scope del efecto para que compute y el body del efecto compartan la misma referencia
+    const s = TOUR_STEPS[step]
+
+    function compute() {
+      if (s.target === 'map') {
+        const rect = mapWrapRef.current?.getBoundingClientRect()
+        if (!rect) return
+        setPos({ cx: rect.left + rect.width / 2, cy: rect.top + rect.height / 2, r: s.spotR })
+
+      } else if (s.target === 'coords' && s.lat !== undefined && s.lng !== undefined) {
+        const lmap = leafletMapRef.current
+        if (!lmap) return
+        const point = lmap.latLngToContainerPoint([s.lat, s.lng])
+        const mapRect = lmap.getContainer().getBoundingClientRect()
+        setPos({ cx: mapRect.left + point.x, cy: mapRect.top + point.y, r: s.spotR })
+
+      } else if (s.target === 'element' && s.elementId) {
+        const el = document.getElementById(s.elementId)
+        const rect = el?.getBoundingClientRect()
+        if (!rect) return
+        const r = Math.max(rect.width, rect.height) / 2 + 12
+        setPos({ cx: rect.left + rect.width / 2, cy: rect.top + rect.height / 2, r })
+
+      } else {
+        // button
+        const refIndex = step === 3 ? 2 : step - 1
+        const rect = btnRefs[refIndex]?.current?.getBoundingClientRect()
+        if (!rect) return
+        const r = Math.max(rect.width, rect.height) / 2 + 10
+        setPos({ cx: rect.left + rect.width / 2, cy: rect.top + rect.height / 2, r })
+      }
+    }
+
+    compute()
+    const tid1 = setTimeout(compute, 150)
+    const tid2 = s.target === 'coords' ? setTimeout(compute, 1500) : undefined
+    window.addEventListener('resize', compute)
+    return () => {
+      clearTimeout(tid1)
+      if (tid2 !== undefined) clearTimeout(tid2)
+      window.removeEventListener('resize', compute)
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step])
+
+  if (!pos) return null
+  const { cx, cy, r } = pos
+  const s = TOUR_STEPS[step]
+  const bw = 240
+  const isBtn = s.target === 'button'
+  const isCircle = s.target === 'map' || s.target === 'coords'
+
+  const rawBx = cx - bw / 2
+  const bx = Math.max(12, Math.min(rawBx, window.innerWidth - bw - 360))  // 360 = ancho panel
+  const by = Math.min(cy + r + 20, window.innerHeight - 200)
+
+  return (
+    <div style={{ position: 'fixed', inset: 0, zIndex: 2000 }} onMouseDown={e => e.stopPropagation()}>
+      <style>{`
+        @keyframes tour-ring {
+          0%   { transform: scale(1);    opacity: 0.85; }
+          100% { transform: scale(1.6);  opacity: 0; }
+        }
+        @keyframes tour-cursor {
+          0%, 100% { transform: rotate(135deg) scale(1);    opacity: 0.95; }
+          45%       { transform: rotate(135deg) scale(0.82); opacity: 0.65; }
+        }
+      `}</style>
+
+      {/* Overlay semitransparente */}
+      <div style={{
+        position: 'fixed',
+        left: cx - r,
+        top: cy - r,
+        width: r * 2,
+        height: r * 2,
+        borderRadius: isCircle ? '50%' : 8,
+        boxShadow: '0 0 0 9999px rgba(20,15,10,0.42)',
+        transition: 'all 0.45s cubic-bezier(0.4,0,0.2,1)',
+        pointerEvents: 'none',
+        zIndex: 2001,
+      }} />
+
+      {/* Anillo pulsante */}
+      <div style={{
+        position: 'fixed',
+        left: cx - r - 8,
+        top: cy - r - 8,
+        width: (r + 8) * 2,
+        height: (r + 8) * 2,
+        borderRadius: isCircle ? '50%' : 12,
+        border: '2px solid rgba(255,255,255,0.75)',
+        animation: 'tour-ring 1.7s ease-out infinite',
+        pointerEvents: 'none',
+        zIndex: 2002,
+      }} />
+
+      {/* Cursor 45° top-right → señala hacia el elemento */}
+      <div style={{
+        position: 'fixed',
+        left: cx + r * 0.62 - 10,
+        top: cy - r * 0.62 - 22,
+        fontSize: 20,
+        pointerEvents: 'none',
+        zIndex: 2005,
+        animation: 'tour-cursor 1.4s ease-in-out infinite',
+        userSelect: 'none',
+        filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))',
+      }}>👆</div>
+
+      {/* Burbuja */}
+      <div style={{
+        position: 'fixed',
+        left: bx,
+        top: by,
+        width: bw,
+        background: '#F5F0E8',
+        border: '1px solid #D4C5B0',
+        borderRadius: 8,
+        padding: '14px 16px',
+        zIndex: 2004,
+        boxShadow: '0 4px 20px rgba(0,0,0,0.22)',
+        transition: 'all 0.45s cubic-bezier(0.4,0,0.2,1)',
+      }}>
+        {/* Flecha hacia arriba */}
+        <div style={{
+          position: 'absolute', top: -8, left: '50%', transform: 'translateX(-50%)',
+          width: 0, height: 0,
+          borderLeft: '7px solid transparent',
+          borderRight: '7px solid transparent',
+          borderBottom: '8px solid #D4C5B0',
+        }} />
+        <div style={{
+          position: 'absolute', top: -6, left: '50%', transform: 'translateX(-50%)',
+          width: 0, height: 0,
+          borderLeft: '6px solid transparent',
+          borderRight: '6px solid transparent',
+          borderBottom: '7px solid #F5F0E8',
+        }} />
+
+        <div style={{ fontSize: 9, fontWeight: 600, color: '#775C3C', letterSpacing: '.08em', textTransform: 'uppercase', marginBottom: 4 }}>
+          {s.label}
+        </div>
+        <div style={{ fontSize: 14, color: '#3C3C3C', fontFamily: 'Georgia, serif', marginBottom: 6 }}>
+          {s.title}
+        </div>
+        <div style={{ fontSize: 11, color: '#6B6054', lineHeight: 1.55, marginBottom: 12 }}>
+          {s.text}
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', gap: 5 }}>
+            {TOUR_STEPS.map((_, i) => (
+              <button key={i} onClick={() => i !== step && onGoTo(i)} style={{
+                width: 8, height: 8, borderRadius: '50%', padding: 0, border: 'none',
+                background: i === step ? '#775C3C' : '#D4C5B0',
+                cursor: i !== step ? 'pointer' : 'default',
+                transition: 'background 0.3s, transform 0.15s',
+                flexShrink: 0,
+              }}
+              onMouseEnter={e => { if (i !== step) (e.target as HTMLElement).style.transform = 'scale(1.4)' }}
+              onMouseLeave={e => { (e.target as HTMLElement).style.transform = 'scale(1)' }}
+              />
+            ))}
+          </div>
+          <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+            <button onClick={onEnd} style={{ fontSize: 10, color: '#A09080', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+              Saltar
+            </button>
+            <button onClick={onNext} style={{
+              fontSize: 11, fontWeight: 600, color: '#F5F0E8',
+              background: '#775C3C', border: 'none',
+              borderRadius: 4, padding: '4px 12px', cursor: 'pointer',
+            }}>
+              {step < TOUR_STEPS.length - 1 ? 'Siguiente →' : 'Listo ✓'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 const PERIODS = [
   { id: 'todos',         name: 'Todos los períodos',    range: '' },
@@ -501,9 +730,195 @@ function PanelRuta({ ruta, lugares, onClose, onSelectLugar, activeViajeIdx, onNa
   )
 }
 
+function PanelTerritorio({ territorio, periodId, onClose, lugares, onSelectLugar }: {
+  territorio: TerritorioSeleccionado
+  periodId: string
+  onClose: () => void
+  lugares: Lugar[]
+  onSelectLugar: (l: Lugar) => void
+}) {
+  const periodName = getPeriodName(territorio.periodo)
+  const periodRange = getPeriodRange(territorio.periodo)
+  const c = territorio.color
+  const info = TERRITORY_INFO[territorio.nombreEN] ?? null
+
+  // Resuelve IDs a objetos Lugar (solo los que están cargados)
+  const lugaresById = new Map(lugares.map(l => [l.id, l]))
+  const ciudadesList = info
+    ? info.ciudades.map(id => lugaresById.get(id)).filter((l): l is Lugar => !!l)
+    : []
+  const naturalesList = info
+    ? info.naturales.map(id => lugaresById.get(id)).filter((l): l is Lugar => !!l)
+    : []
+
+  const divider = (
+    <div style={{ height: 0.5, background: 'var(--border, #D4C5B0)', margin: '14px 0' }} />
+  )
+
+  return (
+    <>
+      <DrawerHeader title={territorio.nombreES} onClose={onClose} />
+      <div style={{ height: 3, background: c, flexShrink: 0 }} />
+      <div id="panel-body" className="panel-body-scroll">
+        <div style={{ padding: '16px 16px 0' }}>
+
+          {/* Categoría */}
+          {territorio.tipo && (
+            <div style={{
+              display: 'inline-block',
+              background: `${c}22`,
+              border: `1px solid ${c}66`,
+              borderRadius: 4,
+              padding: '3px 10px',
+              fontSize: 11,
+              fontWeight: 600,
+              color: c,
+              marginBottom: 16,
+              letterSpacing: '0.04em',
+            }}>
+              {territorio.tipo}
+            </div>
+          )}
+
+          {/* Período */}
+          <div className="sec-label" style={{ marginTop: 0 }}>Período visible en el mapa</div>
+          <div className="gv" style={{ fontSize: 13 }}>{periodName}</div>
+          {periodRange && (
+            <div style={{ fontSize: 11, color: 'var(--gray)', marginTop: 2 }}>{periodRange}</div>
+          )}
+
+          {/* Significado bíblico */}
+          {info?.significado && (
+            <>
+              {divider}
+              <div className="sec-label">Significado bíblico</div>
+              <div style={{
+                fontSize: 12,
+                color: 'var(--gray)',
+                lineHeight: 1.65,
+                fontFamily: 'Georgia, serif',
+                borderLeft: `2px solid ${c}66`,
+                paddingLeft: 10,
+              }}>
+                {info.significado}
+              </div>
+            </>
+          )}
+
+          {/* Lugares en esta región */}
+          {(ciudadesList.length > 0 || naturalesList.length > 0) && (
+            <>
+              {divider}
+              <div className="sec-label">Lugares en esta región</div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 4, marginBottom: 6 }}>
+                {ciudadesList.map(l => (
+                  <button
+                    key={l.id}
+                    onClick={() => { onSelectLugar(l); onClose() }}
+                    style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      padding: '7px 10px',
+                      background: 'var(--surface-1, #F0EBE2)',
+                      border: '0.5px solid var(--border, #D4C5B0)',
+                      borderRadius: 6, cursor: 'pointer',
+                      fontSize: 12, color: 'var(--ink, #3C3C3C)',
+                      textAlign: 'left',
+                    }}
+                  >
+                    <span style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                      <span style={{
+                        display: 'inline-block', width: 7, height: 7,
+                        borderRadius: '50%', background: '#6B6060', flexShrink: 0,
+                      }} />
+                      {l.nombre}
+                    </span>
+                    <span style={{ color: c, fontSize: 13, opacity: 0.85 }}>→</span>
+                  </button>
+                ))}
+                {naturalesList.map(l => (
+                  <button
+                    key={l.id}
+                    onClick={() => { onSelectLugar(l); onClose() }}
+                    style={{
+                      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                      padding: '7px 10px',
+                      background: 'var(--surface-1, #F0EBE2)',
+                      border: '0.5px solid var(--border, #D4C5B0)',
+                      borderRadius: 6, cursor: 'pointer',
+                      fontSize: 12, color: 'var(--ink, #3C3C3C)',
+                      textAlign: 'left',
+                    }}
+                  >
+                    <span style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+                      <span style={{
+                        display: 'inline-block', width: 7, height: 7,
+                        borderRadius: 1, background: '#2E5F8A', flexShrink: 0,
+                      }} />
+                      {l.nombre}
+                    </span>
+                    <span style={{ color: c, fontSize: 13, opacity: 0.85 }}>→</span>
+                  </button>
+                ))}
+              </div>
+              {/* Leyenda */}
+              <div style={{ display: 'flex', gap: 14, paddingLeft: 2, marginBottom: 4 }}>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: 'var(--gray)' }}>
+                  <span style={{ display: 'inline-block', width: 7, height: 7, borderRadius: '50%', background: '#6B6060' }} />
+                  Ciudad
+                </span>
+                <span style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 10, color: 'var(--gray)' }}>
+                  <span style={{ display: 'inline-block', width: 7, height: 7, borderRadius: 1, background: '#2E5F8A' }} />
+                  Lugar natural
+                </span>
+              </div>
+            </>
+          )}
+
+          {/* Pueblos principales */}
+          {info?.pueblos && info.pueblos.length > 0 && (
+            <>
+              {divider}
+              <div className="sec-label">Pueblos principales</div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                {info.pueblos.map(p => (
+                  <span key={p} style={{
+                    fontSize: 11, padding: '3px 9px',
+                    borderRadius: 20,
+                    background: 'var(--surface-1, #F0EBE2)',
+                    border: '0.5px solid var(--border, #D4C5B0)',
+                    color: 'var(--gray)',
+                  }}>
+                    {p}
+                  </span>
+                ))}
+              </div>
+            </>
+          )}
+
+          {/* Nota fuente */}
+          <div style={{
+            marginTop: 20,
+            marginBottom: 4,
+            padding: '10px 12px',
+            background: 'var(--surface-1, #F0EBE2)',
+            borderRadius: 6,
+            fontSize: 11,
+            color: 'var(--gray)',
+            lineHeight: 1.55,
+          }}>
+            Límites basados en <em>Historical Basemaps</em> (Ourednik, CC BY-SA). Las fronteras son aproximadas.
+          </div>
+        </div>
+      </div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+    </>
+  )
+}
+
 export default function App() {
   const [selected, setSelected] = useState<Lugar | null>(null)
   const [selectedRuta, setSelectedRuta] = useState<RutaSeleccionada | null>(null)
+  const [selectedTerritorio, setSelectedTerritorio] = useState<TerritorioSeleccionado | null>(null)
   const [activeViajeIdx, setActiveViajeIdx] = useState(0)
   const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
@@ -541,6 +956,7 @@ export default function App() {
     if (l.lat && l.lng) setFlyToTarget({ lat: l.lat, lng: l.lng })
     setSelected(l)
     setSelectedRuta(null)
+    setSelectedTerritorio(null)
     setMenuOpen(false)
     setDrawerOpen(true)
     setPanelCollapsed(false)
@@ -550,12 +966,22 @@ export default function App() {
     setSelectedRuta(ruta)
     setActiveViajeIdx(ruta.viajeIdx ?? 0)
     setSelected(null)
+    setSelectedTerritorio(null)
     setMenuOpen(false)
     setDrawerOpen(true)
     setPanelCollapsed(false)
   }, [])
 
-  const closeAll = () => { setDrawerOpen(false); setMenuOpen(false); setSelectedRuta(null); setActiveViajeIdx(0) }
+  const handleSelectTerritorio = useCallback((t: TerritorioSeleccionado) => {
+    setSelectedTerritorio(t)
+    setSelected(null)
+    setSelectedRuta(null)
+    setMenuOpen(false)
+    setDrawerOpen(true)
+    setPanelCollapsed(false)
+  }, [])
+
+  const closeAll = () => { setDrawerOpen(false); setMenuOpen(false); setSelectedRuta(null); setSelectedTerritorio(null); setActiveViajeIdx(0) }
 
   // Índice de rutas: personajes únicos con ruta o viajes
   const buildRutasIndex = (): RutaSeleccionada[] => {
@@ -615,10 +1041,18 @@ export default function App() {
     setPanelCollapsed(false)
   }, [])
 
-  const handleSearchSelectTerritorio = useCallback(() => {
+  const handleSearchSelectTerritorio = useCallback((nombreEN: string, nombreES: string) => {
+    const periodo = periodId === 'todos' ? 'hierro_2' : periodId
     setTerritoriosActive(true)
-    setPeriodId(prev => prev === 'todos' ? 'hierro_2' : prev)
-  }, [])
+    setPeriodId(periodo)
+    handleSelectTerritorio({
+      nombreEN,
+      nombreES,
+      tipo: getTerritoryType(nombreEN),
+      color: getTerritoryColor(nombreEN),
+      periodo,
+    })
+  }, [periodId, handleSelectTerritorio])
 
   const openMenu = () => { setDrawerOpen(false); setMenuOpen(true) }
   const goToLastPlace = async () => {
@@ -634,7 +1068,106 @@ export default function App() {
     }
   }
   const isMobile = window.innerWidth < 769
-  const [flyToTarget, setFlyToTarget] = useState<{lat: number, lng: number} | null>(null)
+  const [flyToTarget, setFlyToTarget] = useState<{lat: number, lng: number, zoom?: number} | null>(null)
+  const [tourStep, setTourStep] = useState<number | null>(null)
+  const mapWrapRef = useRef<HTMLDivElement>(null)
+  const postExilioRef = useRef<HTMLButtonElement>(null)
+  const territoriosBtnRef = useRef<HTMLButtonElement>(null)
+  const rutasBtnRef = useRef<HTMLButtonElement>(null)
+  const leafletMapRef = useRef<L.Map | null>(null)
+
+  const startTour = useCallback(() => {
+    const jer = lugares.find(l => l.id === 'jerusalen')
+    if (jer) {
+      setFlyToTarget({ lat: jer.lat, lng: jer.lng, zoom: 9 })
+      setSelected(jer)
+    } else {
+      setFlyToTarget({ lat: 31.7683, lng: 35.2137, zoom: 9 })
+    }
+    setSelectedRuta(null)
+    setSelectedTerritorio(null)
+    setDrawerOpen(true)
+    setPanelCollapsed(false)
+    setTerritoriosActive(false)
+    setRutasActive(false)
+    setPeriodId('todos')
+    setTourStep(0)
+  }, [lugares])
+
+  const goToTourStep = useCallback((target: number) => {
+    if (target < 0 || target >= TOUR_STEPS.length) { setTourStep(null); return }
+
+    if (target === 0) {
+      // Jerusalén
+      const jer = lugares.find(l => l.id === 'jerusalen')
+      if (jer) { setFlyToTarget({ lat: jer.lat, lng: jer.lng, zoom: 9 }); setSelected(jer) }
+      else setFlyToTarget({ lat: 31.7683, lng: 35.2137, zoom: 9 })
+      setTerritoriosActive(false); setRutasActive(false); setPeriodId('todos')
+      setSelectedRuta(null); setSelectedTerritorio(null)
+      setPanelCollapsed(false)
+
+    } else if (target === 1) {
+      // Territorios: auto-seleccionar Egipto, zoom amplio
+      setTerritoriosActive(true); setRutasActive(false)
+      setPeriodId('bronce_tardio')
+      setFlyToTarget({ lat: 27, lng: 33, zoom: 5 })
+      setSelected(null); setSelectedRuta(null)
+      setSelectedTerritorio({ nombreEN: 'Egypt', nombreES: 'Egipto', tipo: 'Imperio', color: '#C9A84C', periodo: 'bronce_tardio' })
+      setPanelCollapsed(false)
+
+    } else if (target === 2) {
+      // Rutas: auto-seleccionar Moisés, vista Egipto→Sinaí→Canaán
+      setTerritoriosActive(true); setRutasActive(true)
+      setPeriodId('bronce_tardio')
+      setFlyToTarget({ lat: 30, lng: 34, zoom: 7 })
+      setSelectedTerritorio(null)
+      let found = false
+      for (const l of lugares) {
+        const mosesPer = (l.personajes ?? []).find(p => p.nombre === 'Moisés')
+        if (mosesPer) {
+          const viajes = mosesPer.viajes?.length ? mosesPer.viajes : undefined
+          const mosesRuta: RutaSeleccionada = {
+            nombre: mosesPer.nombre, emoji: mosesPer.emoji || '🚶',
+            rol: mosesPer.rol, periodo: mosesPer.periodo, descripcion: mosesPer.descripcion,
+            referencias: viajes ? (viajes[0].referencias ?? mosesPer.referencias) : mosesPer.referencias,
+            ruta: viajes ? viajes[0].ruta : mosesPer.ruta,
+            color: PERSONAJE_COLORS['Moisés'] ?? DEFAULT_COLOR,
+            personajeId: mosesPer.nombre, viajeIdx: 0,
+            viajeNombre: viajes?.[0]?.nombre, viajes,
+          }
+          setSelectedRuta(mosesRuta); setActiveViajeIdx(0); setSelected(null)
+          found = true; break
+        }
+      }
+      if (!found) { setSelectedRuta(null); setSelected(null) }
+      setPanelCollapsed(false)
+
+    } else if (target === 3) {
+      // Post-exilio: mostrar hierro_2 → esperar 5s → ciclar a post_exilio
+      setTerritoriosActive(true); setRutasActive(false)
+      setSelectedRuta(null); setSelectedTerritorio(null); setSelected(null)
+      setFlyToTarget({ lat: 32, lng: 37, zoom: 5 })
+      setPeriodId('hierro_2')
+      setPanelCollapsed(false)
+      setTimeout(() => setPeriodId('post_exilio'), 5000)
+
+    } else if (target === 4) {
+      // Búsqueda: vista limpia, spotlight sobre el input
+      setTerritoriosActive(false); setRutasActive(false)
+      setSelectedRuta(null); setSelectedTerritorio(null); setSelected(null)
+      setPeriodId('todos')
+      setFlyToTarget({ lat: 31.7683, lng: 35.2137, zoom: 8 })
+      setPanelCollapsed(false)
+    }
+
+    setTourStep(target)
+  }, [lugares])
+
+  const advanceTour = useCallback((current: number) => {
+    if (current + 1 >= TOUR_STEPS.length) { setTourStep(null); return }
+    goToTourStep(current + 1)
+  }, [goToTourStep])
+
   const showOverlay = menuOpen || (drawerOpen && isMobile && !window.matchMedia('(min-width: 769px)').matches)
   const drawerStyle = { top: `${drawerTop}px` }
 
@@ -656,7 +1189,7 @@ export default function App() {
                   const first = searchResults[0]
                   if (first.kind === 'lugar') { handleSelect(first.data); setSearchQuery("") }
                   else if (first.kind === 'ruta') { handleSearchSelectRuta(first.data); setSearchQuery("") }
-                  else if (first.kind === 'territorio') { handleSearchSelectTerritorio(); setSearchQuery("") }
+                  else if (first.kind === 'territorio') { handleSearchSelectTerritorio(first.nombreEN, first.nombreES); setSearchQuery("") }
                 }
               }}
               aria-label="Buscar lugar, personaje o territorio"
@@ -677,7 +1210,7 @@ export default function App() {
                     </button>
                   )
                   if (r.kind === 'territorio') return (
-                    <button key={'ter-' + r.nombreEN} className="search-result" onClick={() => { handleSearchSelectTerritorio(); setSearchQuery("") }}>
+                    <button key={'ter-' + r.nombreEN} className="search-result" onClick={() => { handleSearchSelectTerritorio(r.nombreEN, r.nombreES); setSearchQuery("") }}>
                       <span className="search-result-name">{r.nombreES}</span>
                       <span className="search-result-tipo">Territorio histórico</span>
                     </button>
@@ -698,6 +1231,7 @@ export default function App() {
           {PERIODS.map(p => (
             <button
               key={p.id}
+              ref={p.id === 'post_exilio' ? postExilioRef : undefined}
               className={`period-btn${periodId === p.id ? ' active' : ''}`}
               aria-pressed={periodId === p.id}
               onClick={() => setPeriodId(p.id)}
@@ -708,15 +1242,17 @@ export default function App() {
           ))}
         </div>
         <div id="layers-row">
-          <button className={`layer-btn${territoriosActive ? ' active' : ''}`} aria-pressed={territoriosActive} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
-          <button className={`layer-btn${rutasActive ? ' active' : ''}`} aria-pressed={rutasActive} onClick={() => setRutasActive(a => !a)} title="Mostrar rutas de personajes">🚶 Rutas</button>
+          <button ref={territoriosBtnRef} className={`layer-btn${territoriosActive ? ' active' : ''}`} aria-pressed={territoriosActive} onClick={() => setTerritoriosActive(a => !a)} title="Mostrar territorios históricos">🗺 Territorios</button>
+          <button ref={rutasBtnRef} className={`layer-btn${rutasActive ? ' active' : ''}`} aria-pressed={rutasActive} onClick={() => setRutasActive(a => !a)} title="Mostrar rutas de personajes">🚶 Rutas</button>
         </div>
       </div>
       <div id="main">
-        <div id="map-wrap">
+        <div id="map-wrap" ref={mapWrapRef}>
           <MapView
             onSelectLugar={handleSelect}
             onSelectRuta={handleSelectRuta}
+            onSelectTerritorio={handleSelectTerritorio}
+            onMapReady={(map) => { leafletMapRef.current = map }}
             flyToTarget={flyToTarget}
             selectedId={selected?.id}
             periodId={periodId}
@@ -724,26 +1260,77 @@ export default function App() {
             rutasActive={rutasActive}
             selectedPersonaje={selectedRuta?.personajeId}
             selectedViajeIdx={activeViajeIdx}
+            selectedTerritorio={selectedTerritorio}
           />
         </div>
-        <div id="panel" className={[drawerOpen ? 'drawer-open' : '', (!isMobile && panelCollapsed) ? 'panel-collapsed' : ''].filter(Boolean).join(' ')} style={drawerStyle}>
+        <div id="panel" className={[drawerOpen ? 'drawer-open' : '', (!isMobile && panelCollapsed) ? 'panel-collapsed' : '', tourStep !== null ? 'panel-tour-active' : ''].filter(Boolean).join(' ')} style={drawerStyle}>
           {selectedRuta ? (
             <PanelRuta ruta={selectedRuta} lugares={lugares} onClose={closeAll} onSelectLugar={handleSelect} activeViajeIdx={activeViajeIdx} onNavigateViaje={setActiveViajeIdx} />
+          ) : selectedTerritorio ? (
+            <PanelTerritorio territorio={selectedTerritorio} periodId={periodId} onClose={closeAll} lugares={lugares} onSelectLugar={handleSelect} />
           ) : selected ? (
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (
             <>
-              <DrawerHeader title="Selecciona un lugar" onClose={closeAll} />
-              <div id="panel-body">
-                <div id="panel-empty">
-                  <div style={{ fontSize: 28 }}>🗺</div>
-                  <div id="panel-empty-text">Explora los lugares<br />del Antiguo Testamento</div>
+              <DrawerHeader title="Mapa Interactivo · AT" onClose={closeAll} />
+              <div id="panel-body" className="panel-body-scroll">
+                <div style={{ padding: '16px 16px 20px', display: 'flex', flexDirection: 'column', gap: 0 }}>
+                  {/* Intro */}
+                  <div style={{ marginBottom: 16 }}>
+                    <div style={{ fontFamily: 'Georgia, serif', fontSize: 13, color: 'var(--ink)', marginBottom: 4 }}>Explora la geografía bíblica</div>
+                    <div style={{ fontSize: 11, color: 'var(--gray)', lineHeight: 1.55 }}>La geografía como personaje activo en la narrativa del Antiguo Testamento.</div>
+                  </div>
+
+                  {/* Feature cards */}
+                  {[
+                    { icon: '📍', title: 'Lugares', desc: 'Toca un pin en el mapa o usa la búsqueda para explorar historia, personajes y contexto religioso.' },
+                    { icon: '🗺', title: 'Territorios', desc: 'Activa la capa de territorios para ver los imperios: Canaán, Egipto, Asiria y más.' },
+                    { icon: '🚶', title: 'Rutas', desc: 'Sigue los viajes de Abraham, Moisés, David y otros con la capa de rutas.' },
+                    { icon: '⏳', title: 'Períodos', desc: 'Filtra por era histórica para ver el mapa en su contexto cronológico.' },
+                  ].map(f => (
+                    <div key={f.title} style={{
+                      display: 'flex', alignItems: 'flex-start', gap: 10,
+                      padding: '9px 10px', marginBottom: 6,
+                      background: 'var(--surface-1, #EDE8DF)',
+                      border: '0.5px solid var(--border, #D4C5B0)',
+                      borderRadius: 6,
+                    }}>
+                      <span style={{ fontSize: 15, flexShrink: 0, marginTop: 1, width: 20, textAlign: 'center' }}>{f.icon}</span>
+                      <div>
+                        <div style={{ fontSize: 12, fontWeight: 600, color: 'var(--ink)', marginBottom: 2 }}>{f.title}</div>
+                        <div style={{ fontSize: 11, color: 'var(--gray)', lineHeight: 1.45 }}>{f.desc}</div>
+                      </div>
+                    </div>
+                  ))}
+
+                  {/* CTA tour */}
+                  <button
+                    onClick={startTour}
+                    style={{
+                      marginTop: 10,
+                      width: '100%',
+                      padding: '10px 14px',
+                      background: '#775C3C',
+                      border: 'none',
+                      borderRadius: 6,
+                      color: '#F5F0E8',
+                      fontFamily: 'Georgia, serif',
+                      fontSize: 13,
+                      cursor: 'pointer',
+                      letterSpacing: '0.02em',
+                    }}
+                  >
+                    Comenzar en Jerusalén ★
+                  </button>
+                  <div style={{ textAlign: 'center', marginTop: 8, fontSize: 10, color: 'var(--gray)', fontStyle: 'italic' }}>
+                    o toca cualquier pin en el mapa
+                  </div>
                 </div>
               </div>
             </>
           )}
         </div>
-        <button id="panel-toggle" className={panelCollapsed ? 'collapsed' : ''} onClick={() => setPanelCollapsed(c => !c)} aria-label={panelCollapsed ? 'Abrir panel' : 'Cerrar panel'}>
+        <button id="panel-toggle" className={panelCollapsed ? 'collapsed' : ''} onClick={() => setPanelCollapsed(c => !c)} aria-label={panelCollapsed ? 'Abrir panel' : 'Cerrar panel'} style={{ '--toggle-top': `${drawerTop + 16}px` } as React.CSSProperties}>
           {panelCollapsed ? '◀' : '▶'}
         </button>
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
@@ -751,6 +1338,17 @@ export default function App() {
         </div>
         {showOverlay && <div id="drawer-overlay" className={window.innerWidth >= 769 ? 'desktop-active' : ''} onClick={closeAll} />}
       </div>
+      {tourStep !== null && (
+        <TourOverlay
+          step={tourStep}
+          onNext={() => advanceTour(tourStep)}
+          onEnd={() => setTourStep(null)}
+          onGoTo={goToTourStep}
+          mapWrapRef={mapWrapRef}
+          btnRefs={[territoriosBtnRef, rutasBtnRef, postExilioRef]}
+          leafletMapRef={leafletMapRef}
+        />
+      )}
     </div>
   )
 }

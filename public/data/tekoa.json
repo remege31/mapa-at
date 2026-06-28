@@ -7,7 +7,11 @@
   "frecuencia_at": 14,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad fortificada de Roboam, hogar de Amós" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad fortificada de Roboam, hogar de Amós"
+    }
   ],
   "descripcion_geo": "Ciudad en el borde del desierto de Judá, al sur de Belén, en una posición elevada que domina la transición entre las tierras de cultivo de las montañas centrales y el desierto que desciende hacia el Mar Muerto. Su entorno árido y pastoril marca profundamente el lenguaje y las metáforas del profeta más asociado a ella.",
   "altitud_m": 850,
@@ -40,7 +44,9 @@
       "titulo": "La mujer sabia de Tecoa intercede por Absalón",
       "fecha": "c. 978 a.C.",
       "descripcion": "Joab envía a buscar a una mujer sabia de Tecoa y le instruye una parábola elaborada sobre dos hermanos en conflicto, con la que logra persuadir a David de permitir el regreso de Absalón del exilio, en un episodio que combina diplomacia, retórica y manipulación política.",
-      "referencias": ["2 Sam 14:1-20"],
+      "referencias": [
+        "2 Sam 14:1-20"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,16 +54,25 @@
       "titulo": "Roboam fortifica Tecoa",
       "fecha": "c. 925–913 a.C.",
       "descripcion": "Tras la división del reino, Roboam fortifica quince ciudades de Judá, entre ellas Tecoa, como parte de un programa defensivo organizado para proteger el territorio reducido del reino del sur.",
-      "referencias": ["2 Cr 11:5-6"],
-      "personajes_clave": ["roboam"]
+      "referencias": [
+        "2 Cr 11:5-6"
+      ],
+      "personajes_clave": [
+        "roboam"
+      ]
     },
     {
       "id": "amos-pastor-tecoa",
       "titulo": "Amós, pastor de Tecoa, es llamado a profetizar",
       "fecha": "c. 760–750 a.C.",
       "descripcion": "Amós, identificado explícitamente como uno de los pastores de Tecoa y cultivador de higos sicómoros, recibe el llamado de YHWH para profetizar contra el reino del norte, denunciando la injusticia social y la corrupción religiosa de Israel desde una perspectiva radicalmente ajena a la élite profética profesional.",
-      "referencias": ["Am 1:1", "Am 7:14-15"],
-      "personajes_clave": ["amos"]
+      "referencias": [
+        "Am 1:1",
+        "Am 7:14-15"
+      ],
+      "personajes_clave": [
+        "amos"
+      ]
     }
   ],
   "personajes": [
@@ -66,30 +81,45 @@
       "nombre": "Amós",
       "emoji": "🐑",
       "rol": "Profeta de Judá enviado al reino del norte",
-      "periodo": "Activo c. 760–750 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Pastor y cultivador de sicómoros de Tecoa que, sin formación profética profesional ni linaje sacerdotal, es llamado por YHWH para denunciar la injusticia social, la opresión de los pobres y la hipocresía cúltica del reino de Israel bajo Jeroboam II.",
-      "referencias": ["Am 1:1", "Am 7:10-17"],
-      "ruta": ["tekoa", "bet_el"]
+      "referencias": [
+        "Am 1:1",
+        "Am 7:10-17"
+      ],
+      "ruta": [
+        "tekoa",
+        "bethel"
+      ]
     },
     {
       "id": "mujer_sabia_tecoa",
       "nombre": "Mujer sabia de Tecoa",
       "emoji": "🗣️",
       "rol": "Intermediaria diplomática enviada por Joab",
-      "periodo": "c. 978 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Mujer de Tecoa reconocida por su habilidad retórica, contratada por Joab para presentar a David una parábola que logra ablandar su postura hacia Absalón, ejemplo destacado de agencia femenina en la diplomacia de la corte davídica.",
-      "referencias": ["2 Sam 14:1-20"],
-      "ruta": ["tekoa", "jerusalen"]
+      "referencias": [
+        "2 Sam 14:1-20"
+      ],
+      "ruta": [
+        "tekoa",
+        "jerusalen"
+      ]
     },
     {
       "id": "roboam_tecoa",
       "nombre": "Roboam",
       "emoji": "🏰",
       "rol": "Rey de Judá, fortificador de ciudades fronterizas",
-      "periodo": "c. 931–913 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Organiza la fortificación de Tecoa y otras catorce ciudades de Judá como respuesta defensiva tras la pérdida del reino del norte en la secesión liderada por Jeroboam.",
-      "referencias": ["2 Cr 11:5-12"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Cr 11:5-12"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +131,11 @@
       {
         "id": "vocacion-pastor-amos",
         "nombre": "La vocación del pastor de Tecoa convertido en profeta",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Am 1:1; Am 7:14-15",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la legitimidad profética independiente del linaje o la formación institucional",
@@ -124,5 +158,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

@@ -8,11 +8,27 @@
   "frecuencia_at": 17,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la ruta costera" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Zona de disputa entre Israel y Filistea" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad israelita, dote de la hija del faraón" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad cananea en la ruta costera"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Zona de disputa entre Israel y Filistea"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad israelita, dote de la hija del faraón"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Gezer (hebreo: גֶּזֶר) era una ciudad cananea de primer orden en el extremo norte de la Sefela (tierras bajas de Judá), en la confluencia entre la llanura costera y las colinas de Judá, a unos 30 km al noroeste de Jerusalén. Controlaba la ruta principal entre la llanura filistea y Jerusalén por el valle de Ajalón. Tel Gezer es uno de los yacimientos arqueológicos más importantes de Israel: las excavaciones revelaron murallas cíclicas del Bronce Tardío, una avenida de estelas masseboth del Bronce Medio, y la célebre 'Torre del Agua' y la puerta de seis cámaras del Hierro II atribuida a Salomón. El Calendario de Gezer (siglo X a.C.) —una tablilla de piedra caliza con el ciclo agrícola anual— es uno de los textos hebreos más antiguos conocidos.",
   "altitud_m": 210,
   "clima": "Mediterráneo de transición — precipitaciones de 500-550 mm anuales, veranos secos y cálidos moderados por brisas del oeste, inviernos lluviosos suaves. Suelos de terra rossa fértiles para agricultura intensiva.",
@@ -46,24 +62,44 @@
       "titulo": "Josué derrota al rey de Gezer pero no toma la ciudad",
       "fecha": "c. 1220 a.C.",
       "descripcion": "En la campaña del sur de Canaán, Horam, rey de Gezer, acudió en ayuda de Laquis cuando Josué la atacaba. Josué lo derrotó completamente, matando al rey y a todo su ejército sin dejar supervivientes. Sin embargo, Josué no tomó la ciudad de Gezer misma — solo eliminó al ejército que había salido en campo abierto. Gezer figuró en la lista de reyes derrotados (Jos 12:12) pero los cananeos continuaron habitándola. La tribu de Efraín, a quien correspondió la ciudad en el reparto, no pudo expulsarlos y los redujo a trabajos forzados. Este patrón — victoria en campo abierto sin toma de la ciudad — fue característico de la conquista israelita en la Sefela, zona donde las ciudades amuralladas resistían más que en las colinas.",
-      "referencias": ["Jos 10:33", "Jos 12:12", "Jos 16:10"],
-      "personajes_clave": ["josue-gezer", "horam"]
+      "referencias": [
+        "Jos 10:33",
+        "Jos 12:12",
+        "Jos 16:10"
+      ],
+      "personajes_clave": [
+        "josue-gezer",
+        "horam"
+      ]
     },
     {
       "id": "dote-faraon-salomon",
       "titulo": "La dote del faraón: Gezer como regalo de bodas a Salomón",
       "fecha": "c. 970 a.C.",
       "descripcion": "El rey Salomón contrajo matrimonio con la hija del faraón de Egipto — alianza política sin precedentes que invirtió la relación histórica entre Israel y Egipto. El faraón había atacado Gezer, la había incendiado y matado a sus habitantes cananeos, y la entregó como dote al casarse su hija con Salomón. Salomón reconstruyó Gezer junto a Hazor y Meguido — las tres ciudades que el texto bíblico menciona explícitamente como obras de su programa constructivo con trabajo forzado. Las excavaciones arqueológicas confirmaron una puerta de seis cámaras idéntica en diseño en los tres lugares, evidencia del programa arquitectónico unificado del reinado salomónico. Gezer se convirtió así de ciudad cananea tributaria en ciudad israelita de primera categoría.",
-      "referencias": ["1 Re 9:15-17", "1 Re 3:1", "1 Re 9:24"],
-      "personajes_clave": ["salomon", "hija-faraon"]
+      "referencias": [
+        "1 Re 9:15-17",
+        "1 Re 3:1",
+        "1 Re 9:24"
+      ],
+      "personajes_clave": [
+        "salomon",
+        "hija-faraon"
+      ]
     },
     {
       "id": "batalla-gezer-filisteos",
       "titulo": "Las batallas de Gezer contra los filisteos en tiempos de David",
       "fecha": "c. 1000 a.C.",
       "descripcion": "El libro de Samuel menciona dos batallas en el área de Gezer (llamada también Gob) entre Israel y los filisteos durante el reinado de David. En estos enfrentamientos cayeron varios guerreros filisteos de estatura gigantesca, descendientes de los refaítas. Sibecai el husatita mató a Saf; Eljanán mató a Lahmi, hermano de Goliat; Jonatán mató a un gigante de seis dedos en cada mano y pie. El texto preserva así una tradición de combates individuales heroicos en el contexto de las guerras de consolidación del reino davídico, con Gezer como zona de fricción entre el control israelita de las tierras altas y la presencia filistea en la llanura.",
-      "referencias": ["2 Sam 21:18-22", "1 Cr 20:4-8"],
-      "personajes_clave": ["sibecai", "david-gezer"]
+      "referencias": [
+        "2 Sam 21:18-22",
+        "1 Cr 20:4-8"
+      ],
+      "personajes_clave": [
+        "sibecai",
+        "david-gezer"
+      ]
     }
   ],
   "personajes": [
@@ -72,10 +108,17 @@
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel en su apogeo, constructor del templo y de las ciudades reales",
-      "periodo": "c. 970–930 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Salomón ben David es el rey de Israel más célebre por su sabiduría, sus obras arquitectónicas y su caída final en el sincretismo. Su programa constructivo — templo de Jerusalén, palacio real, ciudades de Hazor, Meguido y Gezer — transformó Israel en un estado territorial organizado. La alianza con Egipto a través del matrimonio con la hija del faraón, que tuvo a Gezer como objeto de la dote, marcó el punto álgido de la proyección diplomática israelita en el escenario internacional. Sus seiscientas esposas y trescientas concubinas de origen extranjero introdujeron cultos ajenos que el texto bíblico responsabiliza del cisma del reino tras su muerte.",
-      "referencias": ["1 Re 3:1-15", "1 Re 9:15-19", "1 Re 11:1-13"],
-      "ruta": ["jerusalen", "gezer"]
+      "referencias": [
+        "1 Re 3:1-15",
+        "1 Re 9:15-19",
+        "1 Re 11:1-13"
+      ],
+      "ruta": [
+        "jerusalen",
+        "gezer"
+      ]
     },
     {
       "id": "horam",
@@ -84,7 +127,10 @@
       "rol": "Rey cananeo de Gezer, derrotado por Josué en la campaña del sur",
       "periodo": "c. 1220 a.C.",
       "descripcion": "Horam es el rey de Gezer que acudió en socorro de Laquis cuando Josué la sitiaba. Su intervención militar, lejos de salvar a Laquis, resultó en la derrota total de su propio ejército. El texto bíblico lo menciona brevemente (Jos 10:33) — uno de los treinta y un reyes cananeos vencidos por Josué listados en Jos 12. Su fracaso es significativo: Gezer era una de las ciudades más fuertemente amuralladas de Canaán, y aun así su rey no pudo salvar a un aliado ni proteger su propio ejército en campo abierto.",
-      "referencias": ["Jos 10:33", "Jos 12:12"],
+      "referencias": [
+        "Jos 10:33",
+        "Jos 12:12"
+      ],
       "ruta": []
     },
     {
@@ -94,7 +140,11 @@
       "rol": "Guerrero de David, vencedor del gigante filisteo Saf en Gezer",
       "periodo": "c. 1000 a.C.",
       "descripcion": "Sibecai el Husatita era uno de los guerreros del círculo de David, comandante del octavo turno mensual del ejército (1 Cr 27:11). Su victoria sobre Saf, descendiente de los refaítas, en la batalla de Gezer (llamada Gob en 2 Sam 21:18) fue tan significativa que sus compañeros le prohibieron a David salir a la batalla en persona: 'No saldrás más con nosotros a la guerra para no apagar la lámpara de Israel.' Sibecai representa al combatiente profesional de la guardia davídica que protegió al rey incluso a costa de su propia gloria.",
-      "referencias": ["2 Sam 21:18", "1 Cr 20:4", "1 Cr 27:11"],
+      "referencias": [
+        "2 Sam 21:18",
+        "1 Cr 20:4",
+        "1 Cr 27:11"
+      ],
       "ruta": []
     }
   ],
@@ -109,7 +159,11 @@
       {
         "id": "alianza-salomon-egipto",
         "nombre": "La alianza con Egipto: sabiduría política o trampa teológica",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 3:1; 1 Re 11:1-8; Dt 17:16-17",
           "fuente_secundaria": "Talmud Bavli, Sanedrín 21b; Midrash Rabbah, Éxodo 6:1",

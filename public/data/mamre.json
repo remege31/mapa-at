@@ -84,7 +84,7 @@
       "nombre": "Abraham",
       "emoji": "⛺",
       "rol": "Patriarca, padre de la fe israelita",
-      "periodo": "c. 2166–1991 a.C. (cronología tradicional)",
+      "periodo": "bronce_medio",
       "descripcion": "Establece en Mamre una de sus residencias más prolongadas, edifica allí un altar a YHWH, recibe la visita de los tres mensajeros divinos y negocia la compra del campo de Macpela como sepultura familiar.",
       "referencias": [
         "Gén 13:18",
@@ -92,8 +92,8 @@
         "Gén 23:1-20"
       ],
       "ruta": [
-        "siquem",
-        "bet_el",
+        "shechem",
+        "bethel",
         "mamre",
         "egipto"
       ]

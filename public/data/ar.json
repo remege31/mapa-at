@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Capital de Moab, respetada por Israel" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Capital de Moab, respetada por Israel"
+    }
   ],
   "descripcion_geo": "Ciudad capital de Moab, situada junto al río Arnón, que el nombre mismo de la ciudad ('Ar' significa 'ciudad' en algunos contextos semíticos) parece designar como centro urbano principal del reino. Israel recibe instrucción divina explícita de no atacarla durante su paso por la región.",
   "altitud_m": 600,
@@ -39,15 +43,22 @@
       "titulo": "YHWH prohíbe a Israel atacar Ar",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Antes de enfrentar a Sehón, YHWH instruye explícitamente a Moisés que no hostigue ni provoque a Moab en batalla, pues no le dará de su tierra en posesión, 'porque a los hijos de Lot la he dado por heredad', estableciendo a Ar y su territorio como zona protegida de la conquista israelita.",
-      "referencias": ["Deut 2:9", "Deut 2:18-19"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Deut 2:9",
+        "Deut 2:18-19"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "emitas-desplazados-ar",
       "titulo": "El recuerdo de los emitas previos en Ar",
       "fecha": "Genealógico, anterior a c. 1900 a.C.",
       "descripcion": "El Deuteronomio registra que los moabitas habían desplazado previamente a los emitas, pueblo grande y numeroso comparado con los anaceos, en un patrón de sucesión de pueblos que YHWH había permitido en distintas regiones de la Transjordania.",
-      "referencias": ["Deut 2:10-11"],
+      "referencias": [
+        "Deut 2:10-11"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +66,12 @@
       "titulo": "Isaías profetiza la destrucción nocturna de Ar",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "Pese a la antigua protección concedida por YHWH, el oráculo de Isaías contra Moab anuncia que Ar será asolada y destruida en una sola noche, mostrando que el respeto territorial original no exime a Moab del juicio divino posterior por su idolatría y soberbia.",
-      "referencias": ["Is 15:1"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 15:1"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     }
   ],
   "personajes": [
@@ -65,9 +80,12 @@
       "nombre": "Moisés",
       "emoji": "🚫",
       "rol": "Líder de Israel, receptor de la instrucción de respetar a Moab",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Recibe y transmite a Israel la orden divina de no atacar Ar ni el territorio moabita circundante, en reconocimiento de la herencia concedida por YHWH a los descendientes de Lot.",
-      "referencias": ["Deut 2:9", "Deut 2:18-19"],
+      "referencias": [
+        "Deut 2:9",
+        "Deut 2:18-19"
+      ],
       "ruta": []
     },
     {
@@ -77,7 +95,10 @@
       "rol": "Pueblo de Moab, poseedores de Ar por designio divino",
       "periodo": "Desde c. 1900 a.C. (cronología tradicional)",
       "descripcion": "Identificados genealógicamente como descendientes de Lot, sobrino de Abraham, su posesión de Ar y el territorio circundante se presenta como concesión divina anterior a la conquista israelita, estableciendo un vínculo de parentesco lejano reconocido por la propia ley mosaica.",
-      "referencias": ["Gén 19:36-37", "Deut 2:9"],
+      "referencias": [
+        "Gén 19:36-37",
+        "Deut 2:9"
+      ],
       "ruta": []
     },
     {
@@ -87,8 +108,12 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Anuncia la destrucción de Ar como parte de su extenso oráculo de juicio contra Moab, confirmando que la protección histórica concedida por YHWH no equivale a inmunidad permanente frente al juicio divino por la idolatría posterior.",
-      "referencias": ["Is 15:1"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 15:1"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +126,11 @@
       {
         "id": "proteccion-divina-moab-ar",
         "nombre": "La protección divina de Moab como herencia de los hijos de Lot",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Deut 2:9, 18-19",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el principio de respeto territorial hacia pueblos emparentados con Israel (Moab, Amón, Edom) como expresión de justicia divina universal más allá de la elección específica de Israel",
@@ -116,5 +145,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

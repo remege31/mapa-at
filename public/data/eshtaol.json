@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Asentamiento danita, punto de partida de la migración a Lais" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Asentamiento danita, punto de partida de la migración a Lais"
+    }
   ],
   "descripcion_geo": "Ciudad de la Sefelá, asignada conjuntamente a Judá y Dan, ubicada muy cerca de Zorah, con la que aparece sistemáticamente emparejada en el texto bíblico. Terreno de colinas bajas en la transición entre la llanura costera y las montañas centrales.",
   "altitud_m": 305,
@@ -40,15 +44,21 @@
       "titulo": "El Espíritu de YHWH se mueve sobre Sansón entre Zorah y Eshtaol",
       "fecha": "c. 1105 a.C.",
       "descripcion": "El texto bíblico ubica explícitamente entre Zorah y Eshtaol el momento en que el Espíritu de YHWH comienza a manifestarse sobre el joven Sansón, marcando el inicio de su vocación de juez-libertador.",
-      "referencias": ["Jue 13:25"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 13:25"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "espias-danitas-eshtaol",
       "titulo": "Los cinco espías danitas parten de Eshtaol",
       "fecha": "c. 1150–1100 a.C.",
       "descripcion": "Ante la falta de territorio propio asignado, la tribu de Dan envía desde Zorah y Eshtaol a cinco hombres valientes para explorar y reconocer tierra donde establecerse, quienes llegan hasta la región de Lais en el extremo norte.",
-      "referencias": ["Jue 18:2"],
+      "referencias": [
+        "Jue 18:2"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,7 +66,9 @@
       "titulo": "Los seiscientos guerreros danitas parten hacia Lais",
       "fecha": "c. 1150–1100 a.C.",
       "descripcion": "Tras el informe favorable de los espías, seiscientos hombres armados de la tribu de Dan parten de Zorah y Eshtaol hacia el norte, conquistan Lais, la incendian y la reconstruyen bajo el nuevo nombre de Dan, completando la migración tribal motivada por la falta de territorio meridional.",
-      "referencias": ["Jue 18:11-29"],
+      "referencias": [
+        "Jue 18:11-29"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,30 +78,45 @@
       "nombre": "Sansón",
       "emoji": "🌬️",
       "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
-      "periodo": "c. 1105–1070 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "El texto ubica entre Zorah y Eshtaol el inicio de su vocación, cuando el Espíritu de YHWH comienza a manifestarse sobre él durante la juventud, antes de los episodios de Timnah y Lehi.",
-      "referencias": ["Jue 13:25"],
-      "ruta": ["zorah", "eshtaol"]
+      "referencias": [
+        "Jue 13:25"
+      ],
+      "ruta": [
+        "zorah",
+        "eshtaol"
+      ]
     },
     {
       "id": "espias_dan",
       "nombre": "Cinco espías de Dan",
       "emoji": "🔍",
       "rol": "Exploradores enviados por la tribu de Dan",
-      "periodo": "c. 1150–1100 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Hombres valientes enviados desde Eshtaol y Zorah a explorar territorio hacia el norte ante la presión filistea sobre el territorio danita original; su informe favorable sobre Lais desencadena la migración tribal.",
-      "referencias": ["Jue 18:2-10"],
-      "ruta": ["eshtaol", "efraim"]
+      "referencias": [
+        "Jue 18:2-10"
+      ],
+      "ruta": [
+        "eshtaol",
+        "ai"
+      ]
     },
     {
       "id": "guerreros_dan_seiscientos",
       "nombre": "Seiscientos hombres armados de Dan",
       "emoji": "🛡️",
       "rol": "Expedición militar danita",
-      "periodo": "c. 1150–1100 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Contingente armado que parte de Zorah y Eshtaol para conquistar Lais en el extremo norte, completando el reasentamiento de la tribu de Dan fuera de su territorio original en la Sefelá.",
-      "referencias": ["Jue 18:11-29"],
-      "ruta": ["eshtaol", "lais"]
+      "referencias": [
+        "Jue 18:11-29"
+      ],
+      "ruta": [
+        "eshtaol",
+        "dan"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +128,11 @@
       {
         "id": "migracion-dan-eshtaol",
         "nombre": "El origen de la migración danita en Eshtaol",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 18:1-29",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la pérdida de la herencia tribal y la búsqueda de territorio (relacionado con discusiones en Bava Batra sobre límites tribales)",
@@ -116,5 +147,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

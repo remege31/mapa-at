@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad cananea, batalla de Débora, ciudad levítica" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad cananea, batalla de Débora, ciudad levítica"
+    }
   ],
   "descripcion_geo": "Importante ciudad cananea en la llanura de Jezreel, próxima a Meguido, con la que aparece frecuentemente emparejada en el texto bíblico como referencia geográfica conjunta de la región. Posteriormente designada ciudad levítica dentro del territorio de Manasés, aunque situada geográficamente en Isacar.",
   "altitud_m": 130,
@@ -40,7 +44,9 @@
       "titulo": "Manasés no logra expulsar a los cananeos de Taanac",
       "fecha": "c. 1150 a.C.",
       "descripcion": "El libro de los Jueces registra que Manasés no pudo expulsar a los habitantes de Taanac y sus aldeas, manteniéndolos en el territorio bajo dominio sometido a trabajo forzado en lugar de la conquista total prescrita.",
-      "referencias": ["Jue 1:27"],
+      "referencias": [
+        "Jue 1:27"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,7 +54,9 @@
       "titulo": "Taanac designada ciudad levítica",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "Pese a su persistente población cananea, Taanac es formalmente designada como una de las ciudades levíticas dentro del territorio de Manasés, integrándola al sistema sacerdotal distribuido de Israel.",
-      "referencias": ["Jos 21:25"],
+      "referencias": [
+        "Jos 21:25"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,8 +64,12 @@
       "titulo": "Taanac en el Cántico de Débora",
       "fecha": "c. 1150 a.C.",
       "descripcion": "El extenso Cántico de Débora menciona explícitamente que 'los reyes vinieron y pelearon; entonces pelearon los reyes de Canaán en Taanac, junto a las aguas de Meguido', situando geográficamente la batalla decisiva contra Sísara en esta región de la llanura.",
-      "referencias": ["Jue 5:19"],
-      "personajes_clave": ["debora"]
+      "referencias": [
+        "Jue 5:19"
+      ],
+      "personajes_clave": [
+        "debora"
+      ]
     }
   ],
   "personajes": [
@@ -66,9 +78,11 @@
       "nombre": "Débora",
       "emoji": "🎵",
       "rol": "Jueza y profetisa, autora del cántico conmemorativo",
-      "periodo": "c. 1150 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Conmemora la batalla librada cerca de Taanac en su extenso cántico de victoria, fijando poéticamente la geografía exacta del enfrentamiento decisivo contra los reyes cananeos.",
-      "referencias": ["Jue 5:1-19"],
+      "referencias": [
+        "Jue 5:1-19"
+      ],
       "ruta": []
     },
     {
@@ -78,7 +92,9 @@
       "rol": "Población local no expulsada",
       "periodo": "c. 1200–1000 a.C.",
       "descripcion": "Permanecen en la ciudad pese a la asignación tribal a Manasés, sometidos a trabajo forzado en lugar de la expulsión completa, ejemplificando el patrón de conquista incompleta del libro de los Jueces.",
-      "referencias": ["Jue 1:27-28"],
+      "referencias": [
+        "Jue 1:27-28"
+      ],
       "ruta": []
     },
     {
@@ -86,9 +102,11 @@
       "nombre": "Josué",
       "emoji": "🏛️",
       "rol": "Organizador del reparto territorial",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la designación de Taanac como ciudad levítica dentro del territorio de Manasés en el sistema de distribución de ciudades sacerdotales por toda la tierra de Israel.",
-      "referencias": ["Jos 21:25"],
+      "referencias": [
+        "Jos 21:25"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +120,11 @@
       {
         "id": "conquista-incompleta-taanach-meguido",
         "nombre": "La conquista incompleta de Taanac y Meguido",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 1:27-28; Jue 5:19",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el patrón de conquista incompleta del libro de los Jueces y su relación con la posterior victoria providencial conmemorada en el Cántico de Débora",
@@ -117,5 +139,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

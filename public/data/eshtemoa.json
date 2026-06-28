@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad levítica, beneficiaria del botín de David" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad levítica, beneficiaria del botín de David"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo sur de la región montañosa de Judá, próxima a Hebrón, designada como ciudad levítica dentro del territorio de la tribu de Judá. Entorno de colinas áridas en transición hacia el Néguev.",
   "altitud_m": 790,
@@ -40,7 +44,10 @@
       "titulo": "Estemoa como ciudad levítica",
       "fecha": "c. 1200 a.C.",
       "descripcion": "En el reparto del territorio conquistado, Estemoa es designada una de las ciudades asignadas a los levitas de la línea de Aarón dentro del territorio de Judá y Simeón.",
-      "referencias": ["Jos 21:14", "1 Cr 6:57"],
+      "referencias": [
+        "Jos 21:14",
+        "1 Cr 6:57"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,15 +55,22 @@
       "titulo": "David envía parte del botín a Estemoa",
       "fecha": "c. 1012 a.C.",
       "descripcion": "Tras derrotar a los amalecitas y recuperar el botín tomado de Siclag, David envía una porción de los despojos a los ancianos de diversas ciudades de Judá que lo habían apoyado durante su exilio, entre ellas Estemoa, como gesto de reciprocidad y consolidación de alianzas.",
-      "referencias": ["1 Sam 30:26-28"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 30:26-28"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "estemoa-genealogia-caleb",
       "titulo": "Estemoa en la genealogía de Caleb",
       "fecha": "Genealógico, período de la monarquía",
       "descripcion": "Las listas genealógicas de Crónicas registran a Estemoa entre los descendientes de la línea de Caleb, confirmando su pertenencia al entramado de clanes judaítas del sur.",
-      "referencias": ["1 Cr 4:17", "1 Cr 4:19"],
+      "referencias": [
+        "1 Cr 4:17",
+        "1 Cr 4:19"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,10 +80,15 @@
       "nombre": "David",
       "emoji": "🎁",
       "rol": "Futuro rey de Israel, líder de Siclag",
-      "periodo": "c. 1012 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Envía parte del botín recuperado de los amalecitas a los ancianos de Estemoa, en reconocimiento por el apoyo y la hospitalidad de las ciudades del sur de Judá durante su período como líder de una banda en Siclag.",
-      "referencias": ["1 Sam 30:26-31"],
-      "ruta": ["siclag", "estemoa"]
+      "referencias": [
+        "1 Sam 30:26-31"
+      ],
+      "ruta": [
+        "ziklag",
+        "eshtemoa"
+      ]
     },
     {
       "id": "ancianos_estemoa",
@@ -78,8 +97,12 @@
       "rol": "Líderes locales receptores del botín de David",
       "periodo": "c. 1012 a.C.",
       "descripcion": "Representan a la comunidad de Estemoa en la recepción del regalo de David, parte de la red de apoyo regional que consolidará su posterior ascenso al trono en Hebrón.",
-      "referencias": ["1 Sam 30:28"],
-      "ruta": ["estemoa"]
+      "referencias": [
+        "1 Sam 30:28"
+      ],
+      "ruta": [
+        "eshtemoa"
+      ]
     },
     {
       "id": "caleb_estemoa",
@@ -88,7 +111,9 @@
       "rol": "Línea genealógica vinculada a Estemoa",
       "periodo": "Genealógico, período de la monarquía",
       "descripcion": "Figuran en las listas cronistas como antepasados o fundadores asociados a Estemoa, dentro del extenso entramado genealógico de los clanes judaítas del sur.",
-      "referencias": ["1 Cr 4:17-19"],
+      "referencias": [
+        "1 Cr 4:17-19"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +126,11 @@
       {
         "id": "reciprocidad-david-ciudades-sur",
         "nombre": "La reciprocidad de David con las ciudades del sur de Judá",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 30:26-31",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la generosidad de David como modelo de liderazgo basado en la reciprocidad y la gratitud",
@@ -116,5 +145,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

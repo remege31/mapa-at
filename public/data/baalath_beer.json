@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad fronteriza de Simeón en el Néguev" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad fronteriza de Simeón en el Néguev"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo meridional del territorio de Simeón, en el Néguev, identificada en algunas listas bíblicas paralelas con Ramá del Néguev. Su nombre compuesto ('Baal del pozo') refleja el sustrato cananeo previo a la ocupación israelita, donde el culto a Baal se asociaba frecuentemente con fuentes de agua vitales en zonas áridas.",
   "altitud_m": 300,
@@ -39,7 +43,9 @@
       "titulo": "Baalat-beer en la lista de ciudades de Simeón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "El libro de Josué registra Baalat-beer entre las últimas ciudades de la lista del territorio de Simeón, identificándola explícitamente como 'Ramá del Néguev', confirmando el patrón de doble denominación frecuente en topónimos de zonas fronterizas.",
-      "referencias": ["Jos 19:8"],
+      "referencias": [
+        "Jos 19:8"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,7 +53,9 @@
       "titulo": "Mención paralela en la lista de Judá",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Una lista paralela de ciudades del extremo sur de Judá incluye una localidad de nombre similar ('Baal'), reflejando la naturaleza compartida y a veces ambigua de la frontera entre los territorios de Judá y Simeón en el Néguev.",
-      "referencias": ["Jos 15:29"],
+      "referencias": [
+        "Jos 15:29"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,7 +63,9 @@
       "titulo": "Baalat-beer como marcador de frontera tribal",
       "fecha": "c. 1200–1000 a.C.",
       "descripcion": "La mención de Baalat-beer junto a otras ciudades del extremo meridional sirve en el texto bíblico como marcador del límite efectivo de la presencia israelita organizada antes de la transición al desierto del Néguev profundo, zona de menor control tribal estable.",
-      "referencias": ["Jos 19:1-9"],
+      "referencias": [
+        "Jos 19:1-9"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,9 +75,11 @@
       "nombre": "Josué",
       "emoji": "📜",
       "rol": "Líder de la conquista, organizador del reparto territorial",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la asignación de Baalat-beer y las ciudades del extremo sur al territorio de la tribu de Simeón en el marco del reparto general de Canaán.",
-      "referencias": ["Jos 19:1-9"],
+      "referencias": [
+        "Jos 19:1-9"
+      ],
       "ruta": []
     },
     {
@@ -77,7 +89,9 @@
       "rol": "Población tribal del extremo sur del territorio israelita",
       "periodo": "c. 1200–1000 a.C.",
       "descripcion": "Habitantes de la tribu de Simeón asentados en las ciudades fronterizas del Néguev, entre ellas Baalat-beer, en el límite de la presencia organizada israelita hacia el desierto.",
-      "referencias": ["Jos 19:1-9"],
+      "referencias": [
+        "Jos 19:1-9"
+      ],
       "ruta": []
     },
     {
@@ -87,7 +101,9 @@
       "rol": "Habitantes previos a la ocupación israelita",
       "periodo": "Anterior a c. 1200 a.C.",
       "descripcion": "Dieron origen al nombre del lugar vinculado al culto cananeo de Baal asociado a fuentes de agua, vestigio lingüístico de la presencia cananea previa en la región.",
-      "referencias": ["Jos 19:8"],
+      "referencias": [
+        "Jos 19:8"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +117,11 @@
       {
         "id": "toponimos-baal-persistencia",
         "nombre": "La persistencia de topónimos con el elemento 'Baal' en territorio israelita",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 19:8",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la conservación de nombres cananeos como recordatorio histórico de la conquista incompleta y la necesidad de vigilancia frente a la idolatría",
@@ -116,5 +136,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

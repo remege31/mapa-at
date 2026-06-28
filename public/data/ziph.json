@@ -7,7 +7,11 @@
   "frecuencia_at": 11,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Refugio de David, traición de los zifeos" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Refugio de David, traición de los zifeos"
+    }
   ],
   "descripcion_geo": "Ciudad en el desierto homónimo al sureste de Hebrón, en el límite entre la región montañosa habitada de Judá y el desierto que desciende hacia el Mar Muerto. Su entorno árido y de difícil acceso lo convertía en refugio natural, aunque también en zona donde la población local podía delatar fácilmente a un fugitivo ante las autoridades.",
   "altitud_m": 850,
@@ -40,24 +44,38 @@
       "titulo": "Los zifeos delatan a David por primera vez",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Los habitantes de Zif informan a Saúl que David se esconde en las colinas de Hakila, al sur del desierto; Saúl marcha con tres mil hombres escogidos, pero antes de poder capturarlo recibe noticia de una invasión filistea y debe retirarse, permitiendo a David escapar.",
-      "referencias": ["1 Sam 23:19-29"],
-      "personajes_clave": ["david", "saul"]
+      "referencias": [
+        "1 Sam 23:19-29"
+      ],
+      "personajes_clave": [
+        "david",
+        "saul"
+      ]
     },
     {
       "id": "segunda-traicion-zifeos",
       "titulo": "Los zifeos delatan a David por segunda vez",
       "fecha": "c. 1014 a.C.",
       "descripcion": "Los zifeos informan nuevamente a Saúl de la ubicación de David en el collado de Hakila; Saúl acampa allí con su ejército, pero David se infiltra de noche en el campamento con Abisai, encuentra a Saúl dormido y, en lugar de matarlo, toma su lanza y su jarra de agua como prueba de que pudo haberlo hecho.",
-      "referencias": ["1 Sam 26:1-25"],
-      "personajes_clave": ["david", "saul"]
+      "referencias": [
+        "1 Sam 26:1-25"
+      ],
+      "personajes_clave": [
+        "david",
+        "saul"
+      ]
     },
     {
       "id": "roboam-fortifica-zif",
       "titulo": "Roboam fortifica Zif",
       "fecha": "c. 925–913 a.C.",
       "descripcion": "Zif se incluye entre las quince ciudades que Roboam fortifica en Judá tras la división del reino unido, como parte del sistema defensivo del reino del sur frente a la amenaza del reino del norte y de potencias extranjeras.",
-      "referencias": ["2 Cr 11:8"],
-      "personajes_clave": ["roboam"]
+      "referencias": [
+        "2 Cr 11:8"
+      ],
+      "personajes_clave": [
+        "roboam"
+      ]
     }
   ],
   "personajes": [
@@ -66,20 +84,32 @@
       "nombre": "David",
       "emoji": "🛡️",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015–1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Se refugia en el desierto de Zif durante su huida de Saúl, sobreviviendo a dos delaciones sucesivas de los habitantes locales; en el segundo episodio perdona la vida de Saúl dormido, reafirmando su negativa a atentar contra 'el ungido de YHWH'.",
-      "referencias": ["1 Sam 23:14-29", "1 Sam 26:1-25"],
-      "ruta": ["maon", "ziph", "engadi"]
+      "referencias": [
+        "1 Sam 23:14-29",
+        "1 Sam 26:1-25"
+      ],
+      "ruta": [
+        "maon",
+        "ziph",
+        "engedi"
+      ]
     },
     {
       "id": "saul_zif",
       "nombre": "Saúl",
       "emoji": "👑",
       "rol": "Primer rey de Israel, perseguidor de David",
-      "periodo": "c. 1015–1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Marcha en dos ocasiones contra David en el desierto de Zif tras ser informado por los habitantes locales; en la segunda ocasión es sorprendido dormido por David, quien le perdona la vida, episodio que provoca un reconocimiento momentáneo de Saúl hacia la rectitud de David.",
-      "referencias": ["1 Sam 23:19-25", "1 Sam 26:1-25"],
-      "ruta": ["ziph"]
+      "referencias": [
+        "1 Sam 23:19-25",
+        "1 Sam 26:1-25"
+      ],
+      "ruta": [
+        "ziph"
+      ]
     },
     {
       "id": "abisai_zif",
@@ -88,8 +118,12 @@
       "rol": "Sobrino de David, compañero en la incursión nocturna",
       "periodo": "c. 1014 a.C.",
       "descripcion": "Acompaña a David en su incursión nocturna al campamento de Saúl en Hakila, ofreciéndose a matar al rey dormido, propuesta que David rechaza, optando en cambio por tomar la lanza y la jarra de agua como prueba simbólica.",
-      "referencias": ["1 Sam 26:6-9"],
-      "ruta": ["ziph"]
+      "referencias": [
+        "1 Sam 26:6-9"
+      ],
+      "ruta": [
+        "ziph"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +135,11 @@
       {
         "id": "ungido-yhwh-zif",
         "nombre": "El respeto al 'ungido de YHWH' en el desierto de Zif",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 26:1-25",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la conducta de David como modelo de respeto a la autoridad ungida incluso cuando esta actúa injustamente",
@@ -124,5 +162,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

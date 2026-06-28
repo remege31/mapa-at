@@ -7,8 +7,16 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento filisteo, batalla de David y Goliat" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Distrito administrativo salomónico" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Campamento filisteo, batalla de David y Goliat"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Distrito administrativo salomónico"
+    }
   ],
   "descripcion_geo": "Ciudad en la Sefelá occidental de Judá, en el valle de Elá, próxima a Azeca, en la posición donde el ejército filisteo acampó frente a las fuerzas israelitas en el episodio del enfrentamiento entre David y Goliat.",
   "altitud_m": 360,
@@ -41,7 +49,9 @@
       "titulo": "El ejército filisteo acampa en Soco",
       "fecha": "c. 1020 a.C.",
       "descripcion": "Los filisteos reúnen sus ejércitos para la batalla en Soco, perteneciente a Judá, y acampan entre Soco y Azeca, en Efes-damim, mientras Saúl y los hombres de Israel acampan en el valle de Elá frente a ellos.",
-      "referencias": ["1 Sam 17:1-3"],
+      "referencias": [
+        "1 Sam 17:1-3"
+      ],
       "personajes_clave": []
     },
     {
@@ -49,16 +59,25 @@
       "titulo": "Goliat lanza su desafío desde el campamento de Soco",
       "fecha": "c. 1020 a.C.",
       "descripcion": "Durante cuarenta días, el campeón filisteo Goliat de Gat sale del campamento situado en Soco para desafiar a un combatiente israelita en duelo singular, desafío que ningún soldado de Saúl se atreve a aceptar hasta la llegada de David.",
-      "referencias": ["1 Sam 17:4-11", "1 Sam 17:16"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 17:4-11",
+        "1 Sam 17:16"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "socoh-distrito-salomon",
       "titulo": "Soco en el distrito administrativo de Ben-Heser",
       "fecha": "c. 970–931 a.C.",
       "descripcion": "Salomón organiza el reino en doce distritos administrativos; Soco se integra en uno de ellos bajo la responsabilidad de Ben-Heser, encargado del abastecimiento mensual de la corte real.",
-      "referencias": ["1 Re 4:10"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 4:10"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     }
   ],
   "personajes": [
@@ -69,18 +88,27 @@
       "rol": "Campeón del ejército filisteo",
       "periodo": "c. 1020 a.C.",
       "descripcion": "Gigante guerrero filisteo que desafía durante cuarenta días al ejército israelita desde el campamento situado entre Soco y Azeca, hasta ser derrotado por David con una honda.",
-      "referencias": ["1 Sam 17:4-51"],
-      "ruta": ["socoh"]
+      "referencias": [
+        "1 Sam 17:4-51"
+      ],
+      "ruta": [
+        "socoh"
+      ]
     },
     {
       "id": "david_socoh",
       "nombre": "David",
       "emoji": "🪨",
       "rol": "Joven pastor, futuro rey de Israel",
-      "periodo": "c. 1020 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Llega al campamento israelita frente a Soco enviado por su padre Isaí a llevar provisiones a sus hermanos, y allí acepta el desafío de Goliat que nadie más se atrevía a enfrentar.",
-      "referencias": ["1 Sam 17:12-51"],
-      "ruta": ["belen", "socoh"]
+      "referencias": [
+        "1 Sam 17:12-51"
+      ],
+      "ruta": [
+        "bethlehem",
+        "socoh"
+      ]
     },
     {
       "id": "ben_heser_socoh",
@@ -89,8 +117,12 @@
       "rol": "Funcionario administrativo del distrito de Soco",
       "periodo": "c. 970–931 a.C.",
       "descripcion": "Responsable del distrito administrativo salomónico que incluía Soco, encargado de organizar el abastecimiento mensual de la corte real.",
-      "referencias": ["1 Re 4:10"],
-      "ruta": ["socoh"]
+      "referencias": [
+        "1 Re 4:10"
+      ],
+      "ruta": [
+        "socoh"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +135,11 @@
       {
         "id": "david-goliat-mito",
         "nombre": "David y Goliat: la fe frente a la fuerza bruta",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 17:1-58",
           "fuente_secundaria": "Midrash y comentario rabínico tradicional sobre la declaración de David ('Tú vienes a mí con espada... mas yo vengo a ti en el nombre de YHWH') como fórmula paradigmática de confianza",
@@ -134,5 +170,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad reconstruida por Rubén" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad reconstruida por Rubén"
+    }
   ],
   "descripcion_geo": "Ciudad en el altiplano de Moab, muy próxima a Hesbón, con la que aparece frecuentemente vinculada en el texto bíblico como par geográfico. Reconstruida por los rubenitas tras la conquista del territorio amorreo, fue posteriormente recuperada por Moab.",
   "altitud_m": 880,
@@ -39,7 +43,10 @@
       "titulo": "Rubén reconstruye Elalé",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la conquista del territorio de Sehón, los rubenitas reconstruyen Elalé junto con Hesbón y otras ciudades cercanas, estableciendo allí su presencia dentro del reparto territorial de la Transjordania.",
-      "referencias": ["Núm 32:3", "Núm 32:37"],
+      "referencias": [
+        "Núm 32:3",
+        "Núm 32:37"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,16 +54,24 @@
       "titulo": "Isaías describe el clamor conjunto de Hesbón y Elalé",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías, en su extenso oráculo contra Moab, describe el clamor unido de Hesbón y Elalé, cuya voz se oye hasta Jahas, en una imagen de lamento colectivo que recorre toda la geografía del reino moabita en juicio.",
-      "referencias": ["Is 15:4"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 15:4"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "jeremias-llanto-elealeh",
       "titulo": "Jeremías profetiza el llanto sobre los campos de Elalé",
       "fecha": "c. 600 a.C.",
       "descripcion": "Jeremías retoma y amplía el oráculo de Isaías, describiendo cómo el grito de los hombres de Hesbón y Elalé llega hasta Jahas, y cómo el gozo de la cosecha desaparecerá de los campos fértiles que antes producían abundancia para Moab.",
-      "referencias": ["Jer 48:34"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 48:34"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -67,7 +82,10 @@
       "rol": "Reconstructores de Elalé tras la conquista",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tribu responsable de reconstruir Elalé junto con Hesbón como parte de su asentamiento en la Transjordania tras la derrota de Sehón.",
-      "referencias": ["Núm 32:3", "Núm 32:37"],
+      "referencias": [
+        "Núm 32:3",
+        "Núm 32:37"
+      ],
       "ruta": []
     },
     {
@@ -77,18 +95,26 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Describe el lamento conjunto de Hesbón y Elalé en su oráculo de juicio contra Moab, imagen retomada posteriormente con mayor extensión por Jeremías.",
-      "referencias": ["Is 15:1-9"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 15:1-9"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "jeremias_elealeh",
       "nombre": "Jeremías",
       "emoji": "🌾",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Amplía el oráculo de Isaías sobre Elalé, añadiendo la imagen específica de la pérdida del gozo de la cosecha en los antes fértiles campos moabitas.",
-      "referencias": ["Jer 48:32-34"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 48:32-34"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +127,11 @@
       {
         "id": "lamento-hesbon-elealeh",
         "nombre": "El lamento conjunto de Hesbón y Elalé en los oráculos proféticos",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 15:4; Jer 48:34",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el uso poético de pares geográficos en los oráculos de juicio profético contra las naciones",
@@ -116,5 +146,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

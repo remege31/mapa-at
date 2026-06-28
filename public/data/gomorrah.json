@@ -9,9 +9,15 @@
   "jerarquia_pin": "secundario",
   "nota_coordenadas": "Ubicación aproximada al sur del Mar Muerto — identificación arqueológica exacta incierta; coordenadas basadas en la tradición que sitúa las ciudades del llano en el extremo sur del Mar Muerto",
   "periodos": [
-    { "desde": -2000, "hasta": -1800, "nombre": "Bronce Medio — Era patriarcal, destrucción de las ciudades del llano" }
+    {
+      "desde": -2000,
+      "hasta": -1800,
+      "nombre": "Bronce Medio — Era patriarcal, destrucción de las ciudades del llano"
+    }
   ],
-  "periodos_at": ["bronce_tardio"],
+  "periodos_at": [
+    "bronce_tardio"
+  ],
   "descripcion_geo": "Gomorra (hebreo: עֲמֹרָה) era una de las cinco ciudades del llano (kikkar) del Jordán, junto a Sodoma, Adma, Zeboyim y Bela/Zoar. Su ubicación exacta es arqueológicamente incierta; la tradición más extendida la sitúa al sur del Mar Muerto, en la zona actualmente sumergida o cubierta por los depósitos del extremo meridional del lago. Otra corriente la identifica con Tall el-Hammam al noreste del Mar Muerto. El 'llano del Jordán' descrito en Génesis como 'bien regado como el jardín de Yahvé' sugería una zona de alta productividad agrícola antes de la catástrofe. La geología de la zona muestra evidencias de actividad volcánica y depósitos de azufre compatibles con la descripción bíblica.",
   "altitud_m": -400,
   "clima": "Desértico árido extremo — el Mar Muerto y sus alrededores tienen el clima más seco y caluroso de la región. Precipitaciones inferiores a 50 mm anuales, temperaturas estivales de hasta 45°C, humedad relativa muy baja. En la era patriarcal la zona sur pudo haber sido más fértil antes de cambios geológicos o climáticos.",
@@ -44,24 +50,47 @@
       "titulo": "La guerra de los cuatro reyes contra los cinco: Abraham rescata a Lot",
       "fecha": "c. 1900 a.C. (tradición patriarcal)",
       "descripcion": "Los reyes de Sodoma, Gomorra, Adma, Zeboyim y Bela se rebelaron contra Quedorlaomer de Elam tras doce años de vasallaje. La batalla se libró en el valle de Sidim (sur del Mar Muerto), lleno de pozos de betún. Los reyes de Sodoma y Gomorra huyeron y cayeron en los pozos; el resto huyó a los montes. Los vencedores tomaron todo el botín de Sodoma y Gomorra y se llevaron también a Lot, sobrino de Abraham, que vivía en Sodoma. Un fugitivo vino a contárselo a Abraham. El patriarca reunió a sus trescientos dieciocho hombres nacidos en su casa, los persiguió hasta Dan, los atacó de noche, los derrotó y recuperó todo el botín y a Lot. A su regreso, el sacerdote Melquisedec de Salén le salió al encuentro con pan y vino y lo bendijo en nombre de El Elyon.",
-      "referencias": ["Gén 14:1-24", "Gén 14:8-12", "Gén 14:18-20"],
-      "personajes_clave": ["abraham-gomorra", "lot", "melquisedec"]
+      "referencias": [
+        "Gén 14:1-24",
+        "Gén 14:8-12",
+        "Gén 14:18-20"
+      ],
+      "personajes_clave": [
+        "abraham-gomorra",
+        "lot",
+        "melquisedec"
+      ]
     },
     {
       "id": "destruccion-gomorra",
       "titulo": "Fuego y azufre: la destrucción de Sodoma y Gomorra",
       "fecha": "c. 1850 a.C. (tradición patriarcal)",
       "descripcion": "Yahvé comunicó a Abraham su decisión de destruir Sodoma y Gomorra por la gravedad de sus pecados. Abraham intercedió repetidamente: ¿Destruirás al justo junto con el culpable? ¿No perdonarás por cincuenta justos? ¿Por cuarenta y cinco? ¿Por cuarenta? ¿Por treinta? ¿Por veinte? ¿Por diez? Yahvé aceptó cada vez. Pero no había diez justos. Dos ángeles llegaron a Sodoma, fueron a casa de Lot, y la población masculina de la ciudad rodeó la casa exigiendo que Lot los entregara para abusar de ellos. Los ángeles cegaron a los agresores y sacaron a Lot con su familia. Al amanecer, Lot llegó a Zoar. Entonces Yahvé hizo llover sobre Sodoma y Gomorra azufre y fuego. La mujer de Lot, que miró atrás, se convirtió en estatua de sal. Abraham, desde las colinas, vio el humo que subía de la tierra como el humo de un horno.",
-      "referencias": ["Gén 18:16-33", "Gén 19:1-29", "Gén 19:24-26"],
-      "personajes_clave": ["abraham-gomorra", "lot", "angeles-sodoma"]
+      "referencias": [
+        "Gén 18:16-33",
+        "Gén 19:1-29",
+        "Gén 19:24-26"
+      ],
+      "personajes_clave": [
+        "abraham-gomorra",
+        "lot",
+        "angeles-sodoma"
+      ]
     },
     {
       "id": "gomorra-memoria-profetica",
       "titulo": "Sodoma y Gomorra como arquetipo del juicio divino en los profetas",
       "fecha": "siglos VIII-VI a.C.",
       "descripcion": "La destrucción de Sodoma y Gomorra se convirtió en el paradigma profético del juicio divino sobre las naciones y sobre el propio Israel infiel. Isaías abre su libro comparando a Jerusalén con Sodoma y Gomorra: 'Si Yahvé no nos hubiera dejado un pequeño resto, seríamos como Sodoma, semejantes a Gomorra' (Is 1:9). Jeremías usa la comparación para anunciar el juicio sobre Babilonia: 'Como cuando Dios destruyó Sodoma y Gomorra y sus ciudades vecinas' (Jer 50:40). Amós la usa para describir el castigo que Israel ya ha sufrido: 'Os destruí como destruí a Sodoma y Gomorra, erais como un tizón arrebatado del fuego' (Am 4:11). La imagen de las ciudades quemadas se volvió la medida máxima de la ira divina en la literatura profética.",
-      "referencias": ["Is 1:9-10", "Jer 50:40", "Am 4:11"],
-      "personajes_clave": ["isaias-gomorra", "jeremias-gomorra"]
+      "referencias": [
+        "Is 1:9-10",
+        "Jer 50:40",
+        "Am 4:11"
+      ],
+      "personajes_clave": [
+        "isaias-gomorra",
+        "jeremias-gomorra"
+      ]
     }
   ],
   "personajes": [
@@ -70,20 +99,38 @@
       "nombre": "Abraham",
       "emoji": "🌟",
       "rol": "Patriarca intercesor por Sodoma y Gomorra",
-      "periodo": "c. 2000–1825 a.C. (tradición patriarcal)",
+      "periodo": "bronce_medio",
       "descripcion": "La intercesión de Abraham ante Yahvé por Sodoma y Gomorra (Gén 18:16-33) es uno de los textos teológicos más profundos del AT. El patriarca no intercede por Sodoma porque sea su ciudad — vive en Hebrón — sino por principio de justicia universal: ¿Acaso el Juez de toda la tierra no hará justicia? Su negociación regresiva (50 → 45 → 40 → 30 → 20 → 10 justos) establece que la misericordia divina está dispuesta a perdonar a una multitud culpable por un pequeño remanente de inocentes. La tragedia es que ni diez justos existían. Abraham no falló en su intercesión — la misericordia divina no tuvo material con el que trabajar.",
-      "referencias": ["Gén 18:16-33", "Gén 14:14-16", "Gén 19:29"],
-      "ruta": ["mesopotamia", "canaan", "egipto", "beersheba", "hebron"]
+      "referencias": [
+        "Gén 18:16-33",
+        "Gén 14:14-16",
+        "Gén 19:29"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "canaan",
+        "egipto",
+        "beersheba",
+        "hebron"
+      ]
     },
     {
       "id": "lot",
       "nombre": "Lot",
       "emoji": "🧂",
       "rol": "Sobrino de Abraham, único superviviente justo de Sodoma",
-      "periodo": "c. 1900-1850 a.C. (tradición patriarcal)",
+      "periodo": "bronce_medio",
       "descripcion": "Lot ben Harán, sobrino de Abraham, es el personaje que encarna la ambigüedad moral a lo largo de toda la narrativa de Sodoma y Gomorra. Eligió la fértil llanura del Jordán sobre las áridas colinas de Canaán; estableció progresivamente su tienda 'hasta Sodoma'; luego vivió en Sodoma misma. Su hospitalidad ante los dos ángeles — ofreciéndoles su casa y protegiéndolos de la violencia de la turba al costo de ofrecer a sus propias hijas — lo califica como justo en el contexto de una ciudad de perversión total. Huyó con su mujer y dos hijas; la mujer miró atrás y se convirtió en estatua de sal. Lot terminó sus días en una cueva con sus hijas, en circunstancias que el texto narra sin comentario moral explícito.",
-      "referencias": ["Gén 13:10-12", "Gén 19:1-11", "Gén 19:30-38"],
-      "ruta": ["mesopotamia", "canaan", "hebron"]
+      "referencias": [
+        "Gén 13:10-12",
+        "Gén 19:1-11",
+        "Gén 19:30-38"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "canaan",
+        "hebron"
+      ]
     },
     {
       "id": "melquisedec",
@@ -92,7 +139,11 @@
       "rol": "Rey de Salén y sacerdote de El Elyon, figura misteriosa del Bronce Medio",
       "periodo": "c. 1900 a.C. (tradición patriarcal)",
       "descripcion": "Melquisedec (מַלְכִּי-צֶדֶק, 'rey de justicia') es el personaje más enigmático del Génesis. Rey de Salén (identificada con Jerusalén) y sacerdote de El Elyon ('Dios Altísimo'), salió al encuentro de Abraham tras su victoria sobre los cuatro reyes con pan y vino, y lo bendijo. Abraham le entregó el diezmo de todo el botín. El texto no da su genealogía, ni su origen, ni su final — ausencias que la tradición interpretó como significativas. El Salmo 110 ('Tú eres sacerdote para siempre según el orden de Melquisedec') convirtió su figura en el fundamento del sacerdocio davídico y, posteriormente, en la tipología del sacerdocio eterno de Cristo en la carta a los Hebreos.",
-      "referencias": ["Gén 14:18-20", "Sal 110:4", "Heb 7:1-17"],
+      "referencias": [
+        "Gén 14:18-20",
+        "Sal 110:4",
+        "Heb 7:1-17"
+      ],
       "ruta": []
     }
   ],
@@ -107,7 +158,11 @@
       {
         "id": "sodoma-gomorra-juicio",
         "nombre": "La destrucción de Sodoma y Gomorra: el juicio que nunca se olvida",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Gén 18:16-19:29; Ez 16:49-50",
           "fuente_secundaria": "Mishná Sanedrín 10:3; Talmud Bavli, Sanedrín 109a; Midrash Rabbah Génesis 49-50",

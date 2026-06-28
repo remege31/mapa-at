@@ -7,8 +7,16 @@
   "frecuencia_at": 12,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Batalla de Gabaón, ciudad efraimita en frontera con Benjamín" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación salomónica" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Batalla de Gabaón, ciudad efraimita en frontera con Benjamín"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortificación salomónica"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo inferior del célebre paso de Bet-horón, ruta de ascenso de unos 600 metros de desnivel entre el valle de Aijalon y la meseta central de Benjamín/Efraín, una de las vías de comunicación más importantes y disputadas entre la llanura costera y Jerusalén. Forma par con Bet-horón la Alta (situada más arriba en el mismo paso).",
   "altitud_m": 400,
@@ -41,23 +49,35 @@
       "titulo": "La subida de Bet-horón en la persecución de Gabaón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tras la derrota de la coalición de cinco reyes amorreos en Gabaón, Israel persigue a los ejércitos en fuga por el camino de la subida de Bet-horón hasta Azecá y Maquedá, mientras YHWH arroja grandes piedras de granizo sobre los fugitivos, matando a más enemigos el granizo que la espada israelita.",
-      "referencias": ["Jos 10:10-11"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:10-11"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "fortificacion-salomon-bethoron",
       "titulo": "Salomón fortifica Beth-horón la Baja",
       "fecha": "c. 970–931 a.C.",
       "descripcion": "Salomón reconstruye y fortifica Beth-horón la Alta y la Baja como parte del sistema de ciudades de almacenamiento, carros y jinetes que aseguran las rutas estratégicas del reino, junto con Baalat y Tadmor.",
-      "referencias": ["2 Cr 8:5", "1 Re 9:17"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "2 Cr 8:5",
+        "1 Re 9:17"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "construccion-asignacion-bethoron",
       "titulo": "Asignación y reconstrucción de Beth-horón",
       "fecha": "c. 1400–1200 a.C. (genealogía), c. 1200 a.C. (asignación)",
       "descripcion": "Las genealogías cronistas atribuyen la fundación o reconstrucción de las dos Bet-horón a Seerá, hija de Efraín, vinculando el origen de la ciudad a la tribu que recibiría el territorio tras la conquista.",
-      "referencias": ["1 Cr 7:24", "Jos 16:3-5"],
+      "referencias": [
+        "1 Cr 7:24",
+        "Jos 16:3-5"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,20 +87,33 @@
       "nombre": "Josué",
       "emoji": "🌩️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la persecución de los ejércitos amorreos por la cuesta de Bet-horón tras la victoria de Gabaón, episodio acompañado del prodigio del granizo y, acto seguido, del sol detenido sobre el valle vecino de Aijalon.",
-      "referencias": ["Jos 10:10-14"],
-      "ruta": ["gabaon", "beth_horon_lower", "aijalon", "makkedah"]
+      "referencias": [
+        "Jos 10:10-14"
+      ],
+      "ruta": [
+        "gibeon",
+        "beth_horon_lower",
+        "aijalon",
+        "makkedah"
+      ]
     },
     {
       "id": "salomon_bethoron",
       "nombre": "Salomón",
       "emoji": "🏰",
       "rol": "Rey de Israel, constructor de fortificaciones",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena la fortificación de Beth-horón la Baja como parte del sistema defensivo de ciudades-guarnición que protegían las rutas de acceso al reino.",
-      "referencias": ["2 Cr 8:1-6", "1 Re 9:15-19"],
-      "ruta": ["jerusalen", "beth_horon_lower"]
+      "referencias": [
+        "2 Cr 8:1-6",
+        "1 Re 9:15-19"
+      ],
+      "ruta": [
+        "jerusalen",
+        "beth_horon_lower"
+      ]
     },
     {
       "id": "seera",
@@ -89,7 +122,9 @@
       "rol": "Hija de Efraín, constructora según la genealogía cronista",
       "periodo": "Genealógico, anterior a la conquista",
       "descripcion": "Mencionada en las listas genealógicas de 1 Crónicas como constructora de Beth-horón la Baja y la Alta, una de las pocas mujeres a las que el texto bíblico atribuye explícitamente la fundación de ciudades.",
-      "referencias": ["1 Cr 7:24"],
+      "referencias": [
+        "1 Cr 7:24"
+      ],
       "ruta": []
     }
   ],
@@ -103,7 +138,11 @@
       {
         "id": "granizo-bethoron",
         "nombre": "El granizo divino en la subida de Bet-horón",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 10:10-11",
           "fuente_secundaria": "Comentario rabínico tradicional que vincula el granizo de Bet-horón con el granizo de la plaga de Egipto como segunda manifestación del mismo tipo de juicio divino",
@@ -126,5 +165,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, conquista de Josué" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, conquista de Josué"
+    }
   ],
   "descripcion_geo": "Ciudad-estado cananea en la Sefelá occidental de Judá, próxima a la frontera con Filistea, gobernada en el momento de la conquista por un rey local que se integra en la coalición de cinco reyes amorreos derrotada por Josué.",
   "altitud_m": 150,
@@ -39,24 +43,36 @@
       "titulo": "El rey de Eglón se une a la coalición contra Gabaón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Debir, rey de Eglón, se une a Adoni-sedec de Jerusalén y a los reyes de Hebrón, Jarmut y Laquis para atacar Gabaón en represalia por su pacto con Israel, integrando la coalición de cinco reyes amorreos que Josué derrotará decisivamente.",
-      "referencias": ["Jos 10:3-5"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:3-5"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "ejecucion-rey-eglon",
       "titulo": "El rey de Eglón es ejecutado en la cueva de Maquedá",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tras la derrota de la coalición y la huida de los cinco reyes a la cueva de Maquedá, el rey de Eglón es ejecutado junto a los otros cuatro reyes amorreos por orden de Josué, en el episodio que cierra la primera fase de la campaña del sur.",
-      "referencias": ["Jos 10:22-27"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:22-27"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "conquista-eglon-ciudad",
       "titulo": "Conquista de la ciudad de Eglón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tras la conquista de Laquis, Josué avanza con todo Israel hacia Eglón, acampa contra ella, la conquista el mismo día y pasa a filo de espada a todo lo que tenía vida en la ciudad, repitiendo el patrón de destrucción total aplicado a las demás ciudades de la coalición.",
-      "referencias": ["Jos 10:34-35"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:34-35"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     }
   ],
   "personajes": [
@@ -65,20 +81,32 @@
       "nombre": "Debir, rey de Eglón",
       "emoji": "👑",
       "rol": "Rey amorreo de Eglón, miembro de la coalición del sur",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Se une a la coalición de cinco reyes amorreos liderada por Adoni-sedec de Jerusalén contra Gabaón; derrotado en batalla, muere ejecutado en la cueva de Maquedá junto a los otros cuatro reyes coaligados.",
-      "referencias": ["Jos 10:3", "Jos 10:23-26"],
-      "ruta": ["eglon", "makkedah"]
+      "referencias": [
+        "Jos 10:3",
+        "Jos 10:23-26"
+      ],
+      "ruta": [
+        "eglon",
+        "makkedah"
+      ]
     },
     {
       "id": "josue_eglon",
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la conquista sucesiva de las ciudades de la coalición amorrea del sur, incluida Eglón, en una campaña relámpago que consolida el control israelita sobre la Sefelá en un solo movimiento militar continuo.",
-      "referencias": ["Jos 10:34-35"],
-      "ruta": ["laquis", "eglon", "hebron"]
+      "referencias": [
+        "Jos 10:34-35"
+      ],
+      "ruta": [
+        "lachish",
+        "eglon",
+        "hebron"
+      ]
     },
     {
       "id": "habitantes_eglon",
@@ -87,7 +115,9 @@
       "rol": "Población de la ciudad conquistada",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Toda la población de Eglón es exterminada el mismo día de la conquista, según el patrón de herem (consagración a la destrucción) aplicado por Josué a las ciudades de la coalición del sur.",
-      "referencias": ["Jos 10:35"],
+      "referencias": [
+        "Jos 10:35"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +131,11 @@
       {
         "id": "campana-relampago-sur",
         "nombre": "La campaña relámpago del sur de Canaán",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 10:28-43",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la velocidad de la conquista del sur como evidencia de la asistencia divina directa",
@@ -116,5 +150,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

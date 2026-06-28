@@ -7,8 +7,16 @@
   "frecuencia_at": 13,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquistada por Josué, reconquistada por Jabín" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de Salomón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquistada por Josué, reconquistada por Jabín"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortificación de Salomón"
+    }
   ],
   "descripcion_geo": "La ciudad cananea más importante del norte de Canaán, descrita en el texto bíblico como 'cabeza de todos estos reinos', con un tell extenso que la arqueología confirma como uno de los asentamientos más grandes y poderosos de toda la región en el Bronce Tardío. Situada en una posición estratégica que controlaba las principales rutas comerciales del norte.",
   "altitud_m": 200,
@@ -41,24 +49,36 @@
       "titulo": "Josué conquista y quema Hazor",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Jabín, rey de Hazor, organiza una gran coalición de reyes del norte contra Israel junto al lago de Merom; Josué los derrota decisivamente, y Hazor, descrita como 'cabeza de todos estos reinos', es la única ciudad de la campaña norteña que Josué quema completamente, a diferencia de las demás ciudades capturadas pero no incendiadas.",
-      "referencias": ["Jos 11:1-13"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 11:1-13"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "jabin-debora-hazor",
       "titulo": "Débora y Barac derrotan a otro Jabín de Hazor",
       "fecha": "c. 1150 a.C.",
       "descripcion": "Generaciones después, un nuevo rey también llamado Jabín reina desde Hazor y oprime a Israel durante veinte años mediante su general Sísara y novecientos carros de hierro; la profetisa Débora y el general Barac lo derrotan decisivamente, liberando a Israel de la opresión cananea del norte.",
-      "referencias": ["Jue 4:1-24"],
-      "personajes_clave": ["debora"]
+      "referencias": [
+        "Jue 4:1-24"
+      ],
+      "personajes_clave": [
+        "debora"
+      ]
     },
     {
       "id": "salomon-fortifica-hazor",
       "titulo": "Salomón fortifica Hazor",
       "fecha": "c. 970–960 a.C.",
       "descripcion": "Salomón reconstruye y fortifica Hazor junto con Meguido y Gézer como parte de su sistema de ciudades-guarnición estratégicas para carros y jinetes, confirmando arqueológicamente la importancia continuada del sitio en la administración del reino unido.",
-      "referencias": ["1 Re 9:15"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 9:15"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     }
   ],
   "personajes": [
@@ -67,19 +87,27 @@
       "nombre": "Josué",
       "emoji": "🔥",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la derrota de la coalición cananea del norte liderada por el primer Jabín de Hazor, quemando la ciudad como acto excepcional dentro del patrón general de la campaña norteña.",
-      "referencias": ["Jos 11:1-13"],
-      "ruta": ["merom", "hazor"]
+      "referencias": [
+        "Jos 11:1-13"
+      ],
+      "ruta": [
+        "hazor",
+        "hazor"
+      ]
     },
     {
       "id": "debora_hazor",
       "nombre": "Débora",
       "emoji": "⚖️",
       "rol": "Jueza y profetisa de Israel",
-      "periodo": "Activa c. 1150 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Convoca a Barac para enfrentar al ejército del segundo Jabín de Hazor, liderado por Sísara, en una de las victorias más celebradas del período de los Jueces, conmemorada en el extenso Cántico de Débora.",
-      "referencias": ["Jue 4:1-16", "Jue 5:1-31"],
+      "referencias": [
+        "Jue 4:1-16",
+        "Jue 5:1-31"
+      ],
       "ruta": []
     },
     {
@@ -87,10 +115,15 @@
       "nombre": "Salomón",
       "emoji": "🏰",
       "rol": "Rey de Israel, constructor de fortificaciones",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Incluye a Hazor entre sus tres grandes proyectos de fortificación estratégica, confirmado arqueológicamente por las características capas constructivas similares encontradas en Hazor, Meguido y Gézer.",
-      "referencias": ["1 Re 9:15-19"],
-      "ruta": ["jerusalen", "hazor"]
+      "referencias": [
+        "1 Re 9:15-19"
+      ],
+      "ruta": [
+        "jerusalen",
+        "hazor"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +136,11 @@
       {
         "id": "doble-destruccion-hazor",
         "nombre": "La doble destrucción de Hazor confirmada arqueológicamente",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 11:1-13; Jue 4:1-24",
           "fuente_secundaria": "Hallazgos arqueológicos de las excavaciones de Hazor (Yigael Yadin y posteriores), que documentan capas de destrucción por fuego correspondientes a distintos períodos del Bronce Tardío y la Edad de Hierro",
@@ -118,5 +155,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

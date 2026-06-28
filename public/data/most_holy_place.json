@@ -93,7 +93,7 @@
       "nombre": "Moisés",
       "emoji": "📜",
       "rol": "Legislador, receptor de las instrucciones del Tabernáculo",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Recibe en el monte Sinaí las instrucciones detalladas de YHWH para la construcción del Tabernáculo, incluyendo las especificaciones exactas del Lugar Santísimo y el Arca de la Alianza.",
       "referencias": [
         "Éx 25:1-22",
@@ -108,7 +108,7 @@
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel, constructor del Templo",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Dirige la dedicación del Templo y la introducción solemne del Arca de la Alianza en el Lugar Santísimo, momento en que la gloria de YHWH se manifiesta como nube que llena todo el edificio.",
       "referencias": [
         "1 Re 8:1-66"

@@ -7,7 +7,11 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Maldición de Simeí, huida de David" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Maldición de Simeí, huida de David"
+    }
   ],
   "descripcion_geo": "Pequeña aldea en el territorio de Benjamín, en la ruta que desciende desde Jerusalén hacia el valle del Jordán, situada en el camino que David toma durante su huida de Absalón. Próxima al límite oriental del territorio benjaminita, vinculada también a la familia de Saúl.",
   "altitud_m": 600,
@@ -39,15 +43,22 @@
       "titulo": "Simeí maldice a David en Bahurim",
       "fecha": "c. 975 a.C.",
       "descripcion": "Mientras David huye de Jerusalén ante la rebelión de Absalón, Simeí, pariente de Saúl originario de Bahurim, sale a su paso lanzándole piedras y maldiciéndolo públicamente como 'hombre sanguinario', acusándolo de usurpar el reino de la casa de Saúl; David rechaza la propuesta de Abisai de matarlo, aceptando la maldición como posible designio de YHWH.",
-      "referencias": ["2 Sam 16:5-14"],
-      "personajes_clave": ["david", "simei"]
+      "referencias": [
+        "2 Sam 16:5-14"
+      ],
+      "personajes_clave": [
+        "david",
+        "simei"
+      ]
     },
     {
       "id": "mensajeros-ocultos-pozo-bahurim",
       "titulo": "Jonatán y Ahimaas se ocultan en el pozo de Bahurim",
       "fecha": "c. 975 a.C.",
       "descripcion": "Tras recibir información secreta del consejero Husai sobre los planes de Absalón, los mensajeros Jonatán y Ahimaas son descubiertos por un sirviente de Absalón cerca de Bahurim, pero una mujer del lugar los esconde en un pozo cubierto con grano molido, permitiéndoles después continuar su misión hasta David con información vital para su supervivencia.",
-      "referencias": ["2 Sam 17:17-21"],
+      "referencias": [
+        "2 Sam 17:17-21"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +66,13 @@
       "titulo": "Simeí pide perdón a David tras la derrota de Absalón",
       "fecha": "c. 975 a.C.",
       "descripcion": "Tras la derrota de Absalón, Simeí de Bahurim se apresura a salir al encuentro de David en su regreso a Jerusalén, postrándose y pidiendo perdón por su anterior maldición; David, pese a la insistencia de Abisai en ejecutarlo, le perdona la vida en ese momento, aunque la cuestión queda pendiente hasta el final del reinado.",
-      "referencias": ["2 Sam 19:16-23"],
-      "personajes_clave": ["david", "simei"]
+      "referencias": [
+        "2 Sam 19:16-23"
+      ],
+      "personajes_clave": [
+        "david",
+        "simei"
+      ]
     }
   ],
   "personajes": [
@@ -67,28 +83,44 @@
       "rol": "Pariente de Saúl, originario de Bahurim",
       "periodo": "c. 975 a.C.",
       "descripcion": "Maldice públicamente a David durante su huida de Absalón, acusándolo de usurpar el trono de la casa de Saúl; posteriormente pide perdón y lo recibe de David, aunque el asunto se resolverá de forma distinta bajo el reinado de Salomón.",
-      "referencias": ["2 Sam 16:5-13", "2 Sam 19:16-23"],
-      "ruta": ["bahurim"]
+      "referencias": [
+        "2 Sam 16:5-13",
+        "2 Sam 19:16-23"
+      ],
+      "ruta": [
+        "bahurim"
+      ]
     },
     {
       "id": "david_bahurim",
       "nombre": "David",
       "emoji": "🏃",
       "rol": "Rey de Israel, fugitivo durante la rebelión de Absalón",
-      "periodo": "c. 975 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Soporta con resignación teológica la maldición pública de Simeí en Bahurim, interpretándola como posible designio divino, y posteriormente perdona al mismo hombre que lo había humillado durante su momento de mayor vulnerabilidad.",
-      "referencias": ["2 Sam 16:10-12", "2 Sam 19:23"],
-      "ruta": ["jerusalen", "bahurim"]
+      "referencias": [
+        "2 Sam 16:10-12",
+        "2 Sam 19:23"
+      ],
+      "ruta": [
+        "jerusalen",
+        "bahurim"
+      ]
     },
     {
       "id": "jonatan_ahimaas_bahurim",
       "nombre": "Jonatán y Ahimaas",
       "emoji": "🕳️",
       "rol": "Mensajeros sacerdotales que escapan en Bahurim",
-      "periodo": "c. 975 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Escapan de los perseguidores de Absalón gracias a una mujer de Bahurim que los oculta en un pozo, logrando finalmente entregar a David la información crítica sobre los planes militares de Absalón.",
-      "referencias": ["2 Sam 17:17-21"],
-      "ruta": ["jerusalen", "bahurim"]
+      "referencias": [
+        "2 Sam 17:17-21"
+      ],
+      "ruta": [
+        "jerusalen",
+        "bahurim"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -100,7 +132,11 @@
       {
         "id": "maldicion-simei-providencia",
         "nombre": "La maldición de Simeí como posible designio divino",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Sam 16:5-14",
           "fuente_secundaria": "Talmud Babilónico, Shabat 105b y Sanedrín 21a (discusión sobre la conducta de David frente a Simeí)",
@@ -123,5 +159,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

@@ -7,7 +7,11 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Posible capital egipcia del éxodo, prodigios de Moisés" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Posible capital egipcia del éxodo, prodigios de Moisés"
+    }
   ],
   "descripcion_geo": "Antigua ciudad egipcia en el delta del Nilo, identificada por la mayoría de los estudiosos con la posterior Tanis, posible capital o residencia real egipcia durante el período del éxodo, mencionada explícitamente en los Salmos como escenario de los prodigios realizados por Moisés ante Faraón.",
   "altitud_m": 5,
@@ -39,24 +43,38 @@
       "titulo": "El Salmo 78 conmemora los prodigios en el campo de Zoán",
       "fecha": "Composición litúrgica, posterior al éxodo",
       "descripcion": "El Salmo 78, extenso poema histórico-didáctico, recuerda explícitamente que YHWH hizo prodigios ante los ojos de los padres de Israel 'en el campo de Zoán', vinculando geográficamente las plagas y maravillas del éxodo con esta ciudad egipcia específica en la memoria litúrgica posterior de Israel.",
-      "referencias": ["Sal 78:12", "Sal 78:43"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Sal 78:12",
+        "Sal 78:43"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "isaias-consejo-necio-zoan",
       "titulo": "Isaías denuncia el consejo necio de los príncipes de Zoán",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías, en su oráculo contra Egipto, denuncia específicamente que los príncipes de Zoán se han vuelto necios y dan consejo desatinado a Faraón, contribuyendo al colapso de la sabiduría tradicionalmente atribuida a la corte egipcia.",
-      "referencias": ["Is 19:11", "Is 19:13"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 19:11",
+        "Is 19:13"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "ezequiel-juicio-zoan",
       "titulo": "Ezequiel incluye a Zoán en su oráculo contra Egipto",
       "fecha": "c. 587 a.C.",
       "descripcion": "El profeta Ezequiel menciona a Zoán dentro de su extenso catálogo de ciudades egipcias que sufrirán el juicio divino, situándola entre los centros urbanos que experimentarán angustia el día del castigo sobre Egipto.",
-      "referencias": ["Ez 30:14"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 30:14"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +83,15 @@
       "nombre": "Moisés",
       "emoji": "⚡",
       "rol": "Líder de Israel, realizador de los prodigios",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Realiza, según la tradición poética conservada en el Salmo 78, sus prodigios y señales en el campo de Zoán ante Faraón y los egipcios, antes de la liberación final de Israel.",
-      "referencias": ["Sal 78:12", "Sal 78:43"],
-      "ruta": ["zoan"]
+      "referencias": [
+        "Sal 78:12",
+        "Sal 78:43"
+      ],
+      "ruta": [
+        "zoan"
+      ]
     },
     {
       "id": "principes_zoan",
@@ -77,8 +100,12 @@
       "rol": "Consejeros necios de Faraón",
       "periodo": "c. 740–700 a.C.",
       "descripcion": "Denunciados por Isaías como dando consejo desatinado a Faraón, contribuyendo al colapso de la legendaria sabiduría egipcia ante la crisis política anunciada.",
-      "referencias": ["Is 19:11"],
-      "ruta": ["zoan"]
+      "referencias": [
+        "Is 19:11"
+      ],
+      "ruta": [
+        "zoan"
+      ]
     },
     {
       "id": "isaias_zoan",
@@ -87,8 +114,12 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Denuncia la necedad de los consejeros de Zoán dentro de su extenso oráculo de juicio contra el poder egipcio.",
-      "referencias": ["Is 19:1-15"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 19:1-15"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +132,11 @@
       {
         "id": "campo-zoan-memoria-liturgica",
         "nombre": "El campo de Zoán como anclaje geográfico de la memoria litúrgica del éxodo",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Sal 78:12, 43",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la función didáctica del Salmo 78 como transmisión generacional de la historia sagrada de Israel a través de la poesía litúrgica",
@@ -116,5 +151,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

@@ -7,8 +7,16 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Asentamiento benjaminita" },
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Reconstrucción y resistencia a Sanbalat" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Asentamiento benjaminita"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Reconstrucción y resistencia a Sanbalat"
+    }
   ],
   "descripcion_geo": "Pequeña ciudad en la llanura costera de Sarón, en el valle al que dio nombre ('valle de los artesanos' u Ono), cerca de Lod, a unos 15 km al sureste de Joppa. Terreno llano y fértil propio de la planicie costera, sin elevación significativa.",
   "altitud_m": 30,
@@ -41,23 +49,35 @@
       "titulo": "Ono en el censo de los repatriados",
       "fecha": "c. 538 a.C.",
       "descripcion": "Los habitantes de Lod, Hadid y Ono aparecen registrados entre los descendientes de los exiliados que regresan de Babilonia, como parte de la reconstitución de la comunidad judía en su tierra.",
-      "referencias": ["Esd 2:33", "Neh 7:37"],
-      "personajes_clave": ["zorobabel"]
+      "referencias": [
+        "Esd 2:33",
+        "Neh 7:37"
+      ],
+      "personajes_clave": [
+        "zorobabel"
+      ]
     },
     {
       "id": "trampa-sanbalat-ono",
       "titulo": "Nehemías rechaza la trampa en la llanura de Ono",
       "fecha": "c. 445 a.C.",
       "descripcion": "Sanbalat y sus aliados invitan repetidamente a Nehemías a reunirse en una de las aldeas de la llanura de Ono con intención de hacerle daño mientras dirige la reconstrucción de los muros de Jerusalén; Nehemías rehúsa cada vez, identificando la propuesta como una estratagema.",
-      "referencias": ["Neh 6:2"],
-      "personajes_clave": ["nehemias", "sanbalat"]
+      "referencias": [
+        "Neh 6:2"
+      ],
+      "personajes_clave": [
+        "nehemias",
+        "sanbalat"
+      ]
     },
     {
       "id": "valle-artesanos",
       "titulo": "El valle de Ono y los artesanos",
       "fecha": "Post-exilio, s. V a.C. (contexto)",
       "descripcion": "El valle asociado a Ono se vincula tradicionalmente con un gremio de artesanos mencionado en genealogías cronistas, reflejando la organización por oficios de algunas familias repatriadas.",
-      "referencias": ["1 Cr 8:12"],
+      "referencias": [
+        "1 Cr 8:12"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,10 +87,16 @@
       "nombre": "Nehemías",
       "emoji": "🧱",
       "rol": "Gobernador de Judá, reconstructor de los muros de Jerusalén",
-      "periodo": "Activo c. 445–433 a.C.",
+      "periodo": "post_exilio",
       "descripcion": "Copero del rey persa que lidera la reconstrucción de las murallas de Jerusalén; rechaza en cuatro ocasiones la invitación de Sanbalat a encontrarse en la llanura de Ono, reconociendo el peligro de abandonar la obra.",
-      "referencias": ["Neh 6:1-9"],
-      "ruta": ["mesopotamia", "jerusalen", "ono"]
+      "referencias": [
+        "Neh 6:1-9"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "jerusalen",
+        "ono"
+      ]
     },
     {
       "id": "sanbalat",
@@ -79,18 +105,28 @@
       "rol": "Gobernador de Samaria, opositor de Nehemías",
       "periodo": "Activo c. 445 a.C.",
       "descripcion": "Líder samaritano que se opone activamente a la reconstrucción de Jerusalén; intenta atraer a Nehemías fuera de la ciudad, proponiendo un encuentro en la llanura de Ono con fines hostiles.",
-      "referencias": ["Neh 6:1-4", "Neh 2:10"],
-      "ruta": ["ono"]
+      "referencias": [
+        "Neh 6:1-4",
+        "Neh 2:10"
+      ],
+      "ruta": [
+        "ono"
+      ]
     },
     {
       "id": "zorobabel",
       "nombre": "Zorobabel",
       "emoji": "🏗️",
       "rol": "Gobernador de Judá tras el exilio",
-      "periodo": "Activo c. 538–515 a.C.",
+      "periodo": "post_exilio",
       "descripcion": "Líder de la primera oleada de repatriados bajo cuyo liderazgo se registra el censo de las familias que repueblan ciudades como Ono, Lod y Hadid.",
-      "referencias": ["Esd 2:1-35"],
-      "ruta": ["mesopotamia", "jerusalen"]
+      "referencias": [
+        "Esd 2:1-35"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +139,11 @@
       {
         "id": "ono-trampa-frustrada",
         "nombre": "La llanura de Ono como lugar de la trampa frustrada",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Neh 6:1-4",
           "fuente_secundaria": "Comentario rabínico tradicional sobre Nehemías como modelo de perseverancia (zeriz, 'diligente') frente a la distracción",
@@ -118,5 +158,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2", "post_exilio"]
+  "periodos_at": [
+    "hierro_2",
+    "post_exilio"
+  ]
 }

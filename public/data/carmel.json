@@ -8,10 +8,21 @@
   "frecuencia_at": 25,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Territorio de Judá en el Neguev" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza del reino de Judá" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Territorio de Judá en el Neguev"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad fronteriza del reino de Judá"
+    }
   ],
-  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Carmel (hebreo: כַּרְמֶל, 'viñedo' o 'tierra cultivada') era una ciudad en el territorio montañoso sur de Judá, en la zona de transición entre las colinas de Hebrón y el desierto del Neguev, a unos 12 km al sur de Hebrón. No debe confundirse con el Monte Carmelo en el norte. Identificada con la actual Khirbet el-Karmil, la ciudad controlaba rutas de pastoreo y comercio entre Hebrón y el Neguev. Su entorno semiárido era apto para la ganadería extensiva — el contexto exacto de la narrativa de Nabal, propietario de tres mil ovejas y mil cabras en esta región.",
   "altitud_m": 850,
   "clima": "Semiárido de montaña — precipitaciones de 300-400 mm anuales, veranos secos y calurosos, inviernos frescos. Pastos estacionales que favorecen la trashumancia de rebaños entre las colinas del sur de Judá y el Neguev.",
@@ -45,24 +56,44 @@
       "titulo": "Saúl erige un monumento: la victoria que se torció",
       "fecha": "c. 1025 a.C.",
       "descripcion": "Tras derrotar a los amalecitas, Saúl llegó a Carmel y erigió allí un monumento en su propio honor — el texto hebreo usa 'yad' (mano/memorial), señal de auto-glorificación. El profeta Samuel, que viajaba a su encuentro, recibió de Yahvé la noticia de que Saúl había desobedecido: en lugar de destruir todo el botín amalecita según el herem ordenado, conservó al rey Agag vivo y se quedó con lo mejor del ganado. Cuando se encontraron, Saúl saludó triunfante: 'He cumplido la palabra de Yahvé.' Samuel respondió: '¿Y ese balido de ovejas que llega a mis oídos?' La escena en Carmel es el punto exacto donde se quiebra definitivamente la relación entre Saúl y el profeta, y donde Samuel pronuncia el oráculo que sellará el destino del primer rey de Israel: 'Como tú has rechazado la palabra de Yahvé, también Yahvé te rechaza como rey.'",
-      "referencias": ["1 Sam 15:12-23", "1 Sam 15:1-11", "1 Sam 15:24-35"],
-      "personajes_clave": ["saul", "samuel"]
+      "referencias": [
+        "1 Sam 15:12-23",
+        "1 Sam 15:1-11",
+        "1 Sam 15:24-35"
+      ],
+      "personajes_clave": [
+        "saul",
+        "samuel"
+      ]
     },
     {
       "id": "nabal-abigail-david",
       "titulo": "Nabal, Abigail y David: la generosidad que evitó una masacre",
       "fecha": "c. 1000 a.C.",
       "descripcion": "Durante su período como forajido en el desierto de Judá, David y sus seiscientos hombres habían protegido los rebaños de Nabal de los ataques de bandidos. Llegada la época del esquileo en Carmel —tiempo de fiesta y abundancia— David envió diez jóvenes a pedir cortésmente una contribución de alimento. Nabal los despidió con insultos: '¿Quién es David? ¿Quién es el hijo de Isaí?' David, furioso, ordenó ceñir las espadas: iba a exterminar a todos los varones de la casa de Nabal. Abigail, mujer de Nabal, inteligente y hermosa, se enteró por un criado, cargó en secreto burros con doscientos panes, dos odres de vino, cinco ovejas preparadas, grano tostado, pasas e higos y salió al encuentro de David. Su discurso ante él fue un modelo de sabiduría política y teológica: reconoció la culpa de su marido, pidió que la sangre inocente no pesara sobre David cuando Yahvé le diera el reino, y lo libró del pecado de venganza. Nabal murió de un ataque al corazón diez días después cuando Abigail le contó lo ocurrido; David la tomó por esposa.",
-      "referencias": ["1 Sam 25:1-42", "1 Sam 25:14-19", "1 Sam 25:32-35"],
-      "personajes_clave": ["abigail", "nabal", "david-forajido"]
+      "referencias": [
+        "1 Sam 25:1-42",
+        "1 Sam 25:14-19",
+        "1 Sam 25:32-35"
+      ],
+      "personajes_clave": [
+        "abigail",
+        "nabal",
+        "david-forajido"
+      ]
     },
     {
       "id": "uzias-carmel-ganaderia",
       "titulo": "Uzías y la ganadería del Carmel",
       "fecha": "c. 780 a.C.",
       "descripcion": "Las crónicas del reinado de Uzías de Judá mencionan su amor por la tierra y su promoción de la ganadería en el Neguev y el Carmel. El rey mandó construir torres en el desierto y excavar muchas cisternas, 'porque tenía muchos ganados en la Sefela y en la llanura; labradores y viñadores en las montañas y en el Carmel, pues era amante de la tierra.' Este dato del Cronista sitúa a Carmel como zona de actividad agropecuaria real en el siglo VIII, continuando la tradición de grandes propietarios ganaderos que el relato de Nabal había establecido tres siglos antes. La mención de Uzías convierte a Carmel en ejemplo de la política agraria que sostuvo el apogeo económico del reino de Judá.",
-      "referencias": ["2 Cr 26:10", "2 Re 15:1-7"],
-      "personajes_clave": ["uzias-carmel"]
+      "referencias": [
+        "2 Cr 26:10",
+        "2 Re 15:1-7"
+      ],
+      "personajes_clave": [
+        "uzias-carmel"
+      ]
     }
   ],
   "personajes": [
@@ -71,10 +102,17 @@
       "nombre": "Abigail",
       "emoji": "🌾",
       "rol": "Esposa de Nabal, mediadora que salvó a David del pecado de sangre",
-      "periodo": "c. 1000 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Abigail es uno de los personajes femeninos más complejos y admirados del AT. El texto la presenta con dos adjetivos inusuales: inteligente (sekhel) y de bello aspecto — en ese orden, subvirtiendo la prioridad habitual de las descripciones femeninas bíblicas. Su acción ante David es un modelo de iniciativa política: sin consultar a su marido inútil, movilizó recursos, salió al encuentro del peligro y pronunció un discurso que combinó teología, psicología y diplomacia. Reconoció en David al futuro rey ungido y lo protegió del error de mancharse con sangre inocente antes de subir al trono. Tras la muerte de Nabal se convirtió en esposa de David y lo acompañó en sus años de forajido, incluyendo el cautiverio temporal en Siclag.",
-      "referencias": ["1 Sam 25:3", "1 Sam 25:23-31", "1 Sam 27:3"],
-      "ruta": ["carmel", "ziklag"]
+      "referencias": [
+        "1 Sam 25:3",
+        "1 Sam 25:23-31",
+        "1 Sam 27:3"
+      ],
+      "ruta": [
+        "carmel",
+        "ziklag"
+      ]
     },
     {
       "id": "nabal",
@@ -83,7 +121,11 @@
       "rol": "Rico ganadero de Carmel, paradigma de la necedad",
       "periodo": "c. 1000 a.C.",
       "descripcion": "Nabal ('necio' en hebreo) es el antagonista cuyo nombre es ya un juicio moral. Propietario de tres mil ovejas y mil cabras en Carmel, pertenecía al clan de Caleb pero el texto juega con la homofonía: era 'un hombre caleb' (perro/brutal). Su negativa a David en tiempo de esquileo — momento de máxima generosidad convencional — violó el código de hospitalidad y reciprocidad del mundo antiguo. El texto no lo presenta como malvado sino como necio: incapaz de leer la realidad política, borracho durante el banquete de esquileo cuando Abigail llegó a contarle lo ocurrido. Murió diez días después 'como una piedra', posiblemente de un ACV. Su función narrativa es triple: antagonista de David, contraste con Abigail, y ejemplo del principio proverbial de que la necedad lleva a la muerte.",
-      "referencias": ["1 Sam 25:2-3", "1 Sam 25:10-11", "1 Sam 25:36-38"],
+      "referencias": [
+        "1 Sam 25:2-3",
+        "1 Sam 25:10-11",
+        "1 Sam 25:36-38"
+      ],
       "ruta": []
     },
     {
@@ -91,10 +133,19 @@
       "nombre": "Samuel",
       "emoji": "⚖️",
       "rol": "Último juez y primer profeta institucional de Israel",
-      "periodo": "c. 1080–1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Samuel es la figura de transición entre el período de los jueces y la monarquía. Juez, profeta y sacerdote, ungió a Saúl como primer rey de Israel y a David como su sucesor. Su encuentro con Saúl en Carmel tras la batalla contra los amalecitas es el clímax de su relación: el profeta que había resistido la petición del pueblo de tener rey y que ungió a Saúl obedientemente, ahora debe pronunciar el rechazo divino de ese mismo rey. El texto subraya que Samuel lloró por Saúl toda la noche y no volvió a verlo hasta el día de su muerte — la ruptura fue real y dolorosa para ambos.",
-      "referencias": ["1 Sam 3:1-21", "1 Sam 15:10-35", "1 Sam 16:1-13"],
-      "ruta": ["shiloh", "carmel", "hebron", "bethlehem"]
+      "referencias": [
+        "1 Sam 3:1-21",
+        "1 Sam 15:10-35",
+        "1 Sam 16:1-13"
+      ],
+      "ruta": [
+        "shiloh",
+        "carmel",
+        "hebron",
+        "bethlehem"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -107,7 +158,11 @@
       {
         "id": "obediencia-parcial-saul",
         "nombre": "La obediencia a medias: Saúl y el herem de Amalec",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 15:1-35; Dt 25:17-19",
           "fuente_secundaria": "Talmud Bavli, Yomá 22b — 'Si alguien es compasivo con el cruel, terminará siendo cruel con el compasivo'",

@@ -79,13 +79,13 @@
       "nombre": "Moisés",
       "emoji": "🌿",
       "rol": "Líder de Israel",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Intercede ante YHWH por el pueblo sediento en Mara, recibiendo la revelación del árbol que transforma milagrosamente las aguas amargas en potables.",
       "referencias": [
         "Éx 15:25"
       ],
       "ruta": [
-        "mar_rojo",
+        "sinai",
         "marah"
       ]
     },

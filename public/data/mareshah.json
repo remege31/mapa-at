@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad fortificada de Roboam, batalla contra los etíopes" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad fortificada de Roboam, batalla contra los etíopes"
+    }
   ],
   "descripcion_geo": "Ciudad en la Sefelá meridional de Judá, fortificada por Roboam como parte del sistema defensivo del reino tras la división del reino unido. Próxima a las llanuras del sur por donde transitaban las rutas de invasión desde Egipto y el desierto.",
   "altitud_m": 370,
@@ -39,24 +43,36 @@
       "titulo": "Roboam fortifica Maresá",
       "fecha": "c. 925–913 a.C.",
       "descripcion": "Maresá se incluye entre las quince ciudades que Roboam fortifica en Judá tras la división del reino unido, formando parte del cinturón defensivo del sur del reino.",
-      "referencias": ["2 Cr 11:8"],
-      "personajes_clave": ["roboam"]
+      "referencias": [
+        "2 Cr 11:8"
+      ],
+      "personajes_clave": [
+        "roboam"
+      ]
     },
     {
       "id": "asa-derrota-zera-maresa",
       "titulo": "Asá derrota al ejército etíope de Zera en el valle de Sefata",
       "fecha": "c. 897 a.C.",
       "descripcion": "Ante la invasión de un millón de hombres y trescientos carros bajo el mando de Zera el etíope, el rey Asá clama a YHWH antes de la batalla, declarando confiar únicamente en él frente a la multitud invasora; Israel derrota decisivamente al ejército cusita en el valle de Sefata, cerca de Maresá, y lo persigue hasta Gerar, tomando un enorme botín.",
-      "referencias": ["2 Cr 14:9-15"],
-      "personajes_clave": ["asa"]
+      "referencias": [
+        "2 Cr 14:9-15"
+      ],
+      "personajes_clave": [
+        "asa"
+      ]
     },
     {
       "id": "azarias-profecia-maresa",
       "titulo": "El profeta Azarías recibe a Asá tras la victoria",
       "fecha": "c. 897 a.C.",
       "descripcion": "Tras la victoria sobre Zera, el profeta Azarías hijo de Oded sale al encuentro de Asá con un oráculo que lo anima a perseverar en la reforma religiosa, advirtiéndole también sobre los peligros de la apostasía, episodio que impulsa una purificación adicional del culto en Judá.",
-      "referencias": ["2 Cr 15:1-8"],
-      "personajes_clave": ["asa"]
+      "referencias": [
+        "2 Cr 15:1-8"
+      ],
+      "personajes_clave": [
+        "asa"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +81,15 @@
       "nombre": "Asá",
       "emoji": "🛡️",
       "rol": "Rey de Judá",
-      "periodo": "c. 911–870 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Dirige la defensa de Judá ante la masiva invasión etíope de Zera, derrotándola decisivamente en el valle de Sefata cerca de Maresá tras invocar la ayuda de YHWH, episodio que el texto cronista presenta como modelo de confianza religiosa ante una amenaza militar abrumadora.",
-      "referencias": ["2 Cr 14:9-15"],
-      "ruta": ["jerusalen", "mareshah"]
+      "referencias": [
+        "2 Cr 14:9-15"
+      ],
+      "ruta": [
+        "jerusalen",
+        "mareshah"
+      ]
     },
     {
       "id": "zera_etiope",
@@ -77,8 +98,12 @@
       "rol": "Comandante del ejército invasor cusita",
       "periodo": "c. 897 a.C.",
       "descripcion": "Lidera una fuerza invasora masiva de un millón de hombres y trescientos carros contra Judá, derrotada decisivamente por Asá en el valle de Sefata, episodio recordado como una de las mayores victorias defensivas del reino de Judá.",
-      "referencias": ["2 Cr 14:9-13"],
-      "ruta": ["mareshah"]
+      "referencias": [
+        "2 Cr 14:9-13"
+      ],
+      "ruta": [
+        "mareshah"
+      ]
     },
     {
       "id": "azarias_oded",
@@ -87,8 +112,12 @@
       "rol": "Profeta que recibe a Asá tras la victoria",
       "periodo": "c. 897 a.C.",
       "descripcion": "Pronuncia un oráculo de aliento y advertencia a Asá tras la victoria sobre Zera, impulsando una nueva fase de reforma religiosa en el reino de Judá.",
-      "referencias": ["2 Cr 15:1-7"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Cr 15:1-7"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +130,11 @@
       {
         "id": "victoria-confianza-yhwh-maresa",
         "nombre": "La victoria de Asá como modelo de confianza ante la fuerza abrumadora",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Cr 14:9-15",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la oración de Asá como modelo de plegaria en momentos de amenaza existencial nacional",
@@ -124,5 +157,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

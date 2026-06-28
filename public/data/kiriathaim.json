@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad moabita conquistada, asignada a Rubén" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad moabita conquistada, asignada a Rubén"
+    }
   ],
   "descripcion_geo": "Ciudad antigua en el altiplano de Moab, mencionada ya en el período pre-israelita como lugar habitado por los emitas, un pueblo de gigantes según la tradición del Génesis. Su nombre ('dos ciudades') sugiere un asentamiento doble o gemelo.",
   "altitud_m": 700,
@@ -39,15 +43,22 @@
       "titulo": "Quedorlaomer derrota a los emitas en Quiriataim",
       "fecha": "c. 2050 a.C. (narrativa, época de Abraham)",
       "descripcion": "En la campaña de los cuatro reyes orientales narrada en el ciclo de Abraham, Quedorlaomer y sus aliados derrotan a los emitas en Save-quiriataim, episodio que precede a la captura de Lot y la posterior intervención militar de Abraham para rescatarlo.",
-      "referencias": ["Gén 14:5"],
-      "personajes_clave": ["abraham"]
+      "referencias": [
+        "Gén 14:5"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
     },
     {
       "id": "kiriathaim-asignada-ruben",
       "titulo": "Quiriataim asignada a la tribu de Rubén",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la conquista del territorio amorreo-moabita, Quiriataim se incluye entre las ciudades asignadas a la tribu de Rubén en el reparto de la Transjordania.",
-      "referencias": ["Núm 32:37", "Jos 13:19"],
+      "referencias": [
+        "Núm 32:37",
+        "Jos 13:19"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +66,13 @@
       "titulo": "Jeremías profetiza la vergüenza de Quiriataim",
       "fecha": "c. 600 a.C.",
       "descripcion": "El profeta Jeremías incluye a Quiriataim entre las ciudades moabitas avergonzadas y quebrantadas en su extenso oráculo de juicio contra Moab, confirmando que para esa época la ciudad había vuelto definitivamente a manos moabitas.",
-      "referencias": ["Jer 48:1", "Jer 48:23"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 48:1",
+        "Jer 48:23"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +81,14 @@
       "nombre": "Abraham",
       "emoji": "⚔️",
       "rol": "Patriarca, rescatador de Lot",
-      "periodo": "c. 2090 a.C. (narrativa)",
+      "periodo": "bronce_medio",
       "descripcion": "Aunque no participa directamente en la batalla de Quiriataim, su posterior rescate de Lot tras la captura por la misma coalición de reyes orientales conecta indirectamente al patriarca con este episodio bélico temprano de la región.",
-      "referencias": ["Gén 14:1-16"],
-      "ruta": ["mamre"]
+      "referencias": [
+        "Gén 14:1-16"
+      ],
+      "ruta": [
+        "mamre"
+      ]
     },
     {
       "id": "quedorlaomer_kiriathaim",
@@ -77,18 +97,26 @@
       "rol": "Líder de la coalición de cuatro reyes orientales",
       "periodo": "c. 2050 a.C. (narrativa)",
       "descripcion": "Dirige la campaña militar que derrota a los emitas en Quiriataim y a otros pueblos transjordanos antes de capturar a Lot en Sodoma, episodio que precede a la intervención de Abraham.",
-      "referencias": ["Gén 14:1-11"],
-      "ruta": ["kiriathaim"]
+      "referencias": [
+        "Gén 14:1-11"
+      ],
+      "ruta": [
+        "kiriathaim"
+      ]
     },
     {
       "id": "jeremias_kiriathaim",
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Incluye a Quiriataim en su extenso oráculo de juicio contra Moab, documentando la geografía completa del reino moabita en su fase final antes del exilio.",
-      "referencias": ["Jer 48:1-46"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 48:1-46"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +130,11 @@
       {
         "id": "emitas-gigantes-kiriathaim",
         "nombre": "Los emitas, pueblo de gigantes en Quiriataim",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Gén 14:5; Deut 2:10-11",
           "fuente_secundaria": "Comentario rabínico tradicional sobre los pueblos gigantes pre-israelitas (emitas, refaítas, anaceos) como categoría relacionada de habitantes primitivos de Canaán y la Transjordania",
@@ -117,5 +149,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

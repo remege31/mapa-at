@@ -84,7 +84,7 @@
       "nombre": "David",
       "emoji": "🗡️",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1014 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Tiene en una cueva de Engadi la oportunidad más cercana de eliminar a Saúl durante toda su persecución, y en su lugar opta por un gesto simbólico de respeto que provoca un reconocimiento momentáneo de su rectitud por parte del propio rey.",
       "referencias": [
         "1 Sam 24:1-22"
@@ -99,7 +99,7 @@
       "nombre": "Saúl",
       "emoji": "👑",
       "rol": "Primer rey de Israel, perseguidor de David",
-      "periodo": "c. 1014 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Entra desprevenido a la cueva donde David se esconde en Engadi; al descubrir después el gesto de clemencia de David, llora y reconoce públicamente que David es más justo que él y que reinará sobre Israel.",
       "referencias": [
         "1 Sam 24:8-22"

@@ -82,7 +82,7 @@
       "nombre": "Jacob",
       "emoji": "🤼",
       "rol": "Patriarca",
-      "periodo": "c. 1900 a.C. (narrativa)",
+      "periodo": "bronce_medio",
       "descripcion": "Protagoniza junto al río Jaboc uno de los episodios más enigmáticos y teológicamente cargados de todo el ciclo patriarcal: su lucha nocturna con un ser divino que le otorga el nombre de Israel.",
       "referencias": [
         "Gén 32:22-32"
@@ -112,7 +112,7 @@
       "nombre": "Moisés",
       "emoji": "🗺️",
       "rol": "Líder de Israel en la conquista de la Transjordania",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Establece el Jaboc como frontera norte del territorio conquistado de Sehón, marcando los límites de la posesión israelita en esta región de la Transjordania.",
       "referencias": [
         "Núm 21:21-24",

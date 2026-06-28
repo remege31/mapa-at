@@ -8,10 +8,21 @@
   "frecuencia_at": 38,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad amorreo-israelita al este del Jordán" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad disputada entre Israel y Moab" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad amorreo-israelita al este del Jordán"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad disputada entre Israel y Moab"
+    }
   ],
-  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Heshbon (hebreo: חֶשְׁבּוֹן; moabita: Heshtbon) era la capital del reino amorreo de Sehón, situada en la meseta de Transjordania (actual Jordania), a unos 25 km al noreste del extremo norte del Mar Muerto y a unos 9 km al sur de la actual Madaba. Identificada con Tell Hesban, cuyas excavaciones (1968-1978 y 1984-1996) revelaron ocupación desde el Bronce Tardío hasta el período islámico. Controlaba la Vía Regia, la gran ruta norte-sur de Transjordania. La ciudad dominaba la fértil meseta moabita desde una colina de 895 metros, con amplias vistas hacia el Mar Muerto y las montañas de Judea al oeste.",
   "altitud_m": 895,
   "clima": "Mediterráneo continental de meseta — precipitaciones de 300-350 mm anuales, inviernos fríos con posible nieve, veranos secos y calurosos. La meseta es apta para cereal y viñedos. Los 'estanques de Heshbon' mencionados en Cantares 7:5 reflejan el sistema hidráulico de la ciudad.",
@@ -45,24 +56,44 @@
       "titulo": "Moisés derrota a Sehón: la primera conquista al este del Jordán",
       "fecha": "c. 1220 a.C.",
       "descripcion": "Israel, en su marcha por el desierto hacia Canaán, llegó al territorio de Sehón, rey amorreo de Heshbon. Moisés envió mensajeros con una petición de paso pacífico: 'Déjanos pasar por tu tierra; no nos desviaremos por los campos ni por los viñedos ni beberemos el agua de los pozos; iremos por el camino real hasta que hayamos cruzado tu territorio.' Sehón negó el paso y salió con todo su ejército al desierto. Israel lo derrotó en Yahás, tomó todas sus ciudades desde el Arnón hasta el Yaboc y se estableció en Heshbon. El poeta citado en Números exclama: '¡Ha perecido Heshbon, la ciudad de Sehón!' El territorio fue asignado a Rubén y Gad. Esta primera victoria al este del Jordán fue interpretada teológicamente como señal de que la promesa comenzaba a cumplirse antes incluso de cruzar el río sagrado.",
-      "referencias": ["Núm 21:21-31", "Dt 2:24-37", "Núm 21:27-30"],
-      "personajes_clave": ["moises-heshbon", "sehon"]
+      "referencias": [
+        "Núm 21:21-31",
+        "Dt 2:24-37",
+        "Núm 21:27-30"
+      ],
+      "personajes_clave": [
+        "moises-heshbon",
+        "sehon"
+      ]
     },
     {
       "id": "heshbon-reparto-ruben-gad",
       "titulo": "Heshbon en el reparto: Rubén, Gad y la herencia transjordana",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Las tribus de Rubén y Gad, que tenían mucho ganado, vieron que la tierra de Yazer y de Galaad era buena para ganado y pidieron a Moisés que no se les hiciera cruzar el Jordán — que esa tierra fuera su herencia. Moisés, inicialmente indignado (¿acaso repetiréis el pecado de los espías?), accedió con una condición: que los guerreros de Rubén y Gad cruzaran armados con el resto de Israel a conquistar Canaán antes de volver a establecerse al este. Acordado el trato, Heshbon y sus ciudades dependientes fueron asignadas a Rubén. Esta decisión fue teológicamente controvertida: la herencia al este del Jordán era 'fuera de la tierra' en el sentido estricto, y el texto preserva la tensión entre la promesa original (Canaán) y la acomodación pragmática a las necesidades ganaderas.",
-      "referencias": ["Núm 32:1-38", "Jos 13:15-23", "Núm 32:33-38"],
-      "personajes_clave": ["moises-heshbon", "gad-ruben"]
+      "referencias": [
+        "Núm 32:1-38",
+        "Jos 13:15-23",
+        "Núm 32:33-38"
+      ],
+      "personajes_clave": [
+        "moises-heshbon",
+        "gad-ruben"
+      ]
     },
     {
       "id": "isaias-lamento-heshbon",
       "titulo": "El lamento de Heshbon: los profetas lloran a Moab",
       "fecha": "c. 715 a.C.",
       "descripcion": "Isaías 15-16 y Jeremías 48 preservan largos lamentos sobre la caída de las ciudades moabitas, incluyendo Heshbon. Isaías: 'Sobre Heshbon y Elalé se elevan sus voces, su clamor se oye hasta Yahaz.' Jeremías 48:2: 'En Heshbon maquinaron su ruina: venid, destruyámosla como nación.' El Cantares (7:5) usa Heshbon en un contexto completamente diferente — los ojos de la amada son 'como los estanques de Heshbon junto a la puerta de Bat-Rabbim' — lo que evidencia que la ciudad era conocida por sus bellísimos estanques de agua. Los lamentos proféticos son inusuales: Israel no lamenta a sus enemigos moabitas por instinto, sino porque el profeta ve en la caída de Moab el avance del mismo juicio que llegará sobre Israel.",
-      "referencias": ["Is 15:4", "Jer 48:2", "Cant 7:5"],
-      "personajes_clave": ["isaias-heshbon"]
+      "referencias": [
+        "Is 15:4",
+        "Jer 48:2",
+        "Cant 7:5"
+      ],
+      "personajes_clave": [
+        "isaias-heshbon"
+      ]
     }
   ],
   "personajes": [
@@ -71,10 +102,18 @@
       "nombre": "Moisés",
       "emoji": "📜",
       "rol": "Libertador de Israel, legislador y conductor al límite de la tierra prometida",
-      "periodo": "c. 1300–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Moisés ben Amram es la figura central del Pentateuco y de toda la fe israelita. Nacido en Egipto, criado en la corte del faraón, llamado en el desierto (zarza ardiente), condujo a Israel durante cuarenta años. En Heshbon protagonizó la primera victoria militar del Israel en tierra que después sería su herencia: la derrota de Sehón. Murió en el monte Nebo, en la meseta de Moab con vista a la tierra prometida que no le fue dado cruzar. La tradición bíblica lo presenta como el más grande de los profetas: 'No volvió a surgir en Israel un profeta como Moisés, a quien Yahvé conocía cara a cara' (Dt 34:10).",
-      "referencias": ["Núm 21:21-25", "Dt 34:1-12", "Éx 3:1-15"],
-      "ruta": ["egipto", "sinai", "heshbon"]
+      "referencias": [
+        "Núm 21:21-25",
+        "Dt 34:1-12",
+        "Éx 3:1-15"
+      ],
+      "ruta": [
+        "egipto",
+        "sinai",
+        "heshbon"
+      ]
     },
     {
       "id": "sehon",
@@ -83,7 +122,11 @@
       "rol": "Rey amorreo de Heshbon, primer rey derrotado por Israel en Transjordania",
       "periodo": "c. 1220 a.C.",
       "descripcion": "Sehón el amorreo es, junto a Og de Basán, el paradigma bíblico del rey pagano vencido en los umbrales de la tierra prometida. Su negativa al paso pacífico de Israel es leída teológicamente como 'endurecimiento de corazón' paralelo al del faraón: Yahvé endureció su espíritu para poder entregar su tierra a Israel (Dt 2:30). La derrota de Sehón se convirtió en motivo litúrgico recurrente — el Sal 135:11 y 136:19 lo mencionan entre las grandes victorias divinas. Su ciudad, Heshbon, fue la primera capital conquistada por Israel, convirtiendo a Sehón en símbolo del inicio del cumplimiento de la promesa.",
-      "referencias": ["Núm 21:23-26", "Dt 2:30-36", "Sal 135:11"],
+      "referencias": [
+        "Núm 21:23-26",
+        "Dt 2:30-36",
+        "Sal 135:11"
+      ],
       "ruta": []
     },
     {
@@ -93,8 +136,14 @@
       "rol": "Profeta de Jerusalén, autor del lamento sobre Moab y Heshbon",
       "periodo": "c. 760–700 a.C.",
       "descripcion": "Isaías ben Amós pronunció el oráculo sobre Moab (Is 15-16) como parte de su serie de oráculos contra las naciones. Su lamento sobre Heshbon y otras ciudades moabitas es inusualmente empático para un profeta israelita: no exulta en la caída del enemigo sino que llora con Moab. Esta dimensión de compasión profética — el profeta que siente el dolor del enemigo — revela la teología universalista de Isaías: Yahvé es Dios de todas las naciones, y su juicio sobre ellas es también su amor que exige respuesta.",
-      "referencias": ["Is 15:1-16:14", "Is 1:1", "Is 6:1-13"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 15:1-16:14",
+        "Is 1:1",
+        "Is 6:1-13"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -108,7 +157,11 @@
       {
         "id": "sehon-og-paradigma",
         "nombre": "Sehón y Og: el paradigma de los reyes vencidos",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 21:21-35; Sal 135:10-12; Sal 136:17-22",
           "fuente_secundaria": "Talmud Bavli, Berajot 54b; Midrash Rabbah Números 19",

@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista incompleta, asesinato de Ocozías" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista incompleta, asesinato de Ocozías"
+    }
   ],
   "descripcion_geo": "Ciudad cananea en la región de Isacar, asignada formalmente a Manasés según el patrón de distribución de ciudades manasitas en territorio de otras tribus, próxima a la ruta entre Jezreel y Samaria, lo que la convierte en escenario de paso durante movimientos militares y políticos posteriores.",
   "altitud_m": 200,
@@ -39,7 +43,9 @@
       "titulo": "Manasés no logra expulsar a los cananeos de Ibleam",
       "fecha": "c. 1150 a.C.",
       "descripcion": "El libro de los Jueces registra que Manasés no pudo desposeer a los habitantes de Ibleam y sus aldeas, repitiendo el patrón de conquista incompleta que caracteriza buena parte de las ciudades cananeas más fortificadas de la llanura.",
-      "referencias": ["Jue 1:27"],
+      "referencias": [
+        "Jue 1:27"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,7 +53,9 @@
       "titulo": "Ibleam entre las ciudades de Manasés en territorio de Isacar",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "El libro de Josué confirma a Ibleam como una de las ciudades que, aunque ubicadas geográficamente dentro de los territorios de Isacar y Aser, son asignadas administrativamente a la tribu de Manasés.",
-      "referencias": ["Jos 17:11"],
+      "referencias": [
+        "Jos 17:11"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +63,12 @@
       "titulo": "Ocozías de Judá es herido cerca de Ibleam",
       "fecha": "c. 841 a.C.",
       "descripcion": "Durante la purga violenta de Jehú contra la casa de Acab, Ocozías de Judá, que se encontraba visitando a Joram de Israel, huye al ser perseguido; Jehú ordena herirlo en su carro 'en la subida de Gur, junto a Ibleam', y Ocozías logra huir herido hasta Meguido, donde finalmente muere.",
-      "referencias": ["2 Re 9:27"],
-      "personajes_clave": ["jehu"]
+      "referencias": [
+        "2 Re 9:27"
+      ],
+      "personajes_clave": [
+        "jehu"
+      ]
     }
   ],
   "personajes": [
@@ -65,20 +77,31 @@
       "nombre": "Jehú",
       "emoji": "🏹",
       "rol": "Rey de Israel, ejecutor de la purga contra la casa de Acab",
-      "periodo": "c. 841–814 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena herir a Ocozías de Judá en las cercanías de Ibleam durante su violenta campaña de eliminación de toda la dinastía de Acab y sus aliados, iniciando su propio reinado mediante esta purga sangrienta.",
-      "referencias": ["2 Re 9:27"],
-      "ruta": ["jezreel", "ibleam"]
+      "referencias": [
+        "2 Re 9:27"
+      ],
+      "ruta": [
+        "jezreel",
+        "ibleam"
+      ]
     },
     {
       "id": "ocozias_juda_ibleam",
       "nombre": "Ocozías de Judá",
       "emoji": "🩸",
       "rol": "Rey de Judá",
-      "periodo": "c. 841 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Es herido de muerte cerca de Ibleam por orden de Jehú mientras huye en su carro, falleciendo poco después en Meguido, episodio que marca el fin de su breve reinado de apenas un año.",
-      "referencias": ["2 Re 9:27", "2 Cr 22:9"],
-      "ruta": ["ibleam", "meguido"]
+      "referencias": [
+        "2 Re 9:27",
+        "2 Cr 22:9"
+      ],
+      "ruta": [
+        "ibleam",
+        "taanach"
+      ]
     },
     {
       "id": "manasitas_ibleam_personaje",
@@ -87,7 +110,10 @@
       "rol": "Beneficiarios formales de Ibleam",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Tribu a la que se asigna administrativamente Ibleam pese a su ubicación geográfica en territorio de Isacar, sin lograr la expulsión completa de la población cananea original.",
-      "referencias": ["Jos 17:11", "Jue 1:27"],
+      "referencias": [
+        "Jos 17:11",
+        "Jue 1:27"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +127,11 @@
       {
         "id": "purga-jehu-ibleam-contexto",
         "nombre": "Ibleam como escenario del cumplimiento del juicio sobre la casa de Acab",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 9:27",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la purga de Jehú como cumplimiento del juicio anunciado por Elías contra la casa de Acab",
@@ -116,5 +146,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

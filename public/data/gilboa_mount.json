@@ -82,7 +82,7 @@
       "nombre": "Saúl",
       "emoji": "⚔️",
       "rol": "Primer rey de Israel",
-      "periodo": "Muere c. 1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Muere por su propia mano en el monte Gilboa tras ser gravemente herido por los arqueros filisteos, cerrando trágicamente su reinado marcado por el progresivo deterioro de su relación con YHWH y con David.",
       "referencias": [
         "1 Sam 31:1-6"
@@ -96,7 +96,7 @@
       "nombre": "Jonatán",
       "emoji": "💔",
       "rol": "Hijo de Saúl, amigo de David",
-      "periodo": "Muere c. 1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Muere junto a su padre en el monte Gilboa, pérdida que David lamenta con palabras de profundo afecto fraternal en su elegía, recordando una amistad que trascendió las tensiones dinásticas entre ambas familias.",
       "referencias": [
         "1 Sam 31:2",
@@ -111,7 +111,7 @@
       "nombre": "David",
       "emoji": "😭",
       "rol": "Futuro rey de Israel",
-      "periodo": "c. 1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Compone una de las elegías más conmovedoras de toda la literatura bíblica al recibir la noticia de la muerte de Saúl y Jonatán en el Gilboa, demostrando genuino dolor pese a la persecución previa sufrida por parte de Saúl.",
       "referencias": [
         "2 Sam 1:1-27"

@@ -10,16 +10,46 @@
   "descripcion_geo": "Capital administrativa del Imperio Persa, situada en la llanura de Juzistán al pie de los montes Zagros (actual Iran). Una de las ciudades más antiguas del mundo, habitada desde el IV milenio a.C. Sede del palacio de invierno de los reyes aqueménidas, donde se recibían embajadas y se administraba el vasto Imperio Persa desde Egipto hasta la India.",
   "altitud_m": 23,
   "clima": "Continental árido; veranos extremadamente calurosos (hasta 50°C), inviernos suaves.",
-  "recursos": ["Agricultura de regadío en el río Karún y el Shavur", "Comercio de las rutas reales persas", "Materiales de construcción de todo el imperio (cedro, oro, piedra)", "Producción textil y artesanal de la corte"],
+  "recursos": [
+    "Agricultura de regadío en el río Karún y el Shavur",
+    "Comercio de las rutas reales persas",
+    "Materiales de construcción de todo el imperio (cedro, oro, piedra)",
+    "Producción textil y artesanal de la corte"
+  ],
   "importancia_estrategica": "Sede del trono persa donde se decidía el destino de los pueblos sometidos al imperio, incluyendo los judíos del exilio. En Susa se desarrollaron los libros de Ester y Nehemías, y el profeta Daniel recibió allí visiones apocalípticas. La ciudad simboliza el encuentro entre el poder imperial y la fidelidad judía en la diáspora.",
-  "periodos_at": ["hierro_2", "post_exilio"],
+  "periodos_at": [
+    "hierro_2",
+    "post_exilio"
+  ],
   "periodos": [
-    { "desde": -539, "hasta": -330, "nombre": "Capital del Imperio Aqueménida persa" }
+    {
+      "desde": -539,
+      "hasta": -330,
+      "nombre": "Capital del Imperio Aqueménida persa"
+    }
   ],
   "otros_habitantes": [
-    { "id": "persas_aqueménidas", "nombre": "Persas aqueménidas", "descripcion": "Pueblo iranio que hizo de Susa una de sus cuatro capitales (junto a Persépolis, Ecbatana y Babilonia). Bajo Ciro, Darío y Jerjes construyeron el Apadana, la gran sala de audiencias del palacio.", "religion": "Zoroastrismo", "periodo": "post_exilio" },
-    { "id": "elamitas", "nombre": "Elamitas", "descripcion": "Pueblo que habitó Susa durante milenios antes de la conquista persa. Su civilización fue una de las más antiguas de Oriente Próximo y dejó su huella en la arquitectura y la cultura de la ciudad.", "religion": "Politeísmo elamita — culto a Inshushinak", "periodo": "hierro_2" },
-    { "id": "judios_exiliados", "nombre": "Comunidad judía del exilio", "descripcion": "Judíos deportados por Babilonia que permanecieron en la diáspora tras el edicto de Ciro. En Susa existía una comunidad judía activa en la que se sitúan las historias de Ester, Mardoqueo y la misión de Nehemías.", "religion": "Judaísmo de la diáspora", "periodo": "post_exilio" }
+    {
+      "id": "persas_aqueménidas",
+      "nombre": "Persas aqueménidas",
+      "descripcion": "Pueblo iranio que hizo de Susa una de sus cuatro capitales (junto a Persépolis, Ecbatana y Babilonia). Bajo Ciro, Darío y Jerjes construyeron el Apadana, la gran sala de audiencias del palacio.",
+      "religion": "Zoroastrismo",
+      "periodo": "post_exilio"
+    },
+    {
+      "id": "elamitas",
+      "nombre": "Elamitas",
+      "descripcion": "Pueblo que habitó Susa durante milenios antes de la conquista persa. Su civilización fue una de las más antiguas de Oriente Próximo y dejó su huella en la arquitectura y la cultura de la ciudad.",
+      "religion": "Politeísmo elamita — culto a Inshushinak",
+      "periodo": "hierro_2"
+    },
+    {
+      "id": "judios_exiliados",
+      "nombre": "Comunidad judía del exilio",
+      "descripcion": "Judíos deportados por Babilonia que permanecieron en la diáspora tras el edicto de Ciro. En Susa existía una comunidad judía activa en la que se sitúan las historias de Ester, Mardoqueo y la misión de Nehemías.",
+      "religion": "Judaísmo de la diáspora",
+      "periodo": "post_exilio"
+    }
   ],
   "historias": [
     {
@@ -27,24 +57,44 @@
       "titulo": "Ester y Mardoqueo en la corte de Susa",
       "fecha": "c. 480 a.C.",
       "descripcion": "Durante el reinado de Asuero (Jerjes I), la joven judía Ester es escogida reina tras la deposición de Vasti. Su primo Mardoqueo descubre una conspiración del visir Amán para exterminar a todos los judíos del imperio. Ester, arriesgando su vida al presentarse sin ser llamada ante el rey, logra revertir el decreto. Amán es ejecutado en la horca que había preparado para Mardoqueo y los judíos obtienen el derecho a defenderse. La festividad de Purim conmemora su liberación.",
-      "referencias": ["Est 1:1-2", "Est 2:5-17", "Est 7:1-10", "Est 9:20-28"],
-      "personajes_clave": ["ester", "mardoqueo"]
+      "referencias": [
+        "Est 1:1-2",
+        "Est 2:5-17",
+        "Est 7:1-10",
+        "Est 9:20-28"
+      ],
+      "personajes_clave": [
+        "ester",
+        "mardoqueo"
+      ]
     },
     {
       "id": "nehemias_en_susa",
       "titulo": "Nehemías: copero del rey en Susa",
       "fecha": "c. 445 a.C.",
       "descripcion": "Nehemías, copero del rey Artajerjes en el palacio de Susa, recibe noticias de que los muros de Jerusalén siguen en ruinas. Su dolor ante el rey le abre la puerta a solicitar permiso para volver a Judá como gobernador y reconstruir la ciudad. El rey accede y le provee de cartas y materiales. Nehemías emprende el viaje, inspecciona los muros de noche y organiza la reconstrucción en 52 días a pesar de la oposición de Sambalat y Tobías.",
-      "referencias": ["Neh 1:1-11", "Neh 2:1-8", "Neh 6:15"],
-      "personajes_clave": ["nehemias"]
+      "referencias": [
+        "Neh 1:1-11",
+        "Neh 2:1-8",
+        "Neh 6:15"
+      ],
+      "personajes_clave": [
+        "nehemias"
+      ]
     },
     {
       "id": "daniel_en_susa",
       "titulo": "Las visiones de Daniel en Susa",
       "fecha": "c. 550–539 a.C.",
       "descripcion": "El profeta Daniel recibe en Susa, junto al río Ulai, la visión del carnero y el macho cabrío que simbolizan los imperios de Persia y Grecia. El ángel Gabriel le explica la visión en el mismo lugar. Más tarde, junto al río Tigris, recibe la visión final que incluye la promesa de resurrección. Las visiones de Susa convierten la ciudad en escenario de la apocalíptica bíblica más antigua.",
-      "referencias": ["Dan 8:2-27", "Dan 10:1-21"],
-      "personajes_clave": ["daniel", "gabriel"]
+      "referencias": [
+        "Dan 8:2-27",
+        "Dan 10:1-21"
+      ],
+      "personajes_clave": [
+        "daniel",
+        "gabriel"
+      ]
     }
   ],
   "personajes": [
@@ -55,7 +105,11 @@
       "rol": "Reina judía en la corte de Susa",
       "periodo": "c. 480 a.C.",
       "descripcion": "Joven judía de nombre hebreo Hadassá, adoptada por su primo Mardoqueo tras la muerte de sus padres. Escogida reina del Imperio Persa, ocultó inicialmente su identidad judía. Su intervención ante el rey Asuero para salvar a su pueblo la convirtió en el símbolo más potente de la fidelidad y el coraje judíos en la diáspora. Su historia no menciona a Dios explícitamente, rasgo único en la Biblia hebrea.",
-      "referencias": ["Est 2:7-17", "Est 4:15-16", "Est 7:3-6"],
+      "referencias": [
+        "Est 2:7-17",
+        "Est 4:15-16",
+        "Est 7:3-6"
+      ],
       "ruta": []
     },
     {
@@ -63,9 +117,13 @@
       "nombre": "Nehemías",
       "emoji": "🏗️",
       "rol": "Copero real — gobernador reconstructor de Jerusalén",
-      "periodo": "c. 445–433 a.C.",
+      "periodo": "post_exilio",
       "descripcion": "Funcionario judío de alta confianza en la corte de Artajerjes I. Su posición de copero real le daba acceso directo al rey, lo que le permitió obtener el permiso y los recursos para reconstruir los muros de Jerusalén. Sus memorias personales, conservadas en el libro de Nehemías, son una de las fuentes históricas más directas del período post-exílico.",
-      "referencias": ["Neh 1:1-3", "Neh 2:1-9", "Neh 13:6"],
+      "referencias": [
+        "Neh 1:1-3",
+        "Neh 2:1-9",
+        "Neh 13:6"
+      ],
       "ruta": []
     },
     {
@@ -73,20 +131,31 @@
       "nombre": "Daniel",
       "emoji": "🌙",
       "rol": "Profeta visionario en la corte imperial",
-      "periodo": "c. 605–535 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Joven judío deportado a Babilonia que ascendió hasta los más altos cargos de la administración imperial babilónica y persa. En Susa recibió visiones angelicales de contenido apocalíptico que anunciaban el fin de los imperios paganos y la instauración del reino de Dios. Su libro inaugura el género apocalíptico en la literatura judía.",
-      "referencias": ["Dan 8:2", "Dan 10:4-12", "Dan 12:1-3"],
+      "referencias": [
+        "Dan 8:2",
+        "Dan 10:4-12",
+        "Dan 12:1-3"
+      ],
       "ruta": []
     }
   ],
   "contexto_religioso": {
     "contexto_lugar": "Susa es el escenario bíblico por excelencia del judaísmo en la diáspora: el lugar donde el pueblo judío aprendió a sobrevivir y florecer bajo el poder imperial sin renunciar a su identidad. Las historias de Ester, Nehemías y Daniel comparten la tensión entre la integración en la cultura imperial y la fidelidad a la tradición ancestral, un dilema que definiría el judaísmo postbíblico.",
-    "religiones_presentes": ["judaismo", "islam"],
+    "religiones_presentes": [
+      "judaismo",
+      "islam"
+    ],
     "mitos": [
       {
         "id": "ester_salva_a_su_pueblo",
         "nombre": "Ester salva al pueblo judío en Susa",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Est 4:14 — 9:28",
           "fuente_secundaria": "Talmud Bavli, Meguilá 7a — debate sobre si el libro de Ester es sagrado; Raba afirma que fue compuesta con inspiración del Espíritu Santo; discusión sobre la ausencia del nombre de Dios",

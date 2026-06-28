@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Puerto edomita disputado entre Judá y Edom" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Puerto edomita disputado entre Judá y Edom"
+    }
   ],
   "descripcion_geo": "Puerto en el extremo norte del golfo de Áqaba, muy próximo a Ezión-géber, en territorio originalmente edomita, cuyo control osciló repetidamente entre Judá y Edom a lo largo de la monarquía dividida, reflejando la inestabilidad fronteriza meridional del reino.",
   "altitud_m": 0,
@@ -40,15 +44,22 @@
       "titulo": "Uzías recupera y fortifica Elat",
       "fecha": "c. 791–740 a.C.",
       "descripcion": "El rey Uzías de Judá edifica Elat y la restituye a Judá tras un período de control edomita, reconstruyendo el puerto como parte de su extenso programa de fortalecimiento militar y comercial del reino.",
-      "referencias": ["2 Re 14:22", "2 Cr 26:2"],
-      "personajes_clave": ["uzias"]
+      "referencias": [
+        "2 Re 14:22",
+        "2 Cr 26:2"
+      ],
+      "personajes_clave": [
+        "uzias"
+      ]
     },
     {
       "id": "rezin-recupera-elat",
       "titulo": "Edom recupera Elat definitivamente bajo Acaz",
       "fecha": "c. 735 a.C.",
       "descripcion": "Durante el reinado de Acaz, Rezín, rey de Siria, recupera Elat para Edom y expulsa a los judaítas de allí; los edomitas se establecen en Elat y permanecen hasta el momento del relato bíblico, marcando el fin definitivo del control judaíta sobre el puerto.",
-      "referencias": ["2 Re 16:6"],
+      "referencias": [
+        "2 Re 16:6"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,8 +67,12 @@
       "titulo": "Elat junto a Ezión-géber en el origen del comercio marítimo salomónico",
       "fecha": "c. 960 a.C.",
       "descripcion": "El texto bíblico vincula a Elat con Ezión-géber como punto de partida original de la flota mercante de Salomón en el Mar Rojo, estableciendo el precedente histórico de la importancia comercial de esta región costera meridional para Israel.",
-      "referencias": ["1 Re 9:26"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 9:26"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     }
   ],
   "personajes": [
@@ -66,10 +81,15 @@
       "nombre": "Uzías",
       "emoji": "🏗️",
       "rol": "Rey de Judá, recuperador y fortificador de Elat",
-      "periodo": "c. 791–740 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Recupera y fortifica Elat para Judá como parte de su exitoso y extenso programa de fortalecimiento militar y económico del reino, antes de su posterior caída en orgullo y enfermedad.",
-      "referencias": ["2 Cr 26:1-15"],
-      "ruta": ["jerusalen", "elath"]
+      "referencias": [
+        "2 Cr 26:1-15"
+      ],
+      "ruta": [
+        "jerusalen",
+        "elath"
+      ]
     },
     {
       "id": "rezin_elat",
@@ -78,8 +98,12 @@
       "rol": "Rey arameo, recuperador final de Elat para Edom",
       "periodo": "c. 735 a.C.",
       "descripcion": "Recupera Elat para los edomitas y expulsa a los judaítas durante el reinado de Acaz, en el contexto de la guerra siro-efraimita contra Judá.",
-      "referencias": ["2 Re 16:5-6"],
-      "ruta": ["elath"]
+      "referencias": [
+        "2 Re 16:5-6"
+      ],
+      "ruta": [
+        "elath"
+      ]
     },
     {
       "id": "acaz_elat",
@@ -88,8 +112,12 @@
       "rol": "Rey de Judá, contemporáneo de la pérdida de Elat",
       "periodo": "c. 735–715 a.C.",
       "descripcion": "Durante su reinado, marcado por crisis política y religiosa, Judá pierde definitivamente el control sobre Elat, episodio que se enmarca en el deterioro general de la posición de Judá frente a sus vecinos en este período.",
-      "referencias": ["2 Re 16:1-6"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Re 16:1-6"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +130,11 @@
       {
         "id": "perdida-elat-deterioro-acaz",
         "nombre": "La pérdida de Elat como signo del deterioro bajo Acaz",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 16:5-6",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el reinado de Acaz como período de crisis política y religiosa para Judá",
@@ -117,5 +149,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

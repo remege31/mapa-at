@@ -7,7 +7,11 @@
   "frecuencia_at": 8,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Derrota de Og, rey de Basán" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Derrota de Og, rey de Basán"
+    }
   ],
   "descripcion_geo": "Una de las dos ciudades capitales del reino de Og, rey de Basán, situada en una región fértil al norte de Galaad, escenario de la batalla decisiva en que Israel derrota al último de los grandes reyes amorreos antes de cruzar el Jordán hacia Canaán propiamente dicha.",
   "altitud_m": 550,
@@ -40,23 +44,35 @@
       "titulo": "Og de Basán sale a enfrentar a Israel en Edrei",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la victoria sobre Sehón, Og, rey de Basán, sale con todo su pueblo a enfrentar a Israel en batalla cerca de Edrei; YHWH anima a Moisés diciéndole que no le tema, pues lo ha entregado en su mano junto con todo su pueblo y su tierra.",
-      "referencias": ["Núm 21:33", "Deut 3:1"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 21:33",
+        "Deut 3:1"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "derrota-og-edrei",
       "titulo": "Israel derrota completamente a Og en Edrei",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Israel hiere a Og, a sus hijos y a todo su pueblo hasta no dejar sobreviviente, conquistando las sesenta ciudades de su reino, incluida la región de Argob, completando así la conquista total de la Transjordania antes del cruce del Jordán hacia Canaán.",
-      "referencias": ["Núm 21:34-35", "Deut 3:3-4"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 21:34-35",
+        "Deut 3:3-4"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "cama-hierro-og-recuerdo",
       "titulo": "El recuerdo de la cama de hierro de Og",
       "fecha": "Referencia retrospectiva, Deuteronomio",
       "descripcion": "El Deuteronomio conserva el dato de que la cama de hierro de Og, de nueve codos de largo por cuatro de ancho, se exhibía en Rabá de los hijos de Amón como testimonio físico verificable de la estatura legendaria del último rey refaíta derrotado.",
-      "referencias": ["Deut 3:11"],
+      "referencias": [
+        "Deut 3:11"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,20 +82,31 @@
       "nombre": "Og, rey de Basán",
       "emoji": "👹",
       "rol": "Último rey de los refaítas",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Gobernante de gran estatura, descrito como último superviviente de los refaítas, derrotado completamente por Israel en la batalla de Edrei junto con todo su pueblo y reino.",
-      "referencias": ["Núm 21:33-35", "Deut 3:11"],
-      "ruta": ["edrei"]
+      "referencias": [
+        "Núm 21:33-35",
+        "Deut 3:11"
+      ],
+      "ruta": [
+        "edrei"
+      ]
     },
     {
       "id": "moises_edrei",
       "nombre": "Moisés",
       "emoji": "⚔️",
       "rol": "Líder de Israel en la conquista de la Transjordania",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la última gran batalla de la conquista de la Transjordania contra Og en Edrei, completando la posesión total del territorio al este del Jordán antes del cruce final hacia Canaán.",
-      "referencias": ["Núm 21:33-35", "Deut 3:1-7"],
-      "ruta": ["yahas", "edrei"]
+      "referencias": [
+        "Núm 21:33-35",
+        "Deut 3:1-7"
+      ],
+      "ruta": [
+        "jahaz",
+        "edrei"
+      ]
     },
     {
       "id": "pueblo_basan_edrei",
@@ -88,7 +115,10 @@
       "rol": "Población derrotada junto a Og",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Población completa del reino de Og, exterminada según el patrón del herem aplicado a este último gran reino amorreo de la Transjordania antes de la entrada a Canaán.",
-      "referencias": ["Núm 21:35", "Deut 3:3-7"],
+      "referencias": [
+        "Núm 21:35",
+        "Deut 3:3-7"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +132,11 @@
       {
         "id": "og-ultimo-refaita-edrei",
         "nombre": "Og como último superviviente de los refaítas",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Deut 3:11",
           "fuente_secundaria": "Comentario rabínico y tradiciones aggádicas extensas sobre la estatura legendaria de Og y su supervivencia desde tiempos del diluvio en algunas tradiciones midráshicas posteriores",
@@ -117,5 +151,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

@@ -85,13 +85,13 @@
       "nombre": "David",
       "emoji": "🏗️",
       "rol": "Rey de Israel, fundador de la Ciudad de David",
-      "periodo": "c. 1010–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena la construcción del Millo como parte de la consolidación de su nueva capital tras la conquista de la fortaleza jebusea, ampliando estructuralmente la colina de Sion.",
       "referencias": [
         "2 Sam 5:6-10"
       ],
       "ruta": [
-        "hebrón",
+        "hebron",
         "jerusalen"
       ]
     },
@@ -100,7 +100,7 @@
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel, constructor del Templo y de obras civiles",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Incluye el refuerzo del Millo entre sus grandes proyectos arquitectónicos, junto al Templo y el palacio real, movilizando trabajo forzado para sostener la expansión de Jerusalén.",
       "referencias": [
         "1 Re 9:15-24"

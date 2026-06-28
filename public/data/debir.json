@@ -8,11 +8,27 @@
   "frecuencia_at": 16,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué y Otoniel" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad levítica de refugio en Judá" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza del sur de Judá" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué y Otoniel"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad levítica de refugio en Judá"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad fronteriza del sur de Judá"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Debir (hebreo: דְּבִיר, posiblemente 'santuario interior' o 'lugar del oráculo') era una ciudad cananea en las colinas del sur de Judá, a unos 13 km al suroeste de Hebrón. Identificada probablemente con Tell Beit Mirsim (excavada extensamente por W.F. Albright en los años 1920-1930) o con Khirbet Rabud, dominaba las rutas entre Hebrón y el Neguev occidental. Llamada también Quiriat-séfer ('ciudad del libro' o 'ciudad de la escritura') antes de su conquista israelita, lo que sugiere que pudo haber sido un centro de cultura escrita o de archivos. Las excavaciones de Tell Beit Mirsim revelaron una ciudad floreciente del Bronce Tardío con industria textil avanzada.",
   "altitud_m": 580,
   "clima": "Mediterráneo semiárido del sur de Judá — precipitaciones de 350-450 mm anuales, veranos secos y calurosos, inviernos frescos con lluvias ocasionales. Suelos aptos para olivares y ganadería.",
@@ -46,24 +62,45 @@
       "titulo": "Josué conquista Debir: la campaña del sur",
       "fecha": "c. 1220 a.C.",
       "descripcion": "Tras las victorias en el centro de Canaán (Jericó, Ai, Gabaón), Josué emprendió la campaña del sur. El rey de Jerusalén formó una coalición de cinco reyes contra Gabaón por haberse aliado con Israel; Josué marchó toda la noche desde Guilgal y los sorprendió. Yahvé arrojó sobre ellos grandes piedras de granizo y detuvo el sol en Gabaón. Tras la victoria, Josué continuó sistemáticamente hacia el sur: tomó Libná, Laquis, Eglón, Hebrón y finalmente Debir. El texto describe la campaña como un barrido metódico: 'Josué tomó Debir con su rey, con todas sus ciudades dependientes; los hirió a filo de espada y ejecutó el anatema sobre todo ser vivo.' La ciudad que había sido Quiriat-séfer pasó a manos israelitas.",
-      "referencias": ["Jos 10:38-39", "Jos 10:1-15", "Jos 12:13"],
-      "personajes_clave": ["josue-debir", "caleb"]
+      "referencias": [
+        "Jos 10:38-39",
+        "Jos 10:1-15",
+        "Jos 12:13"
+      ],
+      "personajes_clave": [
+        "josue-debir",
+        "caleb"
+      ]
     },
     {
       "id": "otoniel-conquista-debir",
       "titulo": "Otoniel conquista Debir: el primer juez gana su esposa",
       "fecha": "c. 1200 a.C.",
       "descripcion": "El libro de Josué preserva una tradición alternativa o complementaria sobre la conquista de Debir, protagonizada por Caleb y su familia. Caleb, ya anciano, recibió como herencia Hebrón y anunció: 'Al que ataque Quiriat-séfer y la tome, le daré por esposa a mi hija Acsá.' Otoniel ben Quenaz, sobrino de Caleb (algunos textos lo llaman hermano menor), tomó la ciudad y recibió a Acsá por esposa. Acsá, lejos de ser premio pasivo, actuó con inteligencia: convenció a su padre de que le diera además manantiales de agua — 'Me has dado tierra del Neguev, dame también fuentes de agua.' Caleb le dio los manantiales de arriba y los de abajo. Este Otoniel se convertiría en el primer juez de Israel, libertador del yugo de Cushan-rishataim de Mesopotamia (Jue 3:7-11), convirtiendo su hazaña en Debir en el trampolín de una carrera de liderazgo nacional.",
-      "referencias": ["Jos 15:15-19", "Jue 1:11-15", "Jue 3:7-11"],
-      "personajes_clave": ["otoniel", "acsa", "caleb"]
+      "referencias": [
+        "Jos 15:15-19",
+        "Jue 1:11-15",
+        "Jue 3:7-11"
+      ],
+      "personajes_clave": [
+        "otoniel",
+        "acsa",
+        "caleb"
+      ]
     },
     {
       "id": "debir-ciudad-refugio-levitas",
       "titulo": "Debir: ciudad levítica y de refugio",
       "fecha": "c. 1150 a.C.",
       "descripcion": "En la distribución del territorio entre las tribus, Debir recibió una doble asignación especial: ciudad levítica para los hijos de Aarón (Jos 21:15) y ciudad de refugio (Jos 20). Las ciudades de refugio eran centros donde el homicida involuntario podía huir para escapar del 'vengador de sangre' hasta que su caso fuera juzgado. Debir, en el extremo sur del territorio de Judá, completaba el sistema de seis ciudades de refugio distribuidas simétricamente por todo el territorio israelita (tres al este del Jordán, tres al oeste). Su función jurídica — garantizar que la justicia prevaleciera sobre la venganza privada — convirtió a la antigua ciudad cananea de la escritura en guardiana de un principio legal revolucionario en el antiguo Oriente Próximo.",
-      "referencias": ["Jos 20:7", "Jos 21:13-15", "Núm 35:9-15"],
-      "personajes_clave": ["otoniel"]
+      "referencias": [
+        "Jos 20:7",
+        "Jos 21:13-15",
+        "Núm 35:9-15"
+      ],
+      "personajes_clave": [
+        "otoniel"
+      ]
     }
   ],
   "personajes": [
@@ -72,10 +109,17 @@
       "nombre": "Otoniel",
       "emoji": "⚔️",
       "rol": "Conquistador de Debir, primer juez de Israel",
-      "periodo": "c. 1200–1150 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Otoniel ben Quenaz es el prototipo del juez israelita: guerrero valiente, esposo de mujer inteligente, liberador de su pueblo. Su conquista de Quiriat-séfer/Debir le ganó a Acsá como esposa y estableció su reputación militar. Como juez, liberó a Israel del yugo de Cushan-rishataim (rey de Mesopotamia) durante cuarenta años. El texto del libro de Jueces lo presenta como modelo sin defecto — ninguna falla personal ni apostasía se le atribuye, a diferencia de jueces posteriores como Gedeón o Sansón. Es significativo que el primer juez sea del clan de Caleb, no de las tribus centrales, subrayando que el liderazgo en Israel venía del mérito demostrado, no del nacimiento.",
-      "referencias": ["Jue 1:13", "Jue 3:7-11", "Jos 15:17"],
-      "ruta": ["debir", "hebron"]
+      "referencias": [
+        "Jue 1:13",
+        "Jue 3:7-11",
+        "Jos 15:17"
+      ],
+      "ruta": [
+        "debir",
+        "hebron"
+      ]
     },
     {
       "id": "acsa",
@@ -84,7 +128,10 @@
       "rol": "Hija de Caleb, esposa de Otoniel, negociadora de los manantiales",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Acsá bat Caleb es uno de los personajes femeninos más asertivos del libro de Josué. Dada como premio matrimonial al conquistador de Debir, transformó su posición de objeto en sujeto activo: convenció a su padre de complementar la tierra árida del Neguev con manantiales de agua — recurso vital en zona semiárida. Su petición directa ('Me has dado tierra del Neguev, dame también fuentes de agua') y la respuesta generosa de Caleb (le dio los manantiales de arriba y los de abajo) establece un modelo inusual de mujer que negocia su herencia en un sistema patriarcal. Los manantiales que obtuvo aseguraron la viabilidad económica de la zona de Debir para generaciones.",
-      "referencias": ["Jos 15:16-19", "Jue 1:12-15"],
+      "referencias": [
+        "Jos 15:16-19",
+        "Jue 1:12-15"
+      ],
       "ruta": []
     },
     {
@@ -92,10 +139,19 @@
       "nombre": "Caleb",
       "emoji": "🦁",
       "rol": "Explorador fiel, conquistador de Hebrón, padre de Acsá",
-      "periodo": "c. 1250–1170 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Caleb ben Jefone, del clan de Quenaz integrado en Judá, fue uno de los doce espías enviados a explorar Canaán. Junto a Josué, dio un informe de fe frente al informe de miedo de los otros diez, lo que le valió la promesa divina de heredar la tierra que sus pies pisaran. A los ochenta y cinco años, cuando Israel repartía el territorio, reclamó Hebrón y las colinas del sur de Judá: 'Dame esta montaña de la que habló Yahvé.' Su vigor en la vejez y su asignación de Debir a su sobrino/hermano Otoniel lo presentan como líder que forma a la siguiente generación mientras él mismo conquista su propia herencia.",
-      "referencias": ["Núm 13:30", "Núm 14:24", "Jos 14:6-15"],
-      "ruta": ["sinai", "canaan", "hebron", "debir"]
+      "referencias": [
+        "Núm 13:30",
+        "Núm 14:24",
+        "Jos 14:6-15"
+      ],
+      "ruta": [
+        "sinai",
+        "canaan",
+        "hebron",
+        "debir"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -108,7 +164,11 @@
       {
         "id": "ciudades-refugio",
         "nombre": "Las ciudades de refugio: justicia frente a venganza",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 35:9-28; Jos 20:1-9; Dt 19:1-13",
           "fuente_secundaria": "Mishná Makot 2:1-8; Maimonides, Mishné Torá, Hiljot Rotzeaj 5:1",

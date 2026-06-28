@@ -8,7 +8,11 @@
   "jerarquia_pin": "terciario",
   "nota_coordenadas": "Nombre veterotestamentario del lago conocido en el NT como 'mar de Galilea' o 'lago de Genesaret'; este registro cubre su rol y mención en el AT (frontera tribal, ciudad fortificada). Su función en el ministerio de Jesús pertenece a FASE_NT.",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad y lago como límite tribal de Neftalí" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad y lago como límite tribal de Neftalí"
+    }
   ],
   "descripcion_geo": "Lago de agua dulce en forma de arpa (origen probable del nombre, de 'kinnor', arpa) en el norte de Israel, y ciudad amurallada en su costa occidental, que da nombre tanto al cuerpo de agua como a la llanura fértil adyacente. Es la principal fuente de agua dulce de toda la región y un punto de referencia geográfico constante en el reparto tribal.",
   "altitud_m": -210,
@@ -41,15 +45,21 @@
       "titulo": "El lago de Cinéret como límite oriental de la promesa territorial",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "En la descripción de las fronteras de la tierra prometida dada a Moisés, el lago de Cinéret se menciona como punto de referencia del límite oriental del territorio que Israel habrá de poseer al cruzar el Jordán.",
-      "referencias": ["Núm 34:11"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 34:11"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "chinnereth-ciudad-neftali",
       "titulo": "Cinéret entre las ciudades fortificadas de Neftalí",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "En el reparto territorial de Josué, Cinéret se incluye explícitamente entre las ciudades amuralladas asignadas a la tribu de Neftalí, confirmando su estatus de asentamiento fortificado relevante en el norte de Israel.",
-      "referencias": ["Jos 19:35"],
+      "referencias": [
+        "Jos 19:35"
+      ],
       "personajes_clave": []
     },
     {
@@ -57,7 +67,11 @@
       "titulo": "El 'mar de Cinéret' en la descripción geográfica del Deuteronomio",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "El Deuteronomio utiliza repetidamente la denominación 'mar de Cinéret' para describir la geografía del territorio conquistado en la Transjordania y el norte, estableciendo este nombre como la designación estándar del lago durante todo el período del Antiguo Testamento.",
-      "referencias": ["Deut 3:17", "Jos 12:3", "Jos 13:27"],
+      "referencias": [
+        "Deut 3:17",
+        "Jos 12:3",
+        "Jos 13:27"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,9 +81,12 @@
       "nombre": "Moisés",
       "emoji": "🗺️",
       "rol": "Líder de Israel, receptor de la descripción territorial",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Recibe la descripción de las fronteras de la tierra prometida que incluye al mar de Cinéret como punto de referencia geográfico del límite oriental.",
-      "referencias": ["Núm 34:1-12", "Deut 3:17"],
+      "referencias": [
+        "Núm 34:1-12",
+        "Deut 3:17"
+      ],
       "ruta": []
     },
     {
@@ -77,9 +94,11 @@
       "nombre": "Josué",
       "emoji": "🏰",
       "rol": "Líder de la conquista, organizador del reparto territorial",
-      "periodo": "c. 1200 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la asignación de la ciudad de Cinéret a la tribu de Neftalí dentro del reparto del territorio del norte de Israel.",
-      "referencias": ["Jos 19:32-39"],
+      "referencias": [
+        "Jos 19:32-39"
+      ],
       "ruta": []
     },
     {
@@ -89,7 +108,9 @@
       "rol": "Población tribal de la costa del lago",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Habitantes de la tribu de Neftalí asentados en la fértil región del lago de Cinéret y su llanura adyacente, beneficiarios de los recursos pesqueros y agrícolas de la zona.",
-      "referencias": ["Jos 19:32-39"],
+      "referencias": [
+        "Jos 19:32-39"
+      ],
       "ruta": []
     }
   ],
@@ -103,7 +124,11 @@
       {
         "id": "frontera-prometida-chinnereth",
         "nombre": "El mar de Cinéret como referencia constante de la tierra prometida",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 34:11; Deut 3:17; Jos 12:3",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el uso constante de accidentes geográficos naturales (mares, ríos, montes) como marcadores estables de las fronteras de la tierra prometida",
@@ -118,5 +143,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

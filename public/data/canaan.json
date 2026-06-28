@@ -118,7 +118,7 @@
       "nombre": "Abraham",
       "emoji": "⛺",
       "rol": "Patriarca — receptor de la promesa de la tierra",
-      "periodo": "c. 2000–1800 a.C. (trad.)",
+      "periodo": "bronce_medio",
       "descripcion": "Llamado desde Ur de Caldea hacia Canaán. Primer destinatario de la promesa territorial. Su recorrido define los límites del territorio prometido y los lugares sagrados fundacionales (Siquem, Hebrón, Berseba).",
       "referencias": [
         "Gén 12:1-9",
@@ -128,9 +128,9 @@
       "ruta": [
         "ur",
         "haran",
-        "siquem",
+        "shechem",
         "hebron",
-        "berseba",
+        "beersheba",
         "egipto"
       ]
     },
@@ -139,7 +139,7 @@
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Conquistador — sucesor de Moisés",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Lidera la entrada de Israel en Canaán. La toma de Jericó es el episodio inaugural. Distribuye el territorio entre las doce tribus. Su figura marca la transición del período nómada al asentamiento en la tierra prometida.",
       "referencias": [
         "Jos 1:1-9",
@@ -148,10 +148,10 @@
       ],
       "ruta": [
         "sinai",
-        "jerico",
+        "jericho",
         "ai",
-        "gabaon",
-        "siquem"
+        "gibeon",
+        "shechem"
       ]
     },
     {
@@ -159,16 +159,16 @@
       "nombre": "Débora",
       "emoji": "🌴",
       "rol": "Jueza y profetisa",
-      "periodo": "c. 1150 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Única mujer jueza en el AT. Lidera a Israel contra el ejército cananeo de Sísara. Su cántico de victoria (Jue 5) es uno de los textos hebreos más antiguos y un documento geográfico de primer orden para la historia de Canaán.",
       "referencias": [
         "Jue 4:1-24",
         "Jue 5:1-31"
       ],
       "ruta": [
-        "monte-efraim",
-        "tabor",
-        "meguido"
+        "bethel",
+        "tabor_mount",
+        "taanach"
       ]
     }
   ],

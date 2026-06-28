@@ -8,7 +8,11 @@
   "jerarquia_pin": "terciario",
   "nota_coordenadas": "Ubicación exacta incierta; coordenada aproximada que sitúa a Tisbe en la región central de Galaad, conforme a la identificación tradicional, distinta de la zona de Hazor (Galilea, al oeste del Jordán). Corregido el 21 jun 2026 — antes compartía coordenada con Hazor por error.",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad natal de Elías" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad natal de Elías"
+    }
   ],
   "descripcion_geo": "Ciudad o aldea de origen incierto y disputado, tradicionalmente ubicada en la región de Galaad, al este del Jordán, conocida exclusivamente por ser el lugar de origen del profeta Elías, sin otro desarrollo narrativo propio en el texto bíblico.",
   "altitud_m": "Incierta (región de Galaad)",
@@ -39,15 +43,21 @@
       "titulo": "Elías es presentado como 'tisbita, de los moradores de Galaad'",
       "fecha": "c. 870 a.C.",
       "descripcion": "El profeta Elías aparece por primera vez en el texto bíblico identificado explícitamente con su origen geográfico, anunciando directamente a Acab una sequía como castigo divino, sin que se proporcione ninguna narración previa sobre su llamado o formación, en contraste marcado con las extensas narrativas de vocación de otros profetas.",
-      "referencias": ["1 Re 17:1"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 17:1"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     },
     {
       "id": "tishbe-origen-ambiguo",
       "titulo": "La ambigüedad textual sobre el origen exacto de Tisbe",
       "fecha": "Contexto textual, c. 870 a.C.",
       "descripcion": "El texto hebreo de 1 Reyes 17:1 presenta cierta ambigüedad gramatical sobre si 'tisbita' se refiere a un gentilicio derivado de una ciudad llamada Tisbe o a otra lectura posible del texto original, generando desde la antigüedad debate exegético sobre la localización exacta de la patria de Elías.",
-      "referencias": ["1 Re 17:1"],
+      "referencias": [
+        "1 Re 17:1"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +65,13 @@
       "titulo": "El ministerio posterior de Elías tras su origen en Tisbe",
       "fecha": "c. 870–850 a.C.",
       "descripcion": "Tras su breve identificación de origen en Tisbe, Elías desarrolla todo su extenso ministerio en otros lugares del reino del norte y sus alrededores, sin que el texto bíblico vuelva a mencionar su ciudad natal en ningún episodio posterior de su carrera profética.",
-      "referencias": ["1 Re 17:1-19:21", "2 Re 1:1-2:11"],
-      "personajes_clave": ["elias"]
+      "referencias": [
+        "1 Re 17:1-19:21",
+        "2 Re 1:1-2:11"
+      ],
+      "personajes_clave": [
+        "elias"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +80,17 @@
       "nombre": "Elías",
       "emoji": "🔥",
       "rol": "Profeta de Israel, originario de Tisbe",
-      "periodo": "Activo c. 870–850 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Uno de los profetas más significativos del Antiguo Testamento, identificado en su primera aparición textual mediante su origen en Tisbe, de Galaad, sin que se proporcione más información biográfica previa a su irrupción pública en la corte de Acab.",
-      "referencias": ["1 Re 17:1"],
-      "ruta": ["tishbe", "querit", "sarepta", "carmelo"]
+      "referencias": [
+        "1 Re 17:1"
+      ],
+      "ruta": [
+        "tishbe",
+        "jabbok",
+        "sidon",
+        "carmel"
+      ]
     },
     {
       "id": "acab_tishbe_contexto",
@@ -77,7 +99,9 @@
       "rol": "Rey de Israel, receptor del anuncio profético de Elías",
       "periodo": "c. 874–853 a.C.",
       "descripcion": "Recibe el primer anuncio profético de Elías sobre la sequía venidera, iniciando el extenso ciclo de confrontación entre el rey y el profeta tisbita que caracteriza buena parte de la narrativa de 1 Reyes.",
-      "referencias": ["1 Re 17:1"],
+      "referencias": [
+        "1 Re 17:1"
+      ],
       "ruta": []
     },
     {
@@ -87,7 +111,9 @@
       "rol": "Comunidad de origen del profeta",
       "periodo": "c. 900–870 a.C.",
       "descripcion": "Población de la región transjordana donde el texto bíblico sitúa el origen de Elías, sin más desarrollo narrativo específico más allá de la identificación geográfica del profeta.",
-      "referencias": ["1 Re 17:1"],
+      "referencias": [
+        "1 Re 17:1"
+      ],
       "ruta": []
     }
   ],
@@ -100,7 +126,11 @@
       {
         "id": "elias-aparicion-abrupta-tishbe",
         "nombre": "La aparición abrupta de Elías sin relato de vocación",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 17:1",
           "fuente_secundaria": "Comentario rabínico y tradición posterior sobre la identidad y origen misteriosos de Elías, incluyendo especulaciones sobre su posible identificación con otras figuras bíblicas",
@@ -131,5 +161,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

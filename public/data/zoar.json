@@ -83,13 +83,13 @@
       "nombre": "Lot",
       "emoji": "🙏",
       "rol": "Sobrino de Abraham, intercesor por Zoar",
-      "periodo": "c. 2067 a.C. (narrativa)",
+      "periodo": "bronce_medio",
       "descripcion": "Pide y obtiene la preservación de Zoar como refugio inmediato durante su huida de Sodoma, único caso en el relato de la destrucción donde la intercesión humana logra salvar explícitamente una ciudad entera del juicio anunciado.",
       "referencias": [
         "Gén 19:18-23"
       ],
       "ruta": [
-        "sodoma",
+        "sodom",
         "zoar"
       ]
     },
@@ -98,7 +98,7 @@
       "nombre": "Moisés",
       "emoji": "👁️",
       "rol": "Legislador, visionario de la tierra prometida",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Contempla Zoar como límite sur de la extensa visión panorámica de la tierra prometida que recibe desde la cumbre de Pisgá poco antes de su muerte.",
       "referencias": [
         "Deut 34:1-4"

@@ -7,7 +7,11 @@
   "frecuencia_at": 12,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista a Sehón, asignada a Gad" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista a Sehón, asignada a Gad"
+    }
   ],
   "descripcion_geo": "Ciudad principal del altiplano moabita, capital posterior del reino de Moab bajo el rey Mesa, situada en una posición elevada que dominaba la meseta entre el río Arnón y el territorio amorreo conquistado por Israel. Una de las ciudades más documentadas arqueológica y epigráficamente de toda la región transjordana.",
   "altitud_m": 700,
@@ -40,15 +44,23 @@
       "titulo": "Dibón conquistada a Sehón y asignada a Gad",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras derrotar a Sehón, rey amorreo que previamente había tomado Dibón de Moab, Israel ocupa la ciudad y la reconstruye, asignándola posteriormente a la tribu de Gad dentro del reparto de la Transjordania.",
-      "referencias": ["Núm 21:25-30", "Núm 32:34", "Jos 13:9"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 21:25-30",
+        "Núm 32:34",
+        "Jos 13:9"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "mesa-rebelion-dibon",
       "titulo": "Mesa de Moab se rebela y erige su estela en Dibón",
       "fecha": "c. 850–840 a.C.",
       "descripcion": "Tras la muerte de Acab, Mesa, rey de Moab, se rebela contra el tributo impuesto por Israel; la campaña conjunta de Israel, Judá y Edom contra Moab se narra en 2 Reyes 3, y el propio Mesa conmemora su versión de los hechos —incluyendo la reconstrucción de Dibón como su capital— en la célebre Estela de Mesa, hallada en el sitio en 1868.",
-      "referencias": ["2 Re 3:4-27"],
+      "referencias": [
+        "2 Re 3:4-27"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,8 +68,14 @@
       "titulo": "Dibón en los oráculos proféticos de juicio contra Moab",
       "fecha": "c. 740–600 a.C.",
       "descripcion": "Tanto Isaías como Jeremías mencionan a Dibón en sus extensos oráculos de juicio contra Moab, describiendo el llanto y la destrucción que sobrevendrán sobre la que para entonces era ya la ciudad más importante del reino moabita.",
-      "referencias": ["Is 15:2", "Jer 48:18-22"],
-      "personajes_clave": ["isaias", "jeremias"]
+      "referencias": [
+        "Is 15:2",
+        "Jer 48:18-22"
+      ],
+      "personajes_clave": [
+        "isaias",
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -66,20 +84,29 @@
       "nombre": "Moisés",
       "emoji": "🏗️",
       "rol": "Líder de Israel, organizador de la conquista de la Transjordania",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la conquista del territorio de Sehón que incluye Dibón, ciudad posteriormente reconstruida y asignada a la tribu de Gad.",
-      "referencias": ["Núm 21:21-30", "Núm 32:34"],
-      "ruta": ["dibon"]
+      "referencias": [
+        "Núm 21:21-30",
+        "Núm 32:34"
+      ],
+      "ruta": [
+        "dibon"
+      ]
     },
     {
       "id": "mesa_rey_moab_dibon",
       "nombre": "Mesa, rey de Moab",
       "emoji": "🪨",
       "rol": "Rey moabita, autor de la Estela de Mesa",
-      "periodo": "c. 850–840 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Convierte Dibón en capital de su reino tras rebelarse contra el tributo israelita, conmemorando su versión de la victoria en una inscripción monumental que constituye uno de los testimonios extrabíblicos más extensos sobre el conflicto entre Israel y sus vecinos.",
-      "referencias": ["2 Re 3:4-27 (contexto histórico)"],
-      "ruta": ["dibon"]
+      "referencias": [
+        "2 Re 3:4-27 (contexto histórico)"
+      ],
+      "ruta": [
+        "dibon"
+      ]
     },
     {
       "id": "joram_dibon",
@@ -88,7 +115,9 @@
       "rol": "Rey de Israel, líder de la campaña contra Moab",
       "periodo": "c. 850 a.C.",
       "descripcion": "Dirige, junto a Josafat de Judá y el rey de Edom, la campaña militar contra la rebelión de Mesa de Moab, episodio narrado en 2 Reyes 3 que constituye el trasfondo histórico de los eventos conmemorados en la Estela de Mesa hallada en Dibón.",
-      "referencias": ["2 Re 3:6-27"],
+      "referencias": [
+        "2 Re 3:6-27"
+      ],
       "ruta": []
     }
   ],
@@ -103,7 +132,11 @@
       {
         "id": "estela-mesa-testimonio-dibon",
         "nombre": "La Estela de Mesa como testimonio moabita independiente",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 3:4-27",
           "fuente_secundaria": "Estela de Mesa (c. 840 a.C., Museo del Louvre), inscripción que menciona explícitamente a YHWH y narra la perspectiva moabita del conflicto con Israel",
@@ -118,5 +151,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

@@ -8,10 +8,21 @@
   "frecuencia_at": 18,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1000, "hasta": -722, "nombre": "Hierro II — Monarquía unida y dividida" },
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Retorno y reconstrucción" }
+    {
+      "desde": -1000,
+      "hasta": -722,
+      "nombre": "Hierro II — Monarquía unida y dividida"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Retorno y reconstrucción"
+    }
   ],
-  "periodos_at": ["hierro_2", "post_exilio"],
+  "periodos_at": [
+    "hierro_2",
+    "post_exilio"
+  ],
   "descripcion_geo": "Anathoth (hebreo: עֲנָתוֹת) era una ciudad levítica en el territorio de Benjamín, situada a unos 5 km al noreste de Jerusalén, en las estribaciones orientales de la serranía central de Judea. El lugar está identificado con la actual Ras el-Kharrubeh, junto al pueblo moderno de Anata. A unos 700 metros sobre el nivel del mar, la ciudad ofrecía una posición elevada con vistas hacia el desierto de Judea al este y la llanura de Benjamín al norte. Su proximidad a Jerusalén la convirtió en lugar de exilio honorable para figuras políticas caídas en desgracia, y en cuna de uno de los profetas más importantes del AT.",
   "altitud_m": 700,
   "clima": "Mediterráneo semiárido de transición — la ciudad marca la frontera climática entre la zona mediterránea y el desierto de Judea. Lluvias invernales de 400-500 mm anuales, veranos secos y calurosos, vientos del este (siroco) frecuentes en primavera y otoño.",
@@ -45,24 +56,44 @@
       "titulo": "El destierro de Abiatar: primer exilio a Anathoth",
       "fecha": "c. 970 a.C.",
       "descripcion": "Cuando Salomón consolidó su trono tras la muerte de David, uno de sus primeros actos fue deponer al sacerdote Abiatar, que había apoyado la candidatura rival de Adonías. Salomón le perdonó la vida por haber portado el arca ante David su padre, pero lo desterró a Anathoth con la prohibición de ejercer como sacerdote en Jerusalén. Con este acto se consumó el desplazamiento de la línea sacerdotal de Elí —vinculada al antiguo santuario de Siló— y la consolidación del sacerdocio zadoquita como línea oficial de Jerusalén. Anathoth quedó así marcada como ciudad de exilio sacerdotal y de tradición yahvista alternativa, un hecho que los estudiosos han relacionado con la formación posterior de la escuela profética que produjo el libro de Jeremías.",
-      "referencias": ["1 Re 2:26-27", "1 Sam 2:31-35", "1 Re 1:7-8"],
-      "personajes_clave": ["abiatar", "salomon"]
+      "referencias": [
+        "1 Re 2:26-27",
+        "1 Sam 2:31-35",
+        "1 Re 1:7-8"
+      ],
+      "personajes_clave": [
+        "abiatar",
+        "salomon"
+      ]
     },
     {
       "id": "vocacion-jeremias",
       "titulo": "Jeremías: el profeta de Anathoth",
       "fecha": "c. 627 a.C.",
       "descripcion": "Jeremías ben Jilquías nació en Anathoth, de familia sacerdotal. Su vocación profética llegó siendo joven, en el año 13 del reinado de Josías. Desde el principio su mensaje fue radical: el templo no garantizaba protección automática, los pactos con Egipto eran fatales, Babilonia era el instrumento de juicio divino. Sus propios paisanos de Anathoth conspiraron para matarlo si no dejaba de profetizar en nombre de Yahvé. Jeremías descubrió la conspiración por revelación divina y dirigió a Dios una de las llamadas 'confesiones' —oraciones de queja íntima— que son únicas en la literatura profética. La ciudad que lo vio nacer se convirtió en su primera persecución.",
-      "referencias": ["Jer 1:1-3", "Jer 11:21-23", "Jer 1:6-8"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 1:1-3",
+        "Jer 11:21-23",
+        "Jer 1:6-8"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     },
     {
       "id": "campo-anathoth",
       "titulo": "La compra del campo: profecía de esperanza en tiempo de ruina",
       "fecha": "587 a.C.",
       "descripcion": "Mientras Jeremías estaba preso en el patio de la guardia del palacio real de Jerusalén, con la ciudad sitiada por los babilonios, su primo Janamel vino a ofrecerle el rescate de un campo familiar en Anathoth. El profeta que llevaba décadas anunciando la catástrofe realizó la compra con todos los procedimientos legales: pesó diecisiete siclos de plata, firmó el documento ante testigos, entregó el documento sellado a su secretario Baruc con instrucción de guardarlo en un recipiente de arcilla para que durase mucho tiempo. El gesto era deliberadamente paradójico: comprar tierra en una ciudad a punto de ser arrasada era un acto de fe en el futuro que Yahvé prometía. 'Todavía se comprarán campos en esta tierra', declaró el profeta.",
-      "referencias": ["Jer 32:6-15", "Jer 32:1-5", "Jer 32:36-44"],
-      "personajes_clave": ["jeremias", "baruc"]
+      "referencias": [
+        "Jer 32:6-15",
+        "Jer 32:1-5",
+        "Jer 32:36-44"
+      ],
+      "personajes_clave": [
+        "jeremias",
+        "baruc"
+      ]
     }
   ],
   "personajes": [
@@ -71,19 +102,30 @@
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta de Anathoth, anunciador de la caída de Jerusalén",
-      "periodo": "c. 650–580 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Jeremías ben Jilquías es el profeta bíblico de vida más documentada. Natural de Anathoth, de familia sacerdotal, ejerció su ministerio durante cuatro décadas bajo los reinados de Josías, Joacaz, Joyaquim, Jeconías y Sedecías. Predicó la rendición ante Babilonia como voluntad divina, fue acusado de traición, encarcelado, arrojado a una cisterna, sobrevivió la caída de Jerusalén en 586 a.C. y terminó su vida en Egipto, a donde fue llevado contra su voluntad por los supervivientes que huían tras el asesinato de Godolías. Sus 'Confesiones' (caps. 11-20) son el registro de interioridad espiritual más íntimo del AT.",
-      "referencias": ["Jer 1:1-10", "Jer 20:7-18", "Jer 38:1-13"],
-      "ruta": ["anathoth", "jerusalen"]
+      "referencias": [
+        "Jer 1:1-10",
+        "Jer 20:7-18",
+        "Jer 38:1-13"
+      ],
+      "ruta": [
+        "anathoth",
+        "jerusalen"
+      ]
     },
     {
       "id": "abiatar",
       "nombre": "Abiatar",
       "emoji": "🕍",
       "rol": "Sumo sacerdote de David, desterrado a Anathoth por Salomón",
-      "periodo": "c. 1010–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Abiatar era el único superviviente de la masacre de los sacerdotes de Nob ordenada por Saúl (1 Sam 22). Escapó a David llevando el efod sagrado y se convirtió en sacerdote fiel del rey durante toda la era de persecución y el reinado posterior. Su error político fue apoyar a Adonías en la sucesión, frente a la candidatura de Salomón respaldada por Sadoc. El destierro a Anathoth lo convirtió en fundador involuntario de una tradición sacerdotal marginada que algunos estudiosos (Cross, Nicholson) relacionan con el ethos deuteronómico y el círculo formativo del libro de Jeremías.",
-      "referencias": ["1 Sam 22:20-23", "2 Sam 15:24-29", "1 Re 2:26-27"],
+      "referencias": [
+        "1 Sam 22:20-23",
+        "2 Sam 15:24-29",
+        "1 Re 2:26-27"
+      ],
       "ruta": []
     },
     {
@@ -93,7 +135,11 @@
       "rol": "Secretario y fiel discípulo de Jeremías",
       "periodo": "c. 620–580 a.C.",
       "descripcion": "Baruc ben Nerías fue el escriba personal de Jeremías y custodio de sus oráculos escritos. De familia noble —su hermano Seraías era alto funcionario real—, eligió la lealtad al profeta sobre la carrera cortesana. Fue Baruc quien leyó públicamente en el templo el rollo de Jeremías (604 a.C.) cuando el profeta tenía prohibida la entrada; quien custodió los documentos de la compra del campo de Anathoth; y quien compiló y editó el libro de Jeremías según el consenso académico mayoritario. Su propio libro canónico (incluido en la Biblia católica) preserva oraciones de arrepentimiento y esperanza.",
-      "referencias": ["Jer 36:4-8", "Jer 32:12-16", "Jer 45:1-5"],
+      "referencias": [
+        "Jer 36:4-8",
+        "Jer 32:12-16",
+        "Jer 45:1-5"
+      ],
       "ruta": []
     }
   ],
@@ -108,7 +154,11 @@
       {
         "id": "profeta-sin-honra",
         "nombre": "El profeta rechazado en su tierra",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Jer 11:21-23; Jer 12:6",
           "fuente_secundaria": "Midrash Rabbah, Lamentaciones, Proem 34",

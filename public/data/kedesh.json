@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de refugio en Neftalí, hogar de Barac" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad de refugio en Neftalí, hogar de Barac"
+    }
   ],
   "descripcion_geo": "Ciudad cananea conquistada en el norte de Canaán, posteriormente designada como una de las seis ciudades de refugio establecidas en todo Israel, y también ciudad levítica dentro del territorio de Neftalí. Su doble función legal y sacerdotal la distingue de otras ciudades del norte.",
   "altitud_m": 480,
@@ -40,15 +44,22 @@
       "titulo": "Josué derrota al rey de Cedes",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Cedes aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus como ciudad-estado real independiente antes de la ocupación israelita.",
-      "referencias": ["Jos 12:22"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 12:22"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "kedesh-ciudad-refugio-levitica",
       "titulo": "Cedes designada ciudad de refugio y ciudad levítica",
       "fecha": "c. 1200 a.C.",
       "descripcion": "En el reparto territorial, Cedes recibe la doble designación de ciudad de refugio para homicidas involuntarios y ciudad levítica para las familias sacerdotales de la línea de Gersón, combinando función legal de asilo con presencia sacerdotal permanente.",
-      "referencias": ["Jos 20:7", "Jos 21:32"],
+      "referencias": [
+        "Jos 20:7",
+        "Jos 21:32"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,8 +67,14 @@
       "titulo": "Barac, originario de Cedes, lidera la liberación de Israel",
       "fecha": "c. 1150 a.C.",
       "descripcion": "Débora convoca específicamente a Barac, identificado como 'de Cedes de Neftalí', para liderar la fuerza israelita de diez mil hombres contra Sísara, general del segundo Jabín de Hazor, victoria que se conmemora extensamente en el Cántico de Débora.",
-      "referencias": ["Jue 4:6", "Jue 4:10"],
-      "personajes_clave": ["debora", "barac"]
+      "referencias": [
+        "Jue 4:6",
+        "Jue 4:10"
+      ],
+      "personajes_clave": [
+        "debora",
+        "barac"
+      ]
     }
   ],
   "personajes": [
@@ -66,20 +83,30 @@
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Derrota al rey cananeo de Cedes en su extensa campaña de conquista del norte de Canaán, integrando la ciudad al territorio israelita.",
-      "referencias": ["Jos 12:22"],
-      "ruta": ["kedesh"]
+      "referencias": [
+        "Jos 12:22"
+      ],
+      "ruta": [
+        "kedesh"
+      ]
     },
     {
       "id": "barac",
       "nombre": "Barac",
       "emoji": "🛡️",
       "rol": "General israelita, originario de Cedes",
-      "periodo": "Activo c. 1150 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Convocado por la jueza-profetisa Débora desde su ciudad natal de Cedes para liderar el ejército israelita contra Sísara, general de Jabín de Hazor, en una de las victorias más celebradas del período de los Jueces.",
-      "referencias": ["Jue 4:6-16", "Jue 5:1"],
-      "ruta": ["kedesh", "tabor_mount"]
+      "referencias": [
+        "Jue 4:6-16",
+        "Jue 5:1"
+      ],
+      "ruta": [
+        "kedesh",
+        "tabor_mount"
+      ]
     },
     {
       "id": "homicidas_kedesh",
@@ -88,8 +115,12 @@
       "rol": "Homicidas involuntarios protegidos por la ley de asilo",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Israelitas y extranjeros residentes que, tras matar a alguien de forma accidental, podían huir a Cedes y otras ciudades de refugio para evitar la venganza inmediata del 'vengador de sangre' hasta recibir juicio formal.",
-      "referencias": ["Jos 20:1-9"],
-      "ruta": ["kedesh"]
+      "referencias": [
+        "Jos 20:1-9"
+      ],
+      "ruta": [
+        "kedesh"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +133,11 @@
       {
         "id": "ciudades-refugio-sistema-kedesh",
         "nombre": "El sistema de ciudades de refugio como institución de misericordia legal",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 35:9-34; Jos 20:1-9",
           "fuente_secundaria": "Mishná, tratado Makot (regulaciones detalladas sobre el funcionamiento de las ciudades de refugio); comentario rabínico sobre la distinción entre homicidio intencional y accidental",
@@ -125,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

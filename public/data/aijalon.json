@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad levítica en Dan, valle del milagro de Josué" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad levítica en Dan, valle del milagro de Josué"
+    }
   ],
   "descripcion_geo": "Ciudad y valle homónimo que controla una de las rutas naturales de ascenso desde la llanura costera filistea hacia las montañas centrales de Judá y Benjamín, a través del paso de Beth-horón. El valle de Aijalon es un corredor estratégico clásico entre la costa y las tierras altas.",
   "altitud_m": 220,
@@ -40,15 +44,22 @@
       "titulo": "El sol se detiene sobre Aijalon",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Durante la persecución de los ejércitos de la coalición de cinco reyes amorreos tras la batalla de Gabaón, Josué pide a YHWH que el sol se detenga sobre Gabaón y la luna sobre el valle de Aijalon, prolongando la luz del día hasta que Israel completa la derrota de sus enemigos.",
-      "referencias": ["Jos 10:12-14"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:12-14"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "aijalon-ciudad-levitica",
       "titulo": "Aijalon como ciudad levítica",
       "fecha": "c. 1200 a.C.",
       "descripcion": "En el reparto del territorio tras la conquista, Aijalon es asignada a la tribu de Dan y posteriormente designada como una de las ciudades levíticas, destinadas a familias sacerdotales repartidas entre las distintas tribus de Israel.",
-      "referencias": ["Jos 19:42", "Jos 21:24"],
+      "referencias": [
+        "Jos 19:42",
+        "Jos 21:24"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,7 +67,9 @@
       "titulo": "Control filisteo del paso de Aijalon",
       "fecha": "c. 1100–1000 a.C.",
       "descripcion": "El valle de Aijalon, como corredor entre la costa filistea y las montañas centrales, queda bajo presión y control intermitente filisteo durante el período de los Jueces, formando parte del cinturón de ciudades que la tribu de Dan no logra controlar de forma estable, lo que contribuye a la posterior migración danita hacia el norte.",
-      "referencias": ["Jue 1:34-35"],
+      "referencias": [
+        "Jue 1:34-35"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,10 +79,16 @@
       "nombre": "Josué",
       "emoji": "☀️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Pronuncia sobre Aijalon la orden de que la luna se detenga, en el episodio que el texto bíblico describe como un día sin precedentes en que YHWH escucha la voz de un hombre.",
-      "referencias": ["Jos 10:12-14"],
-      "ruta": ["gabaon", "aijalon", "makkedah"]
+      "referencias": [
+        "Jos 10:12-14"
+      ],
+      "ruta": [
+        "gibeon",
+        "aijalon",
+        "makkedah"
+      ]
     },
     {
       "id": "amorreos_aijalon_personaje",
@@ -78,8 +97,12 @@
       "rol": "Fuerzas en retirada tras la derrota de Gabaón",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Tropas derrotadas que huyen por la subida de Bet-horón hacia el valle de Aijalon, perseguidas por Israel durante el episodio del sol detenido.",
-      "referencias": ["Jos 10:10-14"],
-      "ruta": ["aijalon"]
+      "referencias": [
+        "Jos 10:10-14"
+      ],
+      "ruta": [
+        "aijalon"
+      ]
     },
     {
       "id": "danitas_aijalon",
@@ -88,8 +111,12 @@
       "rol": "Población israelita asignada al territorio",
       "periodo": "c. 1200–1100 a.C.",
       "descripcion": "Aunque Aijalon les es formalmente asignada, los danitas no logran expulsar completamente a la población amorrea ni asegurar control estable del valle, situación que el libro de los Jueces señala explícitamente como fracaso parcial de la conquista.",
-      "referencias": ["Jue 1:34-35"],
-      "ruta": ["aijalon"]
+      "referencias": [
+        "Jue 1:34-35"
+      ],
+      "ruta": [
+        "aijalon"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +129,11 @@
       {
         "id": "sol-luna-detenidos",
         "nombre": "El sol y la luna detenidos sobre Gabaón y Aijalon",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 10:12-14",
           "fuente_secundaria": "Talmud Babilónico, Avodah Zarah 25a (discusión astronómica y teológica del prodigio)",
@@ -125,5 +156,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

@@ -8,11 +8,27 @@
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea en la llanura costera" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad filistea, receptora del arca" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad filistea, centro de culto a Baal-Zebub" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad cananea en la llanura costera"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad filistea, receptora del arca"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad filistea, centro de culto a Baal-Zebub"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Ekron (hebreo: עֶקְרוֹן; filisteo: Amqaruna) era la más septentrional de las cinco ciudades de la Pentápolis filistea, situada en el extremo norte de la llanura filistea, en la zona de transición con la Sefela de Judá. Identificada definitivamente con Tel Miqne (excavada 1981-1996), es uno de los yacimientos arqueológicos del Hierro I-II mejor documentados del Levante. El tell de 20 hectáreas reveló una ciudad con más de cien instalaciones de producción de aceite de oliva en el período del Hierro IIC (siglo VII a.C.), la mayor industria oleícola conocida del mundo antiguo. Una inscripción real dedicatoria en lengua filistea menciona al rey Ikausu (Aquis) de Amqaruna, confirmando la identificación del lugar.",
   "altitud_m": 40,
   "clima": "Mediterráneo costero de llanura — precipitaciones de 450-500 mm anuales, veranos cálidos moderados por brisas marinas, inviernos suaves. Suelos fértiles de aluvión aptos para olivares intensivos.",
@@ -46,24 +62,43 @@
       "titulo": "El arca llega a Ekron: la plaga que no podían detener",
       "fecha": "c. 1050 a.C.",
       "descripcion": "Cuando el arca causó estragos en Ashdod y luego en Gat, los señores filisteos la enviaron a Ekron. Los ekronitas, al verla llegar, clamaron: '¡Han traído a nosotros el arca del Dios de Israel para matarnos a todos!' La ciudad entera fue golpeada con una plaga mortal. Las voces de los que morían llegaban hasta el cielo. Los señores filisteos convocaron una asamblea de urgencia. Sus sacerdotes y adivinos recomendaron la devolución del arca con una ofrenda expiatoria de tumores de oro y ratones de oro —uno por cada ciudad filistea— reconociendo implícitamente el poder de Yahvé. Ekron fue la última estación del arca en territorio filisteo, el punto donde la coalición de las cinco ciudades decidió que ningún precio era demasiado alto para devolver aquel objeto devastador.",
-      "referencias": ["1 Sam 5:10-12", "1 Sam 6:1-9", "1 Sam 5:8-9"],
-      "personajes_clave": ["senores-filisteos"]
+      "referencias": [
+        "1 Sam 5:10-12",
+        "1 Sam 6:1-9",
+        "1 Sam 5:8-9"
+      ],
+      "personajes_clave": [
+        "senores-filisteos"
+      ]
     },
     {
       "id": "baal-zebub-ocozias",
       "titulo": "Ocozías consulta a Baal-Zebub: el rey que preguntó al dios equivocado",
       "fecha": "c. 852 a.C.",
       "descripcion": "El rey Ocozías de Israel cayó por la celosía de su habitación en Samaria y quedó gravemente herido. En lugar de consultar al profeta de Yahvé, envió mensajeros a consultar a Baal-Zebub, dios de Ekron, para saber si se recuperaría. El profeta Elías los interceptó en el camino con un mensaje fulminante: '¿Acaso no hay Dios en Israel para que vayas a consultar a Baal-Zebub, dios de Ekron? Por eso no bajarás del lecho donde has subido, sino que morirás.' El rey envió un capitán con cincuenta hombres para traer a Elías. El profeta hizo bajar fuego del cielo que los consumió. Un segundo grupo corrió la misma suerte. El tercer capitán se postró ante Elías suplicando su vida. El profeta bajó y repitió ante el rey el mismo oráculo de muerte. Ocozías murió sin hijo varón, y reinó en su lugar su hermano Jorán.",
-      "referencias": ["2 Re 1:1-17", "2 Re 1:2-4", "2 Re 1:9-12"],
-      "personajes_clave": ["elias-ekron", "ocozias"]
+      "referencias": [
+        "2 Re 1:1-17",
+        "2 Re 1:2-4",
+        "2 Re 1:9-12"
+      ],
+      "personajes_clave": [
+        "elias-ekron",
+        "ocozias"
+      ]
     },
     {
       "id": "ekron-industria-asiriia",
       "titulo": "Ekron bajo Asiria: la ciudad industrial del aceite",
       "fecha": "c. 700 a.C.",
       "descripcion": "Tras la campaña de Senaquerib (701 a.C.), Ekron fue transformada en un centro industrial bajo protectorado asirio. La arqueología ha revelado que en el siglo VII la ciudad alcanzó su máxima extensión (20 hectáreas) y desarrolló una industria de aceite de oliva sin precedentes: más de cien instalaciones de prensado, capaces de producir cientos de toneladas de aceite al año para exportación al mercado asirio y mediterráneo. Una inscripción real filistea del rey Ikausu dedica un templo a su diosa. Este período de prosperidad material coincidió con la denuncia profética de Sofonías y Amós contra las ciudades filisteas. Ekron fue finalmente destruida por Nabucodonosor en 604 a.C., confirmado tanto por el texto bíblico (Jer 25:20) como por las crónicas babilónicas.",
-      "referencias": ["Jer 25:20", "Sof 2:4", "Am 1:8"],
-      "personajes_clave": ["jeremias-ekron"]
+      "referencias": [
+        "Jer 25:20",
+        "Sof 2:4",
+        "Am 1:8"
+      ],
+      "personajes_clave": [
+        "jeremias-ekron"
+      ]
     }
   ],
   "personajes": [
@@ -72,10 +107,17 @@
       "nombre": "Elías",
       "emoji": "⚡",
       "rol": "Profeta del fuego, defensor de la exclusividad yahvista",
-      "periodo": "c. 875–850 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "El Elías del episodio de Ekron es el mismo profeta del Carmelo, pero en un contexto diferente: no convoca al pueblo a elegir entre Yahvé y Baal, sino que intercepta la consulta de un rey moribundo al dios extranjero. Su pregunta retórica —'¿Acaso no hay Dios en Israel?'— es el núcleo teológico del episodio: la consulta a Baal-Zebub no es solo infidelidad religiosa sino declaración implícita de que Yahvé es incapaz o no merece ser consultado. El fuego que consume a los capitanes recuerda al fuego del Carmelo: Elías es el profeta cuya palabra tiene poder físico sobre la naturaleza.",
-      "referencias": ["2 Re 1:3-4", "2 Re 1:10-12", "2 Re 1:15-17"],
-      "ruta": ["carmel", "beersheba"]
+      "referencias": [
+        "2 Re 1:3-4",
+        "2 Re 1:10-12",
+        "2 Re 1:15-17"
+      ],
+      "ruta": [
+        "carmel",
+        "beersheba"
+      ]
     },
     {
       "id": "ocozias",
@@ -84,7 +126,11 @@
       "rol": "Rey de Israel, hijo de Ajab, muerto por consultar a Baal-Zebub",
       "periodo": "c. 853–852 a.C.",
       "descripcion": "Ocozías ben Ajab reinó solo dos años sobre Israel. Hijo del rey Ajab y la reina Jezabel, continuó la política religiosa de sus padres — el culto a Baal que había caracterizado su dinastía. Su decisión de consultar a Baal-Zebub de Ekron ante una enfermedad es leída por el texto bíblico como el acto que sellaba su destino: no solo era idolátrico sino que revelaba una desconfianza radical en Yahvé. Murió sin heredero, cerrando su línea dinástica, y fue sucedido por su hermano Jorán. El texto lo menciona brevemente, como eco negativo de su padre Ajab.",
-      "referencias": ["1 Re 22:52-53", "2 Re 1:1-2", "2 Re 1:17-18"],
+      "referencias": [
+        "1 Re 22:52-53",
+        "2 Re 1:1-2",
+        "2 Re 1:17-18"
+      ],
       "ruta": []
     },
     {
@@ -94,7 +140,11 @@
       "rol": "Gobernantes de la Pentápolis filistea",
       "periodo": "c. 1200–1000 a.C.",
       "descripcion": "Los 'seren' (señores) filisteos son el consejo de gobierno de las cinco ciudades de la Pentápolis: Gaza, Ascalón, Ashdod, Ekron y Gat. Aparecen siempre actuando en consejo, lo que refleja una estructura política confederal inusual en el Levante del Bronce Final-Hierro I. En los episodios del arca, mostraron una racionalidad pragmática: consultaron a sus propios sacerdotes y adivinos, reconocieron el poder de Yahvé sin convertirse a él, y adoptaron la solución menos costosa (devolver el arca con ofrendas). En el episodio de Sansón (Jue 16), convocaron la gran asamblea en el templo de Dagón de Gaza que terminó en la muerte del juez y de tres mil filisteos.",
-      "referencias": ["1 Sam 6:2-9", "1 Sam 6:16-18", "Jue 16:27-30"],
+      "referencias": [
+        "1 Sam 6:2-9",
+        "1 Sam 6:16-18",
+        "Jue 16:27-30"
+      ],
       "ruta": []
     }
   ],
@@ -108,7 +158,11 @@
       {
         "id": "baal-zebub-beelzebub",
         "nombre": "Baal-Zebub de Ekron: del dios filisteo al príncipe de los demonios",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 1:2-16",
           "fuente_secundaria": "Talmud Bavli, Sanedrín 102b; Targum Jonatán sobre 2 Re 1:2",

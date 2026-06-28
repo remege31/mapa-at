@@ -84,7 +84,7 @@
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel, ungido en Guijón",
-      "periodo": "c. 970 a.C. (unción)",
+      "periodo": "hierro_2",
       "descripcion": "Es ungido rey de Israel en el manantial de Guijón por orden de su padre David, en una ceremonia organizada con urgencia para frustrar el intento de usurpación de Adonías.",
       "referencias": [
         "1 Re 1:32-40"
@@ -99,7 +99,7 @@
       "nombre": "Natán",
       "emoji": "📯",
       "rol": "Profeta de la corte davídica",
-      "periodo": "Activo c. 1000–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Junto con el sacerdote Sadoc, dirige la ceremonia de unción de Salomón en Guijón, asegurando la legitimidad religiosa de la sucesión frente a la maniobra de Adonías.",
       "referencias": [
         "1 Re 1:32-45"
@@ -114,7 +114,7 @@
       "nombre": "Ezequías",
       "emoji": "⛏️",
       "rol": "Rey de Judá, constructor del túnel hidráulico",
-      "periodo": "c. 715–686 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ordena tapar las salidas externas del manantial de Guijón y canalizar su agua hacia el interior de la ciudad mediante un túnel subterráneo, asegurando el abastecimiento durante el asedio asirio.",
       "referencias": [
         "2 Cr 32:2-4",

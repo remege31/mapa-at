@@ -102,7 +102,7 @@
       "nombre": "David",
       "emoji": "👑",
       "rol": "Rey fundador de la dinastía davídica",
-      "periodo": "c. 1010–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Pastor de Belén que se convierte en rey. Conquista Jerusalén y la establece como capital política y religiosa. Su reinado marca el apogeo territorial del reino unido de Israel.",
       "referencias": [
         "2 Sam 5:1-25",
@@ -120,7 +120,7 @@
       "nombre": "Salomón",
       "emoji": "🏛",
       "rol": "Rey constructor — Primer Templo",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Hijo de David, símbolo de la sabiduría israelita. Constructor del Primer Templo y organizador del estado. Su reinado representa el apogeo de la monarquía unida antes de la división del reino.",
       "referencias": [
         "1 Re 3:1-28",
@@ -136,7 +136,7 @@
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta del período pre-exílico",
-      "periodo": "c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Profeta que vivió y predicó durante la destrucción de Jerusalén. Testigo directo del colapso del reino de Judá. Sus lamentaciones son el testimonio más íntimo del trauma del Exilio babilónico.",
       "referencias": [
         "Jr 1:1-19",
@@ -146,7 +146,7 @@
       ],
       "ruta": [
         "jerusalen",
-        "anatot"
+        "anathoth"
       ]
     }
   ],

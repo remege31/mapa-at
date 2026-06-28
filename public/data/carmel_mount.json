@@ -82,14 +82,14 @@
       "nombre": "Elías",
       "emoji": "🔥",
       "rol": "Profeta de Israel",
-      "periodo": "Activo c. 870–850 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Protagoniza en el Carmelo la confrontación religiosa más decisiva de todo su ministerio, demostrando públicamente mediante el fuego descendido del cielo la exclusividad de YHWH frente al culto institucionalizado a Baal.",
       "referencias": [
         "1 Re 18:17-40"
       ],
       "ruta": [
-        "querit",
-        "sarepta",
+        "jabbok",
+        "sidon",
         "carmel_mount"
       ]
     },
@@ -113,7 +113,7 @@
       "nombre": "Profetas de Baal",
       "emoji": "💀",
       "rol": "Sacerdotes derrotados y ejecutados",
-      "periodo": "c. 860 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Tras el fracaso público de su intercesión ante Baal y la manifestación inequívoca del poder de YHWH, son capturados y ejecutados por orden de Elías en el torrente de Cisón.",
       "referencias": [
         "1 Re 18:40"

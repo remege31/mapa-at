@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad sacerdotal, masacre de Saúl" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad sacerdotal, masacre de Saúl"
+    }
   ],
   "descripcion_geo": "Ciudad sacerdotal situada en una elevación próxima a Jerusalén, lo bastante cerca como para ser visible desde la ciudad (mencionada por el profeta Isaías como punto de visión hacia Jerusalén). Sede temporal del tabernáculo y de una numerosa comunidad de sacerdotes tras la destrucción de Silo.",
   "altitud_m": 770,
@@ -40,24 +44,39 @@
       "titulo": "David recibe pan consagrado y la espada de Goliat en Nob",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Huyendo de Saúl, David llega a Nob, engaña al sacerdote Ahimelec haciéndole creer que cumple una misión real secreta, recibe el pan de la proposición —reservado normalmente solo a los sacerdotes— y la espada de Goliat, guardada allí como reliquia.",
-      "referencias": ["1 Sam 21:1-9"],
-      "personajes_clave": ["david", "ahimelec"]
+      "referencias": [
+        "1 Sam 21:1-9"
+      ],
+      "personajes_clave": [
+        "david",
+        "ahimelec"
+      ]
     },
     {
       "id": "doeg-testigo-nob",
       "titulo": "Doeg el edomita presencia el encuentro",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Doeg, jefe de los pastores de Saúl, se encuentra retenido aquel día ante YHWH en Nob y es testigo del encuentro entre David y Ahimelec, información que después comunicará a Saúl con consecuencias fatales para los sacerdotes.",
-      "referencias": ["1 Sam 21:7", "1 Sam 22:9-10"],
-      "personajes_clave": ["ahimelec"]
+      "referencias": [
+        "1 Sam 21:7",
+        "1 Sam 22:9-10"
+      ],
+      "personajes_clave": [
+        "ahimelec"
+      ]
     },
     {
       "id": "masacre-sacerdotes-nob",
       "titulo": "La masacre de los sacerdotes de Nob",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Saúl, informado por Doeg, ordena ejecutar a Ahimelec y a toda su familia sacerdotal por haber ayudado a David; cuando sus propios guardias se niegan a alzar la mano contra los sacerdotes de YHWH, Doeg el edomita ejecuta personalmente a ochenta y cinco hombres con efod de lino y pasa a espada a toda la ciudad de Nob, incluyendo mujeres, niños y ganado.",
-      "referencias": ["1 Sam 22:11-19"],
-      "personajes_clave": ["saul", "ahimelec"]
+      "referencias": [
+        "1 Sam 22:11-19"
+      ],
+      "personajes_clave": [
+        "saul",
+        "ahimelec"
+      ]
     }
   ],
   "personajes": [
@@ -68,18 +87,30 @@
       "rol": "Sumo sacerdote de Nob",
       "periodo": "c. 1015 a.C.",
       "descripcion": "Sacerdote de la línea de Elí que entrega a David el pan consagrado y la espada de Goliat sin sospechar que ayuda a un fugitivo de Saúl; pagará esta ayuda con su vida y la de toda su comunidad sacerdotal.",
-      "referencias": ["1 Sam 21:1-9", "1 Sam 22:9-19"],
-      "ruta": ["nob"]
+      "referencias": [
+        "1 Sam 21:1-9",
+        "1 Sam 22:9-19"
+      ],
+      "ruta": [
+        "nob"
+      ]
     },
     {
       "id": "david_nob",
       "nombre": "David",
       "emoji": "🗡️",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Llega solo y desarmado a Nob durante su huida, obtiene provisión y un arma simbólicamente cargada de significado (la espada del gigante que él mismo derrotó), sin prever que su paso por la ciudad desencadenará la masacre de sus habitantes.",
-      "referencias": ["1 Sam 21:1-9", "1 Sam 22:20-23"],
-      "ruta": ["naioth", "nob", "gat"]
+      "referencias": [
+        "1 Sam 21:1-9",
+        "1 Sam 22:20-23"
+      ],
+      "ruta": [
+        "naioth",
+        "nob",
+        "gath"
+      ]
     },
     {
       "id": "doeg_edomita",
@@ -88,8 +119,14 @@
       "rol": "Jefe de los pastores de Saúl, ejecutor de la masacre",
       "periodo": "c. 1015 a.C.",
       "descripcion": "Servidor extranjero de Saúl que delata a Ahimelec y posteriormente ejecuta personalmente a los sacerdotes de Nob cuando los propios guardias israelitas del rey se niegan a hacerlo, episodio recordado en el Salmo 52 como ejemplo de traición violenta.",
-      "referencias": ["1 Sam 21:7", "1 Sam 22:9-19", "Sal 52:1-9"],
-      "ruta": ["nob"]
+      "referencias": [
+        "1 Sam 21:7",
+        "1 Sam 22:9-19",
+        "Sal 52:1-9"
+      ],
+      "ruta": [
+        "nob"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +138,11 @@
       {
         "id": "masacre-sacerdotes-nob-mito",
         "nombre": "La masacre de los sacerdotes de Nob como juicio sobre la casa de Elí",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 22:6-19",
           "fuente_secundaria": "Talmud Babilónico, Yoma 22b (discusión sobre la culpa de Saúl y Doeg en la masacre)",
@@ -124,5 +165,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

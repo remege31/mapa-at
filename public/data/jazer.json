@@ -7,7 +7,11 @@
   "frecuencia_at": 12,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquistada a los amorreos, asignada a Gad" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquistada a los amorreos, asignada a Gad"
+    }
   ],
   "descripcion_geo": "Ciudad en Galaad, en territorio amorreo conquistado por Israel, asignada posteriormente a la tribu de Gad y designada también ciudad levítica, conocida en el texto bíblico por la fertilidad de su región circundante, especialmente apta para el pastoreo y la viticultura.",
   "altitud_m": 750,
@@ -40,7 +44,9 @@
       "titulo": "Israel toma Jazer antes de la batalla contra Sehón",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Israel envía exploradores que toman Jazer y sus aldeas, expulsando a los amorreos que allí habitaban, episodio que precede a la batalla decisiva de Yahas contra el grueso del ejército de Sehón.",
-      "referencias": ["Núm 21:32"],
+      "referencias": [
+        "Núm 21:32"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,16 +54,27 @@
       "titulo": "Rubén y Gad solicitan Jazer por sus pastos",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Al ver que la tierra de Jazer y Galaad era apta para el ganado, las tribus de Rubén y Gad, que poseían numeroso ganado, solicitan a Moisés establecerse en esta región de la Transjordania en lugar de recibir herencia al otro lado del Jordán, petición que Moisés finalmente concede bajo la condición de que sus guerreros crucen primero a luchar junto a las demás tribus.",
-      "referencias": ["Núm 32:1-5", "Núm 32:34-36"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 32:1-5",
+        "Núm 32:34-36"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "isaias-jeremias-vinedos-jazer",
       "titulo": "Los viñedos de Jazer en los oráculos proféticos contra Moab",
       "fecha": "c. 740–600 a.C.",
       "descripcion": "Tanto Isaías como Jeremías mencionan los viñedos de Jazer en sus respectivos oráculos de lamento contra Moab, vinculando la fertilidad histórica de la región —ahora bajo control o influencia moabita— con la pérdida anunciada de su prosperidad agrícola.",
-      "referencias": ["Is 16:8-9", "Jer 48:32"],
-      "personajes_clave": ["isaias", "jeremias"]
+      "referencias": [
+        "Is 16:8-9",
+        "Jer 48:32"
+      ],
+      "personajes_clave": [
+        "isaias",
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -66,9 +83,11 @@
       "nombre": "Moisés",
       "emoji": "🐑",
       "rol": "Líder de Israel",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Concede la petición de Rubén y Gad de establecerse en la región de Jazer y Galaad por su idoneidad pastoril, bajo la condición de que sus guerreros participen primero en la conquista de Canaán junto a las demás tribus.",
-      "referencias": ["Núm 32:1-33"],
+      "referencias": [
+        "Núm 32:1-33"
+      ],
       "ruta": []
     },
     {
@@ -78,7 +97,10 @@
       "rol": "Poseedores de la región fértil de Jazer",
       "periodo": "Desde c. 1400 a.C.",
       "descripcion": "Solicitan y reciben Jazer como parte de su herencia territorial en la Transjordania, aprovechando la fertilidad de sus tierras de pastoreo y, posteriormente, sus viñedos.",
-      "referencias": ["Núm 32:1-5", "Núm 32:34-36"],
+      "referencias": [
+        "Núm 32:1-5",
+        "Núm 32:34-36"
+      ],
       "ruta": []
     },
     {
@@ -88,8 +110,13 @@
       "rol": "Profetas de Judá",
       "periodo": "c. 740–600 a.C.",
       "descripcion": "Lamentan en sus respectivos oráculos la pérdida de la prosperidad vitivinícola de Jazer como parte del juicio anunciado contra el territorio moabita que había recuperado la región.",
-      "referencias": ["Is 16:8-9", "Jer 48:32"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 16:8-9",
+        "Jer 48:32"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +130,11 @@
       {
         "id": "peticion-tierra-pastoril-jazer",
         "nombre": "La petición de tierra pastoril de Rubén y Gad como precedente de negociación territorial",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 32:1-33",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la negociación entre Moisés y las tribus de Rubén y Gad como modelo de diálogo entre necesidades particulares y responsabilidad colectiva",
@@ -118,5 +149,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

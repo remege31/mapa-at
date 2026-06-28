@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad vitivinícola de Rubén" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad vitivinícola de Rubén"
+    }
   ],
   "descripcion_geo": "Ciudad en el altiplano de Moab, próxima a Hesbón, célebre en el texto bíblico por sus extensos viñedos. Su entorno de meseta fértil favorecía especialmente el cultivo de la vid, característica que la distingue de otras ciudades vecinas mencionadas principalmente por motivos militares o administrativos.",
   "altitud_m": 850,
@@ -39,7 +43,10 @@
       "titulo": "Sibmá asignada a la tribu de Rubén",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la conquista del territorio de Sehón, Sibmá se incluye entre las ciudades reconstruidas y asignadas a la tribu de Rubén en el reparto de la Transjordania.",
-      "referencias": ["Núm 32:38", "Jos 13:19"],
+      "referencias": [
+        "Núm 32:38",
+        "Jos 13:19"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,16 +54,24 @@
       "titulo": "Isaías llora por los viñedos de Sibmá",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías dedica una imagen especialmente vívida a los viñedos de Sibmá en su oráculo de juicio contra Moab, describiendo cómo regará la ciudad con sus lágrimas por la destrucción de sus sarmientos, que habían llegado hasta el mar Muerto y hasta Jazer.",
-      "referencias": ["Is 16:8-9"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 16:8-9"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "jeremias-vendimia-sibma",
       "titulo": "Jeremías profetiza el fin de la vendimia en Sibmá",
       "fecha": "c. 600 a.C.",
       "descripcion": "Jeremías retoma la imagen de Isaías sobre los viñedos de Sibmá, anunciando que el devastador caerá sobre sus frutos y vendimia, y que el grito de la destrucción llegará hasta Jazer, en un lamento poético que utiliza la pérdida de la cosecha como símbolo central del juicio sobre Moab.",
-      "referencias": ["Jer 48:32-33"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 48:32-33"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     }
   ],
   "personajes": [
@@ -67,7 +82,9 @@
       "rol": "Poseedores de los viñedos de Sibmá",
       "periodo": "c. 1400–1000 a.C.",
       "descripcion": "Tribu beneficiaria de la fértil región vitivinícola de Sibmá tras la conquista del territorio amorreo, cuya prosperidad agrícola se convertiría siglos después en tema central de los oráculos proféticos de lamento.",
-      "referencias": ["Núm 32:38"],
+      "referencias": [
+        "Núm 32:38"
+      ],
       "ruta": []
     },
     {
@@ -77,18 +94,26 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Compone una de las imágenes poéticas más conmovedoras de todo el oráculo contra Moab al describir su propio llanto por la destrucción de los viñedos de Sibmá.",
-      "referencias": ["Is 16:8-9"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 16:8-9"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "jeremias_sibma",
       "nombre": "Jeremías",
       "emoji": "🍷",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Retoma y desarrolla la imagen de la vendimia perdida de Sibmá, integrándola en su extenso oráculo de juicio sobre la totalidad del territorio moabita.",
-      "referencias": ["Jer 48:32-33"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 48:32-33"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +126,11 @@
       {
         "id": "llanto-profeta-sibma",
         "nombre": "El llanto del profeta por los viñedos de Sibmá",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 16:9; Jer 48:32",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la compasión profética incluso hacia las naciones objeto de juicio divino",
@@ -116,5 +145,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

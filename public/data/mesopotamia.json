@@ -125,7 +125,7 @@
       "nombre": "Abraham",
       "emoji": "⛺",
       "rol": "Patriarca — origen en Ur de Caldea",
-      "periodo": "c. 2000–1800 a.C. (trad.)",
+      "periodo": "bronce_medio",
       "descripcion": "Natural de Ur, ciudad sumeria en el sur de Mesopotamia. Su llamada y partida hacia Canaán es el acto fundacional de la historia bíblica. Mesopotamia es su tierra de origen — Canaán, su tierra de destino.",
       "referencias": [
         "Gén 11:28-31",
@@ -143,7 +143,7 @@
       "nombre": "Daniel",
       "emoji": "🦁",
       "rol": "Profeta en la corte babilónica",
-      "periodo": "c. 605–536 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Joven judío deportado a Babilonia que sirve en la corte de Nabucodonosor. Interpreta sueños y visiones. Su libro es el texto apocalíptico más influyente del AT y refleja la experiencia de la diáspora mesopotámica.",
       "referencias": [
         "Dn 1:1-21",
@@ -160,7 +160,7 @@
       "nombre": "Ezequiel",
       "emoji": "🔥",
       "rol": "Profeta del Exilio en Babilonia",
-      "periodo": "c. 593–571 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Sacerdote deportado que profetiza entre los exiliados en el río Quebar (Mesopotamia). Sus visiones (la carroza divina, el valle de los huesos secos, el nuevo Templo) son los textos más visionarios del profetismo bíblico.",
       "referencias": [
         "Ez 1:1-28",

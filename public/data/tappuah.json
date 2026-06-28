@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad en la frontera entre Efraín y Manasés" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad en la frontera entre Efraín y Manasés"
+    }
   ],
   "descripcion_geo": "Ciudad cananea en la región central de Canaán, situada en la frontera entre los territorios de Efraín y Manasés, cuyo nombre ('manzana' o 'región de manzanas') sugiere la fertilidad agrícola del entorno inmediato.",
   "altitud_m": 450,
@@ -39,15 +43,22 @@
       "titulo": "Josué derrota al rey de Tapúa",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tapúa aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus como ciudad-estado independiente antes de la ocupación israelita.",
-      "referencias": ["Jos 12:17"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 12:17"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "tapua-frontera-efrain-manases",
       "titulo": "Tapúa en la frontera entre Efraín y Manasés",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "El libro de Josué especifica la situación particular de Tapúa: la ciudad pertenece a Manasés, pero la tierra de Tapúa que la rodea queda asignada a los hijos de Efraín, reflejando los ajustes complejos del reparto territorial entre tribus vecinas.",
-      "referencias": ["Jos 16:8", "Jos 17:8"],
+      "referencias": [
+        "Jos 16:8",
+        "Jos 17:8"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,7 +66,9 @@
       "titulo": "Tapúa confirmada como punto de referencia fronterizo",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "La ciudad y su territorio se mencionan repetidamente en la descripción detallada de los límites tribales del centro de Canaán, sirviendo como punto de referencia geográfico estable para definir la frontera entre Efraín y Manasés.",
-      "referencias": ["Jos 17:7-8"],
+      "referencias": [
+        "Jos 17:7-8"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,9 +78,13 @@
       "nombre": "Josué",
       "emoji": "🗺️",
       "rol": "Líder militar y organizador del reparto territorial",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Derrota al rey cananeo de Tapúa y posteriormente organiza la compleja asignación territorial de la ciudad y su entorno entre las tribus de Efraín y Manasés.",
-      "referencias": ["Jos 12:17", "Jos 16:8", "Jos 17:8"],
+      "referencias": [
+        "Jos 12:17",
+        "Jos 16:8",
+        "Jos 17:8"
+      ],
       "ruta": []
     },
     {
@@ -77,7 +94,9 @@
       "rol": "Poseedores de la tierra de Tapúa",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Recibe el territorio agrícola circundante a Tapúa, aunque la ciudad misma queda formalmente asignada a Manasés, situación particular del reparto fronterizo.",
-      "referencias": ["Jos 16:8"],
+      "referencias": [
+        "Jos 16:8"
+      ],
       "ruta": []
     },
     {
@@ -87,7 +106,9 @@
       "rol": "Poseedores de la ciudad de Tapúa",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Recibe la ciudad de Tapúa propiamente dicha, aunque las tierras agrícolas circundantes pertenecen a Efraín, ejemplo del entrelazamiento territorial entre ambas tribus hermanas.",
-      "referencias": ["Jos 17:7-8"],
+      "referencias": [
+        "Jos 17:7-8"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +122,11 @@
       {
         "id": "frontera-compleja-tapua-tribus",
         "nombre": "La complejidad fronteriza de Tapúa entre tribus hermanas",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 16:8; Jos 17:7-8",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la división detallada de territorios entre Efraín y Manasés, ambas tribus descendientes de José, como ejemplo de la precisión legal del sistema de reparto territorial mosaico",
@@ -116,5 +141,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

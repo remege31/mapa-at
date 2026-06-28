@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad siria conquistada por Asiria" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad siria conquistada por Asiria"
+    }
   ],
   "descripcion_geo": "Ciudad-estado aramea en el norte de Siria, conquistada por el imperio asirio, mencionada repetidamente en los discursos de propaganda militar asiria como ejemplo de ciudad poderosa cuyos dioses no pudieron salvarla de la conquista, usada como argumento intimidatorio contra Jerusalén durante la invasión de Senaquerib.",
   "altitud_m": 450,
@@ -39,15 +43,22 @@
       "titulo": "Isaías menciona a Arpad en su denuncia de la soberbia asiria",
       "fecha": "c. 715 a.C.",
       "descripcion": "El profeta Isaías cita las propias palabras jactanciosas del rey asirio, quien compara la conquista de Calno, Carquemis, Hamat, Arpad, Samaria y Damasco como evidencia de su poder absoluto, denunciando esta soberbia como el verdadero pecado que YHWH castigará en el imperio asirio.",
-      "referencias": ["Is 10:9"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 10:9"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "rabsaces-amenaza-arpad",
       "titulo": "El Rabsaces cita a Arpad para intimidar a Jerusalén",
       "fecha": "c. 701 a.C.",
       "descripcion": "Durante el asedio de Senaquerib contra Jerusalén, su oficial el Rabsaces pronuncia un discurso de propaganda militar dirigido al pueblo, preguntando retóricamente dónde están los dioses de Hamat y de Arpad que no pudieron salvar a estas ciudades, argumento usado para sugerir que YHWH tampoco podría salvar a Jerusalén.",
-      "referencias": ["2 Re 18:34", "Is 36:19"],
+      "referencias": [
+        "2 Re 18:34",
+        "Is 36:19"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,8 +66,14 @@
       "titulo": "Ezequías recibe carta repitiendo la amenaza sobre Arpad",
       "fecha": "c. 701 a.C.",
       "descripcion": "Senaquerib envía una carta directa a Ezequías repitiendo el mismo argumento sobre la inutilidad de la resistencia, citando nuevamente a Arpad y otras ciudades conquistadas; Ezequías lleva la carta al Templo y ora directamente a YHWH, recibiendo a través de Isaías la promesa de liberación que efectivamente se cumple.",
-      "referencias": ["2 Re 19:9-13", "2 Re 19:35-36"],
-      "personajes_clave": ["ezequias", "isaias"]
+      "referencias": [
+        "2 Re 19:9-13",
+        "2 Re 19:35-36"
+      ],
+      "personajes_clave": [
+        "ezequias",
+        "isaias"
+      ]
     }
   ],
   "personajes": [
@@ -67,18 +84,27 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Cita la jactancia asiria sobre Arpad y otras ciudades conquistadas como evidencia de la soberbia que YHWH finalmente castigará en el propio imperio asirio.",
-      "referencias": ["Is 10:5-19"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 10:5-19"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "ezequias_arpad",
       "nombre": "Ezequías",
       "emoji": "🙏",
       "rol": "Rey de Judá",
-      "periodo": "c. 715–686 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Enfrenta directamente la amenaza propagandística asiria que cita a Arpad como precedente, respondiendo con oración confiada en el Templo en lugar de capitulación, lo que resulta en la liberación milagrosa de Jerusalén.",
-      "referencias": ["2 Re 19:1-19", "2 Re 19:35-36"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Re 19:1-19",
+        "2 Re 19:35-36"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "senaquerib_arpad",
@@ -87,7 +113,10 @@
       "rol": "Rey de Asiria",
       "periodo": "c. 705–681 a.C.",
       "descripcion": "Utiliza el precedente de Arpad y otras ciudades conquistadas como argumento de propaganda militar para intentar intimidar a Jerusalén durante su campaña contra Judá.",
-      "referencias": ["2 Re 18:34", "2 Re 19:9-13"],
+      "referencias": [
+        "2 Re 18:34",
+        "2 Re 19:9-13"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +131,11 @@
       {
         "id": "soberbia-asiria-arpad-juicio",
         "nombre": "La soberbia asiria ejemplificada en la conquista de Arpad como causa de su propio juicio",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 10:5-19; 2 Re 19:9-13, 35-36",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el contraste deliberado entre la jactancia asiria citando ciudades como Arpad y el desenlace final de la liberación milagrosa de Jerusalén",
@@ -117,5 +150,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

@@ -87,14 +87,14 @@
       "nombre": "David",
       "emoji": "🏃",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Tras escapar de un intento de asesinato directo en su propia casa, busca refugio junto a Samuel en Naioth, en uno de los primeros episodios de su huida prolongada de la persecución de Saúl.",
       "referencias": [
         "1 Sam 19:18-24"
       ],
       "ruta": [
-        "gabaa",
-        "ramá",
+        "gibeah",
+        "ramah",
         "naioth"
       ]
     },
@@ -103,13 +103,13 @@
       "nombre": "Samuel",
       "emoji": "📯",
       "rol": "Profeta y juez, líder de la comunidad profética de Naioth",
-      "periodo": "Activo hasta c. 1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Dirige la comunidad de profetas de Naioth y recibe a David fugitivo, presidiendo el episodio en que tanto los mensajeros de Saúl como el propio rey son sobrecogidos por el Espíritu profético.",
       "referencias": [
         "1 Sam 19:18-24"
       ],
       "ruta": [
-        "ramá",
+        "ramah",
         "naioth"
       ]
     },
@@ -118,14 +118,14 @@
       "nombre": "Saúl",
       "emoji": "👑",
       "rol": "Primer rey de Israel",
-      "periodo": "c. 1050–1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Persigue personalmente a David hasta Naioth tras el fracaso de tres grupos de mensajeros; es sobrecogido por el Espíritu de Dios y profetiza desnudo, episodio que marca un punto culminante de su deterioro como figura real frente a la autoridad profética de Samuel.",
       "referencias": [
         "1 Sam 19:22-24"
       ],
       "ruta": [
-        "gabaa",
-        "ramá",
+        "gibeah",
+        "ramah",
         "naioth"
       ]
     }

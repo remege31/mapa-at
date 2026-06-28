@@ -8,11 +8,27 @@
   "frecuencia_at": 28,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad gabaonita en la frontera Judá-Benjamín" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Custodia del arca durante veinte años" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza del reino de Judá" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad gabaonita en la frontera Judá-Benjamín"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Custodia del arca durante veinte años"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad fronteriza del reino de Judá"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Kiriath-jearim (hebreo: קִרְיַת יְעָרִים, 'ciudad de los bosques') era una ciudad en la frontera entre Judá y Benjamín, a unos 13 km al noroeste de Jerusalén. Identificada con Tell el-Azhar (Abu Ghosh), en las colinas boscosas que dominan el acceso a Jerusalén desde la costa. Era una de las cuatro ciudades gabaonitas que engañaron a Josué con su fingida lejanía (Jos 9). Llamada también Baalá (Jos 15:9) y Quiriat-baal, lo que sugiere la presencia de un santuario de Baal en las colinas boscosas antes de la llegada del arca. Su posición en la ruta Jaffa-Jerusalén la convirtió en punto estratégico en todos los períodos históricos.",
   "altitud_m": 700,
   "clima": "Mediterráneo montañoso — precipitaciones de 600-650 mm anuales (de las más altas de la región), veranos frescos por la altitud, inviernos fríos con posible nieve. Los bosques que dan nombre a la ciudad ('yaarim' = bosques) reflejan la vegetación densa de estas colinas.",
@@ -46,24 +62,45 @@
       "titulo": "El arca en Kiriath-jearim: veinte años de custodia silenciosa",
       "fecha": "c. 1050 a.C.",
       "descripcion": "Tras los desastres del arca en Filistea y la muerte de los que la miraron en Beth-shemesh, los habitantes de Beth-shemesh enviaron mensajeros a Kiriath-jearim: 'Los filisteos han devuelto el arca de Yahvé; venid a recogerla.' Los hombres de Kiriath-jearim vinieron y la llevaron a la casa de Abinadab en la colina. Consagraron a su hijo Eleazar para custodiarla. El arca permaneció en Kiriath-jearim durante veinte años, tiempo en que toda la casa de Israel lamentaba tras Yahvé. El texto es notable por lo que no dice: no hay milagros, no hay consultas, no hay procesiones. El arca reposa en silencio en una casa particular de una ciudad menor, esperando. Samuel convocó a Israel en Mispá para una renovación espiritual colectiva. Esta larga espera silenciosa contrasta con la dramática historia del arca en Filistea y con la procesión festiva posterior de David.",
-      "referencias": ["1 Sam 7:1-2", "1 Sam 6:21-7:1", "2 Sam 6:2-3"],
-      "personajes_clave": ["eleazar-abinadab", "samuel-kiriath"]
+      "referencias": [
+        "1 Sam 7:1-2",
+        "1 Sam 6:21-7:1",
+        "2 Sam 6:2-3"
+      ],
+      "personajes_clave": [
+        "eleazar-abinadab",
+        "samuel-kiriath"
+      ]
     },
     {
       "id": "david-traslada-arca",
       "titulo": "David traslada el arca desde Kiriath-jearim: la alegría y la muerte de Uzá",
       "fecha": "c. 1000 a.C.",
       "descripcion": "David reunió a treinta mil hombres escogidos de Israel y fue a buscar el arca de Dios desde Quiriat-jearim, llamada por el nombre de Yahvé de los ejércitos que tiene su trono sobre los querubines. Pusieron el arca en un carro nuevo conducido por Uzá y Ahío, hijos de Abinadab. David y todo Israel danzaban ante Yahvé con toda clase de instrumentos. Cuando llegaron a la era de Nacón, los bueyes tropezaron; Uzá extendió la mano al arca para sujetarla. La ira de Yahvé se encendió contra Uzá y lo hirió allí mismo. David se enojó porque Yahvé había herido a Uzá — temió al arca y no quiso llevarla a Jerusalén. La depositó en casa de Obed-edom el gitita tres meses. Cuando David supo que Yahvé bendecía a Obed-edom, fue a buscar el arca con gran alegría y la trajo a Jerusalén danzando.",
-      "referencias": ["2 Sam 6:1-23", "2 Sam 6:6-8", "1 Cr 13:1-14"],
-      "personajes_clave": ["david-kiriath", "uza", "eleazar-abinadab"]
+      "referencias": [
+        "2 Sam 6:1-23",
+        "2 Sam 6:6-8",
+        "1 Cr 13:1-14"
+      ],
+      "personajes_clave": [
+        "david-kiriath",
+        "uza",
+        "eleazar-abinadab"
+      ]
     },
     {
       "id": "urias-kiriath-profeta",
       "titulo": "Urías de Kiriath-jearim: el profeta ejecutado por Joyaquim",
       "fecha": "c. 608 a.C.",
       "descripcion": "Urías ben Semaías, de Kiriath-jearim, profetizó en los mismos términos que Jeremías sobre Jerusalén y el territorio de Judá. Cuando el rey Joyaquim y sus oficiales lo oyeron, buscaron matarlo. Urías tuvo miedo y huyó a Egipto. El rey Joyaquim envió una comisión a Egipto encabezada por Elnatán ben Acbor, que trajo a Urías de vuelta. Joyaquim lo mató a espada y arrojó su cadáver en las tumbas del pueblo común. El episodio es narrado por Jeremías precisamente para mostrar el contraste con su propio caso: Urías fue matado; Jeremías fue protegido por el príncipe Ajicam ben Safán. Kiriath-jearim produjo así tanto al custodio del arca (Eleazar) como al profeta mártir (Urías) — ciudad de santidad y de sangre inocente.",
-      "referencias": ["Jer 26:20-23", "Jer 26:24"],
-      "personajes_clave": ["urias-profeta", "joyaquim"]
+      "referencias": [
+        "Jer 26:20-23",
+        "Jer 26:24"
+      ],
+      "personajes_clave": [
+        "urias-profeta",
+        "joyaquim"
+      ]
     }
   ],
   "personajes": [
@@ -74,7 +111,10 @@
       "rol": "Custodio consagrado del arca durante veinte años en Kiriath-jearim",
       "periodo": "c. 1050–1010 a.C.",
       "descripcion": "Eleazar ben Abinadab es el personaje anónimo más significativo de toda la historia del arca: el hombre que la custodió durante veinte años en el silencio de una casa particular en Kiriath-jearim. El texto no dice si era levita, si cumplió rituales especiales, si consultó el arca alguna vez. Solo que fue 'consagrado' para guardarla. Sus hermanos Uzá y Ahío la transportaron después hasta Jerusalén — Uzá murió al tocarla. El contraste entre la vida tranquila de Eleazar como custodio y la muerte repentina de Uzá en movimiento subraya que la santidad del arca exige formas específicas de relación: la custodia estática fue segura; el transporte descuidado fue mortal.",
-      "referencias": ["1 Sam 7:1", "2 Sam 6:3-4"],
+      "referencias": [
+        "1 Sam 7:1",
+        "2 Sam 6:3-4"
+      ],
       "ruta": []
     },
     {
@@ -84,7 +124,11 @@
       "rol": "Hijo de Abinadab, muerto por extender la mano al arca",
       "periodo": "c. 1000 a.C.",
       "descripcion": "Uzá ben Abinadab es el personaje cuya muerte repentina al tocar el arca para estabilizarla se convirtió en uno de los textos más debatidos del AT sobre la santidad divina. El texto dice que extendió la mano porque los bueyes habían tropezado — un gesto de cuidado, no de irreverencia deliberada. Sin embargo, la ira divina lo fulminó. Los comentaristas bíblicos han debatido durante siglos: ¿fue castigado por el acto en sí (tocar lo prohibido) o por la negligencia previa de usar un carro en lugar de portar el arca en hombros de levitas? David mismo se enojó con Dios y luego temió al arca. La muerte de Uzá fue el detonante de la pausa de tres meses en Obed-edom y de la reorganización litúrgica que David emprendió antes del segundo intento.",
-      "referencias": ["2 Sam 6:3-8", "1 Cr 13:7-10", "1 Cr 15:2"],
+      "referencias": [
+        "2 Sam 6:3-8",
+        "1 Cr 13:7-10",
+        "1 Cr 15:2"
+      ],
       "ruta": []
     },
     {
@@ -92,10 +136,15 @@
       "nombre": "Urías de Kiriath-jearim",
       "emoji": "📜",
       "rol": "Profeta mártir, ejecutado por Joyaquim rey de Judá",
-      "periodo": "c. 608 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Urías ben Semaías es el único profeta del AT cuya ejecución por un rey israelita está documentada explícitamente. Profetizó en los mismos términos que Jeremías — juicio sobre Jerusalén y Judá — en el mismo período. A diferencia de Jeremías, que fue protegido por el príncipe Ajicam, Urías no tuvo protector: huyó a Egipto, fue extraditado y ejecutado. Su cadáver fue tratado con desprecio (tumba del pueblo común, no sepulcro de profeta). El episodio, narrado por Jeremías, sirve para subrayar que el mensaje profético de juicio era genuino — lo respaldó un hombre con su vida — y que la supervivencia de Jeremías fue gracia divina, no mérito propio.",
-      "referencias": ["Jer 26:20-23"],
-      "ruta": ["kiriath_jearim", "jerusalen"]
+      "referencias": [
+        "Jer 26:20-23"
+      ],
+      "ruta": [
+        "kiriath_jearim",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -108,7 +157,11 @@
       {
         "id": "arca-presencia-silenciosa",
         "nombre": "El arca en custodia: la presencia divina que espera",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 7:1-2; 2 Sam 6:1-15; 1 Cr 13:1-14",
           "fuente_secundaria": "Talmud Bavli, Sota 35a; Maimonides, Mishné Torá, Hiljot Bet HaBejirá 4:1",

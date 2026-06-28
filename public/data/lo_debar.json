@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Refugio de Mefiboset" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Refugio de Mefiboset"
+    }
   ],
   "descripcion_geo": "Ciudad en Galaad, conocida exclusivamente como lugar de refugio temporal de Mefiboset, hijo de Jonatán y nieto de Saúl, durante el período posterior a la muerte de la familia real saulida.",
   "altitud_m": 350,
@@ -39,24 +43,38 @@
       "titulo": "Mefiboset se refugia en Lo-debar tras la muerte de Saúl",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Tras la muerte de Saúl y Jonatán en Gilboa, Mefiboset, hijo de Jonatán de cinco años de edad y discapacitado en ambos pies tras una caída durante la huida de su nodriza, encuentra refugio en casa de Maquir hijo de Amiel en Lo-debar.",
-      "referencias": ["2 Sam 4:4", "2 Sam 9:4"],
-      "personajes_clave": ["mefiboset"]
+      "referencias": [
+        "2 Sam 4:4",
+        "2 Sam 9:4"
+      ],
+      "personajes_clave": [
+        "mefiboset"
+      ]
     },
     {
       "id": "david-busca-mefiboset-lo-debar",
       "titulo": "David localiza a Mefiboset en Lo-debar",
       "fecha": "c. 1000 a.C.",
       "descripcion": "Deseando mostrar misericordia por causa de su pacto con Jonatán, David pregunta si queda algún superviviente de la casa de Saúl, y se le informa que Mefiboset vive en casa de Maquir en Lo-debar; David lo manda traer a Jerusalén, le restituye las tierras de Saúl y lo invita a comer permanentemente a su mesa real.",
-      "referencias": ["2 Sam 9:1-13"],
-      "personajes_clave": ["david", "mefiboset"]
+      "referencias": [
+        "2 Sam 9:1-13"
+      ],
+      "personajes_clave": [
+        "david",
+        "mefiboset"
+      ]
     },
     {
       "id": "maquir-apoya-david-absalon",
       "titulo": "Maquir de Lo-debar apoya a David durante la rebelión de Absalón",
       "fecha": "c. 975 a.C.",
       "descripcion": "El mismo Maquir que había acogido a Mefiboset reaparece años después como uno de los benefactores que proveen provisiones a David durante su huida de Absalón en Majanaim, demostrando lealtad continuada hacia la casa real pese a los cambios de fortuna política.",
-      "referencias": ["2 Sam 17:27-29"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "2 Sam 17:27-29"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +83,16 @@
       "nombre": "Mefiboset",
       "emoji": "🦽",
       "rol": "Hijo de Jonatán, nieto de Saúl",
-      "periodo": "c. 1015–970 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Encuentra refugio en Lo-debar tras la muerte de su padre y abuelo, hasta ser localizado por David, quien le restituye su honor y posición pese a ser el único descendiente directo superviviente de la dinastía rival.",
-      "referencias": ["2 Sam 4:4", "2 Sam 9:1-13"],
-      "ruta": ["lo_debar", "jerusalen"]
+      "referencias": [
+        "2 Sam 4:4",
+        "2 Sam 9:1-13"
+      ],
+      "ruta": [
+        "lo_debar",
+        "jerusalen"
+      ]
     },
     {
       "id": "maquir_lo_debar_personaje",
@@ -77,18 +101,27 @@
       "rol": "Anfitrión de Mefiboset, benefactor de David",
       "periodo": "c. 1010–975 a.C.",
       "descripcion": "Da refugio inicial a Mefiboset y, años después, provee provisiones decisivas a David durante la rebelión de Absalón, demostrando lealtad sostenida tanto hacia la casa de Saúl como hacia David.",
-      "referencias": ["2 Sam 9:4-5", "2 Sam 17:27-29"],
-      "ruta": ["lo_debar"]
+      "referencias": [
+        "2 Sam 9:4-5",
+        "2 Sam 17:27-29"
+      ],
+      "ruta": [
+        "lo_debar"
+      ]
     },
     {
       "id": "david_lo_debar",
       "nombre": "David",
       "emoji": "🤝",
       "rol": "Rey de Israel",
-      "periodo": "c. 1000 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Busca activamente a un superviviente de la casa de Saúl para cumplir su pacto de lealtad con Jonatán, encontrando a Mefiboset en Lo-debar y restituyéndolo con honor a la corte real.",
-      "referencias": ["2 Sam 9:1-13"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "2 Sam 9:1-13"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -100,7 +133,11 @@
       {
         "id": "misericordia-pacto-mefiboset-lo-debar",
         "nombre": "La misericordia de David hacia Mefiboset como cumplimiento del pacto con Jonatán",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Sam 9:1-13",
           "fuente_secundaria": "Comentario rabínico tradicional sobre el cumplimiento del pacto (berit) entre David y Jonatán como modelo de fidelidad a los compromisos asumidos incluso después de la muerte de quien los hizo",
@@ -123,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

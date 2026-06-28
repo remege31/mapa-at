@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista amorrea, asignada a Rubén" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista amorrea, asignada a Rubén"
+    }
   ],
   "descripcion_geo": "Ciudad en el altiplano de Moab, al este del mar Muerto, capturada por Israel al reino amorreo de Sehón antes de la entrada a Canaán. Su posición en una meseta fértil la hacía un punto de disputa territorial recurrente entre Israel, Moab y Amón.",
   "altitud_m": 760,
@@ -39,7 +43,11 @@
       "titulo": "Medeba en el territorio de Rubén",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la derrota de Sehón, el territorio que incluye la meseta de Medeba es asignado a la tribu de Rubén como parte de la posesión de la Transjordania anterior al cruce del Jordán.",
-      "referencias": ["Núm 21:30", "Jos 13:9", "Jos 13:16"],
+      "referencias": [
+        "Núm 21:30",
+        "Jos 13:9",
+        "Jos 13:16"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,16 +55,25 @@
       "titulo": "Batalla de David contra amonitas y sirios cerca de Medeba",
       "fecha": "c. 990 a.C.",
       "descripcion": "Tras la humillación de los embajadores de David por Hanún, rey de los amonitas, estos contratan mercenarios sirios y se preparan para la guerra; Joab y Abisai derrotan a la coalición en una batalla que las crónicas sitúan en las cercanías de Medeba, frustrando la alianza arameo-amonita contra Israel.",
-      "referencias": ["1 Cr 19:6-15"],
-      "personajes_clave": ["david", "joab"]
+      "referencias": [
+        "1 Cr 19:6-15"
+      ],
+      "personajes_clave": [
+        "david",
+        "joab"
+      ]
     },
     {
       "id": "isaias-oraculo-medeba",
       "titulo": "Medeba en el oráculo de Isaías contra Moab",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías incluye a Medeba entre las ciudades moabitas que serán afectadas por el juicio divino anunciado contra el reino de Moab, confirmando que para esa época la ciudad había vuelto a quedar bajo control o influencia moabita.",
-      "referencias": ["Is 15:2"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 15:2"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     }
   ],
   "personajes": [
@@ -65,10 +82,14 @@
       "nombre": "David",
       "emoji": "⚔️",
       "rol": "Rey de Israel",
-      "periodo": "c. 990 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Envía a Joab y Abisai a enfrentar la coalición de amonitas y mercenarios sirios cerca de Medeba, en una de las campañas que consolidan su control sobre la Transjordania frente a las potencias regionales vecinas.",
-      "referencias": ["1 Cr 19:1-15"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Cr 19:1-15"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "joab_medeba",
@@ -77,8 +98,12 @@
       "rol": "General del ejército de David",
       "periodo": "c. 990 a.C.",
       "descripcion": "Dirige personalmente la batalla contra la coalición de amonitas y sirios cerca de Medeba, dividiendo sus fuerzas estratégicamente entre él mismo y su hermano Abisai para enfrentar el ataque por dos frentes simultáneos.",
-      "referencias": ["1 Cr 19:9-15"],
-      "ruta": ["medeba"]
+      "referencias": [
+        "1 Cr 19:9-15"
+      ],
+      "ruta": [
+        "medeba"
+      ]
     },
     {
       "id": "hanun_medeba",
@@ -87,7 +112,9 @@
       "rol": "Rey amonita, instigador del conflicto",
       "periodo": "c. 990 a.C.",
       "descripcion": "Humilla a los embajadores de David enviados en gesto de condolencia, desencadenando la guerra que culmina en la batalla cerca de Medeba y la posterior campaña de sometimiento de Amón.",
-      "referencias": ["1 Cr 19:1-6"],
+      "referencias": [
+        "1 Cr 19:1-6"
+      ],
       "ruta": []
     }
   ],
@@ -102,7 +129,11 @@
       {
         "id": "frontera-disputada-medeba",
         "nombre": "Medeba como territorio de frontera disputada",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 21:30; 1 Cr 19:6-15; Is 15:2",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la naturaleza cambiante de las fronteras de la Transjordania como recordatorio de la necesidad de vigilancia continua sobre el territorio asignado",
@@ -117,5 +148,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

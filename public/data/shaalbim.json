@@ -7,8 +7,16 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Enclave amorreo en territorio danita" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Distrito administrativo salomónico" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Enclave amorreo en territorio danita"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Distrito administrativo salomónico"
+    }
   ],
   "descripcion_geo": "Ciudad de la Sefelá, próxima a Aijalon, en territorio asignado a Dan pero que permaneció bajo control amorreo durante buena parte del período de los Jueces. Terreno de colinas bajas en la zona de tránsito entre la costa y las montañas centrales.",
   "altitud_m": 220,
@@ -41,7 +49,9 @@
       "titulo": "Sometimiento de los amorreos de Shaalbim",
       "fecha": "c. 1150–1100 a.C.",
       "descripcion": "Los amorreos retienen el control de Har-heres, Aijalon y Shaalbim pese a la asignación tribal danita, hasta que la mano de la casa de José se hace más fuerte sobre ellos y los somete a trabajo forzado, sin lograr expulsarlos completamente del territorio.",
-      "referencias": ["Jue 1:35"],
+      "referencias": [
+        "Jue 1:35"
+      ],
       "personajes_clave": []
     },
     {
@@ -49,16 +59,25 @@
       "titulo": "Shaalbim en el distrito administrativo de Ben-Dequer",
       "fecha": "c. 970–931 a.C.",
       "descripcion": "Salomón organiza el reino en doce distritos administrativos para sostener el abastecimiento de la corte; Shaalbim, junto con Aijalon y Bet-semes, queda integrada en el segundo distrito bajo la responsabilidad de Ben-Dequer.",
-      "referencias": ["1 Re 4:9"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 4:9"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "danitas_mighty_men_shaalbim",
       "titulo": "Elahba el saalbonita, uno de los valientes de David",
       "fecha": "c. 1010–1000 a.C.",
       "descripcion": "Elahba, originario de Shaalbim, figura entre los 'valientes' (gibborim) de David, el círculo de guerreros de élite que acompañó al rey desde antes de su consolidación en el trono, mencionado en las listas cronistas y de Samuel.",
-      "referencias": ["2 Sam 23:32", "1 Cr 11:33"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "2 Sam 23:32",
+        "1 Cr 11:33"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     }
   ],
   "personajes": [
@@ -69,18 +88,27 @@
       "rol": "Uno de los treinta valientes de David",
       "periodo": "c. 1010–970 a.C.",
       "descripcion": "Guerrero originario de Shaalbim incluido en la lista de los 'valientes' de David, el cuerpo de combatientes de élite que sostuvo militarmente el ascenso y consolidación del rey.",
-      "referencias": ["2 Sam 23:32", "1 Cr 11:33"],
-      "ruta": ["shaalbim"]
+      "referencias": [
+        "2 Sam 23:32",
+        "1 Cr 11:33"
+      ],
+      "ruta": [
+        "shaalbim"
+      ]
     },
     {
       "id": "salomon_shaalbim",
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel, organizador administrativo del reino",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Reorganiza el territorio del reino unido en doce distritos de abastecimiento; Shaalbim queda integrada en uno de ellos junto a Aijalon y Bet-semes.",
-      "referencias": ["1 Re 4:7-19"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 4:7-19"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "ben_dequer",
@@ -89,8 +117,12 @@
       "rol": "Funcionario administrativo del distrito de Shaalbim",
       "periodo": "c. 970–931 a.C.",
       "descripcion": "Responsable del segundo distrito administrativo de Salomón, que incluía Shaalbim, Aijalon, Bet-semes y otras ciudades de la Sefelá, encargado de organizar el abastecimiento mensual de la corte.",
-      "referencias": ["1 Re 4:9"],
-      "ruta": ["shaalbim"]
+      "referencias": [
+        "1 Re 4:9"
+      ],
+      "ruta": [
+        "shaalbim"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -103,7 +135,11 @@
       {
         "id": "conquista-incompleta-sefela",
         "nombre": "La conquista incompleta de la Sefelá danita",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 1:34-35",
           "fuente_secundaria": "Comentario rabínico tradicional sobre las listas de conquista incompleta en Jueces 1 como explicación teológica de la coexistencia posterior con pueblos cananeos",
@@ -118,5 +154,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

@@ -7,7 +7,11 @@
   "frecuencia_at": 9,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Batalla decisiva contra Sehón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Batalla decisiva contra Sehón"
+    }
   ],
   "descripcion_geo": "Ciudad en el desierto oriental de Moab, en la frontera del territorio amorreo, escenario de la batalla decisiva entre Israel y Sehón, rey de los amorreos, que abrió el camino a la conquista de toda la Transjordania septentrional.",
   "altitud_m": 750,
@@ -39,23 +43,34 @@
       "titulo": "Sehón niega el paso pacífico y reúne su ejército en Yahas",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Moisés envía mensajeros a Sehón solicitando paso pacífico por su territorio, prometiendo no desviarse ni tocar sus campos; Sehón rehúsa y, en cambio, reúne todo su ejército y sale al encuentro de Israel en el desierto, llegando hasta Yahas para combatir.",
-      "referencias": ["Núm 21:21-23"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 21:21-23"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "derrota-sehon-yahas",
       "titulo": "Israel derrota a Sehón en Yahas",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Israel hiere a Sehón a filo de espada en la batalla de Yahas y toma posesión de toda su tierra desde el Arnón hasta el Jaboc, victoria que se convierte en referencia recurrente en los relatos posteriores como prueba paradigmática del poder de YHWH a favor de Israel en la conquista de la Transjordania.",
-      "referencias": ["Núm 21:23-25", "Deut 2:32-36"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 21:23-25",
+        "Deut 2:32-36"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "jueces-recuerdo-yahas",
       "titulo": "Jefté invoca el recuerdo de la victoria de Yahas",
       "fecha": "c. 1100 a.C. (referencia retrospectiva)",
       "descripcion": "Siglos después, el juez Jefté, en su disputa diplomática con el rey de los amonitas, invoca explícitamente la victoria histórica de Israel sobre Sehón en la región de Yahas como fundamento legítimo de la posesión israelita del territorio en disputa.",
-      "referencias": ["Jue 11:19-22"],
+      "referencias": [
+        "Jue 11:19-22"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,10 +80,14 @@
       "nombre": "Moisés",
       "emoji": "⚔️",
       "rol": "Líder de Israel en la conquista de la Transjordania",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la primera gran victoria territorial decisiva de Israel en Yahas contra Sehón, abriendo el camino para la posesión de todo el territorio amorreo al este del Jordán.",
-      "referencias": ["Núm 21:21-25"],
-      "ruta": ["yahas"]
+      "referencias": [
+        "Núm 21:21-25"
+      ],
+      "ruta": [
+        "jahaz"
+      ]
     },
     {
       "id": "sehon_yahas",
@@ -77,8 +96,12 @@
       "rol": "Rey amorreo derrotado en Yahas",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Rechaza la solicitud de paso pacífico de Israel y es derrotado decisivamente en Yahas, perdiendo todo su reino entre el Arnón y el Jaboc en favor de Israel.",
-      "referencias": ["Núm 21:23-24"],
-      "ruta": ["yahas"]
+      "referencias": [
+        "Núm 21:23-24"
+      ],
+      "ruta": [
+        "jahaz"
+      ]
     },
     {
       "id": "jefte_yahas",
@@ -87,7 +110,9 @@
       "rol": "Juez de Israel, negociador diplomático",
       "periodo": "Activo c. 1100 a.C.",
       "descripcion": "Cita la antigua victoria de Yahas como argumento legal e histórico en su disputa con el rey de los amonitas sobre la legitimidad de la posesión israelita del territorio de la Transjordania.",
-      "referencias": ["Jue 11:12-27"],
+      "referencias": [
+        "Jue 11:12-27"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +126,11 @@
       {
         "id": "primera-victoria-territorial-yahas",
         "nombre": "Yahas como primera gran victoria territorial de Israel",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 21:21-25; Deut 2:32-36; Jue 11:19-22",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la victoria de Yahas como precedente legal citado por Jefté frente a reclamos territoriales posteriores",
@@ -116,5 +145,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

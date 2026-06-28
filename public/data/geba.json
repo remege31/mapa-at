@@ -8,10 +8,21 @@
   "frecuencia_at": 16,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad benjaminita, escenario de la primera victoria de Jonatán" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Frontera norte del reino de Judá" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad benjaminita, escenario de la primera victoria de Jonatán"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Frontera norte del reino de Judá"
+    }
   ],
-  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Geba (hebreo: גֶּבַע, 'colina') era una ciudad levítica en el territorio de Benjamín, situada a unos 9 km al noreste de Jerusalén, frente a Micmas al otro lado del paso del wadi Suweinit. Identificada con la actual Jeba, dominaba uno de los pasos estratégicos entre las tierras altas de Benjamín y el valle del Jordán. La expresión 'desde Geba hasta Beersheba' se usaba como descripción del territorio del reino de Judá (2 Re 23:8), siendo Geba el límite norte. El paso de Micmas, entre Geba y Micmas, fue escenario de la audaz operación de Jonatán que cambió el curso de la guerra filistea.",
   "altitud_m": 630,
   "clima": "Mediterráneo de montaña — precipitaciones de 500-550 mm anuales, inviernos fríos con posibilidad de nieve, veranos secos y cálidos. El wadi Suweinit al sur crea un microclima más húmedo en la hondonada.",
@@ -45,24 +56,42 @@
       "titulo": "Jonatán en el paso de Micmas: la audacia que salvó a Israel",
       "fecha": "c. 1020 a.C.",
       "descripcion": "Saúl estaba acampado en Guibeá con seiscientos hombres; los filisteos con un ejército inmenso en Micmas, al otro lado del paso. Jonatán, sin decírselo a su padre, propuso a su escudero cruzar a la guarnición filistea: 'Quizás actúe Yahvé en nuestro favor, pues para Yahvé no hay obstáculo en salvar con muchos o con pocos.' Descendieron al wadi por la ladera rocosa y se encaramaron al otro lado con manos y pies. Veinte filisteos cayeron muertos en un espacio de media hectárea. Cundió el pánico en el campamento filisteo, en el campo y entre todas las tropas. Los guardias de Saúl en Guibeá vieron la multitud filistea dispersarse. Saúl contó a su gente y faltaba Jonatán. El arca fue traída, luego Saúl prescindió de ella y atacó. El pánico se extendió: los hebreos que servían en el ejército filisteo se volvieron contra ellos. Los israelitas escondidos en la montaña de Efraín salieron a perseguir. Yahvé salvó a Israel aquel día.",
-      "referencias": ["1 Sam 14:1-23", "1 Sam 14:6", "1 Sam 13:19-22"],
-      "personajes_clave": ["jonatan", "saul-geba"]
+      "referencias": [
+        "1 Sam 14:1-23",
+        "1 Sam 14:6",
+        "1 Sam 13:19-22"
+      ],
+      "personajes_clave": [
+        "jonatan",
+        "saul-geba"
+      ]
     },
     {
       "id": "asa-fortalece-geba",
       "titulo": "Asa fortalece Geba con las piedras de Ramá",
       "fecha": "c. 895 a.C.",
       "descripcion": "El rey Baasá de Israel comenzó a construir Ramá para bloquear el tráfico hacia Judá. Asa de Judá respondió con un movimiento diplomático-militar: envió a Ben-hadad de Damasco plata y oro del tesoro del templo para romper la alianza sirio-israelita. Cuando Ben-hadad atacó el norte de Israel, Baasá abandonó Ramá. Asa convocó a todo Judá —nadie estaba exento— y se llevaron las piedras y la madera con que Baasá construía Ramá; con ellas Asa edificó Gueba de Benjamín (Geba) y Mispá. El episodio establece a Geba como ciudad militarmente renovada en el siglo IX, parte del sistema defensivo norte de Judá. El profeta Hanani criticó a Asa por haberse apoyado en Siria en lugar de confiar en Yahvé.",
-      "referencias": ["1 Re 15:17-22", "2 Cr 16:1-10"],
-      "personajes_clave": ["asa"]
+      "referencias": [
+        "1 Re 15:17-22",
+        "2 Cr 16:1-10"
+      ],
+      "personajes_clave": [
+        "asa"
+      ]
     },
     {
       "id": "josias-geba-beersheba",
       "titulo": "Josías: la reforma desde Geba hasta Beersheba",
       "fecha": "c. 621 a.C.",
       "descripcion": "La gran reforma religiosa del rey Josías incluyó la destrucción de todos los lugares de culto en las alturas 'desde Geba hasta Beersheba' — la fórmula bíblica para todo el territorio del reino de Judá. Josías también profanó el altar de Betel, que había construido Jeroboam ben Nabat, destruyó la asera y quemó los huesos humanos sobre el altar. Geba, como límite norte de Judá, marca el alcance septentrional de la reforma josiana que pretendía centralizar todo el culto yahvista en el templo de Jerusalén. Esta centralización convirtió a Geba de ciudad levítica autónoma en punto de frontera del territorio religiosamente unificado.",
-      "referencias": ["2 Re 23:8", "2 Re 23:4-20", "2 Cr 34:3-7"],
-      "personajes_clave": ["josias"]
+      "referencias": [
+        "2 Re 23:8",
+        "2 Re 23:4-20",
+        "2 Cr 34:3-7"
+      ],
+      "personajes_clave": [
+        "josias"
+      ]
     }
   ],
   "personajes": [
@@ -71,10 +100,17 @@
       "nombre": "Jonatán",
       "emoji": "🏹",
       "rol": "Príncipe de Israel, guerrero de fe, amigo de David",
-      "periodo": "c. 1050–1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Jonatán ben Saúl es uno de los personajes más admirados del AT. Guerrero excepcional —su hazaña en el paso de Micmas frente a Geba es un ejemplo de audacia militar fundada en confianza divina— y amigo leal de David hasta la muerte. Su amistad con David ('amó a David como a sí mismo') puso en conflicto la lealtad filial con la lealtad al ungido de Yahvé. Eligió a David repetidamente sobre los intereses de su propia dinastía. Murió en la batalla del monte Guilboa junto a su padre Saúl, sin haber traicionado ni a su padre ni a su amigo. David lo lloró con el canto más bello del AT: 'Tu amor para mí era admirable, más que el amor de las mujeres.'",
-      "referencias": ["1 Sam 14:1-15", "1 Sam 18:1-4", "2 Sam 1:19-27"],
-      "ruta": ["geba", "jerusalen"]
+      "referencias": [
+        "1 Sam 14:1-15",
+        "1 Sam 18:1-4",
+        "2 Sam 1:19-27"
+      ],
+      "ruta": [
+        "geba",
+        "jerusalen"
+      ]
     },
     {
       "id": "asa",
@@ -83,7 +119,10 @@
       "rol": "Rey reformador de Judá, constructor de Geba como fortaleza fronteriza",
       "periodo": "c. 911–870 a.C.",
       "descripcion": "Asa fue uno de los reyes más positivamente valorados de Judá. Destruyó los altares de dioses extranjeros, las estelas sagradas, cortó las aseras y ordenó a Judá que buscara a Yahvé. Incluso depuso a su propia abuela Macá de su rango de reina madre porque había hecho una imagen obscena de Asera. Su decisión de fortalecer Geba con las piedras de Ramá fue tácticamente brillante pero teológicamente cuestionada: usó el tesoro del templo para pagar a Siria en lugar de confiar en Yahvé. Los últimos años de su reinado los pasó enfermo de los pies —el texto sugiere que buscó médicos pero no a Yahvé— y murió con una reputación agridulce: fiel en lo grande, descuidado en lo último.",
-      "referencias": ["1 Re 15:9-24", "2 Cr 14:1-16:14"],
+      "referencias": [
+        "1 Re 15:9-24",
+        "2 Cr 14:1-16:14"
+      ],
       "ruta": []
     },
     {
@@ -93,7 +132,11 @@
       "rol": "Rey reformador, el más fiel de todos los reyes de Judá según el texto bíblico",
       "periodo": "c. 640–609 a.C.",
       "descripcion": "Josías ben Amón subió al trono con ocho años. En el año 18 de su reinado, durante las obras de reparación del templo, el sumo sacerdote Jilquías encontró 'el libro de la ley'. Cuando se lo leyeron al rey, este rasgó sus vestiduras y emprendió la reforma más radical de la historia de Judá: destrucción sistemática de todos los lugares de culto sincretista desde Geba hasta Beersheba, destrucción del altar de Betel, celebración de la Pascua con una solemnidad desconocida desde los jueces. El texto lo elogia sin reservas: 'No hubo antes de él un rey que se convirtiera a Yahvé con todo su corazón, con toda su alma y con toda su fuerza, conforme a toda la ley de Moisés.' Murió en Meguido enfrentando al faraón Necao II, incomprensiblemente para sus contemporáneos.",
-      "referencias": ["2 Re 22:1-23:30", "2 Re 23:25", "2 Cr 34:1-35:27"],
+      "referencias": [
+        "2 Re 22:1-23:30",
+        "2 Re 23:25",
+        "2 Cr 34:1-35:27"
+      ],
       "ruta": []
     }
   ],
@@ -108,7 +151,11 @@
       {
         "id": "fe-audaz-jonatan",
         "nombre": "La fe audaz de Jonatán: salvar con muchos o con pocos",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 14:6; 1 Sam 14:12-15",
           "fuente_secundaria": "Talmud Bavli, Berajot 4a; Midrash Samuel 17",

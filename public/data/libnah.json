@@ -3,17 +3,33 @@
   "nombre": "Libnah",
   "tipo": "ciudad",
   "nivel": 2,
-  "lat": 31.6200,
-  "lng": 34.8900,
+  "lat": 31.62,
+  "lng": 34.89,
   "frecuencia_at": 16,
   "jerarquia_pin": "secundario",
   "nota_coordenadas": "Coordenadas corregidas — el esqueleto original tenía las mismas coordenadas que Lachish. Identificación probable con Tel Burna (lat 31.62, lng 34.89), aunque Tel Zayit es también candidato.",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad levítica de refugio en Judá" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad fronteriza de Judá" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad levítica de refugio en Judá"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad fronteriza de Judá"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Libnah (hebreo: לִבְנָה, 'blancura' o 'álamo blanco') era una ciudad en la Sefela de Judá, al noreste de Lachish. Su identificación exacta es debatida entre Tel Burna y Tel Zayit, ambos en la zona de la Sefela a unos 8-10 km al norte de Lachish. Era ciudad levítica asignada a los sacerdotes aaronitas (Jos 21:13) y ciudad de refugio. Aparece repetidamente junto a Lachish en las narraciones militares — la conquista de Josué, el asedio de Senaquerib — evidenciando que formaban un sistema defensivo complementario en el corredor occidental de Judá. El lugar de nacimiento de la madre del rey Josías (2 Re 23:31) y del rey Joacaz.",
   "altitud_m": 250,
   "clima": "Mediterráneo de transición en la Sefela — precipitaciones de 400-450 mm anuales, veranos secos y calurosos, inviernos lluviosos suaves. Suelos aptos para olivares y agricultura de secano.",
@@ -47,24 +63,43 @@
       "titulo": "Josué conquista Libnah: el barrido sistemático del sur",
       "fecha": "c. 1220 a.C.",
       "descripcion": "Tras la batalla de Gabaón y la ejecución de los cinco reyes del sur, Josué emprendió la conquista sistemática de las ciudades de la coalición. Tras tomar Maquedá, marchó a Libnah y la atacó. Yahvé la entregó también en manos de Israel junto con su rey. La hirió a filo de espada con todo ser viviente, sin dejar supervivientes, como había hecho con el rey de Jericó. Inmediatamente después atacó Lachish. El patrón es idéntico en todas las ciudades: ataque, victoria en un día o dos, destrucción total, marcha a la siguiente ciudad. Libnah, siendo la primera de la secuencia sur-norte, estableció el ritmo de la campaña y la aplicación consistente del herem.",
-      "referencias": ["Jos 10:29-30", "Jos 10:38-39", "Jos 12:15"],
-      "personajes_clave": ["josue-libnah"]
+      "referencias": [
+        "Jos 10:29-30",
+        "Jos 10:38-39",
+        "Jos 12:15"
+      ],
+      "personajes_clave": [
+        "josue-libnah"
+      ]
     },
     {
       "id": "libnah-se-rebela",
       "titulo": "Libnah se rebela contra Judá: la rebelión en tiempos de Jorán",
       "fecha": "c. 848 a.C.",
       "descripcion": "Durante el reinado del rey Jorán de Judá — hijo de Josafat, yerno de Ajab, que 'hizo lo malo a los ojos de Yahvé' — Libnah se rebeló simultáneamente con Edom. El texto bíblico es escueto: 'En aquel tiempo Libnah se rebeló contra su dominio, porque él había abandonado a Yahvé Dios de sus padres.' El Cronista añade que Jorán había construido alturas en las montañas de Judá, fornicado con los habitantes de Judá y extraviado a Jerusalén. La rebelión de Libnah — ciudad levítica — es leída como juicio divino: la ciudad que debía ser centro de enseñanza de la Torá rechazó a un rey que la había traicionado. Fue el único caso documentado en el AT de una ciudad interior de Judá rebelándose contra su rey.",
-      "referencias": ["2 Re 8:22", "2 Cr 21:10-11"],
-      "personajes_clave": ["joran-juda", "libnah-ancianos"]
+      "referencias": [
+        "2 Re 8:22",
+        "2 Cr 21:10-11"
+      ],
+      "personajes_clave": [
+        "joran-juda",
+        "libnah-ancianos"
+      ]
     },
     {
       "id": "senaquerib-libnah",
       "titulo": "Senaquerib ataca Libnah durante el asedio de Jerusalén",
       "fecha": "701 a.C.",
       "descripcion": "Mientras Senaquerib negociaba (o presionaba) a Ezequías desde Lachish, envió a sus generales con un gran ejército hacia Jerusalén. Según el texto bíblico, cuando el rey de Etiopía avanzó contra Senaquerib, el rey asirio, al oír la noticia, envió mensajeros a Ezequías diciéndole que no se fiara de su Dios. En ese contexto, el texto menciona que Senaquerib 'estaba luchando contra Libnah' (2 Re 19:8), sugiriendo que Libnah resistió al ejército asirio mientras Lachish ya había caído. La resistencia de Libnah es breve en el texto pero significativa: una ciudad levítica que combatió al invasor mientras el rey negociaba desde Lachish.",
-      "referencias": ["2 Re 19:8", "Is 37:8", "2 Re 18:17"],
-      "personajes_clave": ["senaquerib-libnah", "ezequias"]
+      "referencias": [
+        "2 Re 19:8",
+        "Is 37:8",
+        "2 Re 18:17"
+      ],
+      "personajes_clave": [
+        "senaquerib-libnah",
+        "ezequias"
+      ]
     }
   ],
   "personajes": [
@@ -73,10 +108,21 @@
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Comandante militar de Israel, conquistador de Libnah en la campaña del sur",
-      "periodo": "c. 1270–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Josué ben Nun aparece en la conquista de Libnah como el comandante metódico que ejecuta el plan divino de conquista del sur de Canaán con disciplina sistemática. Su táctica de barrido — de ciudad en ciudad, sin descanso, aplicando el herem a cada una — convirtió la campaña del sur en la operación militar más rápida de la conquista. La mención de Libnah junto a Lachish, Eglón y Hebrón en la misma secuencia evidencia que Josué entendió la geografía estratégica: las ciudades de la Sefela y el sur de Judá formaban un sistema que debía ser desmantelado en orden.",
-      "referencias": ["Jos 10:29-43", "Jos 1:1-9", "Jos 24:29-30"],
-      "ruta": ["jerico", "ai", "gibeon", "lachish", "libnah", "hebron"]
+      "referencias": [
+        "Jos 10:29-43",
+        "Jos 1:1-9",
+        "Jos 24:29-30"
+      ],
+      "ruta": [
+        "jericho",
+        "ai",
+        "gibeon",
+        "lachish",
+        "libnah",
+        "hebron"
+      ]
     },
     {
       "id": "joran-juda",
@@ -85,7 +131,10 @@
       "rol": "Rey de Judá, yerno de Ajab, bajo cuyo reinado Libnah se rebeló",
       "periodo": "c. 848–841 a.C.",
       "descripcion": "Jorán ben Josafat es uno de los reyes de Judá más negativamente presentados. Su matrimonio con Atalía, hija de Ajab y Jezabel, introdujo en Judá las prácticas religiosas que habían contaminado el reino del norte. El Cronista registra que mató a todos sus hermanos con espada al subir al trono. Bajo su reinado, Edom y Libnah se independizaron de Judá. Murió de una enfermedad intestinal dolorosa — el Cronista la presenta como cumplimiento de la carta profética de Elías — y el texto añade que 'se fue sin que nadie lo lamentara', siendo enterrado en Jerusalén pero no en los sepulcros reales.",
-      "referencias": ["2 Re 8:16-24", "2 Cr 21:1-20"],
+      "referencias": [
+        "2 Re 8:16-24",
+        "2 Cr 21:1-20"
+      ],
       "ruta": []
     },
     {
@@ -95,7 +144,11 @@
       "rol": "Madre de los últimos reyes de Judá, oriunda de Libnah",
       "periodo": "c. 630–580 a.C.",
       "descripcion": "Hamital bat Jeremías de Libnah fue la madre del rey Joacaz (reinó 3 meses, 609 a.C.) y del rey Sedecías (el último rey, 597-586 a.C.). Su origen en Libnah — ciudad levítica de la Sefela — la sitúa en una familia de posiblemente trasfondo sacerdotal o levítico. La mención explícita de su ciudad de origen en los textos de entronización de sus hijos (2 Re 23:31; 24:18) sigue el patrón bíblico de identificar a las madres de los reyes de Judá por su origen geográfico. Hamital vivió para ver la deportación babilónica de ambos hijos: Joacaz fue llevado a Egipto por el faraón Necao; Sedecías fue cegado y llevado a Babilonia.",
-      "referencias": ["2 Re 23:31", "2 Re 24:18", "Jer 52:1"],
+      "referencias": [
+        "2 Re 23:31",
+        "2 Re 24:18",
+        "Jer 52:1"
+      ],
       "ruta": []
     }
   ],
@@ -110,7 +163,11 @@
       {
         "id": "ciudad-que-juzga-al-rey",
         "nombre": "Libnah se rebela: cuando la ciudad levítica juzga al rey infiel",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 8:22; 2 Cr 21:10-11",
           "fuente_secundaria": "Midrash Rabbah, Números 13; Talmud Bavli, Sanedrín 102b sobre reyes de Judá",

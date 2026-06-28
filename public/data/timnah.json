@@ -7,7 +7,11 @@
   "frecuencia_at": 12,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad fronteriza filistea-danita, ciclo de Sansón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad fronteriza filistea-danita, ciclo de Sansón"
+    }
   ],
   "descripcion_geo": "Ciudad en la Sefelá occidental, en el valle de Sorek, sobre la frontera fluctuante entre el territorio asignado a Dan y la zona de control filisteo. Terreno de colinas bajas con viñedos, punto de fricción constante entre ambas poblaciones durante el período de los Jueces.",
   "altitud_m": 165,
@@ -40,24 +44,36 @@
       "titulo": "Sansón mata al león camino a Timnah",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Mientras desciende a Timnah para pedir en matrimonio a una mujer filistea, Sansón es atacado por un león joven y lo despedaza con sus manos sin que sus padres lo sepan; tiempo después encuentra un panal de abejas en el cadáver del animal.",
-      "referencias": ["Jue 14:5-9"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 14:5-9"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "boda-enigma-sanson",
       "titulo": "La boda de Sansón y el enigma del león",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Durante el banquete de bodas en Timnah, Sansón plantea un enigma a treinta compañeros filisteos basado en el episodio del león y la miel; al no poder resolverlo, estos presionan a la esposa de Sansón hasta que ella le saca el secreto y se lo revela, lo que desata la ira de Sansón y el inicio de su enemistad abierta con los filisteos.",
-      "referencias": ["Jue 14:10-20"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 14:10-20"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "viñas-timnah-zorras",
       "titulo": "Las zorras incendiarias en los campos filisteos",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Tras descubrir que su esposa le fue entregada a otro, Sansón captura trescientas zorras, las ata por pares con antorchas encendidas entre las colas y las suelta en los campos de grano, viñedos y olivares filisteos cercanos a Timnah, iniciando un ciclo de represalias mutuas.",
-      "referencias": ["Jue 15:1-8"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 15:1-8"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     }
   ],
   "personajes": [
@@ -66,10 +82,17 @@
       "nombre": "Sansón",
       "emoji": "🦁",
       "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
-      "periodo": "c. 1100–1070 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Juez de la tribu de Dan, consagrado nazareo desde el vientre materno, cuyo conflicto personal con los filisteos —iniciado por su matrimonio en Timnah— se convierte en el motor de veinte años de hostigamiento contra la opresión filistea.",
-      "referencias": ["Jue 13:24-25", "Jue 14:1-20", "Jue 16:1-31"],
-      "ruta": ["zorah", "timnah"]
+      "referencias": [
+        "Jue 13:24-25",
+        "Jue 14:1-20",
+        "Jue 16:1-31"
+      ],
+      "ruta": [
+        "zorah",
+        "timnah"
+      ]
     },
     {
       "id": "esposa_timnah_sanson",
@@ -78,18 +101,28 @@
       "rol": "Primera esposa filistea de Sansón",
       "periodo": "c. 1100 a.C.",
       "descripcion": "Mujer filistea de Timnah elegida por Sansón contra el consejo de sus padres; presionada por sus compatriotas, revela el secreto del enigma de la boda, y es entregada posteriormente a otro hombre, lo que desencadena la represalia de Sansón.",
-      "referencias": ["Jue 14:1-20", "Jue 15:6"],
-      "ruta": ["timnah"]
+      "referencias": [
+        "Jue 14:1-20",
+        "Jue 15:6"
+      ],
+      "ruta": [
+        "timnah"
+      ]
     },
     {
       "id": "padres_sanson",
       "nombre": "Manoa y su esposa",
       "emoji": "👪",
       "rol": "Padres de Sansón",
-      "periodo": "c. 1120–1100 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Acompañan a Sansón a Timnah para negociar el matrimonio, expresando inicialmente su desaprobación por la elección de una esposa filistea en lugar de una mujer israelita.",
-      "referencias": ["Jue 14:1-5"],
-      "ruta": ["zorah", "timnah"]
+      "referencias": [
+        "Jue 14:1-5"
+      ],
+      "ruta": [
+        "zorah",
+        "timnah"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +135,11 @@
       {
         "id": "enigma-leon-miel",
         "nombre": "El enigma del león y la miel",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 14:5-18",
           "fuente_secundaria": "Midrash, Bereshit Rabbah (paralelos sobre fuerza y designio divino en los jueces)",
@@ -125,5 +162,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

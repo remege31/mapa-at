@@ -8,7 +8,11 @@
   "jerarquia_pin": "terciario",
   "nota_coordenadas": "Existe otro 'Aroer' distinto en el borde del valle del Arnón (territorio rubenita/moabita meridional); este registro corresponde al Aroer construido por los gaditas en Galaad, geográficamente próximo a Jazer y Jaboc.",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad construida por los gaditas en Galaad" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad construida por los gaditas en Galaad"
+    }
   ],
   "descripcion_geo": "Ciudad construida por la tribu de Gad en la región de Galaad, distinta del Aroer más conocido del borde del valle del Arnón, parte del conjunto de ciudades fortificadas que los gaditas edifican o reconstruyen al establecerse en su territorio de la Transjordania.",
   "altitud_m": 600,
@@ -40,7 +44,9 @@
       "titulo": "Gad construye Aroer en Galaad",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Entre las ciudades que los hijos de Gad edifican o fortifican al establecerse en su territorio de la Transjordania se incluye esta Aroer, parte de la lista de asentamientos consolidados por la tribu tras recibir su herencia de Moisés.",
-      "referencias": ["Núm 32:34"],
+      "referencias": [
+        "Núm 32:34"
+      ],
       "personajes_clave": []
     },
     {
@@ -48,7 +54,10 @@
       "titulo": "La distinción entre las dos ciudades llamadas Aroer",
       "fecha": "Contexto geográfico general",
       "descripcion": "El texto bíblico distingue cuidadosamente entre esta Aroer construida por Gad en Galaad y otra ciudad homónima situada en el borde del valle del Arnón, frontera meridional disputada entre Rubén y Moab, evidenciando la frecuencia de topónimos repetidos en la geografía bíblica de la Transjordania.",
-      "referencias": ["Jos 13:25", "Núm 32:34"],
+      "referencias": [
+        "Jos 13:25",
+        "Núm 32:34"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,7 +65,9 @@
       "titulo": "El programa de fortificación gadita en Galaad",
       "fecha": "c. 1400–1200 a.C.",
       "descripcion": "Aroer forma parte de un programa más amplio de construcción y fortificación de ciudades que la tribu de Gad emprende en Galaad, incluyendo también Dibón, Atarot, Atrot-sofán, Jazer y Jogbeha, consolidando su presencia territorial en la región.",
-      "referencias": ["Núm 32:34-36"],
+      "referencias": [
+        "Núm 32:34-36"
+      ],
       "personajes_clave": []
     }
   ],
@@ -68,7 +79,9 @@
       "rol": "Fundadores y fortificadores de Aroer",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Responsables de la edificación de Aroer y otras ciudades de Galaad como parte del proceso de consolidación territorial de la tribu en la Transjordania.",
-      "referencias": ["Núm 32:34"],
+      "referencias": [
+        "Núm 32:34"
+      ],
       "ruta": []
     },
     {
@@ -76,9 +89,11 @@
       "nombre": "Moisés",
       "emoji": "🗺️",
       "rol": "Líder de Israel, autorizador del asentamiento gadita",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Autoriza la distribución territorial de Galaad a la tribu de Gad, que incluye la fundación y fortificación de ciudades como esta Aroer.",
-      "referencias": ["Núm 32:28-36"],
+      "referencias": [
+        "Núm 32:28-36"
+      ],
       "ruta": []
     },
     {
@@ -88,7 +103,9 @@
       "rol": "Pueblo vecino del territorio gadita",
       "periodo": "c. 1400–1000 a.C.",
       "descripcion": "Comparten frontera con el territorio gadita en la región de Galaad donde se ubica esta Aroer, en ocasional tensión por el control de las tierras limítrofes.",
-      "referencias": ["Jos 13:25"],
+      "referencias": [
+        "Jos 13:25"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +118,11 @@
       {
         "id": "consolidacion-territorial-gad-aroer",
         "nombre": "La consolidación territorial activa de la tribu de Gad",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 32:34-36",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la importancia de la construcción activa de ciudades como expresión de compromiso genuino con la tierra recibida, en cumplimiento de la promesa hecha a Moisés",
@@ -116,5 +137,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

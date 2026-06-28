@@ -7,7 +7,11 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Lugar de la lucha de Jacob, destruida por Gedeón" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Lugar de la lucha de Jacob, destruida por Gedeón"
+    }
   ],
   "descripcion_geo": "Lugar junto al Jaboc, en Galaad, cuyo nombre ('rostro de Dios') conmemora directamente la declaración de Jacob tras su lucha nocturna: 'he visto a Dios cara a cara, y fue librada mi alma'. Posteriormente se convierte en ciudad fortificada con una torre defensiva.",
   "altitud_m": 250,
@@ -39,24 +43,36 @@
       "titulo": "Jacob nombra el lugar Penuel tras ver a Dios cara a cara",
       "fecha": "c. 1900 a.C. (narrativa)",
       "descripcion": "Inmediatamente después de su lucha nocturna y de recibir el nombre Israel, Jacob nombra el lugar Penuel, declarando haber visto a Dios cara a cara y haber sobrevivido a la experiencia, mientras el sol se levanta sobre él al cruzar el lugar cojeando por la herida en su muslo.",
-      "referencias": ["Gén 32:30-31"],
-      "personajes_clave": ["jacob"]
+      "referencias": [
+        "Gén 32:30-31"
+      ],
+      "personajes_clave": [
+        "jacob"
+      ]
     },
     {
       "id": "penuel-rechaza-gedeon",
       "titulo": "Penuel rechaza ayudar a Gedeón",
       "fecha": "c. 1130 a.C.",
       "descripcion": "Al igual que Sucot, los hombres de Penuel se niegan a proveer pan a las tropas exhaustas de Gedeón durante la persecución de Zeba y Zalmuna, respondiendo con la misma actitud despectiva que sus vecinos de Sucot.",
-      "referencias": ["Jue 8:8-9"],
-      "personajes_clave": ["gedeon"]
+      "referencias": [
+        "Jue 8:8-9"
+      ],
+      "personajes_clave": [
+        "gedeon"
+      ]
     },
     {
       "id": "gedeon-destruye-torre-peniel",
       "titulo": "Gedeón destruye la torre de Penuel",
       "fecha": "c. 1130 a.C.",
       "descripcion": "Tras su victoria sobre los reyes madianitas, Gedeón regresa a Penuel y, cumpliendo su advertencia previa, derriba la torre fortificada de la ciudad y mata a los hombres de la población, castigo significativamente más severo que el infligido a Sucot.",
-      "referencias": ["Jue 8:17"],
-      "personajes_clave": ["gedeon"]
+      "referencias": [
+        "Jue 8:17"
+      ],
+      "personajes_clave": [
+        "gedeon"
+      ]
     }
   ],
   "personajes": [
@@ -65,20 +81,32 @@
       "nombre": "Jacob",
       "emoji": "🌅",
       "rol": "Patriarca",
-      "periodo": "c. 1900 a.C. (narrativa)",
+      "periodo": "bronce_medio",
       "descripcion": "Da nombre a Penuel tras declarar haber visto a Dios cara a cara y sobrevivido, marcando el lugar como sitio de teofanía directa en el ciclo patriarcal.",
-      "referencias": ["Gén 32:30-31"],
-      "ruta": ["jabbok", "peniel", "succoth"]
+      "referencias": [
+        "Gén 32:30-31"
+      ],
+      "ruta": [
+        "jabbok",
+        "peniel",
+        "succoth"
+      ]
     },
     {
       "id": "gedeon_peniel",
       "nombre": "Gedeón",
       "emoji": "🏰",
       "rol": "Juez de Israel",
-      "periodo": "c. 1130 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Castiga con severidad excepcional a los hombres de Penuel por su negativa a apoyar a sus tropas, destruyendo la torre defensiva de la ciudad y matando a su población, en el episodio paralelo más extremo al castigo aplicado a Sucot.",
-      "referencias": ["Jue 8:8-9", "Jue 8:17"],
-      "ruta": ["succoth", "peniel"]
+      "referencias": [
+        "Jue 8:8-9",
+        "Jue 8:17"
+      ],
+      "ruta": [
+        "succoth",
+        "peniel"
+      ]
     },
     {
       "id": "hombres_peniel",
@@ -87,7 +115,9 @@
       "rol": "Población local castigada por Gedeón",
       "periodo": "c. 1130 a.C.",
       "descripcion": "Rechazan ayudar a Gedeón siguiendo el mismo patrón que Sucot, recibiendo en consecuencia el castigo más severo de destrucción total de su torre fortificada.",
-      "referencias": ["Jue 8:17"],
+      "referencias": [
+        "Jue 8:17"
+      ],
       "ruta": []
     }
   ],
@@ -100,7 +130,11 @@
       {
         "id": "rostro-dios-peniel-mito",
         "nombre": "Ver el rostro de Dios y sobrevivir en Penuel",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Gén 32:30",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la tensión entre la declaración de Jacob ('he visto a Dios cara a cara') y la afirmación posterior de que 'nadie puede ver a Dios y vivir' (Éx 33:20)",
@@ -123,5 +157,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

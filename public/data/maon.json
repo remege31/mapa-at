@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Hogar de Nabal y Abigail, refugio de David" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Hogar de Nabal y Abigail, refugio de David"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo sur de la región montañosa de Judá, al sur de Hebrón, en el borde del desierto homónimo que se extiende hacia el sureste. Cercana a Carmel, donde Nabal poseía sus extensos rebaños, en una zona de transición entre tierra cultivable y desierto apta para el pastoreo extensivo.",
   "altitud_m": 850,
@@ -40,24 +44,37 @@
       "titulo": "David y sus hombres protegen los rebaños de Nabal",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Mientras se esconde en el desierto cercano, David y sus hombres brindan protección informal a los pastores y rebaños de Nabal en Carmel, sin causarles daño ni robarles nada, expectativa implícita de hospitalidad recíproca según la costumbre del desierto.",
-      "referencias": ["1 Sam 25:4-8", "1 Sam 25:14-16"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 25:4-8",
+        "1 Sam 25:14-16"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "negativa-nabal-ira-david",
       "titulo": "Nabal rechaza a los mensajeros de David",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Cuando David envía mensajeros a pedir provisiones en reconocimiento por la protección brindada, Nabal los insulta y se niega, comparando a David con un esclavo fugitivo; furioso, David se arma para destruir a Nabal y a toda su casa.",
-      "referencias": ["1 Sam 25:9-13"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 25:9-13"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "abigail-intercede-david",
       "titulo": "Abigail intercede ante David y evita la masacre",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Informada por un siervo, Abigail, esposa de Nabal, sale al encuentro de David con provisiones abundantes y un discurso apaciguador que lo convence de no derramar sangre inocente; al regresar, Nabal sufre un colapso al enterarse de lo ocurrido y muere diez días después, tras lo cual David toma a Abigail por esposa.",
-      "referencias": ["1 Sam 25:18-42"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 25:18-42"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     }
   ],
   "personajes": [
@@ -68,28 +85,47 @@
       "rol": "Rico ganadero calebita de Maón-Carmel",
       "periodo": "c. 1015 a.C.",
       "descripcion": "Hombre adinerado pero de carácter duro ('nabal' significa 'necio') que rechaza la petición de provisión de David, provocando casi una masacre evitada solo por la intervención de su esposa Abigail; muere poco después de un colapso al conocer lo sucedido.",
-      "referencias": ["1 Sam 25:2-3", "1 Sam 25:36-38"],
-      "ruta": ["maon"]
+      "referencias": [
+        "1 Sam 25:2-3",
+        "1 Sam 25:36-38"
+      ],
+      "ruta": [
+        "maon"
+      ]
     },
     {
       "id": "abigail",
       "nombre": "Abigail",
       "emoji": "🕊️",
       "rol": "Esposa de Nabal, después esposa de David",
-      "periodo": "c. 1015–1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Mujer descrita como sensata y hermosa que evita con su intervención diplomática la masacre de su casa, gesto que David reconoce explícitamente como providencial; tras la muerte de Nabal, se convierte en una de las esposas de David.",
-      "referencias": ["1 Sam 25:3", "1 Sam 25:18-35", "1 Sam 25:39-42"],
-      "ruta": ["maon", "hebrón"]
+      "referencias": [
+        "1 Sam 25:3",
+        "1 Sam 25:18-35",
+        "1 Sam 25:39-42"
+      ],
+      "ruta": [
+        "maon",
+        "hebron"
+      ]
     },
     {
       "id": "david_maon",
       "nombre": "David",
       "emoji": "⚔️",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Inicialmente dispuesto a la venganza violenta contra Nabal, es desviado de ese curso por la intervención de Abigail, episodio que el propio David reconoce como evitación providencial de un acto que habría comprometido su integridad moral.",
-      "referencias": ["1 Sam 25:21-22", "1 Sam 25:32-34"],
-      "ruta": ["ziph", "maon", "engadi"]
+      "referencias": [
+        "1 Sam 25:21-22",
+        "1 Sam 25:32-34"
+      ],
+      "ruta": [
+        "ziph",
+        "maon",
+        "engedi"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +137,11 @@
       {
         "id": "abigail-intercesion-mito",
         "nombre": "La intercesión de Abigail como contención providencial de la venganza",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 25:1-42",
           "fuente_secundaria": "Talmud Babilónico, Meguilá 14a (Abigail contada entre las siete profetisas de Israel)",
@@ -124,5 +164,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

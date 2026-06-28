@@ -7,8 +7,16 @@
   "frecuencia_at": 11,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Refugio de David en la cueva de Adulam" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Fortificación de Roboam" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Refugio de David en la cueva de Adulam"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Fortificación de Roboam"
+    }
   ],
   "descripcion_geo": "Ciudad cananea en la Sefelá de Judá, próxima a una cueva o complejo de cuevas naturales en la zona de piedra caliza, que sirvió de refugio a David durante su período de huida de Saúl. Su posición en la transición entre las montañas de Judá y la llanura costera la hacía estratégicamente relevante.",
   "altitud_m": 380,
@@ -41,7 +49,10 @@
       "titulo": "Judá y su amigo Hira el adulamita",
       "fecha": "c. 1700 a.C. (cronología tradicional, ciclo patriarcal)",
       "descripcion": "En el ciclo de José, Judá se asocia con Hira, un hombre de Adulam, episodio que enmarca la narrativa de Judá y Tamar y conecta tempranamente el nombre de la ciudad con la genealogía de la tribu de Judá.",
-      "referencias": ["Gén 38:1-2", "Gén 38:12"],
+      "referencias": [
+        "Gén 38:1-2",
+        "Gén 38:12"
+      ],
       "personajes_clave": []
     },
     {
@@ -49,16 +60,24 @@
       "titulo": "David se refugia en la cueva de Adulam",
       "fecha": "c. 1015 a.C.",
       "descripcion": "Tras escapar de Gat, David se refugia en la cueva de Adulam, donde se le unen sus hermanos y toda la casa de su padre; allí se congregan también todos los que estaban en apuros, endeudados o amargados de espíritu, formando un grupo de cerca de cuatrocientos hombres que David lidera.",
-      "referencias": ["1 Sam 22:1-2"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "1 Sam 22:1-2"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     },
     {
       "id": "valientes-agua-belen-adulam",
       "titulo": "Los tres valientes traen agua de Belén desde la fortaleza de Adulam",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Mientras David está fortificado cerca de la cueva de Adulam con los filisteos acampados en el valle de Refaim, expresa el deseo de beber agua del pozo de Belén; tres de sus valientes se abren paso a través de las líneas filisteas para llevarle el agua, gesto que David rehúsa beber y derrama como ofrenda a YHWH por respeto al riesgo asumido.",
-      "referencias": ["2 Sam 23:13-17"],
-      "personajes_clave": ["david"]
+      "referencias": [
+        "2 Sam 23:13-17"
+      ],
+      "personajes_clave": [
+        "david"
+      ]
     }
   ],
   "personajes": [
@@ -67,20 +86,31 @@
       "nombre": "David",
       "emoji": "🕳️",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015–1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Reúne en la cueva de Adulam al núcleo de seguidores que constituirá la base de su poder militar y político futuro, momento fundacional de su transición de fugitivo solitario a líder de una fuerza organizada.",
-      "referencias": ["1 Sam 22:1-2", "2 Sam 23:13-17"],
-      "ruta": ["gat", "adullam"]
+      "referencias": [
+        "1 Sam 22:1-2",
+        "2 Sam 23:13-17"
+      ],
+      "ruta": [
+        "gath",
+        "adullam"
+      ]
     },
     {
       "id": "tres_valientes_adulam",
       "nombre": "Tres de los valientes de David",
       "emoji": "💧",
       "rol": "Guerreros de élite del círculo cercano de David",
-      "periodo": "c. 1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Arriesgan sus vidas atravesando las líneas filisteas para satisfacer el deseo expresado por David de beber agua del pozo de Belén, gesto de lealtad extrema que David honra derramando el agua en ofrenda a YHWH en lugar de bebería.",
-      "referencias": ["2 Sam 23:13-17"],
-      "ruta": ["adullam", "belen"]
+      "referencias": [
+        "2 Sam 23:13-17"
+      ],
+      "ruta": [
+        "adullam",
+        "bethlehem"
+      ]
     },
     {
       "id": "hira_adulamita",
@@ -89,8 +119,12 @@
       "rol": "Amigo de Judá en el ciclo patriarcal",
       "periodo": "c. 1700 a.C. (cronología tradicional)",
       "descripcion": "Compañero y amigo de Judá, hijo de Jacob, mencionado en el episodio que enmarca la narrativa de Judá y Tamar, vínculo genealógico temprano entre la tribu de Judá y la región de Adulam.",
-      "referencias": ["Gén 38:1-20"],
-      "ruta": ["adullam"]
+      "referencias": [
+        "Gén 38:1-20"
+      ],
+      "ruta": [
+        "adullam"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +136,11 @@
       {
         "id": "cueva-adulam-formacion-liderazgo",
         "nombre": "La cueva de Adulam como lugar fundacional del liderazgo de David",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 22:1-2",
           "fuente_secundaria": "Comentario rabínico tradicional sobre Adulam como modelo de liderazgo que reúne y dignifica a los marginados",
@@ -125,5 +163,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

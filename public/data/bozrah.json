@@ -7,7 +7,11 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Capital de Edom, oráculos de juicio" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Capital de Edom, oráculos de juicio"
+    }
   ],
   "descripcion_geo": "Ciudad capital del reino de Edom, situada al sur del Mar Salado, en la región montañosa que los descendientes de Esaú ocuparon según la tradición genealógica bíblica. Su posición fortificada en terreno elevado la convertía en centro administrativo y simbólico del poder edomita.",
   "altitud_m": 1000,
@@ -39,24 +43,38 @@
       "titulo": "Isaías profetiza el día de venganza de YHWH sobre Bosra",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías incluye un extenso oráculo donde describe a YHWH llegando desde Edom y Bosra con vestiduras teñidas de rojo, en una imagen de juicio violento descrito como 'día de venganza' y 'año de mis redimidos', usando explícitamente el lagar como metáfora del castigo divino sobre las naciones hostiles.",
-      "referencias": ["Is 34:6", "Is 63:1"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 34:6",
+        "Is 63:1"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "jeremias-oraculo-bosra",
       "titulo": "Jeremías profetiza la destrucción de Bosra",
       "fecha": "c. 600 a.C.",
       "descripcion": "Jeremías incluye a Bosra en su extenso oráculo contra Edom, anunciando que se convertirá en motivo de espanto y que nadie volverá a habitar allí, comparando el alcance de la destrucción con la de Sodoma y Gomorra.",
-      "referencias": ["Jer 49:13", "Jer 49:22"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 49:13",
+        "Jer 49:22"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     },
     {
       "id": "amos-oraculo-bosra",
       "titulo": "Amós profetiza fuego sobre Bosra",
       "fecha": "c. 760–750 a.C.",
       "descripcion": "El profeta Amós, en su serie de oráculos contra las naciones vecinas de Israel, anuncia que enviará fuego contra Teman que consumirá los palacios de Bosra, acusando a Edom de haber perseguido a su hermano con espada sin mostrar compasión.",
-      "referencias": ["Am 1:11-12"],
-      "personajes_clave": ["amos"]
+      "referencias": [
+        "Am 1:11-12"
+      ],
+      "personajes_clave": [
+        "amos"
+      ]
     }
   ],
   "personajes": [
@@ -67,28 +85,41 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Compone una de las imágenes más violentas y vívidas de todo el corpus profético al describir a YHWH llegando desde Bosra con vestiduras manchadas de sangre tras pisar el lagar de la ira divina sobre las naciones.",
-      "referencias": ["Is 34:1-17", "Is 63:1-6"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 34:1-17",
+        "Is 63:1-6"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "jeremias_bosra",
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Incluye a Bosra en su extenso oráculo de juicio contra Edom, intensificado por la hostilidad edomita documentada durante la caída final de Jerusalén.",
-      "referencias": ["Jer 49:7-22"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 49:7-22"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "amos_bosra",
       "nombre": "Amós",
       "emoji": "🔥",
       "rol": "Profeta de Judá enviado a las naciones vecinas",
-      "periodo": "Activo c. 760–750 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Denuncia a Edom por su persecución implacable a Israel ('su hermano') sin compasión, anunciando fuego divino sobre los palacios fortificados de Bosra.",
-      "referencias": ["Am 1:11-12"],
-      "ruta": ["tekoa"]
+      "referencias": [
+        "Am 1:11-12"
+      ],
+      "ruta": [
+        "tekoa"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -100,7 +131,11 @@
       {
         "id": "lagar-ira-divina-bosra",
         "nombre": "El lagar de la ira divina sobre Bosra",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 34:1-17; Is 63:1-6",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la severidad especial del juicio contra Edom debido al parentesco fraterno con Israel a través de Esaú",
@@ -123,5 +158,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

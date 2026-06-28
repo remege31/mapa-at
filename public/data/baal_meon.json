@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad reconstruida por Rubén, recuperada por Moab" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad reconstruida por Rubén, recuperada por Moab"
+    }
   ],
   "descripcion_geo": "Ciudad en el altiplano de Moab, cuyo nombre compuesto ('Baal de la morada') conserva el rastro del culto cananeo-moabita original al dios Baal. Reconstruida por la tribu de Rubén tras la conquista del territorio amorreo, fue posteriormente recuperada por Moab.",
   "altitud_m": 770,
@@ -39,7 +43,10 @@
       "titulo": "Rubén reconstruye y renombra Baal-meón",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras la conquista del territorio de Sehón, los rubenitas reconstruyen Baal-meón junto con otras ciudades de la región, cambiando algunos nombres, en el marco del proceso de asentamiento de la tribu en la Transjordania.",
-      "referencias": ["Núm 32:38", "Jos 13:17"],
+      "referencias": [
+        "Núm 32:38",
+        "Jos 13:17"
+      ],
       "personajes_clave": []
     },
     {
@@ -47,15 +54,21 @@
       "titulo": "Ezequiel profetiza el juicio sobre Baal-meón",
       "fecha": "c. 587 a.C.",
       "descripcion": "El profeta Ezequiel incluye a Baal-meón entre las ciudades de gloria de Moab que serán entregadas como herencia a los hijos de oriente, formando parte del extenso oráculo de juicio contra el reino moabita por su soberbia frente a la singularidad de Judá.",
-      "referencias": ["Ez 25:9"],
-      "personajes_clave": ["ezequiel"]
+      "referencias": [
+        "Ez 25:9"
+      ],
+      "personajes_clave": [
+        "ezequiel"
+      ]
     },
     {
       "id": "estela-mesa-baal-meon",
       "titulo": "La Estela de Mesa documenta la reconstrucción moabita",
       "fecha": "c. 840 a.C.",
       "descripcion": "El rey Mesa de Moab, en su célebre inscripción conmemorativa (la Estela de Mesa), registra haber construido o reconstruido Baal-meón, incluyendo allí una cisterna, confirmando extrabíblicamente el control moabita de la ciudad en el siglo IX a.C., en el mismo período de los conflictos descritos en 2 Reyes 3.",
-      "referencias": ["2 Re 3:4-27 (contexto histórico de la rebelión de Moab)"],
+      "referencias": [
+        "2 Re 3:4-27 (contexto histórico de la rebelión de Moab)"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,7 +80,9 @@
       "rol": "Reconstructores de Baal-meón tras la conquista",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tribu responsable de reconstruir y renombrar Baal-meón como parte de su asentamiento en el territorio conquistado de Sehón en la Transjordania.",
-      "referencias": ["Núm 32:37-38"],
+      "referencias": [
+        "Núm 32:37-38"
+      ],
       "ruta": []
     },
     {
@@ -75,9 +90,11 @@
       "nombre": "Ezequiel",
       "emoji": "📯",
       "rol": "Profeta del exilio",
-      "periodo": "Activo c. 593–571 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Incluye a Baal-meón en su oráculo de juicio contra Moab, profetizando la entrega de sus ciudades de gloria a pueblos del oriente como castigo por la soberbia moabita.",
-      "referencias": ["Ez 25:8-11"],
+      "referencias": [
+        "Ez 25:8-11"
+      ],
       "ruta": []
     },
     {
@@ -85,10 +102,14 @@
       "nombre": "Mesa, rey de Moab",
       "emoji": "🪨",
       "rol": "Rey moabita, constructor según la Estela de Mesa",
-      "periodo": "c. 840 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Registra en su célebre inscripción la reconstrucción de Baal-meón bajo dominio moabita, documento extrabíblico que confirma de manera independiente la disputa territorial descrita en el relato bíblico de la rebelión de Moab contra Israel.",
-      "referencias": ["2 Re 3:4-5 (contexto histórico)"],
-      "ruta": ["baal_meon"]
+      "referencias": [
+        "2 Re 3:4-5 (contexto histórico)"
+      ],
+      "ruta": [
+        "baal_meon"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +122,11 @@
       {
         "id": "estela-mesa-testimonio-baal-meon",
         "nombre": "La Estela de Mesa como confirmación extrabíblica de Baal-meón",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 32:38; Ez 25:9",
           "fuente_secundaria": "Estela de Mesa (inscripción moabita del siglo IX a.C., hallada en 1868), que menciona explícitamente la reconstrucción de Baal-meón por el rey Mesa",
@@ -116,5 +141,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

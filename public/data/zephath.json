@@ -7,7 +7,11 @@
   "frecuencia_at": 10,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista por Judá y Simeón, renombrada Horma" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista por Judá y Simeón, renombrada Horma"
+    }
   ],
   "descripcion_geo": "Ciudad cananea en el Néguev meridional, conquistada conjuntamente por las tribus de Judá y Simeón y renombrada Horma ('destrucción' o 'consagración a la destrucción'), nombre que conmemora directamente el modo de su conquista mediante el voto del herem.",
   "altitud_m": 500,
@@ -39,15 +43,21 @@
       "titulo": "La primera derrota de Israel en Horma",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Tras el informe negativo de los espías y la rebelión del pueblo, un grupo de israelitas, contradiciendo la prohibición explícita de Moisés, intenta entrar a Canaán por su propia cuenta sin el Arca ni la presencia de Moisés; son derrotados por los amalecitas y cananeos, que los persiguen hasta Horma.",
-      "referencias": ["Núm 14:39-45"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Núm 14:39-45"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "voto-arad-horma",
       "titulo": "El voto de Israel contra el rey de Arad",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Cuando el rey cananeo de Arad ataca a Israel y toma algunos prisioneros, Israel hace voto a YHWH de destruir completamente sus ciudades si le concede la victoria; YHWH escucha la petición, Israel derrota a los cananeos y destruye sus ciudades, dando origen al nombre Horma ('destrucción').",
-      "referencias": ["Núm 21:1-3"],
+      "referencias": [
+        "Núm 21:1-3"
+      ],
       "personajes_clave": []
     },
     {
@@ -55,7 +65,9 @@
       "titulo": "Judá y Simeón conquistan Sefat y la renombran Horma",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "Tras la muerte de Josué, las tribus de Judá y Simeón, actuando juntas en la conquista del sur, hieren a los cananeos de Sefat y la destruyen completamente, confirmando el nombre Horma ya establecido generaciones antes en el episodio del voto contra Arad.",
-      "referencias": ["Jue 1:17"],
+      "referencias": [
+        "Jue 1:17"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,9 +77,11 @@
       "nombre": "Moisés",
       "emoji": "🚫",
       "rol": "Líder de Israel",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Advierte al pueblo sobre el peligro de entrar a Canaán sin la presencia de YHWH tras la rebelión por el informe de los espías, advertencia confirmada por la derrota sufrida en Horma cuando el pueblo actúa por su cuenta.",
-      "referencias": ["Núm 14:41-43"],
+      "referencias": [
+        "Núm 14:41-43"
+      ],
       "ruta": []
     },
     {
@@ -77,8 +91,12 @@
       "rol": "Gobernante cananeo derrotado en el voto de Israel",
       "periodo": "c. 1400 a.C. (narrativa)",
       "descripcion": "Su ataque inicial contra Israel desencadena el voto de destrucción total que da origen al nombre Horma, tras la victoria israelita obtenida con la bendición divina.",
-      "referencias": ["Núm 21:1-3"],
-      "ruta": ["zephath"]
+      "referencias": [
+        "Núm 21:1-3"
+      ],
+      "ruta": [
+        "zephath"
+      ]
     },
     {
       "id": "judaitas_simeonitas_sefat",
@@ -87,8 +105,12 @@
       "rol": "Conquistadores aliados de Sefat",
       "periodo": "c. 1200 a.C. (narrativa)",
       "descripcion": "Actúan en cooperación tribal para conquistar y destruir Sefat tras la muerte de Josué, completando el ciclo de destrucción que ya había dado nombre al lugar generaciones antes.",
-      "referencias": ["Jue 1:17"],
-      "ruta": ["zephath"]
+      "referencias": [
+        "Jue 1:17"
+      ],
+      "ruta": [
+        "zephath"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +123,11 @@
       {
         "id": "contraste-presuncion-voto-horma",
         "nombre": "El contraste entre la presunción y el voto consagrado en Horma",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Núm 14:39-45; Núm 21:1-3",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la diferencia entre la acción presuntuosa sin mandato divino y la guerra santa autorizada mediante voto formal",
@@ -116,5 +142,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

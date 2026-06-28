@@ -8,11 +8,27 @@
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad israelita en la Sefela" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Segunda ciudad de Judá, sitiada por Asiria y Babilonia" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad cananea conquistada por Josué"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad israelita en la Sefela"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Segunda ciudad de Judá, sitiada por Asiria y Babilonia"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Lachish (hebreo: לָכִישׁ) era la segunda ciudad más importante de Judá tras Jerusalén, situada en la Sefela a unos 40 km al suroeste de la capital. Tell Lachish es uno de los yacimientos arqueológicos más importantes de Israel: las excavaciones revelaron dieciocho niveles de ocupación, desde el Calcolítico hasta el período persa. El tell domina la llanura circundante con murallas de gran espesor del Hierro II. Los Relieves de Lachish en el palacio de Senaquerib en Nínive — hoy en el British Museum — muestran el asedio asirio de 701 a.C. en extraordinario detalle. Las Cartas de Lachish (dieciocho óstraca del período 589-587 a.C.) son uno de los documentos epigráficos más importantes del hebreo bíblico.",
   "altitud_m": 40,
   "clima": "Mediterráneo de llanura — precipitaciones de 350-400 mm anuales, veranos calurosos y secos, inviernos suaves. Suelos de la Sefela muy fértiles para agricultura de secano.",
@@ -46,24 +62,44 @@
       "titulo": "Josué conquista Lachish: la campaña del sur",
       "fecha": "c. 1220 a.C.",
       "descripcion": "Lachish formó parte de la coalición de cinco reyes del sur (Jerusalén, Hebrón, Yarmut, Laquis, Eglón) que atacó a Gabaón por su alianza con Israel. Josué los derrotó en la batalla de Gabaón, persiguió a los fugitivos por el descenso de Bet-Jorón y los siete hasta Azecá y Maquedá, donde atrapó y ejecutó a los cinco reyes en una cueva. Luego marchó sistemáticamente sobre cada ciudad: Lachish cayó en dos días. El rey de Gezer acudió en auxilio de Lachish — fue derrotado también. La brevedad de la conquista ('tomó Lachish el segundo día', Jos 10:32) contrasta con la resistencia que ofrecería a Senaquerib cinco siglos después, evidenciando que las murallas del Hierro II eran incomparablemente más sólidas que las del Bronce Tardío.",
-      "referencias": ["Jos 10:31-33", "Jos 10:1-15", "Jos 12:11"],
-      "personajes_clave": ["josue-lachish"]
+      "referencias": [
+        "Jos 10:31-33",
+        "Jos 10:1-15",
+        "Jos 12:11"
+      ],
+      "personajes_clave": [
+        "josue-lachish"
+      ]
     },
     {
       "id": "senaquerib-lachish",
       "titulo": "Senaquerib asedia Lachish: el mayor relieve militar del mundo antiguo",
       "fecha": "701 a.C.",
       "descripcion": "En su campaña contra Judá y el rey Ezequías, Senaquerib de Asiria asedió primero Lachish antes de marchar sobre Jerusalén. El asedio fue tan significativo para el rey asirio que mandó tallar en la sala del trono de su palacio en Nínive un relieve panorámico de 26 metros mostrando el asedio en detalle: soldados asirios ascendiendo por la rampa de tierra, arqueros protegidos por escuderos, defensores judíos arrojando piedras y antorchas, deportados saliendo en fila con sus pertenencias, empalados en la vista de la ciudad como advertencia. Fue el único evento de su campaña que Senaquerib consideró digno de tal representación artística — ni siquiera la rendición de Jerusalén mereció un relieve equivalente. La arqueología confirmó la rampa de asedio y un foso masivo lleno de 1.500 esqueletos humanos. Desde Lachish, Senaquerib envió a sus oficiales con un gran ejército a Jerusalén mientras él permanecía en Lachish.",
-      "referencias": ["2 Re 18:13-17", "2 Cr 32:9", "Is 36:1-2"],
-      "personajes_clave": ["senaquerib", "ezequias"]
+      "referencias": [
+        "2 Re 18:13-17",
+        "2 Cr 32:9",
+        "Is 36:1-2"
+      ],
+      "personajes_clave": [
+        "senaquerib",
+        "ezequias"
+      ]
     },
     {
       "id": "cartas-lachish",
       "titulo": "Las Cartas de Lachish: las últimas palabras antes del silencio",
       "fecha": "589-587 a.C.",
       "descripcion": "Durante el asedio babilónico final (589-586 a.C.), el comandante de Lachish intercambió cartas con un oficial en un puesto avanzado. Dieciocho de estas cartas sobre fragmentos de cerámica (óstraca) fueron descubiertas en 1935-1938. La más célebre (Carta IV) dice: 'Que sepa mi señor que estamos vigilando las señales de fuego de Lachish según todas las indicaciones que mi señor nos ha dado, pues ya no vemos las señales de Azecá.' Azecá había caído. Jeremías 34:7 confirma: 'Solo Lachish y Azecá quedaban de las ciudades de Judá.' Las cartas revelan moral militar en desintegración, acusaciones contra funcionarios que 'debilitan las manos del pueblo', y una desesperación apenas contenida. Poco después, Lachish cayó. La excavación confirmó un nivel de destrucción masiva por fuego del 586 a.C.",
-      "referencias": ["Jer 34:7", "Cartas de Lachish IV", "2 Re 25:1-4"],
-      "personajes_clave": ["comandante-lachish", "jeremias-lachish"]
+      "referencias": [
+        "Jer 34:7",
+        "Cartas de Lachish IV",
+        "2 Re 25:1-4"
+      ],
+      "personajes_clave": [
+        "comandante-lachish",
+        "jeremias-lachish"
+      ]
     }
   ],
   "personajes": [
@@ -72,10 +108,17 @@
       "nombre": "Ezequías",
       "emoji": "🙏",
       "rol": "Rey reformador de Judá, resistió a Senaquerib con fe en Yahvé",
-      "periodo": "c. 715–686 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Ezequías ben Acaz es uno de los reyes más admirados de Judá. Destruyó los lugares de culto en las alturas, quitó las estelas, cortó la asera e incluso destruyó la serpiente de bronce de Moisés (Nehustán) que el pueblo veneraba. Cuando Senaquerib invadió Judá y tomó Lachish, Ezequías pagó inicialmente un tributo enorme —300 talentos de plata y 30 de oro— vaciando el tesoro del templo. Pero cuando los emisarios asirios pronunciaron su discurso de intimidación ante los muros de Jerusalén, Ezequías fue al templo, extendió la carta asiria ante Yahvé y oró. Isaías anunció que el rey de Asiria no entraría en la ciudad. El ejército asirio fue diezmado por una plaga y Senaquerib regresó a Nínive, donde fue asesinado por sus hijos.",
-      "referencias": ["2 Re 18:1-20:21", "2 Re 19:14-19", "Is 36:1-37:38"],
-      "ruta": ["lachish", "jerusalen"]
+      "referencias": [
+        "2 Re 18:1-20:21",
+        "2 Re 19:14-19",
+        "Is 36:1-37:38"
+      ],
+      "ruta": [
+        "lachish",
+        "jerusalen"
+      ]
     },
     {
       "id": "senaquerib",
@@ -84,7 +127,11 @@
       "rol": "Rey de Asiria, conquistador de Lachish, fracasado ante Jerusalén",
       "periodo": "c. 705–681 a.C.",
       "descripcion": "Senaquerib ben Sargón II es el faraón asirio cuya campaña del 701 a.C. está mejor documentada en la historia bíblica y extrabíblica. Sus prismas de barro ('Prisma de Taylor') conservan su versión: afirmó haber encerrado a Ezequías en Jerusalén 'como un pájaro en jaula' y exigido tributo, pero no afirmó haber tomado la ciudad. El relieve de Lachish — su mayor logro artístico y militar — muestra su orgullo por esa conquista. Su muerte a manos de sus hijos en el templo de Nisroc (2 Re 19:37; Is 37:38) fue confirmada por las crónicas babilónicas: fue asesinado en 681 a.C.",
-      "referencias": ["2 Re 18:13-19:37", "Is 36:1-37:38", "Prisma de Taylor"],
+      "referencias": [
+        "2 Re 18:13-19:37",
+        "Is 36:1-37:38",
+        "Prisma de Taylor"
+      ],
       "ruta": []
     },
     {
@@ -92,10 +139,17 @@
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta de Jerusalén, contemporáneo de la caída de Lachish ante Babilonia",
-      "periodo": "c. 650–580 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Jeremías vivió la caída de Lachish como profeta en Jerusalén sitiada. Su mención de Lachish y Azecá (Jer 34:7) como las últimas ciudades en pie antes de la capitulación total es el trasfondo histórico exacto de las Cartas de Lachish. Durante el mismo período, Jeremías fue arrojado a una cisterna por sus adversarios — acusado de debilitar la moral de los defensores, exactamente el cargo que las cartas de Lachish hacen contra los funcionarios que 'debilitan las manos'. La coincidencia lingüística entre las cartas y el libro de Jeremías es uno de los argumentos para la autenticidad histórica de ambos documentos.",
-      "referencias": ["Jer 34:7", "Jer 38:1-13", "Jer 32:1-5"],
-      "ruta": ["anathoth", "jerusalen"]
+      "referencias": [
+        "Jer 34:7",
+        "Jer 38:1-13",
+        "Jer 32:1-5"
+      ],
+      "ruta": [
+        "anathoth",
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -109,7 +163,11 @@
       {
         "id": "ezequias-fe-senaquerib",
         "nombre": "Ezequías extiende la carta ante Yahvé: la fe que detuvo a Asiria",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "2 Re 19:14-19; Is 37:14-20",
           "fuente_secundaria": "Talmud Bavli, Sanedrín 94b; Midrash Rabbah, Isaías 37",

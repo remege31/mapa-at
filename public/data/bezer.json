@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de refugio en Rubén" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad de refugio en Rubén"
+    }
   ],
   "descripcion_geo": "Ciudad en la meseta de Rubén, en la Transjordania, designada como una de las seis ciudades de refugio del sistema legal israelita, equivalente del lado oriental del Jordán a Cedes en el norte y Hebrón en el sur.",
   "altitud_m": 850,
@@ -40,15 +44,21 @@
       "titulo": "Moisés designa a Béser como ciudad de refugio",
       "fecha": "c. 1400 a.C. (narrativa)",
       "descripcion": "Moisés mismo, antes de su muerte, separa tres ciudades de refugio al oriente del Jordán, incluida Béser en la meseta del territorio rubenita, complementando el sistema de tres ciudades adicionales que se establecerán al occidente del Jordán tras la conquista de Canaán.",
-      "referencias": ["Deut 4:41-43"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Deut 4:41-43"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "bezer-confirmada-josue",
       "titulo": "Josué confirma a Béser entre las seis ciudades de refugio",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "El libro de Josué confirma formalmente a Béser entre el sistema completo de seis ciudades de refugio distribuidas a ambos lados del Jordán, garantizando el acceso equitativo al mecanismo de protección legal para toda la población israelita.",
-      "referencias": ["Jos 20:8"],
+      "referencias": [
+        "Jos 20:8"
+      ],
       "personajes_clave": []
     },
     {
@@ -56,7 +66,9 @@
       "titulo": "Béser designada ciudad levítica en Rubén",
       "fecha": "c. 1200 a.C. (narrativa)",
       "descripcion": "Béser recibe la doble designación de ciudad de refugio y ciudad levítica para las familias sacerdotales de la línea de Merari, combinando función legal de asilo con presencia sacerdotal permanente en el territorio rubenita.",
-      "referencias": ["Jos 21:36"],
+      "referencias": [
+        "Jos 21:36"
+      ],
       "personajes_clave": []
     }
   ],
@@ -66,9 +78,11 @@
       "nombre": "Moisés",
       "emoji": "🏛️",
       "rol": "Legislador, instituidor del sistema de refugio",
-      "periodo": "c. 1400 a.C. (narrativa)",
+      "periodo": "bronce_tardio",
       "descripcion": "Establece personalmente a Béser como una de las primeras tres ciudades de refugio del sistema legal mosaico, antes incluso del cruce del Jordán hacia Canaán.",
-      "referencias": ["Deut 4:41-43"],
+      "referencias": [
+        "Deut 4:41-43"
+      ],
       "ruta": []
     },
     {
@@ -76,9 +90,11 @@
       "nombre": "Josué",
       "emoji": "⚖️",
       "rol": "Líder de la conquista, confirmador del sistema completo",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Confirma y completa el sistema de seis ciudades de refugio establecido por Moisés, incluyendo a Béser entre las plazas de asilo legal distribuidas equitativamente a ambos lados del Jordán.",
-      "referencias": ["Jos 20:1-9"],
+      "referencias": [
+        "Jos 20:1-9"
+      ],
       "ruta": []
     },
     {
@@ -88,7 +104,9 @@
       "rol": "Residentes sacerdotales de Béser",
       "periodo": "Desde c. 1200 a.C.",
       "descripcion": "Asignados a residir en Béser, combinando la presencia sacerdotal levítica con la función legal de refugio de la ciudad.",
-      "referencias": ["Jos 21:36"],
+      "referencias": [
+        "Jos 21:36"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +119,11 @@
       {
         "id": "sistema-completo-refugio-bezer",
         "nombre": "La instauración temprana del sistema de refugio por Moisés",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Deut 4:41-43; Jos 20:8; Jos 21:36",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la prioridad legal otorgada por Moisés a la designación de las primeras ciudades de refugio antes incluso de completar la conquista de la tierra prometida",
@@ -116,5 +138,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

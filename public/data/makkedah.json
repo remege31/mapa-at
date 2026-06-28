@@ -7,7 +7,11 @@
   "frecuencia_at": 9,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Conquista y asignación a Judá" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Conquista y asignación a Judá"
+    }
   ],
   "descripcion_geo": "Ciudad cananea en la Sefelá (tierras bajas de Judá), próxima a una cueva natural en piedra caliza que sirvió de refugio y, después, de prisión improvisada en el relato de la conquista. Terreno de colinas bajas y suaves típico de la transición entre la llanura costera y las montañas centrales.",
   "altitud_m": 250,
@@ -40,24 +44,36 @@
       "titulo": "Los cinco reyes amorreos refugiados en la cueva de Makkedah",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tras ser derrotados por Josué en defensa de Gabaón, los reyes de Jerusalén, Hebrón, Jarmut, Laquis y Eglón huyen y se esconden en una cueva cerca de Makkedah; Josué ordena sellar la entrada con piedras hasta concluir la batalla.",
-      "referencias": ["Jos 10:16-21"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:16-21"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "ejecucion-cinco-reyes",
       "titulo": "Ejecución de los cinco reyes",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Una vez asegurada la victoria, Josué hace sacar a los cinco reyes de la cueva, los humilla públicamente ante los jefes israelitas, los ejecuta y ordena colgar sus cuerpos hasta el atardecer, sepultándolos después en la misma cueva que les había servido de refugio.",
-      "referencias": ["Jos 10:22-27"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:22-27"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "conquista-makkedah",
       "titulo": "Toma de la ciudad de Makkedah",
       "fecha": "c. 1200 a.C.",
       "descripcion": "El mismo día de la ejecución de los reyes, Josué conquista la ciudad de Makkedah, pasa a su rey y a sus habitantes a filo de espada y no deja sobreviviente, repitiendo el patrón de las campañas del sur.",
-      "referencias": ["Jos 10:28"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:28"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     }
   ],
   "personajes": [
@@ -66,20 +82,31 @@
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Sucesor de Moisés que dirige la campaña militar del sur de Canaán; en Makkedah protagoniza tanto el episodio de la cueva de los cinco reyes como la conquista de la ciudad misma.",
-      "referencias": ["Jos 10:16-28"],
-      "ruta": ["gilgal", "makkedah", "laquis"]
+      "referencias": [
+        "Jos 10:16-28"
+      ],
+      "ruta": [
+        "jericho",
+        "makkedah",
+        "lachish"
+      ]
     },
     {
       "id": "rey_jerusalen_adonisedec",
       "nombre": "Adoni-sedec",
       "emoji": "👑",
       "rol": "Rey amorreo de Jerusalén, líder de la coalición de cinco reyes",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Organiza la coalición de cinco reyes amorreos contra Gabaón por haber pactado con Israel; derrotado por Josué, muere ejecutado tras ser hallado en la cueva de Makkedah.",
-      "referencias": ["Jos 10:1-27"],
-      "ruta": ["jerusalen", "makkedah"]
+      "referencias": [
+        "Jos 10:1-27"
+      ],
+      "ruta": [
+        "jerusalen",
+        "makkedah"
+      ]
     },
     {
       "id": "rey_hebron_makkedah",
@@ -88,8 +115,13 @@
       "rol": "Reyes amorreos de la coalición del sur",
       "periodo": "c. 1200 a.C.",
       "descripcion": "Junto al rey de Jerusalén, forman la coalición de cinco reyes derrotada en la batalla de Gabaón; los cinco comparten el mismo destino en la cueva de Makkedah.",
-      "referencias": ["Jos 10:3-5", "Jos 10:23"],
-      "ruta": ["makkedah"]
+      "referencias": [
+        "Jos 10:3-5",
+        "Jos 10:23"
+      ],
+      "ruta": [
+        "makkedah"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +134,11 @@
       {
         "id": "cueva-cinco-reyes",
         "nombre": "La cueva de los cinco reyes",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 10:16-27",
           "fuente_secundaria": "Talmud Babilónico, Sotah 10a-b (discusión sobre los reyes derrotados por Josué)",
@@ -125,5 +161,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

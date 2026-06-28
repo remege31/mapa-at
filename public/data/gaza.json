@@ -8,12 +8,33 @@
   "frecuencia_at": 24,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1400, "hasta": -1200, "nombre": "Bronce Tardío — Ciudad egipcia de guarnición en Canaán" },
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Capital de la Pentápolis filistea" },
-    { "desde": -1000, "hasta": -586, "nombre": "Hierro II — Ciudad filistea bajo presión israelita y asiria" },
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Ciudad bajo dominio babilónico y persa" }
+    {
+      "desde": -1400,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Ciudad egipcia de guarnición en Canaán"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Capital de la Pentápolis filistea"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Hierro II — Ciudad filistea bajo presión israelita y asiria"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Ciudad bajo dominio babilónico y persa"
+    }
   ],
-  "periodos_at": ["bronce_tardio", "hierro_1", "hierro_2", "post_exilio"],
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_1",
+    "hierro_2",
+    "post_exilio"
+  ],
   "descripcion_geo": "Gaza (hebreo: עַזָּה; egipcio: Ghazzat) era la ciudad más meridional y políticamente más importante de la Pentápolis filistea, situada en la llanura costera a unos 4 km del Mediterráneo y en el extremo norte del Sinaí. Controlaba el paso obligatorio de la Via Maris entre Egipto y Canaán. Su posición estratégica la convirtió en sede de la administración egipcia en Canaán durante el Imperio Nuevo y en capital efectiva de la Pentápolis filistea. Con ocupación ininterrumpida desde el Calcolítico hasta hoy, Gaza es una de las ciudades habitadas más antiguas del mundo. El tell arqueológico está bajo la ciudad moderna, limitando las excavaciones.",
   "altitud_m": 10,
   "clima": "Mediterráneo costero árido de transición — precipitaciones de 300-400 mm anuales (las más bajas de la costa cananea), veranos cálidos y secos con humedad costera, inviernos suaves. Zona de transición entre el clima mediterráneo y el desértico del Sinaí.",
@@ -54,24 +75,40 @@
       "titulo": "Sansón en Gaza: la noche que arrancó las puertas",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Sansón fue a Gaza y vio allí a una prostituta; entró a ella. Se dijo a los gazatitas: 'Sansón ha venido aquí.' Lo cercaron y lo acecharon toda la noche a la puerta de la ciudad, diciendo: 'Al amanecer lo mataremos.' Sansón estuvo echado hasta la medianoche; a medianoche se levantó, agarró las puertas de la ciudad con los dos postes y las arrancó con cerrojo y todo, se las cargó sobre los hombros y las subió a la cima del monte que está frente a Hebrón. El episodio es el primer encuentro de Sansón con Gaza — una demostración de fuerza física sobrenatural en el corazón de la ciudad enemiga. No fue allí como guerrero sino como hombre que siguió sus instintos, pero su fuerza divina transformó la trampa en exhibición de poder. La escena prefigura su muerte en el mismo templo de Gaza: Sansón siempre actúa en Gaza con consecuencias desproporcionadas.",
-      "referencias": ["Jue 16:1-3"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 16:1-3"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "sanson-muerte-dagon",
       "titulo": "La muerte de Sansón: el templo de Dagón derrumbado",
       "fecha": "c. 1080 a.C.",
       "descripcion": "Capturado tras la traición de Dalila, con los ojos arrancados y encadenado, Sansón molía en la cárcel de Gaza. Los señores filisteos convocaron una gran fiesta en honor de Dagón: 'Nuestro dios nos ha entregado a Sansón nuestro enemigo.' Tres mil hombres y mujeres llenaban el templo. Sansón pidió al criado que lo llevara a los dos pilares centrales que sostenían la estructura. Puso una mano en cada pilar e invocó a Yahvé: 'Señor Yahvé, acuérdate de mí, te ruego; dame fuerza solo esta vez, para que de un golpe tome venganza de los filisteos por mis dos ojos.' Empujó con toda su fuerza y el edificio se desplomó sobre los señores filisteos y sobre todo el pueblo que había en él. Los muertos que mató al morir superaron a los que había matado en vida. Sus hermanos y toda la familia de su padre bajaron y lo recogieron y lo enterraron en el sepulcro de su padre Manoa, entre Sora y Estaol.",
-      "referencias": ["Jue 16:21-31", "Jue 16:23-30"],
-      "personajes_clave": ["sanson", "senores-filisteos-gaza"]
+      "referencias": [
+        "Jue 16:21-31",
+        "Jue 16:23-30"
+      ],
+      "personajes_clave": [
+        "sanson",
+        "senores-filisteos-gaza"
+      ]
     },
     {
       "id": "amos-gaza",
       "titulo": "Amós condena a Gaza: el oráculo contra los traficantes de esclavos",
       "fecha": "c. 760 a.C.",
       "descripcion": "El profeta Amós abrió su libro con una serie de oráculos contra las naciones vecinas de Israel. El oráculo contra Gaza es el segundo: 'Por tres crímenes de Gaza y por cuatro no revocaré mi decreto: porque deportaron una población entera para entregarla a Edom.' El crimen denunciado es la trata de esclavos — Gaza como intermediaria en la deportación de poblaciones completas para su venta en los mercados de Edom (y de allí probablemente a Arabia y Mesopotamia). Este oráculo documenta a Gaza como centro del comercio de esclavos en el siglo VIII a.C. y establece que Yahvé juzgará a las naciones paganas no solo por su idolatría sino por sus crímenes contra la dignidad humana.",
-      "referencias": ["Am 1:6-8", "Sof 2:4", "Jer 25:20"],
-      "personajes_clave": ["amos"]
+      "referencias": [
+        "Am 1:6-8",
+        "Sof 2:4",
+        "Jer 25:20"
+      ],
+      "personajes_clave": [
+        "amos"
+      ]
     }
   ],
   "personajes": [
@@ -80,19 +117,30 @@
       "nombre": "Sansón",
       "emoji": "💪",
       "rol": "Juez nazirita de Dan, guerrero personal contra los filisteos",
-      "periodo": "c. 1100–1080 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Sansón ben Manoa, de la tribu de Dan, es el juez más paradójico del AT: consagrado a Dios desde el vientre materno como nazirita (voto de no cortarse el cabello, no beber vino, no tocar cadáveres), su vida estuvo marcada por la ruptura sistemática de las tres condiciones de su consagración. Su fuerza no era física en el sentido convencional sino un don del Espíritu de Yahvé que le venía en momentos específicos. Sus hazañas en Gaza — arrancar las puertas de la ciudad y derrumbar el templo de Dagón — son los puntos extremos de su narrativa: la primera demuestra que ningún lugar enemigo puede retenerlo, la última que su muerte elegida vale más que toda su vida de violencia espontánea.",
-      "referencias": ["Jue 13:2-5", "Jue 14:1-20", "Jue 16:1-31"],
-      "ruta": ["dan", "gaza"]
+      "referencias": [
+        "Jue 13:2-5",
+        "Jue 14:1-20",
+        "Jue 16:1-31"
+      ],
+      "ruta": [
+        "dan",
+        "gaza"
+      ]
     },
     {
       "id": "amos",
       "nombre": "Amós",
       "emoji": "🌾",
       "rol": "Profeta pastor de Tecoa, primer profeta escritor del AT",
-      "periodo": "c. 760 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Amós de Tecoa fue pastor y cultivador de sicomoros en el desierto de Judá. Sin formación profética oficial ('no soy profeta ni hijo de profeta'), recibió la llamada divina y fue enviado al santuario real del norte en Betel para pronunciar juicio sobre Israel en el momento de su mayor prosperidad. Su libro abre con oráculos contra las naciones vecinas (incluyendo Gaza) antes de dirigir el mensaje principal a Israel — una estrategia retórica que atrapaba la aprobación del oyente israelita antes de volverla en su contra. Su visión de la justicia social es la más sistemática del profetismo pre-exílico.",
-      "referencias": ["Am 1:1", "Am 7:14-15", "Am 5:21-24"],
+      "referencias": [
+        "Am 1:1",
+        "Am 7:14-15",
+        "Am 5:21-24"
+      ],
       "ruta": []
     },
     {
@@ -102,7 +150,10 @@
       "rol": "Mujer del valle de Sorec, instrumento de la captura de Sansón",
       "periodo": "c. 1080 a.C.",
       "descripcion": "Dalila (nombre de origen incierto, posiblemente cananeo: 'delicada' o 'de noche') es el personaje femenino más famoso de la narrativa de Sansón. No se la llama filistea explícitamente, y su nombre no es hebreo ni claramente filisteo. Los señores filisteos le ofrecieron mil cien siclos de plata cada uno —un precio enorme— para que descubriera el secreto de la fuerza de Sansón. Tres veces Sansón la engañó con respuestas falsas; a la cuarta, cansado de sus insistencias ('su alma se angustió hasta morir'), reveló la verdad del cabello nazirita. Dalila hizo rapar sus siete trenzas mientras dormía sobre sus rodillas. Su figura ha generado interpretaciones contrapuestas: traidora calculadora, víctima de presiones externas, o simplemente mujer que eligió el dinero sobre el amor.",
-      "referencias": ["Jue 16:4-20", "Jue 16:15-17"],
+      "referencias": [
+        "Jue 16:4-20",
+        "Jue 16:15-17"
+      ],
       "ruta": []
     }
   ],
@@ -117,7 +168,11 @@
       {
         "id": "sanson-nazireo",
         "nombre": "El nazirato de Sansón: la fuerza divina y la debilidad humana",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 13:1-7; Núm 6:1-21",
           "fuente_secundaria": "Talmud Bavli, Sotá 9b-10a; Midrash Tanjuma, Naso 24",

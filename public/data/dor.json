@@ -7,8 +7,16 @@
   "frecuencia_at": 7,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad costera no conquistada, asignada a Manasés" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Distrito administrativo salomónico" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad costera no conquistada, asignada a Manasés"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Distrito administrativo salomónico"
+    }
   ],
   "descripcion_geo": "Importante ciudad portuaria en la llanura costera del Carmelo, con puerto natural que la convertía en centro comercial significativo del Mediterráneo oriental, asignada formalmente a la media tribu de Manasés pero nunca conquistada militarmente durante el período de los Jueces.",
   "altitud_m": 10,
@@ -41,15 +49,21 @@
       "titulo": "Josué derrota al rey de Dor",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Dor aparece en la lista de los treinta y un reyes cananeos derrotados por Josué durante la conquista de Canaán, confirmando su estatus de ciudad-estado independiente y poderosa antes de la asignación territorial.",
-      "referencias": ["Jos 12:23"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 12:23"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "manases-no-expulsa-dor",
       "titulo": "Manasés no logra expulsar a los cananeos de Dor",
       "fecha": "c. 1150 a.C.",
       "descripcion": "Pese a la victoria militar inicial de Josué sobre su rey, el libro de los Jueces registra que Manasés no pudo desposeer a los habitantes de Dor y sus aldeas, manteniéndose la ciudad bajo dominio sometido a trabajo forzado en lugar de la conquista total prevista.",
-      "referencias": ["Jue 1:27"],
+      "referencias": [
+        "Jue 1:27"
+      ],
       "personajes_clave": []
     },
     {
@@ -57,8 +71,12 @@
       "titulo": "Dor en el distrito administrativo de Ben-Abinadab",
       "fecha": "c. 970–931 a.C.",
       "descripcion": "Salomón finalmente integra Dor en su sistema de doce distritos administrativos, bajo la responsabilidad de Ben-Abinadab, quien además había desposado a Tafat, hija del propio Salomón, vinculando estrechamente el gobierno de esta región costera con la familia real.",
-      "referencias": ["1 Re 4:11"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "1 Re 4:11"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     }
   ],
   "personajes": [
@@ -67,9 +85,11 @@
       "nombre": "Josué",
       "emoji": "⚓",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Derrota al rey cananeo de Dor en su campaña de conquista, aunque la ciudad permanecerá efectivamente independiente durante generaciones tras esta victoria inicial.",
-      "referencias": ["Jos 12:23"],
+      "referencias": [
+        "Jos 12:23"
+      ],
       "ruta": []
     },
     {
@@ -79,18 +99,26 @@
       "rol": "Gobernador del distrito de Dor, yerno de Salomón",
       "periodo": "c. 970–931 a.C.",
       "descripcion": "Administra el distrito que finalmente incorpora a Dor al sistema de gobierno salomónico, vinculado a la familia real por su matrimonio con la hija del rey.",
-      "referencias": ["1 Re 4:11"],
-      "ruta": ["dor"]
+      "referencias": [
+        "1 Re 4:11"
+      ],
+      "ruta": [
+        "dor"
+      ]
     },
     {
       "id": "salomon_dor",
       "nombre": "Salomón",
       "emoji": "🏛️",
       "rol": "Rey de Israel, organizador administrativo del reino",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Completa finalmente la integración administrativa plena de Dor al reino israelita, varios siglos después del fracaso inicial de Manasés en conquistarla militarmente.",
-      "referencias": ["1 Re 4:7-19"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "1 Re 4:7-19"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -104,7 +132,11 @@
       {
         "id": "integracion-tardia-dor",
         "nombre": "La integración tardía de Dor mediante administración en lugar de conquista",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 1:27; 1 Re 4:11",
           "fuente_secundaria": "Comentario rabínico tradicional sobre las distintas vías de incorporación territorial —conquista militar directa o integración administrativa posterior— como mecanismos complementarios de cumplimiento gradual de la promesa territorial",
@@ -119,5 +151,8 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1", "hierro_2"]
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ]
 }

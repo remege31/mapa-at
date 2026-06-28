@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Última batalla de Sansón contra los filisteos" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Última batalla de Sansón contra los filisteos"
+    }
   ],
   "descripcion_geo": "Localidad de la Sefelá, muy próxima a Zorah y al valle de Sorek, cuyo nombre ('quijada' en hebreo) deriva directamente del episodio bíblico que allí se sitúa. Terreno de colinas bajas típico de la frontera entre el territorio danita y la llanura filistea.",
   "altitud_m": 220,
@@ -40,24 +44,36 @@
       "titulo": "Los hombres de Judá entregan a Sansón",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Ante la amenaza de represalia filistea por el incendio de los campos, tres mil hombres de Judá bajan a la peña de Etam, reprochan a Sansón su conducta y lo atan con cuerdas nuevas para entregarlo a los filisteos en Lehi, evitando así un conflicto mayor con el ocupante.",
-      "referencias": ["Jue 15:9-13"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 15:9-13"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "quijada-asno-lehi",
       "titulo": "La quijada de asno",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Al llegar a Lehi, el Espíritu de YHWH se apodera de Sansón, las cuerdas que lo atan se sueltan como lino quemado, y con la quijada fresca de un asno mata a mil hombres filisteos, dando origen al nombre del lugar y a un cántico breve atribuido a Sansón.",
-      "referencias": ["Jue 15:14-17"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 15:14-17"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     },
     {
       "id": "manantial-en-hacore",
       "titulo": "El manantial de En-hacore",
       "fecha": "c. 1100 a.C.",
       "descripcion": "Exhausto y sediento tras la matanza, Sansón clama a YHWH temiendo morir de sed; Dios abre una hendidura en la roca de Lehi de la que brota agua, manantial que conserva el nombre 'En-hacore' ('fuente del que clama') hasta el tiempo del narrador bíblico.",
-      "referencias": ["Jue 15:18-19"],
-      "personajes_clave": ["sanson"]
+      "referencias": [
+        "Jue 15:18-19"
+      ],
+      "personajes_clave": [
+        "sanson"
+      ]
     }
   ],
   "personajes": [
@@ -66,10 +82,16 @@
       "nombre": "Sansón",
       "emoji": "🦴",
       "rol": "Juez de Israel, nazareo de fuerza sobrehumana",
-      "periodo": "c. 1100–1070 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Protagonista de la batalla más decisiva de su ciclo personal contra los filisteos, librada en Lehi con un arma improvisada; el episodio marca el punto culminante de su enemistad surgida en Timnah.",
-      "referencias": ["Jue 15:9-19"],
-      "ruta": ["timnah", "etam", "lehi"]
+      "referencias": [
+        "Jue 15:9-19"
+      ],
+      "ruta": [
+        "timnah",
+        "zorah",
+        "lehi"
+      ]
     },
     {
       "id": "hombres_judá_lehi",
@@ -78,8 +100,12 @@
       "rol": "Delegación de tres mil hombres de Judá",
       "periodo": "c. 1100 a.C.",
       "descripcion": "Representan la actitud de acomodo del liderazgo de Judá bajo dominio filisteo, dispuestos a entregar a su propio juez con tal de evitar represalias, en contraste con la acción liberadora individual de Sansón.",
-      "referencias": ["Jue 15:9-13"],
-      "ruta": ["lehi"]
+      "referencias": [
+        "Jue 15:9-13"
+      ],
+      "ruta": [
+        "lehi"
+      ]
     },
     {
       "id": "filisteos_derrotados_lehi",
@@ -88,8 +114,12 @@
       "rol": "Tropa filistea derrotada en Lehi",
       "periodo": "c. 1100 a.C.",
       "descripcion": "Fuerza filistea aniquilada por Sansón con la quijada de asno, episodio que representa la mayor baja infligida por un solo juez israelita en un único enfrentamiento narrado.",
-      "referencias": ["Jue 15:15-16"],
-      "ruta": ["lehi"]
+      "referencias": [
+        "Jue 15:15-16"
+      ],
+      "ruta": [
+        "lehi"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -102,7 +132,11 @@
       {
         "id": "quijada-mil-filisteos",
         "nombre": "La quijada de asno y la matanza de mil filisteos",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jue 15:14-19",
           "fuente_secundaria": "Talmud Babilónico, Sotah 9b-10a (sobre la fuerza de Sansón y su origen)",
@@ -125,5 +159,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

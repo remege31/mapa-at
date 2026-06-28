@@ -7,7 +7,11 @@
   "frecuencia_at": 5,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Ciudad moabita meridional, oráculos de juicio" }
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Ciudad moabita meridional, oráculos de juicio"
+    }
   ],
   "descripcion_geo": "Ciudad en el extremo meridional de Moab, mencionada exclusivamente en contextos de oráculos proféticos de juicio. Su nombre ('dos cavernas' o 'doble caverna') sugiere un terreno con formaciones rocosas o cuevas características.",
   "altitud_m": 500,
@@ -39,23 +43,35 @@
       "titulo": "Isaías describe el clamor de destrucción en el camino de Horonaim",
       "fecha": "c. 740–700 a.C.",
       "descripcion": "El profeta Isaías incluye el camino de Horonaim entre los lugares donde se levanta el clamor de quebranto en su extenso oráculo de juicio contra Moab, describiendo la huida desesperada de la población ante la devastación anunciada.",
-      "referencias": ["Is 15:5"],
-      "personajes_clave": ["isaias"]
+      "referencias": [
+        "Is 15:5"
+      ],
+      "personajes_clave": [
+        "isaias"
+      ]
     },
     {
       "id": "jeremias-llanto-horonaim",
       "titulo": "Jeremías profetiza el grito de quebrantamiento desde Horonaim",
       "fecha": "c. 600 a.C.",
       "descripcion": "Jeremías retoma y amplía la imagen de Isaías, describiendo cómo desde Horonaim se levanta un grito de destrucción y gran quebrantamiento, en uno de los pasajes más extensos y detallados del oráculo de juicio contra la totalidad de las ciudades moabitas.",
-      "referencias": ["Jer 48:3", "Jer 48:5", "Jer 48:34"],
-      "personajes_clave": ["jeremias"]
+      "referencias": [
+        "Jer 48:3",
+        "Jer 48:5",
+        "Jer 48:34"
+      ],
+      "personajes_clave": [
+        "jeremias"
+      ]
     },
     {
       "id": "horonaim-geografia-completa-moab",
       "titulo": "Horonaim como parte de la geografía total del juicio sobre Moab",
       "fecha": "c. 600 a.C.",
       "descripcion": "La mención reiterada de Horonaim junto a otras ciudades moabitas en los oráculos de Isaías y Jeremías confirma la intención profética de documentar la totalidad geográfica del territorio bajo juicio, desde las ciudades del norte como Nebo hasta el extremo sur representado por Horonaim.",
-      "referencias": ["Jer 48:1-46"],
+      "referencias": [
+        "Jer 48:1-46"
+      ],
       "personajes_clave": []
     }
   ],
@@ -67,18 +83,26 @@
       "rol": "Profeta de Judá",
       "periodo": "Activo c. 740–700 a.C.",
       "descripcion": "Menciona Horonaim en su oráculo de juicio contra Moab, estableciendo el patrón que Jeremías retomará y ampliará considerablemente generaciones después.",
-      "referencias": ["Is 15:1-9"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Is 15:1-9"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "jeremias_horonaim",
       "nombre": "Jeremías",
       "emoji": "😭",
       "rol": "Profeta de Judá",
-      "periodo": "Activo c. 627–586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Desarrolla con mayor detalle el lamento sobre Horonaim, integrándolo en el extenso catálogo de ciudades moabitas afectadas por el juicio divino anunciado.",
-      "referencias": ["Jer 48:1-46"],
-      "ruta": ["jerusalen"]
+      "referencias": [
+        "Jer 48:1-46"
+      ],
+      "ruta": [
+        "jerusalen"
+      ]
     },
     {
       "id": "moabitas_horonaim_personaje",
@@ -87,7 +111,9 @@
       "rol": "Habitantes huyendo del juicio anunciado",
       "periodo": "c. 600 a.C.",
       "descripcion": "Descritos en los oráculos proféticos huyendo por el camino que lleva el nombre de la ciudad, lanzando gritos de destrucción ante la devastación venidera sobre el reino moabita.",
-      "referencias": ["Jer 48:3-5"],
+      "referencias": [
+        "Jer 48:3-5"
+      ],
       "ruta": []
     }
   ],
@@ -100,7 +126,11 @@
       {
         "id": "mapa-profetico-horonaim",
         "nombre": "Horonaim en el mapa profético del juicio sobre Moab",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Is 15:5; Jer 48:3-5, 34",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la función geográfica de las listas de ciudades en los oráculos de juicio profético contra las naciones",
@@ -115,5 +145,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_2"]
+  "periodos_at": [
+    "hierro_2"
+  ]
 }

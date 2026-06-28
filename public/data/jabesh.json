@@ -8,10 +8,21 @@
   "frecuencia_at": 21,
   "jerarquia_pin": "secundario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Hierro I — Ciudad de Galaad, aliada de Benjamín" },
-    { "desde": -1000, "hasta": -722, "nombre": "Hierro II — Ciudad del reino del norte, leal a la memoria de Saúl" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Ciudad de Galaad, aliada de Benjamín"
+    },
+    {
+      "desde": -1000,
+      "hasta": -722,
+      "nombre": "Hierro II — Ciudad del reino del norte, leal a la memoria de Saúl"
+    }
   ],
-  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ],
   "descripcion_geo": "Jabesh-Galaad (hebreo: יָבֵשׁ גִּלְעָד, 'seco de Galaad') era una ciudad en la región de Galaad, al este del Jordán, en el territorio de la media tribu de Manasés. Su identificación exacta es debatida entre Tell Abu Kharaz y Wadi Yabis, en las colinas orientales del valle del Jordán, a unos 35 km al sur del mar de Galilea. La ciudad controlaba rutas en la zona de Galaad y tenía vínculos tribales especiales con Benjamín (la tribu de Saúl), vínculos que explican su lealtad extraordinaria a la dinastía saúlida incluso tras la muerte del rey. Su nombre ('seca') puede referirse a las características del wadi local en verano.",
   "altitud_m": 400,
   "clima": "Mediterráneo continental de transición — precipitaciones de 400-500 mm anuales en las colinas, veranos secos y calurosos, inviernos frescos. La proximidad al valle del Jordán crea variaciones microclimáticas entre la llanura y las colinas.",
@@ -45,24 +56,45 @@
       "titulo": "Jabesh-Galaad y la guerra benjaminita: el origen de un vínculo tribal",
       "fecha": "c. 1150 a.C.",
       "descripcion": "Tras la guerra civil que casi exterminó a la tribu de Benjamín por el crimen de Guibeá, Israel juró que ninguno daría su hija en matrimonio a un benjaminita. Luego se arrepintieron de haber excluido a Benjamín de Israel. Descubrieron que nadie de Jabesh-Galaad había participado en la asamblea de Mispá. Israel envió doce mil guerreros a Jabesh-Galaad con órdenes de matar a todos los hombres y mujeres que hubieran conocido varón, y traer a las vírgenes. Encontraron cuatrocientas doncellas que fueron entregadas a los benjaminitas supervivientes. Este episodio oscuro del libro de Jueces estableció el vínculo entre Jabesh-Galaad y Benjamín — un vínculo sellado en sangre y matrimonio que explicaría la lealtad extrema de la ciudad a Saúl, rey benjaminita, dos generaciones después.",
-      "referencias": ["Jue 21:8-14", "Jue 20:1-48", "Jue 21:1-7"],
-      "personajes_clave": ["ancianos-jabesh"]
+      "referencias": [
+        "Jue 21:8-14",
+        "Jue 20:1-48",
+        "Jue 21:1-7"
+      ],
+      "personajes_clave": [
+        "ancianos-jabesh"
+      ]
     },
     {
       "id": "saul-libera-jabesh",
       "titulo": "Saúl libera Jabesh: la victoria que confirmó al primer rey",
       "fecha": "c. 1020 a.C.",
       "descripcion": "Nahas el amonita sitió Jabesh-Galaad y ofreció condiciones humillantes: sacar el ojo derecho a todos como oprobio sobre Israel. Los jabeshitas pidieron siete días para buscar auxilio. Los mensajeros llegaron a Guibeá de Saúl. Saúl, que volvía del campo detrás de sus bueyes, escuchó el llanto del pueblo. El espíritu de Dios vino sobre él con furor: cortó su yunta de bueyes y envió los pedazos por todo Israel con la amenaza: 'Así se hará con los bueyes del que no salga detrás de Saúl y Samuel.' El temor de Yahvé cayó sobre el pueblo y salieron como un solo hombre — trescientos treinta mil según el texto. El ejército de Nahas fue destruido al amanecer. El pueblo quiso ejecutar a los que habían cuestionado la realeza de Saúl; este lo impidió: 'No morirá hoy nadie, porque hoy Yahvé ha obrado la salvación en Israel.' Jabesh-Galaad quedó para siempre ligada a la memoria de Saúl.",
-      "referencias": ["1 Sam 11:1-13", "1 Sam 11:6-8", "1 Sam 11:12-13"],
-      "personajes_clave": ["saul-jabesh", "nahas"]
+      "referencias": [
+        "1 Sam 11:1-13",
+        "1 Sam 11:6-8",
+        "1 Sam 11:12-13"
+      ],
+      "personajes_clave": [
+        "saul-jabesh",
+        "nahas"
+      ]
     },
     {
       "id": "jabesh-rescata-saul",
       "titulo": "Los hombres de Jabesh rescatan el cuerpo de Saúl",
       "fecha": "c. 1010 a.C.",
       "descripcion": "Tras la derrota de Israel en el monte Guilboa y la muerte de Saúl y sus hijos, los filisteos cortaron la cabeza de Saúl y colgaron su cuerpo y los de sus hijos en las murallas de Bet-Seán. Cuando los habitantes de Jabesh-Galaad oyeron lo que los filisteos habían hecho a Saúl, todos sus valientes caminaron toda la noche, tomaron el cuerpo de Saúl y los cuerpos de sus hijos de las murallas de Bet-Seán, volvieron a Jabesh, los quemaron allí y enterraron sus huesos bajo la tamarisco de Jabesh, ayunando siete días. Cuando David supo de este gesto, envió mensajeros para bendecirlos: 'Benditos seáis de Yahvé por haber mostrado esta lealtad a vuestro señor Saúl... yo también os recompensaré por este bien.' El rescate del cuerpo real fue el último acto de una lealtad que comenzó cuando Saúl los salvó de Nahas.",
-      "referencias": ["1 Sam 31:11-13", "2 Sam 2:4-7", "1 Cr 10:11-12"],
-      "personajes_clave": ["varones-jabesh", "saul-jabesh", "david-jabesh"]
+      "referencias": [
+        "1 Sam 31:11-13",
+        "2 Sam 2:4-7",
+        "1 Cr 10:11-12"
+      ],
+      "personajes_clave": [
+        "varones-jabesh",
+        "saul-jabesh",
+        "david-jabesh"
+      ]
     }
   ],
   "personajes": [
@@ -71,10 +103,18 @@
       "nombre": "Saúl",
       "emoji": "👑",
       "rol": "Primer rey de Israel, libertador de Jabesh y víctima rescatada por ella",
-      "periodo": "c. 1050–1010 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Saúl ben Quis, de la tribu de Benjamín y la ciudad de Guibeá, fue el primer rey de Israel, ungido por Samuel ante la demanda del pueblo. Su relación con Jabesh-Galaad enmarca toda su carrera: la liberó en su primera victoria (confirmando su reinado) y fue rescatado por ella en su muerte (su único honor post mortem). Entre esos dos momentos, Saúl combatió a los filisteos, persiguió a David, consultó a la médium de Endor, y murió en el monte Guilboa. El texto bíblico lo presenta como hombre de gran potencial frustrado por la desobediencia — capaz de nobleza (perdonar a sus detractores tras la victoria sobre Nahas) e incapaz de obediencia consistente (el herem de Amalec, la persecución de David).",
-      "referencias": ["1 Sam 9:1-10:27", "1 Sam 11:1-15", "1 Sam 31:1-13"],
-      "ruta": ["gibeah", "jabesh", "carmel"]
+      "referencias": [
+        "1 Sam 9:1-10:27",
+        "1 Sam 11:1-15",
+        "1 Sam 31:1-13"
+      ],
+      "ruta": [
+        "gibeah",
+        "jabesh",
+        "carmel"
+      ]
     },
     {
       "id": "nahas",
@@ -83,7 +123,10 @@
       "rol": "Rey de Amón que sitió Jabesh-Galaad, detonante del reinado de Saúl",
       "periodo": "c. 1020 a.C.",
       "descripcion": "Nahas (נָחָשׁ, 'serpiente') el amonita es el antagonista cuya crueldad desencadena el primer acto público de Saúl como rey. Su condición de sacar el ojo derecho a todos los habitantes de Jabesh — 'para poner oprobio sobre todo Israel' — era una amenaza de humillación colectiva más que táctica militar. Nahas aparece brevemente en 2 Samuel 10 como amigo de David — su hijo Janún humilló a los enviados de David, desencadenando la guerra amonita. Un fragmento del Rollo del Mar Muerto (4QSam a) añade un párrafo introductorio sobre Nahas que no aparece en el texto masorético, describiendo sus crueldades previas contra las tribus transjordanas.",
-      "referencias": ["1 Sam 11:1-3", "2 Sam 10:1-5"],
+      "referencias": [
+        "1 Sam 11:1-3",
+        "2 Sam 10:1-5"
+      ],
       "ruta": []
     },
     {
@@ -93,7 +136,11 @@
       "rol": "Hombres de Jabesh que rescataron el cuerpo de Saúl de las murallas de Bet-Seán",
       "periodo": "c. 1010 a.C.",
       "descripcion": "Los 'varones de Jabesh-Galaad' son el único colectivo anónimo del AT al que David envió una bendición formal por un acto de lealtad a su predecesor y rival. Su marcha nocturna de más de 30 km para rescatar los cuerpos de Saúl y sus hijos de las murallas de Bet-Seán es uno de los gestos de fidelidad más conmovedores del AT: la ciudad que Saúl salvó al inicio de su reinado lo rescató en su final, cerrando el círculo de una lealtad que duró toda una generación. El texto no da nombres individuales — el acto es de la ciudad entera, como cuando fue amenazada y como cuando fue liberada.",
-      "referencias": ["1 Sam 31:11-13", "2 Sam 2:4-7", "1 Cr 10:11-12"],
+      "referencias": [
+        "1 Sam 31:11-13",
+        "2 Sam 2:4-7",
+        "1 Cr 10:11-12"
+      ],
       "ruta": []
     }
   ],
@@ -107,7 +154,11 @@
       {
         "id": "lealtad-jabesh-saul",
         "nombre": "La lealtad de Jabesh: honrar al rey caído",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 31:11-13; 2 Sam 2:4-7; 2 Sam 21:12-14",
           "fuente_secundaria": "Talmud Bavli, Berajot 12b — sobre la obligación de honrar a los muertos; Midrash Samuel 29",

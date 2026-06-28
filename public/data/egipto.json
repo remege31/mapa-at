@@ -122,7 +122,7 @@
       "nombre": "Moisés",
       "emoji": "🔥",
       "rol": "Libertador — legislador — mediador de la Alianza",
-      "periodo": "c. 1300–1200 a.C. (trad.)",
+      "periodo": "bronce_tardio",
       "descripcion": "Nacido en Egipto, educado en la corte del faraón y refugiado en Madián, Moisés es llamado por Yahvé en el Sinaí para liberar a Israel. Mediador de la Torá en el Monte Sinaí. La figura humana más mencionada en el AT.",
       "referencias": [
         "Éx 2:1-25",
@@ -142,7 +142,7 @@
       "nombre": "José",
       "emoji": "🌈",
       "rol": "Patriarca — visir de Egipto",
-      "periodo": "c. 1700–1600 a.C. (trad.)",
+      "periodo": "bronce_medio",
       "descripcion": "Hijo de Jacob, vendido como esclavo y elevado a visir de Egipto. Su historia prefigura el tema de la providencia divina que actúa a través del sufrimiento. El relato más literariamente elaborado del Génesis.",
       "referencias": [
         "Gén 37:1-50:26"
@@ -157,7 +157,7 @@
       "nombre": "Jeremías",
       "emoji": "📜",
       "rol": "Profeta — testigo del exilio en Egipto",
-      "periodo": "c. 586 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Llevado contra su voluntad a Egipto tras la caída de Jerusalén. Profetiza contra los judíos refugiados en Egipto que regresan al culto de 'la Reina del Cielo' (Ishtar/Isis). Su presencia en Egipto cierra el círculo de la historia del AT.",
       "referencias": [
         "Jr 43:1-44:30"

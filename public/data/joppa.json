@@ -7,9 +7,21 @@
   "frecuencia_at": 14,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1500, "hasta": -1200, "nombre": "Bronce Tardío — Puerto bajo dominio egipcio" },
-    { "desde": -1000, "hasta": -586, "nombre": "Edad de Hierro II — Puerto de Jerusalén" },
-    { "desde": -586, "hasta": -400, "nombre": "Post-Exilio — Reconstrucción del Templo" }
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Puerto bajo dominio egipcio"
+    },
+    {
+      "desde": -1000,
+      "hasta": -586,
+      "nombre": "Edad de Hierro II — Puerto de Jerusalén"
+    },
+    {
+      "desde": -586,
+      "hasta": -400,
+      "nombre": "Post-Exilio — Reconstrucción del Templo"
+    }
   ],
   "descripcion_geo": "Antiguo puerto marítimo en la costa mediterránea, el único puerto natural utilizable entre Egipto y el Carmelo gracias a un arrecife de arenisca que protegía un fondeadero. Asentado sobre un promontorio rocoso de unos 35 m sobre el nivel del mar, dominaba la llanura costera de Sarón. Aunque nunca perteneció establemente al territorio israelita —quedó asignada a Dan pero rara vez bajo control efectivo—, funcionó como puerta marítima de facto para Jerusalén durante siglos.",
   "altitud_m": 35,
@@ -50,24 +62,37 @@
       "titulo": "Llegada de la madera de cedro para el Templo",
       "fecha": "c. 960 a.C.",
       "descripcion": "Hiram de Tiro envía troncos de cedro y ciprés del Líbano por mar hasta Joppa, desde donde son trasladados por tierra a Jerusalén para la construcción del Templo de Salomón.",
-      "referencias": ["2 Cr 2:16", "1 Re 5:9"],
-      "personajes_clave": ["salomon"]
+      "referencias": [
+        "2 Cr 2:16",
+        "1 Re 5:9"
+      ],
+      "personajes_clave": [
+        "salomon"
+      ]
     },
     {
       "id": "madera-segundo-templo",
       "titulo": "Madera para el Segundo Templo",
       "fecha": "c. 537–516 a.C.",
       "descripcion": "Tras el regreso del exilio babilónico, los repatriados repiten el patrón salomónico: pagan a sidonios y tirios para que transporten madera de cedro del Líbano por mar hasta Joppa, destinada a la reconstrucción del Templo bajo Zorobabel.",
-      "referencias": ["Esd 3:7"],
-      "personajes_clave": ["zorobabel"]
+      "referencias": [
+        "Esd 3:7"
+      ],
+      "personajes_clave": [
+        "zorobabel"
+      ]
     },
     {
       "id": "huida-jonas",
       "titulo": "Jonás embarca hacia Tarsis",
       "fecha": "Narrativa, s. VIII a.C. (contexto)",
       "descripcion": "Jonás desciende a Joppa y allí toma un barco para huir hacia Tarsis, en sentido contrario al encargo divino de predicar en Nínive, episodio que abre el relato profético.",
-      "referencias": ["Jon 1:3"],
-      "personajes_clave": ["jonas"]
+      "referencias": [
+        "Jon 1:3"
+      ],
+      "personajes_clave": [
+        "jonas"
+      ]
     }
   ],
   "personajes": [
@@ -76,20 +101,33 @@
       "nombre": "Salomón",
       "emoji": "👑",
       "rol": "Rey de Israel, constructor del Templo",
-      "periodo": "c. 970–931 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Hijo de David que organiza la importación de materiales de construcción —entre ellos la madera recibida en Joppa— para erigir el Templo de Jerusalén mediante su alianza comercial con Hiram de Tiro.",
-      "referencias": ["1 Re 5:1-18", "2 Cr 2:1-16"],
-      "ruta": ["jerusalen", "joppa"]
+      "referencias": [
+        "1 Re 5:1-18",
+        "2 Cr 2:1-16"
+      ],
+      "ruta": [
+        "jerusalen",
+        "joppa"
+      ]
     },
     {
       "id": "zorobabel",
       "nombre": "Zorobabel",
       "emoji": "🏗️",
       "rol": "Gobernador de Judá tras el exilio",
-      "periodo": "Activo c. 538–515 a.C.",
+      "periodo": "post_exilio",
       "descripcion": "Líder de la primera oleada de repatriados que organiza la reconstrucción del Templo, repitiendo la ruta de importación de madera por Joppa que un siglo antes había usado Salomón.",
-      "referencias": ["Esd 3:1-13", "Hag 1:1-15"],
-      "ruta": ["mesopotamia", "jerusalen", "joppa"]
+      "referencias": [
+        "Esd 3:1-13",
+        "Hag 1:1-15"
+      ],
+      "ruta": [
+        "mesopotamia",
+        "jerusalen",
+        "joppa"
+      ]
     },
     {
       "id": "jonas",
@@ -98,8 +136,12 @@
       "rol": "Profeta",
       "periodo": "Narrativa, s. VIII a.C.",
       "descripcion": "Profeta enviado a anunciar juicio sobre Nínive que, en lugar de obedecer, desciende a Joppa para embarcarse en dirección opuesta, hacia Tarsis, iniciando el relato de huida y el episodio del gran pez.",
-      "referencias": ["Jon 1:1-17"],
-      "ruta": ["joppa"]
+      "referencias": [
+        "Jon 1:1-17"
+      ],
+      "ruta": [
+        "joppa"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -114,7 +156,11 @@
       {
         "id": "huida-jonas-joppa",
         "nombre": "Joppa como punto de huida de Jonás",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": true },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
         "judaismo": {
           "fuente_primaria": "Jon 1:1-3",
           "fuente_secundaria": "Talmud Babilónico, Nedarim 38a (sobre la profecía y la huida)",
@@ -145,5 +191,9 @@
       }
     ]
   },
-  "periodos_at": ["bronce_tardio", "hierro_2", "post_exilio"]
+  "periodos_at": [
+    "bronce_tardio",
+    "hierro_2",
+    "post_exilio"
+  ]
 }

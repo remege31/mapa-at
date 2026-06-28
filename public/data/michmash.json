@@ -7,7 +7,11 @@
   "frecuencia_at": 11,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Campamento de Saúl, victoria de Jonatán contra los filisteos" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Campamento de Saúl, victoria de Jonatán contra los filisteos"
+    }
   ],
   "descripcion_geo": "Ciudad en el territorio de Benjamín, situada al borde de un profundo desfiladero (el paso de Micmás) que la separaba de Geba, formado por dos peñascos rocosos conocidos como Bosés y Sene. Esta garganta natural era el escenario de cruce obligado entre las posiciones israelita y filistea.",
   "altitud_m": 600,
@@ -39,24 +43,37 @@
       "titulo": "El ejército filisteo se concentra en Micmás",
       "fecha": "c. 1040 a.C.",
       "descripcion": "Tras el ataque inicial de Jonatán a una guarnición filistea, los filisteos reúnen un ejército masivo de carros, jinetes e infantería y acampan en Micmás, provocando que la mayoría de los hombres de Saúl se dispersen por miedo, escondiéndose en cuevas y peñascos.",
-      "referencias": ["1 Sam 13:5-7"],
-      "personajes_clave": ["saul"]
+      "referencias": [
+        "1 Sam 13:5-7"
+      ],
+      "personajes_clave": [
+        "saul"
+      ]
     },
     {
       "id": "jonatan-cruza-desfiladero-michmash",
       "titulo": "Jonatán y su escudero cruzan el desfiladero",
       "fecha": "c. 1040 a.C.",
       "descripcion": "Sin avisar a su padre, Jonatán y su escudero deciden cruzar el desfiladero entre Bosés y Sene hacia la guarnición filistea de Micmás, confiando en que 'nada impide a YHWH salvar con muchos o con pocos'; tras una señal que interpretan como favorable, ascienden y derrotan a unos veinte hombres filisteos en un espacio reducido.",
-      "referencias": ["1 Sam 14:1-14"],
-      "personajes_clave": ["jonatan"]
+      "referencias": [
+        "1 Sam 14:1-14"
+      ],
+      "personajes_clave": [
+        "jonatan"
+      ]
     },
     {
       "id": "panico-filisteo-michmash",
       "titulo": "El pánico se extiende por el campamento filisteo",
       "fecha": "c. 1040 a.C.",
       "descripcion": "Tras la victoria inicial de Jonatán, un terremoto y un pánico sobrenatural se extienden por todo el campamento filisteo en Micmás; Saúl, al notar la confusión, lanza un ataque general que se convierte en una desbandada filistea, con los propios israelitas escondidos uniéndose a la persecución una vez confirmada la victoria.",
-      "referencias": ["1 Sam 14:15-23"],
-      "personajes_clave": ["saul", "jonatan"]
+      "referencias": [
+        "1 Sam 14:15-23"
+      ],
+      "personajes_clave": [
+        "saul",
+        "jonatan"
+      ]
     }
   ],
   "personajes": [
@@ -65,20 +82,31 @@
       "nombre": "Jonatán",
       "emoji": "🗡️",
       "rol": "Hijo de Saúl, héroe de la victoria de Micmás",
-      "periodo": "c. 1040 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Inicia por iniciativa propia, junto a su escudero, el ataque que desencadena la derrota general filistea en Micmás, demostrando una fe audaz en que la liberación de Israel no depende del número de combatientes sino de la voluntad de YHWH.",
-      "referencias": ["1 Sam 14:1-23"],
-      "ruta": ["geba", "michmash"]
+      "referencias": [
+        "1 Sam 14:1-23"
+      ],
+      "ruta": [
+        "geba",
+        "michmash"
+      ]
     },
     {
       "id": "saul_michmash",
       "nombre": "Saúl",
       "emoji": "👑",
       "rol": "Primer rey de Israel",
-      "periodo": "c. 1040 a.C.",
+      "periodo": "hierro_1",
       "descripcion": "Acampa con un ejército menguado frente a la guarnición filistea de Micmás; al detectar el pánico desencadenado por la incursión de Jonatán, lanza el ataque general que culmina en la victoria israelita.",
-      "referencias": ["1 Sam 13:15-16", "1 Sam 14:20-23"],
-      "ruta": ["geba", "michmash"]
+      "referencias": [
+        "1 Sam 13:15-16",
+        "1 Sam 14:20-23"
+      ],
+      "ruta": [
+        "geba",
+        "michmash"
+      ]
     },
     {
       "id": "escudero_jonatan",
@@ -87,8 +115,12 @@
       "rol": "Compañero leal en la incursión a Micmás",
       "periodo": "c. 1040 a.C.",
       "descripcion": "Acompaña a Jonatán en su arriesgada decisión de cruzar el desfiladero, respondiendo con plena confianza: 'Haz todo lo que tienes en tu corazón... aquí estoy contigo a tu voluntad'.",
-      "referencias": ["1 Sam 14:6-13"],
-      "ruta": ["michmash"]
+      "referencias": [
+        "1 Sam 14:6-13"
+      ],
+      "ruta": [
+        "michmash"
+      ]
     }
   ],
   "contexto_religioso": {
@@ -101,7 +133,11 @@
       {
         "id": "fe-jonatan-michmash",
         "nombre": "La fe de Jonatán: salvación con muchos o con pocos",
-        "aparece_en": { "judaismo": true, "cristianismo": true, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Sam 14:6",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la declaración de Jonatán como fórmula clásica de confianza en la providencia divina independientemente de las circunstancias numéricas",
@@ -124,5 +160,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

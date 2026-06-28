@@ -95,6 +95,14 @@ export interface RutaSeleccionada {
   viajes?: Viaje[]
 }
 
+export interface TerritorioSeleccionado {
+  nombreEN: string
+  nombreES: string
+  tipo: string
+  color: string
+  periodo: string
+}
+
 export interface Lugar {
   id: string
   nombre: string

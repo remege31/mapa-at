@@ -81,7 +81,7 @@
       "nombre": "Ahinoam de Jezreel",
       "emoji": "👰",
       "rol": "Esposa de David",
-      "periodo": "c. 1015–1000 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Una de las primeras esposas de David, tomada durante su período de fugitivo; madre de Amnón, el primogénito de David, cuyo posterior conflicto con Tamar y Absalón desencadenará crisis sucesorias en la corte davídica.",
       "referencias": [
         "1 Sam 25:43",
@@ -89,8 +89,8 @@
       ],
       "ruta": [
         "jezreel",
-        "siclag",
-        "hebrón"
+        "ziklag",
+        "hebron"
       ]
     },
     {
@@ -98,7 +98,7 @@
       "nombre": "David",
       "emoji": "🏃",
       "rol": "Futuro rey de Israel, fugitivo de Saúl",
-      "periodo": "c. 1015 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Toma a Ahinoam de Jezreel como esposa durante su período de huida en el desierto de Judá, formando vínculos familiares con la región que después constituiría la base de su propio reino en Hebrón.",
       "referencias": [
         "1 Sam 25:43"
@@ -114,14 +114,14 @@
       "nombre": "Amnón",
       "emoji": "👶",
       "rol": "Primogénito de David e hijo de Ahinoam",
-      "periodo": "Nacido c. 1010 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Hijo primogénito de David, nacido de su unión con Ahinoam de Jezreel, cuya posterior conducta hacia su media hermana Tamar desencadenará la rebelión de Absalón años después.",
       "referencias": [
         "2 Sam 3:2",
         "2 Sam 13:1-29"
       ],
       "ruta": [
-        "hebrón",
+        "hebron",
         "jerusalen"
       ]
     }

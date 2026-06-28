@@ -7,7 +7,11 @@
   "frecuencia_at": 6,
   "jerarquia_pin": "terciario",
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, asignada a Judá" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Edad de Hierro I — Ciudad de la coalición amorrea, asignada a Judá"
+    }
   ],
   "descripcion_geo": "Ciudad-estado cananea en la Sefelá, próxima al valle de Elá y a Azeca, gobernada por un rey local integrante de la coalición de cinco reyes amorreos enfrentada a Josué tras el pacto de Gabaón con Israel.",
   "altitud_m": 395,
@@ -39,23 +43,33 @@
       "titulo": "Piram, rey de Jarmut, se une a la coalición contra Gabaón",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Piram, rey de Jarmut, se suma a Adoni-sedec de Jerusalén y a los reyes de Hebrón, Laquis y Eglón para atacar Gabaón en represalia por su alianza con Israel, formando parte de la coalición de cinco reyes amorreos que Josué derrotará.",
-      "referencias": ["Jos 10:3-5"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:3-5"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "ejecucion-rey-jarmut",
       "titulo": "Ejecución del rey de Jarmut en la cueva de Maquedá",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Tras la derrota de la coalición, Piram, rey de Jarmut, es ejecutado junto a los otros cuatro reyes amorreos refugiados en la cueva de Maquedá, completando el juicio sobre la coalición que había atacado a Gabaón.",
-      "referencias": ["Jos 10:22-27"],
-      "personajes_clave": ["josue"]
+      "referencias": [
+        "Jos 10:22-27"
+      ],
+      "personajes_clave": [
+        "josue"
+      ]
     },
     {
       "id": "jarmut-asignacion-juda",
       "titulo": "Jarmut en la lista de ciudades de Judá",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Jarmut aparece registrada en la lista de ciudades de la Sefelá asignadas al territorio de la tribu de Judá tras la conquista, confirmando su integración definitiva al territorio israelita.",
-      "referencias": ["Jos 15:35"],
+      "referencias": [
+        "Jos 15:35"
+      ],
       "personajes_clave": []
     }
   ],
@@ -65,20 +79,31 @@
       "nombre": "Piram, rey de Jarmut",
       "emoji": "👑",
       "rol": "Rey amorreo de Jarmut, miembro de la coalición del sur",
-      "periodo": "c. 1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Se une a la coalición de cinco reyes amorreos contra Gabaón; derrotado en batalla, muere ejecutado en la cueva de Maquedá junto a los otros reyes coaligados.",
-      "referencias": ["Jos 10:3", "Jos 10:23-26"],
-      "ruta": ["jarmuth", "makkedah"]
+      "referencias": [
+        "Jos 10:3",
+        "Jos 10:23-26"
+      ],
+      "ruta": [
+        "jarmuth",
+        "makkedah"
+      ]
     },
     {
       "id": "josue_jarmut",
       "nombre": "Josué",
       "emoji": "⚔️",
       "rol": "Líder militar de la conquista de Canaán",
-      "periodo": "c. 1250–1200 a.C.",
+      "periodo": "bronce_tardio",
       "descripcion": "Dirige la derrota de la coalición de cinco reyes que incluía a Jarmut, consolidando el control israelita sobre la Sefelá occidental.",
-      "referencias": ["Jos 10:1-27"],
-      "ruta": ["gabaon", "makkedah"]
+      "referencias": [
+        "Jos 10:1-27"
+      ],
+      "ruta": [
+        "gibeon",
+        "makkedah"
+      ]
     },
     {
       "id": "habitantes_jarmut",
@@ -87,7 +112,9 @@
       "rol": "Población de la ciudad-estado cananea",
       "periodo": "Anterior a c. 1200 a.C.",
       "descripcion": "Población local integrada posteriormente al territorio de Judá tras la derrota de su rey en la coalición contra Gabaón.",
-      "referencias": ["Jos 15:35"],
+      "referencias": [
+        "Jos 15:35"
+      ],
       "ruta": []
     }
   ],
@@ -101,7 +128,11 @@
       {
         "id": "coalicion-cinco-reyes-jarmut",
         "nombre": "Jarmut en la coalición de los cinco reyes amorreos",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "Jos 10:3-27",
           "fuente_secundaria": "Comentario rabínico tradicional sobre la solidaridad cananea contra Gabaón como ejemplo de la oposición unida de los pueblos de la tierra al pacto entre Israel y sus aliados",
@@ -116,5 +147,7 @@
       }
     ]
   },
-  "periodos_at": ["hierro_1"]
+  "periodos_at": [
+    "hierro_1"
+  ]
 }

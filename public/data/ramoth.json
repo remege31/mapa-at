@@ -10,17 +10,51 @@
   "descripcion_geo": "Ciudad levítica y ciudad de refugio situada al este del Jordán en la región de Galaad (actual Jordania nordoriental). Controlaba las rutas caravaneras entre Damasco y Arabia y dominaba el acceso al territorio transjordano. Disputada durante siglos entre Israel y Aram-Damasco, fue escenario de algunas de las batallas más decisivas de la monarquía dividida.",
   "altitud_m": 1050,
   "clima": "Semiárido con influencia mediterránea; lluvias concentradas en invierno, veranos secos.",
-  "recursos": ["Pastos para ganado en la meseta de Galaad", "Rutas comerciales transjordanas", "Bosques de roble en las laderas del Galaad", "Agricultura de secano — trigo y cebada"],
+  "recursos": [
+    "Pastos para ganado en la meseta de Galaad",
+    "Rutas comerciales transjordanas",
+    "Bosques de roble en las laderas del Galaad",
+    "Agricultura de secano — trigo y cebada"
+  ],
   "importancia_estrategica": "Ciudad de refugio designada por Moisés para el territorio transjordano. Su posición estratégica la convirtió en el principal objetivo militar entre Israel y Aram durante el siglo IX a.C., siendo escenario de la muerte del rey Acab y de la unción revolucionaria de Jehú.",
-  "periodos_at": ["hierro_1", "hierro_2"],
+  "periodos_at": [
+    "hierro_1",
+    "hierro_2"
+  ],
   "periodos": [
-    { "desde": -1200, "hasta": -1000, "nombre": "Ciudad de refugio en el período de los jueces" },
-    { "desde": -875, "hasta": -841, "nombre": "Guerras Israel-Aram por el control de Ramot" }
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Ciudad de refugio en el período de los jueces"
+    },
+    {
+      "desde": -875,
+      "hasta": -841,
+      "nombre": "Guerras Israel-Aram por el control de Ramot"
+    }
   ],
   "otros_habitantes": [
-    { "id": "gaditas", "nombre": "Gaditas", "descripcion": "Tribu israelita asentada en Galaad que habitó la región de Ramot. Guerreros conocidos por su ferocidad, mencionados entre los seguidores de David.", "religion": "Yahvismo", "periodo": "hierro_1 — hierro_2" },
-    { "id": "arameos", "nombre": "Arameos de Damasco", "descripcion": "La ciudad de Ramot fue ocupada intermitentemente por los arameos de Ben-Hadad I y II, quienes disputaban el control de Galaad a los reyes israelitas. Su ocupación provocó las campañas de Acab.", "religion": "Politeísmo arameo — culto a Hadad (Ba'al de la tormenta)", "periodo": "hierro_2" },
-    { "id": "levitas_ramot", "nombre": "Levitas administradores", "descripcion": "Sacerdotes levitas designados para administrar la ciudad de refugio según la ley mosaica. Su presencia garantizaba el proceso legal para los acusados de homicidio involuntario.", "religion": "Yahvismo sacerdotal", "periodo": "hierro_1" }
+    {
+      "id": "gaditas",
+      "nombre": "Gaditas",
+      "descripcion": "Tribu israelita asentada en Galaad que habitó la región de Ramot. Guerreros conocidos por su ferocidad, mencionados entre los seguidores de David.",
+      "religion": "Yahvismo",
+      "periodo": "hierro_1 — hierro_2"
+    },
+    {
+      "id": "arameos",
+      "nombre": "Arameos de Damasco",
+      "descripcion": "La ciudad de Ramot fue ocupada intermitentemente por los arameos de Ben-Hadad I y II, quienes disputaban el control de Galaad a los reyes israelitas. Su ocupación provocó las campañas de Acab.",
+      "religion": "Politeísmo arameo — culto a Hadad (Ba'al de la tormenta)",
+      "periodo": "hierro_2"
+    },
+    {
+      "id": "levitas_ramot",
+      "nombre": "Levitas administradores",
+      "descripcion": "Sacerdotes levitas designados para administrar la ciudad de refugio según la ley mosaica. Su presencia garantizaba el proceso legal para los acusados de homicidio involuntario.",
+      "religion": "Yahvismo sacerdotal",
+      "periodo": "hierro_1"
+    }
   ],
   "historias": [
     {
@@ -28,24 +62,42 @@
       "titulo": "Ramot, ciudad de refugio en Galaad",
       "fecha": "c. 1200 a.C.",
       "descripcion": "Moisés designó Ramot de Galaad como una de las tres ciudades de refugio al este del Jordán, junto con Beser y Golán. Quien hubiera matado a alguien sin intención podía huir a estas ciudades y quedar a salvo de la venganza del pariente del muerto hasta recibir un juicio formal. La institución representaba un sistema jurídico avanzado que distinguía el homicidio involuntario del doloso en el derecho antiguo israelita.",
-      "referencias": ["Dt 4:43", "Jos 20:8", "Jos 21:38"],
-      "personajes_clave": ["moises"]
+      "referencias": [
+        "Dt 4:43",
+        "Jos 20:8",
+        "Jos 21:38"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
     },
     {
       "id": "muerte_de_acab",
       "titulo": "La batalla de Ramot y la muerte de Acab",
       "fecha": "c. 853 a.C.",
       "descripcion": "El rey Acab de Israel convence al rey Josafat de Judá para recuperar Ramot de los arameos. Cuatrocientos profetas reales vaticinan victoria, pero el profeta Micaías ben Yimlá anuncia la derrota e identifica un espíritu mentiroso en los profetas de la corte. Acab, disfrazado para evitar la profecía, es alcanzado por una flecha disparada al azar que penetra entre sus corazas. Muere al atardecer y su carro es lavado en la piscina de Samaria, donde los perros lamen su sangre.",
-      "referencias": ["1 Re 22:1-38", "2 Cr 18:1-34"],
-      "personajes_clave": ["acab", "micaias"]
+      "referencias": [
+        "1 Re 22:1-38",
+        "2 Cr 18:1-34"
+      ],
+      "personajes_clave": [
+        "acab",
+        "micaias"
+      ]
     },
     {
       "id": "jehu_ungido_en_ramot",
       "titulo": "La unción de Jehú en Ramot",
       "fecha": "c. 841 a.C.",
       "descripcion": "El profeta Eliseo envía a un discípulo a Ramot de Galaad para ungir en secreto al oficial militar Jehú como rey de Israel. El discípulo lo unge en una habitación privada y anuncia el encargo de exterminar la casa de Acab. Jehú acepta la misión y parte hacia Jezreel, donde mata al rey Jorám de Israel y al rey Ocozías de Judá, iniciando una purga sangrienta que incluye la muerte de Jezabel y el fin de la dinastía omrida.",
-      "referencias": ["2 Re 9:1-16", "2 Re 9:17-26"],
-      "personajes_clave": ["jehu", "eliseo"]
+      "referencias": [
+        "2 Re 9:1-16",
+        "2 Re 9:17-26"
+      ],
+      "personajes_clave": [
+        "jehu",
+        "eliseo"
+      ]
     }
   ],
   "personajes": [
@@ -56,7 +108,10 @@
       "rol": "Rey de Israel — muerto en Ramot",
       "periodo": "c. 874–853 a.C.",
       "descripcion": "Séptimo rey del reino del norte, hijo de Omri. Considerado el rey más impío de Israel por los autores deuteronomistas por su matrimonio con Jezabel y la introducción del culto a Baal. Su muerte en Ramot cumple la profecía de Micaías y abre el declive de la dinastía omrida.",
-      "referencias": ["1 Re 16:29-33", "1 Re 22:34-38"],
+      "referencias": [
+        "1 Re 16:29-33",
+        "1 Re 22:34-38"
+      ],
       "ruta": []
     },
     {
@@ -66,7 +121,10 @@
       "rol": "Profeta que anunció la derrota de Acab",
       "periodo": "c. 853 a.C.",
       "descripcion": "Profeta israelita que se distinguió de los cuatrocientos profetas de la corte negándose a profetizar victoria. Describió una visión celeste en la que un espíritu mentiroso era autorizado para engañar a los profetas de Acab. Fue encarcelado por su oráculo, que resultó ser verdadero.",
-      "referencias": ["1 Re 22:8-28", "2 Cr 18:7-27"],
+      "referencias": [
+        "1 Re 22:8-28",
+        "2 Cr 18:7-27"
+      ],
       "ruta": []
     },
     {
@@ -74,20 +132,30 @@
       "nombre": "Jehú",
       "emoji": "🗡️",
       "rol": "Oficial ungido rey en Ramot — ejecutor del juicio sobre la casa de Acab",
-      "periodo": "c. 841–814 a.C.",
+      "periodo": "hierro_2",
       "descripcion": "Comandante militar del ejército israelita ungido en Ramot por mandato de Eliseo. Su reinado fue el más violento de la historia del norte: ejecutó a los reyes de Israel y Judá, a Jezabel, a los setenta hijos de Acab y a los sacerdotes de Baal. Fundó la dinastía más duradera del reino del norte.",
-      "referencias": ["2 Re 9:1-10", "2 Re 10:1-28", "Os 1:4"],
+      "referencias": [
+        "2 Re 9:1-10",
+        "2 Re 10:1-28",
+        "Os 1:4"
+      ],
       "ruta": []
     }
   ],
   "contexto_religioso": {
     "contexto_lugar": "Ramot de Galaad fue escenario de las tensiones entre la profecía yahvista independiente y el profetismo de corte. La muerte de Acab allí y la unción de Jehú convirtieron la ciudad en símbolo del juicio divino sobre la apostasía de la casa de Omri. La institución de ciudad de refugio le otorgó además una dimensión jurídico-religiosa única en el sistema legal israelita.",
-    "religiones_presentes": ["judaismo"],
+    "religiones_presentes": [
+      "judaismo"
+    ],
     "mitos": [
       {
         "id": "profecia_contra_acab",
         "nombre": "El espíritu mentiroso y la profecía verdadera",
-        "aparece_en": { "judaismo": true, "cristianismo": false, "islam": false },
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": false,
+          "islam": false
+        },
         "judaismo": {
           "fuente_primaria": "1 Re 22:19-23",
           "fuente_secundaria": "Talmud Bavli, Sanhedrin 89a — discusión rabínica sobre si un profeta que contradice a otro puede ser el verdadero; el caso de Micaías frente a los cuatrocientos",

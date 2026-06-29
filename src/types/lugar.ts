@@ -71,6 +71,17 @@ export interface ContextoReligioso {
   mitos: Mito[]
 }
 
+// Modo de filtrado por testamento
+export type ModoTestamento = 'AT' | 'NT' | 'ambos'
+
+// Sección de contenido narrativo por testamento
+export interface SeccionTestamento {
+  historias?: Historia[]
+  personajes?: Personaje[]
+  contexto_religioso?: ContextoReligioso
+  periodos?: string[]
+}
+
 export interface EventoParalelo {
   civilizacion: string
   emoji: string
@@ -123,4 +134,7 @@ export interface Lugar {
   personajes: Personaje[]
   contexto_religioso: ContextoReligioso
   periodos_at?: string[]
+  // Secciones por testamento (JSONs migrados; opcionales para compatibilidad)
+  at?: SeccionTestamento
+  nt?: SeccionTestamento
 }

@@ -1,0 +1,147 @@
+{
+  "id": "iconium",
+  "nombre": "Iconio",
+  "tipo": "ciudad",
+  "lat": 37.8714,
+  "lng": 32.4847,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad de Frigia-Galacia en la meseta anatolia, en la encrucijada de rutas comerciales.",
+  "altitud_m": 1017,
+  "clima": "continental-seco",
+  "recursos": [
+    "agricultura",
+    "lana",
+    "comercio"
+  ],
+  "importancia_estrategica": "Nodo viario de la Anatolia central.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "ico_h1",
+        "titulo": "Predicación en Iconio",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Pablo y Bernabé predican en la sinagoga; muchos creen pero surgen oposición y persecución.",
+        "referencias": [
+          "Hch 14:1-5"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "ico_h2",
+        "titulo": "Complot para apedrear a los misioneros",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Judíos y gentiles conspiran para lapidar a Pablo y Bernabé, quienes huyen.",
+        "referencias": [
+          "Hch 14:5-6"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "ico_h3",
+        "titulo": "Regreso y consolidación de la iglesia",
+        "fecha": "ca. 48 d.C.",
+        "descripcion": "En su regreso, Pablo nombra ancianos en la iglesia de Iconio.",
+        "referencias": [
+          "Hch 14:21-23"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "ico_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Misionero",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Evangelizó Iconio en el primer y segundo viaje misionero.",
+        "referencias": [
+          "Hch 14:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ico_p2",
+        "nombre": "Bernabé",
+        "emoji": "🤝",
+        "rol": "Misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Acompañó a Pablo en el primer viaje por Iconio.",
+        "referencias": [
+          "Hch 14:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ico_p3",
+        "nombre": "Timoteo",
+        "emoji": "📜",
+        "rol": "Discípulo de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Oriundo de la región; se unió a Pablo en el segundo viaje.",
+        "referencias": [
+          "Hch 16:1"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad grecorromana con comunidad judía activa; escenario de la evangelización de Asia Menor interior.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_greco_romano",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "ico_m1",
+          "nombre": "La persecución fortalece la iglesia",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Los intentos de detener el evangelio en Iconio sólo dispersaron a los misioneros, expandiendo el mensaje.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Los intentos de detener el evangelio en Iconio sólo dispersaron a los misioneros, expandiendo el mensaje.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

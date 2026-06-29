@@ -1,0 +1,151 @@
+{
+  "id": "bethsaida",
+  "nombre": "Betsaida",
+  "tipo": "ciudad",
+  "lat": 32.9027,
+  "lng": 35.6323,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad a orillas del mar de Galilea, cerca de la desembocadura del Jordán. Territorio de Herodes Filipo.",
+  "altitud_m": -195,
+  "clima": "semiárido",
+  "recursos": [
+    "pesca",
+    "comercio"
+  ],
+  "importancia_estrategica": "Puerto pesquero en el extremo nororiental del mar de Galilea.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "bts_h1",
+        "titulo": "Vocación de Pedro, Andrés y Felipe",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Jesús llama a pescadores de Betsaida: Simón, Andrés y Felipe.",
+        "referencias": [
+          "Jn 1:44",
+          "Mt 4:18-20"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Pedro",
+          "Andrés",
+          "Felipe"
+        ]
+      },
+      {
+        "id": "bts_h2",
+        "titulo": "Multiplicación de los panes",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Jesús alimenta a 5.000 personas cerca de Betsaida.",
+        "referencias": [
+          "Lc 9:10-17"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "bts_h3",
+        "titulo": "Maldición de las ciudades impenitentes",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Jesús reprocha a Corazín, Betsaida y Cafarnaún por no arrepentirse.",
+        "referencias": [
+          "Mt 11:20-24"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "bts_p1",
+        "nombre": "Simón Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol y líder",
+        "periodo": "s. I d.C.",
+        "descripcion": "Natural de Betsaida, luego establecido en Cafarnaún.",
+        "referencias": [
+          "Jn 1:44"
+        ],
+        "ruta": [
+          "bethsaida",
+          "capernaum",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "bts_p2",
+        "nombre": "Felipe",
+        "emoji": "🕊️",
+        "rol": "Apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Originario de Betsaida, evangelizó Samaria.",
+        "referencias": [
+          "Jn 1:44"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "bts_p3",
+        "nombre": "Andrés",
+        "emoji": "🎣",
+        "rol": "Apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Hermano de Pedro, también de Betsaida.",
+        "referencias": [
+          "Jn 1:44"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad con mezcla judía y helenística al margen del mar de Galilea; escenario de milagros evangelísticos.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_helenistico"
+      ],
+      "mitos": [
+        {
+          "id": "bts_m1",
+          "nombre": "Multiplicación de panes y peces",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús alimenta a una multitud con cinco panes y dos peces, evocando el maná del desierto.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús alimenta a una multitud con cinco panes y dos peces, evocando el maná del desierto.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

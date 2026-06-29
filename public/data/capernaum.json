@@ -1,0 +1,154 @@
+{
+  "id": "capernaum",
+  "nombre": "Cafarnaún",
+  "tipo": "ciudad",
+  "lat": 32.8807,
+  "lng": 35.5751,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad a orillas del mar de Galilea, en la importante ruta comercial Via Maris.",
+  "altitud_m": 210,
+  "clima": "semiárido-mediterráneo",
+  "recursos": [
+    "pesca",
+    "comercio",
+    "agricultura"
+  ],
+  "importancia_estrategica": "Nodo de la ruta internacional y base de operaciones de Jesús en Galilea.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "cap_h1",
+        "titulo": "Base de operaciones de Jesús",
+        "fecha": "ca. 27-30 d.C.",
+        "descripcion": "Cafarnaún se convierte en el centro del ministerio galileo de Jesús.",
+        "referencias": [
+          "Mt 4:13"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "cap_h2",
+        "titulo": "Curación del centurión",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Un centurión romano pide a Jesús que cure a su siervo; Jesús elogia su fe.",
+        "referencias": [
+          "Mt 8:5-13"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "centurión"
+        ]
+      },
+      {
+        "id": "cap_h3",
+        "titulo": "El paralítico descolgado del techo",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Cuatro hombres descuelgan a un paralítico por el techo para acercarlo a Jesús.",
+        "referencias": [
+          "Mc 2:1-12"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "cap_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Predicador y sanador",
+        "periodo": "ca. 27-30 d.C.",
+        "descripcion": "Estableció su base en Cafarnaún durante su ministerio galileo.",
+        "referencias": [
+          "Mt 4:13"
+        ],
+        "ruta": [
+          "nazareth",
+          "capernaum",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "cap_p2",
+        "nombre": "Simón Pedro",
+        "emoji": "⚓",
+        "rol": "Pescador y apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Natural de Betsaida, vivía en Cafarnaún; llamado por Jesús.",
+        "referencias": [
+          "Mc 1:21,29"
+        ],
+        "ruta": [
+          "capernaum",
+          "bethsaida",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "cap_p3",
+        "nombre": "Mateo (Leví)",
+        "emoji": "📜",
+        "rol": "Recaudador de impuestos, apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Cobrador de impuestos en Cafarnaún, llamado por Jesús.",
+        "referencias": [
+          "Mt 9:9"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad cosmopolita con presencia romana y judía; sinagoga importante del siglo I.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "cap_m1",
+          "nombre": "El milagro del centurión",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús sana al siervo de un oficial romano sin estar presente, declarando la fe universal.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús sana al siervo de un oficial romano sin estar presente, declarando la fe universal.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

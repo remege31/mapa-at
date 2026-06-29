@@ -1,0 +1,146 @@
+{
+  "id": "puteoli",
+  "nombre": "Puteoli",
+  "tipo": "ciudad",
+  "lat": 40.8272,
+  "lng": 14.1241,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Principal puerto de Roma en el golfo de Nápoles, terminal de las rutas marítimas orientales.",
+  "altitud_m": 15,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "industria"
+  ],
+  "importancia_estrategica": "Mayor puerto de importación del Mediterráneo occidental antes del auge de Ostia.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "put_h1",
+        "titulo": "Desembarco de Pablo en Puteoli",
+        "fecha": "ca. 60-61 d.C.",
+        "descripcion": "El barco de Pablo atraca en Puteoli; encuentra allí una comunidad cristiana y descansa siete días.",
+        "referencias": [
+          "Hch 28:13-14"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "put_h2",
+        "titulo": "Comunidad cristiana temprana",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "La presencia de hermanos en Puteoli evidencia la expansión del evangelio a Italia antes de Pablo.",
+        "referencias": [
+          "Hch 28:14"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "put_h3",
+        "titulo": "Último tramo hacia Roma",
+        "fecha": "ca. 60-61 d.C.",
+        "descripcion": "Desde Puteoli, Pablo sigue la Vía Apia hacia Roma, donde es recibido por hermanos.",
+        "referencias": [
+          "Hch 28:15-16"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "put_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Desembarcó en Puteoli en su viaje final a Roma.",
+        "referencias": [
+          "Hch 28:13"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "put_p2",
+        "nombre": "Hermanos de Puteoli",
+        "emoji": "🤝",
+        "rol": "Comunidad cristiana",
+        "periodo": "s. I d.C.",
+        "descripcion": "Primera comunidad cristiana documentada en Italia; hospedaron a Pablo siete días.",
+        "referencias": [
+          "Hch 28:14"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "put_p3",
+        "nombre": "Julio el centurión",
+        "emoji": "🪖",
+        "rol": "Guardián de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Permitió a Pablo descansar con los hermanos en Puteoli.",
+        "referencias": [
+          "Hch 28:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Puerto cosmopolita por donde llegaban mercancías y religiones orientales a Italia; primer suelo italiano que Pablo pisó.",
+      "religiones_presentes": [
+        "paganismo_romano",
+        "judaismo",
+        "culto_imperial",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "put_m1",
+          "nombre": "El evangelio llega a Italia",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La comunidad de Puteoli demuestra que el evangelio llegó a Italia antes que Pablo; los hermanos que salieron a recibirle en la Vía Apia le dieron ánimo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La comunidad de Puteoli demuestra que el evangelio llegó a Italia antes que Pablo; los hermanos que salieron a recibirle en la Vía Apia le dieron ánimo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "galilee",
+  "nombre": "Galilea",
+  "tipo": "territorio",
+  "lat": 32.8,
+  "lng": 35.5,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Región norte de la tierra de Israel, entre el monte Hermón y la llanura de Jezreel.",
+  "altitud_m": 500,
+  "clima": "mediterráneo-continental",
+  "recursos": [
+    "agua",
+    "agricultura",
+    "pesca",
+    "comercio"
+  ],
+  "importancia_estrategica": "Corazón del ministerio de Jesús; región de cruce de culturas.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "gal_h1",
+        "titulo": "Inicio del ministerio galileo",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Tras el bautismo, Jesús regresa a Galilea y comienza a predicar el Reino.",
+        "referencias": [
+          "Mt 4:12-17"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "gal_h2",
+        "titulo": "El Sermón del Monte",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Jesús imparte las Bienaventuranzas en una colina de Galilea.",
+        "referencias": [
+          "Mt 5-7"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "doce apóstoles"
+        ]
+      },
+      {
+        "id": "gal_h3",
+        "titulo": "Bodas de Caná",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Primer milagro de Jesús: convierte el agua en vino en Caná de Galilea.",
+        "referencias": [
+          "Jn 2:1-11"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "María"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "gal_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías",
+        "periodo": "ca. 6 a.C.–30 d.C.",
+        "descripcion": "Realizó la mayor parte de su ministerio público en Galilea.",
+        "referencias": [
+          "Mt 4:23"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "gal_p2",
+        "nombre": "Los Doce Apóstoles",
+        "emoji": "🌊",
+        "rol": "Discípulos elegidos",
+        "periodo": "s. I d.C.",
+        "descripcion": "La mayoría eran galileos: pescadores, recaudadores, zelotas.",
+        "referencias": [
+          "Mt 10:1-4"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "gal_p3",
+        "nombre": "Herodes Antipas",
+        "emoji": "👑",
+        "rol": "Tetrarca de Galilea",
+        "periodo": "4 a.C.–39 d.C.",
+        "descripcion": "Gobernante que ejecutó a Juan el Bautista y rechazó a Jesús.",
+        "referencias": [
+          "Lc 23:7-12"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "'Galilea de los gentiles': región multiétnica donde el judaismo coexistió con influencias helenísticas y romanas.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_helenistico",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "gal_m1",
+          "nombre": "Galilea de los gentiles",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud",
+            "fuente_secundaria": "",
+            "descripcion": "Región mencionada en Isaías 9:1 como tierra de tinieblas que verá gran luz.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Región mencionada en Isaías 9:1 como tierra de tinieblas que verá gran luz.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Mateo cita Isaías para presentar el ministerio galileo de Jesús como cumplimiento profético.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Mateo cita Isaías para presentar el ministerio galileo de Jesús como cumplimiento profético.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

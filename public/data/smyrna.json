@@ -1,0 +1,146 @@
+{
+  "id": "smyrna",
+  "nombre": "Esmirna",
+  "tipo": "ciudad",
+  "lat": 38.4189,
+  "lng": 27.1287,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad portuaria en la costa egea de Asia Menor, rival de Éfeso en comercio y cultura.",
+  "altitud_m": 25,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "vino",
+    "olivos"
+  ],
+  "importancia_estrategica": "Ciudad leal al culto imperial; centro comercial de primer orden.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "smy_h1",
+        "titulo": "Carta a la iglesia de Esmirna",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo consuela a la iglesia perseguida de Esmirna: 'sé fiel hasta la muerte'.",
+        "referencias": [
+          "Ap 2:8-11"
+        ],
+        "personajes_clave": [
+          "Juan el Apóstol"
+        ]
+      },
+      {
+        "id": "smy_h2",
+        "titulo": "Martirio de Policarpo",
+        "fecha": "ca. 155-156 d.C.",
+        "descripcion": "El obispo Policarpo es quemado en el estadio de Esmirna por negarse a renegar de Cristo.",
+        "referencias": [
+          "Martirio de Policarpo"
+        ],
+        "personajes_clave": [
+          "Policarpo"
+        ]
+      },
+      {
+        "id": "smy_h3",
+        "titulo": "La corona de la vida",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo promete la 'corona de la vida' a los que sean fieles bajo la tribulación de diez días.",
+        "referencias": [
+          "Ap 2:10"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "smy_p1",
+        "nombre": "Policarpo",
+        "emoji": "🔥",
+        "rol": "Obispo mártir",
+        "periodo": "ca. 69-155 d.C.",
+        "descripcion": "Discípulo de Juan; obispo de Esmirna que fue quemado vivo por su fe.",
+        "referencias": [
+          "Ap 2:8"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "smy_p2",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dirigió la carta de Cristo a la iglesia perseguida de Esmirna.",
+        "referencias": [
+          "Ap 2:8"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "smy_p3",
+        "nombre": "Ignacio de Antioquía",
+        "emoji": "✍️",
+        "rol": "Obispo y mártir",
+        "periodo": "ca. 35-110 d.C.",
+        "descripcion": "Escribió cartas desde Esmirna camino a su martirio en Roma.",
+        "referencias": [
+          "Cartas de Ignacio"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad con culto imperial fuerte; su iglesia fue paradigma de la fidelidad cristiana bajo persecución.",
+      "religiones_presentes": [
+        "paganismo_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "smy_m1",
+          "nombre": "La corona de vida",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "A la iglesia pobre y perseguida de Esmirna, Cristo le promete riqueza espiritual y la corona de la vida eterna.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "A la iglesia pobre y perseguida de Esmirna, Cristo le promete riqueza espiritual y la corona de la vida eterna.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

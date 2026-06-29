@@ -1,0 +1,153 @@
+{
+  "id": "ephesus",
+  "nombre": "Éfeso",
+  "tipo": "ciudad",
+  "lat": 37.939,
+  "lng": 27.3412,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Gran metrópolis en la costa egea de Asia Menor, centro del culto a Artemisa y capital de la provincia romana de Asia.",
+  "altitud_m": 30,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "manufactura",
+    "turismo religioso"
+  ],
+  "importancia_estrategica": "Segunda ciudad del Imperio Romano en Asia; gran centro cultural y comercial.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "eph_h1",
+        "titulo": "Ministerio de Pablo en Éfeso",
+        "fecha": "ca. 54-57 d.C.",
+        "descripcion": "Pablo permanece tres años en Éfeso; la iglesia crece notablemente.",
+        "referencias": [
+          "Hch 19:1-41"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Priscila",
+          "Aquila"
+        ]
+      },
+      {
+        "id": "eph_h2",
+        "titulo": "El motín de los plateros",
+        "fecha": "ca. 56 d.C.",
+        "descripcion": "Demetrio el platero convoca una protesta por la amenaza al comercio del templo de Artemisa.",
+        "referencias": [
+          "Hch 19:23-41"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Demetrio"
+        ]
+      },
+      {
+        "id": "eph_h3",
+        "titulo": "Carta a los Efesios",
+        "fecha": "ca. 60-62 d.C.",
+        "descripcion": "Pablo escribe desde prisión a la iglesia de Éfeso sobre la unidad del cuerpo de Cristo.",
+        "referencias": [
+          "Ef 1-6"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "eph_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Pasó más tiempo en Éfeso que en cualquier otra ciudad; escribió varias cartas desde allí.",
+        "referencias": [
+          "Hch 19:1"
+        ],
+        "ruta": [
+          "ephesus",
+          "corinth",
+          "rome"
+        ]
+      },
+      {
+        "id": "eph_p2",
+        "nombre": "Priscila y Aquila",
+        "emoji": "👫",
+        "rol": "Mentores de Apolos",
+        "periodo": "s. I d.C.",
+        "descripcion": "Pareja de artesanos y líderes de la iglesia en Éfeso.",
+        "referencias": [
+          "Hch 18:24-26"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "eph_p3",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Apóstol y anciano",
+        "periodo": "s. I d.C.",
+        "descripcion": "Según la tradición, vivió en Éfeso y escribió el Evangelio de Juan allí.",
+        "referencias": [
+          "Ap 1:9"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad del templo de Artemisa, una de las siete maravillas del mundo antiguo; escenario del choque entre el evangelio y el culto imperial.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "eph_m1",
+          "nombre": "Artemisa de los efesios",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El evangelio desafió el culto a Artemisa/Diana, diosa de la fertilidad venerada en Éfeso, provocando el motín de los plateros.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El evangelio desafió el culto a Artemisa/Diana, diosa de la fertilidad venerada en Éfeso, provocando el motín de los plateros.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

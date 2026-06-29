@@ -1,0 +1,168 @@
+{
+  "id": "jordan",
+  "nombre": "Río Jordán",
+  "tipo": "region_natural",
+  "lat": 31.843,
+  "lng": 35.5521,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Principal río de la tierra de Israel, nace en el Hermón y desemboca en el mar Muerto, descendiendo 400 m bajo el nivel del mar.",
+  "altitud_m": -300,
+  "clima": "árido-semiárido",
+  "recursos": [
+    "agua",
+    "pesca",
+    "agricultura de ribera"
+  ],
+  "importancia_estrategica": "Frontera natural y eje geográfico de la tierra prometida.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "jor_h1",
+        "titulo": "Ministerio de Juan el Bautista",
+        "fecha": "ca. 26-29 d.C.",
+        "descripcion": "Juan bautiza en el Jordán en 'Betabara'; multitudes acuden al bautismo de arrepentimiento.",
+        "referencias": [
+          "Mc 1:4-5"
+        ],
+        "personajes_clave": [
+          "Juan el Bautista"
+        ]
+      },
+      {
+        "id": "jor_h2",
+        "titulo": "Bautismo de Jesús",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Jesús es bautizado por Juan; el Espíritu desciende como paloma y voz del Padre lo proclama Hijo amado.",
+        "referencias": [
+          "Mt 3:13-17"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Juan el Bautista"
+        ]
+      },
+      {
+        "id": "jor_h3",
+        "titulo": "Juan 3:23: bautismo en Enón",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Juan el Bautista bautiza en Enón, cerca de Salim, porque había mucha agua.",
+        "referencias": [
+          "Jn 3:23"
+        ],
+        "personajes_clave": [
+          "Juan el Bautista"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "jor_p1",
+        "nombre": "Juan el Bautista",
+        "emoji": "🏜️",
+        "rol": "Profeta y bautista",
+        "periodo": "ca. 5 a.C.–29 d.C.",
+        "descripcion": "Hizo del Jordán el escenario de su ministerio de bautismo y proclamación.",
+        "referencias": [
+          "Mt 3:1"
+        ],
+        "ruta": [
+          "jordan",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "jor_p2",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías",
+        "periodo": "ca. 6 a.C.–30 d.C.",
+        "descripcion": "Recibió el bautismo de Juan en el Jordán, inaugurando su ministerio público.",
+        "referencias": [
+          "Mt 3:13"
+        ],
+        "ruta": [
+          "jordan",
+          "nazareth",
+          "capernaum"
+        ]
+      },
+      {
+        "id": "jor_p3",
+        "nombre": "El Espíritu Santo",
+        "emoji": "🕊️",
+        "rol": "Tercera persona de la Trinidad",
+        "periodo": "s. I d.C.",
+        "descripcion": "Descendió sobre Jesús en el bautismo en el Jordán como paloma.",
+        "referencias": [
+          "Mt 3:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "El Jordán es frontera sagrada: con Josué el pueblo cruzó para entrar en Canaán; con Juan el Bautista se convirtió en el lugar del nuevo comienzo.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "jor_m1",
+          "nombre": "El cruce del Jordán",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud",
+            "fuente_secundaria": "",
+            "descripcion": "El cruce del Jordán con Josué marcó la entrada en la tierra prometida (Jos 3-4); Elías y Eliseo también lo cruzaron milagrosamente (2 Re 2:8).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El cruce del Jordán con Josué marcó la entrada en la tierra prometida (Jos 3-4); Elías y Eliseo también lo cruzaron milagrosamente (2 Re 2:8).",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El bautismo de Jesús en el Jordán recapitula el cruce del éxodo e inaugura la nueva alianza.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El bautismo de Jesús en el Jordán recapitula el cruce del éxodo e inaugura la nueva alianza.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "Isa (Jesús) es considerado profeta en el Islam; el bautismo en el Jordán no es práctica islámica pero el río es reconocido como tierra sagrada de los profetas.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Isa (Jesús) es considerado profeta en el Islam; el bautismo en el Jordán no es práctica islámica pero el río es reconocido como tierra sagrada de los profetas.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

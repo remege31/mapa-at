@@ -1,0 +1,147 @@
+{
+  "id": "pergamum",
+  "nombre": "Pérgamo",
+  "tipo": "ciudad",
+  "lat": 39.1333,
+  "lng": 27.1833,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad en la cresta de una colina de 335 m, capital de la provincia romana de Asia; famosa por su biblioteca y el altar de Zeus.",
+  "altitud_m": 335,
+  "clima": "mediterráneo",
+  "recursos": [
+    "pergamino",
+    "artesanía",
+    "plata",
+    "agricultura"
+  ],
+  "importancia_estrategica": "Capital del reino de Pérgamo y sede del culto imperial.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "per_h1",
+        "titulo": "Carta a la iglesia de Pérgamo",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo alaba la fidelidad de Pérgamo pero condena las enseñanzas de Balaam y los nicolaítas.",
+        "referencias": [
+          "Ap 2:12-17"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "per_h2",
+        "titulo": "El trono de Satanás",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo llama a Pérgamo 'donde está el trono de Satanás', referencia al altar de Zeus o al culto imperial.",
+        "referencias": [
+          "Ap 2:13"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "per_h3",
+        "titulo": "Antipas, el testigo fiel",
+        "fecha": "ca. 90 d.C.",
+        "descripcion": "Antipas es martirizado en Pérgamo por su fe; es llamado 'testigo fiel'.",
+        "referencias": [
+          "Ap 2:13"
+        ],
+        "personajes_clave": [
+          "Antipas"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "per_p1",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta del Apocalipsis",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dirigió la carta de Cristo a la iglesia de Pérgamo.",
+        "referencias": [
+          "Ap 2:12"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "per_p2",
+        "nombre": "Antipas",
+        "emoji": "🕯️",
+        "rol": "Mártir de Pérgamo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Testigo fiel que fue martirizado en Pérgamo; nombre sólo mencionado en el Apocalipsis.",
+        "referencias": [
+          "Ap 2:13"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "per_p3",
+        "nombre": "Atalo I de Pérgamo",
+        "emoji": "🏛️",
+        "rol": "Rey helenístico",
+        "periodo": "241-197 a.C.",
+        "descripcion": "Fundador de la grandeza de Pérgamo; sus sucesores legaron el reino a Roma.",
+        "referencias": [
+          "Historia helenística"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad del altar de Zeus y del culto imperial; sede del primer templo a Augusto en Asia; escenario de martirios cristianos.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "culto_imperial",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "per_m1",
+          "nombre": "El trono de Satanás",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El Apocalipsis llama a Pérgamo 'trono de Satanás', interpretado como referencia al altar de Zeus o al templo de culto imperial.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Apocalipsis llama a Pérgamo 'trono de Satanás', interpretado como referencia al altar de Zeus o al templo de culto imperial.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

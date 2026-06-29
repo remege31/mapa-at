@@ -1,0 +1,160 @@
+{
+  "id": "nazareth",
+  "nombre": "Nazaret",
+  "tipo": "ciudad",
+  "lat": 32.6996,
+  "lng": 35.3035,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Aldea en las colinas bajas de Galilea, en el valle de Jezreel. Asentamiento modesto de unos pocos cientos de habitantes en el siglo I.",
+  "altitud_m": 350,
+  "clima": "mediterráneo",
+  "recursos": [
+    "agua de manantial",
+    "agricultura",
+    "olivos"
+  ],
+  "importancia_estrategica": "Ruta entre Galilea y Samaria.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "naz_h1",
+        "titulo": "La Anunciación",
+        "fecha": "ca. 6-5 a.C.",
+        "descripcion": "El ángel Gabriel anuncia a María que concebirá al Mesías.",
+        "referencias": [
+          "Lc 1:26-38"
+        ],
+        "personajes_clave": [
+          "María",
+          "Gabriel"
+        ]
+      },
+      {
+        "id": "naz_h2",
+        "titulo": "Jesús en la sinagoga",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Jesús lee Isaías 61 en la sinagoga y declara su cumplimiento, siendo rechazado por los nazarenos.",
+        "referencias": [
+          "Lc 4:16-30"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "naz_h3",
+        "titulo": "La infancia de Jesús",
+        "fecha": "ca. 5 a.C.–26 d.C.",
+        "descripcion": "José, María y Jesús residen en Nazaret; Jesús crece en sabiduría.",
+        "referencias": [
+          "Mt 2:23",
+          "Lc 2:39-40"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "José",
+          "María"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "naz_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías cristiano",
+        "periodo": "ca. 6 a.C.–30 d.C.",
+        "descripcion": "Fundador del movimiento cristiano, criado en Nazaret.",
+        "referencias": [
+          "Mt 2:23"
+        ],
+        "ruta": [
+          "nazareth",
+          "capernaum",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "naz_p2",
+        "nombre": "María",
+        "emoji": "🌸",
+        "rol": "Madre de Jesús",
+        "periodo": "s. I a.C.",
+        "descripcion": "Joven judía de Nazaret, madre de Jesús.",
+        "referencias": [
+          "Lc 1:26-27"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "naz_p3",
+        "nombre": "José",
+        "emoji": "🔨",
+        "rol": "Carpintero, padre adoptivo de Jesús",
+        "periodo": "s. I a.C.",
+        "descripcion": "Artesano de Nazaret de la línea de David.",
+        "referencias": [
+          "Mt 1:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Aldea judía piadosa en la Galilea del siglo I; sinagoga local como centro de la vida religiosa.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "naz_m1",
+          "nombre": "La Anunciación",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El arcángel Gabriel anuncia a la virgen María en Nazaret el nacimiento del Hijo de Dios.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El arcángel Gabriel anuncia a la virgen María en Nazaret el nacimiento del Hijo de Dios.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "En la tradición islámica, el ángel Yibril anuncia a Maryam el nacimiento de Isa (Jesús).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En la tradición islámica, el ángel Yibril anuncia a Maryam el nacimiento de Isa (Jesús).",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

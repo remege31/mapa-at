@@ -1,0 +1,154 @@
+{
+  "id": "cyprus",
+  "nombre": "Chipre",
+  "tipo": "territorio",
+  "lat": 35.1264,
+  "lng": 33.4299,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Isla mediterránea al sur de Anatolia, rica en cobre. Provincia romana senatorial.",
+  "altitud_m": 340,
+  "clima": "mediterráneo",
+  "recursos": [
+    "cobre",
+    "madera",
+    "vino",
+    "olivos"
+  ],
+  "importancia_estrategica": "Isla estratégica que conecta Asia Menor, Siria y Egipto.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "cyp_h1",
+        "titulo": "Primer viaje misionero: Chipre",
+        "fecha": "ca. 46 d.C.",
+        "descripcion": "Pablo y Bernabé predican en Salamina y Pafos; convierten al procónsul Sergio Paulo.",
+        "referencias": [
+          "Hch 13:4-12"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé",
+          "Sergio Paulo",
+          "Elimas"
+        ]
+      },
+      {
+        "id": "cyp_h2",
+        "titulo": "Enfrentamiento con el mago Elimas",
+        "fecha": "ca. 46 d.C.",
+        "descripcion": "Pablo ciega al mago Bar-Jesús (Elimas) por oponerse al evangelio.",
+        "referencias": [
+          "Hch 13:8-11"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Elimas"
+        ]
+      },
+      {
+        "id": "cyp_h3",
+        "titulo": "Bernabé regresa a Chipre",
+        "fecha": "ca. 49 d.C.",
+        "descripcion": "Tras la separación con Pablo, Bernabé viaja a Chipre con Marcos.",
+        "referencias": [
+          "Hch 15:39"
+        ],
+        "personajes_clave": [
+          "Bernabé",
+          "Juan Marcos"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "cyp_p1",
+        "nombre": "Bernabé",
+        "emoji": "🤝",
+        "rol": "Apóstol chipriota",
+        "periodo": "s. I d.C.",
+        "descripcion": "Natural de Chipre; cofundador de la misión a los gentiles.",
+        "referencias": [
+          "Hch 4:36"
+        ],
+        "ruta": [
+          "cyprus",
+          "antioch"
+        ]
+      },
+      {
+        "id": "cyp_p2",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Misionero",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Evangelizó Chipre en su primer viaje misionero.",
+        "referencias": [
+          "Hch 13:4"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "cyp_p3",
+        "nombre": "Sergio Paulo",
+        "emoji": "🏛️",
+        "rol": "Procónsul romano",
+        "periodo": "s. I d.C.",
+        "descripcion": "Gobernador que creyó en el evangelio tras ver la ceguera del mago.",
+        "referencias": [
+          "Hch 13:12"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Isla helenística con culto a Afrodita; primer territorio pagano evangelizado sistemáticamente por Pablo.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "cyp_m1",
+          "nombre": "Afrodita y Chipre",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Chipre era famosa por el culto a Afrodita; el evangelio confrontó este paganismo cuando Pablo convirtió al procónsul.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Chipre era famosa por el culto a Afrodita; el evangelio confrontó este paganismo cuando Pablo convirtió al procónsul.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "id": "troas",
+  "nombre": "Tróade",
+  "tipo": "ciudad",
+  "lat": 39.7553,
+  "lng": 26.0889,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Puerto en la costa noroeste de Asia Menor, cerca del emplazamiento de la antigua Troya.",
+  "altitud_m": 30,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "madera"
+  ],
+  "importancia_estrategica": "Puerta de entrada a Europa desde Asia; punto de cruce del Egeo.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "tro_h1",
+        "titulo": "La visión macedónica",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Pablo tiene una visión de un macedonio que pide ayuda; cruza a Europa.",
+        "referencias": [
+          "Hch 16:9-10"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Lucas"
+        ]
+      },
+      {
+        "id": "tro_h2",
+        "titulo": "Resurrección de Eutico",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Eutico cae del tercer piso dormido durante el sermón de Pablo y es resucitado.",
+        "referencias": [
+          "Hch 20:7-12"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Eutico"
+        ]
+      },
+      {
+        "id": "tro_h3",
+        "titulo": "Pablo espera a sus compañeros en Tróade",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Pablo espera en Tróade siete días predicando y celebrando la fracción del pan.",
+        "referencias": [
+          "Hch 20:6-7"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "tro_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Misionero",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Recibió en Tróade la visión que cambió la dirección del evangelio hacia Europa.",
+        "referencias": [
+          "Hch 16:8"
+        ],
+        "ruta": [
+          "troas",
+          "philippi",
+          "corinth"
+        ]
+      },
+      {
+        "id": "tro_p2",
+        "nombre": "Lucas",
+        "emoji": "📖",
+        "rol": "Médico y evangelista",
+        "periodo": "s. I d.C.",
+        "descripcion": "Se unió a Pablo en Tróade; narrador del 'nosotros' en Hechos.",
+        "referencias": [
+          "Hch 16:10"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "tro_p3",
+        "nombre": "Eutico",
+        "emoji": "💤",
+        "rol": "Joven resucitado",
+        "periodo": "s. I d.C.",
+        "descripcion": "Cayó dormido y murió al caer; fue resucitado por Pablo.",
+        "referencias": [
+          "Hch 20:9"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Puerto helenístico con herencia troyana; punto de giro geográfico y espiritual donde el evangelio cruzó a Europa.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "tro_m1",
+          "nombre": "La visión macedónica",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "En Tróade Pablo recibe la llamada divina a llevar el evangelio a Europa, un momento axial en la historia cristiana.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En Tróade Pablo recibe la llamada divina a llevar el evangelio a Europa, un momento axial en la historia cristiana.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

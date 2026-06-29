@@ -1,0 +1,145 @@
+{
+  "id": "philadelphia",
+  "nombre": "Filadelfia",
+  "tipo": "ciudad",
+  "lat": 38.3552,
+  "lng": 28.5178,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad fundada por Átalo II de Pérgamo en el límite entre Lidia y Frigia, al borde de la meseta.",
+  "altitud_m": 290,
+  "clima": "mediterráneo-continental",
+  "recursos": [
+    "viticultura",
+    "comercio",
+    "agricultura"
+  ],
+  "importancia_estrategica": "Puerta de la meseta frigia; ciudad de frecuentes terremotos.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "phi_h1",
+        "titulo": "Carta a la iglesia de Filadelfia",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo felicita a la iglesia de Filadelfia sin reproche; le promete una puerta abierta.",
+        "referencias": [
+          "Ap 3:7-13"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "phi_h2",
+        "titulo": "La puerta que nadie puede cerrar",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo tiene la llave de David y abre puertas; promete hacer a los adversarios postrarse.",
+        "referencias": [
+          "Ap 3:7-9"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "phi_h3",
+        "titulo": "Guardados en la prueba",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo promete guardar a los fieles de Filadelfia en la hora de la prueba universal.",
+        "referencias": [
+          "Ap 3:10"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "phi_p1",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta del Apocalipsis",
+        "periodo": "s. I d.C.",
+        "descripcion": "Transmite el único mensaje sin reproche del Cristo glorioso a Filadelfia.",
+        "referencias": [
+          "Ap 3:7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "phi_p2",
+        "nombre": "Átalo II Filadelfo",
+        "emoji": "🏙️",
+        "rol": "Rey de Pérgamo, fundador",
+        "periodo": "159-138 a.C.",
+        "descripcion": "Fundó la ciudad y le dio su nombre ('amor fraternal').",
+        "referencias": [
+          "Historia helenística"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "phi_p3",
+        "nombre": "Ignacio de Antioquía",
+        "emoji": "✍️",
+        "rol": "Obispo y mártir",
+        "periodo": "ca. 35-110 d.C.",
+        "descripcion": "Escribió una carta a la iglesia de Filadelfia mientras era trasladado a Roma.",
+        "referencias": [
+          "Cartas de Ignacio"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad misionera en la puerta de Frigia; su iglesia recibió el elogio sin tacha del Apocalipsis.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "phi_m1",
+          "nombre": "La puerta abierta",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Cristo promete a Filadelfia una 'puerta abierta' que nadie puede cerrar, símbolo de oportunidad misionera y protección divina.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Cristo promete a Filadelfia una 'puerta abierta' que nadie puede cerrar, símbolo de oportunidad misionera y protección divina.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

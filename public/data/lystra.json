@@ -1,0 +1,151 @@
+{
+  "id": "lystra",
+  "nombre": "Listra",
+  "tipo": "ciudad",
+  "lat": 37.5833,
+  "lng": 32.3667,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad romana en el sur de Galacia (Licaonia), colonia militar establecida por Augusto.",
+  "altitud_m": 1020,
+  "clima": "continental-seco",
+  "recursos": [
+    "ganadería",
+    "agricultura",
+    "comercio"
+  ],
+  "importancia_estrategica": "Colonia militar romana en la ruta hacia el interior de Anatolia.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "lys_h1",
+        "titulo": "Curación del cojo y confusión divina",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Pablo cura a un cojo; los licaonios los toman por Hermes y Zeus.",
+        "referencias": [
+          "Hch 14:8-18"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "lys_h2",
+        "titulo": "Pablo apedreado y dado por muerto",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Judíos de Iconio persuaden a la multitud; Pablo es apedreado y arrastrado fuera de la ciudad.",
+        "referencias": [
+          "Hch 14:19-20"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "lys_h3",
+        "titulo": "Conversión de Timoteo",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Timoteo, hijo de madre judía y padre griego, se convierte en Listra.",
+        "referencias": [
+          "Hch 16:1-3"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Timoteo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "lys_p1",
+        "nombre": "Timoteo",
+        "emoji": "📜",
+        "rol": "Colaborador de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Natural de Listra, hijo de Eunice; compañero inseparable de Pablo.",
+        "referencias": [
+          "Hch 16:1"
+        ],
+        "ruta": [
+          "lystra",
+          "ephesus",
+          "corinth"
+        ]
+      },
+      {
+        "id": "lys_p2",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Misionero",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Apedreado en Listra pero sobrevivió para continuar su misión.",
+        "referencias": [
+          "Hch 14:19"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "lys_p3",
+        "nombre": "Eunice",
+        "emoji": "🙏",
+        "rol": "Madre de Timoteo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Mujer judía creyente que educó a su hijo en la fe.",
+        "referencias": [
+          "2 Tim 1:5"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Colonia romana donde el evangelio chocó con la religiosidad popular; Timoteo encarna el encuentro entre judaismo y helenismo.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "lys_m1",
+          "nombre": "Hermes y Zeus visitan Listra",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Los licaonios confunden a Pablo y Bernabé con dioses; el episodio revela el contraste entre el evangelio y el politeísmo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Los licaonios confunden a Pablo y Bernabé con dioses; el episodio revela el contraste entre el evangelio y el politeísmo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

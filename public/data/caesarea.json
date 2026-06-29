@@ -1,0 +1,151 @@
+{
+  "id": "caesarea",
+  "nombre": "Cesarea Marítima",
+  "tipo": "ciudad",
+  "lat": 32.5,
+  "lng": 34.9,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Gran puerto artificial construido por Herodes el Grande en la costa mediterránea de Judea.",
+  "altitud_m": 5,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "pesca",
+    "administración"
+  ],
+  "importancia_estrategica": "Capital administrativa de la provincia romana de Judea.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "ces_h1",
+        "titulo": "Bautismo de Cornelio",
+        "fecha": "ca. 40 d.C.",
+        "descripcion": "Pedro bautiza al centurión Cornelio, primer gentil confirmado en el Nuevo Testamento.",
+        "referencias": [
+          "Hch 10:1-48"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "Cornelio"
+        ]
+      },
+      {
+        "id": "ces_h2",
+        "titulo": "Pablo preso en Cesarea",
+        "fecha": "ca. 57-59 d.C.",
+        "descripcion": "Pablo permanece dos años preso en Cesarea bajo el gobernador Félix.",
+        "referencias": [
+          "Hch 23:33-26:32"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Félix",
+          "Festo",
+          "Agripa II"
+        ]
+      },
+      {
+        "id": "ces_h3",
+        "titulo": "Partida de Pablo hacia Roma",
+        "fecha": "ca. 59 d.C.",
+        "descripcion": "Pablo parte de Cesarea hacia Roma para ser juzgado ante el César.",
+        "referencias": [
+          "Hch 27:1"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "ces_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Pasó dos años preso en Cesarea antes de apelar al César.",
+        "referencias": [
+          "Hch 23:33"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ces_p2",
+        "nombre": "Cornelio",
+        "emoji": "🪖",
+        "rol": "Centurión romano convertido",
+        "periodo": "s. I d.C.",
+        "descripcion": "Primer gentil bautizado, símbolo de la apertura del evangelio.",
+        "referencias": [
+          "Hch 10:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ces_p3",
+        "nombre": "Felipe el Evangelista",
+        "emoji": "📢",
+        "rol": "Diácono y evangelista",
+        "periodo": "s. I d.C.",
+        "descripcion": "Se estableció en Cesarea; recibió a Pablo en su casa.",
+        "referencias": [
+          "Hch 8:40",
+          "21:8"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Capital romana con fuerte presencia militar y pagana; escenario clave de la expansión del evangelio hacia los gentiles.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "ces_m1",
+          "nombre": "La visión de Cornelio",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Un ángel aparece al centurión gentil Cornelio, iniciando la conversión de los paganos al evangelio.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Un ángel aparece al centurión gentil Cornelio, iniciando la conversión de los paganos al evangelio.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

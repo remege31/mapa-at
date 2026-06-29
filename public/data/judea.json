@@ -1,0 +1,163 @@
+{
+  "id": "judea",
+  "nombre": "Judea",
+  "tipo": "territorio",
+  "lat": 31.5,
+  "lng": 35.1,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Región montañosa al sur de la tierra de Israel, centrada en Jerusalén y Belén. Corazón histórico del pueblo judío.",
+  "altitud_m": 700,
+  "clima": "mediterráneo-seco",
+  "recursos": [
+    "olivos",
+    "cereales",
+    "agua de cisterna"
+  ],
+  "importancia_estrategica": "Centro político y religioso del judaismo del siglo I.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "jud_h1",
+        "titulo": "Bautismo de Jesús en el Jordán",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Juan el Bautista bautiza a Jesús en el río Jordán, frontera de Judea.",
+        "referencias": [
+          "Mt 3:13-17"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Juan el Bautista"
+        ]
+      },
+      {
+        "id": "jud_h2",
+        "titulo": "Tentación en el desierto de Judea",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Jesús ayuna 40 días en el desierto y es tentado por el diablo.",
+        "referencias": [
+          "Mt 4:1-11"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "jud_h3",
+        "titulo": "La Pasión y Resurrección en Judea",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "Arresto, crucifixión y resurrección de Jesús en Judea.",
+        "referencias": [
+          "Mc 14-16"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Poncio Pilato"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "jud_p1",
+        "nombre": "Juan el Bautista",
+        "emoji": "🏜️",
+        "rol": "Profeta y precursor",
+        "periodo": "ca. 5 a.C.–29 d.C.",
+        "descripcion": "Predicó en el desierto de Judea e inició el movimiento bautista.",
+        "referencias": [
+          "Mt 3:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jud_p2",
+        "nombre": "Poncio Pilato",
+        "emoji": "⚖️",
+        "rol": "Prefecto romano de Judea",
+        "periodo": "26-36 d.C.",
+        "descripcion": "Gobernador que condenó a Jesús a muerte.",
+        "referencias": [
+          "Mt 27:11-26"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jud_p3",
+        "nombre": "Herodes el Grande",
+        "emoji": "🏛️",
+        "rol": "Rey de Judea",
+        "periodo": "37-4 a.C.",
+        "descripcion": "Constructor del Segundo Templo ampliado; reinó sobre Judea al nacer Jesús.",
+        "referencias": [
+          "Mt 2:1"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Tierra santa del judaismo del Segundo Templo; escenario de la Pasión y el nacimiento de la fe cristiana.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "jud_m1",
+          "nombre": "El sacrificio redentor",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud",
+            "fuente_secundaria": "",
+            "descripcion": "El sacrificio en el Templo de Jerusalén como expiación de pecados.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El sacrificio en el Templo de Jerusalén como expiación de pecados.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La crucifixión de Jesús en Judea como sacrificio definitivo que cumple la Ley.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La crucifixión de Jesús en Judea como sacrificio definitivo que cumple la Ley.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "Isa (Jesús) no murió en la cruz según el Corán; Alá lo elevó.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Isa (Jesús) no murió en la cruz según el Corán; Alá lo elevó.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

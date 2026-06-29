@@ -1,0 +1,147 @@
+{
+  "id": "miletus",
+  "nombre": "Mileto",
+  "tipo": "ciudad",
+  "lat": 37.53,
+  "lng": 27.27,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad portuaria en la desembocadura del río Meandro, en la costa egea de Asia Menor.",
+  "altitud_m": 10,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "lana"
+  ],
+  "importancia_estrategica": "Importante centro filosófico y comercial de la antigua Jonia.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "mil_h1",
+        "titulo": "Discurso de despedida de Pablo",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Pablo convoca a los ancianos de Éfeso en Mileto y se despide con lágrimas.",
+        "referencias": [
+          "Hch 20:17-38"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "ancianos de Éfeso"
+        ]
+      },
+      {
+        "id": "mil_h2",
+        "titulo": "Predicción del encarcelamiento",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Pablo anuncia que no volverán a ver su rostro y les encomienda el rebaño.",
+        "referencias": [
+          "Hch 20:25-31"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "mil_h3",
+        "titulo": "Trófico enfermo en Mileto",
+        "fecha": "ca. 65 d.C.",
+        "descripcion": "Pablo deja a Trófimo enfermo en Mileto durante el cuarto viaje.",
+        "referencias": [
+          "2 Tim 4:20"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Trófimo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "mil_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Pronunció su más emotivo discurso de despedida a los ancianos efesios en Mileto.",
+        "referencias": [
+          "Hch 20:17"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "mil_p2",
+        "nombre": "Ancianos de Éfeso",
+        "emoji": "🧓",
+        "rol": "Líderes eclesiales",
+        "periodo": "s. I d.C.",
+        "descripcion": "Recibieron en Mileto las últimas instrucciones pastorales de Pablo.",
+        "referencias": [
+          "Hch 20:17"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "mil_p3",
+        "nombre": "Trófimo",
+        "emoji": "🤒",
+        "rol": "Colaborador de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Compañero gentil de Pablo, dejado enfermo en Mileto.",
+        "referencias": [
+          "2 Tim 4:20"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Antigua metrópolis jónica conocida por sus filósofos; en el NT, escenario del adiós pastoral de Pablo.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "mil_m1",
+          "nombre": "El pastor que se despide",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El discurso de Pablo en Mileto es el único sermón suyo registrado ante líderes cristianos; modelo del pastor que vela por el rebaño.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El discurso de Pablo en Mileto es el único sermón suyo registrado ante líderes cristianos; modelo del pastor que vela por el rebaño.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

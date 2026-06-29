@@ -1,0 +1,158 @@
+{
+  "id": "thyatira",
+  "nombre": "Tiatira",
+  "tipo": "ciudad",
+  "lat": 38.9186,
+  "lng": 27.8386,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad en el valle del Lico en Lidia, conocida por sus teñidores y gremios artesanales.",
+  "altitud_m": 110,
+  "clima": "mediterráneo",
+  "recursos": [
+    "lana teñida",
+    "cerámica",
+    "bronce",
+    "comercio"
+  ],
+  "importancia_estrategica": "Ciudad gremial; cruce de la ruta entre Pérgamo y Sardis.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "tia_h1",
+        "titulo": "Lidia de Tiatira",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Lidia, vendedora de púrpura de Tiatira, es la primera conversa europea bautizada por Pablo.",
+        "referencias": [
+          "Hch 16:14-15"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Lidia"
+        ]
+      },
+      {
+        "id": "tia_h2",
+        "titulo": "Carta a la iglesia de Tiatira",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo alaba el amor y la fe de Tiatira pero condena a 'Jezabel' por enseñar la fornicación.",
+        "referencias": [
+          "Ap 2:18-29"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "tia_h3",
+        "titulo": "Promesa a los fieles de Tiatira",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Cristo promete autoridad sobre las naciones a quienes guarden su palabra.",
+        "referencias": [
+          "Ap 2:26-28"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "tia_p1",
+        "nombre": "Lidia",
+        "emoji": "🟣",
+        "rol": "Primera cristiana de Europa",
+        "periodo": "s. I d.C.",
+        "descripcion": "Comerciante de telas de púrpura de Tiatira; bautizada en Filipos por Pablo.",
+        "referencias": [
+          "Hch 16:14"
+        ],
+        "ruta": [
+          "thyatira",
+          "philippi"
+        ]
+      },
+      {
+        "id": "tia_p2",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dirige la carta más larga de las siete a la iglesia de Tiatira.",
+        "referencias": [
+          "Ap 2:18"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "tia_p3",
+        "nombre": "'Jezabel'",
+        "emoji": "🧿",
+        "rol": "Profetisa falsa",
+        "periodo": "s. I d.C.",
+        "descripcion": "Mujer que enseñaba en Tiatira doctrinas que el Apocalipsis condena con el nombre de Jezabel.",
+        "referencias": [
+          "Ap 2:20"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad de gremios con sus banquetes rituales paganos; la iglesia debía decidir cómo relacionarse con las prácticas gremiales.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "tia_m1",
+          "nombre": "La nueva Jezabel",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud",
+            "fuente_secundaria": "",
+            "descripcion": "Jezabel, reina que introdujo el culto a Baal en Israel (1 Re 16:31).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jezabel, reina que introdujo el culto a Baal en Israel (1 Re 16:31).",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El Apocalipsis usa el nombre de Jezabel para una profetisa de Tiatira que corrompía a la iglesia con sincretismo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Apocalipsis usa el nombre de Jezabel para una profetisa de Tiatira que corrompía a la iglesia con sincretismo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

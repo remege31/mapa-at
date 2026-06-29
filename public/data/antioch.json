@@ -1,0 +1,154 @@
+{
+  "id": "antioch",
+  "nombre": "Antioquía de Siria",
+  "tipo": "ciudad",
+  "lat": 36.2021,
+  "lng": 36.1607,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Tercera ciudad del Imperio Romano, capital de la provincia de Siria, en el río Orontes.",
+  "altitud_m": 70,
+  "clima": "mediterráneo",
+  "recursos": [
+    "comercio",
+    "artesanía",
+    "agricultura"
+  ],
+  "importancia_estrategica": "Centro administrativo y comercial clave entre Oriente y Occidente.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "ant_h1",
+        "titulo": "Primera comunidad cristiana multicultural",
+        "fecha": "ca. 40 d.C.",
+        "descripcion": "En Antioquía se llama por primera vez 'cristianos' a los seguidores de Jesús.",
+        "referencias": [
+          "Hch 11:26"
+        ],
+        "personajes_clave": [
+          "Bernabé",
+          "Pablo"
+        ]
+      },
+      {
+        "id": "ant_h2",
+        "titulo": "Base de los viajes misioneros de Pablo",
+        "fecha": "ca. 46-57 d.C.",
+        "descripcion": "Pablo parte y regresa a Antioquía en sus tres viajes misioneros.",
+        "referencias": [
+          "Hch 13:1-3",
+          "14:26"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "ant_h3",
+        "titulo": "Conflicto de Antioquía",
+        "fecha": "ca. 49 d.C.",
+        "descripcion": "Pablo confronta a Pedro por su comportamiento con los gentiles.",
+        "referencias": [
+          "Gál 2:11-14"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Pedro"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "ant_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol a los gentiles",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Usó Antioquía como base de sus misiones al mundo mediterráneo.",
+        "referencias": [
+          "Hch 13:1"
+        ],
+        "ruta": [
+          "antioch",
+          "ephesus",
+          "corinth",
+          "rome"
+        ]
+      },
+      {
+        "id": "ant_p2",
+        "nombre": "Bernabé",
+        "emoji": "🤝",
+        "rol": "Líder misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Acompañó a Pablo en el primer viaje misionero desde Antioquía.",
+        "referencias": [
+          "Hch 11:25-26"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ant_p3",
+        "nombre": "Simón Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Visitó Antioquía; fue reprendido por Pablo por tratar diferente a judíos y gentiles.",
+        "referencias": [
+          "Gál 2:11"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Cosmópolis helenística donde el evangelio cruzó fronteras étnicas; cuna del nombre 'cristiano'.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_greco_romano"
+      ],
+      "mitos": [
+        {
+          "id": "ant_m1",
+          "nombre": "El nombre cristiano",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "En Antioquía nació el término 'cristiano' para designar a los seguidores de Cristo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En Antioquía nació el término 'cristiano' para designar a los seguidores de Cristo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

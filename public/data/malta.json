@@ -1,0 +1,148 @@
+{
+  "id": "malta",
+  "nombre": "Malta",
+  "tipo": "territorio",
+  "lat": 35.9375,
+  "lng": 14.3754,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Isla mediterránea al sur de Sicilia, en el estrecho entre el Mediterráneo occidental y oriental.",
+  "altitud_m": 90,
+  "clima": "mediterráneo insular",
+  "recursos": [
+    "puerto",
+    "miel",
+    "pesca",
+    "sal"
+  ],
+  "importancia_estrategica": "Isla estratégica en la ruta marítima entre Roma y Oriente.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "mal_h1",
+        "titulo": "Naufragio de Pablo",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "El barco que lleva a Pablo a Roma naufragia en Malta; todos sobreviven.",
+        "referencias": [
+          "Hch 27:41-44"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "mal_h2",
+        "titulo": "Pablo y la víbora de fuego",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "Una víbora muerde a Pablo en la mano; los malteses esperan que muera, pero no le pasa nada.",
+        "referencias": [
+          "Hch 28:1-6"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "mal_h3",
+        "titulo": "Curación del padre de Publio",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "Pablo sana al padre del jefe Publio mediante oración e imposición de manos.",
+        "referencias": [
+          "Hch 28:7-9"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Publio"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "mal_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Prisionero y taumaturgo",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Naufragó en Malta; su permanencia de tres meses resultó en curaciones y testimonio.",
+        "referencias": [
+          "Hch 28:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "mal_p2",
+        "nombre": "Publio",
+        "emoji": "🏛️",
+        "rol": "Jefe principal de Malta",
+        "periodo": "s. I d.C.",
+        "descripcion": "Recibió a los náufragos; Pablo curó a su padre.",
+        "referencias": [
+          "Hch 28:7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "mal_p3",
+        "nombre": "Julio el centurión",
+        "emoji": "🪖",
+        "rol": "Guardián de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Centurión encargado de trasladar a Pablo a Roma; lo trató con consideración.",
+        "referencias": [
+          "Hch 27:1",
+          "28:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Isla con mezcla de cultura fenicia y romana; el episodio de Pablo allí inauguró la tradición cristiana maltesa.",
+      "religiones_presentes": [
+        "paganismo_fenicio_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "mal_m1",
+          "nombre": "Pablo y la víbora",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Los malteses interpretan la inmunidad de Pablo ante la mordedura de víbora como señal divina; el episodio prefigura el poder apostólico sobre el mal.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Los malteses interpretan la inmunidad de Pablo ante la mordedura de víbora como señal divina; el episodio prefigura el poder apostólico sobre el mal.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

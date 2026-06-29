@@ -1,0 +1,147 @@
+{
+  "id": "berea",
+  "nombre": "Berea",
+  "tipo": "ciudad",
+  "lat": 40.52,
+  "lng": 22.2,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad al pie de la montaña Bermio en Macedonia, al sur de la Vía Egnatia.",
+  "altitud_m": 70,
+  "clima": "mediterráneo-continental",
+  "recursos": [
+    "agricultura",
+    "madera",
+    "mármol"
+  ],
+  "importancia_estrategica": "Ciudad tranquila de Macedonia, conocida por la receptividad de sus habitantes al evangelio.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "ber_h1",
+        "titulo": "Los bereanos y las Escrituras",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Los bereanos reciben el mensaje con entusiasmo y examinan diariamente las Escrituras.",
+        "referencias": [
+          "Hch 17:10-12"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Silas"
+        ]
+      },
+      {
+        "id": "ber_h2",
+        "titulo": "Interrupción de judíos de Tesalónica",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Judíos de Tesalónica llegan a Berea y agitan al pueblo; Pablo es enviado al mar.",
+        "referencias": [
+          "Hch 17:13-14"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "ber_h3",
+        "titulo": "Sópater de Berea",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Sópater, hijo de Pirro de Berea, acompaña a Pablo en su viaje a Jerusalén.",
+        "referencias": [
+          "Hch 20:4"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Sópater"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "ber_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Predicó brevemente en Berea antes de partir hacia Atenas.",
+        "referencias": [
+          "Hch 17:10"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ber_p2",
+        "nombre": "Silas",
+        "emoji": "🪕",
+        "rol": "Misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Permaneció en Berea mientras Pablo avanzaba hacia Atenas.",
+        "referencias": [
+          "Hch 17:14"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ber_p3",
+        "nombre": "Sópater",
+        "emoji": "🤝",
+        "rol": "Colaborador de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Bereano que acompañó a Pablo en su último viaje a Jerusalén.",
+        "referencias": [
+          "Hch 20:4"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "La ciudad más 'noble' del viaje paulino: sus habitantes verificaban las enseñanzas con las Escrituras.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_greco_romano",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "ber_m1",
+          "nombre": "La nobleza bíblica bereana",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Los bereanos son elogiados por examinar las Escrituras para verificar las enseñanzas de Pablo: modelo de discernimiento cristiano.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Los bereanos son elogiados por examinar las Escrituras para verificar las enseñanzas de Pablo: modelo de discernimiento cristiano.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

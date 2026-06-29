@@ -1,0 +1,157 @@
+{
+  "id": "philippi",
+  "nombre": "Filipos",
+  "tipo": "ciudad",
+  "lat": 41.0134,
+  "lng": 24.2879,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Colonia romana en Macedonia oriental, en la llanura entre el mar Egeo y las montañas del Pangeo.",
+  "altitud_m": 45,
+  "clima": "mediterráneo-continental",
+  "recursos": [
+    "oro",
+    "plata",
+    "agricultura",
+    "comercio"
+  ],
+  "importancia_estrategica": "Primera ciudad europea evangelizada por Pablo; colonia romana con veteranos militares.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "phi2_h1",
+        "titulo": "Primera iglesia europea",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Pablo, Silas y Lucas fundan la primera iglesia en Europa junto al río.",
+        "referencias": [
+          "Hch 16:11-15"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Silas",
+          "Lucas",
+          "Lidia"
+        ]
+      },
+      {
+        "id": "phi2_h2",
+        "titulo": "Pablo y Silas en la cárcel",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Tras exorcizar a una esclava, Pablo y Silas son encarcelados; un terremoto abre las puertas.",
+        "referencias": [
+          "Hch 16:16-34"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Silas",
+          "carcelero"
+        ]
+      },
+      {
+        "id": "phi2_h3",
+        "titulo": "Carta a los Filipenses",
+        "fecha": "ca. 61 d.C.",
+        "descripcion": "Desde la prisión, Pablo escribe su carta más gozosa a la comunidad de Filipos.",
+        "referencias": [
+          "Fil 1-4"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "phi2_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Fundó en Filipos la primera iglesia europea; fue encarcelado allí.",
+        "referencias": [
+          "Hch 16:12"
+        ],
+        "ruta": [
+          "philippi",
+          "thessalonica",
+          "corinth",
+          "rome"
+        ]
+      },
+      {
+        "id": "phi2_p2",
+        "nombre": "Lidia",
+        "emoji": "🟣",
+        "rol": "Primera conversa europea",
+        "periodo": "s. I d.C.",
+        "descripcion": "Comerciante de Tiatira; bautizada en Filipos con su casa entera.",
+        "referencias": [
+          "Hch 16:14"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "phi2_p3",
+        "nombre": "Silas",
+        "emoji": "🪕",
+        "rol": "Misionero compañero de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Acompañó a Pablo en el segundo viaje; encarcelado con él en Filipos.",
+        "referencias": [
+          "Hch 16:25"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Colonia romana con culto imperial; la primera cabeza de puente del evangelio en Europa.",
+      "religiones_presentes": [
+        "paganismo_romano",
+        "judaismo",
+        "culto_imperial",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "phi2_m1",
+          "nombre": "El terremoto liberador",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Un terremoto abre las puertas de la cárcel de Filipos mientras Pablo y Silas cantan himnos; el carcelero se convierte.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Un terremoto abre las puertas de la cárcel de Filipos mientras Pablo y Silas cantan himnos; el carcelero se convierte.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

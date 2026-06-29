@@ -1,0 +1,146 @@
+{
+  "id": "laodicea",
+  "nombre": "Laodicea del Lico",
+  "tipo": "ciudad",
+  "lat": 37.8326,
+  "lng": 29.1106,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Rica ciudad comercial en el valle del Lico, Frigia; famosa por su banca, lana negra y colirio ocular.",
+  "altitud_m": 300,
+  "clima": "continental-mediterráneo",
+  "recursos": [
+    "lana",
+    "manufactura",
+    "banca",
+    "medicina"
+  ],
+  "importancia_estrategica": "Centro financiero del Asia Menor interior.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "lao_h1",
+        "titulo": "Carta al ángel de Laodicea",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "El Cristo glorioso reprende a la iglesia de Laodicea por ser tibia.",
+        "referencias": [
+          "Ap 3:14-22"
+        ],
+        "personajes_clave": [
+          "Juan el Apóstol"
+        ]
+      },
+      {
+        "id": "lao_h2",
+        "titulo": "La carta circular de Colosas",
+        "fecha": "ca. 60-62 d.C.",
+        "descripcion": "Pablo pide que su carta se intercambie con la carta destinada a Laodicea.",
+        "referencias": [
+          "Col 4:16"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "lao_h3",
+        "titulo": "Epafras intercede por Laodicea",
+        "fecha": "ca. 60-62 d.C.",
+        "descripcion": "Epafras se afana en oración por la iglesia de Laodicea y ciudades vecinas.",
+        "referencias": [
+          "Col 4:13"
+        ],
+        "personajes_clave": [
+          "Epafras"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "lao_p1",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta del Apocalipsis",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dirige la carta de Cristo a la iglesia tibia de Laodicea.",
+        "referencias": [
+          "Ap 3:14"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "lao_p2",
+        "nombre": "Epafras",
+        "emoji": "🌱",
+        "rol": "Evangelista regional",
+        "periodo": "s. I d.C.",
+        "descripcion": "Fundó la iglesia de Laodicea junto con las de Colosas e Hierápolis.",
+        "referencias": [
+          "Col 4:13"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "lao_p3",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Escribió una carta destinada a Laodicea, hoy perdida.",
+        "referencias": [
+          "Col 4:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "La ciudad más rica del valle del Lico; su autosuficiencia material se convirtió en metáfora de la tibieza espiritual.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "lao_m1",
+          "nombre": "Ni frío ni caliente",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Cristo reprende a la iglesia de Laodicea por su tibieza espiritual, en contraste con las aguas frías de Colosas y las termales de Hierápolis.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Cristo reprende a la iglesia de Laodicea por su tibieza espiritual, en contraste con las aguas frías de Colosas y las termales de Hierápolis.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

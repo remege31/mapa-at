@@ -1,0 +1,153 @@
+{
+  "id": "rome",
+  "nombre": "Roma",
+  "tipo": "ciudad",
+  "lat": 41.8902,
+  "lng": 12.4922,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Capital del Imperio Romano, ciudad de más de un millón de habitantes, centro del poder mediterráneo.",
+  "altitud_m": 21,
+  "clima": "mediterráneo",
+  "recursos": [
+    "administración",
+    "comercio",
+    "manufactura",
+    "arte"
+  ],
+  "importancia_estrategica": "Cabeza del Imperio Romano; destino final del viaje apostólico de Pablo.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "rom_h1",
+        "titulo": "Llegada de Pablo a Roma",
+        "fecha": "ca. 60-61 d.C.",
+        "descripcion": "Pablo llega prisionero a Roma; los hermanos salen a recibirle; pasa dos años predicando.",
+        "referencias": [
+          "Hch 28:11-31"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "rom_h2",
+        "titulo": "La carta a los Romanos",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Pablo escribe su carta teológica más sistemática a la comunidad de Roma.",
+        "referencias": [
+          "Rom 1:1"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "rom_h3",
+        "titulo": "Martirio de Pedro y Pablo",
+        "fecha": "ca. 64-67 d.C.",
+        "descripcion": "Tradición ubica el martirio de Pedro (crucificado) y Pablo (decapitado) en Roma bajo Nerón.",
+        "referencias": [
+          "1 Clemente 5",
+          "Tradición patrística"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "rom_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol y mártir",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Llegó preso a Roma y predicó libremente dos años; murió mártir bajo Nerón.",
+        "referencias": [
+          "Hch 28:16"
+        ],
+        "ruta": [
+          "rome",
+          "corinth",
+          "ephesus"
+        ]
+      },
+      {
+        "id": "rom_p2",
+        "nombre": "Simón Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol y mártir",
+        "periodo": "s. I d.C.",
+        "descripcion": "Tradición apostólica lo sitúa en Roma como obispo; crucificado invertido.",
+        "referencias": [
+          "1 Pe 5:13"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "rom_p3",
+        "nombre": "Nerón",
+        "emoji": "🔥",
+        "rol": "Emperador romano",
+        "periodo": "54-68 d.C.",
+        "descripcion": "Persiguió a los cristianos acusándolos del incendio de Roma; bajo él murieron Pedro y Pablo.",
+        "referencias": [
+          "Historia romana"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Corazón del Imperio y de sus cultos; la comunidad cristiana de Roma se convirtió en la más influyente del mundo.",
+      "religiones_presentes": [
+        "paganismo_romano",
+        "culto_imperial",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "rom_m1",
+          "nombre": "Pedro en Roma",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La tradición cristiana ubica la tumba de Pedro bajo la Basílica de San Pedro; Roma se convirtió en sede de la iglesia occidental.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La tradición cristiana ubica la tumba de Pedro bajo la Basílica de San Pedro; Roma se convirtió en sede de la iglesia occidental.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

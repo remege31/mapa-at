@@ -1,0 +1,147 @@
+{
+  "id": "derbe",
+  "nombre": "Derbe",
+  "tipo": "ciudad",
+  "lat": 37.3578,
+  "lng": 33.2861,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad fronteriza de Licaonia en el sur de Galacia, al borde de las montañas del Tauro.",
+  "altitud_m": 1100,
+  "clima": "continental-seco",
+  "recursos": [
+    "agricultura",
+    "ganadería"
+  ],
+  "importancia_estrategica": "Último punto del primer viaje misionero de Pablo antes del regreso.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "der_h1",
+        "titulo": "Evangelización de Derbe",
+        "fecha": "ca. 47 d.C.",
+        "descripcion": "Pablo y Bernabé predican en Derbe y hacen muchos discípulos.",
+        "referencias": [
+          "Hch 14:20-21"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "der_h2",
+        "titulo": "Punto de retorno del primer viaje",
+        "fecha": "ca. 47-48 d.C.",
+        "descripcion": "Desde Derbe regresan consolidando iglesias: Listra, Iconio, Antioquía de Pisidia.",
+        "referencias": [
+          "Hch 14:21-23"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Bernabé"
+        ]
+      },
+      {
+        "id": "der_h3",
+        "titulo": "Gayo de Derbe",
+        "fecha": "ca. 57 d.C.",
+        "descripcion": "Gayo, oriundo de Derbe, acompaña a Pablo en su tercer viaje.",
+        "referencias": [
+          "Hch 20:4"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Gayo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "der_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Misionero",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Llegó a Derbe tras el apedreamiento en Listra; fundó iglesia.",
+        "referencias": [
+          "Hch 14:20"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "der_p2",
+        "nombre": "Bernabé",
+        "emoji": "🤝",
+        "rol": "Misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Acompañó a Pablo en la evangelización de Derbe.",
+        "referencias": [
+          "Hch 14:20"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "der_p3",
+        "nombre": "Gayo",
+        "emoji": "🚶",
+        "rol": "Colaborador de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Natural de Derbe, acompañó a Pablo en el viaje a Macedonia.",
+        "referencias": [
+          "Hch 20:4"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad de frontera donde el evangelio penetró sin resistencia documentada; hito del primer viaje misional.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "der_m1",
+          "nombre": "La misión sin resistencia",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Derbe recibió el evangelio pacíficamente, contrastando con las persecuciones en ciudades vecinas.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Derbe recibió el evangelio pacíficamente, contrastando con las persecuciones en ciudades vecinas.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

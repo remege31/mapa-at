@@ -1,0 +1,154 @@
+{
+  "id": "athens",
+  "nombre": "Atenas",
+  "tipo": "ciudad",
+  "lat": 37.9755,
+  "lng": 23.7348,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Capital cultural y filosófica del mundo griego, sede del Areópago y la Acrópolis.",
+  "altitud_m": 70,
+  "clima": "mediterráneo",
+  "recursos": [
+    "filosofía",
+    "arte",
+    "comercio",
+    "olivos"
+  ],
+  "importancia_estrategica": "Centro intelectual del mundo antiguo; ciudad con miríadas de templos y escuelas filosóficas.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "ath_h1",
+        "titulo": "Pablo en el Areópago",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Pablo presenta el evangelio a los filósofos estoicos y epicúreos en el Areópago.",
+        "referencias": [
+          "Hch 17:16-34"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Dionisio",
+          "Dámaris"
+        ]
+      },
+      {
+        "id": "ath_h2",
+        "titulo": "El altar al Dios desconocido",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Pablo cita el altar 'Al Dios desconocido' de Atenas para introducir al Dios creador.",
+        "referencias": [
+          "Hch 17:23"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "ath_h3",
+        "titulo": "Reacción mixta al evangelio",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Algunos se burlan de la resurrección; otros piden más información; algunos creen.",
+        "referencias": [
+          "Hch 17:32-34"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Dionisio"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "ath_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol y filósofo",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Dialogó con filósofos atenienses; único discurso evangelístico ante una audiencia completamente pagana.",
+        "referencias": [
+          "Hch 17:22"
+        ],
+        "ruta": [
+          "athens",
+          "corinth"
+        ]
+      },
+      {
+        "id": "ath_p2",
+        "nombre": "Dionisio el Areopagita",
+        "emoji": "🧠",
+        "rol": "Convertido de Atenas",
+        "periodo": "s. I d.C.",
+        "descripcion": "Miembro del Areópago que creyó tras el discurso de Pablo.",
+        "referencias": [
+          "Hch 17:34"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "ath_p3",
+        "nombre": "Dámaris",
+        "emoji": "🌺",
+        "rol": "Convertida de Atenas",
+        "periodo": "s. I d.C.",
+        "descripcion": "Mujer que creyó en el Areópago; tradición la vincula con la primera iglesia ateniense.",
+        "referencias": [
+          "Hch 17:34"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad llena de ídolos y templos; escenario del único debate del evangelio ante la élite intelectual pagana.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "estoicismo",
+        "epicureismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "ath_m1",
+          "nombre": "El Dios desconocido",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Pablo usa el altar 'Al Dios desconocido' de Atenas para proclamar al Dios creador, conectando la búsqueda religiosa griega con el evangelio.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Pablo usa el altar 'Al Dios desconocido' de Atenas para proclamar al Dios creador, conectando la búsqueda religiosa griega con el evangelio.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

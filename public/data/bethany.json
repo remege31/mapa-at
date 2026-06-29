@@ -1,0 +1,158 @@
+{
+  "id": "bethany",
+  "nombre": "Betania",
+  "tipo": "ciudad",
+  "lat": 31.7714,
+  "lng": 35.2631,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Aldea al este del Monte de los Olivos, a unos 3 km de Jerusalén, en la ladera oriental.",
+  "altitud_m": 800,
+  "clima": "mediterráneo-árido",
+  "recursos": [
+    "olivos",
+    "higos",
+    "hospedaje"
+  ],
+  "importancia_estrategica": "Refugio de Jesús fuera de Jerusalén; en la ruta hacia Jericó.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "bet_h1",
+        "titulo": "Resurrección de Lázaro",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "Jesús resucita a Lázaro cuatro días después de su muerte.",
+        "referencias": [
+          "Jn 11:1-44"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Lázaro",
+          "Marta",
+          "María"
+        ]
+      },
+      {
+        "id": "bet_h2",
+        "titulo": "La unción en Betania",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "María unge los pies de Jesús con nardo costoso.",
+        "referencias": [
+          "Jn 12:1-8"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "María",
+          "Judas Iscariote"
+        ]
+      },
+      {
+        "id": "bet_h3",
+        "titulo": "Última estadía antes de la Pasión",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "Jesús pasa las noches en Betania durante la semana de la Pasión.",
+        "referencias": [
+          "Mt 21:17",
+          "Mc 11:11-12"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "bet_p1",
+        "nombre": "Lázaro",
+        "emoji": "🪦",
+        "rol": "Amigo resucitado de Jesús",
+        "periodo": "s. I d.C.",
+        "descripcion": "Hermano de Marta y María, resucitado por Jesús.",
+        "referencias": [
+          "Jn 11:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "bet_p2",
+        "nombre": "Marta",
+        "emoji": "🏠",
+        "rol": "Discípula y anfitriona",
+        "periodo": "s. I d.C.",
+        "descripcion": "Hermana de Lázaro, conocida por su hospitalidad.",
+        "referencias": [
+          "Lc 10:38-42"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "bet_p3",
+        "nombre": "María de Betania",
+        "emoji": "💐",
+        "rol": "Discípula contemplativa",
+        "periodo": "s. I d.C.",
+        "descripcion": "Ungió los pies de Jesús con perfume costoso.",
+        "referencias": [
+          "Jn 12:3"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Aldea judía íntimamente ligada al círculo de amigos de Jesús; escenario de su milagro más notable.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "bet_m1",
+          "nombre": "La resurrección de Lázaro",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús resucita a Lázaro como señal de su poder sobre la muerte y prefiguración de su propia resurrección.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús resucita a Lázaro como señal de su poder sobre la muerte y prefiguración de su propia resurrección.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "El Corán menciona a Jesús (Isa) como capaz de resucitar muertos con permiso de Alá.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Corán menciona a Jesús (Isa) como capaz de resucitar muertos con permiso de Alá.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

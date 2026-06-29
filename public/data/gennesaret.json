@@ -1,0 +1,145 @@
+{
+  "id": "gennesaret",
+  "nombre": "Genesaret",
+  "tipo": "region_natural",
+  "lat": 32.8627,
+  "lng": 35.5261,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Fértil llanura costera al oeste del mar de Galilea, de unos 5 km de longitud.",
+  "altitud_m": -200,
+  "clima": "mediterráneo-cálido",
+  "recursos": [
+    "agricultura intensiva",
+    "pesca",
+    "agua"
+  ],
+  "importancia_estrategica": "Tierra de alta productividad agrícola junto al mar de Galilea.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "gen_h1",
+        "titulo": "Aterrizaje tras caminar sobre el agua",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "La barca llega a Genesaret después de que Jesús camina sobre el agua.",
+        "referencias": [
+          "Mt 14:34-36"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "discípulos"
+        ]
+      },
+      {
+        "id": "gen_h2",
+        "titulo": "Sanaciones en la llanura",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Multitudes llevan enfermos a Jesús en la llanura de Genesaret.",
+        "referencias": [
+          "Mc 6:53-56"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "gen_h3",
+        "titulo": "Pesca milagrosa",
+        "fecha": "ca. 27 d.C.",
+        "descripcion": "Desde la orilla de Genesaret, Jesús instruye a Pedro a echar las redes.",
+        "referencias": [
+          "Lc 5:1-11"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Pedro"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "gen_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Sanador y maestro",
+        "periodo": "ca. 27-30 d.C.",
+        "descripcion": "Predicó desde las riberas del lago de Genesaret.",
+        "referencias": [
+          "Lc 5:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "gen_p2",
+        "nombre": "Simón Pedro",
+        "emoji": "⚓",
+        "rol": "Pescador y apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Su barca fue usada como pulpito flotante por Jesús.",
+        "referencias": [
+          "Lc 5:3"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "gen_p3",
+        "nombre": "Santiago hijo de Zebedeo",
+        "emoji": "⚡",
+        "rol": "Apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Pescador del lago junto con su hermano Juan.",
+        "referencias": [
+          "Mc 1:19-20"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "La fértil ribera del lago fue escenario de la vocación apostólica y de múltiples sanaciones.",
+      "religiones_presentes": [
+        "judaismo"
+      ],
+      "mitos": [
+        {
+          "id": "gen_m1",
+          "nombre": "La pesca milagrosa",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Pedro obedece a Jesús y pesca de manera abundante; el milagro inaugura su misión apostólica.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Pedro obedece a Jesús y pesca de manera abundante; el milagro inaugura su misión apostólica.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "patmos",
+  "nombre": "Patmos",
+  "tipo": "region_natural",
+  "lat": 37.321,
+  "lng": 26.5462,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "secundario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Pequeña isla volcánica del Egeo en el archipiélago del Dodecaneso, a 60 km de Mileto.",
+  "altitud_m": 150,
+  "clima": "mediterráneo insular",
+  "recursos": [
+    "pesca",
+    "cantería"
+  ],
+  "importancia_estrategica": "Isla rocosa usada por Roma como lugar de exilio.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "pat_h1",
+        "titulo": "Juan recibe el Apocalipsis",
+        "fecha": "ca. 95-96 d.C.",
+        "descripcion": "Desterrado por Domiciano, Juan recibe visiones y escribe el libro del Apocalipsis.",
+        "referencias": [
+          "Ap 1:9"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "pat_h2",
+        "titulo": "La visión del Cristo glorioso",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Juan ve al Hijo del Hombre entre siete candelabros; recibe el mandato de escribir.",
+        "referencias": [
+          "Ap 1:10-20"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      },
+      {
+        "id": "pat_h3",
+        "titulo": "Las siete cartas a las iglesias",
+        "fecha": "ca. 95 d.C.",
+        "descripcion": "Juan dicta siete cartas a las iglesias de Asia, contenidas en el Apocalipsis.",
+        "referencias": [
+          "Ap 2-3"
+        ],
+        "personajes_clave": [
+          "Juan"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "pat_p1",
+        "nombre": "Juan el Apóstol",
+        "emoji": "🦅",
+        "rol": "Profeta y evangelista",
+        "periodo": "s. I d.C.",
+        "descripcion": "Desterrado en Patmos; receptor del libro del Apocalipsis.",
+        "referencias": [
+          "Ap 1:9"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "pat_p2",
+        "nombre": "Domiciano",
+        "emoji": "👑",
+        "rol": "Emperador romano",
+        "periodo": "81-96 d.C.",
+        "descripcion": "Perseguidor de los cristianos; ordenó el exilio de Juan a Patmos.",
+        "referencias": [
+          "Historia romana"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "pat_p3",
+        "nombre": "El ángel revelador",
+        "emoji": "✨",
+        "rol": "Mensajero celestial",
+        "periodo": "s. I d.C.",
+        "descripcion": "Mediador entre Cristo y Juan en las visiones del Apocalipsis.",
+        "referencias": [
+          "Ap 22:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Isla de exilio donde la soledad y la persecución se convirtieron en cuna del libro profético más influyente del NT.",
+      "religiones_presentes": [
+        "paganismo_romano",
+        "culto_imperial",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "pat_m1",
+          "nombre": "La Revelación final",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "En Patmos, Juan recibe la última revelación canónica cristiana, una visión cósmica de la victoria de Cristo sobre el mal.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En Patmos, Juan recibe la última revelación canónica cristiana, una visión cósmica de la victoria de Cristo sobre el mal.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "El Islam reconoce la inspiración divina de los profetas pero no incluye el Apocalipsis en su canon.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Islam reconoce la inspiración divina de los profetas pero no incluye el Apocalipsis en su canon.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

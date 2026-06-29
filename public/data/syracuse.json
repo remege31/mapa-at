@@ -1,0 +1,146 @@
+{
+  "id": "syracuse",
+  "nombre": "Siracusa",
+  "tipo": "ciudad",
+  "lat": 37.0755,
+  "lng": 15.2866,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Mayor ciudad griega de Occidente, en la costa sureste de Sicilia.",
+  "altitud_m": 10,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "agricultura",
+    "pesca"
+  ],
+  "importancia_estrategica": "Ciudad-estado griega de enorme importancia histórica y cultural.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "syr_h1",
+        "titulo": "Pablo se detiene tres días en Siracusa",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "En ruta hacia Roma, el barco de Pablo hace escala de tres días en Siracusa.",
+        "referencias": [
+          "Hch 28:12"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "syr_h2",
+        "titulo": "La ruta siciliana",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "Desde Siracusa el barco costea hacia Regio y luego Puteoli.",
+        "referencias": [
+          "Hch 28:13"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "syr_h3",
+        "titulo": "Tradición de predicación en Sicilia",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "Tradición local sostiene que Pablo predicó en Siracusa durante su escala.",
+        "referencias": [
+          "Tradición cristiana siciliana"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "syr_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Pasó tres días en Siracusa durante su travesía hacia Roma.",
+        "referencias": [
+          "Hch 28:12"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "syr_p2",
+        "nombre": "Julio el centurión",
+        "emoji": "🪖",
+        "rol": "Guardián de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Supervisó la escala en Siracusa.",
+        "referencias": [
+          "Hch 27:1"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "syr_p3",
+        "nombre": "Arquímedes",
+        "emoji": "⚙️",
+        "rol": "Científico y matemático",
+        "periodo": "ca. 287-212 a.C.",
+        "descripcion": "El más famoso hijo de Siracusa; su ciudad era símbolo de la grandeza griega en Occidente.",
+        "referencias": [
+          "Historia griega"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Antigua metrópolis griega con cultos a Atenea y Artemisa; testigo silencioso del paso apostólico hacia Roma.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "syr_m1",
+          "nombre": "El paso de Pablo por Sicilia",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Aunque sólo tres días, la tradición cristiana siciliana honra a Pablo como el que trajo el evangelio a la isla en su camino a Roma.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Aunque sólo tres días, la tradición cristiana siciliana honra a Pablo como el que trajo el evangelio a la isla en su camino a Roma.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "thessalonica",
+  "nombre": "Tesalónica",
+  "tipo": "ciudad",
+  "lat": 40.6401,
+  "lng": 22.9444,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Capital de la Macedonia romana, gran puerto en el golfo Termaico y nodo de la Vía Egnatia.",
+  "altitud_m": 30,
+  "clima": "mediterráneo",
+  "recursos": [
+    "puerto",
+    "comercio",
+    "administración"
+  ],
+  "importancia_estrategica": "Capital provincial de Macedonia; ciudad libre y estratégica en la Vía Egnatia.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "tes_h1",
+        "titulo": "Predicación de Pablo en la sinagoga",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Pablo predica tres sábados en la sinagoga; muchos griegos y mujeres distinguidas creen.",
+        "referencias": [
+          "Hch 17:1-4"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Silas"
+        ]
+      },
+      {
+        "id": "tes_h2",
+        "titulo": "Persecución y huida",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Un motín empuja a Pablo a huir de noche a Berea.",
+        "referencias": [
+          "Hch 17:5-10"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Silas",
+          "Jasón"
+        ]
+      },
+      {
+        "id": "tes_h3",
+        "titulo": "Cartas a los Tesalonicenses",
+        "fecha": "ca. 51-52 d.C.",
+        "descripcion": "Pablo escribe las dos cartas más antiguas del NT desde Corinto a Tesalónica.",
+        "referencias": [
+          "1 Tes 1:1",
+          "2 Tes 1:1"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "tes_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Fundó la iglesia de Tesalónica; escribió las cartas más antiguas del NT.",
+        "referencias": [
+          "Hch 17:1"
+        ],
+        "ruta": [
+          "thessalonica",
+          "corinth",
+          "rome"
+        ]
+      },
+      {
+        "id": "tes_p2",
+        "nombre": "Jasón",
+        "emoji": "🏠",
+        "rol": "Anfitrión de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dio hospedaje a Pablo en Tesalónica; fue llevado ante las autoridades.",
+        "referencias": [
+          "Hch 17:5-7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "tes_p3",
+        "nombre": "Silas",
+        "emoji": "🪕",
+        "rol": "Misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Acompañó a Pablo en la misión a Tesalónica.",
+        "referencias": [
+          "Hch 17:4"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad con culto a Cabiros y culto imperial; la iglesia naciente enfrentó persecución desde el inicio.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "culto_imperial",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "tes_m1",
+          "nombre": "La Parusía",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Las cartas a los Tesalonicenses abordan la Segunda Venida de Cristo, respondiendo a la ansiedad de los creyentes por los difuntos.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Las cartas a los Tesalonicenses abordan la Segunda Venida de Cristo, respondiendo a la ansiedad de los creyentes por los difuntos.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

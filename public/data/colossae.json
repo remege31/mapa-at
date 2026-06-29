@@ -1,0 +1,150 @@
+{
+  "id": "colossae",
+  "nombre": "Colosas",
+  "tipo": "ciudad",
+  "lat": 37.777,
+  "lng": 29.296,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "terciario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Ciudad en el valle del río Lico, en Frigia (Asia Menor), afamada por su lana de color púrpura.",
+  "altitud_m": 350,
+  "clima": "continental-mediterráneo",
+  "recursos": [
+    "lana",
+    "agricultura",
+    "comercio"
+  ],
+  "importancia_estrategica": "Ciudad interior de Frigia con comunidad judía y sincretismo religioso.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "col_h1",
+        "titulo": "Carta a los Colosenses",
+        "fecha": "ca. 60-62 d.C.",
+        "descripcion": "Pablo escribe a la iglesia de Colosas combatiendo una herejía sincretista.",
+        "referencias": [
+          "Col 1-4"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Epafras"
+        ]
+      },
+      {
+        "id": "col_h2",
+        "titulo": "Epafras funda la iglesia",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Epafras, discípulo de Pablo, evangeliza el valle del Lico y funda iglesias.",
+        "referencias": [
+          "Col 1:7",
+          "4:12-13"
+        ],
+        "personajes_clave": [
+          "Epafras"
+        ]
+      },
+      {
+        "id": "col_h3",
+        "titulo": "Filemón y Onésimo",
+        "fecha": "ca. 60 d.C.",
+        "descripcion": "Pablo intercede por el esclavo Onésimo ante su amo Filemón de Colosas.",
+        "referencias": [
+          "Filemón 1:10"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Filemón",
+          "Onésimo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "col_p1",
+        "nombre": "Epafras",
+        "emoji": "🌱",
+        "rol": "Fundador de la iglesia de Colosas",
+        "periodo": "s. I d.C.",
+        "descripcion": "Discípulo paulino que evangelizó el valle del Lico.",
+        "referencias": [
+          "Col 1:7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "col_p2",
+        "nombre": "Filemón",
+        "emoji": "📜",
+        "rol": "Líder eclesial de Colosas",
+        "periodo": "s. I d.C.",
+        "descripcion": "Dueño de esclavos y anfitrión de la iglesia doméstica.",
+        "referencias": [
+          "Filemón 1:2"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "col_p3",
+        "nombre": "Onésimo",
+        "emoji": "⛓️",
+        "rol": "Esclavo convertido",
+        "periodo": "s. I d.C.",
+        "descripcion": "Esclavo de Filemón que huyó y fue convertido por Pablo; regresó con la carta.",
+        "referencias": [
+          "Filemón 1:10"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad sincrética donde diversas corrientes filosóficas y religiosas amenazaban la pureza del evangelio.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_greco_romano",
+        "gnosticismo_incipiente",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "col_m1",
+          "nombre": "La herejía colosense",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Una mezcla de filosofía griega, prácticas judías y veneración de ángeles amenazó la fe en Colosas; Pablo responde con la supremacía de Cristo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Una mezcla de filosofía griega, prácticas judías y veneración de ángeles amenazó la fe en Colosas; Pablo responde con la supremacía de Cristo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

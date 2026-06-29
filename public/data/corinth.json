@@ -1,0 +1,155 @@
+{
+  "id": "corinth",
+  "nombre": "Corinto",
+  "tipo": "ciudad",
+  "lat": 37.9063,
+  "lng": 22.8779,
+  "frecuencia_at": 0,
+  "jerarquia_pin": "primario",
+  "periodos": [
+    {
+      "desde": -332,
+      "hasta": 70,
+      "nombre": "Helenístico-Romano"
+    }
+  ],
+  "descripcion_geo": "Capital de la provincia romana de Acaya, ubicada en el istmo que une Grecia con el Peloponeso.",
+  "altitud_m": 50,
+  "clima": "mediterráneo",
+  "recursos": [
+    "comercio",
+    "manufactura",
+    "cerámica",
+    "bronce"
+  ],
+  "importancia_estrategica": "La ciudad más rica de Grecia; dos puertos controlaban el comercio entre Oriente y Occidente.",
+  "otros_habitantes": [],
+  "historias": [],
+  "personajes": [],
+  "contexto_religioso": {
+    "contexto_lugar": "",
+    "religiones_presentes": [],
+    "mitos": []
+  },
+  "periodos_at": [],
+  "nt": {
+    "historias": [
+      {
+        "id": "cor_h1",
+        "titulo": "Pablo en Corinto: 18 meses",
+        "fecha": "ca. 50-52 d.C.",
+        "descripcion": "Pablo vive y trabaja como artesano en Corinto; funda una gran iglesia.",
+        "referencias": [
+          "Hch 18:1-18"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Priscila",
+          "Aquila",
+          "Crispo"
+        ]
+      },
+      {
+        "id": "cor_h2",
+        "titulo": "Visión nocturna alentadora",
+        "fecha": "ca. 50 d.C.",
+        "descripcion": "Cristo anima a Pablo: 'Habla y no calles, porque yo estoy contigo'.",
+        "referencias": [
+          "Hch 18:9-10"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      },
+      {
+        "id": "cor_h3",
+        "titulo": "Las cartas a los Corintios",
+        "fecha": "ca. 53-55 d.C.",
+        "descripcion": "Pablo escribe desde Éfeso sus dos cartas más extensas, abordando divisiones y ética.",
+        "referencias": [
+          "1 Co 1:1",
+          "2 Co 1:1"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "cor_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol y artesano",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Pasó 18 meses en Corinto; escribió cuatro cartas a esta comunidad problemática.",
+        "referencias": [
+          "Hch 18:1"
+        ],
+        "ruta": [
+          "corinth",
+          "ephesus",
+          "rome"
+        ]
+      },
+      {
+        "id": "cor_p2",
+        "nombre": "Priscila y Aquila",
+        "emoji": "👫",
+        "rol": "Artesanos y líderes",
+        "periodo": "s. I d.C.",
+        "descripcion": "Pareja expulsada de Roma; cofundadores de la iglesia de Corinto con Pablo.",
+        "referencias": [
+          "Hch 18:2"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "cor_p3",
+        "nombre": "Crispo",
+        "emoji": "🕍",
+        "rol": "Jefe de la sinagoga convertido",
+        "periodo": "s. I d.C.",
+        "descripcion": "Principal de la sinagoga de Corinto que creyó con toda su familia.",
+        "referencias": [
+          "Hch 18:8"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad cosmopolita y viciosa con culto a Afrodita; la iglesia reflejó todos los conflictos de una metrópolis pagana.",
+      "religiones_presentes": [
+        "paganismo_greco_romano",
+        "judaismo",
+        "culto_imperial",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "cor_m1",
+          "nombre": "Afrodita y Corinto",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "El templo de Afrodita en la Acrócorinto dominaba la ciudad; su culto con prostitución sagrada contrastaba con la ética sexual que Pablo enseñó a los corintios.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El templo de Afrodita en la Acrócorinto dominaba la ciudad; su culto con prostitución sagrada contrastaba con la ética sexual que Pablo enseñó a los corintios.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
+}

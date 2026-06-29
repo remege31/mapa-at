@@ -275,12 +275,13 @@ function TourOverlay({ step, onNext, onEnd, onGoTo, mapWrapRef, btnRefs, leaflet
 }
 
 const PERIODS = [
-  { id: 'todos',         name: 'Todos los períodos',    range: '' },
-  { id: 'bronce_medio',  name: 'Edad de Bronce Media',  range: '2100–1550 a.C.' },
-  { id: 'bronce_tardio', name: 'Edad de Bronce Tardía', range: '1500–1200 a.C.' },
-  { id: 'hierro_1',      name: 'Edad de Hierro I',      range: '1200–1000 a.C.' },
-  { id: 'hierro_2',      name: 'Edad de Hierro II',     range: '1000–586 a.C.'  },
-  { id: 'post_exilio',   name: 'Post-Exilio',           range: '586–400 a.C.'   },
+  { id: 'todos',               name: 'Todos los períodos',         range: '',                  testamento: 'ambos' as const },
+  { id: 'bronce_medio',        name: 'Edad de Bronce Media',       range: '2100–1550 a.C.',    testamento: 'AT'    as const },
+  { id: 'bronce_tardio',       name: 'Edad de Bronce Tardía',      range: '1500–1200 a.C.',    testamento: 'AT'    as const },
+  { id: 'hierro_1',            name: 'Edad de Hierro I',           range: '1200–1000 a.C.',    testamento: 'AT'    as const },
+  { id: 'hierro_2',            name: 'Edad de Hierro II',          range: '1000–586 a.C.',     testamento: 'AT'    as const },
+  { id: 'post_exilio',         name: 'Post-Exilio',                range: '586–400 a.C.',      testamento: 'AT'    as const },
+  { id: 'helenistico_romano',  name: 'Helenístico-Romano',         range: '332 a.C.–70 d.C.',  testamento: 'NT'    as const },
 ]
 
 function getPeriodName(id: string): string {
@@ -325,7 +326,7 @@ function HistoriaCard({ h }: { h: Historia }) {
   )
 }
 
-const KNOWN_PERIOD_IDS = new Set(['bronce_medio','bronce_tardio','hierro_1','hierro_2','post_exilio','todos'])
+const KNOWN_PERIOD_IDS = new Set(['bronce_medio','bronce_tardio','hierro_1','hierro_2','post_exilio','helenistico_romano','todos'])
 
 function PersonajeCard({ p }: { p: Personaje }) {
   const periodoDisplay = KNOWN_PERIOD_IDS.has(p.periodo) ? getPeriodName(p.periodo) : p.periodo
@@ -1257,6 +1258,13 @@ export default function App() {
     goToTourStep(current + 1)
   }, [goToTourStep])
 
+  // Períodos visibles según testamento activo
+  const periodsToShow = PERIODS.filter(p => {
+    if (testamento === 'AT') return p.testamento === 'AT' || p.testamento === 'ambos'
+    if (testamento === 'NT') return p.testamento === 'NT' || p.testamento === 'ambos'
+    return true // ambos → todos
+  })
+
   const showOverlay = menuOpen || (drawerOpen && isMobile && !window.matchMedia('(min-width: 769px)').matches)
   const drawerStyle = { top: `${drawerTop}px` }
 
@@ -1331,11 +1339,11 @@ export default function App() {
         <div className="tl-divider" aria-hidden="true" />
         <span className="tl-label">Período</span>
         <div id="period-btns">
-          {PERIODS.map(p => (
+          {periodsToShow.map(p => (
             <button
               key={p.id}
               ref={p.id === 'post_exilio' ? postExilioRef : undefined}
-              className={`period-btn${periodId === p.id ? ' active' : ''}`}
+              className={`period-btn${periodId === p.id ? ' active' : ''}${p.id === 'helenistico_romano' ? ' period-btn-nt' : ''}`}
               aria-pressed={periodId === p.id}
               onClick={() => setPeriodId(p.id)}
               title={p.range}

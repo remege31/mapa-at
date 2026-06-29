@@ -38,11 +38,12 @@ const WAYPOINTS: Record<string, [number, number]> = {
 
 
 const GEOJSON_BY_PERIOD: Record<string, string> = {
-  bronce_medio:  'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc2000.geojson',
-  bronce_tardio: 'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1500.geojson',
-  hierro_1:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
-  hierro_2:      'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
-  post_exilio:   'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc500.geojson',
+  bronce_medio:        'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc2000.geojson',
+  bronce_tardio:       'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1500.geojson',
+  hierro_1:            'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
+  hierro_2:            'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc1000.geojson',
+  post_exilio:         'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_bc500.geojson',
+  helenistico_romano:  'https://raw.githubusercontent.com/aourednik/historical-basemaps/master/geojson/world_0.geojson',
 }
 
 const REGION_BOUNDS = {

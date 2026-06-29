@@ -175,6 +175,11 @@
 .period-btn.active {
   background: var(--ink);
   border-color: var(--ink);
+}
+
+.period-btn-nt.active {
+  background: var(--terra);
+  border-color: var(--terra);
   color: var(--paper);
   font-weight: 500;
 }

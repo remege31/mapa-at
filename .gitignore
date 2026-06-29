@@ -23,3 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 .claude/
+
+# Carpetas de trabajo (no pertenecen al repo de producción)
+fase_1/
+fase_2/
+fase_3/
+fase_3b/
+fase1_lugares_rutas.sh
+"md files"/
+files/

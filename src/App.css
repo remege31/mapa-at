@@ -686,10 +686,16 @@
 }
 
 .menu-item {
+  display: block;
+  width: 100%;
   padding: 11px 14px;
   font-size: 13px;
+  font-family: inherit;
   color: var(--ink);
+  background: none;
+  border: none;
   border-bottom: 1px solid var(--beige);
+  text-align: left;
   cursor: pointer;
   transition: background 0.15s;
 }
@@ -705,6 +711,37 @@
 }
 
 .menu-item-muted:hover { background: transparent; }
+
+/* ─── .acc dentro de .menu-list — sin doble borde ───────────────────────── */
+.menu-list .acc {
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid var(--beige);
+}
+.menu-list .acc:last-child { border-bottom: none; }
+
+.menu-list .acc-h {
+  padding: 11px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--ink);
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-bottom: none;
+}
+.menu-list .acc-h:hover,
+.menu-list .acc-h.open { background: var(--sand); }
+.menu-list .acc-h.open { border-bottom: 1px solid var(--beige); }
+
+.menu-list .acc-body {
+  padding: 12px 14px;
+  background: var(--paper);
+}
 
 /* ─── mobile ──────────────────────────────────────────────────────────────── */
 
@@ -728,11 +765,15 @@
 
   #menu-drawer {
     position: fixed;
+    top: 0;
     right: 0;
     bottom: 0;
     width: 85vw;
     max-width: 300px;
     z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     transform: translateX(100%);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: -4px 0 24px rgba(0,0,0,0.18);
@@ -814,15 +855,7 @@
   }
 }
 
-/* ─── tablet ──────────────────────────────────────────────────────────────── */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  :root { --panel-w: min(60vw, 480px); }
-  #panel,
-  #menu-drawer {
-    width: var(--panel-w);
-  }
-}
+/* tablet: mismo ancho que desktop, sin saltos */
 
 @media (min-width: 769px) {
   #drawer-overlay { display: none !important; }
@@ -831,7 +864,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 340px;
+    width: var(--panel-w);
     z-index: 1001;
     transform: translateX(100%);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);

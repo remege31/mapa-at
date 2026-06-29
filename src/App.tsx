@@ -534,11 +534,23 @@ function Panel({ lugar, periodId, onClose }: {
   )
 }
 
-function MenuNav({ lastPlace, onGoToPlace, onClose }: {
-  lastPlace: Lugar | null; onGoToPlace: () => void; onClose: () => void
+function MenuNav({ lastPlace, onGoToPlace, onClose, onShowWelcome }: {
+  lastPlace: Lugar | null; onGoToPlace: () => void; onClose: () => void; onShowWelcome: () => void
 }) {
+  const [open, setOpen] = useState<null | 'acerca' | 'fuentes' | 'creditos'>(null)
+  const toggle = (key: typeof open) => setOpen(prev => prev === key ? null : key)
+
   const displayPlace = lastPlace?.nombre ?? 'Jerusalén'
   const labelPrefix = lastPlace ? 'Última consulta:' : 'Explorar:'
+
+  const FUENTES: [string, string[]][] = [
+    ['Texto bíblico', ['Nueva Biblia de Jerusalén', 'Bible Gateway (RVR1960)']],
+    ['Geografía e identificación de lugares', ['STEPBible TIPNR — Transliterated Identified Place Names of the Bible (CC BY 4.0)']],
+    ['Cartografía histórica', ['historical-basemaps — André Ourednik (GPL-3.0)']],
+    ['Tradición judía', ['Midrash Rabbah', 'Talmud Babilónico — vía Sefaria.org']],
+    ['Tradición islámica', ['Tafsir Ibn Kathir']],
+    ['Tradición cristiana', ['Orígenes · Jerónimo · Eusebio de Cesarea']],
+  ]
 
   return (
     <>
@@ -552,15 +564,79 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
           </span>
           <span className="menu-last-arrow">→</span>
         </button>
+
         <div className="menu-section-label">El mapa</div>
         <div className="menu-list">
-          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">📖 Acerca del proyecto</button>
-          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">📚 Fuentes consultadas</button>
-          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">❓ Cómo usar el mapa</button>
+
+          {/* Acerca del proyecto — acordeón */}
+          <div className="acc">
+            <button className={`acc-h${open === 'acerca' ? ' open' : ''}`} onClick={() => toggle('acerca')}>
+              <span className="acc-title">📖 Acerca del proyecto</span>
+              <span className={`acc-ch${open === 'acerca' ? ' open' : ''}`}>▼</span>
+            </button>
+            {open === 'acerca' && (
+              <div className="acc-body" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <p style={{ fontSize: 12, lineHeight: 1.7, color: 'var(--ink)', fontFamily: 'Georgia, serif', margin: 0 }}>
+                  La geografía del Antiguo Testamento no es el escenario de la historia — es parte de ella. El desierto que agota, el río que divide, la montaña que separa lo humano de lo divino. Este mapa nació de la convicción de que los lugares importan: que entender dónde ocurrió algo cambia cómo lo entendemos.
+                </p>
+                <p style={{ fontSize: 12, lineHeight: 1.7, color: 'var(--ink)', fontFamily: 'Georgia, serif', margin: 0 }}>
+                  Reúne 160 lugares del mundo bíblico con sus historias, personajes y tradiciones religiosas — desde el judaísmo, el cristianismo y el islam. Las capas de territorios y rutas permiten ver los imperios y los caminos que recorrieron sus protagonistas.
+                </p>
+                <p style={{ fontSize: 12, lineHeight: 1.7, color: 'var(--ink)', fontFamily: 'Georgia, serif', margin: 0 }}>
+                  No se necesita formación bíblica para explorarlo. Solo curiosidad.
+                </p>
+              </div>
+            )}
+          </div>
+
+          {/* Fuentes consultadas — acordeón */}
+          <div className="acc">
+            <button className={`acc-h${open === 'fuentes' ? ' open' : ''}`} onClick={() => toggle('fuentes')}>
+              <span className="acc-title">📚 Fuentes consultadas</span>
+              <span className={`acc-ch${open === 'fuentes' ? ' open' : ''}`}>▼</span>
+            </button>
+            {open === 'fuentes' && (
+              <div className="acc-body" style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                {FUENTES.map(([section, items]) => (
+                  <div key={section}>
+                    <div style={{ fontSize: 9, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--terra)', marginBottom: 4 }}>{section}</div>
+                    {items.map(item => (
+                      <div key={item} style={{ fontSize: 11, color: 'var(--ink)', lineHeight: 1.6, paddingLeft: 8, borderLeft: '2px solid var(--beige)', marginBottom: 2 }}>{item}</div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Cómo usar el mapa — abre panel de bienvenida */}
+          <button className="menu-item" onClick={onShowWelcome}>🗺️ Cómo usar el mapa</button>
+
         </div>
+
         <div className="menu-section-label">Información</div>
         <div className="menu-list">
-          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">✍ Créditos</button>
+
+          {/* Créditos — acordeón */}
+          <div className="acc">
+            <button className={`acc-h${open === 'creditos' ? ' open' : ''}`} onClick={() => toggle('creditos')}>
+              <span className="acc-title">✍️ Créditos</span>
+              <span className={`acc-ch${open === 'creditos' ? ' open' : ''}`}>▼</span>
+            </button>
+            {open === 'creditos' && (
+              <div className="acc-body" style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+                <div>
+                  <div style={{ fontSize: 14, fontFamily: 'Georgia, serif', color: 'var(--ink)', marginBottom: 2 }}>rebe.lation</div>
+                  <div style={{ fontSize: 11, color: 'var(--gray)' }}>Concepto, investigación y desarrollo</div>
+                </div>
+                <div style={{ borderTop: '1px solid var(--beige)', paddingTop: 12 }}>
+                  <div style={{ fontSize: 9, fontWeight: 700, letterSpacing: '.08em', textTransform: 'uppercase', color: 'var(--terra)', marginBottom: 6 }}>Stack técnico</div>
+                  <div style={{ fontSize: 11, color: 'var(--gray)', lineHeight: 1.8 }}>React · TypeScript · Leaflet.js · Vite<br />Desplegado en Vercel · 2025</div>
+                </div>
+              </div>
+            )}
+          </div>
+
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
@@ -1327,7 +1403,7 @@ export default function App() {
           {panelCollapsed ? '◀' : '▶'}
         </button>
         <div id="menu-drawer" className={menuOpen ? 'drawer-open' : ''} style={drawerStyle}>
-          <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} />
+          <MenuNav lastPlace={selected} onGoToPlace={goToLastPlace} onClose={closeAll} onShowWelcome={() => { setMenuOpen(false); setSelected(null); setSelectedRuta(null); setSelectedTerritorio(null); setDrawerOpen(true); setPanelCollapsed(false) }} />
         </div>
         {showOverlay && <div id="drawer-overlay" className={window.innerWidth >= 769 ? 'desktop-active' : ''} onClick={closeAll} />}
       </div>

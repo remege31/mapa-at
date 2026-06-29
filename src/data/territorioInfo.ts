@@ -76,7 +76,7 @@ export const TERRITORY_INFO: Record<string, TerritoryInfo> = {
 
   'Media': {
     significado: 'Reino iranio que junto a Babilonia destruyó Nínive en 612 a.C., poniendo fin al Imperio Asirio. Los profetas lo citan como instrumento del juicio divino sobre Babilonia (Is 13:17; Jr 51:11).',
-    ciudades: [],
+    ciudades: ['nineveh'],
     naturales: [],
     pueblos: ['Medos', 'Iranios'],
   },
@@ -90,7 +90,7 @@ export const TERRITORY_INFO: Record<string, TerritoryInfo> = {
 
   'Hittites': {
     significado: 'Gran Imperio de Anatolia durante la Edad de Bronce. Mencionados como habitantes de Canaán (Gn 23) y comerciantes de caballos (1 R 10:29). Urías el hitita, uno de los valientes de David, es el personaje hitita más destacado del AT.',
-    ciudades: ['hamath'],
+    ciudades: ['hamath', 'hebron', 'machpelah'],
     naturales: [],
     pueblos: ['Hititas', 'Neo-hititas'],
   },
@@ -112,13 +112,13 @@ export const TERRITORY_INFO: Record<string, TerritoryInfo> = {
   'Arabian pastoral nomads': {
     significado: 'Tribus nómadas del desierto que rodean a Israel por el sur y el este. Los ismaelitas compraron a José (Gn 37:25). Los madianitas oprimieron a Israel hasta la victoria de Gedeón (Jue 6). Los amalecitas son el enemigo ancestral de Saúl (1 S 15).',
     ciudades: ['beersheba', 'ezion_geber'],
-    naturales: [],
+    naturales: ['sinai', 'hor_mount'],
     pueblos: ['Ismaelitas', 'Madianitas', 'Amalecitas'],
   },
 
   'Greek city-states': {
     significado: 'Mencionadas como «Javán» en la tabla de naciones (Gn 10:2). Tarsis, probable destino de la huida de Jonás. Daniel describe el reino griego como el «macho cabrío» que derrota a Persia (Dn 8), prefigurando a Alejandro Magno.',
-    ciudades: ['tarshish'],
+    ciudades: ['tarshish', 'joppa'],
     naturales: [],
     pueblos: ['Griegos', 'Javanitas'],
   },

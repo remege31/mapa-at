@@ -119,6 +119,16 @@ export const TERRITORY_NAMES_ES: Record<string, string> = {
   'Hindu kingdoms':         'Reinos hindúes',
   'Zhou states':            'Estados Zhou',
   'Saharan Pastoral Nomads': 'Pastores nómadas del Sahara',
+  // bc2000 — territorios sin traducción detectados via auditoría GeoJSON
+  'Hurrian Kingdoms':       'Reinos hurrites',
+  'Semites':                'Semitas',
+  'Anatolian tribes':       'Tribus anatolias',
+  'Cycladic':               'Civilización cicládica',
+  'Minoan':                 'Civilización minoica',
+  'Kerma':                  'Reino de Kerma',
+  'city-states':            'Ciudades-estado',
+  'Andronovo':              'Cultura Andronovo',
+  'Catacomb culture':       'Cultura de las catacumbas',
 }
 
 export function getTerritoryColor(name: string): string {

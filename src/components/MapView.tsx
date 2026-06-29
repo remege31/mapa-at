@@ -4,8 +4,6 @@ import 'leaflet/dist/leaflet.css'
 import type { Lugar, RutaSeleccionada } from '../types/lugar'
 import { PERSONAJE_COLORS, DEFAULT_COLOR } from '../data/rutaColors'
 import {
-  TERRITORY_COLORS,
-  TERRITORY_TYPE,
   getTerritoryColor,
   getTerritoryType,
   getTerritoryNameES,

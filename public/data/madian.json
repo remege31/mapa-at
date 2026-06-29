@@ -1,0 +1,191 @@
+{
+  "id": "madian",
+  "nombre": "Madián",
+  "tipo": "ciudad",
+  "lat": 27.93,
+  "lng": 35.69,
+  "frecuencia_at": 38,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Al-Bad' (antigua Madyan), noroeste de Arabia Saudita — sitio más ampliamente aceptado por la arqueología bíblica para la región de Madián. Algunos estudiosos sitúan Madián en el Sinaí o el sur de Transjordania.",
+  "periodos": [
+    {
+      "desde": -1500,
+      "hasta": -1200,
+      "nombre": "Bronce Tardío — Exilio y vocación de Moisés"
+    },
+    {
+      "desde": -1200,
+      "hasta": -1000,
+      "nombre": "Hierro I — Opresión madianita y victoria de Gedeón"
+    }
+  ],
+  "descripcion_geo": "Región y pueblo del noroeste de Arabia, al este del Golfo de Aqaba (actual Arabia Saudita). El territorio madianita se extendía entre el sur de Transjordania, el norte de Arabia y la Península del Sinaí, en zonas de desierto y estepa árida. Pueblo seminómada de pastores y comerciantes caravaneros, descendiente de Madián, hijo de Abraham y Queturá (Gn 25:2). Su capital o ciudad principal se identifica con la antigua Madyan, hoy Al-Bad'. En tiempos de Moisés, los madianitas habitaban la región del monte Horeb/Sinaí, escenario del llamado de Moisés desde la zarza ardiente.",
+  "altitud_m": 750,
+  "clima": "Desértico árido a semiárido — veranos muy calurosos, inviernos frescos, con algo más de lluvia que el Sinaí central (100-200 mm anuales). Terreno montañoso con valles donde es posible el pastoreo.",
+  "recursos": [
+    "Pastoreo extensivo de ovejas y cabras en las estepas y colinas del noroeste de Arabia",
+    "Control de rutas caravaneras que unían Arabia, el Sinaí y el corredor levantino",
+    "Explotación de cobre en la región del Arabá (con contactos con los quenitas)",
+    "Comercio de especias, incienso y metales preciosos procedentes de Arabia del Sur"
+  ],
+  "importancia_estrategica": "Madián es el escenario del período formativo más determinante de Moisés: cuarenta años de exilio, matrimonio, pastoreo y encuentro directo con Dios. Es aquí donde el príncipe egipcio fugitivo se transforma en profeta y libertador. El monte Horeb —identificado con el Sinaí— que custodia esta región será el mismo lugar donde más tarde recibirá la Ley. La relación de Israel con Madián es ambivalente: en el Éxodo es refugio y lugar de revelación; en el período de los Jueces, los madianitas se convierten en opresores de Israel hasta la victoria de Gedeón (Jue 6-8).",
+  "otros_habitantes": [
+    {
+      "id": "madianitas_tribu",
+      "nombre": "Madianitas",
+      "descripcion": "Pueblo seminómada emparentado con Israel a través de Abraham (Gn 25:2). En tiempos de Moisés convivían con la familia de Jetro, sacerdote de Madián. Siglos después, durante el período de los Jueces, se aliaron con amalecitas e ismaelitas para oprimir a Israel durante siete años, hasta que Gedeón los derrotó con trescientos guerreros (Jue 6-8).",
+      "religion": "Politeísmo semita, con elementos posiblemente monoteístas en algunos clanes (Jetro reconoce a YHWH en Éx 18:11). Los quenitas, emparentados con los madianitas, tuvieron estrecha relación con el yahvismo primitivo.",
+      "periodo": "c. 1500-900 a.C."
+    },
+    {
+      "id": "quenitas_madian",
+      "nombre": "Quenitas",
+      "descripcion": "Clan emparentado con los madianitas, vinculado a la familia de Jetro. Jetro es llamado tanto 'madianita' como 'quenita' en distintos textos. Los quenitas siguieron a Israel hasta Canaán (Jue 1:16) y algunos se establecieron en el sur de Judá. Fueron artesanos del metal en la región del Arabá y tuvieron una relación especial con el culto a YHWH, según algunos estudiosos.",
+      "religion": "Tradición yahvista primitiva, según la hipótesis quenita que sitúa el origen del yahvismo en el culto al 'Dios de la montaña' del Sinaí/Horeb",
+      "periodo": "c. 1500-900 a.C."
+    }
+  ],
+  "historias": [
+    {
+      "id": "moises-huye-madian",
+      "titulo": "Moisés huye a Madián y funda una familia",
+      "fecha": "c. 1446 a.C. (cronología tradicional)",
+      "descripcion": "Tras matar a un guardia egipcio que golpeaba a un israelita, Moisés huye de Egipto y llega a Madián. Allí defiende a las siete hijas del sacerdote Jetro (Reuel) de unos pastores abusivos en un pozo. En agradecimiento, Jetro le da como esposa a su hija Séfora, con quien Moisés tendrá dos hijos: Gersón y Eliezer. Durante cuarenta años Moisés trabaja como pastor del rebaño de su suegro, aprendiendo a sobrevivir en el desierto que pronto deberá atravesar con todo un pueblo.",
+      "referencias": [
+        "Éx 2:15-22",
+        "Éx 18:3-4",
+        "Hch 7:29-30"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
+    },
+    {
+      "id": "zarza-ardiente-madian",
+      "titulo": "La zarza ardiente — el llamado de Moisés desde Madián",
+      "fecha": "c. 1446 a.C. (cronología tradicional)",
+      "descripcion": "Mientras pastorea el rebaño de Jetro más allá del desierto y llega al monte Horeb, Moisés ve un arbusto que arde sin consumirse. Dios le habla desde la zarza, se identifica como el Dios de Abraham, Isaac y Jacob, y le encomienda liberar a Israel de Egipto. Ante la resistencia de Moisés, Dios le concede señales (la vara que se convierte en serpiente, la mano leprosa) y le asigna a su hermano Aarón como portavoz. El encuentro establece el nombre divino YHWH ('Yo soy el que soy') y fija a Madián y el Horeb como lugar de la revelación fundacional de la fe israelita.",
+      "referencias": [
+        "Éx 3:1-4:17",
+        "Hch 7:30-34"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
+    },
+    {
+      "id": "jetro-consejo-madian",
+      "titulo": "Jetro visita a Moisés y establece el sistema de jueces",
+      "fecha": "c. 1446 a.C. (cronología tradicional)",
+      "descripcion": "Después del Éxodo y cruce del mar de Juncos, el suegro de Moisés Jetro lleva al desierto a Séfora y los dos hijos de Moisés. Al escuchar el relato de las maravillas de YHWH, Jetro exclama: «Ahora conozco que YHWH es mayor que todos los dioses» (Éx 18:11). Ante el agotamiento de Moisés por juzgar al pueblo solo todo el día, Jetro le propone crear un sistema de líderes delegados que atiendan los casos menores. Moisés acepta el consejo. Este episodio es notable: el sistema judicial de Israel recibe su inspiración de un sabio madianita, no israelita, que reconoce a YHWH como Dios supremo.",
+      "referencias": [
+        "Éx 18:1-27"
+      ],
+      "personajes_clave": [
+        "moises"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "moises_madian",
+      "nombre": "Moisés",
+      "emoji": "🔥",
+      "rol": "Profeta y libertador de Israel",
+      "periodo": "bronce_tardio",
+      "descripcion": "Pasa cuarenta años en Madián: llega como fugitivo egipcio, se establece como pastor y yerno del sacerdote Jetro, y recibe aquí el llamado que lo transformará en el profeta más importante del Antiguo Testamento. La zarza ardiente en el monte Horeb —durante su pastoreo en territorio madianita— es el punto de inflexión de toda la historia de Israel.",
+      "referencias": [
+        "Éx 2:15-3:1",
+        "Éx 3:1-4:17",
+        "Éx 18:1-27"
+      ],
+      "ruta": [
+        "egipto",
+        "madian",
+        "sinai"
+      ]
+    },
+    {
+      "id": "jetro_madian",
+      "nombre": "Jetro (Reuel)",
+      "emoji": "⛺",
+      "rol": "Sacerdote de Madián, suegro de Moisés",
+      "periodo": "bronce_tardio",
+      "descripcion": "Sacerdote y líder de una tribu madianita. Recibe a Moisés fugitivo, le da a su hija Séfora como esposa y le encarga el pastoreo de sus rebaños. Visita a Moisés en el desierto tras el Éxodo, reconoce la grandeza de YHWH y propone el sistema de delegación judicial que Moisés adopta. Es el único personaje no israelita en reconocer expresamente a YHWH como Dios supremo en el relato del Éxodo.",
+      "referencias": [
+        "Éx 2:16-21",
+        "Éx 18:1-27"
+      ],
+      "ruta": [
+        "madian",
+        "sinai"
+      ]
+    },
+    {
+      "id": "sefora_madian",
+      "nombre": "Séfora",
+      "emoji": "👩",
+      "rol": "Esposa de Moisés, hija de Jetro",
+      "periodo": "bronce_tardio",
+      "descripcion": "Hija mayor del sacerdote Jetro, conoce a Moisés en el pozo donde él defiende a sus siete hermanas de unos pastores. Se convierte en su esposa y madre de Gersón y Eliezer. En el episodio más enigmático del Pentateuco (Éx 4:24-26) actúa con decisión al circuncidar a su hijo y salvar la vida de Moisés. Es devuelta a su padre durante el Éxodo y reunificada con Moisés en el desierto (Éx 18:2-5).",
+      "referencias": [
+        "Éx 2:21-22",
+        "Éx 4:24-26",
+        "Éx 18:2-5"
+      ],
+      "ruta": [
+        "madian",
+        "sinai"
+      ]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Madián ocupa un lugar singular en la geografía religiosa del Antiguo Testamento: es la tierra extranjera donde Dios se revela por primera vez con su nombre definitivo (YHWH), donde elige a su profeta y donde el sistema organizativo de Israel recibe su primera forma gracias al consejo de un no-israelita. Esta paradoja —la revelación central de la fe de Israel ocurre en territorio madianita, a través de lazos con un sacerdote de Madián— ha generado siglos de reflexión teológica. La «hipótesis quenita» sugiere que el yahvismo primitivo pudo originarse o tener profundas conexiones con las tradiciones religiosas de los quenitas y madianitas del noroeste de Arabia, en la región del monte Sinaí/Horeb.",
+    "religiones_presentes": [
+      "Yahvismo primitivo (revelación del nombre YHWH desde el Horeb, en territorio madianita)",
+      "Politeísmo semita árabe (tradición madianita general)",
+      "Tradición quenita (probable proto-yahvismo vinculado al 'Dios de la montaña' del Sinaí)"
+    ],
+    "mitos": [
+      {
+        "id": "zarza-ardiente-mito",
+        "nombre": "La zarza ardiente y el nombre divino YHWH",
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
+        "judaismo": {
+          "fuente_primaria": "Éx 3:1-15",
+          "fuente_secundaria": "Midrash Shemot Rabbah 2 (sobre el significado de la zarza que arde sin consumirse como símbolo de Israel entre las naciones)",
+          "descripcion": "El episodio de la zarza ardiente es considerado la revelación teofánica más importante del AT junto con el Sinaí. La zarza que arde sin consumirse es leída en el Midrash como símbolo del pueblo de Israel: perseguido y en llamas pero nunca destruido. La revelación del nombre divino 'Ehyeh asher ehyeh' (Yo soy el que soy / Yo seré el que seré) es el fundamento filosófico y teológico del monoteísmo hebreo: un Dios sin imagen, sin nombre pronunciable en su plenitud, radicalmente trascendente y a la vez comprometido con la historia de su pueblo.",
+          "similitudes": "Las tres tradiciones reconocen el encuentro de Moisés con Dios en el monte sagrado como momento fundacional.",
+          "diferencias": "El judaísmo enfatiza la revelación del Nombre divino y la elección del pueblo de Israel como elementos centrales; el islam enfatiza la dimensión profética de Musa como mensajero de Allah.",
+          "significado_teologico": "La zarza ardiente establece el patrón de la teología bíblica: Dios que se revela en lo pequeño (un arbusto del desierto), elige a los débiles (un fugitivo tartamudo) y actúa en la historia para liberar a los oprimidos.",
+          "posible_relacion_cultural": "El motivo del dios de la montaña que habla desde el fuego aparece en tradiciones religiosas semitas del noroeste de Arabia, sugiriendo conexiones con las tradiciones religiosas madianitas/quenitas."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Éx 3:1-15 (recepción en Hch 7:30-34; Jn 8:58; Heb 11:27)",
+          "fuente_secundaria": "Gregorio de Nisa, La vida de Moisés II (la zarza como símbolo de la Encarnación: la divinidad que habita sin destruir la humanidad)",
+          "descripcion": "El Nuevo Testamento y los Padres de la Iglesia leen la zarza ardiente como prefiguración de Cristo: como la zarza contiene el fuego divino sin consumirse, la humanidad de Cristo contiene la divinidad sin destruirse. El discurso de Esteban en Hechos 7 sitúa el encuentro en el 'monte Sinaí' y aplica a Moisés el título de 'redentor' (lytrōtēs) como tipo de Cristo. San Juan identifica el 'Yo soy' de la zarza con las declaraciones de Jesús en el cuarto Evangelio.",
+          "similitudes": "Comparte con el judaísmo el reconocimiento de la zarza como revelación del nombre y naturaleza divinos.",
+          "diferencias": "La teología cristiana lee el 'Yo soy' de la zarza como revelación anticipada de la naturaleza del Logos eterno, identificado con Jesús en el Evangelio de Juan.",
+          "significado_teologico": "La zarza ardiente se convierte en el tipo veterotestamentario por excelencia de la Encarnación: Dios habitando en la materia sin destruirla, tema central de la cristología patrística.",
+          "posible_relacion_cultural": "La lectura tipológica de la zarza es un ejemplo paradigmático del método hermenéutico cristiano de leer el AT como prefiguración del NT."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 20:9-36; 27:7-9; 28:29-35; 79:15-19",
+          "fuente_secundaria": "Ibn Kathir, Tafsir de Corán 20:9-14 (sobre el encuentro de Musa con Allah en el valle sagrado de Tuwa)",
+          "descripcion": "El Corán narra cuatro veces el encuentro de Musa (Moisés) con Allah en el monte sagrado, identificado como el «valle sagrado de Tuwa». Allah habla desde el fuego (o junto a él) y ordena a Musa quitarse las sandalias porque está en tierra sagrada. Le revela su identidad como el único Dios verdadero y le encomienda ir al faraón. El episodio es narrado con énfasis en la absoluta trascendencia de Allah y la dimensión profética de Musa como rasul (mensajero).",
+          "similitudes": "El monte sagrado, el fuego, la misión a Faraón y la revelación divina son elementos comunes a la tradición bíblica y coránica.",
+          "diferencias": "El Corán no menciona el nombre YHWH ni el concepto de 'Yo soy el que soy'; el énfasis está en la misión profética y la tawhid (unicidad de Dios) más que en la revelación del Nombre.",
+          "significado_teologico": "El encuentro de Musa con Allah en el monte sagrado establece su condición de kalim Allah ('el que habla con Allah'), el único profeta que recibió la revelación directamente, sin intermediario angélico, elevándolo a rango especial en la jerarquía profética islámica.",
+          "posible_relacion_cultural": "La identificación islámica del monte sagrado con el 'valle de Tuwa' puede reflejar tradiciones orales árabes preislámicas sobre lugares sagrados en el noroeste de Arabia (región de Madián/Hiyaz)."
+        }
+      }
+    ]
+  },
+  "periodos_at": [
+    "bronce_tardio"
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "ur",
+  "nombre": "Ur de los Caldeos",
+  "tipo": "ciudad",
+  "lat": 30.9626,
+  "lng": 46.1039,
+  "frecuencia_at": 4,
+  "jerarquia_pin": "terciario",
+  "nota_coordenadas": "Tell el-Muqayyar, Irak — sitio arqueológico identificado con la antigua Ur sumeria desde las excavaciones de Leonard Woolley (1922-1934)",
+  "periodos": [
+    {
+      "desde": -2100,
+      "hasta": -1550,
+      "nombre": "Edad de Bronce Media — Ciudad de origen de la familia de Abraham"
+    }
+  ],
+  "descripcion_geo": "Ciudad-estado sumeria en el extremo sur de Mesopotamia, a orillas del río Éufrates en lo que hoy es el sur de Irak. En la antigüedad estuvo próxima al Golfo Pérsico, entonces mucho más al norte que en la actualidad. Ur fue una de las ciudades más importantes del mundo antiguo: capital de la III Dinastía de Ur (ca. 2112-2004 a.C.), centro de un próspero comercio marítimo y sede del culto al dios lunar Nanna (Sin). Sus zigurats —torres escalonadas de adobe— dominaban el horizonte de la llanura aluvial. La 'Ur de los Caldeos' bíblica se identifica con este asentamiento, aunque el término 'caldeos' es anacrónico respecto a la época de Abraham.",
+  "altitud_m": 10,
+  "clima": "Desértico extremo — veranos que superan los 45°C, inviernos suaves. Escasas precipitaciones (menos de 150 mm anuales). En la antigüedad el entorno inmediato era más húmedo gracias a los canales de irrigación del Éufrates.",
+  "recursos": [
+    "Puerto fluvial sobre el Éufrates con acceso al comercio del Golfo Pérsico",
+    "Centro de producción artesanal avanzada (orfebrería, cerámica, textiles)",
+    "Redes de irrigación que permitían cultivo intensivo en tierras áridas",
+    "Gran centro comercial de lapislázuli, cornalina y metales procedentes de Asia Central"
+  ],
+  "importancia_estrategica": "Ur es el punto de partida de toda la narrativa patriarcal del Antiguo Testamento. De esta ciudad sale la familia de Taré —padre de Abraham— en un viaje hacia Canaán que define el inicio del ciclo abrahámico. La partida de Ur no es un simple desplazamiento geográfico: representa el corte fundacional entre el mundo politeísta mesopotámico, centrado en el culto a Nanna/Sin, y la nueva identidad monoteísta que tomará forma progresivamente durante el peregrinaje. Dios mismo identifica su llamado original con esta ciudad: «Yo soy YHWH que te saqué de Ur de los Caldeos» (Gn 15:7).",
+  "otros_habitantes": [
+    {
+      "id": "sumerios_caldeos_ur",
+      "nombre": "Sumerios y acadios",
+      "descripcion": "Habitantes originales de Ur, constructores de su zigurat y del sistema de canales que sustentaba la civilización. Durante el III milenio a.C., Ur fue capital de un imperio que abarcó toda Mesopotamia. En la época de Abraham, la ciudad estaba en declive pero seguía siendo un importante centro urbano y religioso.",
+      "religion": "Politeísmo sumerio-acadio — culto principal a Nanna/Sin, dios lunar, cuyo zigurat presidía la ciudad",
+      "periodo": "c. 3000-1900 a.C."
+    },
+    {
+      "id": "familia_tare_ur",
+      "nombre": "Familia de Taré",
+      "descripcion": "Clan semita que habitaba en Ur antes de iniciar la migración hacia Canaán. Taré era padre de Abraham (Abram), Nacor y Harán. La familia participaba probablemente del ambiente politeísta de la ciudad, contexto del que Abraham se distanciaría en su peregrinaje de fe.",
+      "religion": "Probable sincretismo entre tradiciones semitas y politeísmo mesopotámico, según la tradición judía posterior",
+      "periodo": "c. 2100 a.C. (cronología tradicional)"
+    }
+  ],
+  "historias": [
+    {
+      "id": "tare-sale-ur",
+      "titulo": "Taré sale de Ur con su familia hacia Canaán",
+      "fecha": "c. 2091 a.C. (cronología tradicional)",
+      "descripcion": "Taré toma a su hijo Abram, a su nieto Lot (hijo del fallecido Harán) y a su nuera Sarai, y sale de Ur de los Caldeos con destino a la tierra de Canaán. El viaje se interrumpe en Harán, ciudad mesopotámica septentrional, donde Taré se establece y finalmente muere a los doscientos cinco años, sin haber completado el trayecto hasta la tierra prometida.",
+      "referencias": [
+        "Gn 11:28-32"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
+    },
+    {
+      "id": "llamado-dios-ur",
+      "titulo": "El llamado original de Dios a Abraham en Ur",
+      "fecha": "c. 2091 a.C. (cronología tradicional)",
+      "descripcion": "El diácono Esteban, en su discurso ante el Sanedrín, sitúa explícitamente el primer llamado divino a Abraham en Ur —antes de la estadía en Harán—: «El Dios de la gloria apareció a nuestro padre Abraham, cuando estaba en Mesopotamia, antes de que habitase en Harán» (Hch 7:2). Esta tradición complementa el relato del Génesis, donde es en Harán donde el llamado se explicita, sugiriendo que la vocación de Abraham se inicia en Ur y se confirma en Harán. El propio YHWH recuerda esta partida fundacional: «Yo soy YHWH que te saqué de Ur de los Caldeos» (Gn 15:7).",
+      "referencias": [
+        "Gn 15:7",
+        "Hch 7:2-4",
+        "Neh 9:7"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
+    },
+    {
+      "id": "ur-identidad-caldea",
+      "titulo": "Ur como marca de identidad de Abraham",
+      "fecha": "c. 2091 a.C. (cronología tradicional)",
+      "descripcion": "El título «de Ur de los Caldeos» se convierte en la designación geográfica permanente del origen de Abraham en la memoria bíblica. Nehemías lo recuerda en su oración nacional: «Tú eres YHWH, que escogiste a Abram, lo sacaste de Ur de los Caldeos y le pusiste el nombre Abraham» (Neh 9:7). Esta identificación ancla la historia de la salvación en un lugar concreto de la geografía antigua —una gran ciudad pagana del sur de Mesopotamia—, subrayando que la vocación patriarcal nace en el corazón mismo del mundo politeísta.",
+      "referencias": [
+        "Neh 9:7",
+        "Gn 11:31",
+        "Gn 15:7"
+      ],
+      "personajes_clave": [
+        "abraham"
+      ]
+    }
+  ],
+  "personajes": [
+    {
+      "id": "abraham_ur",
+      "nombre": "Abraham",
+      "emoji": "🚶",
+      "rol": "Patriarca fundacional",
+      "periodo": "bronce_medio",
+      "descripcion": "Nace en Ur de los Caldeos en el seno de la familia de Taré. Sale de la ciudad siguiendo a su padre hacia Canaán, siendo llamado por Dios —ya desde Ur, según el discurso de Esteban en Hechos— a convertirse en el padre de una nación y en fuente de bendición para todos los pueblos. Su partida de Ur marca el inicio del ciclo patriarcal.",
+      "referencias": [
+        "Gn 11:31",
+        "Gn 15:7",
+        "Hch 7:2-4"
+      ],
+      "ruta": [
+        "ur",
+        "haran",
+        "shechem"
+      ]
+    },
+    {
+      "id": "tare_ur",
+      "nombre": "Taré",
+      "emoji": "🏕️",
+      "rol": "Padre de Abraham, iniciador de la migración",
+      "periodo": "bronce_medio",
+      "descripcion": "Padre de Abraham, Nacor y Harán. Inicia el viaje desde Ur hacia Canaán pero se detiene en Harán, donde muere a los doscientos cinco años. Su partida de Ur pone en marcha el movimiento familiar que culminará con el establecimiento de Abraham en Canaán.",
+      "referencias": [
+        "Gn 11:26-32"
+      ],
+      "ruta": [
+        "ur",
+        "haran"
+      ]
+    },
+    {
+      "id": "lot_ur",
+      "nombre": "Lot",
+      "emoji": "👤",
+      "rol": "Sobrino de Abraham",
+      "periodo": "bronce_medio",
+      "descripcion": "Hijo de Harán (hermano de Abraham, muerto en Ur), huérfano desde joven. Sale de Ur bajo la tutela de su abuelo Taré y luego de su tío Abraham, acompañándolo hasta la separación en la llanura de Canaán. Su historia ilustra tanto la lealtad familiar como las consecuencias de las elecciones geográficas en la narrativa bíblica.",
+      "referencias": [
+        "Gn 11:27-28",
+        "Gn 11:31",
+        "Gn 13:5-13"
+      ],
+      "ruta": [
+        "ur",
+        "haran",
+        "shechem",
+        "sodom"
+      ]
+    }
+  ],
+  "contexto_religioso": {
+    "contexto_lugar": "Ur es el escenario del contraste más profundo en la narrativa patriarcal: una de las mayores ciudades del mundo antiguo, centro del culto lunar a Nanna/Sin, sirve de punto de partida para la familia que portará la fe monoteísta al mundo. La salida de Ur no es simplemente un viaje; es una ruptura cultural y religiosa radical, un «dejar atrás» el universo simbólico mesopotámico para iniciar un camino hacia una identidad teológica radicalmente nueva. Esta tensión —el origen pagano del patriarca elegido— será recordada por los profetas y maestros como prueba de la gracia divina que actúa antes de cualquier mérito humano.",
+    "religiones_presentes": [
+      "Culto sumerio-acadio a Nanna/Sin (dios lunar, cuyo gran zigurat presidía la ciudad)",
+      "Tradiciones semitas locales sincréticas",
+      "Yahvismo naciente (según tradición posterior) en la familia de Taré"
+    ],
+    "mitos": [
+      {
+        "id": "partida-abraham-ur-mito",
+        "nombre": "La partida de Abraham de Ur de los Caldeos",
+        "aparece_en": {
+          "judaismo": true,
+          "cristianismo": true,
+          "islam": true
+        },
+        "judaismo": {
+          "fuente_primaria": "Gn 11:31; 15:7; Neh 9:7",
+          "fuente_secundaria": "Midrash Bereshit Rabbah 38 (la historia de Abraham destruyendo los ídolos de su padre Taré en Ur, antes de la partida)",
+          "descripcion": "La tradición rabínica elabora el episodio de Ur como el lugar donde Abraham realiza su primera ruptura con el paganismo. El Midrash Bereshit Rabbah narra que Abraham destruyó los ídolos del taller de su padre Taré en Ur, por lo que fue arrojado a un horno ardiente del que salió ileso —anticipación tipológica del episodio de los tres jóvenes en Babilonia (Dn 3). Esta lectura convierte la ciudad de Ur en el escenario del primer acto de fe radical de Abraham: el rechazo activo de la idolatría antes incluso del llamado divino explícito.",
+          "similitudes": "Comparte con el islam el énfasis en la ruptura activa de Abraham con la idolatría de su pueblo de origen.",
+          "diferencias": "El Midrash añade el episodio del horno ardiente, ausente en el texto bíblico y el Corán.",
+          "significado_teologico": "Ur representa el mundo que Abraham deja atrás: la seguridad material, el prestigio urbano y el politeísmo establecido. La gracia divina elige a Abraham precisamente desde ese contexto pagano, no a pesar de él sino a través de él.",
+          "posible_relacion_cultural": "El motivo del «elegido sacado del paganismo» es común a las tres tradiciones abrahámicas y refleja una teología de la gracia preveniente."
+        },
+        "cristianismo": {
+          "fuente_primaria": "Hch 7:2-4; Heb 11:8-10",
+          "fuente_secundaria": "Agustín de Hipona, La Ciudad de Dios XV-XVI (sobre Abraham como figura de la Iglesia peregrina)",
+          "descripcion": "El Nuevo Testamento explicita que el llamado divino a Abraham comenzó en Ur —no en Harán— según el discurso de Esteban (Hch 7:2-4), matiz importante para la cronología de la vocación patriarcal. La Carta a los Hebreos presenta a Abraham como modelo de fe que sale «sin saber a dónde iba» (Heb 11:8), imagen aplicada a la condición del creyente cristiano en el mundo. La lectura patrística convierte a Abraham en tipo de la Iglesia que, como él, es llamada a salir del mundo para peregrinar hacia la ciudad celestial.",
+          "similitudes": "Comparte con el judaísmo el reconocimiento de Ur como origen de la vocación abrahàmica.",
+          "diferencias": "La teología cristiana generaliza la salida de Ur como modelo universal de la fe que abandona la seguridad mundana para seguir la llamada divina, más allá del contexto histórico específico.",
+          "significado_teologico": "Abraham saliendo de Ur se convierte en icono del cristiano que abandona «Babilonia» —símbolo del mundo alejado de Dios— para seguir a Cristo hacia la «ciudad celestial» (Heb 11:10).",
+          "posible_relacion_cultural": "La relectura de Ur como 'Babilonia' espiritual conecta con el simbolismo apocalíptico del Nuevo Testamento (Ap 17-18)."
+        },
+        "islam": {
+          "fuente_primaria": "Corán 6:74-83; 21:51-71; 26:69-89",
+          "fuente_secundaria": "Ibn Kathir, Qisas al-Anbiya (Historias de los Profetas), capítulo sobre Ibrahim",
+          "descripcion": "El Corán no menciona explícitamente Ur, pero narra la ruptura de Ibrahim con la idolatría de su padre Azar (identificado con Taré en la tradición islámica) y su pueblo, episodio ubicado por los comentaristas en la Mesopotamia. Ibrahim destruye los ídolos del templo local y es arrojado al fuego por el rey Nemrod, del que sale ileso gracias a la protección divina. Esta narrativa islámica coincide llamativamente con el Midrash judío sobre el horno de Ur, sugiriendo una tradición común antigua.",
+          "similitudes": "El episodio del fuego en Mesopotamia es compartido con la tradición rabínica, aunque con diferencias en los detalles narrativos.",
+          "diferencias": "El Corán enfatiza la confrontación verbal directa de Ibrahim con su padre y el rey Nemrod, y el milagro del fuego, elementos que el texto bíblico no menciona explícitamente.",
+          "significado_teologico": "La salida de Ibrahim de su tierra de origen representa la ruptura con el shirk (asociación de dioses a Allah) y el inicio del tawhid (monoteísmo puro), primer acto fundacional del islam.",
+          "posible_relacion_cultural": "El motivo del profeta arrojado al fuego y protegido por Dios aparece en múltiples tradiciones del Creciente Fértil y puede reflejar una tradición oral común preislámica."
+        }
+      }
+    ]
+  },
+  "periodos_at": [
+    "bronce_medio"
+  ]
+}

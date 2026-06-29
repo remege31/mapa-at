@@ -17,7 +17,6 @@ import {
   TERRITORY_SEARCH_LIST,
   getTerritoryColor,
   getTerritoryType,
-  getTerritoryNameES,
 } from './data/territorios'
 import { TERRITORY_INFO } from './data/territorioInfo'
 import './App.css'
@@ -136,7 +135,6 @@ function TourOverlay({ step, onNext, onEnd, onGoTo, mapWrapRef, btnRefs, leaflet
   const { cx, cy, r } = pos
   const s = TOUR_STEPS[step]
   const bw = 240
-  const isBtn = s.target === 'button'
   const isCircle = s.target === 'map' || s.target === 'coords'
 
   const rawBx = cx - bw / 2
@@ -239,15 +237,20 @@ function TourOverlay({ step, onNext, onEnd, onGoTo, mapWrapRef, btnRefs, leaflet
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', gap: 5 }}>
             {TOUR_STEPS.map((_, i) => (
-              <button key={i} onClick={() => i !== step && onGoTo(i)} style={{
-                width: 8, height: 8, borderRadius: '50%', padding: 0, border: 'none',
-                background: i === step ? '#775C3C' : '#D4C5B0',
-                cursor: i !== step ? 'pointer' : 'default',
-                transition: 'background 0.3s, transform 0.15s',
-                flexShrink: 0,
-              }}
-              onMouseEnter={e => { if (i !== step) (e.target as HTMLElement).style.transform = 'scale(1.4)' }}
-              onMouseLeave={e => { (e.target as HTMLElement).style.transform = 'scale(1)' }}
+              <button
+                key={i}
+                onClick={() => i !== step && onGoTo(i)}
+                aria-label={`Paso ${i + 1}: ${TOUR_STEPS[i].title}`}
+                aria-current={i === step ? 'step' : undefined}
+                style={{
+                  width: 8, height: 8, borderRadius: '50%', padding: 0, border: 'none',
+                  background: i === step ? '#775C3C' : '#D4C5B0',
+                  cursor: i !== step ? 'pointer' : 'default',
+                  transition: 'background 0.3s, transform 0.15s',
+                  flexShrink: 0,
+                }}
+                onMouseEnter={e => { if (i !== step) (e.target as HTMLElement).style.transform = 'scale(1.4)' }}
+                onMouseLeave={e => { (e.target as HTMLElement).style.transform = 'scale(1)' }}
               />
             ))}
           </div>
@@ -311,7 +314,7 @@ function HistoriaCard({ h }: { h: Historia }) {
         <p className="desc">{h.descripcion}</p>
         {h.referencias.length > 0 && (
           <div className="meta">
-            <span className="ml">Ref:</span>
+            <span className="ml">Ref.:</span>
             {h.referencias.map(r => <a key={r} className="ref" href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(r)}&version=RVR1960`} target="_blank" rel="noopener noreferrer">{r}</a>)}
           </div>
         )}
@@ -320,21 +323,24 @@ function HistoriaCard({ h }: { h: Historia }) {
   )
 }
 
+const KNOWN_PERIOD_IDS = new Set(['bronce_medio','bronce_tardio','hierro_1','hierro_2','post_exilio','todos'])
+
 function PersonajeCard({ p }: { p: Personaje }) {
+  const periodoDisplay = KNOWN_PERIOD_IDS.has(p.periodo) ? getPeriodName(p.periodo) : p.periodo
   return (
     <div className="person-card">
       <div className="person-head">
         <div className="avatar">{p.emoji}</div>
         <div>
           <div className="pname">{p.nombre}</div>
-          <div className="prole">{p.rol} · {p.periodo}</div>
+          <div className="prole">{p.rol} · {periodoDisplay}</div>
         </div>
       </div>
       <div className="story-body">
         <p className="desc">{p.descripcion}</p>
         {p.referencias.length > 0 && (
           <div className="meta">
-            <span className="ml">Ref:</span>
+            <span className="ml">Ref.:</span>
             {p.referencias.slice(0, 3).map(r => <a key={r} className="ref" href={`https://www.biblegateway.com/passage/?search=${encodeURIComponent(r)}&version=RVR1960`} target="_blank" rel="noopener noreferrer">{r}</a>)}
           </div>
         )}
@@ -522,7 +528,7 @@ function Panel({ lugar, periodId, onClose }: {
       </div>
       {showFade && <div className="panel-scroll-fade" />}
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
     </>
   )
 }
@@ -547,17 +553,17 @@ function MenuNav({ lastPlace, onGoToPlace, onClose }: {
         </button>
         <div className="menu-section-label">El mapa</div>
         <div className="menu-list">
-          <div className="menu-item menu-item-disabled">📖 Acerca del proyecto</div>
-          <div className="menu-item menu-item-disabled">📚 Fuentes consultadas</div>
-          <div className="menu-item menu-item-disabled">❓ Cómo usar el mapa</div>
+          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">📖 Acerca del proyecto</button>
+          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">📚 Fuentes consultadas</button>
+          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">❓ Cómo usar el mapa</button>
         </div>
         <div className="menu-section-label">Información</div>
         <div className="menu-list">
-          <div className="menu-item menu-item-disabled">✍ Créditos</div>
+          <button disabled className="menu-item menu-item-disabled" aria-disabled="true">✍ Créditos</button>
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
     </>
   )
 }
@@ -725,14 +731,13 @@ function PanelRuta({ ruta, lugares, onClose, onSelectLugar, activeViajeIdx, onNa
           </div>
         )}
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
     </>
   )
 }
 
-function PanelTerritorio({ territorio, periodId, onClose, lugares, onSelectLugar }: {
+function PanelTerritorio({ territorio, onClose, lugares, onSelectLugar }: {
   territorio: TerritorioSeleccionado
-  periodId: string
   onClose: () => void
   lugares: Lugar[]
   onSelectLugar: (l: Lugar) => void
@@ -910,7 +915,7 @@ function PanelTerritorio({ territorio, periodId, onClose, lugares, onSelectLugar
           </div>
         </div>
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo AT</span></div>
+      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
     </>
   )
 }
@@ -1267,7 +1272,7 @@ export default function App() {
           {selectedRuta ? (
             <PanelRuta ruta={selectedRuta} lugares={lugares} onClose={closeAll} onSelectLugar={handleSelect} activeViajeIdx={activeViajeIdx} onNavigateViaje={setActiveViajeIdx} />
           ) : selectedTerritorio ? (
-            <PanelTerritorio territorio={selectedTerritorio} periodId={periodId} onClose={closeAll} lugares={lugares} onSelectLugar={handleSelect} />
+            <PanelTerritorio territorio={selectedTerritorio} onClose={closeAll} lugares={lugares} onSelectLugar={handleSelect} />
           ) : selected ? (
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (

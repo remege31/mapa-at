@@ -508,7 +508,7 @@
 
 .rel-name { font-size: 11px; font-weight: 500; color: var(--ink); margin-bottom: 2px; }
 .rel-desc { font-size: 11px; color: var(--gray); line-height: 1.6; margin-bottom: 3px; }
-.rel-na { font-size: 11px; color: var(--beige); font-style: italic; }
+.rel-na { font-size: 11px; color: var(--gray); font-style: italic; }
 .src { font-size: 10px; color: var(--terra); }
 
 .diff-row { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 3px; }
@@ -884,8 +884,16 @@
   opacity: 0.5;
   cursor: default;
   font-style: italic;
+  /* reset button styles */
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: left;
+  width: 100%;
 }
 .menu-item-disabled:hover { background: transparent; }
+button.menu-item-disabled:disabled { cursor: default; }
 
 /* ─── fade inferior drawer — anclado al borde ────────────────────────────── */
 .drawer-fade-wrap {

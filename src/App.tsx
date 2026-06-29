@@ -529,7 +529,7 @@ function Panel({ lugar, periodId, onClose }: {
       </div>
       {showFade && <div className="panel-scroll-fade" />}
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
+      <div id="panel-nav"><span className="nav-note">mapsss · Mundo Bíblico</span></div>
     </>
   )
 }
@@ -640,7 +640,7 @@ function MenuNav({ lastPlace, onGoToPlace, onClose, onShowWelcome }: {
           <div className="menu-item menu-item-muted">Más mapas — próximamente</div>
         </div>
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
+      <div id="panel-nav"><span className="nav-note">mapsss · Mundo Bíblico</span></div>
     </>
   )
 }
@@ -808,7 +808,7 @@ function PanelRuta({ ruta, lugares, onClose, onSelectLugar, activeViajeIdx, onNa
           </div>
         )}
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
+      <div id="panel-nav"><span className="nav-note">mapsss · Mundo Bíblico</span></div>
     </>
   )
 }
@@ -992,7 +992,7 @@ function PanelTerritorio({ territorio, onClose, lugares, onSelectLugar }: {
           </div>
         </div>
       </div>
-      <div id="panel-nav"><span className="nav-note">Mapa Interactivo · AT</span></div>
+      <div id="panel-nav"><span className="nav-note">mapsss · Mundo Bíblico</span></div>
     </>
   )
 }
@@ -1261,7 +1261,7 @@ export default function App() {
   return (
     <div id="app">
       <div id="topbar" ref={topbarRef}>
-        <span id="topbar-title">Mapa Interactivo · Antiguo Testamento</span>
+        <span id="topbar-title">mapsss · Mundo Bíblico</span>
         <div id="topbar-right">
           <div id="topbar-search-wrap">
             <span id="topbar-search-icon">🔍</span>
@@ -1359,7 +1359,7 @@ export default function App() {
             <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
           ) : (
             <>
-              <DrawerHeader title="Mapa Interactivo · AT" onClose={closeAll} />
+              <DrawerHeader title="mapsss · Mundo Bíblico" onClose={closeAll} />
               <div id="panel-body" className="panel-body-scroll">
                 <div style={{ padding: '16px 16px 20px', display: 'flex', flexDirection: 'column', gap: 0 }}>
                   {/* Intro */}

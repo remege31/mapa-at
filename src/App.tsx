@@ -1315,6 +1315,20 @@ export default function App() {
         </div>
       </div>
       <div id="timeline-bar" ref={timelineRef}>
+        {/* ── Toggle AT / NT / Ambos ── */}
+        <div id="testament-toggle" role="group" aria-label="Filtro por testamento">
+          {(['AT', 'NT', 'ambos'] as const).map(modo => (
+            <button
+              key={modo}
+              className={`testament-btn${testamento === modo ? ' active-' + modo : ''}`}
+              aria-pressed={testamento === modo}
+              onClick={() => { setTestamento(modo); setPeriodId('todos') }}
+            >
+              {modo === 'ambos' ? 'Ambos' : modo}
+            </button>
+          ))}
+        </div>
+        <div className="tl-divider" aria-hidden="true" />
         <span className="tl-label">Período</span>
         <div id="period-btns">
           {PERIODS.map(p => (

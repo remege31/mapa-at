@@ -63,6 +63,62 @@
   background: rgba(255,255,255,0.12);
 }
 
+/* ─── Toggle AT/NT/Ambos ───────────────────────────────────────────────────── */
+
+#testament-toggle {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  flex-shrink: 0;
+  background: var(--beige);
+  border: 1px solid var(--border, #D4C5B0);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.testament-btn {
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--gray);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.18s, color 0.18s;
+}
+
+.testament-btn:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.testament-btn.active-AT {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.testament-btn.active-NT {
+  background: var(--terra);
+  color: var(--paper);
+}
+
+.testament-btn.active-ambos {
+  background: linear-gradient(90deg, var(--ink) 0%, var(--terra) 100%);
+  color: var(--paper);
+}
+
+.tl-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border, #D4C5B0);
+  flex-shrink: 0;
+  align-self: center;
+}
+
 /* ─── timeline ────────────────────────────────────────────────────────────── */
 
 #timeline-bar {
@@ -801,6 +857,17 @@
     padding: 0;
     align-items: stretch;
   }
+  #testament-toggle {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--border, #D4C5B0);
+    background: var(--paper);
+    padding: 5px 12px;
+    gap: 4px;
+  }
+  .testament-btn { font-size: 10px; padding: 3px 12px; flex: 1; text-align: center; }
+  .tl-divider { display: none; }
   .tl-label { display: none; }
   #period-btns {
     width: 100%;

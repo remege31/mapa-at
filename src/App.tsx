@@ -38,36 +38,37 @@ const TOUR_STEPS: Array<{
   {
     label: 'Paso 1 de 5',
     title: 'Jerusalén',
-    text: 'Centro espiritual del AT. Toca cualquier pin para explorar — el panel lateral muestra historia, personajes y contexto religioso.',
-    target: 'map',
-    spotR: 38,
+    text: 'Toca cualquier pin para explorar un lugar. El panel lateral muestra su historia, personajes y tradiciones religiosas.',
+    target: 'coords',
+    lat: 31.7683, lng: 35.2137,
+    spotR: 28,
   },
   {
     label: 'Paso 2 de 5',
     title: 'Territorios · Egipto',
     text: 'Activamos la capa de Territorios — ve los imperios históricos sobre el mapa. Toca cualquier polígono para explorar en el panel.',
     target: 'coords',
-    lat: 27, lng: 30.5,
+    lat: 27, lng: 33,
     spotR: 190,
   },
   {
     label: 'Paso 3 de 5',
     title: 'Rutas · Moisés',
-    text: 'Activamos la capa de Rutas — sigue los viajes de Moisés, Abraham y otros personajes trazados sobre el mapa.',
+    text: 'Activamos la capa de Rutas con el viaje de Moisés. Desde el panel puedes explorar los recorridos de otros personajes.',
     target: 'button',
     spotR: 0,
   },
   {
     label: 'Paso 4 de 5',
     title: 'Período Post-Exilio',
-    text: 'Filtra por era histórica para ver el mapa durante el retorno de los exiliados desde Babilonia (586–400 a.C.).',
+    text: 'Filtra por era histórica. El mapa está cambiando al período Post-Exilio — observa cómo se transforma la región.',
     target: 'button',
     spotR: 0,
   },
   {
     label: 'Paso 5 de 5',
     title: 'Búsqueda',
-    text: 'Busca cualquier lugar, ruta o territorio por nombre. Los resultados te llevan directo al mapa y al panel lateral.',
+    text: 'Busca cualquier lugar por nombre. El resultado centra el mapa y abre el panel lateral.',
     target: 'element',
     elementId: 'topbar-search-wrap',
     spotR: 0,
@@ -1075,6 +1076,7 @@ export default function App() {
   const isMobile = window.innerWidth < 769
   const [flyToTarget, setFlyToTarget] = useState<{lat: number, lng: number, zoom?: number} | null>(null)
   const [tourStep, setTourStep] = useState<number | null>(null)
+  const tourTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const mapWrapRef = useRef<HTMLDivElement>(null)
   const postExilioRef = useRef<HTMLButtonElement>(null)
   const territoriosBtnRef = useRef<HTMLButtonElement>(null)
@@ -1100,6 +1102,7 @@ export default function App() {
   }, [lugares])
 
   const goToTourStep = useCallback((target: number) => {
+    if (tourTimerRef.current !== null) { clearTimeout(tourTimerRef.current); tourTimerRef.current = null }
     if (target < 0 || target >= TOUR_STEPS.length) { setTourStep(null); return }
 
     if (target === 0) {
@@ -1154,7 +1157,7 @@ export default function App() {
       setFlyToTarget({ lat: 32, lng: 37, zoom: 5 })
       setPeriodId('hierro_2')
       setPanelCollapsed(false)
-      setTimeout(() => setPeriodId('post_exilio'), 5000)
+      tourTimerRef.current = setTimeout(() => { setPeriodId('post_exilio'); tourTimerRef.current = null }, 5000)
 
     } else if (target === 4) {
       // Búsqueda: vista limpia, spotlight sobre el input
@@ -1169,7 +1172,10 @@ export default function App() {
   }, [lugares])
 
   const advanceTour = useCallback((current: number) => {
-    if (current + 1 >= TOUR_STEPS.length) { setTourStep(null); return }
+    if (current + 1 >= TOUR_STEPS.length) {
+      if (tourTimerRef.current !== null) { clearTimeout(tourTimerRef.current); tourTimerRef.current = null }
+      setTourStep(null); return
+    }
     goToTourStep(current + 1)
   }, [goToTourStep])
 
@@ -1308,27 +1314,9 @@ export default function App() {
                     </div>
                   ))}
 
-                  {/* CTA tour */}
-                  <button
-                    onClick={startTour}
-                    style={{
-                      marginTop: 10,
-                      width: '100%',
-                      padding: '10px 14px',
-                      background: '#775C3C',
-                      border: 'none',
-                      borderRadius: 6,
-                      color: '#F5F0E8',
-                      fontFamily: 'Georgia, serif',
-                      fontSize: 13,
-                      cursor: 'pointer',
-                      letterSpacing: '0.02em',
-                    }}
-                  >
-                    Comenzar en Jerusalén ★
-                  </button>
+                  {/* CTA tour — stanby, oculto temporalmente */}
                   <div style={{ textAlign: 'center', marginTop: 8, fontSize: 10, color: 'var(--gray)', fontStyle: 'italic' }}>
-                    o toca cualquier pin en el mapa
+                    Toca cualquier pin en el mapa para explorar
                   </div>
                 </div>
               </div>
@@ -1347,7 +1335,7 @@ export default function App() {
         <TourOverlay
           step={tourStep}
           onNext={() => advanceTour(tourStep)}
-          onEnd={() => setTourStep(null)}
+          onEnd={() => { if (tourTimerRef.current !== null) { clearTimeout(tourTimerRef.current); tourTimerRef.current = null } setTourStep(null) }}
           onGoTo={goToTourStep}
           mapWrapRef={mapWrapRef}
           btnRefs={[territoriosBtnRef, rutasBtnRef, postExilioRef]}

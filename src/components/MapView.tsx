@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import type { Lugar, RutaSeleccionada } from '../types/lugar'
+import type { Lugar, RutaSeleccionada, ModoTestamento } from '../types/lugar'
 import { PERSONAJE_COLORS, DEFAULT_COLOR } from '../data/rutaColors'
 import {
   getTerritoryColor,
@@ -198,6 +198,16 @@ function makeIcon(
   })
 }
 
+// ─── Helpers de filtrado por testamento ────────────────────────────────────
+function hasAT(lugar: Lugar): boolean {
+  // Lugar AT si: tiene sección at explícita, o es legacy (sin sección nt), o tiene historias en raíz
+  return lugar.at !== undefined || lugar.nt === undefined || (lugar.historias?.length ?? 0) > 0
+}
+
+function hasNT(lugar: Lugar): boolean {
+  return lugar.nt !== undefined
+}
+
 interface MapViewProps {
   flyToTarget?: {lat: number, lng: number, zoom?: number} | null
   onSelectLugar: (lugar: Lugar) => void
@@ -206,6 +216,7 @@ interface MapViewProps {
   onMapReady?: (map: L.Map) => void
   selectedId?: string
   periodId?: string
+  testamento?: ModoTestamento
   territoriosActive?: boolean
   rutasActive?: boolean
   selectedPersonaje?: string
@@ -221,6 +232,7 @@ export function MapView({
   onMapReady,
   selectedId,
   periodId = 'hierro_2',
+  testamento = 'AT',
   territoriosActive = false,
   rutasActive = false,
   selectedPersonaje,
@@ -533,9 +545,24 @@ export function MapView({
     const map = mapRef.current
     if (!map || !lugares.length) return
 
+    // Filtrar por testamento activo
+    const lugaresFiltrados = lugares.filter(l => {
+      if (testamento === 'AT') return hasAT(l)
+      if (testamento === 'NT') return hasNT(l)
+      return true
+    })
+
+    // Eliminar markers de lugares que ya no son visibles
+    markersRef.current.forEach((marker, id) => {
+      if (!lugaresFiltrados.find(l => l.id === id)) {
+        map.removeLayer(marker)
+        markersRef.current.delete(id)
+      }
+    })
+
     // Collision avoidance por distancia mínima entre pins
     const ORDEN: Record<string, number> = { primario: 0, secundario: 1, terciario: 2 }
-    const sorted = [...lugares].sort((a, b) => {
+    const sorted = [...lugaresFiltrados].sort((a, b) => {
       const ja = (a as any).jerarquia_pin ?? 'primario'
       const jb = (b as any).jerarquia_pin ?? 'primario'
       return (ORDEN[ja] ?? 2) - (ORDEN[jb] ?? 2)
@@ -605,7 +632,7 @@ export function MapView({
       }
       markersRef.current.set(lugar.id, marker)
     })
-  }, [lugares, selectedId, zoom, showHint, periodId])
+  }, [lugares, selectedId, zoom, showHint, periodId, testamento])
 
   // ─── Rutas de personajes ─────────────────────────────────────────────────
   const rutasLayerRef = useRef<L.LayerGroup | null>(null)

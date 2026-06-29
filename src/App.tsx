@@ -10,6 +10,7 @@ import type {
   EventoParalelo,
   RutaSeleccionada,
   TerritorioSeleccionado,
+  ModoTestamento,
 } from './types/lugar'
 import { EVENTOS_PARALELOS_GLOBAL } from './data/eventosParalelos'
 import { PERSONAJE_COLORS, DEFAULT_COLOR } from './data/rutaColors'
@@ -1002,6 +1003,7 @@ export default function App() {
   const [selectedRuta, setSelectedRuta] = useState<RutaSeleccionada | null>(null)
   const [selectedTerritorio, setSelectedTerritorio] = useState<TerritorioSeleccionado | null>(null)
   const [activeViajeIdx, setActiveViajeIdx] = useState(0)
+  const [testamento, setTestamento] = useState<ModoTestamento>('AT')
   const [periodId, setPeriodId] = useState('todos')
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [panelCollapsed, setPanelCollapsed] = useState(false)
@@ -1343,6 +1345,7 @@ export default function App() {
             flyToTarget={flyToTarget}
             selectedId={selected?.id}
             periodId={periodId}
+            testamento={testamento}
             territoriosActive={territoriosActive}
             rutasActive={rutasActive}
             selectedPersonaje={selectedRuta?.personajeId}

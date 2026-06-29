@@ -435,8 +435,106 @@ function DrawerHeader({ title, onClose }: { title: string; onClose: () => void }
   )
 }
 
-function Panel({ lugar, periodId, onClose }: {
-  lugar: Lugar; periodId: string; onClose: () => void
+// ─── Helpers de contenido por testamento ─────────────────────────────────────
+
+function getATContent(lugar: Lugar) {
+  return {
+    historias:          lugar.at?.historias          ?? lugar.historias          ?? [],
+    personajes:         lugar.at?.personajes          ?? lugar.personajes          ?? [],
+    contexto_religioso: lugar.at?.contexto_religioso  ?? lugar.contexto_religioso  ?? null,
+  }
+}
+
+function getNTContent(lugar: Lugar) {
+  return {
+    historias:          lugar.nt?.historias          ?? [],
+    personajes:         lugar.nt?.personajes          ?? [],
+    contexto_religioso: lugar.nt?.contexto_religioso  ?? null,
+  }
+}
+
+function TestamentoBadge({ tipo }: { tipo: 'AT' | 'NT' }) {
+  return (
+    <div style={{
+      display: 'inline-block',
+      padding: '2px 10px',
+      borderRadius: 4,
+      fontSize: 10,
+      fontWeight: 700,
+      letterSpacing: '0.08em',
+      background: tipo === 'AT' ? '#3C3C3C' : '#8B4A26',
+      color: '#F5F0E8',
+      marginBottom: 8,
+    }}>
+      {tipo}
+    </div>
+  )
+}
+
+function FranjaTestamento() {
+  return (
+    <div style={{
+      margin: '16px -16px',
+      height: 1,
+      background: 'linear-gradient(90deg, transparent, var(--beige) 15%, var(--beige) 85%, transparent)',
+    }} />
+  )
+}
+
+function ContentSections({
+  historias, personajes, contexto_religioso, periodId, openAcc, onToggle, offsetIdx = 0,
+}: {
+  historias: Historia[]
+  personajes: Personaje[]
+  contexto_religioso: import('./types/lugar').ContextoReligioso | null
+  periodId: string
+  openAcc: number
+  onToggle: (i: number) => void
+  offsetIdx?: number
+}) {
+  return (
+    <>
+      <Acc icon="📖" title="Historias" open={openAcc === offsetIdx + 0} onToggle={() => onToggle(offsetIdx + 0)}>
+        {historias.length > 0 ? historias.map(h => <HistoriaCard key={h.id} h={h} />) : <p className="desc" style={{ opacity: 0.5 }}>Sin historias registradas.</p>}
+      </Acc>
+      <Acc icon="👤" title="Personajes" open={openAcc === offsetIdx + 1} onToggle={() => onToggle(offsetIdx + 1)}>
+        {personajes.length > 0 ? personajes.map(p => <PersonajeCard key={p.id} p={p} />) : <p className="desc" style={{ opacity: 0.5 }}>Sin personajes registrados.</p>}
+      </Acc>
+      {contexto_religioso && (
+        <Acc icon="✡" title="Contexto religioso" open={openAcc === offsetIdx + 2} onToggle={() => onToggle(offsetIdx + 2)}>
+          <div className="sec-label" style={{ marginTop: 0 }}>Contexto del lugar</div>
+          <div className="ctx-block">{contexto_religioso.contexto_lugar}</div>
+          {contexto_religioso.religiones_presentes.length > 0 && (<>
+            <div className="sec-label">Religiones presentes</div>
+            <ul className="resource-list" style={{ marginBottom: 8 }}>{contexto_religioso.religiones_presentes.map(r => <li key={r}>{r}</li>)}</ul>
+          </>)}
+          {contexto_religioso.mitos.length > 0 && (<>
+            <div className="sec-label">Mitos y perspectivas religiosas</div>
+            {contexto_religioso.mitos.map(m => <MitoCard key={m.id} m={m} />)}
+          </>)}
+        </Acc>
+      )}
+      <Acc icon="🌍" title="Eventos paralelos" open={openAcc === offsetIdx + 3} onToggle={() => onToggle(offsetIdx + 3)}>
+        {periodId === 'todos' ? (
+          <p className="desc" style={{ opacity: 0.5, padding: '8px 0' }}>Selecciona un período histórico para ver eventos paralelos.</p>
+        ) : (<>
+          <div className="per-banner">
+            <div>
+              <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(periodId)}</div>
+              <div style={{ fontSize: 10, color: 'var(--gray)' }}>{getPeriodRange(periodId)}</div>
+            </div>
+          </div>
+          {EVENTOS_PARALELOS_GLOBAL
+            .filter(e => e.periodo_at.includes(periodId))
+            .map(e => <EventoCard key={e.civilizacion} e={e} />)}
+        </>)}
+      </Acc>
+    </>
+  )
+}
+
+function Panel({ lugar, periodId, testamento, onClose }: {
+  lugar: Lugar; periodId: string; testamento: ModoTestamento; onClose: () => void
 }) {
   const [openAcc, setOpenAcc] = useState(-1)
   const [showFade, setShowFade] = useState(false)
@@ -458,10 +556,18 @@ function Panel({ lugar, periodId, onClose }: {
   const tipoLabel = lugar.tipo === 'ciudad' ? 'Ciudad' : lugar.tipo === 'territorio' ? 'Territorio' : 'Región natural'
   const altitudLabel = typeof lugar.altitud_m === 'number' ? `${lugar.altitud_m} m` : lugar.altitud_m
 
+  const lugarTieneNT = lugar.nt !== undefined
+  const mostrarAmbos  = testamento === 'ambos' && lugarTieneNT
+
+  const atContent = getATContent(lugar)
+  const ntContent = getNTContent(lugar)
+
   return (
     <>
       <DrawerHeader title={lugar.nombre} onClose={onClose} />
       <div className="drawer-fade-wrap"><div id="panel-body" className="panel-body-scroll" ref={bodyRef} onScroll={handleScroll}>
+
+        {/* ── Sección geográfica (siempre visible) ── */}
         <Acc icon="📍" title="Lugar" open={openAcc === 0} onToggle={() => toggle(0)}>
           <div className="grid2">
             <div><div className="gl">Altitud</div><div className="gv">{altitudLabel}</div></div>
@@ -495,39 +601,55 @@ function Panel({ lugar, periodId, onClose }: {
             <p style={{ fontSize: '11px', color: 'var(--gray)', marginTop: '12px', fontStyle: 'italic' }}>* Refidim es también conocido como Masá y Meribá (Éx 17:7), nombres dados al lugar tras la queja del pueblo por falta de agua.</p>
           )}
         </Acc>
-        <Acc icon="📖" title="Historias" open={openAcc === 1} onToggle={() => toggle(1)}>
-          {lugar.historias.length > 0 ? lugar.historias.map(h => <HistoriaCard key={h.id} h={h} />) : <p className="desc" style={{ opacity: 0.5 }}>Sin historias registradas.</p>}
-        </Acc>
-        <Acc icon="👤" title="Personajes" open={openAcc === 2} onToggle={() => toggle(2)}>
-          {lugar.personajes.length > 0 ? lugar.personajes.map(p => <PersonajeCard key={p.id} p={p} />) : <p className="desc" style={{ opacity: 0.5 }}>Sin personajes registrados.</p>}
-        </Acc>
-        <Acc icon="✡" title="Contexto religioso" open={openAcc === 3} onToggle={() => toggle(3)}>
-          <div className="sec-label" style={{ marginTop: 0 }}>Contexto del lugar</div>
-          <div className="ctx-block">{lugar.contexto_religioso.contexto_lugar}</div>
-          {lugar.contexto_religioso.religiones_presentes.length > 0 && (<>
-            <div className="sec-label">Religiones presentes</div>
-            <ul className="resource-list" style={{ marginBottom: 8 }}>{lugar.contexto_religioso.religiones_presentes.map(r => <li key={r}>{r}</li>)}</ul>
-          </>)}
-          {lugar.contexto_religioso.mitos.length > 0 && (<>
-            <div className="sec-label">Mitos y perspectivas religiosas</div>
-            {lugar.contexto_religioso.mitos.map(m => <MitoCard key={m.id} m={m} />)}
-          </>)}
-        </Acc>
-        <Acc icon="🌍" title="Eventos paralelos" open={openAcc === 4} onToggle={() => toggle(4)}>
-          {periodId === 'todos' ? (
-            <p className="desc" style={{ opacity: 0.5, padding: '8px 0' }}>Selecciona un período histórico para ver eventos paralelos.</p>
-          ) : (<>
-            <div className="per-banner">
-              <div>
-                <div style={{ fontSize: 11, fontWeight: 500, color: 'var(--ink)' }}>{getPeriodName(periodId)}</div>
-                <div style={{ fontSize: 10, color: 'var(--gray)' }}>{getPeriodRange(periodId)}</div>
-              </div>
-            </div>
-            {EVENTOS_PARALELOS_GLOBAL
-              .filter(e => e.periodo_at.includes(periodId))
-              .map(e => <EventoCard key={e.civilizacion} e={e} />)}
-          </>)}
-        </Acc>
+
+        {/* ── Contenido narrativo según modo ── */}
+        {mostrarAmbos ? (
+          <>
+            <TestamentoBadge tipo="AT" />
+            <ContentSections
+              historias={atContent.historias}
+              personajes={atContent.personajes}
+              contexto_religioso={atContent.contexto_religioso}
+              periodId={periodId}
+              openAcc={openAcc}
+              onToggle={toggle}
+              offsetIdx={1}
+            />
+            <FranjaTestamento />
+            <TestamentoBadge tipo="NT" />
+            <ContentSections
+              historias={ntContent.historias}
+              personajes={ntContent.personajes}
+              contexto_religioso={ntContent.contexto_religioso}
+              periodId={periodId}
+              openAcc={openAcc}
+              onToggle={toggle}
+              offsetIdx={10}
+            />
+          </>
+        ) : testamento === 'NT' ? (
+          <ContentSections
+            historias={ntContent.historias}
+            personajes={ntContent.personajes}
+            contexto_religioso={ntContent.contexto_religioso}
+            periodId={periodId}
+            openAcc={openAcc}
+            onToggle={toggle}
+            offsetIdx={1}
+          />
+        ) : (
+          // Modo AT (default) — contenido legacy
+          <ContentSections
+            historias={atContent.historias}
+            personajes={atContent.personajes}
+            contexto_religioso={atContent.contexto_religioso}
+            periodId={periodId}
+            openAcc={openAcc}
+            onToggle={toggle}
+            offsetIdx={1}
+          />
+        )}
+
       </div>
       {showFade && <div className="panel-scroll-fade" />}
       </div>
@@ -1381,7 +1503,7 @@ export default function App() {
           ) : selectedTerritorio ? (
             <PanelTerritorio territorio={selectedTerritorio} onClose={closeAll} lugares={lugares} onSelectLugar={handleSelect} />
           ) : selected ? (
-            <Panel key={selected.id} lugar={selected} periodId={periodId} onClose={closeAll} />
+            <Panel key={selected.id} lugar={selected} periodId={periodId} testamento={testamento} onClose={closeAll} />
           ) : (
             <>
               <DrawerHeader title="mapsss · Mundo Bíblico" onClose={closeAll} />

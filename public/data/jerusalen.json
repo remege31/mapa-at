@@ -228,5 +228,144 @@
     "hierro_2",
     "post_exilio"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "jer_nt_h1",
+        "titulo": "La entrada triunfal de Jesús",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "Jesús entra en Jerusalén sobre un asno entre aclamaciones mesiánicas; la ciudad entera se conmueve.",
+        "referencias": [
+          "Mt 21:1-11",
+          "Mc 11:1-10",
+          "Lc 19:28-44",
+          "Jn 12:12-19"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "discípulos"
+        ]
+      },
+      {
+        "id": "jer_nt_h2",
+        "titulo": "La Última Cena y el Getsemaní",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "Jesús celebra la Pascua con sus discípulos en el Cenáculo, instituye la Eucaristía y ora en el huerto del Getsemaní.",
+        "referencias": [
+          "Mt 26:17-56",
+          "Lc 22:7-53"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Pedro",
+          "Juan",
+          "Judas Iscariote"
+        ]
+      },
+      {
+        "id": "jer_nt_h3",
+        "titulo": "Pentecostés: nacimiento de la Iglesia",
+        "fecha": "ca. 30 d.C.",
+        "descripcion": "El Espíritu Santo desciende sobre los discípulos reunidos en Jerusalén; Pedro predica y se bautizan 3.000 personas.",
+        "referencias": [
+          "Hch 2:1-41"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "apóstoles"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "jer_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías",
+        "periodo": "ca. 6 a.C.–30 d.C.",
+        "descripcion": "Realizó su ministerio final en Jerusalén: purificó el Templo, fue juzgado, crucificado y resucitado.",
+        "referencias": [
+          "Mt 21-28"
+        ],
+        "ruta": [
+          "nazareth",
+          "galilee",
+          "jerusalen"
+        ]
+      },
+      {
+        "id": "jer_nt_p2",
+        "nombre": "Poncio Pilato",
+        "emoji": "⚖️",
+        "rol": "Prefecto romano de Judea",
+        "periodo": "26-36 d.C.",
+        "descripcion": "Gobernador que condenó a Jesús a muerte tras el juicio ante el Sanedrín.",
+        "referencias": [
+          "Mt 27:11-26"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jer_nt_p3",
+        "nombre": "Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol y líder de la Iglesia",
+        "periodo": "s. I d.C.",
+        "descripcion": "Predicó el primer sermón cristiano en Jerusalén el día de Pentecostés.",
+        "referencias": [
+          "Hch 2:14-36"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Centro del judaismo del Segundo Templo y cuna del movimiento cristiano; escenario de la Pasión, Resurrección y Pentecostés.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "jer_nt_m1",
+          "nombre": "El Templo destruido y reconstruido",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "El Templo de Salomón, destruido y reconstruido, es el corazón de la identidad judía.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Templo de Salomón, destruido y reconstruido, es el corazón de la identidad judía.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús profetiza la destrucción del Templo (70 d.C.) y anuncia que él mismo es el nuevo templo.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús profetiza la destrucción del Templo (70 d.C.) y anuncia que él mismo es el nuevo templo.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "Jerusalem (Al-Quds) es la tercera ciudad santa del Islam; el Domo de la Roca señala el lugar del viaje nocturno de Mahoma.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jerusalem (Al-Quds) es la tercera ciudad santa del Islam; el Domo de la Roca señala el lugar del viaje nocturno de Mahoma.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

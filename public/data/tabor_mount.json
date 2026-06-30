@@ -164,5 +164,134 @@
   "periodos_at": [
     "hierro_1"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "tab_nt_h1",
+        "titulo": "La Transfiguración de Jesús",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Jesús se transfigura ante Pedro, Santiago y Juan: su rostro resplandece y conversa con Moisés y Elías.",
+        "referencias": [
+          "Mt 17:1-8",
+          "Mc 9:2-8",
+          "Lc 9:28-36"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Pedro",
+          "Santiago",
+          "Juan",
+          "Moisés",
+          "Elías"
+        ]
+      },
+      {
+        "id": "tab_nt_h2",
+        "titulo": "La voz del Padre en la nube",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Una nube luminosa los envuelve y la voz del Padre dice: 'Este es mi Hijo amado; a él oíd'.",
+        "referencias": [
+          "Mt 17:5"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Pedro",
+          "Santiago",
+          "Juan"
+        ]
+      },
+      {
+        "id": "tab_nt_h3",
+        "titulo": "El descenso y la curación del epiléptico",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Al bajar del Tabor, Jesús cura a un niño epiléptico que los discípulos no habían podido sanar.",
+        "referencias": [
+          "Mt 17:14-18"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "discípulos"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "tab_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías transfigurado",
+        "periodo": "ca. 29 d.C.",
+        "descripcion": "Reveló su gloria divina en el Monte Tabor ante tres testigos selectos.",
+        "referencias": [
+          "Mt 17:2"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "tab_nt_p2",
+        "nombre": "Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol testigo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Propuso construir tres tiendas; su experiencia en el Tabor fundamentó su testimonio sobre la gloria de Cristo.",
+        "referencias": [
+          "Mt 17:4",
+          "2 Pe 1:16-18"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "tab_nt_p3",
+        "nombre": "Moisés y Elías",
+        "emoji": "📜",
+        "rol": "Representantes de la Ley y los Profetas",
+        "periodo": "s. I d.C.",
+        "descripcion": "Aparecieron junto a Jesús en la Transfiguración, simbolizando que la Ley y los Profetas apuntan a Cristo.",
+        "referencias": [
+          "Mt 17:3"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Monte aislado de Galilea que la tradición identifica como el lugar de la Transfiguración; escenario de la revelación de la gloria divina de Jesús.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "tab_nt_m1",
+          "nombre": "La Transfiguración",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "El Sinaí fue el monte de la revelación de Dios a Moisés; el Tabor se convierte en su equivalente neotestamentario.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Sinaí fue el monte de la revelación de Dios a Moisés; el Tabor se convierte en su equivalente neotestamentario.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "En el Tabor, Jesús revela su gloria divina y recibe el testimonio celestial de ser el Hijo de Dios, cumplimiento de la Ley (Moisés) y los Profetas (Elías).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En el Tabor, Jesús revela su gloria divina y recibe el testimonio celestial de ser el Hijo de Dios, cumplimiento de la Ley (Moisés) y los Profetas (Elías).",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

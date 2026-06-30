@@ -192,5 +192,137 @@
     "hierro_1",
     "hierro_2"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "bel_nt_h1",
+        "titulo": "El nacimiento de Jesús",
+        "fecha": "ca. 6-4 a.C.",
+        "descripcion": "Jesús nace en Belén durante el censo de Quirino; ángeles anuncian la noticia a pastores.",
+        "referencias": [
+          "Lc 2:1-20",
+          "Mt 2:1-12"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "María",
+          "José",
+          "pastores",
+          "magos"
+        ]
+      },
+      {
+        "id": "bel_nt_h2",
+        "titulo": "La adoración de los Magos",
+        "fecha": "ca. 6-4 a.C.",
+        "descripcion": "Magos de Oriente siguen la estrella hasta Belén y ofrecen oro, incienso y mirra al niño Jesús.",
+        "referencias": [
+          "Mt 2:1-12"
+        ],
+        "personajes_clave": [
+          "magos",
+          "Herodes el Grande"
+        ]
+      },
+      {
+        "id": "bel_nt_h3",
+        "titulo": "La matanza de los inocentes",
+        "fecha": "ca. 4 a.C.",
+        "descripcion": "Herodes ordena matar a todos los niños menores de dos años en Belén al enterarse del nacimiento del rey.",
+        "referencias": [
+          "Mt 2:16-18"
+        ],
+        "personajes_clave": [
+          "Herodes el Grande"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "bel_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías nacido en Belén",
+        "periodo": "ca. 6-4 a.C.",
+        "descripcion": "Su nacimiento en Belén cumple la profecía de Miqueas 5:2 sobre el origen del Mesías.",
+        "referencias": [
+          "Lc 2:4-7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "bel_nt_p2",
+        "nombre": "María",
+        "emoji": "🌸",
+        "rol": "Madre de Jesús",
+        "periodo": "s. I a.C.",
+        "descripcion": "Dio a luz a Jesús en Belén; depositó al niño en un pesebre.",
+        "referencias": [
+          "Lc 2:7"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "bel_nt_p3",
+        "nombre": "Herodes el Grande",
+        "emoji": "👑",
+        "rol": "Rey de Judea",
+        "periodo": "37-4 a.C.",
+        "descripcion": "Intentó matar al niño Jesús ordenando la matanza de inocentes en Belén.",
+        "referencias": [
+          "Mt 2:16"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad de David y lugar del nacimiento de Jesús; sitio de peregrinación cristiana desde el siglo II.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "islam"
+      ],
+      "mitos": [
+        {
+          "id": "bel_nt_m1",
+          "nombre": "El nacimiento del Mesías",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "Miqueas 5:2 profetiza que el gobernante de Israel saldrá de Belén; los rabinos lo identifican con el Mesías.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Miqueas 5:2 profetiza que el gobernante de Israel saldrá de Belén; los rabinos lo identifican con el Mesías.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús nace en Belén, cumpliendo la profecía; ángeles, pastores y magos atestiguan el evento.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús nace en Belén, cumpliendo la profecía; ángeles, pastores y magos atestiguan el evento.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "El Corán relata el nacimiento milagroso de Isa (Jesús) de la virgen Maryam, aunque no menciona Belén explícitamente.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Corán relata el nacimiento milagroso de Isa (Jesús) de la virgen Maryam, aunque no menciona Belén explícitamente.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

@@ -220,5 +220,125 @@
     "hierro_2",
     "post_exilio"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "sid_nt_h1",
+        "titulo": "Jesús pasa por Sidón",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "En su viaje por la Decápolis, Jesús pasa por los territorios de Tiro y Sidón.",
+        "referencias": [
+          "Mc 7:31"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "sid_nt_h2",
+        "titulo": "Sidón en el juicio de las ciudades",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Jesús declara que en el día del juicio le irá mejor a Tiro y Sidón que a Corazín y Betsaida.",
+        "referencias": [
+          "Mt 11:21-22",
+          "Lc 10:13-14"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      },
+      {
+        "id": "sid_nt_h3",
+        "titulo": "Pablo escala en Sidón camino a Roma",
+        "fecha": "ca. 59-60 d.C.",
+        "descripcion": "El centurión Julio permite a Pablo visitar a sus amigos en Sidón durante la travesía a Roma.",
+        "referencias": [
+          "Hch 27:3"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Julio"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "sid_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Predicador",
+        "periodo": "ca. 29 d.C.",
+        "descripcion": "Atravesó la región de Sidón; usó la ciudad como referencia en sus enseñanzas sobre el juicio.",
+        "referencias": [
+          "Mc 7:31"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "sid_nt_p2",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Apóstol prisionero",
+        "periodo": "ca. 59-60 d.C.",
+        "descripcion": "Desembarcó brevemente en Sidón en su último viaje; fue tratado con benevolencia por el centurión.",
+        "referencias": [
+          "Hch 27:3"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "sid_nt_p3",
+        "nombre": "Julio el centurión",
+        "emoji": "🪖",
+        "rol": "Guardián de Pablo",
+        "periodo": "s. I d.C.",
+        "descripcion": "Permitió a Pablo visitar a amigos en Sidón, mostrando una actitud humanitaria inusual.",
+        "referencias": [
+          "Hch 27:3"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Antigua metrópolis fenicia; en el NT sirve como referente del mundo gentil que será juzgado con más misericordia que las ciudades judías incrédulas.",
+      "religiones_presentes": [
+        "paganismo_fenicio_romano",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "sid_nt_m1",
+          "nombre": "El juicio de las ciudades paganas",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "Sidón fue condenada por los profetas (Ez 28:20-23; Jl 3:4).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Sidón fue condenada por los profetas (Ez 28:20-23; Jl 3:4).",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús declara que Tiro y Sidón recibirán un juicio más benigno que las ciudades de Galilea que rechazaron el evangelio.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús declara que Tiro y Sidón recibirán un juicio más benigno que las ciudades de Galilea que rechazaron el evangelio.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

@@ -220,5 +220,138 @@
     "hierro_2",
     "post_exilio"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "egi_nt_h1",
+        "titulo": "La huida a Egipto",
+        "fecha": "ca. 5-4 a.C.",
+        "descripcion": "José huye con María y el niño Jesús a Egipto para escapar de la matanza de Herodes; regresan tras su muerte.",
+        "referencias": [
+          "Mt 2:13-21"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "María",
+          "José",
+          "Herodes el Grande"
+        ]
+      },
+      {
+        "id": "egi_nt_h2",
+        "titulo": "Cumplimiento de la profecía: 'De Egipto llamé a mi hijo'",
+        "fecha": "ca. 5-4 a.C.",
+        "descripcion": "Mateo cita a Oseas 11:1 para interpretar el regreso de Jesús de Egipto como cumplimiento profético.",
+        "referencias": [
+          "Mt 2:15",
+          "Os 11:1"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "José"
+        ]
+      },
+      {
+        "id": "egi_nt_h3",
+        "titulo": "La iglesia en Egipto: Marcos en Alejandría",
+        "fecha": "ca. 45-68 d.C.",
+        "descripcion": "Tradición cristiana ubica a Juan Marcos como fundador de la iglesia de Alejandría.",
+        "referencias": [
+          "Tradición copta",
+          "Eusebio Historia Eclesiástica II.16"
+        ],
+        "personajes_clave": [
+          "Juan Marcos"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "egi_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Refugiado mesiánico",
+        "periodo": "ca. 5-4 a.C.",
+        "descripcion": "Vivió brevemente en Egipto durante la infancia; su regreso recapitula el éxodo de Israel.",
+        "referencias": [
+          "Mt 2:14"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "egi_nt_p2",
+        "nombre": "José de Nazaret",
+        "emoji": "🔨",
+        "rol": "Padre adoptivo y protector",
+        "periodo": "s. I a.C.",
+        "descripcion": "Recibió en sueños la advertencia de huir a Egipto y de regresar; obedeció en ambas ocasiones.",
+        "referencias": [
+          "Mt 2:13-21"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "egi_nt_p3",
+        "nombre": "Juan Marcos",
+        "emoji": "✍️",
+        "rol": "Evangelista y misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Primo de Bernabé, autor del segundo evangelio; la tradición lo vincula con la fundación de la iglesia egipcia.",
+        "referencias": [
+          "Hch 12:12",
+          "Col 4:10"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Tierra de esclavitud y de refugio; en el NT, Egipto sirve como lugar de protección para el Mesías y luego como cuna de la iglesia alejandrina.",
+      "religiones_presentes": [
+        "paganismo_egipcio",
+        "judaismo_alejandrino",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "egi_nt_m1",
+          "nombre": "De Egipto llamé a mi hijo",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "El éxodo de Israel de Egipto es el evento fundacional del pueblo de Dios (Ex 12-15).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El éxodo de Israel de Egipto es el evento fundacional del pueblo de Dios (Ex 12-15).",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La huida y regreso de Jesús de Egipto recapitula el éxodo, presentando a Jesús como el nuevo Israel.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La huida y regreso de Jesús de Egipto recapitula el éxodo, presentando a Jesús como el nuevo Israel.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "El Islam reconoce la infancia de Isa (Jesús) como milagrosa pero no menciona el episodio egipcio en el Corán.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "El Islam reconoce la infancia de Isa (Jesús) como milagrosa pero no menciona el episodio egipcio en el Corán.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

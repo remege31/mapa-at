@@ -196,5 +196,125 @@
     "hierro_2",
     "post_exilio"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "jop_nt_h1",
+        "titulo": "Pedro resucita a Tabita",
+        "fecha": "ca. 40 d.C.",
+        "descripcion": "Pedro resucita a la discípula Tabita (Dorcas) en Jope; la noticia se difunde y muchos creen.",
+        "referencias": [
+          "Hch 9:36-43"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "Tabita"
+        ]
+      },
+      {
+        "id": "jop_nt_h2",
+        "titulo": "La visión del lienzo en Jope",
+        "fecha": "ca. 40 d.C.",
+        "descripcion": "Pedro tiene una visión de animales impuros en un lienzo; Dios le enseña a no llamar impuro lo que él ha purificado.",
+        "referencias": [
+          "Hch 10:9-16"
+        ],
+        "personajes_clave": [
+          "Pedro"
+        ]
+      },
+      {
+        "id": "jop_nt_h3",
+        "titulo": "Pedro parte hacia Cesarea desde Jope",
+        "fecha": "ca. 40 d.C.",
+        "descripcion": "Los enviados de Cornelio llegan a Jope y Pedro los acompaña a Cesarea para bautizar a los primeros gentiles.",
+        "referencias": [
+          "Hch 10:17-23"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "Cornelio"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "jop_nt_p1",
+        "nombre": "Pedro",
+        "emoji": "⚓",
+        "rol": "Apóstol",
+        "periodo": "s. I d.C.",
+        "descripcion": "Vivió en Jope en casa de Simón el curtidor; allí tuvo la visión que abrió el evangelio a los gentiles.",
+        "referencias": [
+          "Hch 9:43"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jop_nt_p2",
+        "nombre": "Tabita (Dorcas)",
+        "emoji": "🧵",
+        "rol": "Discípula y benefactora",
+        "periodo": "s. I d.C.",
+        "descripcion": "Conocida por sus obras de caridad; resucitada por Pedro en Jope.",
+        "referencias": [
+          "Hch 9:36"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jop_nt_p3",
+        "nombre": "Simón el Curtidor",
+        "emoji": "🏠",
+        "rol": "Anfitrión de Pedro",
+        "periodo": "s. I d.C.",
+        "descripcion": "Pedro se hospedó en su casa junto al mar en Jope; su oficio (de curtidor) era considerado impuro.",
+        "referencias": [
+          "Hch 9:43"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Puerto mediterráneo desde donde Jonás huyó de Dios; ahora Pedro recibe la visión que abre la misión a los gentiles.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo",
+        "paganismo_romano"
+      ],
+      "mitos": [
+        {
+          "id": "jop_nt_m1",
+          "nombre": "El lienzo y los impuros",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "La distinción entre animales puros e impuros es central en la Torah (Lev 11).",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La distinción entre animales puros e impuros es central en la Torah (Lev 11).",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La visión del lienzo en Jope abolió simbólicamente la distinción ritual, abriendo el evangelio a todos los pueblos.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La visión del lienzo en Jope abolió simbólicamente la distinción ritual, abriendo el evangelio a todos los pueblos.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

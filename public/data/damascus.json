@@ -183,5 +183,132 @@
     "hierro_2",
     "post_exilio"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "dam_nt_h1",
+        "titulo": "La conversión de Pablo en el camino a Damasco",
+        "fecha": "ca. 33-35 d.C.",
+        "descripcion": "Saulo de Tarso cae al suelo al ser cegado por una luz; Cristo le habla y lo envía a Damasco.",
+        "referencias": [
+          "Hch 9:1-9",
+          "Gal 1:17"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Ananías"
+        ]
+      },
+      {
+        "id": "dam_nt_h2",
+        "titulo": "Ananías bautiza a Pablo",
+        "fecha": "ca. 33-35 d.C.",
+        "descripcion": "El discípulo Ananías impone manos a Pablo; sus ojos se abren y es bautizado.",
+        "referencias": [
+          "Hch 9:10-19"
+        ],
+        "personajes_clave": [
+          "Pablo",
+          "Ananías"
+        ]
+      },
+      {
+        "id": "dam_nt_h3",
+        "titulo": "Pablo huye en un canasto por la muralla",
+        "fecha": "ca. 37 d.C.",
+        "descripcion": "Los judíos conspiran para matar a Pablo; sus discípulos lo bajan de noche en un canasto por la muralla de Damasco.",
+        "referencias": [
+          "Hch 9:23-25",
+          "2 Co 11:32-33"
+        ],
+        "personajes_clave": [
+          "Pablo"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "dam_nt_p1",
+        "nombre": "Pablo de Tarso",
+        "emoji": "✉️",
+        "rol": "Perseguidor convertido en apóstol",
+        "periodo": "ca. 5-67 d.C.",
+        "descripcion": "Iba a Damasco a perseguir cristianos; salió de allí como el más ardiente misionero del evangelio.",
+        "referencias": [
+          "Hch 9:1"
+        ],
+        "ruta": [
+          "damascus",
+          "antioch",
+          "ephesus",
+          "rome"
+        ]
+      },
+      {
+        "id": "dam_nt_p2",
+        "nombre": "Ananías de Damasco",
+        "emoji": "🙏",
+        "rol": "Discípulo y mensajero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Recibió visión de ir a Pablo a pesar del miedo; le impuso manos y lo bautizó.",
+        "referencias": [
+          "Hch 9:10"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "dam_nt_p3",
+        "nombre": "Aretas IV",
+        "emoji": "👑",
+        "rol": "Rey nabateo de Damasco",
+        "periodo": "9 a.C.–40 d.C.",
+        "descripcion": "Su etnarca en Damasco buscaba prender a Pablo cuando este escapó en el canasto.",
+        "referencias": [
+          "2 Co 11:32"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad antiquísima; escenario del giro más dramático de la historia cristiana: la conversión de su mayor perseguidor.",
+      "religiones_presentes": [
+        "judaismo",
+        "paganismo_nabateo_romano",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "dam_nt_m1",
+          "nombre": "El perseguidor convertido",
+          "aparece_en": {
+            "judaismo": false,
+            "cristianismo": true,
+            "islam": true
+          },
+          "judaismo": null,
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "La conversión de Pablo en el camino a Damasco es el paradigma neotestamentario de la gracia que transforma al enemigo en apóstol.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "La conversión de Pablo en el camino a Damasco es el paradigma neotestamentario de la gracia que transforma al enemigo en apóstol.",
+            "posible_relacion_cultural": null
+          },
+          "islam": {
+            "fuente_primaria": "Corán / Hadiz",
+            "fuente_secundaria": "",
+            "descripcion": "Damasco (Dimashq) es la capital de Siria y ciudad sagrada en el Islam; la Gran Mezquita de los Omeyas se levantó sobre la antigua basílica cristiana.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Damasco (Dimashq) es la capital de Siria y ciudad sagrada en el Islam; la Gran Mezquita de los Omeyas se levantó sobre la antigua basílica cristiana.",
+            "posible_relacion_cultural": null
+          }
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

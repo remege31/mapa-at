@@ -200,5 +200,124 @@
     "hierro_1",
     "hierro_2"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "jer2_nt_h1",
+        "titulo": "Zaqueo sube al sicómoro",
+        "fecha": "ca. 29-30 d.C.",
+        "descripcion": "El jefe de publicanos Zaqueo trepa a un árbol para ver a Jesús; Jesús se hospeda en su casa y Zaqueo promete restituir.",
+        "referencias": [
+          "Lc 19:1-10"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Zaqueo"
+        ]
+      },
+      {
+        "id": "jer2_nt_h2",
+        "titulo": "Curación del ciego Bartimeo",
+        "fecha": "ca. 29-30 d.C.",
+        "descripcion": "Un mendigo ciego a la salida de Jericó grita '¡Hijo de David, ten misericordia!' y es curado por Jesús.",
+        "referencias": [
+          "Mc 10:46-52"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "Bartimeo"
+        ]
+      },
+      {
+        "id": "jer2_nt_h3",
+        "titulo": "La parábola del buen samaritano: el camino Jericó-Jerusalén",
+        "fecha": "ca. 29 d.C.",
+        "descripcion": "Jesús sitúa la parábola del buen samaritano en la peligrosa ruta de Jerusalén a Jericó.",
+        "referencias": [
+          "Lc 10:25-37"
+        ],
+        "personajes_clave": [
+          "Jesús"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "jer2_nt_p1",
+        "nombre": "Zaqueo",
+        "emoji": "🌳",
+        "rol": "Publicano convertido",
+        "periodo": "s. I d.C.",
+        "descripcion": "Jefe de recaudadores de impuestos en Jericó; su encuentro con Jesús lo transformó.",
+        "referencias": [
+          "Lc 19:2"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jer2_nt_p2",
+        "nombre": "Bartimeo",
+        "emoji": "👁️",
+        "rol": "Ciego curado por Jesús",
+        "periodo": "s. I d.C.",
+        "descripcion": "Mendigo ciego que proclamó la mesianidad de Jesús y recibió la vista.",
+        "referencias": [
+          "Mc 10:46"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "jer2_nt_p3",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías sanador",
+        "periodo": "ca. 29-30 d.C.",
+        "descripcion": "Pasó por Jericó en su último viaje a Jerusalén, realizando milagros.",
+        "referencias": [
+          "Lc 19:1"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Ciudad oasis en la ruta de Galilea a Jerusalén; escenario de encuentros transformadores en el ministerio final de Jesús.",
+      "religiones_presentes": [
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "jer2_nt_m1",
+          "nombre": "La caída de Jericó y la nueva Jericó",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "Las murallas de Jericó cayeron ante Josué en el AT como primer triunfo en Canaán.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Las murallas de Jericó cayeron ante Josué en el AT como primer triunfo en Canaán.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "En el NT, Jericó es escenario de victorias espirituales: un ciego recupera la vista y un pecador recupera la dignidad.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "En el NT, Jericó es escenario de victorias espirituales: un ciego recupera la vista y un pecador recupera la dignidad.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

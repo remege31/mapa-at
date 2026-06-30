@@ -189,5 +189,126 @@
   "periodos_at": [
     "hierro_2"
   ],
-  "nt": {}
+  "nt": {
+    "historias": [
+      {
+        "id": "sam_nt_h1",
+        "titulo": "La samaritana en el pozo de Jacob",
+        "fecha": "ca. 28 d.C.",
+        "descripcion": "Jesús dialoga con una mujer samaritana junto al pozo de Jacob; le revela que él es el Mesías.",
+        "referencias": [
+          "Jn 4:1-42"
+        ],
+        "personajes_clave": [
+          "Jesús",
+          "samaritana"
+        ]
+      },
+      {
+        "id": "sam_nt_h2",
+        "titulo": "Felipe evangeliza Samaria",
+        "fecha": "ca. 35 d.C.",
+        "descripcion": "Felipe el diácono predica en la ciudad de Samaria; multitudes creen y son bautizadas.",
+        "referencias": [
+          "Hch 8:5-8"
+        ],
+        "personajes_clave": [
+          "Felipe",
+          "Simón el Mago"
+        ]
+      },
+      {
+        "id": "sam_nt_h3",
+        "titulo": "Pedro y Juan confirman a los samaritanos",
+        "fecha": "ca. 35 d.C.",
+        "descripcion": "Los apóstoles bajan de Jerusalén para imponer manos a los nuevos creyentes de Samaria.",
+        "referencias": [
+          "Hch 8:14-17"
+        ],
+        "personajes_clave": [
+          "Pedro",
+          "Juan"
+        ]
+      }
+    ],
+    "personajes": [
+      {
+        "id": "sam_nt_p1",
+        "nombre": "Jesús de Nazaret",
+        "emoji": "✝️",
+        "rol": "Mesías que rompe barreras étnicas",
+        "periodo": "ca. 28 d.C.",
+        "descripcion": "Atravesó Samaria y dialogó con una mujer, superando el tabú entre judíos y samaritanos.",
+        "referencias": [
+          "Jn 4:4"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "sam_nt_p2",
+        "nombre": "La samaritana",
+        "emoji": "💧",
+        "rol": "Primera evangelizadora registrada",
+        "periodo": "s. I d.C.",
+        "descripcion": "Tras su encuentro con Jesús, fue a anunciar a su pueblo que había hallado al Mesías.",
+        "referencias": [
+          "Jn 4:28-30"
+        ],
+        "ruta": []
+      },
+      {
+        "id": "sam_nt_p3",
+        "nombre": "Felipe el Evangelista",
+        "emoji": "📢",
+        "rol": "Diácono y misionero",
+        "periodo": "s. I d.C.",
+        "descripcion": "Primer misionero que llevó el evangelio fuera de Judea, a la región samaritana.",
+        "referencias": [
+          "Hch 8:5"
+        ],
+        "ruta": []
+      }
+    ],
+    "contexto_religioso": {
+      "contexto_lugar": "Región con tensión histórica con los judíos; el NT la convierte en escenario de reconciliación y expansión del evangelio.",
+      "religiones_presentes": [
+        "samaritanismo",
+        "judaismo",
+        "cristianismo"
+      ],
+      "mitos": [
+        {
+          "id": "sam_nt_m1",
+          "nombre": "El buen samaritano",
+          "aparece_en": {
+            "judaismo": true,
+            "cristianismo": true,
+            "islam": false
+          },
+          "judaismo": {
+            "fuente_primaria": "Talmud / Tradición judía",
+            "fuente_secundaria": "",
+            "descripcion": "Los samaritanos eran considerados impuros por los judíos por su mezcla étnica y cultual.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Los samaritanos eran considerados impuros por los judíos por su mezcla étnica y cultual.",
+            "posible_relacion_cultural": null
+          },
+          "cristianismo": {
+            "fuente_primaria": "Nuevo Testamento",
+            "fuente_secundaria": "",
+            "descripcion": "Jesús usa a un samaritano como héroe de la parábola del prójimo, invirtiendo los prejuicios étnicos.",
+            "diferencias": null,
+            "similitudes": null,
+            "significado_teologico": "Jesús usa a un samaritano como héroe de la parábola del prójimo, invirtiendo los prejuicios étnicos.",
+            "posible_relacion_cultural": null
+          },
+          "islam": null
+        }
+      ]
+    },
+    "periodos": [
+      "helenistico_romano"
+    ]
+  }
 }

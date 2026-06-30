@@ -1284,23 +1284,7 @@ export default function App() {
   const rutasBtnRef = useRef<HTMLButtonElement>(null)
   const leafletMapRef = useRef<L.Map | null>(null)
 
-  const startTour = useCallback(() => {
-    const jer = lugares.find(l => l.id === 'jerusalen')
-    if (jer) {
-      setFlyToTarget({ lat: jer.lat, lng: jer.lng, zoom: 9 })
-      setSelected(jer)
-    } else {
-      setFlyToTarget({ lat: 31.7683, lng: 35.2137, zoom: 9 })
-    }
-    setSelectedRuta(null)
-    setSelectedTerritorio(null)
-    setDrawerOpen(true)
-    setPanelCollapsed(false)
-    setTerritoriosActive(false)
-    setRutasActive(false)
-    setPeriodId('todos')
-    setTourStep(0)
-  }, [lugares])
+  // startTour: reservado para implementación futura de tour guiado
 
   const goToTourStep = useCallback((target: number) => {
     if (tourTimerRef.current !== null) { clearTimeout(tourTimerRef.current); tourTimerRef.current = null }
